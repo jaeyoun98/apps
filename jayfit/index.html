@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>jayfit</title>
+  <meta name="theme-color" content="#0f1115">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="jayfit">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>jayfit</h1>
+    <div id="today-date"></div>
+  </header>
+
+  <main>
+    <!-- 단백질 카드 -->
+    <section class="card" id="protein-card">
+      <div class="card-title">단백질</div>
+      <div class="ring-wrap">
+        <svg viewBox="0 0 120 120" class="ring">
+          <circle class="ring-bg" cx="60" cy="60" r="54"/>
+          <circle class="ring-fg" id="protein-ring" cx="60" cy="60" r="54"/>
+        </svg>
+        <div class="ring-label">
+          <div id="protein-total">0</div>
+          <div class="ring-goal">/ <span id="protein-goal">130</span> g</div>
+        </div>
+      </div>
+      <div class="preset-row">
+        <button class="preset" data-grams="20">+20g</button>
+        <button class="preset" data-grams="30">+30g</button>
+        <button class="preset" data-grams="40">+40g</button>
+      </div>
+      <div class="custom-row">
+        <input type="number" id="protein-input" inputmode="decimal" placeholder="직접 입력 (g)">
+        <button id="protein-add">추가</button>
+      </div>
+      <ul id="protein-entries"></ul>
+      <button class="link-btn" id="goal-edit">목표 변경</button>
+    </section>
+
+    <!-- 체중 카드 -->
+    <section class="card" id="weight-card">
+      <div class="card-title">체중</div>
+      <div class="custom-row">
+        <input type="number" id="weight-input" inputmode="decimal" step="0.1" placeholder="오늘 체중 (kg)">
+        <button id="weight-save">기록</button>
+      </div>
+      <div id="weight-latest" class="muted"></div>
+    </section>
+  </main>
+
+  <nav class="tabbar">
+    <button class="tab active">Today</button>
+    <button class="tab" disabled>Workout<span class="soon">v0.2</span></button>
+    <button class="tab" disabled>Trends<span class="soon">v0.3</span></button>
+  </nav>
+
+  <script src="./db.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
