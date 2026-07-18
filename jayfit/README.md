@@ -1,14 +1,31 @@
-# jayfit
+# JayFit
 
-개인 전용 피트니스 트래커 PWA. 단백질 섭취·체중·운동을 기록한다.
+Personal fitness tracker PWA — protein intake, body weight, and workout logging.
+Built for exactly one user; UI text is Korean, everything else is English.
 
-- **스택**: vanilla HTML/CSS/JS + IndexedDB. 서버·계정 없음 — 모든 데이터는 기기 안에만 저장.
-- **호스팅**: GitHub Pages. `main`에 push하면 자동 배포.
-- **설치**: iPhone Safari에서 열고 공유 → "홈 화면에 추가".
+- **Stack**: vanilla HTML/CSS/JS + IndexedDB, Chart.js (vendored). No server, no accounts —
+  all data stays on the device. JSON export/import is the backup story.
+- **Hosting**: GitHub Pages. Push to `main` → auto deploy → https://jaeyoun98.github.io/jayfit/
+- **Install**: open in iPhone Safari → Share → "Add to Home Screen" (keep "Open as Web App" on).
 
-## 로드맵
+## Structure
 
-- v0.1 — Today: 단백질 카운터(progress ring, 프리셋/직접 입력), 체중 기록 ✅
-- v0.2 — Workout: 세션 타이머, 종목별 세트/reps/무게 기록, rest timer
-- v0.3 — Trends: 체중 4주 이동평균, 주간 단백질, 종목별 볼륨 추이
-- v0.4 — JSON export/import (백업)
+| File | Role |
+|---|---|
+| `index.html` | single page, three tab screens (Today / Workout / Trends) |
+| `style.css` | dark theme, mobile-first |
+| `db.js` | IndexedDB wrapper (protein / weight / session / sets stores) |
+| `today.js` | protein counter + body-weight log |
+| `workout.js` | session timer, set logging with prefill, rest timer |
+| `trends.js` | weight 28-day trend, daily protein bars, weekly volume, PRs, history |
+| `data.js` | JSON export/import |
+| `app.js` | bootstrap + tab routing |
+| `sw.js` | service worker (network-first, offline fallback) — bump `CACHE` per deploy |
+
+## Roadmap
+
+- v0.1 — Today: protein counter (progress ring, presets), weight log ✅
+- v0.2 — Workout: session timer, per-exercise set/rep/weight logging, rest timer ✅
+- v0.3 — Trends: weight moving average, protein bars, weekly volume, PRs, session history ✅
+- v0.4 — JSON export/import ✅
+- Next: driven by real-use feedback

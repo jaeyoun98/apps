@@ -1,7 +1,7 @@
 {
-  "name": "jayfit",
-  "short_name": "jayfit",
-  "description": "개인 피트니스 트래커 — 단백질·체중·운동 기록",
+  "name": "JayFit",
+  "short_name": "JayFit",
+  "description": "Personal fitness tracker — protein, body weight, workouts",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
