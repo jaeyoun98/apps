@@ -1,6 +1,6 @@
 // JayFit service worker — network-first with cache fallback for offline use.
 // Bump CACHE on every deploy so clients pick up new assets.
-const CACHE = 'jayfit-v4';
+const CACHE = 'jayfit-v5';
 const ASSETS = [
   './',
   './index.html',
@@ -34,7 +34,9 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   if (e.request.method !== 'GET') return;
   e.respondWith(
-    fetch(e.request)
+    // cache:'no-cache' forces ETag revalidation, bypassing GitHub Pages'
+    // max-age=600 so a fresh deploy is picked up on the next launch.
+    fetch(e.request, { cache: 'no-cache' })
       .then((res) => {
         const copy = res.clone();
         caches.open(CACHE).then((c) => c.put(e.request, copy));
