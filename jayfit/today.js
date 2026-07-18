@@ -42,11 +42,23 @@ async function renderProtein() {
 async function renderWeight() {
   const latest = await getLatestWeight(db);
   const el = document.getElementById('weight-latest');
+  el.innerHTML = '';
   if (latest) {
     const isToday = latest.date === todayStr();
-    el.textContent = isToday
+    const span = document.createElement('span');
+    span.textContent = isToday
       ? `오늘 기록: ${latest.kg}kg ✓`
       : `최근 기록: ${latest.kg}kg (${latest.date})`;
+    const del = document.createElement('button');
+    del.className = 'entry-del';
+    del.textContent = '✕';
+    del.onclick = async () => {
+      if (!confirm(`${latest.date}의 체중 기록(${latest.kg}kg)을 삭제할까요?`)) return;
+      await deleteWeight(db, latest.date);
+      renderWeight();
+    };
+    el.appendChild(span);
+    el.appendChild(del);
   } else {
     el.textContent = '아직 기록이 없습니다. 아침 공복에 재는 게 가장 일관적이에요.';
   }

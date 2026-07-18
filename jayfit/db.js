@@ -62,6 +62,7 @@ function setWeight(db, date, kg) {
   return reqp(storeRW(db, 'weight').put({ date, kg, ts: Date.now() }));
 }
 function getAllWeight(db) { return reqp(storeRO(db, 'weight').getAll()); }
+function deleteWeight(db, date) { return reqp(storeRW(db, 'weight').delete(date)); }
 function getLatestWeight(db) {
   return new Promise((resolve, reject) => {
     const req = storeRO(db, 'weight').openCursor(null, 'prev');
@@ -82,6 +83,12 @@ function endSession(db, id, end) {
   });
 }
 function getAllSessions(db) { return reqp(storeRO(db, 'session').getAll()); }
+// Delete a session together with all of its sets.
+async function deleteSessionCascade(db, sessionId) {
+  const sets = await getSetsBySession(db, sessionId);
+  for (const s of sets) await deleteSet(db, s.id);
+  return reqp(storeRW(db, 'session').delete(sessionId));
+}
 async function getActiveSession(db) {
   const all = await getAllSessions(db);
   return all.find((s) => !s.end) || null;

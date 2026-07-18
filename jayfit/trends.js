@@ -231,6 +231,15 @@ async function renderHistory() {
     li.innerHTML =
       `<span>${sess.date}</span>` +
       `<span class="pr-val">${fmtDuration(sess.end - sess.start)} · ${mySets.length}세트 · ${Math.round(vol).toLocaleString()}kg</span>`;
+    const del = document.createElement('button');
+    del.className = 'entry-del';
+    del.textContent = '✕';
+    del.onclick = async () => {
+      if (!confirm(`${sess.date} 운동 기록(${mySets.length}세트)을 삭제할까요?`)) return;
+      await deleteSessionCascade(db, sess.id);
+      renderTrends();
+    };
+    li.appendChild(del);
     list.appendChild(li);
   });
 }
