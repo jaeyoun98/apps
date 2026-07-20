@@ -47,6 +47,13 @@ main { padding: 8px 16px; }
   font-size: 14px; font-weight: 700; color: var(--muted);
   margin-bottom: 12px; text-transform: uppercase; letter-spacing: 1px;
 }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; }
+.unit-toggle {
+  min-width: 64px; min-height: 44px; padding: 0 8px; border-radius: 8px;
+  color: var(--accent); font-size: 12px; text-transform: none; letter-spacing: 0;
+  touch-action: manipulation;
+}
+.unit-toggle::after { content: " \21C4"; }
 
 /* protein progress ring */
 .ring-wrap { position: relative; width: 160px; margin: 4px auto 14px; }
@@ -139,8 +146,26 @@ button:active { opacity: 0.7; }
   padding: 12px 14px;
   margin-bottom: 8px;
 }
-.set-row input { flex: 1; }
-.set-row button { flex-shrink: 0; }
+.set-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.stepper { min-width: 0; }
+.stepper-label { display: block; color: var(--muted); font-size: 12px; margin: 0 0 5px 2px; }
+.stepper-row { display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; }
+.stepper-row input {
+  width: 100%; min-width: 0; max-width: 100%; min-height: 44px;
+  border: 1px solid var(--accent-soft); border-radius: 0;
+  background: var(--bg); color: var(--text); text-align: center;
+  font: inherit; font-size: 16px; padding: 8px 2px;
+  -moz-appearance: textfield;
+}
+.stepper-row input::-webkit-inner-spin-button,
+.stepper-row input::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+.stepper-btn {
+  width: 44px; min-height: 44px; padding: 0; border-radius: 0;
+  font-size: 19px; touch-action: manipulation;
+}
+.stepper-btn:first-child { border-radius: 10px 0 0 10px; }
+.stepper-btn:last-child { border-radius: 0 10px 10px 0; }
+.set-add-btn { margin-top: 10px; padding: 13px 0; font-size: 16px; }
 
 .exercise-group { margin-top: 14px; }
 .exercise-name { font-weight: 700; font-size: 15px; margin-bottom: 4px; }
@@ -160,7 +185,8 @@ button:active { opacity: 0.7; }
 #workout-summary .big-btn { margin-top: 16px; }
 
 /* trends */
-.chart-wrap { position: relative; height: 220px; }
+.chart-wrap { position: relative; width: 100%; max-width: 100%; min-width: 0; height: 220px; overflow: hidden; }
+.chart-wrap canvas { display: block; width: 100% !important; max-width: 100% !important; }
 .plain-list { list-style: none; }
 .plain-list li {
   display: flex; align-items: center; justify-content: space-between;
@@ -183,3 +209,7 @@ button:active { opacity: 0.7; }
   padding: 14px 0; font-size: 14px; color: var(--muted);
 }
 .tab.active { color: var(--accent); }
+
+@media (max-width: 359px) {
+  .set-controls { grid-template-columns: minmax(0, 1fr); }
+}

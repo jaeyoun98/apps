@@ -1,12 +1,13 @@
 // JayFit service worker — network-first with cache fallback for offline use.
 // Bump CACHE on every deploy so clients pick up new assets.
-const CACHE = 'jayfit-v5';
+const CACHE = 'jayfit-v6';
 const ASSETS = [
   './',
   './index.html',
   './style.css',
   './app.js',
   './db.js',
+  './units.js',
   './today.js',
   './workout.js',
   './trends.js',

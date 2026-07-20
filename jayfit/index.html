@@ -47,9 +47,14 @@
       </section>
 
       <section class="card">
-        <div class="card-title">체중</div>
+        <div class="card-title card-title-row">
+          <span>체중</span>
+          <button type="button" class="unit-toggle" data-unit-toggle title="kg/lb 단위 전환">kg</button>
+        </div>
         <div class="custom-row">
-          <input type="number" id="weight-input" inputmode="decimal" step="0.1" placeholder="오늘 체중 (kg)">
+          <input type="number" id="weight-input" inputmode="decimal" step="0.1"
+            data-unit-input data-step-kg="0.1" data-step-lb="0.1" data-placeholder="오늘 체중"
+            placeholder="오늘 체중 (kg)" aria-label="오늘 체중">
           <button id="weight-save">기록</button>
         </div>
         <div id="weight-latest" class="muted"></div>
@@ -59,7 +64,10 @@
     <!-- ===== Workout ===== -->
     <div class="screen" id="screen-workout">
       <section class="card">
-        <div class="card-title">운동</div>
+        <div class="card-title card-title-row">
+          <span>운동</span>
+          <button type="button" class="unit-toggle" data-unit-toggle title="kg/lb 단위 전환">kg</button>
+        </div>
 
         <div id="workout-idle">
           <button class="big-btn" id="workout-start">운동 시작</button>
@@ -75,11 +83,26 @@
           <input list="exercise-list" id="exercise-input" class="exercise-input" placeholder="종목 (예: 벤치프레스)">
           <datalist id="exercise-list"></datalist>
 
-          <div class="custom-row set-row">
-            <input type="number" id="set-weight" inputmode="decimal" step="0.5" placeholder="kg">
-            <input type="number" id="set-reps" inputmode="numeric" placeholder="reps">
-            <button id="set-add">세트 기록</button>
+          <div class="set-controls">
+            <div class="stepper">
+              <label class="stepper-label" for="set-weight">무게 (<span data-weight-unit>kg</span>)</label>
+              <div class="stepper-row">
+                <button type="button" class="stepper-btn" data-step-target="set-weight" data-step-direction="-1" aria-label="무게 한 단계 줄이기">−</button>
+                <input type="number" id="set-weight" inputmode="decimal" min="0" step="2.5"
+                  data-unit-input data-step-kg="2.5" data-step-lb="5" data-placeholder="무게" placeholder="무게 (kg)">
+                <button type="button" class="stepper-btn" data-step-target="set-weight" data-step-direction="1" aria-label="무게 한 단계 늘리기">+</button>
+              </div>
+            </div>
+            <div class="stepper">
+              <label class="stepper-label" for="set-reps">횟수</label>
+              <div class="stepper-row">
+                <button type="button" class="stepper-btn" data-step-target="set-reps" data-step-direction="-1" aria-label="횟수 1회 줄이기">−</button>
+                <input type="number" id="set-reps" inputmode="numeric" min="1" step="1" placeholder="reps">
+                <button type="button" class="stepper-btn" data-step-target="set-reps" data-step-direction="1" aria-label="횟수 1회 늘리기">+</button>
+              </div>
+            </div>
           </div>
+          <button class="big-btn set-add-btn" id="set-add">세트 기록</button>
 
           <div id="session-sets"></div>
 
@@ -146,6 +169,7 @@
 
   <script src="./vendor/chart.umd.min.js"></script>
   <script src="./db.js"></script>
+  <script src="./units.js"></script>
   <script src="./today.js"></script>
   <script src="./workout.js"></script>
   <script src="./trends.js"></script>

@@ -20,6 +20,7 @@ async function main() {
 
   db = await openDB();
   initTabs();
+  initUnits();
   initToday();
   initWorkout();
   initTrends();

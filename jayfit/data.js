@@ -1,5 +1,5 @@
 // JayFit data.js — JSON export/import (backup). Data never leaves the device otherwise.
-const EXPORT_VERSION = 2;
+const EXPORT_VERSION = 3;
 
 async function exportData() {
   const payload = {
@@ -9,6 +9,7 @@ async function exportData() {
     settings: {
       proteinGoal: getGoal(),
       restSec: getRestSec(),
+      weightUnit: getWeightUnit(),
     },
     protein: await getAllProtein(db),
     weight: await getAllWeight(db),
@@ -50,6 +51,9 @@ async function importData(file) {
   if (payload.settings) {
     if (payload.settings.proteinGoal) localStorage.setItem(GOAL_KEY, String(payload.settings.proteinGoal));
     if (payload.settings.restSec) localStorage.setItem(REST_KEY, String(payload.settings.restSec));
+    if (payload.settings.weightUnit === 'kg' || payload.settings.weightUnit === 'lb') {
+      setWeightUnit(payload.settings.weightUnit);
+    }
   }
 
   alert('가져오기 완료!');

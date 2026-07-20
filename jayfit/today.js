@@ -47,13 +47,13 @@ async function renderWeight() {
     const isToday = latest.date === todayStr();
     const span = document.createElement('span');
     span.textContent = isToday
-      ? `오늘 기록: ${latest.kg}kg ✓`
-      : `최근 기록: ${latest.kg}kg (${latest.date})`;
+      ? `오늘 기록: ${formatWeight(latest.kg)} ✓`
+      : `최근 기록: ${formatWeight(latest.kg)} (${latest.date})`;
     const del = document.createElement('button');
     del.className = 'entry-del';
     del.textContent = '✕';
     del.onclick = async () => {
-      if (!confirm(`${latest.date}의 체중 기록(${latest.kg}kg)을 삭제할까요?`)) return;
+      if (!confirm(`${latest.date}의 체중 기록(${formatWeight(latest.kg)})을 삭제할까요?`)) return;
       await deleteWeight(db, latest.date);
       renderWeight();
     };
@@ -89,13 +89,14 @@ function initToday() {
 
   document.getElementById('weight-save').onclick = async () => {
     const input = document.getElementById('weight-input');
-    const kg = Number(input.value);
-    if (!kg || kg <= 0) return;
-    await setWeight(db, todayStr(), kg);
+    const value = Number(input.value);
+    if (!value || value <= 0) return;
+    await setWeight(db, todayStr(), toCanonicalKg(value));
     input.value = '';
     renderWeight();
   };
 
   renderProtein();
   renderWeight();
+  document.addEventListener('weightunitchange', renderWeight);
 }
