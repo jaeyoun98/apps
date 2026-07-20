@@ -15,9 +15,10 @@ Built for exactly one user; UI text is Korean, everything else is English.
 | `index.html` | single page, three tab screens (Today / Workout / Trends) |
 | `style.css` | dark theme, mobile-first |
 | `db.js` | IndexedDB wrapper (protein / weight / session / sets stores) |
+| `units.js` | canonical kg storage + kg/lb input/display conversion |
 | `today.js` | protein counter + body-weight log |
-| `workout.js` | session timer, set logging with prefill, rest timer |
-| `trends.js` | weight 28-day trend, daily protein bars, weekly volume, PRs, history |
+| `workout.js` | background-safe timers, set logging with prefill and steppers |
+| `trends.js` | weight/protein trends, weekly volume + set count, PRs, history |
 | `data.js` | JSON export/import |
 | `app.js` | bootstrap + tab routing |
 | `sw.js` | service worker (network-first, offline fallback) — bump `CACHE` per deploy |

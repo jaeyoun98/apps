@@ -39,6 +39,7 @@ function baseScales(opts = {}) {
 async function renderWeightChart() {
   const entries = (await getAllWeight(db)).sort((a, b) => (a.date < b.date ? -1 : 1));
   const recent = entries.slice(-90);
+  const unit = getWeightUnit();
   const empty = document.getElementById('weight-empty');
   empty.hidden = recent.length >= 2;
   if (recent.length < 2) {
@@ -53,7 +54,7 @@ async function renderWeightChart() {
       const xt = new Date(x.date).getTime();
       return xt <= t && xt > t - 28 * DAY;
     });
-    return win.reduce((s, x) => s + x.kg, 0) / win.length;
+    return fromKg(win.reduce((s, x) => s + x.kg, 0) / win.length, unit);
   });
 
   makeChart('chart-weight', {
@@ -62,15 +63,15 @@ async function renderWeightChart() {
       labels: recent.map((e) => fmtDateShort(e.date)),
       datasets: [
         {
-          label: '체중',
-          data: recent.map((e) => e.kg),
+          label: `체중 (${unit})`,
+          data: recent.map((e) => roundForInput(fromKg(e.kg, unit))),
           showLine: false,
           pointRadius: 4,
           pointBackgroundColor: C_NEUTRAL,
         },
         {
-          label: '28일 평균',
-          data: ma,
+          label: `28일 평균 (${unit})`,
+          data: ma.map(roundForInput),
           borderColor: C_SERIES,
           borderWidth: 2,
           pointRadius: 0,
@@ -155,35 +156,64 @@ async function renderVolumeChart() {
 
   const WEEK = 7 * 86400000;
   const thisMon = mondayOf(Date.now());
+  const unit = getWeightUnit();
   const labels = [];
-  const data = [];
+  const volumeData = [];
+  const setCountData = [];
   for (let i = 7; i >= 0; i--) {
     const start = thisMon - i * WEEK;
     const end = start + WEEK;
-    const vol = sets
-      .filter((s) => s.ts >= start && s.ts < end)
-      .reduce((v, s) => v + s.weight * s.reps, 0);
+    const weeklySets = sets.filter((s) => s.ts >= start && s.ts < end);
+    const volumeKg = weeklySets.reduce((v, s) => v + s.weight * s.reps, 0);
     const d = new Date(start);
     labels.push(`${d.getMonth() + 1}/${d.getDate()}~`);
-    data.push(Math.round(vol));
+    volumeData.push(Math.round(fromKg(volumeKg, unit)));
+    setCountData.push(weeklySets.length);
   }
+
+  const scales = baseScales({ zero: true });
+  scales.ySets = {
+    position: 'right',
+    beginAtZero: true,
+    grid: { drawOnChartArea: false },
+    ticks: { color: C_INK, maxTicksLimit: 5, precision: 0 },
+    border: { display: false },
+  };
 
   makeChart('chart-volume', {
     type: 'bar',
     data: {
       labels,
-      datasets: [{
-        label: '주간 볼륨 (kg)',
-        data,
-        backgroundColor: C_SERIES,
-        borderRadius: 4,
-        maxBarThickness: 24,
-      }],
+      datasets: [
+        {
+          label: `볼륨 (${unit})`,
+          data: volumeData,
+          yAxisID: 'y',
+          backgroundColor: C_SERIES,
+          borderRadius: 4,
+          maxBarThickness: 24,
+        },
+        {
+          label: '세트 수',
+          type: 'line',
+          data: setCountData,
+          yAxisID: 'ySets',
+          borderColor: C_NEUTRAL,
+          backgroundColor: C_NEUTRAL,
+          borderWidth: 2,
+          pointRadius: 3,
+          pointHoverRadius: 5,
+          tension: 0.25,
+        },
+      ],
     },
     options: {
       maintainAspectRatio: false,
-      scales: baseScales({ zero: true }),
-      plugins: { legend: { display: false } },
+      scales,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { labels: { color: C_INK, boxWidth: 12, boxHeight: 12 } },
+      },
     },
   });
 }
@@ -209,7 +239,7 @@ async function renderPRs() {
     .forEach(([exercise, s]) => {
       const li = document.createElement('li');
       const date = new Date(s.ts);
-      li.innerHTML = `<span>${exercise}</span><span class="pr-val">${s.weight}kg × ${s.reps} <span class="entry-time">${date.getMonth() + 1}/${date.getDate()}</span></span>`;
+      li.innerHTML = `<span>${exercise}</span><span class="pr-val">${formatWeight(s.weight)} × ${s.reps} <span class="entry-time">${date.getMonth() + 1}/${date.getDate()}</span></span>`;
       list.appendChild(li);
     });
 }
@@ -230,7 +260,7 @@ async function renderHistory() {
     const li = document.createElement('li');
     li.innerHTML =
       `<span>${sess.date}</span>` +
-      `<span class="pr-val">${fmtDuration(sess.end - sess.start)} · ${mySets.length}세트 · ${Math.round(vol).toLocaleString()}kg</span>`;
+      `<span class="pr-val">${fmtDuration(sess.end - sess.start)} · ${mySets.length}세트 · ${formatVolume(vol)}</span>`;
     const del = document.createElement('button');
     del.className = 'entry-del';
     del.textContent = '✕';
@@ -255,4 +285,5 @@ function renderTrends() {
 function initTrends() {
   Chart.defaults.font.family = '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
   Chart.defaults.color = C_INK;
+  document.addEventListener('weightunitchange', renderTrends);
 }
