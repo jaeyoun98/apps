@@ -4,7 +4,7 @@ Personal stock-investing news PWA — themed feed (semiconductors / software tec
 
 - Deploy: GitHub Actions assembles and publishes a GitHub Pages artifact.
 - No application server: the deployed app is a pure client that reads generated JSON.
-- Sister project: [jayfit](https://github.com/jaeyoun98/jayfit) (same PWA + Pages pattern).
+- Sister app: [jayfit](../jayfit/) (same PWA + Pages pattern, same monorepo).
 
 ## How it works
 

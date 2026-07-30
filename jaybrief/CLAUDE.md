@@ -4,15 +4,13 @@ Personal stock-investing news PWA: themed feed (semiconductors / software tech) 
 
 ## Conventions
 
-- UI strings: Korean. Code, comments, docs, commit messages: English.
-- Commit messages: one-line imperative. No AI trailers (`Co-Authored-By` etc.) — author is the user alone.
-- Frontend: vanilla HTML/CSS/JS, no frameworks, no build step. Pipeline: Python 3.11+ (`requirements.txt`).
-- All asset/data paths relative (`./`) — the app is served under a repo subpath on GitHub Pages.
+- Data pipeline: Python 3.11+ (`requirements.txt`).
+- The service-worker cache version constant is `VERSION` in `sw.js`.
 
 ## Rename policy
 
 The app display name lives in exactly three places: `manifest.webmanifest` (`name`/`short_name`), `<title>` in `index.html`, and `APP_NAME` in `app.js`.
-Renaming = change those three + rename the GitHub repo (Pages URL follows the repo name; installed PWAs must be re-added to the home screen).
+Renaming = change those three. Renaming the *directory* additionally changes the Pages URL, which forces installed PWAs to be re-added to the home screen.
 localStorage keys are name-independent (`jb.*`) on purpose.
 
 ## Architecture

@@ -5,7 +5,7 @@ Built for exactly one user; UI text is Korean, everything else is English.
 
 - **Stack**: vanilla HTML/CSS/JS + IndexedDB, Chart.js (vendored). No server, no accounts —
   all data stays on the device. JSON export/import is the backup story.
-- **Hosting**: GitHub Pages. Push to `main` → auto deploy → https://jaeyoun98.github.io/jayfit/
+- **Hosting**: GitHub Pages. Push to `main` → auto deploy → https://jaeyoun98.github.io/apps/jayfit/
 - **Install**: open in iPhone Safari → Share → "Add to Home Screen" (keep "Open as Web App" on).
 
 ## Structure
