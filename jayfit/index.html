@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>JayFit</title>
+  <meta name="theme-color" content="#0f1115">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="JayFit">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>JayFit</h1>
+    <div id="today-date"></div>
+  </header>
+
+  <main>
+    <!-- ===== Today ===== -->
+    <div class="screen active" id="screen-today">
+      <section class="card">
+        <div class="card-title">단백질</div>
+        <div class="ring-wrap">
+          <svg viewBox="0 0 120 120" class="ring">
+            <circle class="ring-bg" cx="60" cy="60" r="54"/>
+            <circle class="ring-fg" id="protein-ring" cx="60" cy="60" r="54"/>
+          </svg>
+          <div class="ring-label">
+            <div id="protein-total">0</div>
+            <div class="ring-goal">/ <span id="protein-goal">130</span> g</div>
+          </div>
+        </div>
+        <div class="preset-row">
+          <button class="preset" data-grams="20">+20g</button>
+          <button class="preset" data-grams="30">+30g</button>
+          <button class="preset" data-grams="40">+40g</button>
+        </div>
+        <div class="custom-row">
+          <input type="number" id="protein-input" inputmode="decimal" placeholder="직접 입력 (g)">
+          <button id="protein-add">추가</button>
+        </div>
+        <ul id="protein-entries"></ul>
+        <button class="link-btn" id="goal-edit">목표 변경</button>
+      </section>
+
+      <section class="card">
+        <div class="card-title card-title-row">
+          <span>체중</span>
+          <button type="button" class="unit-toggle" data-unit-toggle title="kg/lb 단위 전환">kg</button>
+        </div>
+        <div class="custom-row">
+          <input type="number" id="weight-input" inputmode="decimal" step="0.1"
+            data-unit-input data-step-kg="0.1" data-step-lb="0.1" data-placeholder="오늘 체중"
+            placeholder="오늘 체중 (kg)" aria-label="오늘 체중">
+          <button id="weight-save">기록</button>
+        </div>
+        <div id="weight-latest" class="muted"></div>
+      </section>
+    </div>
+
+    <!-- ===== Workout ===== -->
+    <div class="screen" id="screen-workout">
+      <section class="card">
+        <div class="card-title card-title-row">
+          <span>운동</span>
+          <button type="button" class="unit-toggle" data-unit-toggle title="kg/lb 단위 전환">kg</button>
+        </div>
+
+        <div id="workout-idle">
+          <button class="big-btn" id="workout-start">운동 시작</button>
+          <div class="muted center" id="workout-idle-hint">시작을 누르면 세션 타이머가 돌아갑니다.</div>
+        </div>
+
+        <div id="workout-active" hidden>
+          <div class="session-timer" id="session-timer">00:00</div>
+          <div class="rest-banner" id="rest-banner" hidden>
+            휴식 <span id="rest-remain">01:30</span> <span class="rest-skip">(탭해서 건너뛰기)</span>
+          </div>
+
+          <input list="exercise-list" id="exercise-input" class="exercise-input" placeholder="종목 (예: 벤치프레스)">
+          <datalist id="exercise-list"></datalist>
+
+          <div class="set-controls">
+            <div class="stepper">
+              <label class="stepper-label" for="set-weight">무게 (<span data-weight-unit>kg</span>)</label>
+              <div class="stepper-row">
+                <button type="button" class="stepper-btn" data-step-target="set-weight" data-step-direction="-1" aria-label="무게 한 단계 줄이기">−</button>
+                <input type="number" id="set-weight" inputmode="decimal" min="0" step="2.5"
+                  data-unit-input data-step-kg="2.5" data-step-lb="5" data-placeholder="무게" placeholder="무게 (kg)">
+                <button type="button" class="stepper-btn" data-step-target="set-weight" data-step-direction="1" aria-label="무게 한 단계 늘리기">+</button>
+              </div>
+            </div>
+            <div class="stepper">
+              <label class="stepper-label" for="set-reps">횟수</label>
+              <div class="stepper-row">
+                <button type="button" class="stepper-btn" data-step-target="set-reps" data-step-direction="-1" aria-label="횟수 1회 줄이기">−</button>
+                <input type="number" id="set-reps" inputmode="numeric" min="1" step="1" placeholder="reps">
+                <button type="button" class="stepper-btn" data-step-target="set-reps" data-step-direction="1" aria-label="횟수 1회 늘리기">+</button>
+              </div>
+            </div>
+          </div>
+          <button class="big-btn set-add-btn" id="set-add">세트 기록</button>
+
+          <div id="session-sets"></div>
+
+          <div class="row-2">
+            <button class="link-btn" id="rest-edit">휴식 시간 변경</button>
+            <button class="danger-btn" id="workout-end">운동 종료</button>
+          </div>
+        </div>
+
+        <div id="workout-summary" hidden>
+          <div class="summary-title">오늘 운동 완료 💪</div>
+          <div id="summary-body"></div>
+          <button class="big-btn" id="summary-ok">확인</button>
+        </div>
+      </section>
+    </div>
+
+    <!-- ===== Trends ===== -->
+    <div class="screen" id="screen-trends">
+      <section class="card">
+        <div class="card-title">체중 추세</div>
+        <div class="chart-wrap"><canvas id="chart-weight"></canvas></div>
+        <div class="muted" id="weight-empty" hidden>체중을 2회 이상 기록하면 그래프가 나타납니다.</div>
+      </section>
+
+      <section class="card">
+        <div class="card-title">단백질 (최근 14일)</div>
+        <div class="chart-wrap"><canvas id="chart-protein"></canvas></div>
+      </section>
+
+      <section class="card">
+        <div class="card-title">주간 볼륨 (무게 × reps)</div>
+        <div class="chart-wrap"><canvas id="chart-volume"></canvas></div>
+        <div class="muted" id="volume-empty" hidden>운동 세트를 기록하면 그래프가 나타납니다.</div>
+      </section>
+
+      <section class="card">
+        <div class="card-title">종목별 최고 기록</div>
+        <ul id="pr-list" class="plain-list"></ul>
+      </section>
+
+      <section class="card">
+        <div class="card-title">운동 기록</div>
+        <ul id="session-history" class="plain-list"></ul>
+      </section>
+
+      <section class="card">
+        <div class="card-title">데이터</div>
+        <div class="row-2">
+          <button id="data-export">JSON 내보내기</button>
+          <button id="data-import-btn">가져오기</button>
+        </div>
+        <input type="file" id="data-import-file" accept=".json,application/json" hidden>
+        <div class="muted">모든 기록은 이 기기 안에만 저장됩니다. 가끔 내보내기로 백업하세요.</div>
+      </section>
+    </div>
+  </main>
+
+  <nav class="tabbar">
+    <button class="tab active" data-screen="screen-today">Today</button>
+    <button class="tab" data-screen="screen-workout">Workout</button>
+    <button class="tab" data-screen="screen-trends">Trends</button>
+  </nav>
+
+  <script src="./vendor/chart.umd.min.js"></script>
+  <script src="./db.js"></script>
+  <script src="./units.js"></script>
+  <script src="./today.js"></script>
+  <script src="./workout.js"></script>
+  <script src="./trends.js"></script>
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
