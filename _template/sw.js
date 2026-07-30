@@ -1,8 +1,13 @@
 "use strict";
 
-// Bump the version suffix on every deploy that changes a cached asset, or clients
-// keep serving the old copy.
-const CACHE = "newapp-v1";
+// Bump VERSION on every deploy that changes a cached asset, or clients keep serving the
+// old copy. APP must be unique across apps: cache storage is per-origin and every app
+// shares one origin, so this worker must only ever delete its own keys — otherwise it
+// evicts a sibling app's offline shell.
+const APP = "newapp";
+const VERSION = "v1";
+const CACHE = `${APP}-${VERSION}`;
+const isOwnCache = (key) => key.startsWith(`${APP}-`);
 const ASSETS = [
   "./",
   "./index.html",
@@ -23,7 +28,9 @@ self.addEventListener("activate", (e) => {
   e.waitUntil(
     caches
       .keys()
-      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
+      .then((keys) =>
+        Promise.all(keys.filter((k) => k !== CACHE && isOwnCache(k)).map((k) => caches.delete(k)))
+      )
       .then(() => self.clients.claim())
   );
 });

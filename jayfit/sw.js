@@ -1,6 +1,10 @@
 // JayFit service worker — network-first with cache fallback for offline use.
 // Bump CACHE on every deploy so clients pick up new assets.
-const CACHE = 'jayfit-v6';
+const CACHE = 'jayfit-v7';
+
+// Cache storage is per-origin and every app shares one origin, so this worker must only
+// ever delete its own keys — otherwise it evicts a sibling app's offline shell.
+const isOwnCache = (key) => key.startsWith('jayfit-');
 const ASSETS = [
   './',
   './index.html',
@@ -27,7 +31,9 @@ self.addEventListener('install', (e) => {
 self.addEventListener('activate', (e) => {
   e.waitUntil(
     caches.keys()
-      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
+      .then((keys) =>
+        Promise.all(keys.filter((k) => k !== CACHE && isOwnCache(k)).map((k) => caches.delete(k)))
+      )
       .then(() => self.clients.claim())
   );
 });

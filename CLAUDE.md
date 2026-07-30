@@ -37,13 +37,20 @@ GitHub Pages under `https://jaeyoun98.github.io/apps/<app>/`.
 
 ## Deploy and CI
 
-- Deploy = push to `main`. One Pages workflow assembles `_site/<app>/` for every app; an
-  app that fails to build keeps its previous output instead of blocking the others.
+- Deploy = push to `main`. One Pages workflow assembles `_site/<app>/` for every app and
+  publishes a single artifact, so all apps deploy together. The isolation that exists:
+  jaybrief's data pipeline can fail without blocking anyone, because `runtime-data` is
+  replaced only on success and deploy ships the last good snapshot. Assembly itself is a
+  copy — if it fails, the whole deploy fails, by design (a missing app is a loud error).
 - CI is path-filtered — a change under `<app>/**` runs only that app's checks.
 - Adding an app: copy `_template/` to `<name>/`, then add it to the app table above and
   to the app lists in the Pages and CI workflows. Nothing else should need to change.
 - Browser storage is per-origin, not per-path: all apps share the `jaeyoun98.github.io`
-  origin. Namespace localStorage keys and IndexedDB database names per app.
+  origin. Namespace localStorage keys, IndexedDB database names, and CacheStorage keys per
+  app. A service worker's `activate` handler must delete only keys carrying its own app
+  prefix — the natural `keys.filter(k => k !== CACHE)` sweep silently destroys a sibling
+  app's offline shell, and the victim's own `caches.open()` then re-creates the key
+  half-empty, so the breakage does not show up as a missing cache.
 
 ## Proven patterns
 

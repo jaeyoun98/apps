@@ -1,8 +1,13 @@
 "use strict";
 
 // Bump VERSION whenever any shell file changes so installed clients update.
-const VERSION = "v1.8";
-const SHELL_CACHE = `shell-${VERSION}`;
+const VERSION = "v1.9";
+const SHELL_CACHE = `jaybrief-${VERSION}`;
+
+// Cache storage is per-origin and every app shares one origin, so this worker must only
+// ever delete its own keys — otherwise it evicts a sibling app's offline shell. The
+// unprefixed "shell-*" name predates the monorepo and is swept up here one last time.
+const isOwnCache = (key) => key.startsWith("jaybrief-") || key.startsWith("shell-");
 const SHELL = [
   "./",
   "./index.html",
@@ -28,7 +33,11 @@ self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches
       .keys()
-      .then((keys) => Promise.all(keys.filter((k) => k !== SHELL_CACHE).map((k) => caches.delete(k))))
+      .then((keys) =>
+        Promise.all(
+          keys.filter((k) => k !== SHELL_CACHE && isOwnCache(k)).map((k) => caches.delete(k))
+        )
+      )
       .then(() => self.clients.claim())
   );
 });

@@ -8,8 +8,8 @@ Pages and CI app lists, so nothing here is deployed or tested.
 1. `cp -r _template <name>` (lowercase, no spaces — it becomes the URL path segment).
 2. Replace `NewApp` in four places: `<title>` and `apple-mobile-web-app-title` in
    `index.html`, `name`/`short_name` in `manifest.webmanifest`, `APP_NAME` in `app.js`.
-3. Change the `CACHE` slug in `sw.js` from `newapp-v1` — two apps sharing a cache name
-   would evict each other's entries, since all apps share one origin.
+3. Change `APP` in `sw.js` from `newapp`. It must be unique across apps: it both names the
+   cache and scopes which keys `activate` is allowed to delete.
 4. Replace `icons/*.png`. They are flat placeholder squares, valid but meaningless.
 5. Set `description`, `background_color`, and `theme_color` in the manifest, and
    `theme-color` in `index.html`.
