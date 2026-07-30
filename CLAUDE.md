@@ -65,6 +65,13 @@ Validated in one app, applicable to all. Apply to new apps through `_template/`.
   `cache: 'no-cache'` (ETag revalidation) for a new deploy to land on the next launch.
   iOS applies a fetched update only on the *next* full launch — close the app and
   reopen, sometimes twice right after a deploy. (jayfit, jaybrief)
+- An installed iOS home-screen web app stores data in a container **separate from Safari**,
+  so the per-origin rule above does not mean data follows a URL change. Opening a moved app
+  in Safari shows an empty database even though the installed app still holds everything.
+  Moving an app's path therefore requires an explicit export from inside the *old installed
+  app* and an import into the new one — never assume the origin carries it. Corollary: an
+  app holding data that only exists on-device must ship export/import before its URL is
+  ever moved. (Learned the hard way during the 2026-07-30 monorepo migration.)
 - Check layout for viewport overflow at 402px (iPhone 16 Pro) and 320px widths. Two limits
   of doing this on desktop Chromium (measured 2026-07-30): it does **not** reproduce the
   iOS number-input bug above, so a clean sweep never validates that fix — keep the fix
