@@ -44,7 +44,8 @@ GitHub Pages under `https://jaeyoun98.github.io/apps/<app>/`.
   copy — if it fails, the whole deploy fails, by design (a missing app is a loud error).
 - CI is one `ci-<app>.yml` per app, filtered on `<app>/**`, so a change to one app never
   runs another's checks. `on.push.paths` is workflow-scoped, which is why this is a file
-  per app rather than a job per app.
+  per app rather than a job per app. `_template` has one too: it ships nothing, but every
+  new app inherits its defects.
 - Adding an app: copy `_template/` to `<name>/`, add it to the `APPS` list in `pages.yml`
   and to the app table above, and copy an existing `ci-<app>.yml` for its checks. Nothing
   else should need to change.

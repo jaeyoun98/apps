@@ -1,0 +1,40 @@
+name: ci-template
+
+# _template is never deployed, but every new app is copied from it, so a defect here
+# propagates silently into each app created afterwards.
+on:
+  push:
+    paths:
+      - "_template/**"
+      - ".github/workflows/ci-template.yml"
+  pull_request:
+    paths:
+      - "_template/**"
+      - ".github/workflows/ci-template.yml"
+
+defaults:
+  run:
+    working-directory: _template
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Syntax-check modules
+        run: |
+          for f in *.js; do
+            echo "checking $f"
+            node --check "$f"
+          done
+      - name: Validate manifest
+        run: python3 -c "import json; json.load(open('manifest.webmanifest'))"
+      - name: Cache cleanup must stay scoped to this app
+        # Guards the invariant behind a real 2026-07-30 outage: an unscoped
+        # keys.filter(k => k !== CACHE) sweep deletes a sibling app's offline shell,
+        # because cache storage is per-origin and every app shares one origin.
+        # -F throughout: these are literal substrings, and ${APP}'s braces make the
+        # default regex mode fail to match.
+        run: |
+          grep -Fq 'const isOwnCache = (key) => key.startsWith(`${APP}-`);' sw.js
+          grep -Fq 'isOwnCache(k)' sw.js
