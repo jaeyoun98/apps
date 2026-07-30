@@ -42,9 +42,12 @@ GitHub Pages under `https://jaeyoun98.github.io/apps/<app>/`.
   jaybrief's data pipeline can fail without blocking anyone, because `runtime-data` is
   replaced only on success and deploy ships the last good snapshot. Assembly itself is a
   copy — if it fails, the whole deploy fails, by design (a missing app is a loud error).
-- CI is path-filtered — a change under `<app>/**` runs only that app's checks.
-- Adding an app: copy `_template/` to `<name>/`, then add it to the app table above and
-  to the app lists in the Pages and CI workflows. Nothing else should need to change.
+- CI is one `ci-<app>.yml` per app, filtered on `<app>/**`, so a change to one app never
+  runs another's checks. `on.push.paths` is workflow-scoped, which is why this is a file
+  per app rather than a job per app.
+- Adding an app: copy `_template/` to `<name>/`, add it to the `APPS` list in `pages.yml`
+  and to the app table above, and copy an existing `ci-<app>.yml` for its checks. Nothing
+  else should need to change.
 - Browser storage is per-origin, not per-path: all apps share the `jaeyoun98.github.io`
   origin. Namespace localStorage keys, IndexedDB database names, and CacheStorage keys per
   app. A service worker's `activate` handler must delete only keys carrying its own app

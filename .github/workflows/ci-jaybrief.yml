@@ -1,34 +1,23 @@
-name: ci
+name: ci-jaybrief
 
+# One CI workflow per app: on.push.paths is workflow-scoped, so a per-app file is what
+# actually keeps one app's changes from running another app's checks.
 on:
   push:
     paths:
-      - "scripts/**"
-      - "tests/**"
-      - "requirements.txt"
-      - "sources.json"
-      - "companies.json"
-      - "events.json"
-      - "index.html"
-      - "app.js"
-      - "style.css"
-      - "sw.js"
-      - ".github/workflows/ci.yml"
+      - "jaybrief/**"
+      - ".github/workflows/ci-jaybrief.yml"
+      # tests/test_workflows.py asserts on the deploy workflow's contents
       - ".github/workflows/pages.yml"
   pull_request:
     paths:
-      - "scripts/**"
-      - "tests/**"
-      - "requirements.txt"
-      - "sources.json"
-      - "companies.json"
-      - "events.json"
-      - "index.html"
-      - "app.js"
-      - "style.css"
-      - "sw.js"
-      - ".github/workflows/ci.yml"
+      - "jaybrief/**"
+      - ".github/workflows/ci-jaybrief.yml"
       - ".github/workflows/pages.yml"
+
+defaults:
+  run:
+    working-directory: jaybrief
 
 jobs:
   test:
@@ -39,6 +28,7 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
+          cache-dependency-path: jaybrief/requirements.txt
       - run: pip install -r requirements.txt
       - run: python -m unittest discover -s tests -v
       - run: node --check app.js && node --check sw.js

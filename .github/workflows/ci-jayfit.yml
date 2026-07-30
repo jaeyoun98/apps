@@ -1,0 +1,31 @@
+name: ci-jayfit
+
+on:
+  push:
+    paths:
+      - "jayfit/**"
+      - ".github/workflows/ci-jayfit.yml"
+  pull_request:
+    paths:
+      - "jayfit/**"
+      - ".github/workflows/ci-jayfit.yml"
+
+defaults:
+  run:
+    working-directory: jayfit
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # No test suite here, so syntax-check every module rather than a fixed list —
+      # a newly added file is covered without touching this workflow.
+      - name: Syntax-check modules
+        run: |
+          for f in *.js; do
+            echo "checking $f"
+            node --check "$f"
+          done
+      - name: Validate manifest
+        run: python3 -c "import json; json.load(open('manifest.webmanifest'))"
