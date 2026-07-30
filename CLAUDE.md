@@ -55,7 +55,12 @@ Validated in one app, applicable to all. Apply to new apps through `_template/`.
   `cache: 'no-cache'` (ETag revalidation) for a new deploy to land on the next launch.
   iOS applies a fetched update only on the *next* full launch — close the app and
   reopen, sometimes twice right after a deploy. (jayfit, jaybrief)
-- Check layout for viewport overflow at 402px (iPhone 16 Pro) and 320px widths.
+- Check layout for viewport overflow at 402px (iPhone 16 Pro) and 320px widths. Two limits
+  of doing this on desktop Chromium (measured 2026-07-30): it does **not** reproduce the
+  iOS number-input bug above, so a clean sweep never validates that fix — keep the fix
+  regardless; and with `overflow-x: hidden` on `body`, `documentElement.scrollWidth` can
+  never exceed the viewport, so only a per-element `getBoundingClientRect()` sweep
+  actually detects overflow.
 - `<meta name="apple-mobile-web-app-capable">` is deprecated and logs a console warning;
   ship `<meta name="mobile-web-app-capable" content="yes">` alongside it. (jaybrief has
   both; jayfit still has only the deprecated one.)

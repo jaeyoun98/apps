@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>NewApp</title>
+  <meta name="theme-color" content="#1f2430">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <!-- ship both: the apple- prefixed form is deprecated and warns, but iOS still reads it -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="NewApp">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>NewApp</h1>
+    <div id="today-date"></div>
+  </header>
+
+  <main>
+    <section class="card">
+      <div class="card-title">시작</div>
+      <p class="muted">이 카드를 지우고 앱을 만드세요.</p>
+
+      <!-- carrier for the known iOS flex fix — see style.css .custom-row -->
+      <div class="custom-row">
+        <input type="number" id="demo-input" inputmode="decimal" placeholder="숫자 입력">
+        <button id="demo-add">추가</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
