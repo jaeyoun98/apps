@@ -56,3 +56,6 @@ Validated in one app, applicable to all. Apply to new apps through `_template/`.
   iOS applies a fetched update only on the *next* full launch — close the app and
   reopen, sometimes twice right after a deploy. (jayfit, jaybrief)
 - Check layout for viewport overflow at 402px (iPhone 16 Pro) and 320px widths.
+- `<meta name="apple-mobile-web-app-capable">` is deprecated and logs a console warning;
+  ship `<meta name="mobile-web-app-capable" content="yes">` alongside it. (jaybrief has
+  both; jayfit still has only the deprecated one.)

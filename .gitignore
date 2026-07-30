@@ -1,0 +1,6 @@
+# Browser-automation scratch output (Playwright MCP writes snapshots/console logs here)
+.playwright-mcp/
+
+# OS noise
+.DS_Store
+Thumbs.db
