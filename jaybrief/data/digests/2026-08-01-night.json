@@ -1,0 +1,130 @@
+{
+ "generated_at": "2026-08-01T13:21:54Z",
+ "date": "2026-08-01",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아의 데이터센터용 CPU 기술력과 중국 AI 기업의 우회적인 GPU 확보 전략이 시장의 주요 관심사로 부상함.",
+   "stories": [
+    {
+     "headline": "엔비디아, 고성능 데이터센터용 Vera CPU 및 Olympus 코어 상세 공개",
+     "facts": [
+      "엔비디아의 Vera CPU는 88개의 커스텀 코어와 176개의 스레드를 탑재함",
+      "1.5TB의 램과 1.8TB/s의 NVLink 연결성을 지원하는 데이터센터용 칩임"
+     ],
+     "interpretation": "엔비디아가 GPU뿐만 아니라 CPU 영역에서도 데이터센터 인프라의 핵심인 고대역폭 연결성과 연산 효율성을 강화하여 AI 가속기 생태계 내 지배력을 공고히 하려는 전략으로 판단됨.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "엔비디아의 CPU가 기존 x86 기반 서버 시장 점유율을 얼마나 빠르게 잠식할지 여부가 관건임.",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "80f0e7a334235693"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "중국 문샷 AI, 알리바바 클라우드를 통해 엔비디아 GPU 2만 개 확보",
+     "facts": [
+      "문샷 AI가 알리바바로부터 2만 개의 엔비디아 GPU 클러스터를 제공받아 '키미 K3' 개발에 활용함",
+      "미국 정부는 문샷이 수출 규제를 우회하여 최신 GPU를 확보했을 가능성을 조사 중임"
+     ],
+     "interpretation": "미국의 대중국 반도체 수출 규제에도 불구하고 중국 AI 기업들이 클라우드 임대 등 우회 경로를 통해 고성능 GPU를 지속적으로 확보하고 있음이 확인됨. 이는 엔비디아의 중국 내 매출 구조와 규제 준수 리스크를 재점검하게 만드는 요인임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "미국 정부의 추가적인 대중국 반도체 수출 규제 강화 여부와 엔비디아의 대응책이 중요함.",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "0b9057535cfa597c"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "오픈AI의 사용자 기반 확대와 바이트댄스의 멀티모달 생성 AI 모델 고도화 등 AI 서비스 경쟁이 심화됨.",
+   "stories": [
+    {
+     "headline": "오픈AI, 가격 인하 전략으로 활성 사용자 10억 명 돌파",
+     "facts": [
+      "오픈AI가 GPT-5.6 시리즈 가격을 대폭 인하함",
+      "현재 자사 모델의 활성 사용자가 10억 명을 넘어섰다고 공식 발표함"
+     ],
+     "interpretation": "가격 인하를 통한 사용자 저변 확대와 이를 통한 데이터 확보 및 수익 창출의 선순환 구조가 본격화됨. 이는 AI 서비스 시장의 가격 경쟁을 촉발하고 플랫폼 점유율 싸움으로 이어질 전망임.",
+     "affected_company_ids": [],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "가격 인하가 오픈AI의 실제 매출 성장과 수익성 개선으로 이어지는지 확인이 필요함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "a3cceae89e7b4b9a"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "바이트댄스, 장편 영상 생성 모델 '시댄스 2.5' 공개",
+     "facts": [
+      "바이트댄스가 장편 스토리텔링과 멀티모달 편집 기능을 강화한 '시댄스 2.5'를 공개함",
+      "기존 2.0 모델 대비 오디오·비디오 공동 생성 아키텍처를 고도화함"
+     ],
+     "interpretation": "생성형 AI 기술이 단순 짧은 영상 제작을 넘어 장편 콘텐츠 창작 워크플로로 확장되고 있음. 이는 콘텐츠 플랫폼 기업들의 기술 경쟁력을 높이고 창작 생태계에 큰 변화를 줄 것으로 보임.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "해당 모델이 실제 사용자들의 콘텐츠 제작 생산성에 미치는 영향과 시장 점유율 변화를 지켜봐야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2ad14cfe6d4fcbeb"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "0b9057535cfa597c",
+   "title": "문샷, 알리바바서 엔비디아 GPU 2만개 공급받아 '키미 K3' 개발",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213438",
+   "source": "AI타임스"
+  },
+  {
+   "id": "80f0e7a334235693",
+   "title": "A deep dive into Nvidia's Vera CPU and the Olympus cores that power it",
+   "url": "https://www.theregister.com/systems/2026/08/01/nvidias-vera-cpu-and-the-olympus-cores-that-power-it-deep-dive/5282056",
+   "source": "The Register"
+  },
+  {
+   "id": "a3cceae89e7b4b9a",
+   "title": "“저렴한 AI가 더 많은 수요 만든다”...오픈AI, 가격 인하 후 사용자 10억 발표",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213439",
+   "source": "AI타임스"
+  },
+  {
+   "id": "2ad14cfe6d4fcbeb",
+   "title": "단일 30초·최대 3분 확장...바이트댄스, '시댄스 2.5'로 장편 영상 시대 연다",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213435",
+   "source": "AI타임스"
+  }
+ ]
+}

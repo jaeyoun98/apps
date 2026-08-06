@@ -1,0 +1,125 @@
+{
+ "generated_at": "2026-08-02T23:25:40Z",
+ "date": "2026-08-03",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 공급망 안정성과 AI 인프라 최적화 기술이 핵심 이슈로 부상하고 있습니다. 특히 AI 워크로드 처리를 위한 스토리지 효율화와 반도체 설계 검증 방법론이 주목받고 있습니다.",
+   "stories": [
+    {
+     "headline": "웨카(WEKA), 안드로메다와 파트너십 체결…AI 데이터 스토리지 효율화",
+     "facts": [
+      "AI 데이터 및 메모리 인프라 기업 웨카가 안드로메다의 관리형 GPU 클러스터에 뉴럴메시 플랫폼을 통합함",
+      "안드로메다는 50개 이상의 컴퓨팅 제공업체를 연결하는 글로벌 AI 인프라 플랫폼임",
+      "이번 협력으로 GPU 활용도 극대화 및 스토리지 병목 현상 해결을 통한 AI 워크로드 성능 향상을 도모함"
+     ],
+     "interpretation": "GPU 클러스터의 성능 격차를 줄이는 스토리지 계층의 표준화는 AI 인프라 운영 비용 절감과 직결됩니다. 데이터 병목 해소는 GPU 가동률을 높여 AI 학습 및 추론 효율을 개선하는 핵심 요소입니다.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "글로벌 AI 클라우드 제공업체들의 스토리지 인프라 표준화 채택 속도를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0eb48f4f9c66602a"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "구글·MIT 등, 하드웨어-소프트웨어 검증 방법론 'Granite' 발표",
+     "facts": [
+      "MIT, 구글, 워싱턴대 연구진이 하드웨어-소프트웨어 간 누출 계약을 검증하는 모듈형 방법론 'Granite'를 공개함",
+      "RTL 프로세서의 ISA 계약 기반 검증을 통해 보안 및 안정성을 강화하는 기술임"
+     ],
+     "interpretation": "복잡해지는 AI 칩 설계 환경에서 보안과 신뢰성을 확보하기 위한 검증 기술의 중요성이 커지고 있습니다. 이는 향후 고성능 프로세서 설계 과정의 표준화된 검증 프로세스로 자리 잡을 가능성이 있습니다.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "해당 검증 방법론이 실제 상용 칩 설계 공정에 도입되는지 여부를 지켜봐야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "bba7cb6540ad38a0"
+     ],
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 모델의 고도화와 함께 사이버 보안 및 인프라 통합 시스템 구축이 SW 테크 섹터의 주요 흐름입니다.",
+   "stories": [
+    {
+     "headline": "오픈AI, 차세대 AI '아스트라' 공개…수학 난제 해결",
+     "facts": [
+      "오픈AI가 차세대 AI 모델 '아스트라'를 공식화함",
+      "아스트라는 내부 테스트에서 10년 이상 미해결 상태였던 수학 난제 10가지를 해결함"
+     ],
+     "interpretation": "AI의 추론 능력과 논리적 문제 해결 역량이 고도화되고 있습니다. 이는 단순 생성형 AI를 넘어 복잡한 과학적·기술적 난제를 해결하는 에이전틱 AI로의 진화를 의미하며, 향후 AI 서비스의 활용 범위를 넓힐 것입니다.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "아스트라의 실제 상용화 시점과 구체적인 비즈니스 모델 적용 여부가 중요합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5dc98bf69f4a48c6"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "메타빌드, 인천국제공항공사 차세대 통합연계시스템 구축",
+     "facts": [
+      "메타빌드가 인천국제공항공사의 차세대 통합연계시스템 구축 사업을 수행 중임",
+      "MESIM ESB와 APIG 기반의 차세대 아키텍처를 통해 150여 개 시스템을 통합 연계함"
+     ],
+     "interpretation": "공공 및 대규모 인프라 영역에서 AI·클라우드 기반의 데이터 연계 플랫폼 수요가 증가하고 있습니다. 이는 이기종 시스템 간의 데이터 통합 및 실시간 연동을 통해 운영 효율을 극대화하는 AX(AI 전환)의 전형적인 사례입니다.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "유사한 대규모 공공 인프라 프로젝트로의 기술 확장 가능성을 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "a1d1b2cb0f38a73e"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "0eb48f4f9c66602a",
+   "title": "웨카, 안드로메다와 파트너십 체결해 글로벌 규모의 AI 워크로드 지원",
+   "url": "https://zdnet.co.kr/view/?no=20260803071003",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "bba7cb6540ad38a0",
+   "title": "Modular Verification of RTL Processors Against ISA Contracts (MIT, Google, UW)",
+   "url": "https://semiengineering.com/modular-verification-of-rtl-processors-against-isa-contracts-mit-google-uw/",
+   "source": "Semiconductor Engineering"
+  },
+  {
+   "id": "5dc98bf69f4a48c6",
+   "title": "오픈AI, 차세대 AI '아스트라' 출격 예고… 10년묵은 수학 난제 10개 풀었다",
+   "url": "https://www.etnews.com/20260803000008",
+   "source": "전자신문"
+  },
+  {
+   "id": "a1d1b2cb0f38a73e",
+   "title": "메타빌드, 인천국제공항공사 차세대 통합연계시스템 구축 사업 추진",
+   "url": "https://www.etnews.com/20260802000007",
+   "source": "전자신문"
+  }
+ ]
+}

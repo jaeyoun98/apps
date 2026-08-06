@@ -1,0 +1,78 @@
+{
+ "generated_at": "2026-08-01T23:25:20Z",
+ "date": "2026-08-02",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 단기적인 주가 변동성에도 불구하고 증권가에서 여전히 우호적인 장기 전망을 유지하고 있으며, 기술적 고점 논란을 극복하려는 움직임이 관찰됨.",
+   "stories": [
+    {
+     "headline": "증권가, 반도체 고점 논란 속 SK하이닉스 신고가 기대감 유지",
+     "facts": [
+      "증권가에서 SK하이닉스의 주가가 내년 상반기까지 신고가를 경신할 것으로 전망함",
+      "반도체 시장의 고점 도달 여부에 대한 논란이 있으나, 추가 상승 여력이 있다는 분석이 제기됨"
+     ],
+     "interpretation": "시장 내 반도체 사이클 고점 우려가 상존함에도 불구하고, 주요 메모리 제조사의 실적 개선 기대감이 주가 하단을 지지하는 메커니즘으로 작용하고 있음.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "주요 메모리 반도체 가격 추이 및 글로벌 IT 수요 회복 속도 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3d6eac56a920b253"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 모델의 성능 경쟁이 심화되는 가운데, 비용 효율성과 에이전트 기능 강화가 주요 화두로 떠오르고 있으며, 빅테크의 AI 서비스 전략에 대한 시장의 검증이 지속됨.",
+   "stories": [
+    {
+     "headline": "딥시크, 에이전트 성능 강화한 'V4-플래시-0731' API 공개",
+     "facts": [
+      "딥시크가 차세대 경량 모델 '딥시크-V4-플래시-0731' API를 퍼블릭 베타로 출시함",
+      "모델 구조 변경 없이 사후학습(Post-training)만으로 에이전트 관련 벤치마크 성능을 대폭 향상함",
+      "입력 및 출력 토큰 비용을 기존과 동일하게 유지하여 가격 경쟁력을 확보함"
+     ],
+     "interpretation": "모델 아키텍처 혁신 없이 사후학습만으로 성능을 최적화하는 방식은 AI 개발의 효율성을 극대화하며, 저렴한 API 가격 정책은 기존 빅테크 중심의 AI 시장에서 점유율을 확대하는 위협 요인이 될 수 있음.",
+     "affected_company_ids": [
+      "alphabet",
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "오픈AI 및 구글 등 주요 모델 공급사의 대응 가격 정책 및 API 점유율 변화.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d0fc8b8847a8ecfe"
+     ],
+     "importance": 3
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "3d6eac56a920b253",
+   "title": "“SK하닉, 내년 상반기까지 신고가 시도할 것” 증권가, 반도체 고점 아직",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE81Zm5rSWJ4M25NOVd6TXpCVWNpVjVKUnR3WTVJakNzQUpjWEJVYkpsMTRYQUxRZEtoUEpBU1FySzJmWHQxbkdtZnJfb05RRWhV?oc=5",
+   "source": "문화일보"
+  },
+  {
+   "id": "d0fc8b8847a8ecfe",
+   "title": "'딥시크-V4-플래시-0731' API 출시...\"에이전트 성능 향상\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213429",
+   "source": "AI타임스"
+  }
+ ]
+}

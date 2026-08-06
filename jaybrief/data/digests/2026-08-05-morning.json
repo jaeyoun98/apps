@@ -1,0 +1,156 @@
+{
+ "generated_at": "2026-08-04T23:29:52Z",
+ "date": "2026-08-05",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 데이터센터 수요 급증에 따른 데이터센터용 칩 매출 성장과 차세대 메모리 기술 경쟁이 심화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "AMD, 데이터센터 부문 매출 2배 이상 급증하며 사상 최대 실적 기록",
+     "facts": [
+      "AMD의 2026년 2분기 매출은 115억 3600만 달러로 전년 동기 대비 50% 증가",
+      "데이터센터 부문 매출이 전년 동기 대비 107% 급증하며 성장을 견인",
+      "AMD는 3분기에도 40% 이상의 매출 성장을 전망"
+     ],
+     "interpretation": "AI 가속기와 서버용 CPU 수요가 데이터센터 부문의 폭발적 성장을 이끌고 있으며, 이는 경쟁사 대비 강력한 시장 지배력을 입증하는 지표입니다.",
+     "affected_company_ids": [
+      "amd"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "3분기 가이던스 달성 여부 및 데이터센터 매출 성장세 지속 확인",
+     "upcoming_event_ids": [
+      "amd-q2-2026"
+     ],
+     "article_ids": [
+      "2ca2741a2c179307",
+      "04706fbba85c59c0"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자, 차세대 3D 메모리 아키텍처 'zHBM' 공개",
+     "facts": [
+      "삼성전자가 FMS 2026에서 AI 가속기 위에 HBM을 수직 적층하는 zHBM 아키텍처 공개",
+      "D램뿐만 아니라 낸드플래시에도 수직 적층 구조를 적용하여 성능과 전력 효율 개선",
+      "HBM5 대비 성능을 최대 8배까지 향상시킬 수 있는 구조"
+     ],
+     "interpretation": "단순 HBM 적층을 넘어 AI 가속기와의 결합을 최적화하는 차세대 패키징 기술로, 메모리 시장의 기술적 우위를 확보하려는 전략입니다.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "zHBM의 실제 양산 시점 및 주요 AI 가속기 업체와의 파트너십 체결 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b70d87e4ed0df414",
+      "26dd668919677cf3",
+      "605ac0219e3e4c09"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "기업용 AI 수요가 실적으로 증명되는 가운데, 주요 SW 기업들의 AI 기반 수익 모델이 구체화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "Palantir, AI 수요 폭증으로 어닝 서프라이즈 기록",
+     "facts": [
+      "Palantir가 2분기 실적 발표에서 시장 예상을 뛰어넘는 성과를 기록하며 주가 급등",
+      "CEO 알렉스 카프는 고객들이 '언어 모델 연구소의 속국'이 되기를 거부하며 Palantir의 AI 솔루션을 선택하고 있다고 언급"
+     ],
+     "interpretation": "범용 AI 모델 대비 기업의 주권과 보안을 강조하는 Palantir의 전략이 실제 상업적 수요로 연결되고 있음을 시사합니다.",
+     "affected_company_ids": [
+      "palantir"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "상업 부문 매출 성장세가 하반기에도 지속될지 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c659895dab3572c7",
+      "1fa29e567e949ed1",
+      "43495581f258af2b",
+      "5c01d38f3f952953",
+      "5e0ada40bf8aad39"
+     ],
+     "importance": 3
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "2ca2741a2c179307",
+   "title": "AMD, 데이터센터 매출 2배 급증…2분기 사상 최대 매출",
+   "url": "https://www.etnews.com/20260805000004",
+   "source": "전자신문"
+  },
+  {
+   "id": "b70d87e4ed0df414",
+   "title": "삼성전자, HBM5 대비 성능 최대 8배 'zHBM' 공개",
+   "url": "https://www.etnews.com/20260805000003",
+   "source": "전자신문"
+  },
+  {
+   "id": "605ac0219e3e4c09",
+   "title": "SK하이닉스 \"HBM만으로는 부족\"…3D로 쌓는 D램·HBF 공개",
+   "url": "https://www.hankyung.com/article/202608055183i",
+   "source": "한국경제 IT"
+  },
+  {
+   "id": "04706fbba85c59c0",
+   "title": "AMD's revenue climbs 50% and data center sales doubled, but the stock is down",
+   "url": "https://www.cnbc.com/2026/08/04/amd-earnings-report-q2-2026.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "26dd668919677cf3",
+   "title": "HBM 여러개 쌓는다…삼성전자, 첨단 메모리반도체 'zHBM' 공개",
+   "url": "https://www.hankyung.com/article/202608055115i",
+   "source": "한국경제 IT"
+  },
+  {
+   "id": "c659895dab3572c7",
+   "title": "Palantir stock skyrockets 29%, narrowly missing its best day ever after 'otherworldly' results",
+   "url": "https://www.cnbc.com/2026/08/04/palantir-2q-earnings-ai-sovereign-tools.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "1fa29e567e949ed1",
+   "title": "Palantir jumps 30% on 'otherworldly' commercial revenue — here's what's driving the demand",
+   "url": "https://www.cnbc.com/2026/08/04/palantir-2q-earnings-ai-sovereign-tools.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "43495581f258af2b",
+   "title": "Palantir jumps 27% on 'otherworldly' commercial revenue — here's what's driving the demand",
+   "url": "https://www.cnbc.com/2026/08/04/palantir-2q-earnings-ai-sovereign-tools.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "5c01d38f3f952953",
+   "title": "Palantir jumps 20% on 'otherworldly' commercial revenue — here's what's driving the demand",
+   "url": "https://www.cnbc.com/2026/08/04/palantir-2q-earnings-ai-sovereign-tools.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "5e0ada40bf8aad39",
+   "title": "Palantir earnings, McDonald's new U.S. head, tiny 'cars' and more in Morning Squawk",
+   "url": "https://www.cnbc.com/2026/08/04/5-things-to-know-before-the-stock-market-opens.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

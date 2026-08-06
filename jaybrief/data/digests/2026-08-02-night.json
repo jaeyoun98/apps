@@ -1,0 +1,129 @@
+{
+ "generated_at": "2026-08-02T13:22:06Z",
+ "date": "2026-08-02",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 산업은 레거시 장비 시장의 인프라 확장과 삼성전자의 부품 원가 절감 전략, 그리고 AI 인프라 플랫폼 기업의 상장 가속화 등 다각적인 변화를 겪고 있습니다.",
+   "stories": [
+    {
+     "headline": "삼성전자, 갤럭시 S27 시리즈 카메라 사양 조정으로 원가 절감 도모",
+     "facts": [
+      "삼성전자가 내년 출시할 갤럭시 S27 시리즈 전 모델에 후면 카메라 3개를 탑재할 예정임.",
+      "기존 4개를 탑재하던 울트라 모델의 카메라 수를 줄이는 방식임.",
+      "반도체 및 부품 가격 급등에 대응하여 가격 안정화를 꾀하려는 전략임."
+     ],
+     "interpretation": "부품 원가 상승 압박이 지속됨에 따라 삼성전자가 하드웨어 스펙 최적화를 통해 수익성을 방어하려는 움직임으로 해석됩니다. 이는 향후 스마트폰 부품 공급망의 수익성에도 영향을 줄 수 있습니다.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "갤럭시 S27 시리즈의 실제 출고가 및 부품 공급업체들의 마진율 변화를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5c13a472aad12782"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "서플러스글로벌, 용인 본사 B동 준공으로 레거시 반도체 장비 거래 지원 확대",
+     "facts": [
+      "서플러스글로벌이 용인 본사 B동(연면적 약 4만 1000㎡) 준공을 완료함.",
+      "반도체 장비·부품의 전시, 검수, 보관, 물류 등 오프라인 거래 지원 기능을 강화함."
+     ],
+     "interpretation": "레거시 반도체 장비 시장의 오프라인 인프라를 확충함으로써 온라인 플랫폼 '세미마켓'과의 시너지를 극대화하려는 전략입니다. 중고 장비 시장의 유동성 확보에 기여할 것으로 보입니다.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "세미마켓 플랫폼을 통한 실제 거래액 증가 여부를 지켜봐야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "a24098da687cf4d8"
+     ],
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크 기업의 AI 인프라 투자 확대와 규제 환경 변화, 그리고 기업들의 AI 서비스 상용화 노력이 이어지고 있습니다.",
+   "stories": [
+    {
+     "headline": "아마존, 메모리 비용 상승으로 2026년 자본지출(Capex) 2,200억 달러로 상향",
+     "facts": [
+      "아마존이 메모리 비용 상승을 이유로 2026년 자본지출 계획을 2,200억 달러로 상향함.",
+      "AWS 매출은 전년 동기 대비 37% 성장하며 시장 예상치(31%)를 상회함."
+     ],
+     "interpretation": "AI 수요 폭증에 따른 데이터센터 인프라 투자와 메모리 가격 상승이 아마존의 비용 부담을 가중시키고 있습니다. 다만, AWS의 강력한 매출 성장이 이러한 비용 부담을 정당화하고 있어 AI 인프라 투자가 지속될 것임을 시사합니다.",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "earnings",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "메모리 가격 추이와 아마존의 향후 분기별 영업이익률 변화를 모니터링해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "99094fb0ad047156"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자, 오우라 스마트링 특허 무효 분쟁 항소 확대",
+     "facts": [
+      "삼성전자가 미국 특허심판원(PTAB)에서 유효 판정을 받은 오우라 스마트링 특허 1건에 대해 추가로 항소함.",
+      "이로써 삼성전자는 오우라의 유효 특허 5건 모두에 대해 연방항소법원(CAFC)에 항소하게 됨."
+     ],
+     "interpretation": "웨어러블 시장, 특히 스마트링 분야에서의 특허 리스크를 제거하고 시장 진입 장벽을 낮추려는 전략적 법적 대응입니다. 향후 판결 결과가 삼성전자의 웨어러블 사업 확장성에 영향을 줄 수 있습니다.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "policy",
+     "impact": "unclear",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 연방항소법원의 최종 판결 결과를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2327522dc8d80af0"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "a24098da687cf4d8",
+   "title": "[영상] 서플러스글로벌, 용인 본사 B동 준공…세미마켓 연계 공간 확대",
+   "url": "https://www.etnews.com/20260802000085",
+   "source": "전자신문"
+  },
+  {
+   "id": "5c13a472aad12782",
+   "title": "갤럭시S27 시리즈, 전 모델에 후면 카메라 3개 채택",
+   "url": "https://www.etnews.com/20260731000266",
+   "source": "전자신문"
+  },
+  {
+   "id": "2327522dc8d80af0",
+   "title": "삼성, '유효 판단' 오우라 美특허 상대 항소...무효분쟁 항소 5건으로 확대",
+   "url": "https://zdnet.co.kr/view/?no=20260802185639",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "99094fb0ad047156",
+   "title": "Amazon hikes 2026 capex to $220 billion due to higher memory costs",
+   "url": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

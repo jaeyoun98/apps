@@ -1,0 +1,137 @@
+{
+ "generated_at": "2026-08-04T14:12:53Z",
+ "date": "2026-08-04",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 산업 내 투자 심리 변화와 글로벌 공급망 규제 강화, 그리고 소재·장비 분야의 기술적 진전이 주요 이슈로 부각되었습니다.",
+   "stories": [
+    {
+     "headline": "일본 이비덴, 2026회계연도 매출 및 영업이익 전망치 대폭 상향",
+     "facts": [
+      "이비덴이 2026회계연도 매출 전망치를 기존 5000억엔에서 5500억엔으로 10% 상향함",
+      "영업이익 전망치 또한 900억엔에서 1270억엔으로 41% 상향 조정함"
+     ],
+     "interpretation": "반도체 기판 시장의 수요 회복세가 가시화되고 있음을 시사하며, 관련 후방 산업의 실적 개선 기대감을 높이는 지표로 해석됩니다.",
+     "affected_company_ids": [],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "주요 반도체 기판 업체들의 추가적인 가이던스 수정 여부를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ebdab0c9dd85246a"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "중국, 반도체 배치설계 보호 규정 개정 및 징벌적 배상 도입",
+     "facts": [
+      "중국이 집적회로 배치설계 보호 규정을 개정하여 등록 기준을 강화함",
+      "심각한 침해 행위에 대해 징벌적 손해배상 제도를 도입하며 10월 15일 시행 예정"
+     ],
+     "interpretation": "중국 내 반도체 설계 자산 보호가 강화됨에 따라 현지 진출 기업들의 IP 관리 리스크가 증가할 것으로 보입니다.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "규정 시행 이후 실제 적용 사례와 외국계 기업에 미치는 영향을 모니터링해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "efd28b1d5a09448d"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 소프트웨어 기업들의 실적 호조와 데이터 보안 및 규제 이슈가 시장의 핵심 관심사로 떠올랐습니다.",
+   "stories": [
+    {
+     "headline": "Palantir, 상업용 매출 급증에 힘입어 주가 급등",
+     "facts": [
+      "Palantir가 2분기 실적 발표 후 상업용 부문의 강력한 수요를 바탕으로 주가가 큰 폭으로 상승함",
+      "CEO 알렉스 카프는 고객들이 대형 언어 모델 연구소의 종속에서 벗어나려는 움직임을 보이고 있다고 언급함"
+     ],
+     "interpretation": "기업들의 AI 도입이 단순 실험 단계를 넘어 실질적인 상업적 수익 모델로 전환되고 있음을 보여주며, Palantir의 독자적인 AI 플랫폼 수요가 견조함을 입증했습니다.",
+     "affected_company_ids": [
+      "palantir"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "향후 분기별 상업용 매출 성장률이 지속 유지되는지 확인이 필요합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5c01d38f3f952953",
+      "3098091df71a97ff",
+      "5e0ada40bf8aad39"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "Apple, OpenAI 대상 기밀 유출 조사 확대",
+     "facts": [
+      "Apple이 전직 직원들이 OpenAI로 기밀 정보를 유출했을 가능성에 대해 조사를 확대하고 있다고 법원에 제출함"
+     ],
+     "interpretation": "AI 기업 간 인재 이동 과정에서 발생하는 지식재산권 및 기밀 유출 리스크가 법적 분쟁으로 이어지며 업계 전반의 보안 규제 강화로 이어질 가능성이 있습니다.",
+     "affected_company_ids": [],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "법적 조사 결과가 향후 AI 기업들의 채용 및 데이터 보안 정책에 미칠 영향을 주시해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "16a8c6644f065928"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "ebdab0c9dd85246a",
+   "title": "'반도체기판 1위' 日이비덴, 연매출 전망치 10% 상향",
+   "url": "https://zdnet.co.kr/view/?no=20260804175819",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "efd28b1d5a09448d",
+   "title": "중국, 반도체 설계 도면 보호 규정 개정…심각한 침해엔 징벌적 배상",
+   "url": "https://zdnet.co.kr/view/?no=20260804171305",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "16a8c6644f065928",
+   "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+   "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "5c01d38f3f952953",
+   "title": "Palantir jumps 20% on 'otherworldly' commercial revenue — here's what's driving the demand",
+   "url": "https://www.cnbc.com/2026/08/04/palantir-2q-earnings-ai-sovereign-tools.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "5e0ada40bf8aad39",
+   "title": "Palantir earnings, McDonald's new U.S. head, tiny 'cars' and more in Morning Squawk",
+   "url": "https://www.cnbc.com/2026/08/04/5-things-to-know-before-the-stock-market-opens.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "3098091df71a97ff",
+   "title": "Palantir jumps 16% on 'otherworldly' commercial revenue — here's what's driving the demand",
+   "url": "https://www.cnbc.com/2026/08/04/palantir-2q-earnings-ai-sovereign-tools.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

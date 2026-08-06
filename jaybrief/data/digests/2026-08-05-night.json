@@ -1,0 +1,165 @@
+{
+ "generated_at": "2026-08-05T14:10:19Z",
+ "date": "2026-08-05",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 AI 인프라 확장에 따른 기술 표준화와 시장 경쟁 구도의 변화가 핵심입니다. 특히 엔비디아의 CUDA 독점 체제에 대한 도전과 차세대 메모리 표준화 움직임이 두드러집니다.",
+   "stories": [
+    {
+     "headline": "AMD, 실적 호조에도 주가 5% 하락…데이터 센터 매출 성장세 지속",
+     "facts": [
+      "AMD가 실적 발표에서 시장 예상치를 상회하는 데이터 센터 매출을 기록함",
+      "그럼에도 불구하고 주가는 5% 하락함",
+      "2026년 들어 현재까지 주가는 132% 상승한 상태임"
+     ],
+     "interpretation": "강력한 데이터 센터 매출 성장에도 불구하고 주가가 하락한 것은 이미 시장에 반영된 높은 기대치와 차익 실현 매물이 출회된 결과로 해석됩니다.",
+     "affected_company_ids": [
+      "amd"
+     ],
+     "event_type": "earnings",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "향후 데이터 센터 매출 성장률이 시장의 높은 기대치를 지속적으로 충족할 수 있을지 확인이 필요합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b49d8f453fa87837"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "AI 코딩 에이전트, CUDA 대체 소프트웨어 10시간 만에 재구축",
+     "facts": [
+      "스타트업 인피니티가 AI 코딩 에이전트를 활용해 칩 기업 디매트릭스용 소프트웨어를 10시간 만에 재구축함",
+      "해당 소프트웨어는 엔비디아의 CUDA 역할을 대체할 수 있는 기능을 수행함"
+     ],
+     "interpretation": "AI 에이전트를 통한 소프트웨어 개발 효율성 증대는 엔비디아의 강력한 경제적 해자(Moat)인 CUDA 생태계에 대한 잠재적 위협 요인으로 작용할 수 있습니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "실제 산업 현장에서 CUDA를 대체하는 소프트웨어의 채택률과 성능 검증 사례가 늘어나는지 지켜봐야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "dc899447d96495fa"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "SK하이닉스, 샌디스크와 HBF 표준 규격 공개",
+     "facts": [
+      "SK하이닉스가 샌디스크와 함께 차세대 스토리지 기술인 HBF(High Bandwidth Flash) 표준 규격을 공개함",
+      "FMS 2026 행사에서 구글 등 주요 기업이 참여하는 생태계 확장 계획을 발표함"
+     ],
+     "interpretation": "AI 메모리 솔루션의 표준화를 주도함으로써 차세대 AI 인프라 시장에서의 기술적 주도권을 확보하고 생태계 내 영향력을 강화하려는 전략입니다.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "HBF 표준이 실제 데이터 센터 인프라에 얼마나 빠르게 도입되고 표준으로 자리 잡는지 확인이 필요합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "34325af2085bdd55",
+      "20861a9ebc7064f9"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성전자, 넷리스트와 특허 분쟁 합의 종결",
+     "facts": [
+      "삼성전자가 넷리스트와의 수년간 이어진 특허 분쟁을 합의로 종결함",
+      "삼성전자는 선급 라이선스비 포함 최대 약 8억 9700만달러(약 1조 2800억원)를 지급할 예정임"
+     ],
+     "interpretation": "장기적인 법적 리스크를 해소하고 메모리 제품 공급 및 크로스 라이선스 계약을 통해 안정적인 사업 환경을 조성한 것으로 평가됩니다.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "이번 합의가 향후 메모리 사업의 수익성과 공급망 안정성에 미치는 구체적인 영향을 모니터링해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "7048c3e2d6f7f341"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 테크 섹터는 AI 모델의 활용과 규제, 그리고 기업의 법적 리스크가 주요 이슈입니다. 특히 AI 인프라 투자와 관련된 시장의 민감도가 높아지고 있습니다.",
+   "stories": [
+    {
+     "headline": "마이크로소프트, 중고 소프트웨어 라이선스 관련 소송 직면",
+     "facts": [
+      "마이크로소프트가 2억 7천만 파운드 규모의 리셀러 소송과 수십억 파운드 규모의 집단 소송이 결합된 법적 문제에 직면함",
+      "재판부에서 두 사건의 연관성을 탐색할 예정임"
+     ],
+     "interpretation": "소프트웨어 라이선스 정책과 관련된 대규모 소송은 마이크로소프트의 수익 모델과 규제 리스크에 부정적인 영향을 줄 수 있습니다.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "재판 과정에서 나올 판결 내용과 마이크로소프트의 라이선스 정책 변경 여부가 중요합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "963e6fe891378f94"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "b49d8f453fa87837",
+   "title": "AMD sinks 5% despite earnings beat, strong data center revenue",
+   "url": "https://www.cnbc.com/2026/08/05/amd-stock-today-earnings-q2.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "dc899447d96495fa",
+   "title": "AI 에이전트가 10시간 만에 CUDA 대체 소프트웨어 만들었다",
+   "url": "https://zdnet.co.kr/view/?no=20260805205651",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "7048c3e2d6f7f341",
+   "title": "삼성전자, 넷리스트와 특허분쟁 합의 종결",
+   "url": "https://zdnet.co.kr/view/?no=20260805202754",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "34325af2085bdd55",
+   "title": "SK hynix Unveils First HBF Standard Specifications with Sandisk, Presenting AI Memory Solutions at 'FMS 2026'",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340352",
+   "source": "KIPOST"
+  },
+  {
+   "id": "20861a9ebc7064f9",
+   "title": "SK하이닉스, 샌디스크와 HBF 첫 표준 규격 공개…‘FMS 2026’서 AI 메모리 해법 알린다",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340358",
+   "source": "KIPOST"
+  },
+  {
+   "id": "963e6fe891378f94",
+   "title": "Double trouble for Microsoft as pre-owned software license claims converge",
+   "url": "https://www.theregister.com/saas/2026/08/05/double-trouble-for-microsoft-as-pre-owned-software-license-claims-converge-1/5282421",
+   "source": "The Register"
+  }
+ ]
+}

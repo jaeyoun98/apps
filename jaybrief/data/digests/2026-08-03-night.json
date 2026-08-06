@@ -1,0 +1,170 @@
+{
+ "generated_at": "2026-08-03T14:40:50Z",
+ "date": "2026-08-03",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "한국 정부의 첨단산업 국내 생산 세제 지원 정책과 주요 기업의 경영 활동 및 파운드리 공정 이슈가 반도체 섹터의 주요 동향으로 나타남.",
+   "stories": [
+    {
+     "headline": "정부, 반도체 등 6대 첨단산업 국내 생산 세액공제 확대",
+     "facts": [
+      "재정경제부가 반도체, 이차전지, AI 로봇부품 등 6대 분야의 국내 생산·판매 기업에 생산량 비례 세금 감면 혜택 제공",
+      "설비투자 중심의 기존 지원 범위를 국내 생산 활동까지 확장"
+     ],
+     "interpretation": "국내 공급망 강화 및 첨단산업의 국내 유치를 위한 정책적 유인책으로, 장기적으로 국내 반도체 생태계의 생산 효율성 및 투자 매력도를 높이는 요인임.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "실제 생산량에 따른 세액공제 규모와 기업별 적용 시점 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "718fd09bcbf6317f",
+      "7317cc96f034f6bb"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성전자, GaN 파운드리 양산 일정 차질 가능성",
+     "facts": [
+      "삼성전자가 기흥에 구축 중인 8인치 GaN 파운드리 전용라인 시험생산에서 고온 불량 발생",
+      "연내 양산 가동 목표 달성이 불투명해짐"
+     ],
+     "interpretation": "차세대 전력반도체 시장 진입을 위한 공정 안정화 과정에서 발생한 기술적 난관으로, 파운드리 경쟁력 강화 전략에 단기적인 부정적 영향 예상.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "향후 공정 개선을 통한 수율 확보 및 최종 양산 시점 재공지 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "865616c64726c237"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성전자 노태문 사장, 자사주 7억원 추가 매입",
+     "facts": [
+      "노태문 DX부문장(사장)이 개인 자금으로 삼성전자 보통주 3045주(약 7억원 규모) 장내 매수",
+      "보유 주식 총량 12만 4280주로 증가"
+     ],
+     "interpretation": "경영진의 책임 경영 의지 표명으로 해석되며, 주가 방어 및 주주 가치 제고 측면에서 긍정적인 신호로 작용할 수 있음.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "경영진의 추가적인 지분 매입 여부 및 주가 흐름.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f21071f6d552233a"
+     ],
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크 기업들의 AI 투자 비용 부담 증가와 기업용 AI 솔루션 도입 및 보안 시장의 성장이 주요 이슈로 부각됨.",
+   "stories": [
+    {
+     "headline": "빅테크 기업 AI 투자 비용 급증 및 현금 흐름 악화",
+     "facts": [
+      "Amazon, Alphabet 등 주요 빅테크 기업의 메모리 비용 상승 및 AI 인프라 구축 비용 증가",
+      "최근 분기 실적에서 현금 흐름이 부정적이거나 급감하는 양상 확인"
+     ],
+     "interpretation": "AI 인프라 구축을 위한 대규모 자본 지출(CAPEX)이 기업 수익성에 부담을 주고 있으며, 향후 AI 서비스의 실질적인 수익화 속도가 투자 지속성을 결정할 핵심 변수임.",
+     "affected_company_ids": [
+      "alphabet",
+      "amazon",
+      "meta"
+     ],
+     "event_type": "earnings",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "향후 실적 발표에서 AI 관련 매출 기여도 및 비용 효율화 노력 확인.",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "09f87c460bfce6f9"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "구글, 오라클 기업용 애플리케이션에 '제미나이' 탑재",
+     "facts": [
+      "구글클라우드가 오라클과 파트너십을 확대하여 '오라클 퓨전 클라우드' 등에 '제미나이' 모델 도입",
+      "기업 고객의 AI 자동화 및 개발 환경 개선 지원"
+     ],
+     "interpretation": "빅테크 간 협력을 통해 기업용 AI 시장 점유율을 확대하려는 전략으로, 엔터프라이즈 AI 시장에서의 경쟁력 강화 및 수익 모델 다변화가 기대됨.",
+     "affected_company_ids": [
+      "alphabet",
+      "oracle"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "실제 기업 고객들의 도입률 및 AI 에이전트 활용 성과.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "59e08ce4505ddb35"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "718fd09bcbf6317f",
+   "title": "[2026 세제 개편안]6대 첨단산업 '국내생산'에 감세…핵심부품 생산량에 따라 지원 더 키워",
+   "url": "https://www.etnews.com/20260803000184",
+   "source": "전자신문"
+  },
+  {
+   "id": "f21071f6d552233a",
+   "title": "노태문 삼성전자 사장, 7억원 규모 자사주 추가 매입",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=60418",
+   "source": "디일렉"
+  },
+  {
+   "id": "865616c64726c237",
+   "title": "삼성 GaN 파운드리 양산 또 해 넘기나...시험생산서 '불량' 확인",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=60391",
+   "source": "디일렉"
+  },
+  {
+   "id": "59e08ce4505ddb35",
+   "title": "구글, 오라클 시스템에 '제미나이' 탑재…AI 자동화 시장 확대",
+   "url": "https://zdnet.co.kr/view/?no=20260803175216",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "09f87c460bfce6f9",
+   "title": "Dwindling cash and soaring memory costs: Tech's AI buildout has ballooning price tag",
+   "url": "https://www.cnbc.com/2026/07/31/tech-earnings-cash-memory-ai.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "7317cc96f034f6bb",
+   "title": "[2026 세제 개편안] 기업 '국내생산'에 감세…세제로 산업·자금 지방행 유도",
+   "url": "https://www.etnews.com/20260803000146",
+   "source": "전자신문"
+  }
+ ]
+}

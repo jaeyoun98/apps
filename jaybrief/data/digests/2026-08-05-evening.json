@@ -1,0 +1,213 @@
+{
+ "generated_at": "2026-08-05T06:05:43Z",
+ "date": "2026-08-05",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 가속기 및 데이터센터 수요 급증에 따른 차세대 메모리 기술 경쟁과 공급망 다변화 움직임이 뚜렷함.",
+   "stories": [
+    {
+     "headline": "삼성전자, AI 가속기 적층형 'zHBM' 및 차세대 낸드 공개",
+     "facts": [
+      "삼성전자가 FMS 2026에서 AI 가속기 상단에 HBM을 수직 적층하는 zHBM 아키텍처를 업계 최초로 공개함.",
+      "기존 가속기 옆 배치 방식 대비 성능을 최대 8배 개선함."
+     ],
+     "interpretation": "AI 가속기와 메모리 간 데이터 이동 거리를 최소화하여 병목 현상을 해결하려는 전략으로, 고성능 AI 반도체 시장에서의 기술 주도권 확보를 위한 행보임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "zHBM의 실제 양산 시점 및 주요 빅테크 고객사의 채택 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "811213ece19058db",
+      "5c4c685a1505d271",
+      "cc71d4c84b5f0cfb",
+      "b70d87e4ed0df414"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "AMD, 2분기 매출 50% 급증 및 데이터센터 AI 성장 가속화",
+     "facts": [
+      "AMD의 2026년 2분기 매출이 전년 대비 50% 증가한 115억 4천만 달러를 기록함.",
+      "데이터센터 부문 매출이 전년 대비 2배 이상 급증함."
+     ],
+     "interpretation": "AI 가속기 수요가 실적으로 증명되고 있으며, 향후 Instinct 매출 전망치를 상향 조정하는 등 NVIDIA와의 경쟁 구도에서 점유율 확대 의지를 보임.",
+     "affected_company_ids": [
+      "amd"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "하반기 데이터센터 매출 성장세 유지 및 공급망 확보 능력.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8bde7e13c0a9e411",
+      "2ca2741a2c179307",
+      "3b0181e9b90c8cb2",
+      "d9f49d2602dff6bd"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "글로벌 PC 제조사, 메모리 공급망 다변화로 중국 CXMT 칩 도입",
+     "facts": [
+      "HP, 에이수스, 에이서 등 주요 PC 제조사가 중국 CXMT의 D램을 검증하고 일부 노트북에 탑재하기 시작함.",
+      "글로벌 메모리 공급난 장기화에 따른 대응 조치임."
+     ],
+     "interpretation": "삼성전자, SK하이닉스, 마이크론이 주도하던 메모리 시장에 중국 업체가 진입하며 공급망 경쟁이 심화될 가능성이 있음.",
+     "affected_company_ids": [
+      "sk-hynix",
+      "samsung-electronics",
+      "micron"
+     ],
+     "event_type": "supply_chain",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "CXMT의 LPDDR6 등 고사양 메모리 수율 및 글로벌 제조사들의 추가 채택 범위.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "fbbde041e25df326",
+      "b7e62acea75774ea",
+      "c1f31c89ddf6adbe"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트의 자율성 확대와 기업용 AI 시장의 보안 및 규제 준수 요구가 강화되는 추세임.",
+   "stories": [
+    {
+     "headline": "앤트로픽, 클라우드 스타트업 볼타와 14조 규모 컴퓨팅 계약",
+     "facts": [
+      "앤트로픽이 신생 AI 클라우드 기업 볼타와 6년간 100억 달러 규모의 컴퓨팅 용량 공급 계약을 체결함."
+     ],
+     "interpretation": "급증하는 AI 서비스 수요를 충족하기 위해 대형 클라우드 외에 신생 AI 클라우드 파트너를 확보하여 인프라 안정성을 높이려는 전략임.",
+     "affected_company_ids": [
+      "amd"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "앤트로픽의 AI 모델 성능 향상 및 시장 점유율 확대 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "dba0fe7a4b27b053"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "국내 AI 모델 '모티프-2', 마이크로소프트 파운드리 정식 탑재",
+     "facts": [
+      "모티프테크놀로지스의 추론 특화 언어모델 '모티프-2'가 마이크로소프트 공식 AI 모델 카탈로그에 등재됨."
+     ],
+     "interpretation": "국내 독자 AI 모델이 글로벌 플랫폼에 진입했다는 점에서 기술적 성과를 인정받았으며, 향후 글로벌 시장 확장의 교두보가 될 수 있음.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "마이크로소프트 플랫폼 내 실제 사용량 및 추가적인 국내 모델 등재 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6b3cd4a8692774ed"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "8bde7e13c0a9e411",
+   "title": "AMD, 2분기 매출 50% 급증 '기염'...\"2030년까지 연평균 50% 성장\"",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=60568",
+   "source": "디일렉"
+  },
+  {
+   "id": "fbbde041e25df326",
+   "title": "HP·에이수스·에이서, 중국 CXMT 칩 도입…글로벌 메모리 난에 '공급망 다변화'",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213563",
+   "source": "AI타임스"
+  },
+  {
+   "id": "dba0fe7a4b27b053",
+   "title": "앤트로픽, 신생 클라우드 스타트업 볼타와 14조 규모 컴퓨팅 계약",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213557",
+   "source": "AI타임스"
+  },
+  {
+   "id": "811213ece19058db",
+   "title": "삼성전자, HBM5 성능 8배 개선한 'zHBM' 공개...\"옆 대신 위로 쌓았다\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=213559",
+   "source": "AI타임스"
+  },
+  {
+   "id": "6b3cd4a8692774ed",
+   "title": "국내 AI 모델 '모티프-2', 마이크로소프트 플랫폼에서 바로 쓴다",
+   "url": "https://zdnet.co.kr/view/?no=20260805105640",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "5c4c685a1505d271",
+   "title": "삼성전자, 성능 8배 향상 zHBM 목업 공개...\"AI 가속기 위에 적층\"",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=60564",
+   "source": "디일렉"
+  },
+  {
+   "id": "cc71d4c84b5f0cfb",
+   "title": "삼성전자, FMS 2026서 차세대 3D 메모리 비전 제시",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340383",
+   "source": "KIPOST"
+  },
+  {
+   "id": "b7e62acea75774ea",
+   "title": "CXMT-SK Hynix LPDDR6 race shifts to yields, customers and capacity",
+   "url": "https://www.digitimes.com/news/a20260805VL204/cxmt-capacity-production-2026-sk-hynix.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "3b0181e9b90c8cb2",
+   "title": "AMD says US$30 billion estimate for 2027 Instinct revenue may be too low",
+   "url": "https://www.digitimes.com/news/a20260805VL211/amd-revenue-2027-data-center-ceo.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "c1f31c89ddf6adbe",
+   "title": "FMS 2026 opens with major memory makers present, but CXMT missing from exhibitor list",
+   "url": "https://www.digitimes.com/news/a20260805PD217/memory-chips-hbm-2026-cxmt-micron-samsung-sk-hynix.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "d9f49d2602dff6bd",
+   "title": "AMD leans on Helios and hyperscaler deals to press its case against Nvidia in AI chips",
+   "url": "https://www.digitimes.com/news/a20260805VL201/amd-nvidia-chips-2026-revenue.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "2ca2741a2c179307",
+   "title": "AMD, 데이터센터 매출 2배 급증…2분기 사상 최대 매출",
+   "url": "https://www.etnews.com/20260805000004",
+   "source": "전자신문"
+  },
+  {
+   "id": "b70d87e4ed0df414",
+   "title": "삼성전자, HBM5 대비 성능 최대 8배 'zHBM' 공개",
+   "url": "https://www.etnews.com/20260805000003",
+   "source": "전자신문"
+  }
+ ]
+}
