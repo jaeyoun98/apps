@@ -1,6 +1,6 @@
 # JayFit
 
-Personal fitness tracker PWA — protein intake, body weight, and workout logging.
+Personal fitness tracker PWA — meal planning, protein intake, body weight, and workout logging.
 Built for exactly one user; UI text is Korean, everything else is English.
 
 - **Stack**: vanilla HTML/CSS/JS + IndexedDB, Chart.js (vendored). No server, no accounts —
@@ -12,11 +12,12 @@ Built for exactly one user; UI text is Korean, everything else is English.
 
 | File | Role |
 |---|---|
-| `index.html` | single page, three tab screens (Today / Workout / Trends) |
+| `index.html` | single page, four tab screens (Today / Diet / Workout / Trends) |
 | `style.css` | dark theme, mobile-first |
 | `db.js` | IndexedDB wrapper (protein / weight / session / sets stores) |
 | `units.js` | canonical kg storage + kg/lb input/display conversion |
 | `today.js` | protein counter + body-weight log |
+| `nutrition.js` | configurable meal slots, food presets, and planned macro totals |
 | `workout.js` | background-safe timers, set logging with prefill and steppers |
 | `trends.js` | weight/protein trends, weekly volume + set count, PRs, history |
 | `data.js` | JSON export/import |
@@ -29,4 +30,5 @@ Built for exactly one user; UI text is Korean, everything else is English.
 - v0.2 — Workout: session timer, per-exercise set/rep/weight logging, rest timer ✅
 - v0.3 — Trends: weight moving average, protein bars, weekly volume, PRs, session history ✅
 - v0.4 — JSON export/import ✅
+- v0.5 — Diet prototype: configurable meal planner + planned calories ✅
 - Next: driven by real-use feedback

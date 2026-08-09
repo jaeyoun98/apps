@@ -1,5 +1,5 @@
 // JayFit data.js — JSON export/import (backup). Data never leaves the device otherwise.
-const EXPORT_VERSION = 3;
+const EXPORT_VERSION = 4;
 
 async function exportData() {
   const payload = {
@@ -10,6 +10,7 @@ async function exportData() {
       proteinGoal: getGoal(),
       restSec: getRestSec(),
       weightUnit: getWeightUnit(),
+      nutritionConfig: getNutritionConfig(),
     },
     protein: await getAllProtein(db),
     weight: await getAllWeight(db),
@@ -38,13 +39,32 @@ async function importData(file) {
     alert('JSON 파일을 읽을 수 없습니다.');
     return;
   }
-  if (payload.app !== 'jayfit' || !Array.isArray(payload.protein)) {
+  const collections = ['protein', 'weight', 'session', 'sets'];
+  const hasValidCollections = collections.every((name) => Array.isArray(payload[name]));
+  const nutritionConfig = payload.settings && payload.settings.nutritionConfig;
+  const hasVersion = Object.prototype.hasOwnProperty.call(payload, 'version');
+  const backupVersion = hasVersion && Number.isInteger(payload.version) && payload.version >= 1
+    ? payload.version
+    : 0;
+  if (payload.app !== 'jayfit' || !hasValidCollections) {
     alert('JayFit 백업 파일이 아닙니다.');
+    return;
+  }
+  if (hasVersion && backupVersion === 0) {
+    alert('백업 버전 정보가 올바르지 않습니다.');
+    return;
+  }
+  if (backupVersion > EXPORT_VERSION) {
+    alert('현재 앱보다 새로운 버전에서 만든 백업입니다. 앱을 먼저 업데이트해주세요.');
+    return;
+  }
+  if ((backupVersion >= 4 && !nutritionConfig) || (nutritionConfig && !isValidNutritionConfig(nutritionConfig))) {
+    alert('백업의 식단 설정을 읽을 수 없습니다.');
     return;
   }
   if (!confirm('기존 기록을 모두 이 백업으로 교체합니다. 계속할까요?')) return;
 
-  for (const name of ['protein', 'weight', 'session', 'sets']) {
+  for (const name of collections) {
     await clearStore(db, name);
     await putAll(db, name, payload[name] || []);
   }
@@ -54,11 +74,13 @@ async function importData(file) {
     if (payload.settings.weightUnit === 'kg' || payload.settings.weightUnit === 'lb') {
       setWeightUnit(payload.settings.weightUnit);
     }
+    if (nutritionConfig) setNutritionConfig(nutritionConfig);
   }
 
   alert('가져오기 완료!');
   renderProtein();
   renderWeight();
+  renderNutrition();
   renderTrends();
 }
 

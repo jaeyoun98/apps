@@ -22,6 +22,7 @@ async function main() {
   initTabs();
   initUnits();
   initToday();
+  initNutrition();
   initWorkout();
   initTrends();
   initData();

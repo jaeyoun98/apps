@@ -6,7 +6,7 @@ Deployed at https://jaeyoun98.github.io/apps/jayfit/ via GitHub Pages.
 ## Conventions
 
 - The service-worker cache version constant is `CACHE` in `sw.js`.
-- **Privacy invariant**: all data lives in on-device IndexedDB. Never add analytics,
+- **Privacy invariant**: all data lives in on-device browser storage. Never add analytics,
   external requests, or server calls. Backup story is JSON export/import only.
 
 ## Verification loop

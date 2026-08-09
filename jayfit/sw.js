@@ -1,6 +1,6 @@
 // JayFit service worker — network-first with cache fallback for offline use.
 // Bump CACHE on every deploy so clients pick up new assets.
-const CACHE = 'jayfit-v7';
+const CACHE = 'jayfit-v8';
 
 // Cache storage is per-origin and every app shares one origin, so this worker must only
 // ever delete its own keys — otherwise it evicts a sibling app's offline shell.
@@ -13,6 +13,7 @@ const ASSETS = [
   './db.js',
   './units.js',
   './today.js',
+  './nutrition.js',
   './workout.js',
   './trends.js',
   './data.js',

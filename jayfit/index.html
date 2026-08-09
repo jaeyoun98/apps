@@ -63,6 +63,92 @@
       </section>
     </div>
 
+    <!-- ===== Diet ===== -->
+    <div class="screen" id="screen-nutrition">
+      <section class="card">
+        <div class="card-title">하루 식단 계획</div>
+        <div class="nutrition-kcal">
+          <strong id="nutrition-kcal-planned">0</strong>
+          <span>/ <span id="nutrition-kcal-target">0</span> kcal</span>
+        </div>
+        <div class="muted center">계획한 음식 / 하루 목표</div>
+        <div id="nutrition-macro-grid" class="nutrition-macro-grid"></div>
+        <div id="nutrition-allocation-status" class="nutrition-allocation-status"></div>
+        <details class="nutrition-daily-editor">
+          <summary>하루 목표 변경</summary>
+          <div class="nutrition-target-grid">
+            <label>kcal<input type="number" id="nutrition-daily-kcal" inputmode="decimal" min="0"></label>
+            <label>탄수화물 (g)<input type="number" id="nutrition-daily-carbs" inputmode="decimal" min="0"></label>
+            <label>단백질 (g)<input type="number" id="nutrition-daily-protein" inputmode="decimal" min="0"></label>
+            <label>지방 (g)<input type="number" id="nutrition-daily-fat" inputmode="decimal" min="0"></label>
+            <label>식이섬유 (g)<input type="number" id="nutrition-daily-fiber" inputmode="decimal" min="0"></label>
+          </div>
+          <button type="button" class="nutrition-save-btn" id="nutrition-daily-save">하루 목표 저장</button>
+        </details>
+        <div class="nutrition-note">
+          기본 음식값은 예시입니다. 실제 제품의 영양정보 label에 맞춰 수정하세요.
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-title card-title-row">
+          <span>끼니 계획</span>
+          <span id="nutrition-slot-count">5끼</span>
+        </div>
+        <div id="nutrition-slot-tabs" class="nutrition-slot-tabs"></div>
+
+        <div class="nutrition-section-title">
+          <strong id="nutrition-slot-name"></strong>
+          <button type="button" class="link-btn nutrition-inline-btn" id="nutrition-slot-rename">이름 변경</button>
+        </div>
+
+        <div class="nutrition-target-grid">
+          <label>kcal<input type="number" id="nutrition-target-kcal" inputmode="decimal" min="0"></label>
+          <label>탄수화물 (g)<input type="number" id="nutrition-target-carbs" inputmode="decimal" min="0"></label>
+          <label>단백질 (g)<input type="number" id="nutrition-target-protein" inputmode="decimal" min="0"></label>
+          <label>지방 (g)<input type="number" id="nutrition-target-fat" inputmode="decimal" min="0"></label>
+          <label>식이섬유 (g)<input type="number" id="nutrition-target-fiber" inputmode="decimal" min="0"></label>
+        </div>
+        <button type="button" class="nutrition-save-btn" id="nutrition-target-save">끼니 목표 저장</button>
+
+        <div class="nutrition-section-title nutrition-plan-heading">
+          <strong>계획 음식</strong>
+          <span id="nutrition-slot-planned" class="muted"></span>
+        </div>
+        <ul id="nutrition-planned-items" class="nutrition-plan-list"></ul>
+
+        <div class="nutrition-section-title"><strong>음식 추가</strong></div>
+        <div id="nutrition-food-catalog" class="nutrition-food-grid"></div>
+
+        <div class="nutrition-slot-actions">
+          <button type="button" id="nutrition-slot-split">끼니 나누기</button>
+          <button type="button" id="nutrition-slot-merge">인접 끼니와 합치기</button>
+        </div>
+        <div class="muted">끼니는 3~6개로 조절할 수 있습니다. 나누기·합치기는 하루 목표 총량을 보존합니다.</div>
+      </section>
+
+      <section class="card">
+        <details class="nutrition-manager">
+          <summary>음식 목록 관리</summary>
+          <div class="muted">조리 전/후, 물기 제거 여부와 제품명을 1회분에 함께 적어주세요.</div>
+          <div class="nutrition-food-form">
+            <label>음식명<input type="text" id="nutrition-food-name" maxlength="40" placeholder="예: 즉석밥"></label>
+            <label>1회분<input type="text" id="nutrition-food-serving" maxlength="40" placeholder="예: 140g (조리 후)"></label>
+            <label>kcal<input type="number" id="nutrition-food-kcal" inputmode="decimal" min="0"></label>
+            <label>탄수화물 (g)<input type="number" id="nutrition-food-carbs" inputmode="decimal" min="0"></label>
+            <label>단백질 (g)<input type="number" id="nutrition-food-protein" inputmode="decimal" min="0"></label>
+            <label>지방 (g)<input type="number" id="nutrition-food-fat" inputmode="decimal" min="0"></label>
+            <label>식이섬유 (g)<input type="number" id="nutrition-food-fiber" inputmode="decimal" min="0"></label>
+          </div>
+          <div class="nutrition-form-actions">
+            <button type="button" id="nutrition-food-save">음식 추가</button>
+            <button type="button" id="nutrition-food-cancel" hidden>취소</button>
+          </div>
+          <ul id="nutrition-food-list" class="nutrition-food-list"></ul>
+        </details>
+      </section>
+    </div>
+
     <!-- ===== Workout ===== -->
     <div class="screen" id="screen-workout">
       <section class="card">
@@ -165,6 +251,7 @@
 
   <nav class="tabbar">
     <button class="tab active" data-screen="screen-today">Today</button>
+    <button class="tab" data-screen="screen-nutrition">Diet</button>
     <button class="tab" data-screen="screen-workout">Workout</button>
     <button class="tab" data-screen="screen-trends">Trends</button>
   </nav>
@@ -173,6 +260,7 @@
   <script src="./db.js"></script>
   <script src="./units.js"></script>
   <script src="./today.js"></script>
+  <script src="./nutrition.js"></script>
   <script src="./workout.js"></script>
   <script src="./trends.js"></script>
   <script src="./data.js"></script>
