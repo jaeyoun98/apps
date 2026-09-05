@@ -1,0 +1,211 @@
+{
+ "generated_at": "2026-09-01T14:13:00Z",
+ "date": "2026-09-01",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 확장 및 메모리 기술 고도화가 가속화되는 가운데, 삼성전자와 SK하이닉스의 차세대 메모리 기술 경쟁과 글로벌 반도체 공급망 내 협력이 두드러짐.",
+   "stories": [
+    {
+     "headline": "삼성전자, 3D 적층 기술로 차세대 메모리 시장 선점 전략 발표",
+     "facts": [
+      "삼성전자가 '세미콘 타이완 2026'에서 메모리와 연산장치를 수직으로 쌓는 3D 적층 기술 전략을 공개함.",
+      "HBM5에 이어 zHBM, zNAND-O 등 독자적인 차세대 메모리 솔루션을 개발 중임.",
+      "LPDDR5X-PIM의 2026년 말 또는 2027년 초 양산을 목표로 함."
+     ],
+     "interpretation": "AI 연산 효율성을 극대화하기 위한 메모리-연산 통합 구조로의 전환은 향후 AI 반도체 시장에서 삼성전자의 기술적 우위를 확보하려는 시도임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "차세대 메모리 솔루션의 실제 양산 시점과 주요 고객사 채택 여부 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d396e526d2f0c4d7",
+      "b9ae5dff5c17b030",
+      "777b42d883dd19c2"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "SK하이닉스, 커스텀 HBM으로 AI 추론 성능 5배 이상 향상 추진",
+     "facts": [
+      "SK하이닉스가 베이스 다이에 연산 기능을 포함한 커스텀 HBM 아키텍처를 통해 추론 성능을 최대 5.15배 개선할 수 있다고 밝힘."
+     ],
+     "interpretation": "HBM 내 연산 기능 탑재는 데이터 병목 현상을 해결하여 AI 가속기 시장에서의 경쟁력을 강화하는 핵심 전략임.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "커스텀 HBM의 상용화 단계 및 주요 AI 칩셋 제조사와의 협력 구체화 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d4dd6f88548fb7db"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "에코프로에이치엔, 마이크론 싱가포르 공장에 온실가스 저감설비 공급",
+     "facts": [
+      "에코프로에이치엔이 마이크론 싱가포르 법인과 936억원 규모의 온실가스 저감설비 공급계약을 체결함.",
+      "계약 금액은 지난해 매출의 66.4%에 해당함."
+     ],
+     "interpretation": "글로벌 반도체 기업들의 친환경 설비 투자 확대가 국내 장비·소재 기업의 대규모 수주로 이어지는 추세임.",
+     "affected_company_ids": [
+      "micron"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "추가적인 해외 반도체 생산시설 대상 수주 확대 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "114a41df4bbf81b1"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "엔비디아, 미디어텍과 AI 칩 협력 및 투자 강화",
+     "facts": [
+      "엔비디아가 미디어텍의 해외 전환사채에 35억 달러를 투자함.",
+      "양사는 엔비디아 기술을 미디어텍의 커스텀 AI 칩 비즈니스에 통합하는 협력을 진행함."
+     ],
+     "interpretation": "엔비디아는 클라우드뿐만 아니라 PC, 자동차 등 전방위적 AI 인프라 생태계에서 영향력을 확대하려는 전략임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미디어텍과의 협력을 통한 실제 제품 출시 및 시장 점유율 변화.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "dde3145ccf19674d",
+      "906df2a15b106b4d"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "생성형 AI의 기업용 솔루션 확장과 클라우드 인프라 내 AI 통합이 가속화되고 있으며, 규제 당국의 감시 또한 강화되는 추세임.",
+   "stories": [
+    {
+     "headline": "브로드컴, VM웨어 익스플로어에서 프라이빗 AI 클라우드 솔루션 공개",
+     "facts": [
+      "브로드컴이 'VM웨어 프라이빗 AI 클라우드'를 공개하며 프라이빗 AI 시장 공략을 강화함.",
+      "인프라, 모델, 보안, 에이전트 거버넌스를 하나의 플랫폼으로 통합함."
+     ],
+     "interpretation": "기업들이 데이터 보안을 위해 프라이빗 환경에서 AI를 구축하려는 수요가 급증함에 따라, 인프라 기업들의 플랫폼 통합 경쟁이 치열해지고 있음.",
+     "affected_company_ids": [
+      "broadcom",
+      "amazon"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "기업 고객들의 프라이빗 AI 플랫폼 도입 속도 및 시장 점유율.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "fee7817e77cb5723"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "EU, 챗GPT를 '초대형 검색엔진'으로 지정하며 규제 강화",
+     "facts": [
+      "EU 집행위원회가 챗GPT를 디지털서비스법(DSA)상 '초대형 온라인 검색엔진'으로 지정함.",
+      "오픈AI는 미성년자 보호, 불법 콘텐츠 확산 방지, 알고리즘 위험 평가 등의 책임을 지게 됨."
+     ],
+     "interpretation": "생성형 AI 서비스가 대규모 이용자를 확보함에 따라 플랫폼 수준의 강도 높은 규제가 적용되기 시작했으며, 이는 향후 운영 비용 증가 및 서비스 설계 변경으로 이어질 수 있음.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "오픈AI의 규제 대응 조치 및 타 AI 기업들에 대한 유사 규제 적용 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "fa552d9efe02f7ec",
+      "47bcf06ebc4cbeac"
+     ],
+     "importance": 3
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "fee7817e77cb5723",
+   "title": "브로드컴, 프라이빗 AI 공략 강화…AWS·델과 경쟁",
+   "url": "https://zdnet.co.kr/view/?no=20260901164214",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "d4dd6f88548fb7db",
+   "title": "SK Hynix touts up to 5.15x inference gains with custom HBM",
+   "url": "https://www.digitimes.com/news/a20260901VL220/sk-hynix-hbm-capacity-performance-ai-agent-semicon-taiwan.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "d396e526d2f0c4d7",
+   "title": "Samsung eyes early 2027 LPDDR5X-PIM production, touts 3.8x performance gain",
+   "url": "https://www.digitimes.com/news/a20260901VL218/samsung-production-performance-2027-hbm.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "dde3145ccf19674d",
+   "title": "Nvidia's MediaTek investment signals broader push to shape AI infrastructure",
+   "url": "https://www.digitimes.com/news/a20260901PD210/nvidia-mediatek-investment-infrastructure-partnership.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "b9ae5dff5c17b030",
+   "title": "HBM 수직으로 쌓는다…삼성전자, 3D 적층으로 메모리 한계 돌파",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61646",
+   "source": "디일렉"
+  },
+  {
+   "id": "114a41df4bbf81b1",
+   "title": "에코프로에이치엔, 마이크론에 936억원 규모 저감설비 공급",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61645",
+   "source": "디일렉"
+  },
+  {
+   "id": "906df2a15b106b4d",
+   "title": "Qualcomm rival MediaTek jumps 10% after $3.5 billion Nvidia AI chip deal",
+   "url": "https://www.cnbc.com/2026/09/01/nvidia-deal-mediatek-shares.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "777b42d883dd19c2",
+   "title": "삼성전자, 3D 적층 메모리 선점 나선다…'CUBE' 전략 공개",
+   "url": "https://zdnet.co.kr/view/?no=20260901100209",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "fa552d9efe02f7ec",
+   "title": "EU, 챗GPT에 최고 강도 규제…생성형 AI로는 처음",
+   "url": "https://zdnet.co.kr/view/?no=20260901170206",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "47bcf06ebc4cbeac",
+   "title": "EU, 챗GPT '초대형 검색엔진' 지정…규제 수위 대폭 강화",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214705",
+   "source": "AI타임스"
+  }
+ ]
+}

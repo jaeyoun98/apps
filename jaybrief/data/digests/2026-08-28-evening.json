@@ -1,0 +1,201 @@
+{
+ "generated_at": "2026-08-28T06:11:58Z",
+ "date": "2026-08-28",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 반도체 수요 급증에 따른 공급망 강화와 미국 내 생산 거점 구축이 핵심입니다. SK하이닉스의 미국 패키징 공장 기공과 엔비디아의 정치적 영향력 확대 움직임이 주요 이슈입니다.",
+   "stories": [
+    {
+     "headline": "SK하이닉스, 미국 인디애나 첨단 패키징 공장 기공식 개최",
+     "facts": [
+      "SK하이닉스가 미국 인디애나주 웨스트라파예트에 HBM 생산을 위한 첨단 패키징 공장을 착공함",
+      "40억 달러 규모의 투자가 집행되며 2029년 3분기부터 HBM4E 양산을 목표로 함"
+     ],
+     "interpretation": "미국 내 AI 반도체 공급망을 강화하고 엔비디아 등 주요 고객사와의 협력을 공고히 하려는 전략적 행보입니다. 향후 미국 정부의 보조금 및 정책 지원과 연계된 안정적인 공급망 확보가 기대됩니다.",
+     "affected_company_ids": [
+      "sk-hynix",
+      "nvidia"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "2029년 양산 전까지의 공정 안정화 및 미국 내 인력 확보 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "585f38052228a624",
+      "88779a3686744122",
+      "258da20d04a9619c",
+      "6576098c4bec2915",
+      "bc75d830145ce0ed",
+      "928b3d0f1c431d14"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아, 워싱턴 정치 영향력 확대를 위한 PAC 설립",
+     "facts": [
+      "엔비디아가 직원 주도의 정치활동위원회(PAC)를 설립함",
+      "AI 규제 및 산업 정책이 기업 성장에 직접적인 영향을 미칠 것으로 판단하여 정책 대응 역량을 강화함"
+     ],
+     "interpretation": "AI 반도체 산업을 둘러싼 미국 내 규제 논의가 본격화됨에 따라, 입법 및 행정부 대상 로비력을 강화하여 비즈니스 불확실성을 선제적으로 관리하려는 의도로 풀이됩니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 정부의 AI 규제 강도 및 엔비디아의 로비 활동이 실제 정책에 미치는 영향",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "744d28b617edf477",
+      "ab732674c3dc54db"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 기술의 급격한 발전과 함께 사이버 보안 위협에 대한 공동 대응이 강조되고 있으며, 정부 주도의 AI 서비스 보편화 프로젝트가 본격화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "글로벌 기술 기업들, AI 기반 사이버 위협에 대한 공동 대응 촉구",
+     "facts": [
+      "오픈AI, 앤트로픽, MS, 구글, 아마존 등 120여 개 기업이 AI 악용 사이버 공격 급증을 경고함",
+      "정부와 산업계에 범사회적 차원의 집단 방어 체계 구축을 요구함"
+     ],
+     "interpretation": "AI 모델 성능 향상이 사이버 공격의 규모와 속도를 높이고 있어, 개별 기업의 대응을 넘어선 생태계 차원의 보안 표준 및 협력 체계가 필수적인 단계에 진입했음을 시사합니다.",
+     "affected_company_ids": [
+      "microsoft",
+      "alphabet",
+      "amazon"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "주요국 정부의 AI 보안 관련 규제 도입 및 기업 간 기술 협력의 구체화 수준",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6222866b824596f0",
+      "0311704eb28dd36c"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "정부 '모두의 AI' 사업자 선정... SKT·카카오·KT 참여",
+     "facts": [
+      "과학기술정보통신부가 '모두의 AI' 프로젝트 수행기관으로 SKT, 카카오, KT 컨소시엄을 선정함",
+      "선정된 사업자에게는 GPU B200 512장이 지원되며 2027년부터 정부 예산이 투입됨"
+     ],
+     "interpretation": "정부 주도로 AI 서비스의 대중적 접점을 확보하려는 시도입니다. 당장의 수익성보다는 AI 인프라 운영 경험과 데이터 확보를 통한 생태계 선점이 목적이며, 선정된 기업들의 AI 서비스 경쟁력이 강화될 전망입니다.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "연내 서비스 개시 후 사용자 반응 및 실제 서비스 품질",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5916155d11756cf0",
+      "d58e985b4c6c475f",
+      "7ff5562f461754ab",
+      "084cec7f66a57b1d"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "744d28b617edf477",
+   "title": "엔비디아, 직원 주도 정치자금 모금기구 설립...정치권 영향력 확대",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214541",
+   "source": "AI타임스"
+  },
+  {
+   "id": "585f38052228a624",
+   "title": "SK하이닉스, 인디애나 공장 착공...2029년 양산·키옥시아 협력 확대 모색",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214537",
+   "source": "AI타임스"
+  },
+  {
+   "id": "5916155d11756cf0",
+   "title": "SKT·카카오·KT, 모두의 AI 사업자 선정…“연내 전 국민 서비스 개시”",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214527",
+   "source": "AI타임스"
+  },
+  {
+   "id": "88779a3686744122",
+   "title": "SK하이닉스, 美 인디애나 HBM생산거점 기공식",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340954",
+   "source": "KIPOST"
+  },
+  {
+   "id": "ab732674c3dc54db",
+   "title": "Nvidia forms PAC to expand Washington lobbying",
+   "url": "https://www.digitimes.com/news/a20260828PD223/nvidia-market-policy-bloomberg-regulation.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "7ff5562f461754ab",
+   "title": "[모두의 AI] 전 국민 'AI 사다리' 놓였다…의미와 남은 과제는",
+   "url": "https://zdnet.co.kr/view/?no=20260828111229",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "d58e985b4c6c475f",
+   "title": "과기정통부, ‘모두의 AI’ 수행기관에 SKT·카카오·KT 선정",
+   "url": "https://byline.network/2026/08/0828-4/",
+   "source": "바이라인네트워크"
+  },
+  {
+   "id": "258da20d04a9619c",
+   "title": "SK hynix Holds Groundbreaking Ceremony for HBM Production Base in Indiana, \"Beginning a New Future for US-Korea AI\"",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340945",
+   "source": "KIPOST"
+  },
+  {
+   "id": "6576098c4bec2915",
+   "title": "SK Hynix breaks ground on US$4 billion Indiana plant that will package, not make, HBM",
+   "url": "https://www.digitimes.com/news/a20260828VL202/sk-hynix-hbm-packaging-plant-usa-production.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "928b3d0f1c431d14",
+   "title": "SK하이닉스, 미 최초 첨단 패키징 인디애나 공장 2029년 양산",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61462",
+   "source": "디일렉"
+  },
+  {
+   "id": "bc75d830145ce0ed",
+   "title": "SK하이닉스, \"美인디애나 패키징팹서 HBM4E 양산…2029년 3분기 목표\"",
+   "url": "https://zdnet.co.kr/view/?no=20260828002849",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "6222866b824596f0",
+   "title": "오픈AI·앤트로픽 등 116개 기업 \"AI 사이버 위협 폭발 직전…범사회적 집단 방어 시급\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214529",
+   "source": "AI타임스"
+  },
+  {
+   "id": "084cec7f66a57b1d",
+   "title": "[모두의 AI] 카카오 \"누구나 일상서 편리한 AI 서비스 만들 것\"",
+   "url": "https://zdnet.co.kr/view/?no=20260828104849",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "0311704eb28dd36c",
+   "title": "글로벌 기업 120곳 공개서한…“AI발 사이버 공격 목전…공동 대응해야”",
+   "url": "https://www.etnews.com/20260828000015",
+   "source": "전자신문"
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "generated_at": "2026-08-31T00:41:16Z",
+ "date": "2026-08-31",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "글로벌 반도체 산업은 AI 가속기 및 HBM 수요 급증에 따른 생산능력 확대와 환경·에너지 규제 대응이라는 이중 과제에 직면해 있으며, 첨단 패키징 기술 확보를 위한 전략적 움직임이 가속화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "AI 반도체 생산 확대에 따른 탄소 배출 및 에너지 부담 가중",
+     "facts": [
+      "AI 가속기 및 HBM 수요 증가로 주요 반도체 기업들의 팹(Fab) 증설이 이어지고 있음",
+      "생산량 확대에 따라 제조 공정 중 발생하는 온실가스 및 공정가스 감축 요구가 커지고 있음"
+     ],
+     "interpretation": "반도체 기업들의 생산능력 확대는 장기적으로 환경 규제 비용 상승과 에너지 인프라 확보 부담으로 이어질 수 있으며, 이는 공정 효율화 및 친환경 소재 기술을 보유한 기업에 대한 차별적 가치 평가로 이어질 전망입니다.",
+     "affected_company_ids": [
+      "tsmc",
+      "samsung-electronics"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "주요 반도체 기업들의 ESG 경영 강화 및 탄소 저감 공정 도입 속도 확인",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "6455049ce428e04e"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "덕산하이메탈, 차세대 반도체 첨단 패키징 소재 '국가전략기술' 지정",
+     "facts": [
+      "덕산하이메탈의 차세대 반도체 첨단 패키징(2.5D·3D) 소재 기술이 산업통상부로부터 국가전략기술로 지정됨",
+      "해당 기술은 AI 반도체, 자율주행, 고성능 컴퓨터 성능 극대화에 활용됨"
+     ],
+     "interpretation": "국가전략기술 지정은 정부의 R&D 지원 및 세제 혜택 가능성을 높여 해당 기업의 기술 경쟁력 강화와 시장 점유율 확대에 긍정적인 모멘텀으로 작용할 것입니다.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "국가전략기술 지정에 따른 구체적인 정부 지원 규모 및 후속 투자 계획",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6bfc3e71da5d9f0f"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "NVIDIA Vera Rubin 랙 제품 출하 및 ASIC 서버 램프업 본격화",
+     "facts": [
+      "서버 레일 제조사 Nan Juen International이 8월부터 NVIDIA Vera Rubin 랙 제품 출하를 시작함",
+      "9월부터 ASIC 서버 랙 레일의 양산이 예정되어 있음"
+     ],
+     "interpretation": "NVIDIA의 차세대 아키텍처인 Vera Rubin 관련 부품 공급이 본격화됨에 따라 공급망 전반의 매출 성장이 예상되며, 이는 AI 서버 시장의 지속적인 확장을 시사합니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "Vera Rubin 제품의 시장 수요 및 관련 부품사들의 분기 실적 반영 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c16f684bda04e3ee"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "국내 금융 및 서비스 분야에서 AI 에이전트 도입을 통한 업무 자동화와 디지털 전환이 가속화되고 있으며, 공공 및 민간 영역에서의 AI 활용 전략이 구체화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "KT, 우리은행 AI 상담 시스템 재구축 사업자로 선정",
+     "facts": [
+      "KT가 우리은행의 AI 챗봇 및 상담봇 재구축 사업을 수주함",
+      "기존 챗봇 고도화를 넘어 AI 뱅커 및 AI 에이전트를 연결하여 실제 금융 업무 처리 환경을 구현할 예정"
+     ],
+     "interpretation": "단순 질의응답을 넘어 실제 업무 수행이 가능한 'AI 에이전트'로의 전환은 금융권의 디지털 전환 속도를 높이고, 관련 기술을 보유한 통신·SW 기업의 B2B 매출 성장을 견인할 것입니다.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "금융권 내 AI 에이전트 도입 확산에 따른 추가 수주 경쟁 및 기술 표준화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8e3ff9c93567a5c6",
+      "2595c7303a10360c"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "네이버 '컬리N마트' 출시 1년 만에 거래액 10배 성장",
+     "facts": [
+      "네이버의 장보기 서비스 '컬리N마트'가 출시 1년 만에 거래액 10배 증가를 기록함",
+      "네이버플러스 멤버십 이용자 중심의 반복 구매가 성장을 견인함"
+     ],
+     "interpretation": "플랫폼 간 협업을 통한 서비스 시너지가 입증되었으며, 이는 네이버의 커머스 생태계 강화와 사용자 락인(Lock-in) 효과를 극대화하는 전략적 성공 사례로 평가됩니다.",
+     "affected_company_ids": [],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "향후 유사한 플랫폼 협업 모델의 확대 가능성 및 수익성 개선 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2139b3fdb13ef8d5",
+      "f69f8929c5ff4e09"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "6455049ce428e04e",
+   "title": "AI 반도체 특수의 역설… 불어나는 탄소 청구서 RCS 수요 증가",
+   "url": "https://www.etnews.com/20260828000295",
+   "source": "전자신문"
+  },
+  {
+   "id": "6bfc3e71da5d9f0f",
+   "title": "덕산하이메탈, 반도체 패키징 소재 '국가전략기술' 지정",
+   "url": "https://zdnet.co.kr/view/?no=20260831084028",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "c16f684bda04e3ee",
+   "title": "Nan Juen to ship Vera Rubin rails in August, ramp ASIC in September",
+   "url": "https://www.digitimes.com/news/a20260828PD225/rubin-asic-vr-shipping-production.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "2139b3fdb13ef8d5",
+   "title": "네이버 컬리N마트, 출시 1년 만에 거래액 10배…3040 ‘단골’ 잡았다",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ySUhJMGgyd0Q2U0M4MEdBMXpBd1IxMHRUREptX1RWbUs3RjZtRDFQUDBCdk9TNVFTb0lqaDBpTTdxUmJGODdqWmI0Uk8wVEtEbU5oZV81R0JWVjU0bUlkdW84OW4?oc=5",
+   "source": "디지털데일리"
+  },
+  {
+   "id": "f69f8929c5ff4e09",
+   "title": "네이버 \"컬리N마트, 출시 1년 만에 거래액 10배 성장\"",
+   "url": "https://zdnet.co.kr/view/?no=20260831085608",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "8e3ff9c93567a5c6",
+   "title": "KT, 우리은행 AI 상담 시스템 재구축…에이전트까지 연결",
+   "url": "https://zdnet.co.kr/view/?no=20260831083803",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "2595c7303a10360c",
+   "title": "5대 은행 중 4곳 잡은 KT…우리은행 AI 상담 시스템도 맡는다",
+   "url": "https://www.hankyung.com/article/202608312590g",
+   "source": "한국경제 IT"
+  }
+ ]
+}

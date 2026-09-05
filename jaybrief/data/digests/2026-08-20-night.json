@@ -1,0 +1,162 @@
+{
+ "generated_at": "2026-08-20T12:50:33Z",
+ "date": "2026-08-20",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 투자 확대에 따른 전력 수요 급증과 반도체 제조 생태계의 변화가 주요 이슈입니다. 파운드리 공급 부족과 AI 가속기 도입을 통한 효율화 노력이 지속되고 있습니다.",
+   "stories": [
+    {
+     "headline": "클라우데라, 엔비디아 cuDF 도입으로 아파치 스파크 GPU 가속 지원",
+     "facts": [
+      "클라우데라가 엔비디아의 cuDF 라이브러리를 활용해 아파치 스파크 4.1용 네이티브 GPU 가속 기능을 도입함",
+      "기존 코드 수정 없이 데이터 처리 속도를 최대 4배 향상시켜 인프라 비용 절감 가능"
+     ],
+     "interpretation": "기업들의 AI 데이터 파이프라인 효율화 요구가 높아짐에 따라 엔비디아의 GPU 생태계가 데이터 엔지니어링 영역까지 확장되고 있음. 이는 엔비디아의 소프트웨어 수익 모델 강화 및 GPU 수요 견인 요인임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "기업들의 데이터 처리 인프라 내 엔비디아 솔루션 채택 속도 확인",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "4b9fbab814829195",
+      "856377a9383613e7"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "AI 및 반도체 클러스터 투자로 2040년 전력수요 전망 대폭 상향",
+     "facts": [
+      "AI 데이터센터와 반도체 신규 투자 계획 반영으로 2040년 전력수요 전망치가 4개월 만에 20% 이상 상향됨"
+     ],
+     "interpretation": "AI 인프라 확장이 단순한 칩 수요를 넘어 국가 전력망 인프라 계획까지 재편하고 있음. 전력 공급 안정성이 향후 반도체 및 데이터센터 운영의 핵심 리스크이자 비용 변수로 작용할 전망.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "제12차 전력수급기본계획의 구체적인 이행 방안 및 전력 요금 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "93874c3cc5c82ce1"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성전자 파운드리 4nm 공정 수요 견조 및 가격 결정력 강화",
+     "facts": [
+      "AI 및 HBM 수요 증가로 삼성전자의 4nm 공정 생산 능력이 2027년까지 거의 예약된 상태",
+      "공급 부족 상황이 지속되면서 파운드리 가격 결정력이 상승 중"
+     ],
+     "interpretation": "첨단 노드에서의 공급 부족은 삼성전자 파운드리 부문의 수익성 개선 기회임. TSMC와의 점유율 격차를 줄일 수 있는 핵심 구간으로 판단됨.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "삼성전자 파운드리의 수율 개선 및 주요 빅테크 고객사 확보 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "a60b6c89c9d28f28"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 보안 및 소프트웨어 생태계의 변화가 두드러지며, 기업들의 AI 도입을 위한 플랫폼 전략이 강화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "포티넷, AI 에이전트 보안 기업 버추 AI 인수",
+     "facts": [
+      "포티넷이 AI 런타임 보호 및 AI 에이전트 보안 기능을 제공하는 버추 AI를 인수함"
+     ],
+     "interpretation": "AI 에이전트 활용이 확산됨에 따라 보안 위협도 지능화되고 있음. 네트워크 보안 강자인 포티넷이 AI 보안 시장을 선점하여 에이전틱 AI 생태계의 안전성을 확보하려는 전략.",
+     "affected_company_ids": [],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "AI 보안 솔루션의 실제 기업 도입률 및 포티넷의 보안 플랫폼 통합 성과",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "14342e3c241e4db1"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "메타, 맥용 AI 앱에 'Muse Spark' 모델 기반 받아쓰기 기능 탑재",
+     "facts": [
+      "메타가 자사 AI 앱의 받아쓰기 기능에 Muse Spark 모델을 적용하여 사용자 인터페이스 강화"
+     ],
+     "interpretation": "메타가 자체 AI 모델을 활용해 기기별 사용자 경험을 개선하며 AI 생태계 내 영향력을 확대하고 있음. 하드웨어 플랫폼과의 연동성을 높여 사용자 락인 효과를 노리는 전략.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "메타 AI 앱의 사용자 증가율 및 타 OS 확장 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b1d6be6dc2816d1d"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "4b9fbab814829195",
+   "title": "\"코드 수정 없이 최대 4배\"…클라우데라, 엔비디아 손잡고 AI 데이터 비용 낮춘다",
+   "url": "https://zdnet.co.kr/view/?no=20260820135210",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "93874c3cc5c82ce1",
+   "title": "AI·반도체 전력수요 폭증…2040년 전망 4개월 만에 대폭 상향",
+   "url": "https://zdnet.co.kr/view/?no=20260820150244",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "856377a9383613e7",
+   "title": "클라우데라, 엔비디아와 협력해 아파치 스파크 가속… 클라우드 비용 절감",
+   "url": "https://www.etnews.com/20260820000377",
+   "source": "전자신문"
+  },
+  {
+   "id": "a60b6c89c9d28f28",
+   "title": "Samsung gains foundry pricing power as 4nm capacity stays tight through 2027",
+   "url": "https://www.digitimes.com/news/a20260820VL210/samsung-capacity-4nm-2027-5nm.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "b1d6be6dc2816d1d",
+   "title": "Meta AI’s new Mac app wants you to talk to your apps",
+   "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "14342e3c241e4db1",
+   "title": "포티넷, 버추AI 인수...\"에이전틱AI 보안 강화\"",
+   "url": "https://zdnet.co.kr/view/?no=20260820172809",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "generated_at": "2026-08-30T09:23:15Z",
+ "date": "2026-08-30",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 반도체 설계 혁신과 공급망 다변화가 지속되는 가운데, 국내외 학술 컨퍼런스를 통해 차세대 아키텍처 및 공정 기술이 구체화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "Hot Chips 2026에서 확인된 AI 반도체 설계의 대변혁",
+     "facts": [
+      "스탠포드대학교에서 'Hot Chips 2026' 컨퍼런스가 개최됨",
+      "AI가 스스로를 구동할 반도체를 직접 설계하는 'AI를 만드는 AI' 기술이 현실화됨"
+     ],
+     "interpretation": "반도체 설계 효율성을 극대화하는 AI 기반 설계 자동화가 가속화되면서, 엔비디아 등 주요 칩 설계 기업의 개발 속도가 비약적으로 향상될 것으로 전망됩니다.",
+     "affected_company_ids": [
+      "nvidia",
+      "samsung-electronics",
+      "amd",
+      "alphabet",
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "AI 설계 도구 도입에 따른 주요 칩 제조사들의 R&D 비용 절감 및 신제품 출시 주기 단축 여부를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "828d0ef8a77dd5fa"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "ISC, SK하이닉스향 테스트소켓 매출 급성장",
+     "facts": [
+      "ISC의 SK하이닉스향 상반기 매출이 156억원으로 전년 동기 대비 4배 이상 증가함",
+      "SK그룹 편입 이후 테스트소켓 중심의 거래 규모가 확대됨"
+     ],
+     "interpretation": "SK그룹 내 수직 계열화 효과가 가시화되고 있으며, HBM 등 고성능 메모리 수요 증가에 따른 테스트 장비 및 부품 시장의 동반 성장이 확인됩니다.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "SK하이닉스의 HBM 생산 능력 확대에 따른 ISC의 추가 수주 물량 추이를 지켜봐야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5dd4b9bf131df345"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "정부의 AI 컨트롤타워 재정비와 함께 AI 에이전트 및 서비스 고도화가 진행 중이며, 빅테크 기업 간의 모델 공급 및 협력 관계가 재편되고 있습니다.",
+   "stories": [
+    {
+     "headline": "이재명 정부 AI 정책 컨트롤타워 재정비",
+     "facts": [
+      "이해민 AI미래기획수석, 하정우 국가AI전략위원회 부위원장 등 신규 인사 단행",
+      "AI 3대 강국(G3) 전략 실행을 위한 정책 추진 속도전 예고"
+     ],
+     "interpretation": "그간의 인력 공백이 해소됨에 따라 국가 차원의 AI 메가프로젝트와 관련 입법이 탄력을 받을 것으로 보이며, 이는 국내 AI 생태계 전반에 긍정적입니다.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "신임 인사들이 주도할 구체적인 AI 메가프로젝트 예산 집행 및 규제 완화 정책의 실효성을 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6f2c86f7f3ad0c26",
+      "b717e923b4611353",
+      "0a4c8f712089478d",
+      "19a139b687132e6f",
+      "973f914d6a0851a7"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "오픈AI, 스페이스X 인수 '커서'에 모델 공급 중단",
+     "facts": [
+      "오픈AI가 11월 12일부터 AI 코딩 플랫폼 '커서'에 모델 공급을 중단하기로 결정함",
+      "스페이스X의 커서 인수 직후 발생한 조치임"
+     ],
+     "interpretation": "AI 모델 공급을 둘러싼 빅테크 간 경쟁과 견제가 심화되고 있으며, 특정 플랫폼의 종속성 탈피 및 자체 모델 확보 전략이 중요해지고 있습니다.",
+     "affected_company_ids": [],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "커서가 오픈AI를 대체할 다른 파운데이션 모델을 확보할지, 혹은 자체 모델 개발로 전환할지 여부가 관건입니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0b7111b88edeafc5"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "828d0ef8a77dd5fa",
+   "title": "\"AI가 AI 칩을 만든다\"...'핫칩스 2026'서 확인된 반도체 설계의 대변혁",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214627",
+   "source": "AI타임스"
+  },
+  {
+   "id": "5dd4b9bf131df345",
+   "title": "ISC, SK하이닉스향 테스트소켓 매출 14배↑…SK 편입 후 거래 확대",
+   "url": "https://www.etnews.com/20260828000210",
+   "source": "전자신문"
+  },
+  {
+   "id": "6f2c86f7f3ad0c26",
+   "title": "하정우 전 수석, AI전략위 복귀...‘구글 출신’ 이해민 AI수석 합류",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214624",
+   "source": "AI타임스"
+  },
+  {
+   "id": "b717e923b4611353",
+   "title": "[李, 2기 개각] AI 콘트롤타워 부재 해소…메가프로젝트 속도전 기대",
+   "url": "https://www.etnews.com/20260830000090",
+   "source": "전자신문"
+  },
+  {
+   "id": "19a139b687132e6f",
+   "title": "[종합] \"李 정부 AI 라인 공백 끝났다\"…배경훈·하정우·이해민 '3각축' 재가동 기대",
+   "url": "https://zdnet.co.kr/view/?no=20260830124438",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "0a4c8f712089478d",
+   "title": "청와대 AI 정책 맡는 이해민은 누구…구글 거쳐 국회서 AI 입법 주도",
+   "url": "https://zdnet.co.kr/view/?no=20260830115938",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "973f914d6a0851a7",
+   "title": "[속보] 李대통령, AI미래기획수석에 이해민 조국혁신당 의원 발탁",
+   "url": "https://zdnet.co.kr/view/?no=20260830114110",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "0b7111b88edeafc5",
+   "title": "오픈AI, 일론 머스크 '커서'에 모델 공급 중단…11월 계약 종료",
+   "url": "https://zdnet.co.kr/view/?no=20260830085855",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

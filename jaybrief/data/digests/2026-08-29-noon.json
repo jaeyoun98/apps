@@ -1,0 +1,184 @@
+{
+ "generated_at": "2026-08-29T03:46:05Z",
+ "date": "2026-08-29",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 산업은 AI 모델의 하드웨어 최적화 경쟁과 지정학적 규제 리스크, 그리고 스마트 제조 혁신을 중심으로 재편되고 있습니다.",
+   "stories": [
+    {
+     "headline": "엔비디아, 허깅페이스 인수로 '모델 배포' 플랫폼 장악 시도",
+     "facts": [
+      "엔비디아가 오픈소스 AI 플랫폼 허깅페이스를 129억달러에 인수하기로 함",
+      "허깅페이스는 오픈 모델의 발견부터 실행까지 지원하는 '추론 엔드포인트' 서비스를 운영 중",
+      "오픈 모델이 하드웨어 성능을 입증하는 데모 수단으로 활용되면서, 엔비디아는 모델-하드웨어 결합 최적화 경로를 확보하려는 전략"
+     ],
+     "interpretation": "단순 하드웨어 판매를 넘어 개발자가 오픈 모델을 실행하는 플랫폼 생태계에 직접 진입함으로써, 자사 GPU 최적화 경로를 강화하고 개발자 락인(Lock-in) 효과를 극대화하려는 전략적 포석으로 판단됨",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "인수 이후 허깅페이스의 중립성 유지 여부와 타 하드웨어 기업의 대응 전략을 확인해야 함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "190b53b84b04b417"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "美 트럼프 행정부, 중국의 '원격 연산 우회' 차단 위한 신규 규제 검토",
+     "facts": [
+      "미국 정부가 중국 기업의 최첨단 AI 반도체 접근을 막기 위해 제3국 데이터센터를 활용한 우회 경로 차단 추진",
+      "태국, 싱가포르 등 규제 강도가 낮은 국가의 데이터센터가 주요 타깃"
+     ],
+     "interpretation": "기존 수출 통제망의 허점을 보완하려는 조치로, 중국의 AI 인프라 구축 속도를 늦추고 글로벌 데이터센터 사업자의 컴플라이언스 부담이 가중될 전망",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "실제 규제안의 구체적인 범위와 제3국 데이터센터 기업들의 대응 방안을 주시해야 함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6464058ac01bc46c"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자, 전남광주 제조기업 대상 스마트공장 전환 지원",
+     "facts": [
+      "삼성전자와 정부가 전남광주 지역 제조기업 17곳의 스마트공장 전환을 지원",
+      "선정 기업당 최대 6000만원 지원 및 생산성 향상과 불량률 감소 효과 기대"
+     ],
+     "interpretation": "대·중소 상생형 스마트공장 사업을 통해 지역 산업 생태계를 고도화하고, 삼성전자의 제조 기술력을 전파하여 국내 제조업 전반의 체력을 강화하려는 의도",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "유사한 상생 협력 모델이 타 지역 및 타 산업군으로 확대되는지 여부를 확인해야 함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e4fe5ed42a5ce50b"
+     ],
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트의 자율성 강화 기술과 서비스형 AI(AI-as-a-Service)의 일상화가 빠르게 진행되고 있습니다.",
+   "stories": [
+    {
+     "headline": "메타, 소형 AI 모델 성능 극대화하는 '에보하네스-RL' 공개",
+     "facts": [
+      "메타와 UIUC 연구진이 AI 에이전트의 외부 도구 및 메모리 사용 능력을 학습시키는 '에보하네스-RL' 기술 발표",
+      "80억 파라미터 모델에 적용 시 '클로드 오퍼스 4.5'급 성능 구현",
+      "AI가 스스로 외부 상태를 확인하고 판단하는 정책 인터페이스를 학습"
+     ],
+     "interpretation": "대규모 모델 없이도 효율적인 하네스 관리 학습만으로 고성능 에이전트 구현이 가능함을 입증, 기업용 AI 에이전트 개발 비용 절감 및 효율성 개선에 기여할 것으로 기대됨",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "해당 기술이 실제 기업용 솔루션에 도입되어 상용화되는 속도를 확인해야 함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "101be1b6fc5a647f"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "구글, AI 모드에 여행 예약 기능 추가하며 서비스 영역 확장",
+     "facts": [
+      "구글이 대화형 검색 'AI 모드'에 항공권 가격 추적, 호텔 예약, 마일리지 조회 기능 추가",
+      "여행 계획부터 예약, 결제까지의 과정을 AI가 직접 지원"
+     ],
+     "interpretation": "단순 정보 검색을 넘어 여행사 역할을 수행하는 플랫폼으로 진화, 사용자 체류 시간 증대 및 구글 페이 등 자사 서비스와의 연계 강화 전략",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "여행 예약 서비스의 글로벌 확대 속도와 기존 여행 플랫폼 기업들과의 경쟁 구도 변화를 주시해야 함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8f69ee6976225a53"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "KDDI, 구글 제미나이 탑재 휴머노이드 역무원 실증",
+     "facts": [
+      "KDDI가 구글 제미나이를 탑재한 휴머노이드를 오사카 지하철에 투입하여 고객 안내 서비스 실증 진행",
+      "다국어 소통 및 스마트폰 연계 상세 안내 기능 지원"
+     ],
+     "interpretation": "피지컬 AI와 생성형 AI의 결합을 통해 서비스 현장에서의 실질적인 고객 응대 가능성을 검증하는 단계로, 향후 로봇 서비스 시장의 확대 가능성을 시사함",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "실증 결과에 따른 실제 현장 도입 규모와 서비스 만족도 데이터를 확인해야 함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "bba5ae3491876b2a"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "101be1b6fc5a647f",
+   "title": "메타, 80억 소형 AI로 ‘클로드 오퍼스 4.5’급 성능 구현…‘에보하네스-RL’ 공개",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214593",
+   "source": "AI타임스"
+  },
+  {
+   "id": "190b53b84b04b417",
+   "title": "[8월28일] 엔비디아는 왜 허깅페이스를 인수할까…\"오픈 모델 다운에서 배포로\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214542",
+   "source": "AI타임스"
+  },
+  {
+   "id": "6464058ac01bc46c",
+   "title": "美 트럼프 행정부, 中 AI '원격 연산 우회' 차단 추진…태국·싱가포르 정조준",
+   "url": "https://zdnet.co.kr/view/?no=20260829014347",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "e4fe5ed42a5ce50b",
+   "title": "전남광주 제조기업 17곳 스마트공장 전환…정부·삼성 최대 6000만원 지원",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214575",
+   "source": "AI타임스"
+  },
+  {
+   "id": "bba5ae3491876b2a",
+   "title": "일본 지하철에 '제미나이 휴머노이드'가 역무원 맡는다",
+   "url": "https://zdnet.co.kr/view/?no=20260829084245",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "8f69ee6976225a53",
+   "title": "구글 AI 모드, 항공권 값 떨어지면 메일로 알려준다…호텔 예약까지 대화로",
+   "url": "https://zdnet.co.kr/view/?no=20260829083850",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

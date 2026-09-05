@@ -1,0 +1,208 @@
+{
+ "generated_at": "2026-08-20T09:56:32Z",
+ "date": "2026-08-20",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 반도체 수요 급증에 따른 제조 및 패키징 기술 혁신과 공급망 다변화가 핵심입니다. 특히 SK하이닉스의 성과급 주식 지급 합의와 엔비디아의 중국 H200 수입 승인 등 주요 기업의 전략적 움직임이 두드러집니다.",
+   "stories": [
+    {
+     "headline": "SK하이닉스, 성과급 60% 자사주 지급 및 노사 잠정 합의",
+     "facts": [
+      "SK하이닉스 노사가 2026년 임단협 잠정 합의안 도출",
+      "성과급(PS)의 60%를 주식으로, 40%를 현금으로 지급",
+      "임금 인상률 6.3% 확정"
+     ],
+     "interpretation": "주주환원 정책 강화와 구성원의 경영 위기 극복 동참을 유도하는 전략적 선택입니다. 자사주 지급은 장기적인 주주가치 제고와 임직원의 책임 경영 의식을 고취할 것으로 보입니다.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "노조 투표를 통한 최종 합의안 통과 여부 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4a5fe2a11e6e1028",
+      "8bb9467735a78d74",
+      "923c791596a8ec6f",
+      "83235d7b5281bfcf"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "중국, 엔비디아 H200 AI 가속기 수입 일부 승인",
+     "facts": [
+      "중국 규제당국이 바이트댄스와 텐센트에 H200 프로세서 각 1만 대 수입 승인",
+      "국가발전개혁위원회(NDRC)의 개별 승인 절차를 거쳐 물량 공급"
+     ],
+     "interpretation": "미국의 대중국 반도체 수출 통제 속에서도 중국 내 AI 인프라 확충을 위한 엔비디아의 공급이 제한적으로 허용되고 있습니다. 이는 엔비디아의 중국 매출 방어에 긍정적이나 통제 기조는 여전합니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "추가 물량 승인 가능성 및 미국 정부의 대중국 수출 규제 강화 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "68f8c6334a591c05",
+      "b98d9d411a45ea34"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "구글-마벨, TPU 맞춤형 칩 공동 개발 협력 확대",
+     "facts": [
+      "구글이 마벨 테크놀로지와 TPU 관련 맞춤형 반도체 제품 공동 개발 확대",
+      "마벨은 구글 주식 매입 권리(신주인수권)를 확보하며 파트너십 강화"
+     ],
+     "interpretation": "구글은 엔비디아 의존도를 낮추고 자체 AI 인프라 경쟁력을 높이기 위해 마벨과의 협력을 강화하고 있습니다. 이는 맞춤형 칩 시장에서 마벨의 입지를 공고히 하는 계기가 될 것입니다.",
+     "affected_company_ids": [
+      "alphabet",
+      "broadcom"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "마벨의 TPU 생태계 내 점유율 확대 및 엔비디아와의 경쟁 구도 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "fbd9cd9c8b4e1c00",
+      "323cf90484eb4e2f",
+      "9efa44ca1562a8c6",
+      "a6cd1c6c410fac21"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 기술이 단순 대화형 서비스를 넘어 실제 업무를 수행하는 '에이전틱 AI'로 진화하고 있습니다. 기업들의 AI 도입과 보안 강화가 주요 이슈입니다.",
+   "stories": [
+    {
+     "headline": "앤트로픽, 클로드 코워크 웹·모바일 확장 및 구글 워크스페이스 연동 강화",
+     "facts": [
+      "클로드 코워크의 웹·모바일 베타 기능 출시",
+      "지메일, 구글 드라이브, 구글 캘린더 등 업무 서비스와 직접 연동"
+     ],
+     "interpretation": "AI가 사용자의 업무 환경에 깊숙이 침투하여 생산성을 높이는 방향으로 진화하고 있습니다. 구글 생태계와의 결합은 기업용 AI 시장에서 앤트로픽의 경쟁력을 높일 것입니다.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "기업 고객들의 실제 도입률 및 구글 제미나이와의 차별화 전략",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "09576732cd253aca"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "메타, 맥OS 전용 메타 AI 데스크톱 앱 출시",
+     "facts": [
+      "메타가 '메타 AI'를 맥OS용 독립 데스크톱 앱으로 정식 출시",
+      "애플 실리콘 맥에서 네이티브 구동 및 OS 작업 환경과 연동"
+     ],
+     "interpretation": "메타가 AI 슈퍼 앱 경쟁에 본격적으로 뛰어들었습니다. 데스크톱 OS와의 직접 연동을 통해 사용자의 작업 환경을 이해하고 지원하는 AI 비서 시장을 공략하고 있습니다.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "사용자 반응 및 타 OS로의 확장 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "1da9e6dbd76d9643"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "68f8c6334a591c05",
+   "title": "Why China Is Approving NVIDIA H200 AI Chip Imports?",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWkxtSmE2Q1NKcjlyQ2tUQUI4Q2o0ZThNS0NsXzhGSWFVSFJIY1hGcEVfVmpBSHZyR1RPTHFLUzJOdTFtZENzSEd6aG8zTXZhSDJmajlLM003ZjhZMV83MHg1QjFnc1VDR3BXR0R1WWpGYThxRWpzODBXSUprbndRc2xTQW4?oc=5",
+   "source": "AI Magazine"
+  },
+  {
+   "id": "4a5fe2a11e6e1028",
+   "title": "SK하이닉스, 성과급 60% 주식 지급 잠정 합의...통합 노조 의식",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61177",
+   "source": "디일렉"
+  },
+  {
+   "id": "8bb9467735a78d74",
+   "title": "SK하이닉스 노사, 성과급 60% 자사주 지급 잠정 합의",
+   "url": "https://www.etnews.com/20260820000382",
+   "source": "전자신문"
+  },
+  {
+   "id": "923c791596a8ec6f",
+   "title": "SK하이닉스 노사, 성과급 60% 자사주·40% 현금 잠정합의",
+   "url": "https://zdnet.co.kr/view/?no=20260820150606",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "fbd9cd9c8b4e1c00",
+   "title": "Analysis: Marvell's US$120bn Google deal is the AI chip industry's new playbook — equity for orders, not cash",
+   "url": "https://www.digitimes.com/news/a20260820VL201/marvell-google-infrastructure-chips-nvidia.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "a6cd1c6c410fac21",
+   "title": "구글, 마벨과 17조 규모 TPU 공동 개발 협력...추론 수요 폭증 대비",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214153",
+   "source": "AI타임스"
+  },
+  {
+   "id": "b98d9d411a45ea34",
+   "title": "중국, 엔비디아 'H200' 소량 수입 승인...바이트댄스·텐센트 1만대씩 수령",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214164",
+   "source": "AI타임스"
+  },
+  {
+   "id": "83235d7b5281bfcf",
+   "title": "SK하이닉스 노사, 임단협 잠정합의…성과급 60% 주식·40% 현금",
+   "url": "https://zdnet.co.kr/view/?no=20260820150606",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "9efa44ca1562a8c6",
+   "title": "Analysis: Why Marvell's US$120bn AI chip deal with Google is really a hedge against Nvidia and Broadcom",
+   "url": "https://www.digitimes.com/news/a20260820VL201/marvell-google-infrastructure-chips-nvidia.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "323cf90484eb4e2f",
+   "title": "Analysis: Google keeps Sunfish at Broadcom, Zebrafish at MediaTek — Marvell's $12.2bn warrant buys a category nobody was defending",
+   "url": "https://www.digitimes.com/news/a20260820VL209/marvell-google-broadcom-mediatek-tpu.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "09576732cd253aca",
+   "title": "앤트로픽, '클로드 코워크' 웹·모바일 확장...구글 워크스페이스 연동 강화",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214171",
+   "source": "AI타임스"
+  },
+  {
+   "id": "1da9e6dbd76d9643",
+   "title": "메타, 맥OS 전용 AI 데스크톱 앱 정식 출시...‘슈퍼 앱’ 시장 추격전",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214169",
+   "source": "AI타임스"
+  }
+ ]
+}

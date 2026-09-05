@@ -1,0 +1,165 @@
+{
+ "generated_at": "2026-08-21T04:08:10Z",
+ "date": "2026-08-21",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 AI 인프라 투자 지속에 따른 장비 수주 잔고 증가와 메모리 산업의 구조적 변화가 핵심 동력으로 작용하고 있습니다. 엔비디아의 AI 생태계 확장 전략과 국내 반도체 제조사의 설비 투자 확대가 장비 업계의 실적 개선을 견인하고 있습니다.",
+   "stories": [
+    {
+     "headline": "엔비디아, AI 코딩 스타트업 풀사이드와 대규모 라이선스 및 인재 계약 체결",
+     "facts": [
+      "엔비디아가 AI 코딩 스타트업 풀사이드(Poolside)와 60억달러(약 8조원) 규모의 계약을 체결함",
+      "풀사이드는 이번 계약이 비독점 라이선스 및 인재 채용 계약이라고 밝힘"
+     ],
+     "interpretation": "엔비디아는 AI 모델 개발 역량을 내재화하고 소프트웨어 생태계를 강화하여 하드웨어 의존도를 낮추고 AI 플랫폼 기업으로서의 지배력을 공고히 하려는 전략으로 해석됨.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "엔비디아의 FY2027 Q2 실적 발표에서 소프트웨어 부문 매출 비중 및 AI 인프라 투자 가이던스 확인 필요.",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "2221c6db5649e48d"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "국내 반도체 장비업계, 삼성전자·SK하이닉스 설비 투자로 수주 잔고 급증",
+     "facts": [
+      "삼성전자와 SK하이닉스의 대규모 설비 투자로 국내 주요 반도체 장비 기업들의 상반기 말 수주 잔고가 지난해 말 대비 2배 증가함",
+      "하반기부터 본격적인 매출 확대가 예상됨"
+     ],
+     "interpretation": "메모리 제조사의 HBM 및 차세대 공정 투자가 장비 공급망 전반의 실적 개선으로 이어지는 선순환 구조가 확인됨.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "주요 장비사들의 분기별 실제 매출 인식 속도 및 가동률 추이.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0364bfdf63a270cc"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "마이크론 CEO, AI가 메모리 산업의 사이클을 근본적으로 변화시켰다고 언급",
+     "facts": [
+      "마이크론 산제이 메로트라 CEO는 AI가 메모리 산업의 전통적인 '붐-앤-버스트' 사이클을 완전히 변화시켰다고 밝힘"
+     ],
+     "interpretation": "AI 서버향 고부가가치 메모리 수요가 메모리 반도체 산업의 변동성을 완화하고 장기적인 성장성을 담보하는 구조로 전환되고 있음을 시사함.",
+     "affected_company_ids": [
+      "micron"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "향후 메모리 가격 추이 및 AI 서버 출하량 데이터.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "7e3d68776480222c"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 및 AI 서비스 섹터는 기업들의 AI 도입 가속화와 함께 데이터 보안 및 거버넌스 체계 구축이 주요 화두입니다. 카카오의 인적 분할과 같은 지배구조 개편을 통한 사업 효율화 시도가 나타나고 있습니다.",
+   "stories": [
+    {
+     "headline": "카카오, AI 사업과 서비스 사업 분리 위한 인적 분할 결의",
+     "facts": [
+      "카카오가 AI 중심의 '카카오AI'와 투자·사업 성격의 '카카오X'로 인적 분할을 결정함",
+      "분할 비율은 카카오AI 0.36, 카카오X 0.64로 결정됨"
+     ],
+     "interpretation": "AI 사업의 실행 속도를 높이고 자본 배분 체계를 최적화하여 기업 가치를 제고하려는 전략적 선택으로, 독립 경영을 통해 각 사업 부문의 전문성을 강화하려는 의도임.",
+     "affected_company_ids": [],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "분할 이후 각 신설 법인의 구체적인 수익 모델 및 경영 성과.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "dcd4d669e2b33c37",
+      "c3a29bae9c9fb4d3"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "다날, 삼성전자·구글 등이 참여하는 글로벌 스테이블코인 생태계 합류",
+     "facts": [
+      "다날이 달러 기반 스테이블코인 '오픈 USD(OUSD)' 컨소시엄에 핵심 참여사로 합류함",
+      "해당 컨소시엄에는 삼성전자, 구글, 비자, 마스터카드 등 140여개 기업이 참여 중"
+     ],
+     "interpretation": "디지털 자산 결제 표준화 과정에서 글로벌 빅테크와 협력하여 결제 인프라 시장 내 영향력을 확대하려는 시도로 판단됨.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "alphabet"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "OUSD의 실제 상용화 범위 및 금융권 내 채택률.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "953e94831f5dcca4"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "2221c6db5649e48d",
+   "title": "엔비디아, 코딩 스타트업 풀사이드와 8조 규모 라이선스·인재 채용 계약",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214200",
+   "source": "AI타임스"
+  },
+  {
+   "id": "0364bfdf63a270cc",
+   "title": "국내 반도체 장비업계 '방긋'...삼성·SK 증설에 수주잔고 2배 급증",
+   "url": "https://zdnet.co.kr/view/?no=20260821104801",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "dcd4d669e2b33c37",
+   "title": "카카오 쪼갠다…카카오AI와 카카오X로 분할",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61193",
+   "source": "디일렉"
+  },
+  {
+   "id": "7e3d68776480222c",
+   "title": "Micron CEO: AI has 'totally changed' the equation for the boom-and-bust memory industry",
+   "url": "https://www.cnbc.com/2026/08/20/micron-ceo-ai-changed-memory-industry.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "953e94831f5dcca4",
+   "title": "다날, 글로벌 스테이블코인 '오픈 USD' 생태계 합류",
+   "url": "https://www.etnews.com/20260821000122",
+   "source": "전자신문"
+  },
+  {
+   "id": "c3a29bae9c9fb4d3",
+   "title": "카카오, 2개 회사로 나뉜다…카카오AI-카카오X로 성장 재설계",
+   "url": "https://zdnet.co.kr/view/?no=20260821102850",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

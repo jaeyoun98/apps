@@ -1,0 +1,193 @@
+{
+ "generated_at": "2026-08-24T12:51:09Z",
+ "date": "2026-08-24",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 및 반도체 시장은 NVIDIA의 기술적 우위와 생태계 확장, 그리고 주요 빅테크 기업들의 자체 칩 전환 움직임이 공존하는 양상입니다. 한국 기업들은 정부 주도의 메가 프로젝트와 연계된 투자 및 협력 강화에 집중하고 있습니다.",
+   "stories": [
+    {
+     "headline": "NVIDIA, AI 모델 라우팅 효율화 기술 및 퍼플렉시티 투자 논의",
+     "facts": [
+      "NVIDIA가 AI 모델 간 KV 캐시를 재활용하는 '크로스 모델 KV 캐시 전송' 기술을 제시함",
+      "NVIDIA가 AI 검색 스타트업 퍼플렉시티에 수십억 달러 규모의 지분 투자를 논의 중임",
+      "투자가 성사될 경우 퍼플렉시티의 기업 가치는 300억 달러를 상회할 전망임"
+     ],
+     "interpretation": "기술적으로는 AI 에이전트의 연산 병목을 해결하여 GPU 효율성을 높이고, 전략적으로는 AI 검색 생태계에 직접 투자하여 자사 하드웨어 수요 기반을 공고히 하려는 의도로 해석됨.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "NVIDIA의 퍼플렉시티 투자 확정 여부 및 실적 발표에서의 AI 생태계 전략 구체화.",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "3cc743d3323c6510",
+      "9567c09a7f48d5a4"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "빅테크 기업들의 자체 하드웨어 전환 가속화",
+     "facts": [
+      "Microsoft 등 AI 벤더들이 데이터센터 내에서 NVIDIA GPU 의존도를 낮추고 커스텀 하드웨어 도입을 확대하고 있음",
+      "Xiaomi가 자체 프로세서 개발을 위해 TSMC 제조 의존도를 높이고 있음"
+     ],
+     "interpretation": "데이터센터 비용 효율화와 공급망 다변화를 위해 빅테크들이 자체 칩(ASIC) 개발을 강화하고 있어, 장기적으로 범용 GPU 시장의 경쟁 심화 요인이 될 수 있음.",
+     "affected_company_ids": [
+      "nvidia",
+      "microsoft",
+      "tsmc"
+     ],
+     "event_type": "supply_chain",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "주요 클라우드 기업들의 자체 칩 도입 비중 및 NVIDIA GPU 점유율 변화 추이.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f14179c7414850d5",
+      "e9f4cca805f69a2d"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "한국 정부, 삼성전자·SK하이닉스 등 반도체 메가 프로젝트 지원",
+     "facts": [
+      "이재명 대통령이 이재용 삼성전자 회장 등 주요 그룹 총수들과 잇단 회동을 통해 '3대 메가 프로젝트' 논의 예정",
+      "삼성전자가 올해 글로벌 스마트폰 출하량 1위를 탈환할 것으로 전망됨"
+     ],
+     "interpretation": "정부의 첨단산업 지원 의지가 확인되고 있으나, 실질적인 투자 집행과 규제 완화가 동반되어야 기업 경쟁력 제고로 이어질 것임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "대통령과 기업 총수 회동 이후 구체적인 정책 지원책 발표 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "94f168899385c5cf",
+      "b6544f17696b5cf7",
+      "aedbe2aa0ead6511"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 및 AI 서비스 분야는 보안 이슈와 함께 AI 기술의 실무 적용이 확대되고 있으나, 서비스 장애 및 프라이버시 논란 등 운영 리스크도 동시에 부각되고 있습니다.",
+   "stories": [
+    {
+     "headline": "앤트로픽 클로드 서비스 장애 발생",
+     "facts": [
+      "앤트로픽의 AI 서비스 '클로드'가 챗봇 및 코딩 서비스 전반에서 장애를 일으킴",
+      "정상화 시점은 미정인 상태임"
+     ],
+     "interpretation": "AI 서비스의 의존도가 높아지는 상황에서 발생한 이번 장애는 기업 고객들의 신뢰도 및 서비스 안정성 검증에 대한 요구를 높일 것으로 보임.",
+     "affected_company_ids": [],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "앤트로픽의 장애 원인 분석 및 서비스 복구 완료 시점.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "142d2044c545779d"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "AI 기술의 교육 및 산업 현장 도입 확대",
+     "facts": [
+      "하버드 경영대학원이 창업 부트캠프에 강사의 AI 아바타 피드백 시스템 도입",
+      "마음AI와 삼정오토메이션이 피지컬AI 교육 생태계 확대를 위한 MOU 체결"
+     ],
+     "interpretation": "AI가 단순 텍스트 생성을 넘어 교육 및 로봇 제어 등 물리적 환경으로 확장되고 있으며, 이는 관련 소프트웨어 기업들의 B2B 시장 확대 기회로 작용함.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "AI 아바타 및 피지컬 AI 솔루션의 실제 교육 성과 및 시장 채택률.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9b3392b316b36d9e",
+      "7252a61385975de4"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "9b3392b316b36d9e",
+   "title": "하버드 경영대학원 97만원짜리 창업 부트캠프, 강사 AI 아바타가 피드백 준다",
+   "url": "https://zdnet.co.kr/view/?no=20260824202539",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "f14179c7414850d5",
+   "title": "AI vendors are turning to custom hardware as Microsoft winds back the clock on Windows",
+   "url": "https://www.theregister.com/ai-and-ml/2026/08/24/ai-vendors-are-turning-to-custom-hardware-as-microsoft-winds-back-the-clock-on-windows/5291293",
+   "source": "The Register"
+  },
+  {
+   "id": "e9f4cca805f69a2d",
+   "title": "Xiaomi taps TSMC to make chips for foldables, AI and autonomous driving",
+   "url": "https://www.digitimes.com/news/a20260824VL216/xiaomi-autonomous-driving-tsmc-chips-smartphone.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "94f168899385c5cf",
+   "title": "AI·반도체 '메가 프로젝트' 주마가편…이 대통령, 재계 총수 잇단 만남",
+   "url": "https://www.etnews.com/20260824000357",
+   "source": "전자신문"
+  },
+  {
+   "id": "3cc743d3323c6510",
+   "title": "엔비디아, 퍼플렉시티에 수십억달러 투자 논의…기업 가치 41조 평가",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214316",
+   "source": "AI타임스"
+  },
+  {
+   "id": "9567c09a7f48d5a4",
+   "title": "엔비디아, AI 모델 라우팅 병목 뚫었다...‘선형 연산’으로 KV 캐시 전송 성공",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214291",
+   "source": "AI타임스"
+  },
+  {
+   "id": "b6544f17696b5cf7",
+   "title": "이재명 대통령, 정의선·이재용 회장 만날 듯…3대 메가프로젝트 논의",
+   "url": "https://zdnet.co.kr/view/?no=20260824194831",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "7252a61385975de4",
+   "title": "마음AI-삼정오토메이션, 국산 피지컬AI 교육 확대 협력",
+   "url": "https://zdnet.co.kr/view/?no=20260824194658",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "aedbe2aa0ead6511",
+   "title": "삼성전자, 올해 스마트폰 출하량 세계 1위 탈환 전망",
+   "url": "https://zdnet.co.kr/view/?no=20260824170523",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "142d2044c545779d",
+   "title": "앤트로픽, 클로드 챗봇·코딩 서비스 장애…정상화 시점 '미정'",
+   "url": "https://zdnet.co.kr/view/?no=20260824162913",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

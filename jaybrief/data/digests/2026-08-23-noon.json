@@ -1,0 +1,177 @@
+{
+ "generated_at": "2026-08-23T04:08:50Z",
+ "date": "2026-08-23",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 수요 급증에 따른 엔비디아의 서버 가격 인상과 메모리 반도체 공급망의 변화가 주요 이슈입니다. AI 반도체 주도권 경쟁이 심화되는 가운데, 국내 기업들의 인적·기술적 대응이 이어지고 있습니다.",
+   "stories": [
+    {
+     "headline": "엔비디아, AI 서버 가격 15% 인상 예고",
+     "facts": [
+      "엔비디아가 내년 초 출하분부터 AI 칩 시스템 가격을 15% 이상 인상한다고 주요 고객사에 통보함",
+      "인상 대상에는 최신 AI 칩인 '베라 루빈'과 '그레이스 블랙웰' 기반 시스템이 포함됨",
+      "메모리 반도체 가격 급등이 주요 인상 요인으로 지목됨"
+     ],
+     "interpretation": "AI 서버의 핵심 부품인 HBM 등 메모리 가격 상승분을 엔비디아가 고객사에 전가하는 구조입니다. 이는 마이크로소프트, 구글 등 빅테크 기업의 데이터센터 투자 비용 부담을 가중시킬 전망입니다.",
+     "affected_company_ids": [
+      "nvidia",
+      "microsoft",
+      "alphabet",
+      "oracle"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "빅테크 기업들의 차기 분기 실적 발표에서 데이터센터 자본지출(CAPEX) 조정 여부를 확인해야 합니다.",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "86457277b260cd94",
+      "c16fa44a75032bf3",
+      "0289c73a0c9d47e6"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "앤트로픽, 구글 TPU 핵심 인재 영입으로 자체 칩 개발 가속화",
+     "facts": [
+      "앤트로픽이 구글 TPU 프로그램 창립 멤버이자 1~7세대 칩 개발을 총괄한 아미르 살렉을 영입함",
+      "앤트로픽은 자체 프로세서 사업 확대를 본격화하고 있음"
+     ],
+     "interpretation": "AI 모델 기업들이 범용 GPU 의존도를 낮추고 자체 맞춤형 칩(ASIC) 개발을 통해 추론 효율성과 비용 경쟁력을 확보하려는 전략적 움직임입니다.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "앤트로픽의 자체 칩 개발이 실제 상용화 단계로 진입하는지 여부가 중요합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "570476f06b131c98"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "SK하이닉스, 성과급 60% 주식 지급 잠정 합의",
+     "facts": [
+      "SK하이닉스 노사가 성과급(PS)의 60%를 주식으로 지급하기로 잠정 합의함",
+      "적자 상황 시 노사가 함께 대응하는 단체교섭안 마련 및 임금인상률 6.3% 합의"
+     ],
+     "interpretation": "성과급을 주식으로 지급함으로써 임직원과 주주 간의 이해관계를 일치시키고, 현금 유출을 방지하여 재무 건전성을 확보하려는 조치로 해석됩니다.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "향후 주가 변동에 따른 임직원들의 성과급 체감 만족도 변화를 지켜봐야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4a5fe2a11e6e1028"
+     ],
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 기술의 고도화와 함께 이를 운용하기 위한 시스템 구조 및 국가별 AI 정책 대응이 활발합니다.",
+   "stories": [
+    {
+     "headline": "엔비디아, 범용 AI 에이전트 제어 시스템 '하네스' 기술 입증",
+     "facts": [
+      "엔비디아가 장기 자율 AI 에이전트의 성능을 높이는 '하네스(Harness)' 시스템 구조를 공개함",
+      "단순 질의응답을 넘어 스스로 계획을 세우고 실행하며 문제를 해결하는 능력을 입증함"
+     ],
+     "interpretation": "AI 모델 자체의 성능 경쟁을 넘어, AI를 안정적으로 제어하고 관리하는 시스템 인프라(하네스) 기술이 에이전트 AI 시대의 핵심 경쟁력이 될 것입니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "하네스 시스템이 실제 산업 현장에서 얼마나 범용적으로 적용되는지 확인이 필요합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e601d8cc75e7328d"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "구글, AI 개발용 원격 제어 도구 '안티그래비티' 출시",
+     "facts": [
+      "구글이 AI 개발자가 이동 중에도 개발 작업을 지속할 수 있도록 돕는 원격 제어 도구 '안티그래비티'를 출시함",
+      "에이전트 AI의 작업 시간이 길어짐에 따라 발생하는 개발자의 대기 문제 해결 목적"
+     ],
+     "interpretation": "AI 에이전트가 복잡한 시스템 리팩터링 등을 수행하면서 작업 시간이 길어지는 현상을 해결하여 개발 생산성을 높이려는 도구적 대응입니다.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "개발자 커뮤니티의 실제 채택률과 생산성 향상 지표를 모니터링해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3347c2f1c00cac03"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "570476f06b131c98",
+   "title": "앤트로픽, 구글 TPU 핵심 인재 영입…자체 AI 반도체 개발 속도",
+   "url": "https://zdnet.co.kr/view/?no=20260822230826",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "4a5fe2a11e6e1028",
+   "title": "SK하이닉스, 성과급 60% 주식 지급 잠정 합의...통합 노조 의식",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61177",
+   "source": "디일렉"
+  },
+  {
+   "id": "e601d8cc75e7328d",
+   "title": "\"LLM보다 하네스가 핵심\"…엔비디아 AVO, 장기 자율 AI 에이전트 가능성 입증",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214256",
+   "source": "AI타임스"
+  },
+  {
+   "id": "86457277b260cd94",
+   "title": "엔비디아, 고객사에 AI 서버 가격 15% 인상 예고",
+   "url": "https://www.etnews.com/20260823000044",
+   "source": "전자신문"
+  },
+  {
+   "id": "c16fa44a75032bf3",
+   "title": "\"AI 붐 청구서 도착\"…엔비디아 서버값 15% 오른다",
+   "url": "https://www.hankyung.com/article/2026082366417",
+   "source": "한국경제 IT"
+  },
+  {
+   "id": "0289c73a0c9d47e6",
+   "title": "메모리 폭등에 엔비디아 서버 최대 15% 인상...빅테크 부담 가중",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214253",
+   "source": "AI타임스"
+  },
+  {
+   "id": "3347c2f1c00cac03",
+   "title": "구글, '안티그래비티' 원격 제어 출시...\"이동 중에도 AI 개발 계속\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214259",
+   "source": "AI타임스"
+  }
+ ]
+}

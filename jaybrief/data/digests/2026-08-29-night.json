@@ -1,0 +1,202 @@
+{
+ "generated_at": "2026-08-29T14:35:35Z",
+ "date": "2026-08-29",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 확장세가 지속되는 가운데, 엔비디아의 기술적 우위가 GPU를 넘어 데이터센터 시스템 효율화로 확대되고 있으며, 미국 정부의 대중국 AI 칩 수출 통제 강화 움직임이 변수로 작용하고 있습니다.",
+   "stories": [
+    {
+     "headline": "엔비디아, GPU 중심에서 데이터센터 시스템 효율화로 경쟁력 확대",
+     "facts": [
+      "엔비디아는 차세대 데이터센터 시스템에서 프로세서 사이클 증가보다 스마트한 트래픽 제어를 통한 효율성 개선에 집중하고 있음",
+      "세일즈포스, 크라우드스트라이크, 엔비디아 등 주요 기업이 실적을 통해 AI 구축이 제로섬 게임이 아님을 증명함"
+     ],
+     "interpretation": "엔비디아의 경쟁력이 단순 하드웨어 성능을 넘어 데이터센터 전체의 아키텍처 효율성으로 전이되고 있어, 향후 AI 인프라 시장에서의 지배력이 더욱 공고해질 것으로 전망됨",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "데이터센터 시스템 효율화 기술이 엔비디아의 차기 실적 마진율에 미치는 영향 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "cd6072bfdc3f0d34",
+      "93473ee070973213"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "미국, 제3국 우회 통한 중국의 AI 칩 접근 차단 추진",
+     "facts": [
+      "미국 상무부 산업안보국(BIS)이 태국, 싱가포르 등 제3국 데이터센터를 통한 중국 기업의 첨단 AI 반도체 우회 접속을 차단하는 규정 마련 중",
+      "트럼프 행정부의 대중국 AI 수출 통제 허점을 막기 위한 조치"
+     ],
+     "interpretation": "중국 기업의 AI 인프라 구축에 제동이 걸리면서 글로벌 AI 반도체 수요의 단기적 불확실성이 커질 수 있으나, 미국 중심의 공급망 재편은 가속화될 것",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "미국 정부의 구체적인 수출 통제 규정 발표 및 제3국 데이터센터들의 대응 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b0af5ff67a68bcac"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "앤트로픽, 엔스케일과 대규모 컴퓨팅 파워 임대 계약 체결",
+     "facts": [
+      "앤트로픽이 영국 AI 인프라 기업 엔스케일과 6년간 450억달러 규모의 컴퓨팅 파워 임대 계약 체결",
+      "해당 데이터센터에서 엔비디아의 차세대 GPU 활용 예정"
+     ],
+     "interpretation": "빅테크 및 AI 스타트업들의 컴퓨팅 용량 확보 경쟁이 장기 계약 형태로 구체화되고 있으며, 이는 엔비디아의 안정적인 매출 기반으로 작용할 것",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "유사한 대규모 컴퓨팅 인프라 계약이 타 AI 기업으로 확산되는지 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "461c0e45c3640d51"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성전자·SK하이닉스, 엔비디아 호재에도 주가 약세 지속",
+     "facts": [
+      "엔비디아의 역대급 실적 발표와 삼성전자의 대규모 주주환원 정책에도 불구하고 국내 반도체 양사 주가는 동반 하락",
+      "시장에서는 박위 사고 등 개별 이슈와 자연재해 등 외부 요인이 검색량 상위를 차지하며 투자 심리가 분산됨"
+     ],
+     "interpretation": "반도체 섹터에 대한 펀더멘털 개선 기대감보다 수급 요인 및 대외 변수에 의한 주가 변동성이 커진 상태로, 기관 및 외국인 수급 변화가 중요함",
+     "affected_company_ids": [
+      "nvidia",
+      "sk-hynix",
+      "samsung-electronics"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "medium",
+     "watch_next": "외국인 투자자의 국내 반도체 주식 순매수 전환 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8ea7576ba4a31d8a"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 기술이 고도화되면서 기업들의 업무 효율성 지표가 변화하고 있으며, 데이터센터 전력 문제와 AI 윤리 이슈가 사회적·정치적 쟁점으로 부상하고 있습니다.",
+   "stories": [
+    {
+     "headline": "구글, 제미나이 라이브에 에이전트 기능 강화 및 전자책 지식 연동",
+     "facts": [
+      "구글이 제미나이 라이브에 복잡한 연쇄 작업을 수행하는 에이전트 '제미나이 스파크'를 통합",
+      "제미나이 노트북에 구매한 전자책 콘텐츠를 지식 기반으로 추가하는 기능 공개"
+     ],
+     "interpretation": "AI가 단순 검색을 넘어 실제 업무를 처리하는 에이전트로 진화하고 있으며, 검증된 데이터를 활용해 환각 현상을 줄이려는 시도가 서비스 경쟁력의 핵심이 됨",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "에이전트 기능 도입 이후 구글의 생산성 도구 점유율 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9723b2845624a204",
+      "95f325b598c830eb"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "AI 데이터센터 전력 문제, 선거 및 규제 이슈로 부상",
+     "facts": [
+      "데이터센터 전력 소비 문제가 미국 선거의 주요 쟁점으로 부상",
+      "메타의 소셜미디어 관련 소송 합의와 맞물려 빅테크에 대한 규제 압박이 거세짐"
+     ],
+     "interpretation": "AI 인프라 확장이 환경 및 사회적 비용 문제와 충돌하며 정치적 리스크로 작용하고 있어, 향후 데이터센터 운영 비용 증가 및 규제 준수 비용이 상승할 가능성",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "미국 대선 전후로 한 데이터센터 전력 사용 관련 규제 법안 발의 여부",
+     "upcoming_event_ids": [
+      "fomc-2026-09"
+     ],
+     "article_ids": [
+      "a01cc20a4c501d7d"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "8ea7576ba4a31d8a",
+   "title": "[AI 이슈트렌드] 엔비디아 호재 안 통한 삼전·하이닉스…박위 사고·제주 실종 파장",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214606",
+   "source": "AI타임스"
+  },
+  {
+   "id": "cd6072bfdc3f0d34",
+   "title": "The big lesson from this week's earnings: The AI buildout is not a zero-sum game",
+   "url": "https://www.cnbc.com/2026/08/29/big-lesson-from-this-weeks-earnings-ai-buildout-is-not-a-zero-sum-game.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "93473ee070973213",
+   "title": "Nvidia’s AI advantage is moving beyond the GPU",
+   "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "461c0e45c3640d51",
+   "title": "앤트로픽, 엔스케일 계약 이어 칩 스타트업 협상…컴퓨팅 용량 확보 '총력전'",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214604",
+   "source": "AI타임스"
+  },
+  {
+   "id": "9723b2845624a204",
+   "title": "구글, 구매한 전자책과 '제미나이 노트북' 연결…‘전문가 인텔리전스’ 공개",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214600",
+   "source": "AI타임스"
+  },
+  {
+   "id": "b0af5ff67a68bcac",
+   "title": "미국, 중국의 AI 칩 '우회 원격 접속' 차단 추진…수출 통제 허점 막는다",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214602",
+   "source": "AI타임스"
+  },
+  {
+   "id": "a01cc20a4c501d7d",
+   "title": "Tech backlash reaches fever pitch as AI angst collides with social media fears",
+   "url": "https://www.cnbc.com/2026/08/29/tech-backlash-ai-data-centers-elections.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "95f325b598c830eb",
+   "title": "구글, '제미나이 라이브'에 에이전트 탑재…음성으로 일정·이메일 제어",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214599",
+   "source": "AI타임스"
+  }
+ ]
+}

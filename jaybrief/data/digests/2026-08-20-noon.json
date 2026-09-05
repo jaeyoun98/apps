@@ -1,0 +1,168 @@
+{
+ "generated_at": "2026-08-20T04:06:02Z",
+ "date": "2026-08-20",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 산업은 첨단 파운드리 가격 인상과 HBM 생산 시설 투자, 그리고 AI 인프라를 위한 차세대 광 인터커넥트(CPO) 기술 개발 등 공급망과 기술 경쟁력을 강화하는 방향으로 전개되고 있습니다.",
+   "stories": [
+    {
+     "headline": "삼성전자, 첨단 파운드리 단가 최대 15% 인상",
+     "facts": [
+      "삼성전자가 신규 주문 건을 대상으로 4나노(SF4) 공정 공급 단가를 최대 15% 인상함",
+      "중국 및 미국 고객사에는 10~15%, 대만 고객사에는 5~10% 인상률 적용"
+     ],
+     "interpretation": "수익성 개선을 위한 파운드리 가격 정상화 전략으로 풀이되며, 내년 흑자 전환을 위한 비용 구조 개선 및 경쟁사 대비 가격 경쟁력 조정의 일환으로 해석됨.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "tsmc"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "파운드리 단가 인상이 실제 고객사 이탈 없이 수주 물량 유지로 이어지는지 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "68dd5c9a5f2ece2d"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "SK하이닉스, 차세대 AI 인프라 'CPO' 기술 로드맵 공개",
+     "facts": [
+      "SK하이닉스가 차세대 광 인터커넥트 기술인 CPO 발전 방향을 담은 논문을 네이처 일렉트로닉스에 게재함",
+      "메모리를 넘어 랙, 포드 등 시스템 관점에서 데이터 병목 현상 해결을 목표로 함"
+     ],
+     "interpretation": "AI 및 고성능 컴퓨팅 환경에서 데이터 전송 속도와 효율성을 극대화하여 차세대 AI 인프라 시장에서의 기술적 주도권을 확보하려는 전략임.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "CPO 기술의 실제 상용화 시점 및 주요 데이터센터 고객사 도입 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e75b8fdedcf1a525",
+      "dc7d23c094277a62"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성전자, 6조 원 규모 HBM 패키징 공장 착공",
+     "facts": [
+      "삼성전자가 9월 아산 온양 캠퍼스에 6조 원 규모의 HBM 생산 및 첨단 패키징 시설 착공 예정"
+     ],
+     "interpretation": "AI 반도체 수요 급증에 대응하여 HBM 생산 능력을 대폭 확충하고, 패키징 기술 경쟁력을 강화하여 시장 점유율을 방어하려는 의도임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "해당 시설 완공 후 HBM 생산 수율 및 공급 안정성 확보 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2bedd23e74371b69"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 및 AI 섹터는 피지컬 AI 육성 프로그램과 기업용 AI 보안 기술 강화, 그리고 AI 코딩 에이전트의 확산이 주요 흐름으로 나타나고 있습니다.",
+   "stories": [
+    {
+     "headline": "AWS, 국내 피지컬 AI 육성 프로그램 실시",
+     "facts": [
+      "아마존웹서비스(AWS)가 국내 피지컬 AI 기업의 솔루션 상용화를 지원하는 'AWS 코리아 피지컬 AI 프론티어 프로그램' 출범",
+      "로보틱스, 자율주행, 디지털 트윈 등 산업 전반의 PoC부터 상용화까지 지원"
+     ],
+     "interpretation": "국내 피지컬 AI 생태계를 선점하고, 자사 클라우드 인프라를 활용한 AI 솔루션 확산을 통해 B2B 시장에서의 영향력을 확대하려는 전략임.",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "프로그램 참여 기업들의 실제 상용화 성과 및 AWS 클라우드 점유율 변화.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4404bca94cb09de5",
+      "01084f66e7b87437"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "오픈AI, 기업용 데이터 보안 강화 기술 공개",
+     "facts": [
+      "오픈AI가 프롬프트와 모델 응답을 저장하지 않으면서 위험 신호를 탐지하는 보안 기술 선보임"
+     ],
+     "interpretation": "기업 고객의 가장 큰 우려 사항인 데이터 유출 및 보안 문제를 해결함으로써, 엔터프라이즈 AI 시장에서의 채택률을 높이려는 조치임.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "기업 고객들의 보안 기술 도입 속도 및 경쟁사들의 대응 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "578af00c96e8cc66"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "68dd5c9a5f2ece2d",
+   "title": "삼성전자 파운드리 단가 최대 15% 인상...\"내년 흑자 전환 기대\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214139",
+   "source": "AI타임스"
+  },
+  {
+   "id": "2bedd23e74371b69",
+   "title": "Samsung to break ground on KRW6 trillion Onyang HBM packaging plant in September",
+   "url": "https://www.digitimes.com/news/a20260820VL203/samsung-hbm-packaging-plant-production.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "e75b8fdedcf1a525",
+   "title": "SK하이닉스, 네이처 일렉트로닉스 논문으로 ‘랙·포드·시스템’ CPO 상용화 청사진 증명",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340745",
+   "source": "KIPOST"
+  },
+  {
+   "id": "dc7d23c094277a62",
+   "title": "빛으로 데이터 병목 해결...SK하이닉스, 차세대 AI 인프라 'CPO' 로드맵 공개",
+   "url": "https://zdnet.co.kr/view/?no=20260820082533",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "4404bca94cb09de5",
+   "title": "AWS, 피지컬 AI 육성 프로그램 실시...리얼월드 등 국내 15개사 참여",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214143",
+   "source": "AI타임스"
+  },
+  {
+   "id": "578af00c96e8cc66",
+   "title": "오픈AI, '기업용 데이터 보안'으로 승부...프롬프트·응답 저장 안 해",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214137",
+   "source": "AI타임스"
+  },
+  {
+   "id": "01084f66e7b87437",
+   "title": "AWS, 한국 피지컬 AI 생태계 육성한다…로보틱스 상용화 앞장",
+   "url": "https://zdnet.co.kr/view/?no=20260820104833",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

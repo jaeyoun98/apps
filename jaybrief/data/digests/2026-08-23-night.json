@@ -1,0 +1,76 @@
+{
+ "generated_at": "2026-08-23T12:40:24Z",
+ "date": "2026-08-23",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 수요 증가에 따른 메모리 가격 상승세와 엔비디아의 공급망 비용 부담이 반도체 섹터의 핵심 이슈로 부상함.",
+   "stories": [
+    {
+     "headline": "엔비디아, AI 서버 메모리 가격 15% 인상 예고",
+     "facts": [
+      "엔비디아가 AI 서버용 메모리 가격을 15% 인상할 계획임",
+      "메모리 공급 부족 및 비용 상승이 주요 원인으로 지목됨"
+     ],
+     "interpretation": "AI 가속기 시장의 지배적 사업자인 엔비디아가 메모리 비용 상승분을 서버 가격에 전가함에 따라, AI 인프라 투자 비용(CAPEX) 부담이 가중될 수 있음. 이는 향후 AI 모델 학습 및 추론 비용 효율성에 영향을 미칠 수 있는 요소임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "supply_chain",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "엔비디아의 FY2027 Q2 실적 발표에서 메모리 비용 상승이 마진율에 미치는 영향 확인 필요.",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "a8bac700344aabc6"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "글로벌 AI 모델 시장의 가격 경쟁 심화와 소프트웨어 산업의 성장성 및 리스크 요인이 혼재된 상황.",
+   "stories": [
+    {
+     "headline": "오픈AI, 고성능 모델 'GPT-5.6 솔' 가격 20% 인하",
+     "facts": [
+      "오픈AI가 최상위 모델 'GPT-5.6 솔' API 및 크레딧 가격을 3개월간 20% 인하함",
+      "AI 모델 시장 내 경쟁 심화에 따른 접근성 확대 전략임"
+     ],
+     "interpretation": "AI 모델의 범용화와 경쟁 격화로 인해 수익성보다는 시장 점유율 방어와 생태계 확장이 우선시되는 국면임. 이는 관련 SW 기업들의 마진 압박 요인으로 작용할 수 있음.",
+     "affected_company_ids": [],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "경쟁사들의 대응 가격 정책 및 모델 성능 격차 변화 추이.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3391e9030524918e"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "a8bac700344aabc6",
+   "title": "엔비디아도 못 버틴 메모리값⋯AI 서버 가격 15% 인상 예고",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5JMHNhQ25GdEFaTlZLek8wekpqaE1nWU1xbnN1UThkQ0lHbGUtdXZQaVdCQ1BMWmFhYzFacFdQQVZLb3FUSms2OFlfQQ?oc=5",
+   "source": "inews24.com"
+  },
+  {
+   "id": "3391e9030524918e",
+   "title": "오픈AI, 최고급 'GPT-5.6 솔' 가격 한시 인하…3개월간 20%↓",
+   "url": "https://www.etnews.com/20260823000066",
+   "source": "전자신문"
+  }
+ ]
+}

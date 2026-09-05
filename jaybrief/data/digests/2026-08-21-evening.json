@@ -1,0 +1,238 @@
+{
+ "generated_at": "2026-08-21T09:57:36Z",
+ "date": "2026-08-21",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 삼성전자와 SK하이닉스의 대규모 주주환원 및 투자 계획, 그리고 AI 메모리 기술 경쟁력 강화가 핵심 이슈입니다. 특히 AI 인프라 확장에 따른 메모리 수요 대응과 차세대 패키징 기술 확보가 주요 전략으로 부상하고 있습니다.",
+   "stories": [
+    {
+     "headline": "삼성전자, 사상 최대 110조원 주주환원 및 AI 메모리 R&D 강화",
+     "facts": [
+      "삼성전자가 올해 90조~110조원 규모의 주주환원 방안을 의결함",
+      "3분기 약 30조원 규모의 현금 배당을 포함한 주주환원 정책 시행",
+      "SAIT(삼성종합기술원)가 탄소 활용 초미세 배선 저항 감소 기술을 구현하여 '사이언스'지에 게재"
+     ],
+     "interpretation": "주주환원 정책을 통해 시장의 신뢰를 회복하고, AI 반도체 미세화 난제 해결 기술을 확보함으로써 기술적 우위를 증명하려는 전략입니다.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "주주환원 정책 이행에 따른 실제 자본 효율성 개선 여부 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8b9e100814fd85d1",
+      "da8b1f4c65d8cf09",
+      "7c81c2e503ad1249",
+      "b67caa5d0e84dd20",
+      "eb50e3f5eaf59397"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "마이크론, AI 메모리 전문 연구소 설립에 100억 달러 투자",
+     "facts": [
+      "마이크론이 아이다호주 본사 인근에 '마이크론 리서치 랩스' 설립",
+      "향후 10년간 AI용 차세대 메모리 기술 개발을 위해 100억 달러 투자",
+      "2027년 착공 예정"
+     ],
+     "interpretation": "AI 메모리 시장의 주도권을 확보하기 위한 장기적 R&D 투자로, HBM 등 고부가가치 메모리 시장에서의 경쟁 심화를 예고합니다.",
+     "affected_company_ids": [
+      "micron"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "연구소 설립 이후 차세대 메모리 제품의 상용화 시점",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3314989bf24b983e",
+      "d76dd92357d227d1",
+      "d1e9fcbcf1e0bc00"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "엔비디아, 중국 전용 LPU 개발설 부인 및 풀사이드와 기술 협력",
+     "facts": [
+      "엔비디아가 중국 전용 LPU 로드맵이 없다고 공식 부인",
+      "AI 코딩 스타트업 풀사이드와 60억 달러 규모 라이선스 및 인재 채용 계약 체결"
+     ],
+     "interpretation": "중국 시장 진출의 불확실성을 해소하는 한편, AI 모델 개발 역량 강화를 위해 스타트업 인수를 통한 기술 내재화에 집중하고 있습니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "엔비디아의 FY2027 Q2 실적 발표에서 AI 칩 수요 및 중국 시장 관련 언급",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "dc68c84d16f46382",
+      "2221c6db5649e48d"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 테크 섹터는 AI 기반의 업무 혁신과 기업 구조 개편이 활발합니다. 특히 카카오의 인적 분할과 빅테크 기업 간의 AI 인프라 의존 구조가 주목받고 있습니다.",
+   "stories": [
+    {
+     "headline": "카카오, AI와 투자 사업 분리 위한 인적 분할 결의",
+     "facts": [
+      "카카오가 카카오AI와 카카오X로 인적 분할을 결의함",
+      "분할 비율은 카카오AI 0.36, 카카오X 0.64",
+      "AI 사업 집중 및 경영 효율화가 목적"
+     ],
+     "interpretation": "복합기업 할인(Conglomerate Discount) 해소를 위한 전략이나, 시장에서는 분할 후 기업 가치 산정에 대한 불확실성으로 인해 단기적 주가 하락이 발생했습니다.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "분할 이후 각 신설 법인의 구체적인 수익 모델 및 성장 전략",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "1a50fcc383df6449",
+      "8a3daaa465b96232",
+      "0d4754aed4cd668c",
+      "34ad7f66e303fca0",
+      "990872105bf12603"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "빅테크 기업 간 AI 인프라 순환 의존 심화",
+     "facts": [
+      "메타가 자체 인프라 외에도 마이크로소프트의 클라우드 '애저'를 대규모로 활용 중",
+      "빅테크 기업들이 서로의 클라우드, 모델, 인프라를 이용하는 구조가 확대"
+     ],
+     "interpretation": "AI 경쟁에서 우위를 점하기 위해 기업 간 인프라 공유 및 상호 의존성이 높아지고 있으며, 이는 클라우드 서비스 제공업체(CSP)의 매출 성장을 견인하고 있습니다.",
+     "affected_company_ids": [
+      "microsoft",
+      "meta"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "빅테크 기업들의 클라우드 인프라 투자 규모 지속 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "a31415241d11149e"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "8b9e100814fd85d1",
+   "title": "삼성전자, 올해 최대 110조원 주주환원...국내 기업 첫 100조 돌파",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61226",
+   "source": "디일렉"
+  },
+  {
+   "id": "da8b1f4c65d8cf09",
+   "title": "Samsung plans up to $80 billion in shareholder returns after SK Hynix buyback",
+   "url": "https://www.cnbc.com/2026/08/21/samsung-shareholder-return-package-sk-hynix-buyback-ai-chip-boom.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "1a50fcc383df6449",
+   "title": "카카오 분할, \"카카오X 지주회사 계획 없다\"...주가는 7% 하락",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61216",
+   "source": "디일렉"
+  },
+  {
+   "id": "dc68c84d16f46382",
+   "title": "중국 맞춤형 AI 칩 재진출설에...엔비디아 \"중국 전용 LPU 로드맵 없어\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214214",
+   "source": "AI타임스"
+  },
+  {
+   "id": "3314989bf24b983e",
+   "title": "美 마이크론, AI 메모리 연구소 설립…10년간 100억 달러 투자",
+   "url": "https://zdnet.co.kr/view/?no=20260821162124",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "d1e9fcbcf1e0bc00",
+   "title": "Chip Industry Week In Review",
+   "url": "https://semiengineering.com/chip-industry-week-in-review-152/",
+   "source": "Semiconductor Engineering"
+  },
+  {
+   "id": "eb50e3f5eaf59397",
+   "title": "삼성전자 SAIT, AI 반도체 '초미세 배선 저항' 난제 풀 기술 구현",
+   "url": "https://www.etnews.com/20260821000219",
+   "source": "전자신문"
+  },
+  {
+   "id": "d76dd92357d227d1",
+   "title": "마이크론, 14조 투자해 미국 첫 AI 메모리 전문 연구소 설립",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214209",
+   "source": "AI타임스"
+  },
+  {
+   "id": "8a3daaa465b96232",
+   "title": "카카오 'AI'와 '투자'로 쪼갠다…인적 분할 결의",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61193",
+   "source": "디일렉"
+  },
+  {
+   "id": "2221c6db5649e48d",
+   "title": "엔비디아, 코딩 스타트업 풀사이드와 8조 규모 라이선스·인재 채용 계약",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214200",
+   "source": "AI타임스"
+  },
+  {
+   "id": "7c81c2e503ad1249",
+   "title": "삼성전자, 역대 최대 110조 주주환원 예고…3분기 30조 현금 배당부터",
+   "url": "https://www.etnews.com/20260821000278",
+   "source": "전자신문"
+  },
+  {
+   "id": "990872105bf12603",
+   "title": "카카오, 'AI와 X'로 인적분할",
+   "url": "https://www.hankyung.com/article/2026082155191",
+   "source": "한국경제 IT"
+  },
+  {
+   "id": "b67caa5d0e84dd20",
+   "title": "[속보] 삼성전자, 역대 최대 110조원 규모 주주환원 시행",
+   "url": "https://zdnet.co.kr/view/?no=20260821171459",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "0d4754aed4cd668c",
+   "title": "카카오 인적분할 결단...\"호재\" vs \"악재\"",
+   "url": "https://zdnet.co.kr/view/?no=20260821141013",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "34ad7f66e303fca0",
+   "title": "카카오 \"34조 가치 제대로 평가받겠다…지주사 전환은 없어\"",
+   "url": "https://zdnet.co.kr/view/?no=20260821155452",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "a31415241d11149e",
+   "title": "메타, MS '애저' 최대 고객사로 부상...빅테크 ‘AI 순환 의존’ 심화",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214222",
+   "source": "AI타임스"
+  }
+ ]
+}

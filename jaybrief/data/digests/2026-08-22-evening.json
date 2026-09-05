@@ -1,0 +1,126 @@
+{
+ "generated_at": "2026-08-22T09:48:29Z",
+ "date": "2026-08-22",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "삼성전자의 대규모 주주환원 정책 발표와 스마트폰 시장 점유율 방어 전망이 주요 이슈이며, AI 데이터센터 인프라 투자 확대 기조가 지속되고 있습니다.",
+   "stories": [
+    {
+     "headline": "삼성전자, 2026년 90조~110조원 규모 역대 최대 주주환원 발표",
+     "facts": [
+      "삼성전자가 2026년 주주환원 규모를 90조~110조원으로 의결함",
+      "기존 최대였던 2020년 20조3천억원 대비 약 5배 수준"
+     ],
+     "interpretation": "주주 가치 제고를 통해 회사의 성장 성과를 공유하고 시장 신뢰를 강화하려는 의도로 해석됩니다. 대규모 자본 유출이 재무 구조나 향후 설비 투자(CAPEX)에 미칠 영향은 추가 확인이 필요합니다.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "대규모 주주환원 이후 실제 집행 과정에서의 현금 흐름과 투자 여력 변화를 모니터링해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "17b3399df11fc646"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "카운터포인트: 글로벌 스마트폰 시장 위축 속 삼성전자 1위 유지 전망",
+     "facts": [
+      "올해 글로벌 스마트폰 출하량이 전년 대비 14.3% 감소할 것으로 예상됨",
+      "삼성전자는 주요 제조사 중 유일하게 출하량 증가가 전망됨"
+     ],
+     "interpretation": "메모리 가격 상승과 경기 침체라는 악재 속에서도 삼성전자의 시장 지배력이 견고함을 시사합니다. 이는 메모리 반도체 부문의 안정적인 수요처 확보 측면에서 긍정적입니다.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "실제 분기별 스마트폰 출하량 데이터와 메모리 반도체 판가 추이를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b031980760e3a692"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 인프라 구축을 위한 정부 주도의 AIDC 추진과 기업들의 AI 보안 및 데이터 관리 역량 강화가 핵심입니다.",
+   "stories": [
+    {
+     "headline": "정부, '범정부 AIDC 추진단' 설립 및 메가프로젝트 R&D 본격화",
+     "facts": [
+      "정부가 AI 데이터센터(AIDC) R&D 사업을 전담할 조직 설립 추진",
+      "550조원 규모 민간 투자와 연계하여 국산 장비 및 솔루션 확보 목표"
+     ],
+     "interpretation": "국내 AI 인프라 생태계 조성을 위한 정책적 지원이 강화되고 있습니다. 국산 솔루션 도입이 확대될 경우 관련 국내 SW 및 인프라 기업에 기회가 될 수 있습니다.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "추진단의 구체적인 예산 배정 및 실제 국산 장비 도입 비중을 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "a5a3dcfa98347661"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "앤트로픽, 사이버 보안 특화 모델 '클로드 미소스 5' 기업용 제품 통합",
+     "facts": [
+      "앤트로픽이 '클로드 미소스 5'를 기업용 보안 제품 '클로드 시큐리티'에 통합",
+      "코드 취약점 탐지 및 수정 방안 제안 기능 제공"
+     ],
+     "interpretation": "AI 모델이 단순 생성형을 넘어 기업의 보안 인프라로 직접 침투하고 있습니다. 기업용 AI 보안 시장의 경쟁이 격화될 것으로 보입니다.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "기업 고객들의 실제 도입률과 보안 성능에 대한 시장 평가를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "441d1801155883bf"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "17b3399df11fc646",
+   "title": "삼성전자, 올해 약 90조~110조원 규모 사상 최대 주주환원 실시…국내 기업 역대 최대",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=340799",
+   "source": "KIPOST"
+  },
+  {
+   "id": "b031980760e3a692",
+   "title": "카운터포인트 \"올해 스마트폰 출하량 14%↓...삼성, 유일한 출하량 증가 전망\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214245",
+   "source": "AI타임스"
+  },
+  {
+   "id": "a5a3dcfa98347661",
+   "title": "'범정부 AIDC 추진단' 만든다...메가프로젝트 R&D사업 전담",
+   "url": "https://www.etnews.com/20260821000256",
+   "source": "전자신문"
+  },
+  {
+   "id": "441d1801155883bf",
+   "title": "앤트로픽, '미소스 5' 적용 범위 확대…악용 차단하고 사이버 방어 지원",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214242",
+   "source": "AI타임스"
+  }
+ ]
+}

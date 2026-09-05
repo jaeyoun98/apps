@@ -1,0 +1,176 @@
+{
+ "generated_at": "2026-08-25T09:58:09Z",
+ "date": "2026-08-25",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 확장에 따른 고대역폭 메모리(HBM) 및 차세대 패키징 기술 수요가 지속되는 가운데, 엔비디아의 추론 가속기 양산과 이를 뒷받침하는 공급망 다변화 및 기술 혁신이 핵심 이슈로 부상함.",
+   "stories": [
+    {
+     "headline": "엔비디아, AI 추론 특화 '그록 3 LPX' 양산 및 우주용 시스템 개발",
+     "facts": [
+      "엔비디아가 AI 추론 가속기 '그록 3 LPX' 양산 시작",
+      "스페이스X와 협력하여 우주용 AI 컴퓨팅 플랫폼 '베라 루빈 NVL72' 개발",
+      "2027년 4분기 스타마인드 AI 위성 탑재 예정"
+     ],
+     "interpretation": "엔비디아는 기존 학습 중심에서 추론 시장으로 영향력을 확대하고 있으며, 우주 등 극한 환경으로의 인프라 확장을 통해 AI 생태계 주도권을 강화하려는 전략임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "엔비디아의 FY2027 Q2 실적 발표에서 추론 관련 매출 비중 확인 필요",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "720d442c827a9480",
+      "230e918a442c1b67",
+      "cd74b2c6b11324e8"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "SK하이닉스, HBM4 웨이퍼 테스트 공급망 국산화 확대",
+     "facts": [
+      "SK하이닉스의 HBM4 웨이퍼 테스트 장비 공급망에서 국내 업체 비중 증가",
+      "디지털프론티어, 유니테스트 등 국내 장비사 수주액 2839억원 기록"
+     ],
+     "interpretation": "기존 일본 업체 중심의 공급망을 국산화로 전환하여 비용 효율성을 높이고 공급 안정성을 확보하려는 전략적 움직임임.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "국내 장비사들의 실제 매출 인식 시점 및 추가 수주 규모",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "abe7f140220432cf"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성 파운드리, 엔비디아 '그록 3' 물량 수혜 기대",
+     "facts": [
+      "엔비디아의 그록 3 양산으로 삼성전자 파운드리 4nm 공정 물량 증가",
+      "월간 웨이퍼 투입량 1만장에서 2027년 1만5천장 이상으로 확대 전망"
+     ],
+     "interpretation": "엔비디아의 추론 칩 생산 다변화 전략이 삼성전자 파운드리 사업부의 가동률 개선과 매출 성장에 직접적인 기여를 할 것으로 예상됨.",
+     "affected_company_ids": [
+      "nvidia",
+      "samsung-electronics"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "삼성 파운드리의 수율 안정화 및 추가 고객사 확보 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f9bcbe70ecd361f3"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 기술이 기업용 소프트웨어의 핵심으로 자리 잡으며, 글로벌 표준화 경쟁과 함께 보안 및 인프라 관리 솔루션의 중요성이 급격히 증대됨.",
+   "stories": [
+    {
+     "headline": "한국, 에이전틱 AI 글로벌 표준화 경쟁 합류",
+     "facts": [
+      "한국전자통신연구원(ETRI)이 에이전트형 인공지능 재단(AAIF) 가입",
+      "오픈AI, 구글, MS, 앤트로픽 등과 함께 MCP 등 핵심 규격 국제표준화 참여"
+     ],
+     "interpretation": "에이전틱 AI 시장의 기술 표준을 선점함으로써 국내 AI 산업의 글로벌 경쟁력을 확보하고 기술 종속을 방지하려는 의도임.",
+     "affected_company_ids": [
+      "microsoft",
+      "alphabet"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "AAIF 내 한국의 표준 제안 반영 여부 및 기술적 영향력 확대",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "aa63c4da2ed4dfd4"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "구글, 제미나이 3.5 프로 건너뛰고 제미나이 4 출시 준비",
+     "facts": [
+      "구글이 제미나이 3.5 프로 출시 계획을 사실상 철회",
+      "차세대 플래그십 모델인 제미나이 4 개발에 전력 투구 중"
+     ],
+     "interpretation": "AI 모델 경쟁이 격화됨에 따라 중간 단계 모델보다는 성능을 비약적으로 높인 차세대 모델로 시장을 압도하려는 전략적 선택으로 풀이됨.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "제미나이 4의 공개 시점 및 성능 지표",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c5bbbedeaa026315"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "720d442c827a9480",
+   "title": "엔비디아, AI 추론 특화 랙 '그록 3 LPX' 양산",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61331",
+   "source": "디일렉"
+  },
+  {
+   "id": "230e918a442c1b67",
+   "title": "스페이스X·엔비디아, 우주용 ‘베라 루빈’ 개발…2027년 궤도 투입",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214350",
+   "source": "AI타임스"
+  },
+  {
+   "id": "abe7f140220432cf",
+   "title": "SK하이닉스 HBM4 웨이퍼 테스터, 韓 장비사 수주 확대",
+   "url": "https://www.etnews.com/20260825000120",
+   "source": "전자신문"
+  },
+  {
+   "id": "f9bcbe70ecd361f3",
+   "title": "Samsung Foundry sees higher 4nm volumes as Nvidia ramps Groq 3",
+   "url": "https://www.digitimes.com/news/a20260825VL216/nvidia-groq-4nm-samsung-production.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "cd74b2c6b11324e8",
+   "title": "엔비디아, '그로크 3 LPX' 본격 양산...초고속 추론 에이전트 시장 타깃",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214322",
+   "source": "AI타임스"
+  },
+  {
+   "id": "c5bbbedeaa026315",
+   "title": "구글, 제미나이 3.5 프로 건너뛰고 차세대 ‘제미나이 4’ 출시 준비하나",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214355",
+   "source": "AI타임스"
+  },
+  {
+   "id": "aa63c4da2ed4dfd4",
+   "title": "韓, 에이전틱 AI 글로벌 표준 경쟁 합류…ETRI, AAIF 가입",
+   "url": "https://zdnet.co.kr/view/?no=20260825161442",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

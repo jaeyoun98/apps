@@ -1,0 +1,157 @@
+{
+ "generated_at": "2026-08-21T22:46:55Z",
+ "date": "2026-08-22",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 데이터센터 인프라 확장과 관련한 NVIDIA의 전략적 투자 및 Broadcom의 대규모 자금 조달 움직임이 두드러지며, 메모리 시장의 차별화된 성장세가 주목받고 있습니다.",
+   "stories": [
+    {
+     "headline": "NVIDIA, 데이터센터 개발사 Cloverleaf와 파트너십 체결",
+     "facts": [
+      "NVIDIA가 데이터센터 개발사인 Cloverleaf와 파트너십을 맺음",
+      "AI 데이터센터 수요 증가에 대응해 인프라 개발에 직접 투자하는 전략 지속"
+     ],
+     "interpretation": "AI 인프라 생태계 내에서 NVIDIA의 영향력을 강화하고, 자사 GPU가 최적화된 환경에서 운영될 수 있도록 데이터센터 공급망을 직접 통제하려는 전략으로 해석됨.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "NVIDIA의 데이터센터 관련 추가 지분 투자 및 인프라 파트너십 확대 여부",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "9c5bb4de5cc92d44"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "Broadcom, 칩 금융 거래를 위해 700억~800억 달러 규모 부채 조달 추진",
+     "facts": [
+      "Broadcom이 칩 관련 금융 거래를 위해 700억~800억 달러 규모의 부채 조달을 협의 중"
+     ],
+     "interpretation": "대규모 자본 조달은 향후 대형 M&A나 반도체 공급망 내 전략적 자산 확보를 위한 공격적인 행보로 풀이되며, 시장 내 Broadcom의 입지가 더욱 강화될 가능성이 있음.",
+     "affected_company_ids": [
+      "broadcom"
+     ],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "부채 조달의 구체적인 목적 및 대상 기업 발표",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "83f262a0e3da67bc"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "AMD, CPU 점유율 상승에도 불구하고 고가 PC 수요 둔화로 출하량 감소",
+     "facts": [
+      "AMD가 CPU 시장 점유율을 확대했으나, 전체 프로세서 출하량은 20% 감소",
+      "Mercury Research는 고가의 메모리 가격과 GPU 부족 현상을 출하량 감소의 원인으로 지목"
+     ],
+     "interpretation": "점유율 확대는 긍정적이나, 전방 산업인 PC 시장의 비용 부담이 전체 수요를 억제하고 있어 단기적인 실적 성장에 제약 요인으로 작용함.",
+     "affected_company_ids": [
+      "amd"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "PC 시장의 메모리 가격 안정화 및 GPU 공급 부족 해소 시점",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e09d746b3f015ffd"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "삼성전자의 대규모 주주환원 정책 발표와 AI 에이전트 기술의 실질적 적용 확대가 주요 이슈이며, 빅테크 기업들의 규제 리스크가 지속되고 있습니다.",
+   "stories": [
+    {
+     "headline": "삼성전자, 사상 최대 110조 규모 주주환원 정책 의결",
+     "facts": [
+      "삼성전자가 2026년 90조~110조원 규모의 주주환원 정책을 실시하기로 이사회에서 의결",
+      "기존 최대치였던 2020년 대비 약 5배 수준의 파격적인 규모"
+     ],
+     "interpretation": "주주가치 제고를 통해 최근의 주가 부진을 타개하고 투자자 신뢰를 회복하려는 강력한 의지로 해석되며, 향후 수급 개선에 긍정적 영향을 줄 것으로 보임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "실제 배당 및 자사주 매입 실행 속도와 시장 반응",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "137186cee484e8e7"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "Waymo, 로보택시 시장 경쟁 심화로 로비 자금 2배 증액",
+     "facts": [
+      "Alphabet 산하 Waymo가 Uber와의 로보택시 경쟁 속에서 로비 지출을 2배로 늘림"
+     ],
+     "interpretation": "완전 자율주행 택시 서비스의 규제 승인을 앞두고 시장 선점 및 정책적 우위를 점하기 위한 공격적인 대관 활동으로 판단됨.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 규제 당국의 자율주행 서비스 승인 범위 및 속도",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b3ef22369b9fd9cf"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "9c5bb4de5cc92d44",
+   "title": "Nvidia partners with data center developer Cloverleaf",
+   "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "83f262a0e3da67bc",
+   "title": "Broadcom debt deal expected to reach upwards of $70 billion, sources say",
+   "url": "https://www.cnbc.com/2026/08/21/broadcom-debt-deal-expected-to-reach-upwards-of-70-billion-sources.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "e09d746b3f015ffd",
+   "title": "AMD grabs more CPU share while pricier PCs punish desktop demand",
+   "url": "https://www.theregister.com/systems/2026/08/21/amd-grabs-more-cpu-share-while-pricier-pcs-punish-desktop-demand/5291053",
+   "source": "The Register"
+  },
+  {
+   "id": "137186cee484e8e7",
+   "title": "삼성전자, 사상 최대 110조 규모 주주환원 단행",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214236",
+   "source": "AI타임스"
+  },
+  {
+   "id": "b3ef22369b9fd9cf",
+   "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
+   "url": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/",
+   "source": "Ars Technica"
+  }
+ ]
+}
