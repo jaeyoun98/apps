@@ -1,0 +1,131 @@
+{
+ "generated_at": "2026-09-12T08:02:27Z",
+ "date": "2026-09-12",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 투자 확대로 인한 팹리스 시장의 급격한 성장과 반도체 공급망 내 파워 서브스트레이트 등 핵심 부품의 수요 변화가 관찰됨.",
+   "stories": [
+    {
+     "headline": "AMD, 2분기 팹리스 매출 3위 등극…AI 서버 수요가 견인",
+     "facts": [
+      "2분기 글로벌 상위 10대 팹리스 매출이 전년 동기 대비 73% 급증함.",
+      "AMD가 서버용 CPU 수요 급증에 힘입어 퀄컴을 제치고 사상 처음으로 매출 3위를 기록함."
+     ],
+     "interpretation": "AI 인프라 투자 광풍이 데이터센터용 반도체 설계 기업의 실적을 직접적으로 견인하고 있음. 모바일 중심에서 서버·AI 중심으로 팹리스 시장의 주도권이 재편되는 양상임.",
+     "affected_company_ids": [
+      "amd"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "다음 분기 AMD의 데이터센터 부문 매출 성장세가 지속되는지 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "06246840ba717f0c",
+      "8b98d5b2cf4c704e"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "무라타제작소, AI 칩용 파워 서브스트레이트 양산 준비",
+     "facts": [
+      "무라타제작소가 AI 칩용 파워 서브스트레이트 'iPaS'를 개발 완료함.",
+      "내년부터 본격적인 양산에 돌입할 계획임."
+     ],
+     "interpretation": "고성능 AI 칩의 전력 효율과 안정성이 중요해짐에 따라, 전력 공급 부품(MLCC 및 파워 서브스트레이트) 시장의 기술적 진입장벽이 높아지고 있음.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "주요 AI 칩 제조사들의 해당 부품 채택 여부 및 양산 수율 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "511df630d1b83ede"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트의 확산에 따른 기업용 관리 프레임워크 도입과 보안·거버넌스 이슈가 SW 테크 섹터의 핵심 화두로 부상함.",
+   "stories": [
+    {
+     "headline": "세일즈포스, '에이전트 난립' 방지 위한 통합 관리 플랫폼 공개",
+     "facts": [
+      "세일즈포스가 기업용 AI 에이전트 통합 관리 프레임워크 '트러스트 엔터프라이즈 AI 하네스'를 공개함.",
+      "부서별로 난립하는 AI 에이전트의 데이터, 보안, 거버넌스를 중앙에서 통제하는 것이 목적임."
+     ],
+     "interpretation": "AI 도입 초기 단계를 지나 운영 효율화와 보안이 강조되는 성숙기로 진입하고 있음. 기업용 SaaS 시장에서 AI 거버넌스 솔루션이 차별화 요소가 될 것임.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "기업 고객들의 해당 프레임워크 도입 속도 및 실제 운영 효율 개선 데이터.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3c8ffd388c094771"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "오픈AI 전 임원 피지 시모, 엔스케일 이사회 합류",
+     "facts": [
+      "오픈AI 출신 피지 시모가 IPO를 앞둔 클라우드 서비스 업체 엔스케일의 이사회에 합류함.",
+      "시모는 오픈AI의 시간제 자문역을 겸임하며 이해 상충 방지 조치를 취할 예정임."
+     ],
+     "interpretation": "AI 인프라 및 클라우드 생태계 내 주요 인재들의 이동이 활발함. 엔스케일의 IPO를 앞두고 AI 전문성을 갖춘 이사진 보강을 통해 시장 신뢰도를 높이려는 전략임.",
+     "affected_company_ids": [],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "엔스케일의 IPO 일정 및 오픈AI와의 기술적 협력 가능성.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3a4a564c6267df6a"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "06246840ba717f0c",
+   "title": "팹리스 톱10, 2분기 매출 73% 급증…AMD, 퀄컴 제치고 첫 3위",
+   "url": "https://zdnet.co.kr/view/?no=20260911215419",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "511df630d1b83ede",
+   "title": "Murata targets mass production of its AI power substrate next year",
+   "url": "https://www.digitimes.com/news/a20260911VL202/murata-substrate-production-capacitor-sales.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "8b98d5b2cf4c704e",
+   "title": "2분기 팹리스 톱10 매출 73% 급증…AMD, 퀄컴 제치고 첫 3위",
+   "url": "https://zdnet.co.kr/view/?no=20260911215419",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "3c8ffd388c094771",
+   "title": "세일즈포스, '에이전트 난립' 잡는다...통합 관리 '트러스트 엔터프라이즈 AI 하네스' 공개",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215190",
+   "source": "AI타임스"
+  },
+  {
+   "id": "3a4a564c6267df6a",
+   "title": "오픈AI의 피지 시모, IPO 앞둔 엔스케일 이사회 합류",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215189",
+   "source": "AI타임스"
+  }
+ ]
+}

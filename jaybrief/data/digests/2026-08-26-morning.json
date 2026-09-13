@@ -1,0 +1,197 @@
+{
+ "generated_at": "2026-08-25T22:51:15Z",
+ "date": "2026-08-26",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 반도체 수요 지속과 공급망 내 기술적 변화, 그리고 지정학적 리스크가 시장의 주요 변수로 작용하고 있습니다.",
+   "stories": [
+    {
+     "headline": "NVIDIA, 차세대 B300 GPU 서버 공급 계약 및 내부 리스크 노출",
+     "facts": [
+      "디에스앤지가 네이버클라우드에 NVIDIA B300 GPU 서버 389대를 공급하는 계약을 체결함",
+      "NVIDIA의 고위 관리자가 Supermicro의 AI 서버 밀수 사건에 연루되어 기소됨"
+     ],
+     "interpretation": "국내 AI 인프라 확충이 차세대 GPU 중심으로 가속화되고 있으나, 중국 수출 통제 등 지정학적 리스크와 관련된 내부 통제 이슈가 기업 평판과 규제 리스크를 높이고 있음",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "NVIDIA의 FY2027 Q2 실적 발표에서 하이퍼스케일러 수요와 규제 리스크에 대한 경영진의 언급을 확인해야 함",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "caf988e4c1ef572b",
+      "126f8a3860b3f024",
+      "ad127cbfebb29f48"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "OpenAI, 자체 AI 칩 'Jalapeño' 개발로 추론 효율성 극대화 시도",
+     "facts": [
+      "OpenAI가 개발 중인 Jalapeño 칩은 128개 칩 구성으로 1.7 exaFLOPS 성능과 27TB HBM을 제공함",
+      "추론 성능 벤치마크에서 기존 최신 칩 대비 전력 효율과 토큰 처리량에서 우위를 보임"
+     ],
+     "interpretation": "빅테크 기업들이 NVIDIA 의존도를 낮추기 위해 자체 칩 개발에 속도를 내고 있으며, 이는 향후 AI 가속기 시장의 경쟁 구도를 심화시킬 잠재적 요인임",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "Jalapeño 칩의 실제 양산 시점과 NVIDIA Blackwell/Rubin 아키텍처와의 성능 격차를 지속적으로 모니터링해야 함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b758fee9b5c1d9f8",
+      "1adde94eea44fc99"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "케이씨텍, 앱솔릭스 유리기판용 CMP 장비 공급",
+     "facts": [
+      "케이씨텍이 SKC 자회사 앱솔릭스의 유리기판 생산라인에 CMP 장비와 슬러리를 단독 공급함",
+      "이르면 올해 4분기부터 공급이 시작될 예정임"
+     ],
+     "interpretation": "차세대 패키징 기술인 유리기판 시장이 개화함에 따라 관련 소재·부품·장비(소부장) 기업들의 시장 진입과 수혜가 구체화되고 있음",
+     "affected_company_ids": [],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "앱솔릭스의 유리기판 양산 수율과 케이씨텍의 관련 매출 비중 확대 여부를 확인해야 함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "815de6920ed2f5d8"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "기업용 AI 도입의 ROI 확보 노력과 보안 리스크 관리, 그리고 플랫폼 기업들의 기능 고도화가 주요 흐름입니다.",
+   "stories": [
+    {
+     "headline": "기업용 AI 도입의 ROI 확보 과제와 보안 리스크 관리",
+     "facts": [
+      "McKinsey 보고서에 따르면 AI 투자 증가 대비 기업 실적 영향은 아직 미미함",
+      "에임인텔리전스가 내달 7일 AI 리스크 컨퍼런스를 개최하며 MS, OpenAI 등이 참여함"
+     ],
+     "interpretation": "AI 기술 도입이 초기 단계에서 실질적인 수익성(ROI) 검증 단계로 넘어가고 있으며, 이 과정에서 보안 및 리스크 관리가 기업의 핵심 우선순위로 부상함",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "주요 기업들의 분기 실적 발표에서 AI 관련 비용 대비 수익성 개선 지표를 확인해야 함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4835c32357971488",
+      "c6bf1e427254a04d"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "Apple, 로컬 AI 개발 최적화된 신규 Mac 모델 공개",
+     "facts": [
+      "Apple이 M5 Ultra 및 M6 칩을 탑재한 Mac Mini와 Mac Studio를 공개함",
+      "개발자들이 로컬 환경에서 대규모 AI 모델을 미세 조정할 수 있도록 지원함"
+     ],
+     "interpretation": "Apple은 클라우드 의존적인 AI 환경에서 벗어나 온디바이스 AI 개발 생태계를 강화하여 하드웨어 경쟁력을 유지하려는 전략을 취하고 있음",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "신규 Mac 모델의 판매량과 개발자 생태계 내에서의 AI 모델 구동 효율성 평가를 지켜봐야 함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "96dfba8502c9e991",
+      "96331afa63f1b09e",
+      "62df32c5e601283c"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "815de6920ed2f5d8",
+   "title": "케이씨텍, 앱솔릭스에 유리기판용 CMP 장비·슬러리 공급",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61274",
+   "source": "디일렉"
+  },
+  {
+   "id": "c6bf1e427254a04d",
+   "title": "\"AI발 보안리스크 관리 이렇게\"...에임인텔리전스, 내달 7일 컨퍼런스",
+   "url": "https://zdnet.co.kr/view/?no=20260825225001",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "126f8a3860b3f024",
+   "title": "Nvidia senior manager tied to ex-Supermicro staff's AI smuggling scheme",
+   "url": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/",
+   "source": "Ars Technica"
+  },
+  {
+   "id": "b758fee9b5c1d9f8",
+   "title": "OpenAI's upcoming Jalapeño chip looks like it'll be an inference beast",
+   "url": "https://www.theregister.com/systems/2026/08/25/openais-upcoming-jalapeno-chip-looks-like-itll-be-an-inference-beast/5292052",
+   "source": "The Register"
+  },
+  {
+   "id": "caf988e4c1ef572b",
+   "title": "디에스앤지, 네이버클라우드에 엔비디아 B300 GPU서버 389대 공급 계약",
+   "url": "https://zdnet.co.kr/view/?no=20260825190348",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "ad127cbfebb29f48",
+   "title": "Nvidia’s dependence on hyperscalers faces big test in earnings report",
+   "url": "https://www.cnbc.com/2026/08/25/nvidias-dependence-on-hyperscalers-faces-big-test-in-earnings-report.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "4835c32357971488",
+   "title": "McKinsey says enterprise AI is finally 'on the road to ROI'",
+   "url": "https://www.theregister.com/ai-and-ml/2026/08/25/mckinsey-says-enterprise-ai-is-finally-on-the-road-to-roi/5292388",
+   "source": "The Register"
+  },
+  {
+   "id": "1adde94eea44fc99",
+   "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+   "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "96dfba8502c9e991",
+   "title": "Apple debuts its ‘most powerful chip ever’ in M5 Ultra and M6",
+   "url": "https://techcrunch.com/2026/08/25/apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "96331afa63f1b09e",
+   "title": "Apple's new desktop computers are designed specifically for local AI development",
+   "url": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/",
+   "source": "Ars Technica"
+  },
+  {
+   "id": "62df32c5e601283c",
+   "title": "Apple announces new Mac Mini and Mac Studio models with AI upgrades",
+   "url": "https://www.cnbc.com/2026/08/25/apple-announces-new-mac-mini-and-mac-studio-models-with-ai-upgrades.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

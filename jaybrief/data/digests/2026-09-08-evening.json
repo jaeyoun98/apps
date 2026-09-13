@@ -1,0 +1,178 @@
+{
+ "generated_at": "2026-09-08T08:15:21Z",
+ "date": "2026-09-08",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "삼성전자의 차세대 노광 기술 도입 및 파운드리 생태계 강화, 그리고 AI 가속기 양산 등 반도체 선단 공정 경쟁력 확보를 위한 움직임이 두드러짐.",
+   "stories": [
+    {
+     "headline": "삼성전자, ASML과 12인치 포토마스크 개발 및 2028년 High NA EUV 도입",
+     "facts": [
+      "삼성전자가 ASML의 대형 마스크 컨소시엄에 참여해 기존 6인치 포토마스크를 12인치로 확대하는 공동 개발 착수",
+      "2028년 업계 최초로 차세대 D램 생산 공정에 High NA EUV 노광 장비 도입 예정"
+     ],
+     "interpretation": "차세대 메모리 공정에서 노광 기술 격차를 벌리기 위한 전략적 행보로, 생산성 향상과 원가 절감을 통해 파운드리 및 메모리 시장 지배력을 강화하려는 의도임.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "asml"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "2028년 High NA EUV 도입 시점의 실제 수율 및 양산 안정성 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "fddc7d53d12c2c9b",
+      "8eac2dfcb3ebfde5",
+      "c256209f04127514"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "세미파이브, 삼성 4나노 공정 기반 하이퍼엑셀 AI 추론 가속기 양산",
+     "facts": [
+      "세미파이브가 AI 반도체 스타트업 하이퍼엑셀의 LLM 추론 가속기 'Bertha' 양산 시작",
+      "삼성 파운드리 4nm 공정이 적용된 첫 대규모 양산 사례"
+     ],
+     "interpretation": "삼성 파운드리의 4나노 공정이 AI 가속기 시장에서 실질적인 양산 레퍼런스를 확보하며 생태계 확장에 기여하고 있음을 시사함.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "추가적인 AI 팹리스 고객사 확보 및 4나노 공정의 수율 안정화 추이.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9412c7cad457ccf5",
+      "80686e5205f6dd5d"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "삼성전자가 주도한 미스트랄 AI의 대규모 투자 유치와 삼성SDS의 AI 전환(AX) 사업 가속화 등 기업용 AI 시장의 성장이 가시화됨.",
+   "stories": [
+    {
+     "headline": "삼성전자 주도 미스트랄 AI 4.4조 원 투자 유치",
+     "facts": [
+      "프랑스 미스트랄 AI가 시리즈 D 라운드에서 30억 유로(약 4조 4000억 원) 투자 유치",
+      "삼성전자가 이번 투자 라운드를 주도하며 소버린 AI 구축 가속화 지원"
+     ],
+     "interpretation": "삼성전자가 유럽의 AI 챔피언 기업에 대한 영향력을 확보하고, 향후 소버린 AI 시장에서 자사 반도체 및 솔루션 공급 기회를 확대하려는 전략적 투자임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미스트랄 AI와의 기술 협력 구체화 및 삼성전자 제품 생태계와의 연동 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "18e03066e440ab28",
+      "15af2e8c228e31e5",
+      "16264e75ec09408e"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성SDS, 2031년까지 10조 원 투자 및 AX·RX 사업 확대",
+     "facts": [
+      "삼성SDS가 2031년까지 10조 원을 투입해 AI, 로봇 전환(RX), 물류 사업 강화",
+      "기업용 생성형 AI 플랫폼 '패브릭스 2.0' 및 폐쇄망 특화 '브리티웍스 코워크' 출시 예정"
+     ],
+     "interpretation": "기업 고객의 AI 전환 수요를 선점하기 위해 인프라 확충과 플랫폼 고도화를 병행하며, 제조 현장의 로봇 오케스트레이션 등 수익 모델 다각화에 집중하고 있음.",
+     "affected_company_ids": [],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "신규 플랫폼 출시 이후 실제 기업 고객들의 도입률 및 매출 기여도.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "08aaf5da68cab257",
+      "74465cd8666a032d",
+      "614b615c4ec3ecc1"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "9412c7cad457ccf5",
+   "title": "SEMIFIVE Commences Mass Production of HyperAccel's LLM AI Inference Accelerator 'Bertha' on Samsung 4nm, Spurring Growth Momentum",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=341250",
+   "source": "KIPOST"
+  },
+  {
+   "id": "fddc7d53d12c2c9b",
+   "title": "삼성전자·ASML, 차세대 반도체 마스크 12인치로 확대…생산성·원가 개선",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215007",
+   "source": "AI타임스"
+  },
+  {
+   "id": "8eac2dfcb3ebfde5",
+   "title": "삼성전자, 2028년 메모리 최초 '하이 NA EUV' 도입... ASML과 포토마스크 개발 협력",
+   "url": "https://zdnet.co.kr/view/?no=20260908151746",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "c256209f04127514",
+   "title": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline",
+   "url": "https://www.digitimes.com/news/a20260908VL208/tsmc-asml-12-inch-production-6-inch.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "80686e5205f6dd5d",
+   "title": "세미파이브, 하이퍼엑셀 데이터센터용 AI 칩 양산…\"삼성 4나노 첫 적용\"",
+   "url": "https://zdnet.co.kr/view/?no=20260908133925",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "08aaf5da68cab257",
+   "title": "[영상] 삼성SDS, 2031년까지 10조 투입…AI·로봇·물류 전방위 미래 동력 확보",
+   "url": "https://zdnet.co.kr/view/?no=20260908122517",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "18e03066e440ab28",
+   "title": "미스트랄, 삼성 주도로 4.4조 투자 유치…\"소버린 AI 구축 가속\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215009",
+   "source": "AI타임스"
+  },
+  {
+   "id": "614b615c4ec3ecc1",
+   "title": "삼성SDS, 폐쇄망 AI 동료 ‘브리티웍스 코워크’ 10월 출시",
+   "url": "https://byline.network/2026/09/0908-5/",
+   "source": "바이라인네트워크"
+  },
+  {
+   "id": "16264e75ec09408e",
+   "title": "Mistral bags $24 billion valuation as Samsung leads funding for Europe's AI champion",
+   "url": "https://www.cnbc.com/2026/09/08/mistral-ai-funding-valuation-samsung.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "15af2e8c228e31e5",
+   "title": "미스트랄, 삼성전자 주도로 4조 6000억원 유치…기업가치 32조원",
+   "url": "https://zdnet.co.kr/view/?no=20260908143202",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "74465cd8666a032d",
+   "title": "삼성SDS, 기업용 AI 플랫폼 '패브릭스 2.0' 내달 출시…에이전트 운영 고도화",
+   "url": "https://zdnet.co.kr/view/?no=20260908122112",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

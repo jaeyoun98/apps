@@ -1,0 +1,250 @@
+{
+ "generated_at": "2026-09-11T08:12:43Z",
+ "date": "2026-09-11",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 산업은 AI 인프라 확장에 따른 패키징 기술 고도화와 파운드리 검사 장비 수요 증가가 두드러지며, 기업들은 AI 생태계 주도권을 확보하기 위한 전략적 투자와 기술 협력을 강화하고 있음.",
+   "stories": [
+    {
+     "headline": "엔비디아, AI 생태계 통제자로 진화하며 내년 70% 매출 성장 자신",
+     "facts": [
+      "젠슨 황 엔비디아 CEO가 골드만삭스 컨퍼런스에서 내년 70% 매출 성장을 자신함",
+      "단순 칩 제조사를 넘어 AI 생태계 통제자로 사업 구조를 진화시켰음을 강조함",
+      "AI의 다음 거대 시장으로 사이버 보안을 지목함"
+     ],
+     "interpretation": "엔비디아는 하드웨어 판매를 넘어 소프트웨어와 생태계 전반을 장악하는 락인(Lock-in) 전략을 통해 경쟁사들의 추격을 따돌리고 수익성을 극대화하려는 전략임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "엔비디아의 AI 생태계 확장 속도와 사이버 보안 시장에서의 구체적인 성과 지표 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "dd229a9af015046a",
+      "568866be5115294e",
+      "4efe21761b56d20d"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "오라클, AI 인프라 매출 급증으로 클라우드 중심 사업 전환 가속",
+     "facts": [
+      "2027 회계연도 1분기 클라우드 인프라(OCI) 매출이 전년 대비 121% 증가함",
+      "한국오라클 역시 클라우드 매출이 50% 가까이 증가하며 성장을 견인함",
+      "AI 워크로드 수요를 바탕으로 기존 소프트웨어 사업에서 클라우드 인프라로 무게중심 이동"
+     ],
+     "interpretation": "오라클은 AI 데이터센터와 GPU 인프라를 새로운 성장 동력으로 삼아 기업용 소프트웨어와 클라우드 서비스를 결합한 수익 모델을 성공적으로 안착시키고 있음.",
+     "affected_company_ids": [
+      "oracle"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "오라클의 AI 인프라 구축 속도와 그에 따른 비용 구조 변화가 향후 수익성에 미칠 영향.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "051f612d44f30919",
+      "9c2bf8b46a44d06c",
+      "8901eb5dcdd6eb8a",
+      "ff1efb4629d3ce65",
+      "df2b49136928039e"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "영우디에스피, 파운드리향 WLP 검사장비 실증 평가 돌입",
+     "facts": [
+      "영우디에스피가 국내 파운드리 양산라인에 웨이퍼 레벨 패키지(WLP) 검사장비를 공급함",
+      "이달부터 2~3개월간 실증 평가를 진행한 후 양산 공급 협상을 추진할 예정"
+     ],
+     "interpretation": "기존 디스플레이 장비 중심에서 반도체 검사장비로 사업 영역을 확장하며 파운드리 공정 고도화에 따른 수혜가 기대됨.",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "실증 평가 통과 여부 및 향후 대규모 양산 공급 계약 체결 여부.",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "156a21541b488b8f"
+     ],
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 섹터는 AI 에이전트 기술의 확산과 함께 금융·보안 등 특화 분야로의 적용이 가속화되고 있으며, 동시에 AI 모델 무단 복제 및 규제 이슈가 주요 리스크로 부상함.",
+   "stories": [
+    {
+     "headline": "앤트로픽, 중국 AI 기업들의 '클로드' 모델 무단 증류 공격 폭로",
+     "facts": [
+      "앤트로픽이 중국 AI 기업들이 클로드 모델의 핵심 기능을 무단으로 복제(증류)한 정황을 포착함",
+      "알리바바와 문샷AI 등이 공격 배후로 지목됨",
+      "프록시 네트워크와 가짜 계정을 이용해 접근 제한을 우회함"
+     ],
+     "interpretation": "AI 모델의 지적재산권 보호가 기업 경쟁력의 핵심으로 떠오르면서, 기술 탈취를 둘러싼 글로벌 AI 기업 간의 갈등과 보안 강화 움직임이 거세질 전망임.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "중국 AI 기업들에 대한 앤트로픽의 법적 대응 여부 및 글로벌 AI 보안 표준 강화 움직임.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4c9f7908ad994fec",
+      "9576ff1a5af736d4",
+      "02a809643e1fd87b"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "오픈AI, 금융 특화 챗GPT 공개하며 월가 업무 자동화 공략",
+     "facts": [
+      "오픈AI가 투자은행의 리서치, 재무 분석, 투자 제안서 작성을 자동화하는 금융 특화 챗GPT를 공개함",
+      "금융 데이터 접근성과 최신 AI 모델의 추론 능력을 결합함"
+     ],
+     "interpretation": "범용 AI 모델에서 특정 산업군에 최적화된 수직적(Vertical) AI 서비스로 시장을 확장하여 기업용(B2B) 시장 수익성을 극대화하려는 전략임.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "금융권의 실제 도입률 및 기존 금융 분석 소프트웨어 시장에 미칠 영향.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "1f4655442e797767",
+      "2d03a9922e12226a"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "마이크로소프트, 내부 개발 언어로 Rust 채택",
+     "facts": [
+      "마이크로소프트가 Rust를 내부 'Tier 1' 언어로 공식 지정함",
+      "윈도우 시스템의 메모리 버그를 제거하고 보안성을 강화하기 위한 조치"
+     ],
+     "interpretation": "시스템 프로그래밍 언어의 안전성을 높여 대규모 소프트웨어 인프라의 보안 리스크를 근본적으로 해결하려는 기술적 의지임.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "Rust 도입 이후 윈도우 및 주요 소프트웨어의 보안 사고 감소 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2961178f1367fd36"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "156a21541b488b8f",
+   "title": "영우디에스피, 파운드리 뚫었다…WLP 검사장비 실증",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=62167",
+   "source": "디일렉"
+  },
+  {
+   "id": "dd229a9af015046a",
+   "title": "젠슨 황, 내년 70% 성장 자신감…\"우리는 칩이 아니라 생태계를 판다\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215149",
+   "source": "AI타임스"
+  },
+  {
+   "id": "4c9f7908ad994fec",
+   "title": "앤트로픽, 중국 기업 '무단 증류' 폭로…\"프록시 타고 클로드 우회 복제\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215138",
+   "source": "AI타임스"
+  },
+  {
+   "id": "568866be5115294e",
+   "title": "엔비디아, 다음 승부처는 AI 사이버 보안",
+   "url": "https://zdnet.co.kr/view/?no=20260911110707",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "9576ff1a5af736d4",
+   "title": "앤트로픽 \"알리바바·문샷AI, 클로드 핵심 능력 무단 추출\"",
+   "url": "https://zdnet.co.kr/view/?no=20260911131507",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "051f612d44f30919",
+   "title": "AI로 무게중심 옮기는 오라클…클라우드 인프라 매출 121%↑",
+   "url": "https://zdnet.co.kr/view/?no=20260911113552",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "02a809643e1fd87b",
+   "title": "Anthropic disrupts Chinese AI firms' attempts to extract Claude capabilities",
+   "url": "https://www.digitimes.com/news/a20260911VL206/anthropic-claude-deepseek-moonshot-alibaba.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "4efe21761b56d20d",
+   "title": "Jensen Huang bets Nvidia's next leg of growth on turning AI compute into an investable asset",
+   "url": "https://www.digitimes.com/news/a20260911VL203/jensen-huang-nvidia-goldman-sachs-growth-silicon.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "8901eb5dcdd6eb8a",
+   "title": "Oracle's AI cloud build-out is now rewriting its cost structure",
+   "url": "https://www.digitimes.com/news/a20260911VL200/oracle-revenue-cost-infrastructure-business.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "ff1efb4629d3ce65",
+   "title": "Oracle turns its AI build-out into a delivery number, the cost lands where management said it would",
+   "url": "https://www.digitimes.com/news/a20260911VL201/oracle-2027-earnings-revenue-business.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "9c2bf8b46a44d06c",
+   "title": "한국오라클, 클라우드 매출 50% 증가…AI 전환 흐름 속 고성장",
+   "url": "https://zdnet.co.kr/view/?no=20260911160143",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "2961178f1367fd36",
+   "title": "Microsoft annoints Rust as a 'Tier 1' internal language",
+   "url": "https://www.theregister.com/devops/2026/09/11/microsoft-annoints-rust-as-a-tier-1-internal-language/5295732",
+   "source": "The Register"
+  },
+  {
+   "id": "df2b49136928039e",
+   "title": "Oracle says AI will save it from the SaaSpocalypse, not bring it on",
+   "url": "https://www.theregister.com/software/2026/09/11/oracle-says-ai-will-save-it-from-the-saaspocalypse-not-bring-it-on/5295736",
+   "source": "The Register"
+  },
+  {
+   "id": "1f4655442e797767",
+   "title": "오픈AI, 월가 겨냥한 '금융 특화 챗GPT' 공개...\"기업 분석부터 보고서 생성까지\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215141",
+   "source": "AI타임스"
+  },
+  {
+   "id": "2d03a9922e12226a",
+   "title": "오픈AI, 금융판 챗GPT로 월가 업무 자동화 나선다",
+   "url": "https://zdnet.co.kr/view/?no=20260911134934",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

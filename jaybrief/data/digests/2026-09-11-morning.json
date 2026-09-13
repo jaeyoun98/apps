@@ -1,0 +1,145 @@
+{
+ "generated_at": "2026-09-11T00:17:31Z",
+ "date": "2026-09-11",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 확장에 따른 맞춤형 칩 수요 증가와 공정 미세화 경쟁이 가속화되고 있습니다. 특히 데이터센터 내 AI 추론 칩 시장에서 기존 강자인 NVIDIA에 대한 도전이 구체화되는 양상입니다.",
+   "stories": [
+    {
+     "headline": "퀄컴-아마존, 데이터센터용 AI 추론 칩 공동 개발",
+     "facts": [
+      "퀄컴이 아마존웹서비스(AWS)와 다년간의 데이터센터용 AI 칩 개발 협력 계약을 체결함",
+      "스마트폰 중심 사업에서 데이터센터 및 AI 칩으로 사업 영역을 확장하려는 전략임"
+     ],
+     "interpretation": "AI 데이터센터 시장을 독점하다시피 한 NVIDIA의 지배력에 대한 본격적인 도전이 시작되었습니다. 클라우드 사업자가 자체 칩 개발을 가속화함에 따라 범용 GPU 의존도를 낮추려는 움직임이 강화될 것으로 보입니다.",
+     "affected_company_ids": [
+      "nvidia",
+      "amazon"
+     ],
+     "event_type": "product",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "퀄컴의 데이터센터 칩이 실제 AWS 인프라에 도입되어 NVIDIA GPU 점유율을 얼마나 잠식하는지 확인이 필요합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "10c34b58236be307"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자 파운드리, 2nm 공정 설계 효율성 입증",
+     "facts": [
+      "Synopsys의 Fusion Compiler 툴을 활용해 삼성 파운드리 SF2P 공정에서 NPU 다이 면적을 22% 절감함",
+      "삼성전자가 2nm 공정 경쟁력을 확보하기 위해 설계 툴 파트너십을 강화하고 있음"
+     ],
+     "interpretation": "삼성 파운드리가 미세 공정에서의 설계 효율성을 입증함으로써, TSMC와의 2nm 경쟁에서 수주 가능성을 높이는 긍정적인 신호로 해석됩니다.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "삼성 파운드리의 2nm 공정 실제 양산 수율과 주요 고객사 확보 여부가 중요합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "73cb2f4eef7b5807"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "클라우드 인프라에 대한 막대한 투자가 지속되는 가운데, AI 모델의 수요 폭증으로 인한 공급난과 보안 특화 AI 모델 개발이 주요 이슈로 부상했습니다.",
+   "stories": [
+    {
+     "headline": "오라클, AI 데이터센터 수요 급증으로 매출 사상 최고치 기록",
+     "facts": [
+      "오라클의 2027회계연도 1분기 매출이 전년 동기 대비 30% 증가함",
+      "클라우드 인프라(OCI) 매출이 1년 만에 두 배 이상 성장함"
+     ],
+     "interpretation": "AI 모델 훈련 및 추론을 위한 클라우드 인프라 수요가 여전히 강력함을 시사합니다. 오라클의 성장은 대규모 AI 인프라 구축이 실질적인 매출로 연결되고 있음을 보여줍니다.",
+     "affected_company_ids": [
+      "oracle"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "오라클의 클라우드 인프라 매출 성장세가 향후 분기에도 지속될 수 있는지 확인이 필요합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5ea038e61c2ceb95",
+      "809eceff016ba3f6",
+      "4ff99b64d5539f30"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "마이크로소프트, 2032년까지 데이터센터 용량 3배 확대",
+     "facts": [
+      "MS가 현재 12GW인 데이터센터 용량을 2032년까지 38GW로 확대할 계획임",
+      "AI 및 클라우드 서비스의 공급난 해소를 위한 인프라 확보 목적임"
+     ],
+     "interpretation": "AI 서비스 확장을 위한 인프라 투자가 장기적으로 지속될 것임을 시사합니다. 이는 서버 및 전력 인프라 관련 기업들에게 장기적인 수혜가 될 전망입니다.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "데이터센터 확대에 따른 전력 수급 및 관련 하드웨어 공급망의 안정성 확보 여부를 지켜봐야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2e4ca756ae4a4d79"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "10c34b58236be307",
+   "title": "퀄컴, 아마존과 AI 추론 칩 공동 개발...\"스마트폰 넘어 데이터센터로\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215041",
+   "source": "AI타임스"
+  },
+  {
+   "id": "73cb2f4eef7b5807",
+   "title": "Samsung 2nm push gains momentum as Synopsys cuts NPU die area by 22%",
+   "url": "https://www.digitimes.com/news/a20260910VL218/synopsys-samsung-npu-2nm-design.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "2e4ca756ae4a4d79",
+   "title": "MS, 데이터센터 용량 3배 확대 추진…AI·클라우드 공급난 해소",
+   "url": "https://www.etnews.com/20260911000022",
+   "source": "전자신문"
+  },
+  {
+   "id": "5ea038e61c2ceb95",
+   "title": "오라클, AI 데이터센터 수요에 매출 30% 증가…OCI 매출 2배",
+   "url": "https://www.etnews.com/20260911000009",
+   "source": "전자신문"
+  },
+  {
+   "id": "809eceff016ba3f6",
+   "title": "Oracle's stock edges up on earnings beat as cloud infrastructure revenue more than doubles",
+   "url": "https://www.cnbc.com/2026/09/10/oracle-orcl-q1-earnings-report-2027.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "4ff99b64d5539f30",
+   "title": "Oracle's stock jumps 7% on earnings beat as cloud infrastructure revenue more than doubles",
+   "url": "https://www.cnbc.com/2026/09/10/oracle-orcl-q1-earnings-report-2027.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

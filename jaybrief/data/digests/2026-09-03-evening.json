@@ -1,0 +1,177 @@
+{
+ "generated_at": "2026-09-03T08:12:15Z",
+ "date": "2026-09-03",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "글로벌 HBM 시장 경쟁 심화와 AI 인프라 수요에 따른 공급망 전략 변화가 핵심입니다. 마이크론의 생산 능력 확대와 삼성전자의 점유율 추격이 가시화되고 있으며, 브로드컴은 맞춤형 AI 반도체(ASIC) 중심의 중장기 성장 가이던스를 제시했습니다.",
+   "stories": [
+    {
+     "headline": "글로벌 HBM 시장 점유율 경쟁: SK하이닉스 1위 수성 속 삼성전자 추격",
+     "facts": [
+      "2026년 2분기 HBM 매출 기준 점유율: SK하이닉스 50%, 삼성전자 33%, 마이크론 18%",
+      "삼성전자는 1분기 21%에서 2분기 33%로 점유율을 크게 확대함"
+     ],
+     "interpretation": "SK하이닉스가 선두를 유지하고 있으나, 삼성전자가 공급 역량을 빠르게 회복하며 격차를 좁히고 있습니다. HBM 시장의 공급 과잉 우려보다는 AI 수요에 대응한 생산 능력 확보가 점유율의 핵심 변수로 작용하고 있습니다.",
+     "affected_company_ids": [
+      "sk-hynix",
+      "samsung-electronics",
+      "micron"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "tsmc-q3-2026 실적 발표를 통한 AI 반도체 파운드리 수요 확인",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "c4ac78b3db676c27"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "마이크론, HBM 생산 능력 2배 확대 및 HBM4 공급 역량 강화",
+     "facts": [
+      "마이크론이 올해 말까지 HBM 생산 능력을 전년 대비 2배(월 최대 6만 장) 확대할 계획",
+      "최신 HBM4 12단 공급 역량 강화에 집중"
+     ],
+     "interpretation": "마이크론의 공격적인 설비 투자는 HBM 시장 내 3위 사업자로서의 입지를 강화하고, 삼성·SK하이닉스와의 기술 및 생산 경쟁에 본격적으로 가세하겠다는 의지로 해석됩니다.",
+     "affected_company_ids": [
+      "micron",
+      "sk-hynix",
+      "samsung-electronics"
+     ],
+     "event_type": "guidance",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "마이크론의 HBM4 수율 및 주요 빅테크 고객사 공급 계약 체결 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "cc7f0d39f1239dc0"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "브로드컴, 맞춤형 AI 반도체(ASIC) 중심 중장기 성장 가이던스 제시",
+     "facts": [
+      "회계연도 3분기 실적 호조 및 향후 2년간 AI 반도체 부문 대규모 매출 성장 가이던스 제시",
+      "빅테크 기업들의 자체 맞춤형 반도체(ASIC) 수요 증가가 성장을 견인"
+     ],
+     "interpretation": "브로드컴은 범용 GPU 시장과 별개로 빅테크의 ASIC 수요를 선점하며 안정적인 성장 동력을 확보했습니다. 이는 AI 인프라 투자가 단순 GPU 구매를 넘어 맞춤형 칩 설계로 다변화되고 있음을 시사합니다.",
+     "affected_company_ids": [
+      "broadcom"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "주요 클라우드 빅테크의 ASIC 도입 확대 속도 및 브로드컴의 관련 매출 비중 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4068299c7c9346cc"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크 기업들의 AI 사업 재편과 실적 투명성 강화, 그리고 AI 인프라 도입을 위한 전략적 파트너십이 활발합니다. 특히 마이크로소프트의 공시 체계 개편은 AI 투자 성과에 대한 시장의 요구를 반영하고 있습니다.",
+   "stories": [
+    {
+     "headline": "마이크로소프트, AI 사업 중심 공시 체계 개편 및 애저 매출 첫 공개",
+     "facts": [
+      "사업 부문을 3개에서 2개(Agents and Infra, Devices and Consumer)로 재편",
+      "핵심 클라우드 사업인 Azure의 분기 매출을 달러 단위로 최초 공개"
+     ],
+     "interpretation": "AI 인프라 투자 비용이 급증함에 따라 시장은 클라우드 사업의 실질적인 수익성을 요구하고 있습니다. 이번 개편은 투명성을 높여 투자자의 신뢰를 확보하고 AI 사업의 성과를 구체적으로 증명하려는 전략입니다.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "Azure의 분기별 매출 성장률과 AI 관련 자본 지출(CAPEX) 대비 수익성 개선 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6e61ac1f99c15753",
+      "957b1a11385a6bdc"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "베슬AI, SK바이오팜에 엔비디아 B200 GPU 공급 계약 체결",
+     "facts": [
+      "베슬AI가 SK바이오팜에 엔비디아 B200 GPU 128장 규모 공급",
+      "SK바이오팜은 이를 신약 개발 및 파운데이션 모델 사전학습에 활용 예정"
+     ],
+     "interpretation": "제약·바이오 기업들이 자체 AI 인프라를 구축하여 신약 개발 효율을 높이려는 AX(AI 전환) 수요가 가시화되고 있습니다. 이는 엔비디아 GPU 수요가 빅테크를 넘어 산업 전반으로 확산되고 있음을 보여줍니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "제약·바이오 업계의 GPU 기반 AI 인프라 도입 추가 사례",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "25fffe693137fe8d",
+      "9839fc5a0139c95c"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "c4ac78b3db676c27",
+   "title": "2분기 HBM 점유율 SK하이닉스 50%·삼성전자 33%·마이크론 18%",
+   "url": "https://www.etnews.com/20260903000372",
+   "source": "전자신문"
+  },
+  {
+   "id": "cc7f0d39f1239dc0",
+   "title": "美 마이크론, HBM 생산능력 2배 확대…삼성·SK 격차 줄인다",
+   "url": "https://www.etnews.com/20260903000221",
+   "source": "전자신문"
+  },
+  {
+   "id": "25fffe693137fe8d",
+   "title": "베슬AI, 제약·바이오로 AI 인프라 영토 넓힌다…SK바이오팜에 B200 공급",
+   "url": "https://zdnet.co.kr/view/?no=20260903144636",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "4068299c7c9346cc",
+   "title": "'호실적' 브로드컴, 빅테크 맞춤형 AI칩 판 짠다",
+   "url": "https://zdnet.co.kr/view/?no=20260903133832",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "9839fc5a0139c95c",
+   "title": "베슬AI, SK바이오팜에 GPU 128장 공급...신약 개발 지원 나선다",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214786",
+   "source": "AI타임스"
+  },
+  {
+   "id": "6e61ac1f99c15753",
+   "title": "[AI는 지금] MS, AI 사업 맞춰 11년 만에 공시 체계 바꿨다…애저 분기 매출도 첫 공개",
+   "url": "https://zdnet.co.kr/view/?no=20260903150941",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "957b1a11385a6bdc",
+   "title": "MS, 사업 부문 2개로 재편…‘애저’ 분기 매출 첫 공개",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214795",
+   "source": "AI타임스"
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "generated_at": "2026-08-25T12:48:26Z",
+ "date": "2026-08-25",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 AI 인프라 확장에 따른 기술적 병목 해소와 공급망 다변화, 그리고 기업 내부의 노사 갈등이 주요 이슈로 부상함.",
+   "stories": [
+    {
+     "headline": "엔비디아, 스페이스XAI에 베라 CPU 및 AI 인프라 공급",
+     "facts": [
+      "엔비디아가 스페이스X의 자회사 스페이스XAI에 베라 CPU를 공급함",
+      "베라 CPU는 차세대 에이전트 AI 모델 가속 및 기가와트급 컴퓨팅 용량 확장을 지원함",
+      "삼성전자 파운드리 4나노 공정으로 생산된 AI 추론 특화 LPU 그록 3도 함께 납품됨"
+     ],
+     "interpretation": "엔비디아의 AI 하드웨어 생태계가 우주 데이터센터 등 특수 목적 AI 인프라로 확장되고 있으며, 파운드리 파트너인 삼성전자의 공정 기술에 대한 의존도가 지속되고 있음을 시사함.",
+     "affected_company_ids": [
+      "nvidia",
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "엔비디아의 차세대 AI 인프라 매출 비중 변화와 삼성전자 파운드리 수율 안정성 확인.",
+     "upcoming_event_ids": [
+      "nvidia-fy27-q2"
+     ],
+     "article_ids": [
+      "6b2a97e060ea3180"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "SK하이닉스, 임단협 잠정합의안 부결로 노사 재협상 돌입",
+     "facts": [
+      "SK하이닉스 노조가 2026년 임단협 잠정합의안을 조합원 투표 결과 부결시킴",
+      "부결의 핵심 원인은 성과급의 60%를 자사주로 지급하는 방식에 대한 거부감임",
+      "노조는 현금 지급 비중 확대를 요구하며 재협상을 예고함"
+     ],
+     "interpretation": "HBM 등 실적 호조에 따른 성과 배분 방식을 두고 사측의 주주 가치 제고 정책과 구성원의 현금 선호 간 시각 차이가 노출됨. 교섭 장기화 시 생산 및 경영 효율성에 불확실성 요인으로 작용할 수 있음.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "재협상 과정에서의 자사주 지급 비율 조정 여부 및 노조의 추가 대응 수위.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b519425bdca046dc"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 및 AI 섹터는 차세대 모델 개발 경쟁과 AI 기술의 윤리적·사회적 책임 문제가 주요 화두로 떠오름.",
+   "stories": [
+    {
+     "headline": "구글, 제미나이 3.5 프로 건너뛰고 제미나이 4 개발 집중",
+     "facts": [
+      "구글이 제미나이 3.5 프로 출시 계획을 사실상 철회하고 제미나이 4 개발에 전력을 다하고 있음",
+      "내부 데이터베이스에서 제미나이 4 관련 언급이 급증하며 출시 준비 정황 포착",
+      "데스크톱 앱 개편을 통해 에이전트 작업 공간 및 외부 도구 연동 기능 강화 추진"
+     ],
+     "interpretation": "중간 단계 모델 출시보다 차세대 플래그십 모델을 통한 시장 지배력 회복을 우선시하는 전략으로 풀이됨. 에이전트 AI 시장에서 경쟁사와의 기술 격차를 좁히기 위한 공격적인 행보임.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "제미나이 4의 공식 발표 시점과 에이전트 기능의 실제 성능 구현 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c5bbbedeaa026315"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "6b2a97e060ea3180",
+   "title": "엔비디아, 스페이스XAI에 베라 CPU 등 공급",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61341",
+   "source": "디일렉"
+  },
+  {
+   "id": "b519425bdca046dc",
+   "title": "SK하이닉스 노조, 임단협 잠정합의안 부결…성과급 자사주 지급안 제동",
+   "url": "https://www.etnews.com/20260825000384",
+   "source": "전자신문"
+  },
+  {
+   "id": "c5bbbedeaa026315",
+   "title": "구글, 제미나이 3.5 프로 건너뛰고 차세대 ‘제미나이 4’ 출시 준비하나",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214355",
+   "source": "AI타임스"
+  }
+ ]
+}

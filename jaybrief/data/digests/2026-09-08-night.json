@@ -1,0 +1,213 @@
+{
+ "generated_at": "2026-09-08T13:43:31Z",
+ "date": "2026-09-08",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 수요 급증에 따른 데이터센터용 반도체 기술 고도화와 삼성전자의 차세대 패키징 및 파운드리 생태계 확장 전략이 핵심입니다.",
+   "stories": [
+    {
+     "headline": "삼성전자, ASML과 차세대 하이 NA EUV 도입 및 12인치 포토마스크 공동 개발",
+     "facts": [
+      "삼성전자가 2028년까지 차세대 D램 제조에 ASML의 하이(High) NA EUV 장비를 업계 최초로 도입",
+      "삼성전자와 ASML이 기존 6인치 포토마스크를 12인치로 확대하는 공동 개발 및 표준화 추진"
+     ],
+     "interpretation": "첨단 AI 반도체 제조 경쟁력을 확보하기 위한 핵심 노광 기술 선점 전략으로, 향후 미세 공정 생산성 향상과 원가 절감이 기대됩니다.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "asml"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "하이 NA EUV 장비 도입에 따른 실제 수율 개선 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "579f46236cea51c0",
+      "fddc7d53d12c2c9b",
+      "8eac2dfcb3ebfde5",
+      "c256209f04127514"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "세미파이브, 삼성 4나노 공정 활용 하이퍼엑셀 AI 추론 가속기 양산",
+     "facts": [
+      "세미파이브가 하이퍼엑셀의 거대언어모델(LLM) 추론 가속기 '베르다' 양산 시작",
+      "삼성 파운드리 4나노 공정을 적용한 세미파이브의 첫 대규모 양산 사례"
+     ],
+     "interpretation": "삼성전자 파운드리 생태계 내 팹리스 협력 성과가 가시화되고 있으며, AI 추론 시장 확대에 따른 파운드리 수주 모멘텀이 강화될 전망입니다.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "추가적인 AI 팹리스 고객사 확보 및 양산 물량 확대 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f2dfb3ff8dbf64ff",
+      "9412c7cad457ccf5",
+      "80686e5205f6dd5d"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "메타-파네시아, CXL 기반 차세대 AI 데이터센터 구조 제시",
+     "facts": [
+      "메타와 파네시아가 CPU, 가속기, 메모리를 CXL로 연결하는 데이터센터 구조를 네이처 리뷰 학술지에 게재",
+      "AI 모델 대형화에 따른 지연 시간 문제를 해결하기 위한 기술적 대안"
+     ],
+     "interpretation": "데이터센터의 효율성을 극대화하는 CXL 기술이 AI 인프라의 표준으로 자리 잡을 가능성이 높으며, 관련 생태계 기업들의 기술적 우위가 중요해질 것입니다.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "CXL 기술의 실제 데이터센터 상용화 속도 및 표준화 진행 상황",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "254ce22a45238492",
+      "d3cff444575df4a1"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 도입을 통한 기업 생산성 혁신과 글로벌 빅테크에 대한 규제 강화 움직임이 공존하고 있습니다.",
+   "stories": [
+    {
+     "headline": "퀄컴, 아마존과 데이터센터 인프라 협력 발표",
+     "facts": [
+      "퀄컴이 아마존과 데이터센터 인프라 관련 계약을 체결",
+      "데이터센터 시장에서 엔비디아의 지배력에 도전하는 움직임"
+     ],
+     "interpretation": "데이터센터 시장의 경쟁이 가속화되고 있으며, 퀄컴의 진입은 엔비디아의 독점적 지위에 대한 시장의 견제 심리를 반영합니다.",
+     "affected_company_ids": [
+      "nvidia",
+      "amazon"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "퀄컴의 데이터센터 시장 점유율 확대 가능성 및 엔비디아의 대응 전략",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5b0276a9d638ab51",
+      "52d7e5faec937e84"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "호주, 빅테크 대상 알고리즘 기반 피드 선택권 도입 추진",
+     "facts": [
+      "호주 정부가 소셜 미디어 이용자에게 알고리즘 기반 피드를 끌 수 있는 선택권을 부여하는 법안 추진",
+      "글로벌 빅테크 기업들에 대한 규제 압박의 일환"
+     ],
+     "interpretation": "전 세계적으로 빅테크의 알고리즘 투명성에 대한 규제가 강화되고 있으며, 이는 플랫폼 기업의 광고 수익 모델에 장기적인 리스크로 작용할 수 있습니다.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "타 국가들의 유사 규제 도입 여부 및 플랫폼 기업들의 대응책",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c21eb3bc3b863616",
+      "570d53c205fd8b19"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "5b0276a9d638ab51",
+   "title": "Qualcomm stock pops 6% on data center infrastructure deal with Amazon",
+   "url": "https://www.cnbc.com/2026/09/08/qualcomm-amazon-data-center-infrastructure-deal.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "254ce22a45238492",
+   "title": "메타·파네시아, CXL로 데이터센터 연결",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61980",
+   "source": "디일렉"
+  },
+  {
+   "id": "f2dfb3ff8dbf64ff",
+   "title": "세미파이브, 4나노 반도체 첫 양산",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61975",
+   "source": "디일렉"
+  },
+  {
+   "id": "52d7e5faec937e84",
+   "title": "Qualcomm stock pops 10% on data center infrastructure deal with Amazon",
+   "url": "https://www.cnbc.com/2026/09/08/qualcomm-amazon-data-center-infrastructure-deal.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "579f46236cea51c0",
+   "title": "삼성전자-ASML, D램 제조에 하이 EUV 도입",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61969",
+   "source": "디일렉"
+  },
+  {
+   "id": "9412c7cad457ccf5",
+   "title": "SEMIFIVE Commences Mass Production of HyperAccel's LLM AI Inference Accelerator 'Bertha' on Samsung 4nm, Spurring Growth Momentum",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=341250",
+   "source": "KIPOST"
+  },
+  {
+   "id": "d3cff444575df4a1",
+   "title": "파네시아, 메타와 함께 ‘하나의 칩처럼 동작하는 AI 데이터센터 구조’ 네이처 리뷰 학술지에 소개",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=341242",
+   "source": "KIPOST"
+  },
+  {
+   "id": "fddc7d53d12c2c9b",
+   "title": "삼성전자·ASML, 차세대 반도체 마스크 12인치로 확대…생산성·원가 개선",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215007",
+   "source": "AI타임스"
+  },
+  {
+   "id": "8eac2dfcb3ebfde5",
+   "title": "삼성전자, 2028년 메모리 최초 '하이 NA EUV' 도입... ASML과 포토마스크 개발 협력",
+   "url": "https://zdnet.co.kr/view/?no=20260908151746",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "c256209f04127514",
+   "title": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline",
+   "url": "https://www.digitimes.com/news/a20260908VL208/tsmc-asml-12-inch-production-6-inch.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "80686e5205f6dd5d",
+   "title": "세미파이브, 하이퍼엑셀 데이터센터용 AI 칩 양산…\"삼성 4나노 첫 적용\"",
+   "url": "https://zdnet.co.kr/view/?no=20260908133925",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "c21eb3bc3b863616",
+   "title": "Australia targets algorithmic social feeds as it looks to hit Big Tech harder",
+   "url": "https://www.cnbc.com/2026/09/08/australia-social-media-algorithm-opt-out.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "570d53c205fd8b19",
+   "title": "Australia to let social media users 'opt out' of algorithm-based feeds in fresh blow to big tech",
+   "url": "https://www.cnbc.com/2026/09/08/australia-social-media-algorithm-opt-out.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

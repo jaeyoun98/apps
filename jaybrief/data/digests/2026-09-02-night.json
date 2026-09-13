@@ -1,0 +1,166 @@
+{
+ "generated_at": "2026-09-02T13:44:56Z",
+ "date": "2026-09-02",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 산업은 AI 인프라 확장에 따른 후공정(OSAT) 및 패키징 기술 고도화가 핵심 화두로 떠오르고 있으며, 메모리 기업들의 차세대 적층 기술 경쟁과 글로벌 공급망 다변화 움직임이 가속화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "한미반도체, 대만 파운드리 양산 라인 진입",
+     "facts": [
+      "한미반도체가 대만 파운드리 기업의 AI 시스템반도체용 패키징(본딩) 장비 공급망에 진입함",
+      "한국산 패키징 장비가 대만 파운드리 양산 퀄(품질인증)을 통과한 첫 사례"
+     ],
+     "interpretation": "대만 파운드리 중심의 AI 패키징 생태계에 한국 장비 업체가 진입했다는 점은 향후 HBM 등 고성능 반도체 후공정 시장에서 국내 장비사의 점유율 확대 가능성을 시사함",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "추가적인 대규모 수주 계약 공시 여부",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "7ca74111d3afa458"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "SK하이닉스, 키옥시아와 공동생산 가능성 시사",
+     "facts": [
+      "최태원 SK그룹 회장이 일본 키옥시아와의 공동생산이 하나의 선택지라고 언급함",
+      "키옥시아의 미래 전략에 SK하이닉스가 파트너로 참여할 의사가 있음을 밝힘"
+     ],
+     "interpretation": "낸드플래시 시장 경쟁력 강화를 위해 일본 기업과의 전략적 제휴를 고려하는 것으로, 향후 메모리 시장 점유율 및 기술 협력 구도에 변화를 줄 수 있음",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "구체적인 협력 범위 및 지분 투자 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c7d7a3f54f06a0b5"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "메모리 3사, 2.5D HBM 한계 극복 위한 3D 적층 경쟁",
+     "facts": [
+      "삼성전자, SK하이닉스, 마이크론 경영진이 세미콘 타이완에서 2.5D HBM의 성능 한계를 인정함",
+      "차세대 메모리 솔루션으로 3D 적층 기술 도입이 필수적이라는 데 의견을 모음"
+     ],
+     "interpretation": "기존 HBM 구조의 기술적 벽을 넘기 위한 차세대 패키징 기술 경쟁이 본격화되고 있으며, 이는 향후 HBM 시장의 기술 주도권 싸움으로 이어질 전망",
+     "affected_company_ids": [
+      "sk-hynix",
+      "samsung-electronics",
+      "micron"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "각 사의 3D 적층 기술 상용화 로드맵 발표",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f6e5c27f2ee24391"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 및 AI 섹터는 모델의 성능 경쟁을 넘어 기업용 보안 솔루션, 온디바이스 AI, 그리고 데이터 주권 확보를 위한 전략적 움직임이 두드러지고 있습니다.",
+   "stories": [
+    {
+     "headline": "앤트로픽, 기업 데이터 관리 솔루션 공개 및 영국 정책 전문가 영입",
+     "facts": [
+      "앤트로픽이 기업 고객의 데이터 보존 정책을 수정하고 민감 데이터를 직접 관리하는 보안 솔루션(EFS)을 출시함",
+      "영국 AI 전략 설계자인 맷 클리퍼드를 국제업무 담당 매니징 디렉터로 영입함"
+     ],
+     "interpretation": "기업용 AI 시장을 핵심 매출원으로 확보하기 위해 데이터 프라이버시를 강화하고, 글로벌 규제 대응 역량을 높여 시장 점유율을 확대하려는 전략임",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "엔터프라이즈 고객사 확보 속도",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e5a17059fd412e24",
+      "15ce2f583fbcec28"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "메타, 실시간 음성 AI 모델 '뮤즈 보이스 트랜스크라이브' 공개",
+     "facts": [
+      "메타가 실시간 음성 인식, 화자 분리, 발화 종료 감지를 통합한 AI 모델을 공개함",
+      "단어 오류율 3.1%로 스트리밍 음성 인식 벤치마크 1위를 기록함"
+     ],
+     "interpretation": "음성 AI 분야의 기술적 우위를 확보하여 메타의 제품 파이프라인에 적용함으로써 AI 서비스 경쟁력을 강화하려는 의도임",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "실제 서비스 적용 시점 및 사용자 반응",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f08f949f9b070432"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "c7d7a3f54f06a0b5",
+   "title": "최태원 SK 회장 \"日 키옥시아와 공동생산도 선택지\"",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61720",
+   "source": "디일렉"
+  },
+  {
+   "id": "f08f949f9b070432",
+   "title": "메타, 실시간 음성 '뮤즈 보이스 트랜스크라이브' 공개...단어 오류율 1위",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214745",
+   "source": "AI타임스"
+  },
+  {
+   "id": "f6e5c27f2ee24391",
+   "title": "DRAM giants target 3D stacking to break memory wall and power bottlenecks",
+   "url": "https://www.digitimes.com/news/a20260902PD241/dram-bandwidth-3d-data-demand-semicon-taiwan.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "7ca74111d3afa458",
+   "title": "한미반도체, 대만 파운드리 기업에 패키징 장비 대량 공급…양산 라인 확보",
+   "url": "https://www.etnews.com/20260902000340",
+   "source": "전자신문"
+  },
+  {
+   "id": "15ce2f583fbcec28",
+   "title": "The Evolution Of Intelligent Systems: From Optimization To Automation to AI",
+   "url": "https://semiengineering.com/the-evolution-of-intelligent-systems-from-optimization-to-automation-to-ai/",
+   "source": "Semiconductor Engineering"
+  },
+  {
+   "id": "e5a17059fd412e24",
+   "title": "[AI는 지금] 영국 AI 전략 설계자, 앤트로픽행…글로벌 정부 협력 주도",
+   "url": "https://zdnet.co.kr/view/?no=20260902174619",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "generated_at": "2026-09-11T13:40:53Z",
+ "date": "2026-09-11",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 데이터센터 수요 급증에 따른 HBM 및 차세대 패키징 기술 경쟁이 심화되고 있으며, 삼성전자의 HBM 점유율 확대 전망과 함께 반도체 장비 및 소재 시장의 성장이 가시화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "삼성전자, HBM 시장 점유율 4분기 40% 근접 전망",
+     "facts": [
+      "삼성전자의 HBM 시장 점유율이 2분기 33%에서 4분기 40% 수준으로 확대될 것으로 전망됨",
+      "HBM4 판매 확대 및 2나노 선단 공정 수율 개선이 긍정적 요인으로 작용"
+     ],
+     "interpretation": "HBM 시장 내 경쟁력 회복은 삼성전자의 메모리 부문 수익성 개선과 파운드리 흑자 전환의 핵심 동력이 될 것으로 보임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "삼성전자의 차세대 HBM 수율 및 주요 고객사 공급 계약 체결 여부 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "182c122393c5c47a"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "마이크로소프트, 2032년까지 데이터센터 용량 3배 확대",
+     "facts": [
+      "마이크로소프트가 AI 및 클라우드 수요 대응을 위해 데이터센터 용량을 현재 12GW에서 2032년까지 3배 이상 확대 계획",
+      "엔비디아 AI 칩 부족 및 전력 확보난을 장기적 인프라 확충으로 돌파 전략"
+     ],
+     "interpretation": "빅테크의 공격적인 데이터센터 투자는 엔비디아의 AI 가속기 수요를 장기적으로 견인하며, 반도체 공급망 전반의 설비 투자 확대를 유도함.",
+     "affected_company_ids": [
+      "nvidia",
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "빅테크의 데이터센터 전력 확보 및 AI 칩 조달 속도",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "db1a8d2e0257d47b"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 클라우드 수요가 기업 실적을 견인하는 가운데, 오픈AI의 실시간 음성 모델 출시 등 AI 에이전트 기술이 고도화되고 있습니다. 한편, AI 안전성에 대한 규제 논의도 함께 진행 중입니다.",
+   "stories": [
+    {
+     "headline": "오라클, AI 클라우드 수요 힘입어 매출 급증",
+     "facts": [
+      "오라클의 클라우드 인프라스트럭처(OCI) 매출이 전년 대비 121% 증가",
+      "AI 클라우드 서비스 수요가 전체 매출 성장을 견인하며 주가 상승"
+     ],
+     "interpretation": "AI 인프라 시장에서 오라클의 OCI가 강력한 성장세를 보이고 있으며, 이는 클라우드 서비스 제공업체 간의 AI 워크로드 점유 경쟁이 심화되고 있음을 시사함.",
+     "affected_company_ids": [
+      "oracle"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "오라클의 클라우드 매출 성장세 지속 여부 및 경쟁사 대응",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "860b3cad6542d59d",
+      "ae99f2027e7e8973",
+      "9c2bf8b46a44d06c"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "오픈AI, 실시간 대화형 음성 모델 API 출시",
+     "facts": [
+      "오픈AI가 전이중(full-duplex) 음성 모델 'GPT-라이브-1' API를 출시",
+      "개발자들이 지연 시간 없는 실시간 음성 에이전트 구현 가능"
+     ],
+     "interpretation": "AI 에이전트의 실시간 상호작용 기능이 강화됨에 따라 고객 상담 및 서비스 자동화 시장에서 AI 도입이 더욱 가속화될 전망임.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "기업들의 실시간 음성 AI 도입 사례 및 시장 반응",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0129d87e3986f870"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "182c122393c5c47a",
+   "title": "“삼성전자 HBM, 더 크게 터진다”…'역대급' 증권가 파격 전망 나왔다",
+   "url": "https://www.etnews.com/20260911000368",
+   "source": "전자신문"
+  },
+  {
+   "id": "db1a8d2e0257d47b",
+   "title": "MS, AI 공급난에 ‘장기전’ 선언…2032년까지 데이터센터 3배로 확대",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215143",
+   "source": "AI타임스"
+  },
+  {
+   "id": "860b3cad6542d59d",
+   "title": "Oracle's stock rises on earnings and revenue beat fueled by AI cloud demand",
+   "url": "https://www.cnbc.com/2026/09/11/oracle-stock-q1-earnings-ai-cloud.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "0129d87e3986f870",
+   "title": "오픈AI, 전이중 음성 모델 'GPT-라이브-1' API 출시...\"실시간 대화 에이전트 구현\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215145",
+   "source": "AI타임스"
+  },
+  {
+   "id": "ae99f2027e7e8973",
+   "title": "Oracle jumps 6% after reporting 30% revenue growth fueled by AI cloud demand",
+   "url": "https://www.cnbc.com/2026/09/11/oracle-stock-q1-earnings-ai-cloud.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "9c2bf8b46a44d06c",
+   "title": "한국오라클, 클라우드 매출 50% 증가…AI 전환 흐름 속 고성장",
+   "url": "https://zdnet.co.kr/view/?no=20260911160143",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

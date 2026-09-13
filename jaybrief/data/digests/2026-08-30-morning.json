@@ -1,0 +1,133 @@
+{
+ "generated_at": "2026-08-30T00:28:39Z",
+ "date": "2026-08-30",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 확장에 따른 전력 및 냉각 기술의 중요성 증대와 중국 반도체 기업의 미국 제재 대응 및 지정학적 리스크가 부각되고 있습니다.",
+   "stories": [
+    {
+     "headline": "NVIDIA AI 인프라 고도화에 따른 액체 냉각 및 전력 공급 표준화 가속",
+     "facts": [
+      "AI 랙 전력이 1MW에 도달함에 따라 기존 공랭식 냉각의 한계 도달",
+      "중국이 AI 랙 전력 밀도 증가에 대응하여 국가 액체 냉각 표준을 최초로 제정"
+     ],
+     "interpretation": "AI 가속기 성능 향상이 데이터센터의 물리적 인프라(냉각, 전력) 재설계를 강제하고 있으며, 이는 관련 하드웨어 생태계의 표준화 경쟁으로 이어질 전망입니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "데이터센터 전력 효율화 관련 신규 표준 채택 여부와 주요 서버 제조사의 냉각 솔루션 도입 속도를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "a5feb8c12718d24e"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "중국 CXMT, 미 국방부 블랙리스트 지정 취소 소송 제기",
+     "facts": [
+      "중국 최대 D램 제조사 CXMT가 자사를 블랙리스트에 올린 미 국방부를 상대로 소송 제기",
+      "CXMT는 자사 칩이 순수 민간 및 상업용 용도라고 주장"
+     ],
+     "interpretation": "미·중 반도체 기술 패권 다툼이 법적 분쟁으로 확대되고 있습니다. CXMT의 대응은 향후 미국 정부의 제재 강도와 중국 기업들의 생존 전략을 가늠할 시험대가 될 것입니다.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 법원의 소송 결과와 이에 따른 추가적인 대중국 반도체 수출 통제 정책 변화를 주시해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "84fc90a4134debf8"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 모델의 성능 경쟁이 심화되는 가운데, 기업 간 파트너십 결별 및 기술 내재화 전략이 두드러지고 있습니다.",
+   "stories": [
+    {
+     "headline": "OpenAI, 스페이스X에 인수된 '커서(Cursor)'에 모델 공급 중단",
+     "facts": [
+      "OpenAI가 스페이스X에 인수된 AI 코딩 스타트업 커서에 대한 모델 공급 계약을 단계적으로 종료 통보",
+      "차단 예정일은 2026년 11월 12일"
+     ],
+     "interpretation": "샘 알트먼과 일론 머스크 간의 갈등이 기술 파트너십 영역으로 전이되었습니다. 이는 AI 생태계 내 경쟁사 견제 및 데이터/기술 통제권 확보를 위한 전략적 결정으로 해석됩니다.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "커서가 대체 모델을 확보할지, 혹은 OpenAI의 이번 결정이 다른 파트너십에 미칠 영향을 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6031f167347cf37e",
+      "79bb5891300101a0"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "메타, AI 에이전트의 외부 환경 제어 기술 '에보하네스-RL' 공개",
+     "facts": [
+      "메타와 UIUC 연구진이 AI 에이전트의 외부 도구 사용 능력을 학습시키는 '에보하네스-RL' 개발",
+      "8B 모델로 기존 대형 모델인 '오퍼스 4.5' 수준의 성능 구현"
+     ],
+     "interpretation": "AI 에이전트가 스스로 판단하여 외부 환경을 제어하는 기술은 자동화 수준을 획기적으로 높일 수 있습니다. 특히 경량 모델(8B)로 고성능을 구현한 점은 온디바이스 AI 및 효율적 에이전트 서비스 확산에 기여할 것입니다.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "해당 기술이 메타의 실제 서비스(Llama 등)에 적용되어 실질적인 생산성 향상으로 이어지는지 확인이 필요합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e5b30424fba05643"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "a5feb8c12718d24e",
+   "title": "China writes its first national liquid-cooling standard as AI racks approach 1MW",
+   "url": "https://www.digitimes.com/news/a20260828VL206/cooling-nvidia-rubin-infrastructure-data-center.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "84fc90a4134debf8",
+   "title": "\"군용 칩 만든 적 없다\"…中 CXMT, 美 국방부 상대 블랙리스트 취소 소송",
+   "url": "https://zdnet.co.kr/view/?no=20260829184418",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "e5b30424fba05643",
+   "title": "메타, 8B 모델로 ‘오퍼스 4.5’ 성능 구현한 ‘에보하네스-RL’ 공개",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214593",
+   "source": "AI타임스"
+  },
+  {
+   "id": "6031f167347cf37e",
+   "title": "오픈AI, 스페이스X 인수 '커서'에 모델 제공 중단...머스크와 갈등 격화",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214610",
+   "source": "AI타임스"
+  },
+  {
+   "id": "79bb5891300101a0",
+   "title": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
+   "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

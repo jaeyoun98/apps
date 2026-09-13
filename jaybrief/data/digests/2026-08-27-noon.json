@@ -1,0 +1,181 @@
+{
+ "generated_at": "2026-08-27T03:24:18Z",
+ "date": "2026-08-27",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 반도체 수요가 지속되는 가운데 NVIDIA의 실적 호조와 공급망 내 HBM 및 차세대 패키징 기술 경쟁이 심화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "NVIDIA, 2분기 매출 106% 급증 및 내년 70% 성장 전망",
+     "facts": [
+      "2027회계연도 2분기 매출 962억 2,000만 달러 기록",
+      "13분기 연속 매출 신기록 경신",
+      "젠슨 황 CEO는 내년 매출 약 70% 성장 예상"
+     ],
+     "interpretation": "AI 인프라 투자 수요가 여전히 공급을 상회하고 있음을 시사하며, 데이터센터 부문의 압도적인 성장세가 실적을 견인하고 있습니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "공급 제약 해소 여부와 데이터센터 외 AI 생태계 투자 수익성 확인이 필요합니다.",
+     "upcoming_event_ids": [
+      "fomc-2026-09"
+     ],
+     "article_ids": [
+      "f9b0dfd950ac043d",
+      "b5d60535bfde8ca2",
+      "f2f3b2564a58480d",
+      "4fefb5bee944269d"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "NVIDIA, HBM4 공급망 최적화 및 파트너십 확대",
+     "facts": [
+      "NVIDIA는 삼성전자와 SK하이닉스에 8-high HBM4 공급 비중 확대를 요청",
+      "AWS와 협력하여 200만 개의 GPU 추가 도입 및 인프라 확장 계획"
+     ],
+     "interpretation": "차세대 AI 가속기 'Vera Rubin' 플랫폼을 위한 메모리 확보가 핵심이며, 공급업체와의 긴밀한 협력을 통해 열 제약 및 성능 최적화를 도모하고 있습니다.",
+     "affected_company_ids": [
+      "nvidia",
+      "sk-hynix",
+      "samsung-electronics",
+      "amazon"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "HBM4 양산 수율 및 공급 비중 변화가 각 메모리 제조사의 수익성에 미칠 영향.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "88b69b877a03c0ed",
+      "0d6a91f2720d6dc4",
+      "dfb99268593b8fdd"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "기업들의 AI 전환(AX) 가속화와 함께 클라우드 인프라 및 보안 솔루션 수요가 증가하고 있으며, 대형 플랫폼 기업들의 AI 생태계 투자가 활발합니다.",
+   "stories": [
+    {
+     "headline": "Anthropic, Nscale과 450억 달러 규모 클라우드 컴퓨팅 계약 체결",
+     "facts": [
+      "Anthropic은 향후 6년간 Nscale의 데이터센터 컴퓨팅 용량을 임대하기로 합의",
+      "AI 모델 학습 및 추론을 위한 대규모 인프라 확보 전략"
+     ],
+     "interpretation": "AI 기업들이 자체 모델 성능 고도화를 위해 막대한 컴퓨팅 자원을 선점하려는 '컴퓨팅 확보 경쟁'이 심화되고 있음을 보여줍니다.",
+     "affected_company_ids": [],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "대규모 인프라 투자 대비 실제 AI 모델의 수익화 속도.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b056e0b598a29e9b",
+      "4e1732d96cf6fe75",
+      "c0b815a422f71a53"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "카카오엔터프라이즈, 금융권 대상 AI 인프라 전략 세미나 개최",
+     "facts": [
+      "증권사 대상 하이브리드 GPUaaS 활용 AI 인프라 구축 전략 공유",
+      "금융권의 AI 도입 가속화를 위한 인프라 고민 해결 방안 제시"
+     ],
+     "interpretation": "금융권의 생성형 AI 도입이 본격화됨에 따라 보안과 효율성을 갖춘 클라우드 기반 인프라 수요가 증가하고 있습니다.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "금융권의 실제 AI 인프라 도입 규모 및 카카오클라우드의 시장 점유율 확대 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "aafa96b7e901567e"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "f9b0dfd950ac043d",
+   "title": "엔비디아, 2분기 매출 예상치 '초과'…전년비 106%↑",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61407",
+   "source": "디일렉"
+  },
+  {
+   "id": "aafa96b7e901567e",
+   "title": "카카오엔터프라이즈, 증권사 대상 AI 인프라 전략 세미나 개최",
+   "url": "https://www.etnews.com/20260827000171",
+   "source": "전자신문"
+  },
+  {
+   "id": "88b69b877a03c0ed",
+   "title": "Nvidia shifts HBM4 mix toward 8-high as memory supply stays tight",
+   "url": "https://www.digitimes.com/news/a20260826VL221/nvidia-samsung-sk-hynix-hbm4-hbm.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "b056e0b598a29e9b",
+   "title": "Anthropic reportedly commits US$45 billion to Nscale for AI computing capacity",
+   "url": "https://www.digitimes.com/news/a20260827VL206/anthropic-capacity-infrastructure-microsoft-bloomberg.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "b5d60535bfde8ca2",
+   "title": "Nvidia wows Wall Street with a strong quarter and an eye-popping sales forecast",
+   "url": "https://www.cnbc.com/2026/08/26/nvidia-wows-wall-street-with-a-strong-quarter-eye-popping-sales-forecast.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "0d6a91f2720d6dc4",
+   "title": "AWS, Nvidia expand AI partnership with plan for 2 million more GPUs",
+   "url": "https://www.digitimes.com/news/a20260827VL201/nvidia-amazon-aws-partnership-infrastructure.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "f2f3b2564a58480d",
+   "title": "Nvidia’s 70% growth forecast puts it on track to become tech’s No. 2 company by revenue",
+   "url": "https://www.cnbc.com/2026/08/26/nvidia-70percent-growth-forecast-puts-it-on-track-to-be-tech-no-2-company.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "dfb99268593b8fdd",
+   "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
+   "url": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "4fefb5bee944269d",
+   "title": "엔비디아, 분기 매출 962억달러…13분기 연속 신기록",
+   "url": "https://www.etnews.com/20260827000001",
+   "source": "전자신문"
+  },
+  {
+   "id": "c0b815a422f71a53",
+   "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
+   "url": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "4e1732d96cf6fe75",
+   "title": "Anthropic and Nscale strike $45 billion cloud deal, sources say",
+   "url": "https://www.cnbc.com/2026/08/26/anthropic-and-nscale-strike-45-billion-cloud-deal-sources-say.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

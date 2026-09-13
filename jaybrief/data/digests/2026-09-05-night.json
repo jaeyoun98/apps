@@ -1,0 +1,134 @@
+{
+ "generated_at": "2026-09-05T14:43:26Z",
+ "date": "2026-09-05",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "삼성전자 내부 노사 갈등이 지속되는 가운데, 반도체 및 AI 산업 전반의 투자 심리와 경영 환경에 대한 외부 시각이 교차하고 있습니다.",
+   "stories": [
+    {
+     "headline": "삼성전자 DX 노조, 이재용 회장 자택 앞 무기한 시위 예고",
+     "facts": [
+      "삼성전자 DX부문 동행노조가 9월 18일 발대식을 시작으로 이재용 회장 자택 앞 무기한 시위를 계획함",
+      "노조는 DS부문과의 보상 격차 해소, 자사주 1000주 지급 등을 요구하고 있음",
+      "이미 임금협약이 가결되어 시행 중인 상황에서 뒤늦은 시위라는 비판도 제기됨"
+     ],
+     "interpretation": "노사 갈등 장기화는 조직 결속력 저하 및 AX(AI 전환) 추진 동력에 부정적 영향을 줄 수 있으며, 경영진의 리더십과 내부 소통 능력에 대한 시장의 우려를 키울 수 있음.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "노조의 시위 강도와 사측의 대응 방식에 따른 조직 내 생산성 변화를 모니터링해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8ece233f99b702bf",
+      "0499f7051c9fd8a5"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "NVIDIA, AI 거품론 속 투자 매력 유지",
+     "facts": [
+      "AI 산업에 대한 과도한 투자와 거품 우려가 지속되는 상황",
+      "NVIDIA는 AI 인프라 시장에서의 독보적 위치로 인해 예외적인 투자 가치를 인정받고 있음"
+     ],
+     "interpretation": "AI 인프라 수요가 여전히 견조함을 시사하며, 단기적인 시장 변동성에도 불구하고 AI 핵심 밸류체인 기업에 대한 투자 선호도는 유지될 것으로 보임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "주요 빅테크 기업들의 AI 설비투자(CAPEX) 규모 변화를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "20beaa90ab415c5f"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "기업 및 공공 부문의 AI 에이전트 도입이 가속화되고 있으며, AI 데이터센터 확장에 따른 물류 및 인프라 수요가 주목받고 있습니다.",
+   "stories": [
+    {
+     "headline": "KT, 기업용 '에이전틱 데이터 플로우' 체계 구축",
+     "facts": [
+      "KT가 기업 내부 데이터를 AI가 스스로 이해하고 업무에 활용하도록 돕는 '에이전틱 데이터 플로우' 체계를 구축함",
+      "K 피처 맵, K 메타, KT 온톨로지, K 이밸류에이션 등 4가지 요소로 구성됨"
+     ],
+     "interpretation": "기업의 파편화된 데이터를 AI가 실행 가능한 형태로 전환함으로써 업무 자동화 및 생산성 향상을 가속화할 것으로 기대됨.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "해당 솔루션의 실제 기업 도입 성과와 매출 기여도를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4253209f5c422874"
+     ],
+     "importance": 1
+    },
+    {
+     "headline": "AI 데이터센터 확장에 따른 물류 및 인프라 수요 증가",
+     "facts": [
+      "AI 데이터센터 구축이 활발해지면서 HVAC, 배선, 반도체 등 관련 부품의 물류 수요가 급증함",
+      "트럭 운송 업계가 데이터센터 관련 물류 호황으로 수혜를 입고 있음"
+     ],
+     "interpretation": "AI 인프라 투자가 단순한 소프트웨어/칩 분야를 넘어 물류 및 건설 인프라 전반으로 낙수 효과를 일으키고 있음을 보여줌.",
+     "affected_company_ids": [],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "데이터센터 관련 물류 및 부품 공급망의 병목 현상 발생 여부를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d8952bb08fb67745"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "20beaa90ab415c5f",
+   "title": "Most Investors Overpay for AI Hype. Nvidia Is the Exception.",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaU55cWFtZzFOdTdwUDVyaW1pcVltRTNHdkdDeTBiM01lOVRKTk11Wm05Mm9VWE5XemN4OHFoZlZaYzNjX2dabXd3d09hem5tRUliZ1R0X2hTTjVldWpxT2ZkdFJoZEYxekMzWGhRRHN0Qms1Q3lpN0F2RThDS0NEZVBaSmtLYXZHOTJOZDdsNWhHSURKZEgzSg?oc=5",
+   "source": "fool.com"
+  },
+  {
+   "id": "8ece233f99b702bf",
+   "title": "\"보상격차 해소하라\" 삼성 DX 노조, 이재용 회장 자택 앞 시위 예고...'뒷북집회' 비판도",
+   "url": "https://zdnet.co.kr/view/?no=20260905110433",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "d8952bb08fb67745",
+   "title": "Many truckers don't feel like the rest of America about AI data centers as business booms",
+   "url": "https://www.cnbc.com/2026/09/05/ai-data-centers-cost-economy.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "4253209f5c422874",
+   "title": "KT, 전사 데이터 활용 ‘에이전틱 플로우’ 구축…“조직 맥락 이해”",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214847",
+   "source": "AI타임스"
+  },
+  {
+   "id": "0499f7051c9fd8a5",
+   "title": "“위대한 제품은 사람으로부터”…삼성전자 DX노조, 뉴욕 타임스퀘어에 광고 띄웠다, 왜?",
+   "url": "https://www.etnews.com/20260905000068",
+   "source": "전자신문"
+  }
+ ]
+}

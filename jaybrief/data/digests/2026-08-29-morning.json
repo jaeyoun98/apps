@@ -1,0 +1,104 @@
+{
+ "generated_at": "2026-08-28T21:46:19Z",
+ "date": "2026-08-29",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "NVIDIA의 강력한 성장세와 AI 인프라 구축을 위한 자본 조달이 지속되는 가운데, 반도체 공급망 안정화 및 차세대 패키징 기술 연구가 활발히 진행되고 있습니다.",
+   "stories": [
+    {
+     "headline": "NVIDIA, 70% 매출 성장 전망으로 기술 기업 2위 도약 가시화",
+     "facts": [
+      "NVIDIA CEO 젠슨 황은 수요가 70% 성장 전망치를 상회한다고 언급함",
+      "현재 매출 성장세는 NVIDIA가 기술 업계 매출 2위 기업으로 올라설 수 있는 궤도에 있음을 시사함"
+     ],
+     "interpretation": "AI 가속기 수요가 공급을 지속적으로 초과하고 있어 단기 실적 가시성이 매우 높음. 이는 NVIDIA의 시장 지배력을 공고히 하며 관련 밸류체인 전반의 낙수 효과를 기대하게 함.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "향후 분기 실적 발표에서 데이터센터 부문의 매출 성장률 유지 여부를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f2f3b2564a58480d"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "Neocloud Lambda, 10억 달러 부채 조달로 NVIDIA AI 칩 확보",
+     "facts": [
+      "Neocloud Lambda가 10억 달러 규모의 사채를 발행함",
+      "조달 자금은 NVIDIA AI 칩 구매 및 Microsoft에 대한 임대 사업에 활용될 예정임"
+     ],
+     "interpretation": "AI 인프라 구축을 위한 대규모 자본 조달이 지속되고 있음. 이는 AI 칩에 대한 강력한 수요를 방증하며, 클라우드 서비스 제공업체(CSP)들의 인프라 투자가 여전히 공격적임을 시사함.",
+     "affected_company_ids": [
+      "nvidia",
+      "microsoft"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "CSP들의 AI 설비 투자(CAPEX) 규모가 실제 수익성으로 연결되는지 지표를 주시해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4e5db914b479f12f"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크 기업들의 AI 윤리 및 안전성 강화 조치가 이어지고 있으며, 클라우드 인프라의 효율적 활용을 위한 기술적 시도들이 주목받고 있습니다.",
+   "stories": [
+    {
+     "headline": "Meta, 인스타그램 청소년 보호를 위한 감시 기능 도입",
+     "facts": [
+      "Meta는 미성년자가 인스타그램에서 자살·자해 관련 검색 시 보호자에게 경고 메시지를 전달하는 시스템을 도입함",
+      "홍콩 등 특정 지역에서 우선적으로 청소년 안전 감시 기능을 강화함"
+     ],
+     "interpretation": "플랫폼 기업에 대한 규제 당국의 압박이 거세짐에 따라, 사용자 안전 및 윤리적 책임을 강화하는 방향으로 정책이 변화하고 있음. 이는 장기적으로 플랫폼 신뢰도에는 긍정적이나 운영 비용 상승 요인이 될 수 있음.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "유사한 청소년 보호 정책이 타 지역 및 타 플랫폼으로 확대되는지 여부를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d81cd899ce275480"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "f2f3b2564a58480d",
+   "title": "Nvidia’s 70% growth forecast puts it on track to become tech’s No. 2 company by revenue",
+   "url": "https://www.cnbc.com/2026/08/26/nvidia-70percent-growth-forecast-puts-it-on-track-to-be-tech-no-2-company.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "4e5db914b479f12f",
+   "title": "Neocloud Lambda secures $1B in debt to buy more chips",
+   "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "d81cd899ce275480",
+   "title": "“'자해' 검색했다가 부모가 알게 된다”…인스타그램, 청소년 감시 기능 도입",
+   "url": "https://www.etnews.com/20260828000301",
+   "source": "전자신문"
+  }
+ ]
+}

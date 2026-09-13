@@ -1,0 +1,133 @@
+{
+ "generated_at": "2026-09-12T12:57:37Z",
+ "date": "2026-09-12",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 투자 지속에 따른 팹리스 시장의 급격한 성장과 반도체 설계 및 공정 효율화를 위한 기술적 진보가 확인됨.",
+   "stories": [
+    {
+     "headline": "글로벌 팹리스 톱10 매출 73% 급증, AMD 사상 첫 3위 등극",
+     "facts": [
+      "2분기 글로벌 상위 10대 팹리스 매출 합계가 전년 동기 대비 73% 증가한 1414억 5000만 달러를 기록함",
+      "AMD는 서버용 CPU 수요 폭증에 힘입어 퀄컴을 제치고 사상 처음으로 매출 3위에 오름",
+      "엔비디아는 AI 서버 도입 확대에 힘입어 99% 매출 성장률을 기록하며 압도적 1위를 유지함"
+     ],
+     "interpretation": "AI 인프라 투자가 팹리스 전반의 실적을 견인하고 있으며, 특히 데이터센터향 CPU 및 GPU 수요가 모바일 침체 영향을 상쇄하는 구조가 고착화됨.",
+     "affected_company_ids": [
+      "nvidia",
+      "amd",
+      "broadcom"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "AI 서버 투자 지속 여부와 팹리스 기업들의 하반기 가이던스 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "06246840ba717f0c"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "구글, AI 도구 사용 학습 프레임워크 '툴그래드' 공개",
+     "facts": [
+      "구글이 LLM의 도구 사용 능력을 효율적으로 학습시키는 데이터 생성 프레임워크 '툴그래드(ToolGrad)'를 공개함",
+      "답변 우선(answer-first) 구조를 통해 데이터 생성 비용과 실패율을 대폭 낮춤",
+      "툴그래드로 학습된 모델은 기존 방식 대비 적은 데이터로도 높은 성능을 구현함"
+     ],
+     "interpretation": "AI 에이전트의 복잡한 업무 수행 능력을 높이기 위한 데이터 효율화 기술이 진보하고 있으며, 이는 향후 AI 서비스의 운영 비용 절감 및 성능 고도화에 기여할 것임.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "해당 프레임워크가 실제 제미나이 등 상용 모델의 에이전트 성능 향상으로 이어지는지 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "504f178fcc4364a3"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트의 활용 범위가 확대됨에 따라 기업용 관리 프레임워크와 컴패니언 서비스 등 소프트웨어 생태계가 다변화되고 있음.",
+   "stories": [
+    {
+     "headline": "세일즈포스, 기업용 AI 에이전트 통합 관리 프레임워크 공개",
+     "facts": [
+      "세일즈포스가 기업 내 난립하는 AI 에이전트를 통합 관리하는 '트러스트 엔터프라이즈 AI 하네스'를 발표함",
+      "데이터, 모델, 보안, 거버넌스를 통합적으로 통제하는 것이 핵심 목적임"
+     ],
+     "interpretation": "기업 현장에서 AI 에이전트 도입이 급증함에 따라 이를 안전하게 운영하고 통제하기 위한 거버넌스 솔루션 수요가 본격화되고 있음.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "기업들의 해당 솔루션 도입 속도와 실제 보안 사고 방지 효과 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3c8ffd388c094771"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "딥그로브, AI 컴패니언 서비스 '프론티아'로 시장 공략",
+     "facts": [
+      "딥그로브가 AI 시네마틱 플레이 형태의 컴패니언 서비스 '프론티아'를 출시함",
+      "지난 7월 15억원 규모의 시드 투자를 유치한 바 있음",
+      "단기 수익보다 장기적인 생태계 형성과 서사 중심의 경험을 강조함"
+     ],
+     "interpretation": "단순 챗봇을 넘어 서사와 시각 요소를 결합한 인터랙티브 엔터테인먼트 시장이 성장하고 있으며, AI를 활용한 개인화된 콘텐츠 소비가 확산되는 추세임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "초기 사용자 유입 이후 지속적인 리텐션 확보 및 수익화 모델 검증 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4705c454804c74e7"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "06246840ba717f0c",
+   "title": "팹리스 톱10, 2분기 매출 73% 급증…AMD, 퀄컴 제치고 첫 3위",
+   "url": "https://zdnet.co.kr/view/?no=20260911215419",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "4705c454804c74e7",
+   "title": "“인류를 위한 AI 컴패니언”…딥그로브의 캐릭터챗이 남다른 이유",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214911",
+   "source": "AI타임스"
+  },
+  {
+   "id": "504f178fcc4364a3",
+   "title": "구글, AI 도구 학습 '툴그래드' 공개...\"답부터 만들고 질문 붙여 성공률 99.8%\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215188",
+   "source": "AI타임스"
+  },
+  {
+   "id": "3c8ffd388c094771",
+   "title": "세일즈포스, '에이전트 난립' 잡는다...통합 관리 '트러스트 엔터프라이즈 AI 하네스' 공개",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215190",
+   "source": "AI타임스"
+  }
+ ]
+}

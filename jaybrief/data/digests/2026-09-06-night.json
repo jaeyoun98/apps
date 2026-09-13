@@ -1,0 +1,130 @@
+{
+ "generated_at": "2026-09-06T12:58:00Z",
+ "date": "2026-09-06",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 및 패키징 기술 고도화와 함께 국방·소버린 AI 등 특화 영역으로의 기술 확장이 가속화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "삼성전자, OLED TV 시장에서 LG전자 추격 가속화",
+     "facts": [
+      "삼성전자의 올해 OLED TV 출하량은 전년 대비 약 16% 증가한 231만대로 전망됨",
+      "LG전자와의 OLED TV 출하량 격차를 100만대 초반 수준으로 좁힐 것으로 관측됨"
+     ],
+     "interpretation": "프리미엄 TV 시장 내 OLED 전환이 가속화되는 가운데, 삼성전자의 물량 공세가 LG전자의 시장 지배력을 위협하며 경쟁 강도가 심화되고 있음.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "글로벌 TV 시장 내 중국 업체의 LCD 물량 공세에 따른 프리미엄 제품군의 가격 경쟁력 변화를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "515e5293c693e453"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "LG화학, AI 반도체 패키징용 DAF 로드맵 구체화",
+     "facts": [
+      "AI 반도체 패키징용 다이어태치필름(DAF)을 일반형, 고탄성, 고열전도 3종으로 세분화",
+      "고열전도(High K) 제품은 2026~2028년 양산 목표"
+     ],
+     "interpretation": "AI 반도체 고도화에 따른 발열 제어 및 박형화 요구가 커지면서 관련 소재 시장의 기술적 진입장벽이 높아지고 있음.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "주요 파운드리 및 패키징 업체들의 해당 소재 채택 여부와 양산 시점을 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d7467d69ec950ecc"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크 중심의 AI 모델 업데이트 경쟁이 지속되는 가운데, 로컬 AI 실행 환경 및 소버린 AI 등 실용적 AI 인프라로 관심이 이동하고 있습니다.",
+   "stories": [
+    {
+     "headline": "빅테크 AI 모델 업데이트 경쟁 심화와 '모델 피로감' 확산",
+     "facts": [
+      "Anthropic, OpenAI, Meta, Google이 이번 주 일제히 AI 모델 업데이트를 발표함",
+      "NVIDIA가 오픈소스 AI 플랫폼 Hugging Face 인수를 추진 중임"
+     ],
+     "interpretation": "AI 모델의 출시 주기가 지나치게 빨라지면서 시장 내 피로감이 누적되고 있으며, 빅테크들은 생태계 주도권을 잡기 위해 플랫폼 확보에 주력하고 있음.",
+     "affected_company_ids": [
+      "nvidia",
+      "alphabet",
+      "meta"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "빠른 모델 출시가 실제 기업들의 수익성 개선으로 이어지는지 여부를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "466f25117cf5fe24"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "Microsoft, AI 개발자용 윈도우 11 '프로젝트 제니스' 공개",
+     "facts": [
+      "대규모 AI 모델(30B 파라미터급)을 클라우드 없이 PC에서 로컬 실행 가능하도록 설계",
+      "64GB 이상의 통합 메모리와 초당 250GB 이상의 대역폭을 갖춘 PC 환경 전제"
+     ],
+     "interpretation": "클라우드 의존도를 낮추고 로컬 환경에서 AI를 구동하려는 시도는 비용 효율성과 보안성을 중시하는 기업용 AI 시장을 겨냥한 전략임.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "개발자용 PC 하드웨어 사양의 표준화 및 실제 기업 현장에서의 로컬 AI 도입 확산 속도를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "513176fa20372489"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "466f25117cf5fe24",
+   "title": "‘Model fatigue’ sets in as AI labs race to roll out new versions at frenetic pace",
+   "url": "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "d7467d69ec950ecc",
+   "title": "LG화학, AI 패키징용 DAF 로드맵 '일반형·고탄성·고열전도' 세 갈래로",
+   "url": "https://www.etnews.com/20260904000224",
+   "source": "전자신문"
+  },
+  {
+   "id": "513176fa20372489",
+   "title": "MS, AI 개발자 전용 윈도우 11 ‘프로젝트 제니스’ 공개… \"30B 모델 로컬 실행\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214904",
+   "source": "AI타임스"
+  },
+  {
+   "id": "515e5293c693e453",
+   "title": "삼성전자, LG전자 OLED TV '추격'…中 물량공세 속 프리미엄 혈투",
+   "url": "https://www.etnews.com/20260904000228",
+   "source": "전자신문"
+  }
+ ]
+}
