@@ -1,0 +1,149 @@
+{
+ "generated_at": "2026-09-03T13:41:14Z",
+ "date": "2026-09-03",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 확장 및 HBM 시장 경쟁 심화, 반도체 신뢰성 평가 중요성 증대",
+   "stories": [
+    {
+     "headline": "NVIDIA, Hugging Face 129억 달러에 인수",
+     "facts": [
+      "NVIDIA가 AI 모델 호스팅 플랫폼 Hugging Face를 129억 달러에 인수하기로 확정함",
+      "Hugging Face는 300만 개 이상의 모델과 1800만 명 이상의 개발자를 보유함",
+      "NVIDIA CEO 젠슨 황은 이번 인수를 통해 전 세계 개발자와 기관의 AI 접근성을 확대할 것이라고 밝힘"
+     ],
+     "interpretation": "AI 생태계의 핵심인 모델 저장소와 개발자 커뮤니티를 확보함으로써 NVIDIA의 하드웨어 중심 전략을 소프트웨어 및 플랫폼 영역으로 확장하려는 의도임",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "인수 이후 Hugging Face의 오픈소스 정책 유지 여부와 NVIDIA 하드웨어와의 기술적 결합 시너지 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "755b46026ba7cdb3",
+      "ac5a0cf49b7ec4bf"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "2분기 글로벌 HBM 시장 점유율: SK하이닉스 1위, 삼성전자 추격",
+     "facts": [
+      "2026년 2분기 매출 기준 HBM 시장 점유율은 SK하이닉스 50%, 삼성전자 33%, 마이크론 18%임",
+      "SK하이닉스는 전년 동기 대비 점유율이 하락했으나 1위를 유지함",
+      "삼성전자는 1분기 21%에서 33%로 점유율을 크게 확대함"
+     ],
+     "interpretation": "삼성전자의 HBM 공급 역량이 본격적으로 개선되면서 SK하이닉스와의 점유율 격차가 좁혀지고 있으며, 마이크론 또한 생산 능력 2배 확대를 통해 경쟁에 가세함",
+     "affected_company_ids": [
+      "sk-hynix",
+      "samsung-electronics",
+      "micron"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "삼성전자의 HBM4 공급 본격화 시점과 마이크론의 생산 능력 확대가 실제 매출로 이어지는지 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c4ac78b3db676c27",
+      "cc7f0d39f1239dc0"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크의 AI 인프라 투자 가속화 및 서비스 고도화, 데이터 보안 이슈 부각",
+   "stories": [
+    {
+     "headline": "Microsoft, AI 투자 확대 반영한 공시 체계 개편",
+     "facts": [
+      "Microsoft가 AI 사업 변화를 실적에 반영하기 위해 11년 만에 공시 체계를 개편함",
+      "AI 인프라 투자 부담이 커지는 가운데 '애저(Azure)' 분기 매출을 처음으로 공개함"
+     ],
+     "interpretation": "AI 인프라 투자 성과에 대한 시장의 검증 요구가 높아짐에 따라 투명성을 강화하고, 클라우드 사업의 성장성을 입증하려는 전략으로 풀이됨",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "earnings",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "애저 매출 공개 이후 AI 인프라 투자 대비 수익성 개선 속도에 대한 시장 평가",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6e61ac1f99c15753"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "Broadcom, 3분기 실적 호조 및 AI 반도체 매출 가이던스 상향",
+     "facts": [
+      "Broadcom이 3분기 예상을 웃도는 실적을 발표함",
+      "향후 2년간 AI 반도체 부문의 대규모 매출 성장 가이던스를 제시함",
+      "빅테크 기업들의 자체 맞춤형 반도체(ASIC) 수요 증가가 성장을 견인할 전망"
+     ],
+     "interpretation": "범용 GPU 외에 빅테크들의 자체 AI 칩 개발 수요가 늘어남에 따라 ASIC 설계 및 제조 지원을 담당하는 Broadcom의 수혜가 가시화됨",
+     "affected_company_ids": [
+      "broadcom"
+     ],
+     "event_type": "guidance",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "주요 빅테크 고객사들의 ASIC 개발 로드맵 변화 및 Broadcom의 설계 점유율 유지 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4068299c7c9346cc"
+     ],
+     "importance": 3
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "755b46026ba7cdb3",
+   "title": "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC",
+   "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "ac5a0cf49b7ec4bf",
+   "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+   "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "c4ac78b3db676c27",
+   "title": "2분기 HBM 점유율 SK하이닉스 50%·삼성전자 33%·마이크론 18%",
+   "url": "https://www.etnews.com/20260903000372",
+   "source": "전자신문"
+  },
+  {
+   "id": "cc7f0d39f1239dc0",
+   "title": "美 마이크론, HBM 생산능력 2배 확대…삼성·SK 격차 줄인다",
+   "url": "https://www.etnews.com/20260903000221",
+   "source": "전자신문"
+  },
+  {
+   "id": "4068299c7c9346cc",
+   "title": "'호실적' 브로드컴, 빅테크 맞춤형 AI칩 판 짠다",
+   "url": "https://zdnet.co.kr/view/?no=20260903133832",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "6e61ac1f99c15753",
+   "title": "[AI는 지금] MS, AI 사업 맞춰 11년 만에 공시 체계 바꿨다…애저 분기 매출도 첫 공개",
+   "url": "https://zdnet.co.kr/view/?no=20260903150941",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

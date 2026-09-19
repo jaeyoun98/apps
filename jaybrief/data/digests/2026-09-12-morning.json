@@ -1,0 +1,186 @@
+{
+ "generated_at": "2026-09-12T00:24:49Z",
+ "date": "2026-09-12",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 투자 지속에 따른 팹리스 매출 급증과 차세대 패키징 및 공정 기술 고도화가 반도체 섹터의 핵심 동력으로 작용하고 있습니다.",
+   "stories": [
+    {
+     "headline": "AMD, 2분기 팹리스 매출 3위 도약…AI 인프라 수요 폭증 영향",
+     "facts": [
+      "2분기 글로벌 상위 10대 팹리스 매출 전년 동기 대비 73% 급증",
+      "AMD, 서버용 CPU 수요 급증으로 퀄컴을 제치고 사상 첫 매출 3위 기록"
+     ],
+     "interpretation": "AI 서버 시장의 성장이 전통적인 모바일 중심 팹리스 구도를 재편하고 있으며, AMD의 데이터센터향 매출 비중 확대가 실적 성장을 견인하는 핵심 메커니즘으로 작동 중입니다.",
+     "affected_company_ids": [
+      "amd"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "AMD의 데이터센터 부문 매출 성장세가 3분기에도 지속되는지 확인 필요",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8b98d5b2cf4c704e"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "TSMC-NYCU, EUV 이미징 개선을 위한 몰리브덴 마스크 기술 개발",
+     "facts": [
+      "TSMC와 국립양명교통대(NYCU)가 위상 반전 마스크(Quasi Phase-Only Masks) 연구 발표",
+      "몰리브덴 기반 소재를 활용해 EUV 이미징의 대비(contrast)를 향상시키는 기술"
+     ],
+     "interpretation": "미세 공정 한계를 극복하기 위한 노광 기술 고도화는 TSMC의 파운드리 경쟁력을 유지하는 핵심 요소이며, 이는 향후 차세대 노드 수율 개선에 기여할 전망입니다.",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "해당 기술의 실제 양산 공정 적용 시점 및 수율 개선 효과 확인",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "9c2e4d7f5417571b"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "엔비디아, AI 보안 분야로 사업 영역 확장",
+     "facts": [
+      "엔비디아가 AI 보안 기술을 차세대 핵심 먹거리로 지목",
+      "AI 인프라와 결합된 보안 솔루션 프로젝트 추진"
+     ],
+     "interpretation": "AI 모델의 고도화에 따라 보안 수요가 급증하는 시장 환경을 반영하여, 엔비디아가 하드웨어 중심에서 소프트웨어 및 보안 생태계로 영향력을 확대하려는 전략적 움직임입니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "엔비디아의 구체적인 보안 솔루션 제품군 출시 및 시장 점유율 확보 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "1420b5486a1012b0"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 클라우드 수요가 기업 실적을 견인하는 가운데, 데이터센터 전력 확보와 AI 에이전트 기술 경쟁이 심화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "오라클, AI 클라우드 수요 힘입어 30% 매출 성장",
+     "facts": [
+      "오라클 클라우드 인프라(OCI) 매출 전년 대비 121% 급증",
+      "AI 클라우드 서비스 수요가 전체 실적 성장을 주도"
+     ],
+     "interpretation": "AI 워크로드 처리를 위한 클라우드 인프라 수요가 오라클의 기존 엔터프라이즈 소프트웨어 사업과 결합하여 강력한 매출 성장 동력으로 작용하고 있습니다.",
+     "affected_company_ids": [
+      "oracle"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "AI 클라우드 부문의 지속적인 마진 개선 및 대규모 데이터센터 투자에 따른 부채 부담 관리 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8630439cdd2c0c7e"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "구글, 핀란드에 20조 원 규모 AI 데이터센터 투자",
+     "facts": [
+      "알파벳(구글), 핀란드에 130억 유로(약 20조 원) 투자 발표",
+      "낮은 기온, 풍부한 수자원, 원자력 발전 등 전력 공급 환경 고려"
+     ],
+     "interpretation": "AI 데이터센터의 핵심인 전력 효율성과 냉각 비용 절감을 위해 북유럽 지역으로 인프라 투자를 집중하는 전략이며, 이는 글로벌 AI 인프라 경쟁에서 비용 우위를 점하기 위한 조치입니다.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "유럽 내 추가 데이터센터 투자 계획 및 전력망 확보 상황",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c938426b42de2555"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "오라클, 데이터센터 환경 문제 대응 위해 재생에너지 확대",
+     "facts": [
+      "오라클이 Stargate 데이터센터 반대 여론에 대응해 재생에너지 사용 확대 약속",
+      "재생에너지 사용에도 불구하고 여전히 천연가스 의존도는 유지될 전망"
+     ],
+     "interpretation": "대규모 AI 데이터센터 구축 시 발생하는 환경 규제 및 지역 사회 반발이 기업의 운영 비용과 사업 속도에 직접적인 영향을 미치고 있음을 시사합니다.",
+     "affected_company_ids": [
+      "oracle"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "데이터센터 에너지원 구성 변화가 오라클의 운영 비용 및 ESG 평가에 미치는 영향",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f83bbdadf14e6bed"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "8b98d5b2cf4c704e",
+   "title": "2분기 팹리스 톱10 매출 73% 급증…AMD, 퀄컴 제치고 첫 3위",
+   "url": "https://zdnet.co.kr/view/?no=20260911215419",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "9c2e4d7f5417571b",
+   "title": "Molybdenum Quasi Phase-Only Masks Improve EUV Imaging (NYCU, TSMC)",
+   "url": "https://semiengineering.com/molybdenum-quasi-phase-only-masks-improve-euv-imaging-nycu-tsmc/",
+   "source": "Semiconductor Engineering"
+  },
+  {
+   "id": "c938426b42de2555",
+   "title": "구글, '전력 부자' 핀란드에 20조 AI인프라 투자...낮은 기온도 한몫",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=62094",
+   "source": "디일렉"
+  },
+  {
+   "id": "1420b5486a1012b0",
+   "title": "[카드뉴스] AI 다음은 '보안'이래요",
+   "url": "https://zdnet.co.kr/view/?no=20260911111025",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "f83bbdadf14e6bed",
+   "title": "Oracle tries to appease Stargate data center opponents with renewables push",
+   "url": "https://arstechnica.com/gadgets/2026/09/oracle-promises-2-gw-of-renewables-to-match-stargate-data-center-emissions/",
+   "source": "Ars Technica"
+  },
+  {
+   "id": "8630439cdd2c0c7e",
+   "title": "Oracle posts 30% revenue growth fueled by AI cloud demand as debts hits $125 billion",
+   "url": "https://www.cnbc.com/2026/09/11/oracle-stock-q1-earnings-ai-cloud.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

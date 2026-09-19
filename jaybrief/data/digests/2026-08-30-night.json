@@ -1,0 +1,175 @@
+{
+ "generated_at": "2026-08-30T14:28:08Z",
+ "date": "2026-08-30",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 기반 반도체 설계 자동화 기술의 확산과 메모리 반도체 공급망 내 테스트 장비 수요 증가가 주요 이슈로 부상함.",
+   "stories": [
+    {
+     "headline": "핫칩스 2026: AI가 AI 칩을 설계하는 자동화 시대 도래",
+     "facts": [
+      "핫칩스 2026에서 엔비디아, 구글, 오픈AI, AMD, 삼성전자 등 주요 기업이 AI 기반 반도체 설계 자동화 솔루션을 공개함",
+      "오픈AI는 자체 추론 칩 '할라피뇨'를, 구글은 TPU v8의 성능 개선 성과를 발표함",
+      "AI 에이전트 도입으로 칩 설계 기간과 인력 투입이 절반 이하로 단축되는 추세임"
+     ],
+     "interpretation": "AI 칩 설계의 난도가 낮아지면서 빅테크 기업들의 자체 칩 개발이 가속화될 것이며, 이는 엔비디아 의존도를 낮추고 차세대 메모리 아키텍처(HBF 등)의 중요성을 높이는 계기가 될 것임.",
+     "affected_company_ids": [
+      "nvidia",
+      "samsung-electronics",
+      "amd",
+      "alphabet",
+      "meta",
+      "micron"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "빅테크 기업들의 자체 칩 도입 비중 확대 여부와 차세대 메모리 기술 표준화 속도를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "828d0ef8a77dd5fa"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "ISC, SK하이닉스향 테스트소켓 매출 급증",
+     "facts": [
+      "ISC의 SK하이닉스향 매출이 SK그룹 편입 2년 만에 14배 이상 증가함",
+      "올해 상반기 SK하이닉스향 매출은 156억원으로 전년 동기 대비 4배 이상 성장함",
+      "메모리 업황 회복에 따른 생산량 증가와 테스트소켓 교체 수요가 주된 원인임"
+     ],
+     "interpretation": "메모리 반도체 생산 확대가 후공정 소모품 업체인 ISC의 실적 개선으로 직결되는 구조가 확인됨. 향후 고부가가치 제품 비중 확대가 수익성 개선의 핵심임.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "메모리 업황의 지속적인 회복세와 ISC의 고부가가치 제품군 매출 비중 변화를 모니터링할 필요가 있음.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5dd4b9bf131df345"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성디스플레이, 네오레이어 OLED 특허에 결정계 재심사 청구",
+     "facts": [
+      "삼성디스플레이가 미국 특허청에 네오레이어의 OLED 픽셀 구조 및 TFT 특허 2건에 대해 결정계 재심사(EPR)를 청구함",
+      "네오레이어는 삼성전자를 상대로 특허 침해 소송을 제기한 NPE임",
+      "최근 미국 특허심판원(PTAB)의 무효심판 개시율 하락으로 결정계 재심사 활용이 증가하는 추세임"
+     ],
+     "interpretation": "NPE의 특허 공세에 대해 삼성디스플레이가 직접적인 특허성 무효화 대응에 나선 것으로, 소송 리스크를 선제적으로 관리하려는 전략적 움직임임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 특허청의 재심사 결과와 향후 네오레이어와의 소송 진행 상황을 지켜봐야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e73a823e53b11586"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "정부의 AI 컨트롤타워 인선이 완료되면서 정책 추진 속도가 빨라질 것으로 기대되며, 메타의 데이터센터 로봇 도입 등 AI 인프라 효율화 시도가 주목됨.",
+   "stories": [
+    {
+     "headline": "이재명 정부 AI 컨트롤타워 라인업 재정비",
+     "facts": [
+      "국가AI전략위원회 부위원장에 하정우 전 수석이, AI미래기획수석에 구글 출신 이해민 의원이 내정됨",
+      "이원주 에너지전환정책실장이 메가프로젝트 보좌관으로 발탁되어 반도체·AI 데이터센터 투자를 총괄함",
+      "공석이었던 핵심 라인이 채워짐에 따라 지연되었던 AI 정책 추진이 속도를 낼 전망임"
+     ],
+     "interpretation": "AI 정책의 연속성과 전문성이 강화되었으며, 특히 에너지와 데이터센터를 연계한 대규모 프로젝트 추진이 본격화될 것으로 예상됨.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "신임 AI 지휘진의 구체적인 정책 로드맵 발표와 메가프로젝트의 실행 속도를 확인해야 함.",
+     "upcoming_event_ids": [
+      "fomc-2026-09"
+     ],
+     "article_ids": [
+      "bac064d2ee1c2327",
+      "6f2c86f7f3ad0c26"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "메타, 데이터센터 내 로봇 도입 테스트",
+     "facts": [
+      "메타가 데이터센터 내 기술자 업무를 대체하기 위한 로봇 도입을 테스트 중임",
+      "로봇을 활용해 데이터센터 운영 효율성을 높이려는 시도임"
+     ],
+     "interpretation": "AI 인프라 확장에 따른 운영 비용 절감과 인력 효율화가 빅테크 기업들의 핵심 과제로 부상하고 있음을 보여줌.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "데이터센터 로봇 도입의 실제 운영 효율성 개선 수치와 타 빅테크 기업으로의 확산 여부를 지켜봐야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "72592a8af33960b6"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "828d0ef8a77dd5fa",
+   "title": "\"AI가 AI 칩을 만든다\"...'핫칩스 2026'서 확인된 반도체 설계의 대변혁",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214627",
+   "source": "AI타임스"
+  },
+  {
+   "id": "5dd4b9bf131df345",
+   "title": "ISC, SK하이닉스향 테스트소켓 매출 14배↑…SK 편입 후 거래 확대",
+   "url": "https://www.etnews.com/20260828000210",
+   "source": "전자신문"
+  },
+  {
+   "id": "bac064d2ee1c2327",
+   "title": "하정우, AI전략위 부위원장으로 복귀…AI미래기획수석에는 구글 출신 이해민",
+   "url": "https://byline.network/2026/08/30_1273773/",
+   "source": "바이라인네트워크"
+  },
+  {
+   "id": "72592a8af33960b6",
+   "title": "Inside Meta’s push to put robots to work in data centers",
+   "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
+   "source": "Ars Technica"
+  },
+  {
+   "id": "e73a823e53b11586",
+   "title": "삼성D, 네오레이어 OLED 특허 상대 반격...'특허청 재심사' 청구",
+   "url": "https://zdnet.co.kr/view/?no=20260830193243",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "6f2c86f7f3ad0c26",
+   "title": "하정우 전 수석, AI전략위 복귀...‘구글 출신’ 이해민 AI수석 합류",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214624",
+   "source": "AI타임스"
+  }
+ ]
+}

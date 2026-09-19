@@ -1,0 +1,186 @@
+{
+ "generated_at": "2026-09-03T00:23:40Z",
+ "date": "2026-09-03",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 데이터센터 인프라 수요가 지속되는 가운데, 전력 공급 솔루션 및 고성능 패키징 기술에 대한 투자가 확대되고 있습니다. 주요 메모리 기업들은 AI 수요 대응을 위해 원자재 확보에 집중하고 있으며, 파운드리 및 후공정 생태계에서는 CPO 등 신기술 양산 지원이 본격화되는 추세입니다.",
+   "stories": [
+    {
+     "headline": "Broadcom, AI 부문 성장에도 불구하고 분기 매출 가이던스 하향",
+     "facts": [
+      "Broadcom이 시장 예상치를 상회하는 실적을 발표했으나, 당분기 매출 가이던스는 기대에 미치지 못함",
+      "CEO는 AI 랩 부문의 지속적인 성장을 강조함",
+      "2028 회계연도에 대한 견조한 실적 가이던스를 제시함"
+     ],
+     "interpretation": "단기적인 매출 가이던스 부진은 시장의 기대치가 매우 높음을 시사하며, AI 인프라 투자 사이클의 변동성에 대한 경계감이 반영된 것으로 판단됨",
+     "affected_company_ids": [
+      "broadcom"
+     ],
+     "event_type": "earnings",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "Broadcom의 AI 관련 ASIC 및 네트워킹 제품의 분기별 매출 성장세 지속 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c888da77060f3cc3",
+      "5ba852aed29fa5e1"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "SK하이닉스, AI 수요 대응 위해 웨이퍼 구매량 104% 급증",
+     "facts": [
+      "SK하이닉스가 2026년 2분기 실리콘 웨이퍼 구매액을 전 분기 대비 2배 이상 늘림",
+      "AI 수요 급증과 웨이퍼 가격 상승에 대비해 원자재를 선제적으로 확보함"
+     ],
+     "interpretation": "HBM 등 고부가가치 메모리 생산을 위한 공급망 확보가 최우선 과제임을 시사하며, 향후 메모리 출하량 증가를 위한 공격적인 생산 전략을 유지하고 있음",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "메모리 제조사의 웨이퍼 확보 경쟁이 향후 웨이퍼 공급 가격 및 수급에 미치는 영향",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "819ac09d4982a4d5"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "NVIDIA, Equinix 및 Together AI와 데이터센터 협력 강화",
+     "facts": [
+      "NVIDIA가 Equinix, Together AI와 새로운 데이터센터 파트너십을 발표함",
+      "기업 고객의 오픈 모델 추론(inference) 지원을 목적으로 함"
+     ],
+     "interpretation": "하드웨어 판매를 넘어 AI 인프라 및 소프트웨어 생태계 전반으로 영향력을 확대하려는 전략으로, 데이터센터 내 NVIDIA GPU 활용도를 높이는 효과가 있음",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "기업용 AI 추론 시장에서 NVIDIA의 오픈 모델 지원 전략이 실제 매출로 연결되는 속도",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b275b86548064f4f",
+      "63a78193c4896212"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "생성형 AI 모델의 성능 경쟁이 심화되는 가운데, 빅테크 기업들은 모델 효율성과 기능 고도화에 집중하고 있습니다. 한편, AI의 사회적 영향력 확대에 따른 규제와 법적 리스크가 동시에 부각되고 있습니다.",
+   "stories": [
+    {
+     "headline": "메타, '뮤즈 스파크 1.3' 공개하며 AI 모델 성능 3위 기록",
+     "facts": [
+      "메타가 에이전트 워크플로우와 코딩 성능을 강화한 '뮤즈 스파크 1.3'을 발표함",
+      "아티피셜 애널리시스 평가에서 오픈AI 모델들을 제치고 세계 3위 성능을 기록함"
+     ],
+     "interpretation": "오픈 소스 및 오픈 웨이트 모델의 성능이 상용 모델을 빠르게 추격하고 있으며, 메타의 AI 생태계 영향력이 강화되고 있음을 시사함",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "메타의 뮤즈 스파크 모델이 실제 개발자 생태계에서 얼마나 채택되는지 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "70fb9979b474e1b1",
+      "244f4bc1a569c3f9"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "구글, 반독점 소송에서 광고 사업부 매각 명령 면제",
+     "facts": [
+      "미국 법원이 구글의 반독점 소송에서 광고 사업부 매각 명령을 내리지 않음",
+      "단, 경쟁사에게 혜택을 주는 방향으로 사업 운영 방식을 조정하도록 명령함"
+     ],
+     "interpretation": "최악의 시나리오인 사업부 강제 분할은 피했으나, 향후 광고 사업 운영에 있어 규제 당국의 지속적인 감시와 비즈니스 모델 변경 압박이 예상됨",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "법원의 운영 방식 변경 명령이 구글의 광고 매출 및 시장 점유율에 미치는 실질적 영향",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "34acb350988144ea",
+      "49ba0a2c2268fb72"
+     ],
+     "importance": 3
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "819ac09d4982a4d5",
+   "title": "SK Hynix wafer purchases jump 104% on AI demand",
+   "url": "https://www.digitimes.com/news/a20260902PD207/sk-hynix-wafer-demand-2026-silicon-wafer.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "b275b86548064f4f",
+   "title": "How Equinix has found a niche in the multitrillion-dollar AI data center boom",
+   "url": "https://www.cnbc.com/2026/09/02/equinix-partners-with-nvidia-carves-niche-in-ai-data-center-boom.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "63a78193c4896212",
+   "title": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
+   "url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "c888da77060f3cc3",
+   "title": "Broadcom delivers strong earnings view as CEO touts growth with AI labs",
+   "url": "https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "5ba852aed29fa5e1",
+   "title": "Broadcom's stock drops 5% as weak guidance overshadows earnings beat",
+   "url": "https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "70fb9979b474e1b1",
+   "title": "메타, '뮤즈 스파크 1.3' 출시...오픈AI 제치고 세계 3위 성능",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214774",
+   "source": "AI타임스"
+  },
+  {
+   "id": "244f4bc1a569c3f9",
+   "title": "Zuck's Muse to Spark joy with open weights release 'soon'",
+   "url": "https://www.theregister.com/ai-and-ml/2026/09/02/zucks-muse-to-spark-joy-with-open-weights-release-soon/5294093",
+   "source": "The Register"
+  },
+  {
+   "id": "34acb350988144ea",
+   "title": "Google spared from ad-business breakup, but judge orders changes to how it operates",
+   "url": "https://techcrunch.com/2026/09/02/google-spared-from-ad-business-breakup-but-judge-orders-changes-to-how-it-operates/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "49ba0a2c2268fb72",
+   "title": "US court rules Google will not have to sell ad exchange after losing antitrust case",
+   "url": "https://arstechnica.com/gadgets/2026/09/us-court-rules-google-will-not-have-to-sell-ad-exchange-after-losing-antitrust-case/",
+   "source": "Ars Technica"
+  }
+ ]
+}

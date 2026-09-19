@@ -1,0 +1,191 @@
+{
+ "generated_at": "2026-09-02T00:21:27Z",
+ "date": "2026-09-02",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 경쟁이 HBM 베이스 다이 및 팹리스 협력으로 심화되고 있으며, 관련 기업들의 전략적 투자가 가속화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "NVIDIA, 대만 MediaTek에 4조 8천억 원 투자 및 AI 협력 강화",
+     "facts": [
+      "NVIDIA가 MediaTek의 전환사채(CB) 35억 달러 규모를 매입함",
+      "이번 투자는 NVIDIA의 해외 기업 투자 중 최대 규모임",
+      "양사는 AI 인프라, AI 컴퓨팅, 자동차 분야에서 협력을 강화할 예정임"
+     ],
+     "interpretation": "NVIDIA는 팹리스 파트너십을 통해 AI 생태계 내 영향력을 확대하고 있으며, 특히 자동차 및 컴퓨팅 분야의 기술적 결합을 도모하고 있음",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "MediaTek과의 구체적인 AI 컴퓨팅 제품 로드맵 발표 여부를 확인해야 함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f6445af470c33616"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "HBM 경쟁, 베이스 다이(Base Die) 중심으로 전이",
+     "facts": [
+      "HBM 경쟁이 DRAM 적층 높이와 대역폭을 넘어 베이스 다이 설계로 이동 중임",
+      "NVIDIA가 NVHBM 아키텍처를 추진하며 베이스 다이 경쟁이 심화되고 있음"
+     ],
+     "interpretation": "HBM의 성능 차별화 요소가 패키징 하단부의 베이스 다이로 이동함에 따라, 파운드리 및 설계 역량이 HBM 시장 점유율의 핵심 변수로 부상함",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "HBM 공급사들의 베이스 다이 맞춤형 설계 대응 전략을 모니터링해야 함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3b557045d40eabb7"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성전자, 미니LED 표기 관련 TCL과 미국 소송 진행",
+     "facts": [
+      "중국 TCL이 삼성전자를 상대로 미니LED 기술 표기 금지 및 손해배상 소송을 제기함",
+      "TCL은 삼성전자가 일반 LED TV를 미니LED 모델처럼 판매했다고 주장함"
+     ],
+     "interpretation": "글로벌 TV 시장 내 프리미엄 제품군 점유율을 둘러싼 기술 마케팅 공방이 법적 분쟁으로 확대됨",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "미국 법원의 소송 진행 결과와 삼성전자의 대응 논리를 주시해야 함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "21783a3880bc36e9"
+     ],
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 서버 수요 급증과 보안 시장의 성장이 두드러지는 가운데, 빅테크 기업들의 AI 서비스 전략이 구체화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "Dell, AI 서버 수요 폭발로 연간 매출 전망 34조 원 상향",
+     "facts": [
+      "Dell이 AI 서버 수요 확대에 힘입어 사상 최대 분기 매출을 기록함",
+      "2027 회계연도 연간 매출 전망치를 기존 대비 250억 달러(약 34조 원) 상향함",
+      "AI 서버 매출이 2027 회계연도에 3배 성장할 것으로 전망함"
+     ],
+     "interpretation": "AI 인프라 투자 수요가 하드웨어 제조사로 실질적으로 전이되고 있으며, 데이터센터 구축 가속화가 실적 성장을 견인하고 있음",
+     "affected_company_ids": [],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "AI 서버 공급망의 안정성과 수익성 유지 여부를 확인해야 함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "aa1b203f6ac21c10",
+      "71c9655bc922bc19"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "FTC, Amazon의 광고 경매 조작 혐의 제기",
+     "facts": [
+      "FTC가 Amazon이 광고 경매 결과를 조작하여 200억 달러를 부당 취득했다고 주장함",
+      "Amazon이 실제 경매 결과 대신 더 높은 가격을 임의로 설정했다는 혐의를 받고 있음"
+     ],
+     "interpretation": "플랫폼 기업의 광고 알고리즘 투명성에 대한 규제 당국의 감시가 강화되고 있으며, 이는 Amazon의 광고 수익 모델에 리스크로 작용할 수 있음",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "법적 대응 과정에서의 Amazon의 소명과 규제 당국의 추가 제재 여부를 확인해야 함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8cb1839d82c16369"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "Meta의 AI 투자 성과 및 수익화 전략 주목",
+     "facts": [
+      "Meta가 AI 투자에 대한 성과 입증 압박을 받고 있음",
+      "투자자들은 Meta의 AI 인프라 투자가 실제 수익으로 연결되는지 확인하려 함"
+     ],
+     "interpretation": "Meta는 대규모 AI 인프라 투자 대비 가시적인 수익 모델을 증명해야 하는 시점에 있으며, 이는 주가 변동성을 높이는 요인임",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "차기 실적 발표에서 AI 관련 서비스의 매출 기여도를 확인해야 함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e7d97a7ec52f3db2"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "3b557045d40eabb7",
+   "title": "Nvidia pushes into HBM base dies as NVHBM battle heats up",
+   "url": "https://www.digitimes.com/news/a20260901PD207/hbm-competition-dram-samsung-bandwidth.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "f6445af470c33616",
+   "title": "엔비디아, 대만 미디어텍에 4조8000억 투자",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61659",
+   "source": "디일렉"
+  },
+  {
+   "id": "aa1b203f6ac21c10",
+   "title": "델, AI 서버 수요 폭발…年 매출 전망 34조원 상향",
+   "url": "https://www.etnews.com/20260902000014",
+   "source": "전자신문"
+  },
+  {
+   "id": "21783a3880bc36e9",
+   "title": "삼성전자 미니LED 표기 놓고 TCL에 피소",
+   "url": "https://www.etnews.com/20260902000005",
+   "source": "전자신문"
+  },
+  {
+   "id": "71c9655bc922bc19",
+   "title": "Dell surges 9% after lifting fiscal 2027 forecast on AI server strength",
+   "url": "https://www.cnbc.com/2026/09/01/dell-q2-earnings-report-2027.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "e7d97a7ec52f3db2",
+   "title": "Looking for evidence that Meta's AI investments are paying off? Here are 2 ways",
+   "url": "https://www.cnbc.com/2026/09/01/looking-for-evidence-that-metas-ai-investments-are-paying-off-here-are-2-ways.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "8cb1839d82c16369",
+   "title": "FTC alleges Amazon illegally made $20 billion by rigging billions of ad auctions",
+   "url": "https://arstechnica.com/tech-policy/2026/09/ftc-alleges-amazon-illegally-made-20-billion-by-rigging-billions-of-ad-auctions/",
+   "source": "Ars Technica"
+  }
+ ]
+}

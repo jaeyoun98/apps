@@ -1,0 +1,194 @@
+{
+ "generated_at": "2026-09-13T08:27:48Z",
+ "date": "2026-09-13",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 데이터센터 확산에 따른 반도체 및 부품 수요 급증과 함께, 대만·미국 등 주요국 중심의 공급망 재편 및 기술 주도권 확보 움직임이 가속화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "AI 데이터센터 투자 가속화로 반도체·부품 매출 182% 급증",
+     "facts": [
+      "2026년 2분기 전 세계 데이터센터 서버 및 스토리지용 IT 반도체·부품 매출이 전년 대비 182% 증가함",
+      "HBM, CPU, 고속 네트워크 부품 등 AI 가속 서버 관련 수요가 전반적으로 확산됨"
+     ],
+     "interpretation": "데이터센터 인프라 투자가 실질적인 반도체 매출로 이어지는 고성장 국면이 지속되고 있으며, 이는 관련 공급망 기업들의 실적 개선을 견인하는 핵심 동력임",
+     "affected_company_ids": [
+      "nvidia",
+      "amd",
+      "broadcom",
+      "micron",
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "데이터센터향 반도체 매출 성장세가 하반기에도 유지되는지 여부",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "9c3ba877b8c93ca6"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "대만, TSMC 중심의 '실리콘 포토닉스 연맹' 결성",
+     "facts": [
+      "대만 정부와 TSMC, ASE, 미디어텍 등 30여 개 기업이 차세대 데이터 전송 기술인 실리콘 포토닉스 연맹을 결성함",
+      "공동 패키징 광학(CPO) 분야의 글로벌 주도권 확보가 목표임"
+     ],
+     "interpretation": "AI 시대의 데이터 전송 병목 현상을 해결하기 위한 국가 차원의 기술 표준화 및 공급망 결집 전략으로, TSMC의 AI 생태계 영향력이 더욱 강화될 전망",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "연맹 결성을 통한 실제 기술 상용화 및 CPO 시장 점유율 변화",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "e72eb7e566faa73a"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "퀄컴, 아마존 외 추가 하이퍼스케일러와 AI 가속기 협력",
+     "facts": [
+      "퀄컴이 아마존에 이어 두 번째로 글로벌 하이퍼스케일러와 AI 가속기 공동 설계·생산 계약을 체결함"
+     ],
+     "interpretation": "스마트폰 칩 의존도가 높았던 퀄컴이 데이터센터 AI 가속기 시장에서 유의미한 점유율 확보를 시작했음을 시사함",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "퀄컴의 AI 가속기 매출 비중 확대 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "1a98930bb7f6bee7"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 기술의 고도화와 함께 오픈AI 등 주요 기업의 상장 전략 변화, 그리고 AI 모델 안전성 및 규제 이슈가 시장의 주요 화두로 부상했습니다.",
+   "stories": [
+    {
+     "headline": "오픈AI, 2026년 IPO 계획 공식 부인",
+     "facts": [
+      "샘 알트먼 오픈AI CEO가 AI 안전성 확보가 우선이라며 2026년 기업공개(IPO)를 추진하지 않겠다고 밝힘"
+     ],
+     "interpretation": "AI 모델의 위험성 및 안전성 논란이 기업 경영 전략에 직접적인 영향을 미치고 있으며, 단기적인 자금 조달보다는 기술적 신뢰성 확보를 우선시하는 행보임",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "오픈AI의 향후 상장 시점 및 안전성 관련 기술적 성과",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ccfd1fabd4d89f20",
+      "0793d90d133a0202"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "엔비디아, 앤트로픽 IPO 앵커 투자 논의",
+     "facts": [
+      "엔비디아가 앤트로픽의 IPO에 최대 100억 달러 규모의 앵커 투자자로 참여하는 방안을 검토 중임"
+     ],
+     "interpretation": "AI 모델 개발사와 인프라 공급사 간의 전략적 결속을 강화하여 AI 생태계 내 지배력을 공고히 하려는 의도로 해석됨",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "실제 투자 규모 및 앤트로픽의 IPO 추진 일정",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9cc22886051837f8"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "구글, AI 코딩 역량 강화를 위해 메카나이즈 인재 영입",
+     "facts": [
+      "구글이 AI 코딩 성능 향상을 위해 스타트업 메카나이즈의 핵심 인력과 기술을 15억 달러 규모로 확보함"
+     ],
+     "interpretation": "AI 모델의 코딩 성능이 경쟁력의 핵심으로 부상함에 따라, 반독점 규제를 회피하면서도 기술적 우위를 점하기 위한 공격적인 인재 확보 전략임",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "구글의 AI 모델 코딩 성능 개선 및 시장 점유율 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4e6f36544aa7bcbe"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "e72eb7e566faa73a",
+   "title": "[Weekly Issue] 대만, 정부 차원서 반도체 공급망 기업 30개사와 ‘실리콘 포토닉스 연맹’ 추진",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=341417",
+   "source": "KIPOST"
+  },
+  {
+   "id": "1a98930bb7f6bee7",
+   "title": "퀄컴 \"새로운 하이퍼스케일러와 맞춤형 AI 가속기 협력\"",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=62109",
+   "source": "디일렉"
+  },
+  {
+   "id": "9cc22886051837f8",
+   "title": "엔비디아, 앤트로픽 초대형 IPO에 '13조 앵커 투자' 논의",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215196",
+   "source": "AI타임스"
+  },
+  {
+   "id": "9c3ba877b8c93ca6",
+   "title": "AI 데이터센터 투자 가속도...반도체·부품 매출 182% 급증",
+   "url": "https://zdnet.co.kr/view/?no=20260913082224",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "4e6f36544aa7bcbe",
+   "title": "구글, 코딩 강화 위해 스타트업 메카나이즈 인재 흡수…2조원대 계약",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215205",
+   "source": "AI타임스"
+  },
+  {
+   "id": "ccfd1fabd4d89f20",
+   "title": "오픈AI \"2026년 IPO 없다\"…AI 안전성 확보 우선",
+   "url": "https://zdnet.co.kr/view/?no=20260913133339",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "0793d90d133a0202",
+   "title": "알트먼 \"2026년 상장은 시기상조…안전성 확보가 최우선 과제\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215198",
+   "source": "AI타임스"
+  }
+ ]
+}

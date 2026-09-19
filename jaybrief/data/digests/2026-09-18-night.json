@@ -1,0 +1,172 @@
+{
+ "generated_at": "2026-09-18T13:42:11Z",
+ "date": "2026-09-18",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "메모리 공급 부족 심화와 AI 인프라 투자가 지속되는 가운데, 주요 기업들의 생산 거점 다변화 및 차세대 기술 확보 경쟁이 치열해지고 있습니다.",
+   "stories": [
+    {
+     "headline": "SK하이닉스 손자회사 솔리다임, 미국 내 첫 낸드 생산 공장 구축 검토",
+     "facts": [
+      "솔리다임이 미국 내 낸드플래시 양산 라인 구축을 위한 부지 및 세부 요건을 검토 중임",
+      "AI 인프라 수요 급증에 따른 낸드 공급 부족 현상에 대응하기 위한 전략적 결정임"
+     ],
+     "interpretation": "미국 현지 고객사와의 협력을 강화하고 지정학적 리스크를 분산하려는 의도로 해석됨. 낸드 시장의 공급 부족이 장기화될 가능성을 시사함.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "공장 부지 확정 및 구체적인 투자 규모 발표 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "331c4bc3bd7dd71f",
+      "a8472402a9cb364a"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "화웨이, 초대형 컴퓨팅 아키텍처 공개하며 엔비디아 추격 가속",
+     "facts": [
+      "화웨이가 최대 100만 개의 프로세서를 연결하는 새로운 컴퓨팅 아키텍처를 공개함",
+      "개별 칩 성능 격차를 대규모 연결 및 고속 데이터 전송 기술로 보완하는 전략임"
+     ],
+     "interpretation": "미국의 수출 규제로 인한 첨단 AI 칩 확보 제약을 시스템 아키텍처 혁신으로 극복하려는 시도임. 엔비디아 중심의 AI 컴퓨팅 시장에 대한 실질적인 도전으로 평가됨.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "해당 아키텍처의 실제 AI 학습 성능 및 시장 점유율 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ade9313024c4ca86",
+      "aced59f27747d05a"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자 엑시노스, 2분기 스마트폰 칩셋 시장 점유율 9% 달성",
+     "facts": [
+      "카운터포인트리서치에 따르면 삼성전자 엑시노스의 올해 2분기 시장 점유율은 9%로 최근 2년 내 최고치를 기록함",
+      "전년 동기 대비 3%p, 직전 분기 대비 2%p 상승함"
+     ],
+     "interpretation": "갤럭시 S26 및 A57 등 주요 모델의 출하량 확대가 점유율 상승을 견인함. 모바일 AP 시장 내 삼성전자의 경쟁력이 회복세를 보이고 있음.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "차기 모델에서의 엑시노스 탑재 비중 유지 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6090226acfe7ec62"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 안전성 논란과 기업 책임론이 부상하는 가운데, 빅테크 기업들의 AI 에이전트 기술 도입 및 보안 강화 움직임이 활발합니다.",
+   "stories": [
+    {
+     "headline": "빅테크 수장들, 트럼프 설득해 민간 주도 AI 규제 기구 설립 구상 무산",
+     "facts": [
+      "마크 저커버그(메타), 젠슨 황(엔비디아), 일론 머스크(테슬라)가 트럼프 대통령을 직접 설득함",
+      "백악관의 AI 기술 위험성 대응을 위한 민간 주도 규제 기구 설립 계획이 무산됨"
+     ],
+     "interpretation": "빅테크 기업들이 정부의 직접적인 규제 개입을 차단하고 자율적인 AI 개발 환경을 유지하려는 강력한 의지를 보여줌. 향후 AI 정책 방향성에 큰 영향을 미칠 것임.",
+     "affected_company_ids": [
+      "nvidia",
+      "meta"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "향후 미국 정부의 AI 관련 추가 규제안 발표 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f82e3eb41364e217"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "AI스페라, 마이크로소프트 AI 에이전트 기술 적용해 보안 운영 자동화",
+     "facts": [
+      "AI스페라가 자사 위협 노출 관리 솔루션(AITEM)에 MS의 AI 에이전트 기술을 적용함",
+      "자산 식별부터 취약점 분석, 대응 우선순위 지원까지 보안 운영 전반의 자동화를 구현함"
+     ],
+     "interpretation": "보안 분야에서도 AI 에이전트를 통한 자동화가 가속화되고 있음. MS의 기술 생태계가 보안 솔루션 기업으로 확장되는 사례임.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "보안 솔루션 내 AI 에이전트 도입에 따른 고객사 보안 효율성 개선 지표",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f64962281dc484fa"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "6090226acfe7ec62",
+   "title": "갤S26·A57 쌍끌이…삼성 엑시노스 2년 내 최고 점유율",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=62517",
+   "source": "디일렉"
+  },
+  {
+   "id": "331c4bc3bd7dd71f",
+   "title": "SK하이닉스 손자회사 솔리다임, 美 낸드 공장 구축 검토",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=62529",
+   "source": "디일렉"
+  },
+  {
+   "id": "f82e3eb41364e217",
+   "title": "저커버그·젠슨 황·머스크, 트럼프 직접 설득…백악관 'AI 규제안' 무산",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215469",
+   "source": "AI타임스"
+  },
+  {
+   "id": "f64962281dc484fa",
+   "title": "AI스페라, 위협 노출 관리 솔루션에 MS 에이전트 기술 적용",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215471",
+   "source": "AI타임스"
+  },
+  {
+   "id": "ade9313024c4ca86",
+   "title": "화웨이, 차세대 AI 칩 출시 앞당긴다...\"대규모 연결로 엔비디아 추격\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215455",
+   "source": "AI타임스"
+  },
+  {
+   "id": "a8472402a9cb364a",
+   "title": "SK하이닉스 손자회사 솔리다임, 美 첫 낸드 공장 구축 추진",
+   "url": "https://zdnet.co.kr/view/?no=20260918125305",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "aced59f27747d05a",
+   "title": "AI칩 100만개 하나로 묶는다…화웨이, 초대형 컴퓨팅 승부수",
+   "url": "https://zdnet.co.kr/view/?no=20260918120259",
+   "source": "ZDNet Korea"
+  }
+ ]
+}
