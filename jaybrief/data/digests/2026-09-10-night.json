@@ -1,0 +1,184 @@
+{
+ "generated_at": "2026-09-10T13:42:34Z",
+ "date": "2026-09-10",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 가속기 시장의 경쟁 심화와 첨단 패키징 기술의 중요성이 부각되는 가운데, 엔비디아의 생태계 확장 전략과 이에 대응하는 경쟁사들의 움직임이 활발함.",
+   "stories": [
+    {
+     "headline": "엔비디아, AI 소프트웨어 생태계 강화로 주도권 수성",
+     "facts": [
+      "엔비디아가 '쿠다 툴킷 13.4'를 공개하며 개발 지원 확대 및 AI 코딩 기능 고도화",
+      "차세대 GPU '루빈' 출하 시작"
+     ],
+     "interpretation": "하드웨어 성능을 넘어 소프트웨어(CUDA) 생태계의 락인(Lock-in) 효과를 극대화하여 AMD 등 경쟁사의 추격을 방어하려는 전략임.",
+     "affected_company_ids": [
+      "nvidia",
+      "amd"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "경쟁사들의 CUDA 호환성 확보 및 소프트웨어 생태계 점유율 변화 추이.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c74dacbe33625219"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "퀄컴, 하이퍼스케일러와 두 번째 AI 가속기 협력 계약 체결",
+     "facts": [
+      "퀄컴이 글로벌 하이퍼스케일러와 맞춤형 AI 가속기 공동 설계 및 생산 계약 체결",
+      "스마트폰 칩 의존도를 낮추고 AI 분야 성과 가시화"
+     ],
+     "interpretation": "데이터센터 AI 가속기 시장에서 엔비디아 독점 구조에 균열을 내며 다변화가 진행되고 있음을 시사함.",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "퀄컴의 추가 하이퍼스케일러 고객사 확보 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "1a98930bb7f6bee7"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "AI 인프라 스타트업 d-Matrix, 엔비디아 NVLink 생태계 합류",
+     "facts": [
+      "d-Matrix가 엔비디아의 NVLink Fusion 및 MGX 랙 디자인 채택",
+      "퀄컴, Arm, 아마존 등과 함께 NVLink 생태계 참여"
+     ],
+     "interpretation": "엔비디아의 하드웨어 표준이 AI 인프라 시장에서 강력한 영향력을 유지하고 있음을 보여줌.",
+     "affected_company_ids": [
+      "nvidia",
+      "amazon"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "NVLink 생태계 확장이 엔비디아의 시장 점유율에 미치는 영향.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3ea88659e00a9625"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트의 급격한 수요 증가와 이에 따른 컴퓨팅 자원 부족, 그리고 빅테크의 기업용 AI 시장 공략이 가속화됨.",
+   "stories": [
+    {
+     "headline": "오픈AI, '아스트라' 수요 폭증으로 컴퓨팅 자원 대란 우려",
+     "facts": [
+      "GPT-6 아스트라 수요가 전례 없는 수준으로 폭증",
+      "오픈AI 제품 총괄이 프로 요금제 가입 중단 가능성 시사"
+     ],
+     "interpretation": "AI 모델의 성능 향상이 실제 서비스 수요로 이어지고 있으나, 인프라 공급이 이를 따라가지 못하는 병목 현상이 발생함.",
+     "affected_company_ids": [],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "오픈AI의 컴퓨팅 자원 확보 계획 및 서비스 가용성 유지 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b552ac21181e0896"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "아마존, 외부 광고주에게 ChatGPT 광고 노출 허용",
+     "facts": [
+      "아마존이 자사 광고주들을 ChatGPT 플랫폼에 연동",
+      "폐쇄적이었던 아마존의 외부 AI 플랫폼 협력 사례"
+     ],
+     "interpretation": "아마존이 AI 플랫폼과의 협력을 통해 광고 매출 채널을 다각화하려는 전략적 변화로 해석됨.",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "해당 협력이 아마존의 광고 수익 성장에 미치는 실질적 기여도.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e5bd5e4aa759f78e"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "구글, 인도 스타트업과 대규모 탄소 배출권 계약 체결",
+     "facts": [
+      "구글이 인도 Mitti Labs와 4년 단위 벼농사 메탄 감축 탄소 배출권 계약 체결",
+      "구글의 역대 최대 규모 탄소 배출권 거래"
+     ],
+     "interpretation": "AI 데이터센터 운영에 따른 전력 소비 증가를 상쇄하기 위한 ESG 경영 및 탄소 중립 목표 달성 노력의 일환임.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "빅테크들의 AI 에너지 소비 대응을 위한 추가적인 친환경 투자 규모.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b439d34406b32f1e"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "3ea88659e00a9625",
+   "title": "d-Matrix drinks the Nvidia Kool-Aid with NVLink Fusion and MGX rack designs",
+   "url": "https://www.theregister.com/systems/2026/09/10/d-matrix-drinks-the-nvidia-kool-aid-with-nvlink-fusion-and-mgx-rack-designs/5295403",
+   "source": "The Register"
+  },
+  {
+   "id": "c74dacbe33625219",
+   "title": "[AI는 지금] AMD 추격에 '쿠다' 더 세졌다…엔비디아, AI SW 주도권 강화 가속",
+   "url": "https://zdnet.co.kr/view/?no=20260910184038",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "1a98930bb7f6bee7",
+   "title": "퀄컴 \"새로운 하이퍼스케일러와 맞춤형 AI 가속기 협력\"",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=62109",
+   "source": "디일렉"
+  },
+  {
+   "id": "b552ac21181e0896",
+   "title": "오픈AI, '아스트라' 수요 폭증에 프로 요금제 가입 중단 시사",
+   "url": "https://www.etnews.com/20260910000421",
+   "source": "전자신문"
+  },
+  {
+   "id": "b439d34406b32f1e",
+   "title": "Google signs its biggest rice-methane carbon credit deal with Indian startup Mitti Labs",
+   "url": "https://techcrunch.com/2026/09/10/google-signs-its-biggest-rice-methane-carbon-credit-deal-with-indian-startup-mitti-labs/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "e5bd5e4aa759f78e",
+   "title": "Amazon gives OpenAI's ad business a boost, letting its advertisers into ChatGPT",
+   "url": "https://www.cnbc.com/2026/09/10/amazon-chatgptads-open-ai.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

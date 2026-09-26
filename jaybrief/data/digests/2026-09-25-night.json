@@ -1,0 +1,138 @@
+{
+ "generated_at": "2026-09-25T14:39:48Z",
+ "date": "2026-09-25",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 투자의 중심이 GPU에서 CPU 및 메모리 반도체로 확장되는 흐름과 함께, 네덜란드 정부의 ASML 대중국 수출 규제 완화 시도 등 지정학적 변수가 반도체 산업의 주요 이슈로 부상함.",
+   "stories": [
+    {
+     "headline": "AI 인프라 투자 축의 이동: GPU에서 CPU·메모리로 확장",
+     "facts": [
+      "AI 추론 연산 증가로 인해 HBM, DDR5, eSSD 등 메모리 반도체 수요 확대 전망",
+      "삼성전자와 SK하이닉스의 전략적 가치 재평가 필요성 제기"
+     ],
+     "interpretation": "AI 데이터센터의 병목 현상이 메모리 및 CPU로 이동함에 따라, 단순히 GPU 공급사에 의존하던 투자 전략에서 메모리 반도체 기업으로의 포트폴리오 다변화가 요구됨.",
+     "affected_company_ids": [
+      "sk-hynix",
+      "samsung-electronics"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "주요 데이터센터 기업들의 차세대 서버 CPU 및 메모리 조달 규모 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4a55cebedc7367e9"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "네덜란드 총리, ASML 대중국 수출 규제 추가 방지 시사",
+     "facts": [
+      "롭 예텐 네덜란드 총리가 미국 트럼프 대통령과 ASML 수출 규제 관련 대화 진행",
+      "추가 규제를 막기 위한 양국 간 합의 가능성 언급"
+     ],
+     "interpretation": "ASML의 대중국 매출 의존도가 높은 상황에서 미국의 추가 규제는 실적에 직접적인 타격이 될 수 있으나, 네덜란드 정부의 적극적인 외교적 대응은 불확실성을 일부 완화하는 요인임.",
+     "affected_company_ids": [
+      "asml"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "미국 정부의 MATCH 법안 처리 과정 및 네덜란드와의 최종 합의안 도출 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b628442d5d3c8a2b",
+      "912ab298943d3f90"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 모델의 안전성 및 규제 논의가 가속화되는 가운데, 주요 빅테크 기업들이 AI 에이전트 및 서비스 고도화를 통해 시장 경쟁력을 강화하고 있음.",
+   "stories": [
+    {
+     "headline": "구글·오픈AI·앤트로픽, AI 자율 규제기구 'SAFA' 출범 추진",
+     "facts": [
+      "최첨단 AI 모델의 안전 기준 마련을 위한 업계 자율 규제기구 설립 검토",
+      "올해 말 또는 2027년 초 출범 목표"
+     ],
+     "interpretation": "정부의 직접적인 규제 압박이 거세지는 가운데, 빅테크 기업들이 주도적으로 표준을 설정하여 규제 주도권을 확보하고 산업의 예측 가능성을 높이려는 전략으로 풀이됨.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "SAFA의 구체적인 안전 가이드라인 발표 및 정부 기관의 수용 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "bfa85606d9874c4d"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "마이크로소프트, 코파일럿 앱 통합 및 AI 전략 강화",
+     "facts": [
+      "마이크로소프트가 코파일럿 앱의 기능을 통합하여 비즈니스 AI 경쟁력 강화",
+      "앤트로픽 등 경쟁사와의 시장 점유율 확보 경쟁 심화"
+     ],
+     "interpretation": "AI 서비스의 파편화를 막고 단일 앱 내에서 통합된 경험을 제공함으로써 기업 고객의 락인(Lock-in) 효과를 극대화하려는 의도임.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "통합 코파일럿 앱의 사용자 리텐션 및 기업용 구독 매출 성장세.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9baff89e1ca08c5d"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "4a55cebedc7367e9",
+   "title": "AI 투자축 GPU서 CPU·메모리로 확장…판 뒤집힌다 “삼전닉스 가치 재평가”",
+   "url": "https://www.etnews.com/20260925000044",
+   "source": "전자신문"
+  },
+  {
+   "id": "b628442d5d3c8a2b",
+   "title": "Dutch PM presses US to avoid tighter ASML China curbs",
+   "url": "https://www.digitimes.com/news/a20260925VL203/dutch-asml-sales-equipment-revenue.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "912ab298943d3f90",
+   "title": "네덜란드 총리 “ASML 추가 수출 규제 막겠다”…미국과 합의 가능성 시사",
+   "url": "https://www.etnews.com/20260925000018",
+   "source": "전자신문"
+  },
+  {
+   "id": "bfa85606d9874c4d",
+   "title": "구글·오픈AI·앤트로픽, 자율 규제기구 'SAFA' 연내 출범 추진",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215651",
+   "source": "AI타임스"
+  },
+  {
+   "id": "9baff89e1ca08c5d",
+   "title": "Microsoft packages business AI in single app as it tries to compete with Anthropic",
+   "url": "https://www.cnbc.com/2026/09/25/microsoft-copilot-ai-coding-anthropic.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

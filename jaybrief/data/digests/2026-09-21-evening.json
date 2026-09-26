@@ -1,0 +1,196 @@
+{
+ "generated_at": "2026-09-21T09:11:24Z",
+ "date": "2026-09-21",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 반도체 수요 급증에 따른 인프라 투자와 인력난, 그리고 메모리 시장의 기술 경쟁 및 지정학적 리스크가 주요 이슈로 부각됨.",
+   "stories": [
+    {
+     "headline": "SK하이닉스·삼성전자, 중국 메모리 추격 및 인력난 대응 위한 '원팀' 전략 강조",
+     "facts": [
+      "중국 메모리 생산 비중이 2030년 20%까지 확대될 전망",
+      "미국 반도체 산업 인력 부족 규모가 2030년 최대 15만 7000명에 달할 것으로 예상",
+      "국내 반도체 생태계의 국가적 공동 대응 필요성 제기"
+     ],
+     "interpretation": "중국 기업의 기술 추격과 글로벌 인력 부족은 한국 반도체 기업의 장기적 수익성에 하방 압력으로 작용할 수 있음. 기업 간 경쟁을 넘어선 국가 차원의 인프라 및 인재 확보 협력이 필수적인 시점임.",
+     "affected_company_ids": [
+      "sk-hynix",
+      "samsung-electronics",
+      "micron"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 및 한국 정부의 반도체 인력 양성 정책 및 보조금 지원 규모 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "de99df4b7fb5b09c",
+      "91a7d40c4acb12a9"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "퓨리오사AI, 3세대 칩에 HBM 12개 탑재 승부수",
+     "facts": [
+      "퓨리오사AI가 차세대 3세대 AI 칩에 HBM 12개를 탑재할 계획",
+      "글로벌 하이퍼스케일러 시장을 직접 겨냥한 스케일링 전략"
+     ],
+     "interpretation": "AI 추론 성능 향상을 위해 HBM 탑재량이 급증하고 있으며, 이는 HBM 공급사들에게는 기회이나 공급망 관리의 중요성을 높이는 요인임.",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "HBM 공급 부족 상황 지속 여부 및 TSMC의 CoWoS 생산 능력 확대 속도.",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "7fc594946538564f"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성전자, 스마트폰 배터리에 정품 인증 보안칩 탑재",
+     "facts": [
+      "삼성전자가 향후 갤럭시A 등 중저가 스마트폰 배터리에 정품 인증용 보안 칩 탑재",
+      "내년 적용 물량 약 5000만대 규모"
+     ],
+     "interpretation": "비정품 배터리로 인한 화재 사고 방지 및 브랜드 신뢰도 제고 전략. 보안 칩 수요 증가로 이어질 수 있음.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "보안 칩 탑재가 타 라인업으로 확대되는지 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6785bb953f46456e"
+     ],
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 모델의 파편화와 기업들의 AI 도입 가속화에 따른 실질적 성과 창출 및 보안 이슈가 핵심 과제로 등장.",
+   "stories": [
+    {
+     "headline": "오픈아트, AI 모델 평가 '아레나' 출시 및 모델 라우팅 중요성 강조",
+     "facts": [
+      "오픈아트가 이미지·비디오 생성 모델 용도별 벤치마크 출시",
+      "작업 목적에 맞는 최적 모델 선택을 위한 모델 라우팅 제시"
+     ],
+     "interpretation": "AI 모델이 범용에서 특화 모델로 세분화됨에 따라, 기업들이 비용 효율성을 위해 최적의 모델을 선택·조합하는 '모델 라우팅' 기술이 중요해질 것임.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "기업들의 멀티 모델 도입 추세 및 관련 소프트웨어 솔루션 시장 성장세.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "18faab6252f508d7"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "권오현 전 삼성전자 대표, KAIST 신임 이사장 선임",
+     "facts": [
+      "KAIST 이사회가 권오현 전 삼성전자 대표이사 회장을 신임 이사장으로 선임",
+      "21일 이사회에서 공식 결정"
+     ],
+     "interpretation": "반도체 및 기술 경영 전문가의 선임으로 KAIST의 AI·반도체 연구 및 산학 협력이 더욱 강화될 것으로 기대됨.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "KAIST의 향후 AI·반도체 관련 연구 방향성 및 기업 협력 강화 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "1d9bc9717f51d97c"
+     ],
+     "importance": 1
+    },
+    {
+     "headline": "MS, 기업 AI 전환 지침서 '프런티어 플레이북' 공개",
+     "facts": [
+      "마이크로소프트가 기업 AI 전환을 위한 '프런티어 플레이북' 개정판 공개",
+      "핵심은 기술 도입보다 조직 재설계에 있음을 강조"
+     ],
+     "interpretation": "단순 도구 도입을 넘어 기업의 업무 프로세스 자체를 AI 중심으로 재편해야 한다는 메시지로, 향후 기업들의 AX(AI 전환) 컨설팅 수요가 증가할 것임.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "기업들의 AI 전환 성과 및 관련 IT 서비스 지출 변화.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "84f314799287f859"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "6785bb953f46456e",
+   "title": "삼성전자, 스마트폰 배터리에 정품 인증 보안칩 넣는다",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=62570",
+   "source": "디일렉"
+  },
+  {
+   "id": "de99df4b7fb5b09c",
+   "title": "2030년까지 15.7만명 부족...미국 반도체 인력난에 삼성·마이크론 등 경고등",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215538",
+   "source": "AI타임스"
+  },
+  {
+   "id": "7fc594946538564f",
+   "title": "퓨리오사AI, 3세대 칩에 HBM 12개 탑재...HBM 물량 조달 어떻게",
+   "url": "https://zdnet.co.kr/view/?no=20260921153622",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "91a7d40c4acb12a9",
+   "title": "\"中, 2030년 세계 메모리 생산 비중 20% 차지…韓도 '원팀' 필요\"",
+   "url": "https://zdnet.co.kr/view/?no=20260921134844",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "18faab6252f508d7",
+   "title": "오픈아트, AI 이미지·비디오 모델 평가 '아레나' 출시...\"용도별 최적 모델 찾아준다\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215531",
+   "source": "AI타임스"
+  },
+  {
+   "id": "1d9bc9717f51d97c",
+   "title": "권오현 전 삼성전자 대표, KAIST 신임 이사장 선임",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215541",
+   "source": "AI타임스"
+  },
+  {
+   "id": "84f314799287f859",
+   "title": "MS, 기업 AI 전환 지침서 '프런티어 플레이북' 공개...\"핵심은 조직 재설계\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215536",
+   "source": "AI타임스"
+  }
+ ]
+}

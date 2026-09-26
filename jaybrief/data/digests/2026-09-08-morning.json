@@ -1,0 +1,130 @@
+{
+ "generated_at": "2026-09-08T00:33:24Z",
+ "date": "2026-09-08",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 산업은 AI 서버 및 데이터센터 수요에 대응하기 위한 생산 시설 확충과 공정 기술 고도화가 지속되고 있으며, 메모리 가격 상승 전망과 함께 공급망 최적화가 주요 이슈로 부상함.",
+   "stories": [
+    {
+     "headline": "SK하이닉스, 용인 클러스터와 병행해 광주 투자 가속화 검토",
+     "facts": [
+      "SK하이닉스가 용인 반도체 클러스터 구축과 별개로 광주 반도체 클러스터에 대한 투자를 앞당기는 방안을 검토 중임."
+     ],
+     "interpretation": "대규모 AI 메모리 수요에 대응하기 위해 생산 캐파(Capacity)를 선제적으로 확보하려는 전략으로, 장기적인 공급 능력 확대 의지를 보여줌.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "광주 클러스터 투자 규모 및 구체적인 착공 시점 발표 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "50de6ae7a31b9827"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "메모리 가격 내년에도 상승 전망, 삼성전자·애플 수혜 예상",
+     "facts": [
+      "미즈호증권 보고서에 따르면 내년에도 메모리 반도체 가격 상승세가 지속될 전망임.",
+      "플래그십 제품 비중이 높고 메모리 물량 확보 능력이 뛰어난 삼성전자와 애플이 스마트폰 시장에서 상대적 수혜를 입을 것으로 분석됨."
+     ],
+     "interpretation": "메모리 공급자 우위 시장이 지속됨에 따라 삼성전자의 수익성 개선이 기대되며, 중저가 위주의 중국 스마트폰 업체들은 원가 부담으로 경쟁력이 약화될 가능성이 큼.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "글로벌 스마트폰 출하량 데이터 및 메모리 계약 가격 추이.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "601ea50c323ae337"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 및 AI 섹터는 기업용 AI 도입을 위한 풀스택 전략과 보안 이슈가 핵심이며, 주요 모델들의 잇따른 출시로 인한 시장의 피로감과 규제 리스크가 공존하는 양상임.",
+   "stories": [
+    {
+     "headline": "삼성SDS, '다차원 AI 풀스택' 전략으로 엔터프라이즈 AX 시장 공략",
+     "facts": [
+      "삼성SDS가 '리얼 서밋 2026'에서 다차원 AI 풀스택 전략을 공개함.",
+      "AI 도입과 비즈니스 성과 사이의 간극을 줄이기 위한 보안 및 피지컬 AI 로드맵을 제시함."
+     ],
+     "interpretation": "단순 모델 공급을 넘어 기업의 데이터 보안과 물리적 환경(피지컬 AI)을 통합한 엔드투엔드 솔루션을 통해 기업용 AI 시장에서의 점유율 확대를 노리는 전략임.",
+     "affected_company_ids": [
+      "oracle"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "실제 대형 엔터프라이즈 고객사 확보 및 매출 전환 속도.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6fc31442e7120c8e"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "주요 AI 기업들의 모델 잇따라 출시, '모델 피로감' 확산",
+     "facts": [
+      "최근 앤트로픽, 메타, 구글, 오픈AI 등 주요 기업이 핵심 모델을 연이어 출시함.",
+      "시장에서는 새로운 모델 발표에 대해 '모델 피로감(Model Fatigue)'이라는 반응이 나타나고 있음."
+     ],
+     "interpretation": "AI 기술의 발전 속도가 시장의 수용 속도를 앞지르면서, 단순한 모델 성능 향상보다는 실제 비즈니스 가치 창출과 수익화 모델 증명이 기업의 핵심 과제로 부상함.",
+     "affected_company_ids": [
+      "alphabet",
+      "meta"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "주요 AI 기업들의 차기 분기 실적에서 AI 관련 매출 비중 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ed41a0e5f356ae0d"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "50de6ae7a31b9827",
+   "title": "SK Hynix weighs Gwangju investment as Yongin buildout continues",
+   "url": "https://www.digitimes.com/news/a20260907VL209/sk-hynix-investment-equipment-infrastructure-development.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "601ea50c323ae337",
+   "title": "\"내년에도 메모리 가격 상승...스마트폰 시장서 삼성·애플 수혜\"",
+   "url": "https://zdnet.co.kr/view/?no=20260908012643",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "6fc31442e7120c8e",
+   "title": "삼성SDS, '다차원 AI 풀스택' 공개…AI 보안·피지컬 AI로 영역 확장",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214966",
+   "source": "AI타임스"
+  },
+  {
+   "id": "ed41a0e5f356ae0d",
+   "title": "[9월7일] “일주일에 4개나 출시”...커지는 ‘모델 피로감’",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=214925",
+   "source": "AI타임스"
+  }
+ ]
+}

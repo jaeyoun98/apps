@@ -1,0 +1,106 @@
+{
+ "generated_at": "2026-09-07T00:05:53Z",
+ "date": "2026-09-07",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 산업은 AI 데이터센터 수요 급증에 따른 전력 및 냉각 인프라 확충과 파운드리 공급망의 타이트한 수급 상황이 지속되고 있습니다.",
+   "stories": [
+    {
+     "headline": "삼성전자, IFA 2026서 가전 및 디자인 혁신상 4개 수상",
+     "facts": [
+      "삼성전자가 IFA 2026에서 디자인 부문 최고 혁신상 1개, 혁신상 1개, 가전 부문 혁신상 2개를 수상함.",
+      "비스포크 AI 무풍콤보 프로 벽걸이 에어컨과 비스포크 AI 패밀리허브 냉장고 등이 주요 수상 제품임.",
+      "AI 비전 기술에 구글 제미나이를 결합하는 등 AI 기반 가전 생태계를 강화하고 있음."
+     ],
+     "interpretation": "가전 제품에 AI 기능을 적극 도입하여 프리미엄 시장 점유율을 방어하고 브랜드 경쟁력을 강화하려는 전략으로 판단됨.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "AI 가전 부문의 실질적인 매출 기여도 및 프리미엄 시장 점유율 추이 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8af33fed95fc890e"
+     ],
+     "importance": 1
+    },
+    {
+     "headline": "마이크론, 중국 YMTC와의 특허 분쟁에서 7번째 무효 판단",
+     "facts": [
+      "마이크론이 미국에서 YMTC를 상대로 제기한 특허 무효심판에서 7번째 무효 판단을 받음.",
+      "YMTC는 마이크론을 상대로 27건의 특허 침해 소송을 제기한 상태임."
+     ],
+     "interpretation": "중국 메모리 기업과의 특허 분쟁이 장기화되면서 마이크론의 기술적 우위 및 시장 방어 전략에 부담으로 작용할 가능성이 있음.",
+     "affected_company_ids": [
+      "micron"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "향후 남은 특허 소송 결과 및 미국 내 중국 반도체 기업에 대한 추가 규제 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b91802a9634a29af"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "글로벌 빅테크 기업들의 AI 기술 경쟁이 심화되는 가운데, 교육 및 서비스 분야에서의 AI 적용과 기업가 정신 교육이 활발히 진행되고 있습니다.",
+   "stories": [
+    {
+     "headline": "42경산, 시애틀에서 글로벌 AI·SW 기업가 정신 교육 성료",
+     "facts": [
+      "경산이노베이션아카데미가 과기정통부 지원으로 시애틀에서 8주간 글로벌 교육 프로그램을 진행함.",
+      "마이크로소프트, 아마존 등 빅테크 기업 현장을 방문하고 창업 아이템을 검증함.",
+      "교육생들은 현지 기업 인턴십 면접 기회를 얻는 등 글로벌 커리어 역량을 강화함."
+     ],
+     "interpretation": "국내 AI·SW 인재들이 글로벌 빅테크 생태계를 경험하며 실무 역량을 높이는 것은 장기적으로 국내 테크 산업의 인적 경쟁력 강화에 기여할 것임.",
+     "affected_company_ids": [
+      "microsoft",
+      "amazon"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "해당 교육 프로그램 수료생들의 글로벌 기업 취업 및 창업 성과.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "84cadeb637b635b9"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "b91802a9634a29af",
+   "title": "마이크론, YMTC 특허 7번째 무효 판단 받았다...쟁점특허 27건",
+   "url": "https://zdnet.co.kr/view/?no=20260906193737",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "8af33fed95fc890e",
+   "title": "삼성전자, IFA 2026 혁신상 4개 수상",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61836",
+   "source": "디일렉"
+  },
+  {
+   "id": "84cadeb637b635b9",
+   "title": "과기정통부 지원 42경산, 글로벌 AI·SW 허브 시애틀서 기업가 정신 교육 '결실'",
+   "url": "https://www.etnews.com/20260906000016",
+   "source": "전자신문"
+  }
+ ]
+}

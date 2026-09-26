@@ -1,0 +1,218 @@
+{
+ "generated_at": "2026-09-25T00:38:36Z",
+ "date": "2026-09-25",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "퀄컴의 스냅드래곤 서밋을 중심으로 모바일 AI 생태계 확장과 소프트웨어 통합 전략이 가시화되었습니다. 한편, 삼성전자와 SK하이닉스는 HBM 집중으로 인한 범용 DRAM 공급 부족 현상이 심화되고 있으며, TSMC는 차세대 공정 생태계를 강화하고 있습니다.",
+   "stories": [
+    {
+     "headline": "퀄컴, 스냅드래곤 8 엘리트 6세대 공개 및 통합 AI 소프트웨어 스택 전략 발표",
+     "facts": [
+      "퀄컴이 차세대 모바일 플랫폼 '스냅드래곤 8 엘리트 6세대' 시리즈를 공개함",
+      "모듈러(Modular)를 인수하여 데이터센터부터 엣지 기기까지 아우르는 통합 AI 소프트웨어 스택 구축을 선언함",
+      "스냅드래곤 플랫폼에 데이터센터용 고대역폭연산(HBC) 기술을 적용함"
+     ],
+     "interpretation": "하드웨어 파편화 문제를 해결하고 개발 환경을 통합함으로써 모바일 AI 시장 내 지배력을 강화하려는 전략입니다. 특히 윈도우 PC 생태계와의 호환성 확보는 모바일 칩셋의 영역 확장을 의미합니다.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "스냅드래곤 기반 윈도우 PC의 시장 점유율 확대 여부와 모듈러 통합 소프트웨어의 실제 개발자 채택률을 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "66c4e85b28fa9a9d",
+      "5bb461d0cce8abdb",
+      "3a8fc3b03e2e39fe"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자·SK하이닉스, HBM 집중으로 인한 범용 DRAM 공급 타이트 현상 발생",
+     "facts": [
+      "삼성전자와 SK하이닉스가 HBM 생산 능력을 확대하면서 범용 DRAM 공급이 상대적으로 타이트해짐",
+      "중국의 CXMT가 범용 DRAM 시장에서 점유율을 확대하고 있음"
+     ],
+     "interpretation": "메모리 제조사들의 HBM 중심 포트폴리오 재편이 범용 메모리 시장의 수급 불균형을 야기하고 있으며, 이는 중국 메모리 기업들에게 반사이익을 제공하는 구조적 변화를 초래하고 있습니다.",
+     "affected_company_ids": [
+      "sk-hynix",
+      "samsung-electronics"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "범용 DRAM 가격 상승세 지속 여부와 중국 메모리 기업의 기술적 추격 속도를 모니터링해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "936f5b0841327c5e"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "TSMC, A14 공정 생태계 구축 가속화",
+     "facts": [
+      "Cadence와 Synopsys가 TSMC의 A14 공정 설계 흐름을 인증함",
+      "2027년 리스크 생산, 2028년 양산을 목표로 생태계를 확장 중임"
+     ],
+     "interpretation": "파운드리 시장의 기술적 우위를 유지하기 위한 차세대 공정 준비가 순조롭게 진행되고 있습니다. 주요 EDA 파트너들과의 협력은 고객사들의 설계 편의성을 높여 TSMC의 시장 지배력을 공고히 할 것입니다.",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "TSMC의 차기 실적 발표에서 A14 공정 관련 구체적인 고객사 확보 현황과 투자 계획을 확인해야 합니다.",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "5ef46c28c190b654"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "메타가 AI 에이전트 전용 디바이스를 통해 소비자 시장 선점에 나섰으며, 오라클은 데이터센터 프로젝트 지연 리스크가 부각되었습니다. AI 보안 및 윤리 이슈가 지속적으로 제기되고 있습니다.",
+   "stories": [
+    {
+     "headline": "메타, AI 에이전트 전용 디바이스 '뮤즈 참' 출시 예고",
+     "facts": [
+      "메타가 손바닥 크기의 AI 에이전트 전용 디바이스 '뮤즈 참(Muse Charm)'을 12월 출시할 예정임",
+      "스마트폰을 거치지 않고 AI 에이전트와 직접 소통하는 것을 목표로 함"
+     ],
+     "interpretation": "메타가 하드웨어 생태계로 AI 에이전트의 접점을 확장하여 구글 및 오픈AI와의 경쟁에서 차별화를 시도하고 있습니다. 패션 액세서리 형태의 폼팩터는 Gen Z를 겨냥한 전략적 선택으로 보입니다.",
+     "affected_company_ids": [
+      "meta",
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "제품 출시 이후 실제 소비자 반응과 AI 에이전트 활용도에 따른 플랫폼 생태계 영향력을 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c8809d378c9518fa",
+      "2f290d26a1c97076",
+      "cbd52345e1093db4",
+      "c6e2434d16d1fe60",
+      "1465bae211be7225"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "오라클, 데이터센터 프로젝트 'Stargate' 관련 불가항력 통지",
+     "facts": [
+      "오라클이 2028년 완공 예정인 데이터센터 프로젝트에 대해 불가항력(force majeure) 통지를 보냄",
+      "프로젝트 지연 시 결제 대금 지급을 연기할 수 있는 권리를 확보하려는 조치로 해석됨"
+     ],
+     "interpretation": "대규모 데이터센터 인프라 구축 과정에서의 비용 및 일정 관리 리스크가 가시화되었습니다. 이는 오라클의 AI 인프라 확장 전략에 대한 시장의 우려를 증폭시키고 있습니다.",
+     "affected_company_ids": [
+      "oracle"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "데이터센터 프로젝트의 실제 완공 시점과 오라클의 추가적인 비용 부담 가능성을 주시해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8550350f375e5851",
+      "a755a02b80b8a229",
+      "a20329863a57b794"
+     ],
+     "importance": 3
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "66c4e85b28fa9a9d",
+   "title": "[스냅드래곤 서밋] '스냅드래곤 최적화 AI' 개발·운영 쉬워진다",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=62770",
+   "source": "디일렉"
+  },
+  {
+   "id": "5bb461d0cce8abdb",
+   "title": "\"AI 파편화 끝낸다\"… 퀄컴, '모듈러' 품고 스냅드래곤·윈도우 생태계 대통합",
+   "url": "https://zdnet.co.kr/view/?no=20260925043330",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "3a8fc3b03e2e39fe",
+   "title": "[스냅드래곤 서밋] 퀄컴, 스마트폰 칩에 데이터센터용 HBC 심었다",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=62685",
+   "source": "디일렉"
+  },
+  {
+   "id": "936f5b0841327c5e",
+   "title": "CXMT gains ground in DRAM as Samsung, SK Hynix shift more capacity to HBM",
+   "url": "https://www.digitimes.com/news/a20260924VL219/dram-cxmt-samsung-hbm-capacity.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "5ef46c28c190b654",
+   "title": "Cadence, Synopsys certify TSMC A14 design flows ahead of 2028 production",
+   "url": "https://www.digitimes.com/news/a20260924VL216/synopsys-design-tsmc-production-certification.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "c8809d378c9518fa",
+   "title": "Meta gets to consumer AI device market before OpenAI, but Zuckerberg's strategy remains unproven",
+   "url": "https://www.cnbc.com/2026/09/24/meta-mark-zuckerberg-muse-charm-openai-agent.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "1465bae211be7225",
+   "title": "Meta's new AI fidget is a ... Tamagotchi?",
+   "url": "https://www.theregister.com/personal-tech/2026/09/24/metas-new-ai-fidget-is-a-tamagotchi/5298936",
+   "source": "The Register"
+  },
+  {
+   "id": "8550350f375e5851",
+   "title": "Oracle sends 'force majeure' notice about data center project — stock drops 3%",
+   "url": "https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "a755a02b80b8a229",
+   "title": "Oracle sends force majeure notice on its New Mexico Stargate data center",
+   "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "cbd52345e1093db4",
+   "title": "Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend",
+   "url": "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "2f290d26a1c97076",
+   "title": "메타, 펜던트형 AI 기기 '뮤즈 참' 12월 출시 예고",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215647",
+   "source": "AI타임스"
+  },
+  {
+   "id": "a20329863a57b794",
+   "title": "Oracle sends 'force majeure' notice about data center project — stock sinks 4%",
+   "url": "https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "c6e2434d16d1fe60",
+   "title": "Meta puts its AI assistant on a keychain",
+   "url": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain/",
+   "source": "Ars Technica"
+  }
+ ]
+}

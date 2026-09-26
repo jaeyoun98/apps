@@ -1,0 +1,156 @@
+{
+ "generated_at": "2026-09-17T00:41:39Z",
+ "date": "2026-09-17",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 확장세와 공급망 관리, 그리고 지정학적 리스크가 반도체 섹터의 주요 변수로 작용하고 있습니다. 특히 메모리 공급 부족 우려와 AI 전력 효율화가 핵심 이슈입니다.",
+   "stories": [
+    {
+     "headline": "SK하이닉스, 미국 메모리 생산 거점 확보 위해 인텔 오하이오 공장 활용 검토",
+     "facts": [
+      "SK하이닉스가 미국 내 메모리 칩 생산을 위해 인텔과 협력을 논의 중임.",
+      "인텔의 오하이오 시설 일부를 임대하는 방안이 포함됨."
+     ],
+     "interpretation": "미국 내 생산 거점 확보를 통해 지정학적 리스크를 완화하고, AI 메모리 수요 급증에 대응하려는 전략적 움직임으로 판단됨.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "인텔과의 구체적인 임대 계약 체결 여부 및 미국 내 생산 시설 가동 시점 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "24901a4a2223e7d8"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "AI 인프라 확장에 따른 메모리 공급 부족 우려 심화",
+     "facts": [
+      "인텔 CEO 립부 탄(Lip-Bu Tan)이 2027년 메모리 공급난이 2026년보다 심각할 수 있다고 경고함.",
+      "AI 인프라 확장이 반도체 산업 전반의 메모리 병목 현상을 유발하고 있음."
+     ],
+     "interpretation": "메모리 공급 부족은 가격 상승 요인이 될 수 있으나, 전방 산업의 비용 압박으로 이어질 가능성도 존재함.",
+     "affected_company_ids": [],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "주요 메모리 제조사의 2027년 설비 투자 계획 및 공급량 변화 추이.",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "f06bdcff36334576"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아, 스냅(Snap)의 기업용 AR 글래스 파트너십 참여",
+     "facts": [
+      "스냅이 2,000달러 상당의 'Specs' AR 글래스 기업용 판매를 위해 엔비디아, AWS, 세일즈포스와 파트너십을 체결함."
+     ],
+     "interpretation": "엔비디아의 AI 기술이 데이터센터를 넘어 엣지 디바이스 및 엔터프라이즈 AR 시장으로 확장되고 있음을 시사함.",
+     "affected_company_ids": [
+      "nvidia",
+      "amazon"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "엔터프라이즈 AR 시장에서의 실제 매출 기여도 및 채택률.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f9220357e6d11fcd"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트의 실질적인 업무 자동화와 보안, 그리고 기업용 클라우드 인프라의 고도화가 SW 테크 섹터의 주요 흐름입니다.",
+   "stories": [
+    {
+     "headline": "구글, AI 에이전트가 구글 홈 기기를 제어할 수 있는 MCP 서버 공개",
+     "facts": [
+      "구글이 AI 에이전트(Claude, ChatGPT 등)가 구글 홈 기기를 제어하고 카메라 요약을 검토할 수 있는 MCP 서버를 조기 공개함."
+     ],
+     "interpretation": "AI 에이전트가 가상 공간을 넘어 물리적 환경을 제어하는 'Physical AI'로 진화하고 있으며, 구글 생태계의 AI 통합력이 강화되고 있음.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "타사 AI 에이전트와의 호환성 확대 및 사용자 보안 이슈 발생 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "32781399ef5c93a6"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "아마존, 데이터센터 백업 전력 확보 위해 제너락(Generac) 지분 투자",
+     "facts": [
+      "아마존이 데이터센터 백업 전력 공급 계약의 일환으로 제너락의 주식을 매입할 수 있는 워런트를 확보함.",
+      "이 소식으로 제너락 주가가 40% 이상 급등함."
+     ],
+     "interpretation": "AI 데이터센터의 전력 수요가 급증함에 따라 안정적인 전력 공급망 확보가 클라우드 기업의 핵심 경쟁력이 되고 있음.",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "데이터센터 전력 공급 안정성 확보를 위한 추가적인 에너지 기업 협력 사례.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "1aef7518df9816c8"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "24901a4a2223e7d8",
+   "title": "SK Hynix reportedly eyes Intel Ohio plant for US memory production",
+   "url": "https://www.digitimes.com/news/a20260916PD241/sk-hynix-intel-usa-manufacturing-production-investment.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "f9220357e6d11fcd",
+   "title": "Snap tries to bring AR glasses to enterprise market, partnering with Nvidia, AWS and Salesforce",
+   "url": "https://www.cnbc.com/2026/09/16/snap-enterprise-ai-service.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "f06bdcff36334576",
+   "title": "Intel CEO warns of 2027 memory crunch and tighter CPU supply",
+   "url": "https://www.digitimes.com/news/a20260916PD238/2027-intel-lip-bu-tan-memory-chips-cpu-packaging.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "1aef7518df9816c8",
+   "title": "Amazon obtains right to buy stock in Generac, boosting power company's share price by over 40%",
+   "url": "https://www.cnbc.com/2026/09/16/amazon-obtains-right-to-buy-up-to-340m-of-generac-boosting-stock-.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "32781399ef5c93a6",
+   "title": "Your AI agents can now control your Google Home devices",
+   "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+   "source": "TechCrunch"
+  }
+ ]
+}

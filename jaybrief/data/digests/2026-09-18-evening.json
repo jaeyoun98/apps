@@ -1,0 +1,211 @@
+{
+ "generated_at": "2026-09-18T08:24:36Z",
+ "date": "2026-09-18",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "글로벌 AI 인프라 경쟁이 심화되는 가운데, 화웨이의 대규모 AI 컴퓨팅 아키텍처 도전과 엔비디아의 공급 확대 전망이 대조를 이룹니다. 국내 반도체 기업들은 미국 현지 투자와 공급망 다변화 전략을 지속하고 있습니다.",
+   "stories": [
+    {
+     "headline": "화웨이, 100만 개 AI 칩 연결 아키텍처로 엔비디아 추격 가속",
+     "facts": [
+      "화웨이가 최대 100만 개의 프로세서를 하나의 컴퓨터처럼 연결하는 컴퓨팅 아키텍처 공개",
+      "차세대 AI 가속기 '어센드 960DT' 출시 일정 앞당김",
+      "개별 칩 성능 격차를 대규모 연결 및 고속 데이터 전송 기술로 보완하는 전략"
+     ],
+     "interpretation": "미국의 대중국 반도체 규제로 인한 고성능 칩 확보 제약을 시스템 아키텍처 혁신으로 돌파하려는 시도입니다. 엔비디아 중심의 AI 컴퓨팅 시장에서 중국 내 자립을 강화하려는 의도로 해석됩니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "화웨이의 대규모 클러스터 구축이 실제 AI 모델 학습 성능에서 엔비디아 시스템과 어느 정도 격차를 보이는지 확인이 필요합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ade9313024c4ca86",
+      "aced59f27747d05a"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "젠슨 황 엔비디아 CEO, 내년 칩 판매량 2배 증가 전망",
+     "facts": [
+      "젠슨 황 CEO가 내년 자사 반도체 칩 판매량이 올해 대비 2배 늘어날 것으로 예상",
+      "AI 수요가 전 산업으로 확산되는 점을 근거로 제시"
+     ],
+     "interpretation": "AI 인프라에 대한 글로벌 수요가 여전히 강력하며, 엔비디아의 시장 지배력이 단기간에 꺾이지 않을 것임을 시사합니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "guidance",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "엔비디아의 공급망이 이러한 폭발적인 수요 증가를 차질 없이 대응할 수 있을지가 관건입니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9f411c827cc313ca"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "SK하이닉스 손자회사 솔리다임, 미국 내 첫 낸드 공장 구축 검토",
+     "facts": [
+      "솔리다임이 미국 현지에 첫 낸드 양산라인 구축을 검토 중",
+      "AI 인프라 확대로 인한 낸드 수요 급증에 대응하기 위한 전략"
+     ],
+     "interpretation": "미국 현지 고객사와의 협력을 강화하고, SK그룹 차원의 미국 AI 투자 확대 기조에 발맞춘 행보로 판단됩니다.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "구체적인 투자 규모와 공장 부지 선정, 착공 시점이 확정되는지 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "a8472402a9cb364a"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "중국 LCD 패널 제조사들의 가격 인상 통보로 국내 세트사 원가 부담 가중",
+     "facts": [
+      "BOE, TCL CSOT, HKC 등 중국 LCD 패널 제조사가 국내외 TV 세트사에 가격 인상 통보",
+      "연말 성수기를 앞두고 공급망 독점에 따른 판가 통제 우려 현실화"
+     ],
+     "interpretation": "중국 기업들의 LCD 시장 지배력이 강화되면서 국내 TV 제조사의 수익성에 부정적인 영향을 미칠 가능성이 큽니다.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "supply_chain",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "실제 패널 가격 인상 폭이 삼성전자 등 주요 TV 제조사의 4분기 영업이익에 미칠 영향을 주시해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "16fb364c2d1e4c81"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 기술이 소프트웨어 개발 및 기업 업무 자동화의 핵심으로 부상하고 있습니다. 오픈AI와 마이크로소프트의 협력 강화가 두드러지며, 국방 등 특수 분야로의 AI 적용도 가속화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "오픈AI, MS 워드에 챗GPT 통합 확대 및 에이전트 API 출시",
+     "facts": [
+      "오픈AI가 MS 워드 내 챗GPT 통합 기능을 전체 요금제로 확대",
+      "장기 실행 AI 에이전트를 위한 실행 체계(하네스) API 제공 시작"
+     ],
+     "interpretation": "AI 서비스가 단순 챗봇을 넘어 업무 생산성 도구와 통합되고, 에이전트 실행 인프라 플랫폼으로 경쟁의 축이 이동하고 있습니다.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "에이전트 API를 통한 기업들의 실제 업무 자동화 도입 사례와 그에 따른 생산성 향상 수치를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b703559c1ab13fb6",
+      "02c87ef05ab932ba"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "네이버클라우드, 국방 AI 전략 세미나 개최하며 '국방 소버린 AI' 추진",
+     "facts": [
+      "네이버클라우드가 국방 AI 전략 세미나를 통해 전장 데이터 연결 및 AI 지휘소 기술 공개",
+      "군이 핵심 AI 기술을 직접 운용하고 통제하는 '국방 소버린 AI' 기반 구축 목표"
+     ],
+     "interpretation": "민간 AI 기술을 국방 분야로 확장하여 국가 안보와 직결된 AI 주권을 확보하려는 전략입니다.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "실제 국방 프로젝트 수주 및 군 내부 시스템 도입 여부가 향후 성장의 핵심입니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "995a289cd2d03592",
+      "563e3ee46a080e9d",
+      "406a322bd2471003"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "16fb364c2d1e4c81",
+   "title": "\"우려가 현실로\" 중국 패널 3사, TV 패널 가격 인상",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=62485",
+   "source": "디일렉"
+  },
+  {
+   "id": "ade9313024c4ca86",
+   "title": "화웨이, 차세대 AI 칩 출시 앞당긴다...\"대규모 연결로 엔비디아 추격\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215455",
+   "source": "AI타임스"
+  },
+  {
+   "id": "a8472402a9cb364a",
+   "title": "SK하이닉스 손자회사 솔리다임, 美 첫 낸드 공장 구축 추진",
+   "url": "https://zdnet.co.kr/view/?no=20260918125305",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "aced59f27747d05a",
+   "title": "AI칩 100만개 하나로 묶는다…화웨이, 초대형 컴퓨팅 승부수",
+   "url": "https://zdnet.co.kr/view/?no=20260918120259",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "9f411c827cc313ca",
+   "title": "젠슨 황 “엔비디아, 내년 칩 판매량 2배로 증가”",
+   "url": "https://www.etnews.com/20260918000015",
+   "source": "전자신문"
+  },
+  {
+   "id": "b703559c1ab13fb6",
+   "title": "\"워드 안에서 챗GPT 쓴다\"...오픈AI, MS 워드 통합 기능 확대",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215448",
+   "source": "AI타임스"
+  },
+  {
+   "id": "995a289cd2d03592",
+   "title": "AI가 전장 읽고 대응책까지 제시…네이버클라우드가 그린 'AI 지휘소'",
+   "url": "https://zdnet.co.kr/view/?no=20260918134340",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "563e3ee46a080e9d",
+   "title": "\"전장 AI 통제권 우리 손에\"…네이버가 국방에 뛰어든 이유",
+   "url": "https://zdnet.co.kr/view/?no=20260918133013",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "02c87ef05ab932ba",
+   "title": "오픈AI, ‘에이전트 API’ 출시…에이전트 경쟁 2막",
+   "url": "https://byline.network/2026/09/18-629/",
+   "source": "바이라인네트워크"
+  },
+  {
+   "id": "406a322bd2471003",
+   "title": "네이버클라우드 “AI 풀스택·FDE 동원해 국방 AX 지원할 것”",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215451",
+   "source": "AI타임스"
+  }
+ ]
+}
