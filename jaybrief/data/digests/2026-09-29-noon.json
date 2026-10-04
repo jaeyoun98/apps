@@ -1,0 +1,212 @@
+{
+ "generated_at": "2026-09-29T02:06:06Z",
+ "date": "2026-09-29",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 확장을 위한 글로벌 자본 투입과 반도체 장비 및 소재 시장의 공급망 변화가 가속화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "삼성전자 및 관계사, KKR 주도 AI 인프라 기업 'Helix'에 10억 달러 투자",
+     "facts": [
+      "삼성전자 등 삼성 6개사가 KKR이 설립한 AI 데이터센터 인프라 기업 'Helix Digital Infrastructure'에 10억 달러를 공동 투자함",
+      "이번 투자는 삼성의 AI 데이터센터 생태계 직접 진출 전략의 일환임"
+     ],
+     "interpretation": "단순 부품 공급을 넘어 AI 인프라 자산에 직접 투자함으로써 데이터센터 생태계 내 영향력을 강화하고, 향후 자사 반도체 및 부품의 안정적인 수요처를 확보하려는 전략적 행보로 판단됨.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "삼성의 데이터센터 인프라 투자 확대가 실제 반도체 매출로 이어지는지 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ef6ed658f1fdefd7",
+      "ca6322478e0ccefd",
+      "ec3729d2df2c8920"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "AMD, AI 스타트업 'World Labs' 82억 달러에 인수",
+     "facts": [
+      "AMD가 페이페이 리가 공동 창업한 공간 AI 스타트업 'World Labs'를 82억 달러 전액 주식 교환 방식으로 인수함",
+      "페이페이 리는 AMD의 부사장 겸 수석 과학자로 합류할 예정"
+     ],
+     "interpretation": "AI 모델 연구 역량 내재화를 통해 하드웨어와 소프트웨어를 아우르는 시스템 설계 능력을 강화하려는 의도임. 특히 공간 AI 모델링 기술 확보는 차세대 AI 칩 경쟁력에 중요한 변수가 될 것임.",
+     "affected_company_ids": [
+      "amd"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "World Labs의 기술이 AMD 차세대 AI 칩 성능 향상에 기여하는 시점",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f36286595435feec",
+      "82eac2782e78c0fd",
+      "335d87f5de735d42",
+      "a5c8cb038c84a593",
+      "064b077c2a5c1c7a",
+      "1eae42b195b7f665"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "도쿄일렉트론(TEL), 반도체 장비 공급난 속 영업이익 60% 성장 목표 제시",
+     "facts": [
+      "도쿄일렉트론이 AI 인프라 투자 확대에 따른 장비 수요 급증을 반영해 전년 대비 60% 이상의 영업이익 성장 목표를 설정함",
+      "고객사의 장비 도입 속도를 높이기 위한 체질 개선 전략 추진"
+     ],
+     "interpretation": "AI 반도체 수요가 장비 시장의 실적 성장을 견인하고 있음을 시사함. 장비 공급난이 지속되는 상황에서 리드타임 단축 역량이 장비사의 수익성을 결정짓는 핵심 지표가 될 것임.",
+     "affected_company_ids": [],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "주요 반도체 장비사들의 실제 장비 인도 속도 개선 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9eda2658961e10ad"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트의 확산과 함께 기업용 AI 플랫폼 경쟁이 치열해지며, 안전성 및 보안 규제 논의가 본격화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "메타, 기업용 AI 플랫폼 책임자로 몽고DB CEO 영입",
+     "facts": [
+      "메타가 기업 고객 대상 AI 서비스 총괄을 위해 차란틴 CJ 데사이 몽고DB CEO를 영입함",
+      "메타 엔터프라이즈 플랫폼 사업부를 통해 기업용 AI 시장 공략 가속화"
+     ],
+     "interpretation": "메타가 오픈소스 모델을 넘어 기업용 AI 시장에서 수익 모델을 구체화하려는 의지임. 기업용 플랫폼 경험이 풍부한 외부 인재 영입은 메타의 B2B AI 사업 추진에 속도를 더할 것임.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "메타의 기업용 AI 플랫폼이 실제 기업 고객 확보로 이어지는지 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "76202213297972d2"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "트럼프 대통령, 빅테크 CEO들과 AI 혁신 및 안전 규제 논의",
+     "facts": [
+      "트럼프 대통령이 메타, 오픈AI, 앤트로픽 등 AI 기업 경영진과 백악관에서 회동함",
+      "AI 혁신과 안전 규제 간의 균형점을 논의할 예정"
+     ],
+     "interpretation": "정부 차원의 AI 규제 방향성이 구체화되는 시점으로, 향후 AI 개발 속도와 기업들의 자율성 범위에 영향을 미칠 수 있는 중요한 정치적 이벤트임.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "회동 이후 발표될 미국 정부의 AI 규제 가이드라인 수준",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2bd9dbf9408a2aac",
+      "9f99dd51a7b53935"
+     ],
+     "importance": 3
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "ef6ed658f1fdefd7",
+   "title": "Samsung to inject $1 billion into Nvidia- and KKR-backed AI infrastructure firm",
+   "url": "https://www.cnbc.com/2026/09/29/samsung-investment-nvidia-kkr-ai-helix-digital.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "9eda2658961e10ad",
+   "title": "TEL, 전년 比 영업익 60% 성장 목표 제시…“반도체 장비 도입 단축”",
+   "url": "https://www.etnews.com/20260929000124",
+   "source": "전자신문"
+  },
+  {
+   "id": "ca6322478e0ccefd",
+   "title": "Samsung invests US$1 billion in ex-AWS chief's AI data center venture, joining Nvidia as a founding investor",
+   "url": "https://www.digitimes.com/news/a20260929VL201/samsung-data-center-nvidia-data-investment.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "f36286595435feec",
+   "title": "AMD pays US$8.2 billion for Fei-Fei Li's 3D world-modeling startup to shape future AI chips",
+   "url": "https://www.digitimes.com/news/a20260929VL200/amd-startup-3d-chips-hardware.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "82eac2782e78c0fd",
+   "title": "'AI 대모' 페이페이 리, AMD에 합류한다",
+   "url": "https://zdnet.co.kr/view/?no=20260929093423",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "ec3729d2df2c8920",
+   "title": "삼성 6개사, KKR 헬릭스에 10억달러…'부품' 넘어 AI 인프라 판 짠다",
+   "url": "https://www.etnews.com/20260929000015",
+   "source": "전자신문"
+  },
+  {
+   "id": "335d87f5de735d42",
+   "title": "AMD, AI 스타트업 '월드랩스' 82억달러에 인수",
+   "url": "https://www.etnews.com/20260929000012",
+   "source": "전자신문"
+  },
+  {
+   "id": "a5c8cb038c84a593",
+   "title": "AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion",
+   "url": "https://www.cnbc.com/2026/09/28/amd-fei-fei-li-world-labs.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "064b077c2a5c1c7a",
+   "title": "AMD bets $8.2B that worlds matter more than words in AI",
+   "url": "https://www.theregister.com/ai-and-ml/2026/09/28/amd-bets-82b-that-worlds-matter-more-than-words-in-ai/5299609",
+   "source": "The Register"
+  },
+  {
+   "id": "1eae42b195b7f665",
+   "title": "AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion",
+   "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "76202213297972d2",
+   "title": "메타, 새 기업용 AI 플랫폼 책임자로 몽고DB CEO 선임",
+   "url": "https://zdnet.co.kr/view/?no=20260929091658",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "2bd9dbf9408a2aac",
+   "title": "트럼프, 오픈AI·앤트로픽·메타 만난다…AI 혁신·안전 논의",
+   "url": "https://www.etnews.com/20260929000010",
+   "source": "전자신문"
+  },
+  {
+   "id": "9f99dd51a7b53935",
+   "title": "Zuckerberg, Amodei among tech executives set to meet Trump Tuesday",
+   "url": "https://www.cnbc.com/2026/09/28/trump-ai-tech-lunch.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

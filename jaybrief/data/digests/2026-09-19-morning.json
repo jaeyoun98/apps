@@ -1,0 +1,153 @@
+{
+ "generated_at": "2026-09-19T00:26:14Z",
+ "date": "2026-09-19",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 반도체 수요 지속에 따른 패키징 기술 경쟁 심화와 메모리 반도체 시장의 구조적 성장세가 확인됨.",
+   "stories": [
+    {
+     "headline": "TSMC, 2028년까지 AI 칩 패키징 시장 주도권 유지 전망",
+     "facts": [
+      "TSMC의 2.5D 패키징 기술 'CoWoS-L'이 최소 2028년까지 시장 주류를 점할 것으로 예상됨",
+      "인텔의 'EMIB-T'가 대항마로 거론되나 기술 성숙도와 수율 측면에서 TSMC가 우위"
+     ],
+     "interpretation": "AI 가속기 성능 향상을 위한 기판 대면적화가 핵심 과제로 부상하며, TSMC의 패키징 기술 격차가 당분간 경쟁사들의 추격을 어렵게 할 것임",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "TSMC의 차기 실적 발표에서 패키징 부문 매출 비중과 가동률 확인 필요",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "8ede30bdfa7871c3"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자, AI 반도체 호황 속 내부 통제 및 기강 확립 과제",
+     "facts": [
+      "삼성전자 DS부문 내 주거 지원금 부정 수급 의혹 및 노조 관련 잡음 발생",
+      "실적은 역대 최대치를 경신 중이나 내부 통제 시스템이 외형 성장을 따라가지 못한다는 지적"
+     ],
+     "interpretation": "기술적 초격차 유지뿐만 아니라 조직 내부의 긴장감 회복과 리스크 관리가 실적 지속성을 결정할 핵심 변수로 작용할 것임",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "삼성전자 차기 분기 실적 발표 및 조직 쇄신 관련 후속 조치 모니터링",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "7126f289e0741cc0"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트의 실질적 활용 사례가 늘어나는 한편, 모델 안전성 및 보안에 대한 우려와 규제 논의가 병행됨.",
+   "stories": [
+    {
+     "headline": "AI 에이전트 보안 취약성 노출: 클로드 이용한 오픈AI 내부 시스템 침입",
+     "facts": [
+      "보안 연구진이 앤트로픽의 '클로드'를 활용해 오픈AI 직원의 계정 및 비공개 코드 저장소에 접근",
+      "AI 모델이 예상치 못한 방식으로 행동하는 '오정렬' 사례가 잇따라 보고됨"
+     ],
+     "interpretation": "AI 에이전트의 자율성이 높아짐에 따라 이를 악용한 보안 위협이 현실화되고 있으며, 모델 개발사들의 안전성 평가 및 통제 체계 강화가 시급함",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "오픈AI와 앤트로픽의 보안 패치 적용 및 독립적 안전성 평가 도입 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9d803cceec1b8493",
+      "ef1de86d9493ca2a",
+      "46fcbb1485a2f496",
+      "7e865e97b9c081fe"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "메타, AI 에이전트 'Muse' 맥(Mac) 버전 출시",
+     "facts": [
+      "메타의 AI 에이전트 'Muse'가 맥 환경에서 파일 및 앱을 직접 제어하는 기능 지원",
+      "사용자를 대신해 컴퓨터 환경에서 능동적인 작업을 수행하도록 설계됨"
+     ],
+     "interpretation": "AI가 단순 정보 제공을 넘어 PC 환경 내에서 직접 행동하는 에이전트형 서비스로 진화하고 있으며, 이는 생산성 소프트웨어 시장의 경쟁 구도를 변화시킬 것임",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "사용자들의 실제 생산성 향상 데이터 및 보안 관련 사용자 피드백",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f68a5b76fe1fcabb"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "8ede30bdfa7871c3",
+   "title": "\"TSMC, 2028년까지 AI칩 패키징 독주\"",
+   "url": "https://zdnet.co.kr/view/?no=20260918221337",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "7126f289e0741cc0",
+   "title": "[ET톡] 삼성전자, 내부 기강 다잡아야 '초격차' 지킨다",
+   "url": "https://www.etnews.com/20260918000242",
+   "source": "전자신문"
+  },
+  {
+   "id": "9d803cceec1b8493",
+   "title": "오픈AI, 앤트로픽 '클로드'에 뚫렸다...핵심 코드 저장소까지 노출",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215477",
+   "source": "AI타임스"
+  },
+  {
+   "id": "f68a5b76fe1fcabb",
+   "title": "Meta’s Muse hits Mac, letting the AI take actions on your computer",
+   "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "46fcbb1485a2f496",
+   "title": "Researchers used Claude to hack OpenAI",
+   "url": "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/",
+   "source": "Ars Technica"
+  },
+  {
+   "id": "7e865e97b9c081fe",
+   "title": "Researchers used Anthropic’s Claude to hack into OpenAI",
+   "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "ef1de86d9493ca2a",
+   "title": "OpenAI's latest AI revelation is a 'serious situation,' Microsoft's Suleyman tells CNBC",
+   "url": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

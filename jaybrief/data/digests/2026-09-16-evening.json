@@ -1,0 +1,228 @@
+{
+ "generated_at": "2026-09-16T08:44:58Z",
+ "date": "2026-09-16",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 효율화 및 비용 절감을 위한 자체 칩 개발과 맞춤형 메모리 솔루션 도입이 가속화되고 있으며, 반도체 제조 공정의 고도화와 공급망 다변화가 주요 이슈로 부상함.",
+   "stories": [
+    {
+     "headline": "메타, 자체 AI 칩 'MTIA' 시리즈 데이터센터 배치 가속화",
+     "facts": [
+      "메타가 3세대 자체 AI 칩 'MTIA 450'을 테스트 중이며 내년 상반기 배치 예정",
+      "4세대 칩 'MTIA 500'은 한 달 내 설계 완료 후 2027년 말 데이터센터 공급 목표",
+      "자체 칩 도입을 통해 AI 인프라 비용과 전력 소비 절감 추진"
+     ],
+     "interpretation": "빅테크 기업들이 엔비디아 의존도를 낮추고 인프라 운영 효율을 극대화하기 위해 자체 실리콘(ASIC) 내재화 전략을 본격화하고 있음.",
+     "affected_company_ids": [
+      "meta",
+      "tsmc",
+      "broadcom"
+     ],
+     "event_type": "product",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "메타의 자체 칩 도입이 엔비디아 GPU 수요에 미치는 실질적인 대체 효과 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5528e14a3915f69f"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자, 미스트랄 AI 투자 및 반도체 인프라 협력",
+     "facts": [
+      "삼성전자가 프랑스 AI 기업 미스트랄의 시리즈 D 투자 주도",
+      "삼성전자 DS부문이 미스트랄 모델을 반도체 사업 전반의 온프레미스 인프라에 도입",
+      "유럽 기술 기업 대상 역대 최대 규모 지분 투자"
+     ],
+     "interpretation": "삼성전자가 자체 AI 모델 생태계를 확보하고 반도체 설계·생산 공정에 AI를 결합해 DS부문의 경쟁력을 강화하려는 전략적 행보임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미스트랄 모델 도입을 통한 삼성전자 반도체 공정 효율화 성과",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "7ba08ee0ac30641b"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "SK하이닉스, 2026년 임단협 타결 및 성과급 현금 비중 상향",
+     "facts": [
+      "SK하이닉스 노사가 2026년 임단협 수정 합의안 가결",
+      "성과급 현금 비중을 40%에서 50%로 상향",
+      "주식 지급 비율 조정 등 구성원 선택권 확대"
+     ],
+     "interpretation": "노사 갈등 해소로 생산 안정성을 확보했으나, 성과급 현금 비중 확대는 향후 재무적 부담 요인으로 작용할 수 있음.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "임단협 타결 이후 HBM 생산 수율 및 공급 안정성 유지 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "fe1fef9c2090e7d6",
+      "afd69d46492c56f9",
+      "0e8d8735df30e0d2"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트의 확산에 따라 보안 패러다임이 '답변 검증'에서 '행동 통제'로 이동하고 있으며, 기업들은 데이터 보안을 위해 외부 모델 의존도를 낮추고 자체 관리형 AI 솔루션을 도입하는 추세임.",
+   "stories": [
+    {
+     "headline": "시스코-엔비디아, 온프레미스용 '스플렁크 AI' 출시",
+     "facts": [
+      "시스코가 엔비디아와 협력해 자체 관리형 '스플렁크용 시스코 AI POD' 출시",
+      "민감 데이터를 외부로 옮기지 않고 온프레미스·프라이빗 클라우드에서 AI 에이전트 운영 가능",
+      "에이전트 성능·보안·토큰 비용 관리 기능 포함"
+     ],
+     "interpretation": "데이터 유출 우려로 인해 기업들이 퍼블릭 클라우드 기반 AI 모델 대신 폐쇄형 인프라에서 AI를 구동하려는 수요가 급증하고 있음.",
+     "affected_company_ids": [
+      "nvidia",
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "기업들의 온프레미스 AI 인프라 전환 속도 및 엔비디아 하드웨어 매출 기여도",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e0b8fdd63aca4885",
+      "0acded02fa25815e"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "메타, 유료 구독 서비스 '메타 원' 글로벌 출시",
+     "facts": [
+      "메타가 페이스북·인스타그램·왓츠앱과 AI 기능을 결합한 '메타 원' 구독 서비스 출시",
+      "이미지·영상 생성 및 AI 편집 기능 강화",
+      "크리에이터 및 기업 대상 전문 콘텐츠 관리 기능 제공"
+     ],
+     "interpretation": "소셜미디어 플랫폼에 생성형 AI를 결합하여 사용자 체류 시간을 늘리고, 광고 외 새로운 수익 모델을 창출하려는 시도임.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "메타 원 구독자 증가율 및 AI 기능 활용을 통한 수익성 개선 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2c747b6e827dbead",
+      "bd57cbea7b78c9fb",
+      "c78c717aeda185b6"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "세일즈포스-엔비디아, CRM 전용 추론 모델 '코아' 공개",
+     "facts": [
+      "세일즈포스가 엔비디아와 협력해 CRM 데이터 특화 추론 모델 '코아' 공개",
+      "외부 프론티어 모델에 대한 의존도 낮추는 전략",
+      "엔비디아의 오픈웨이트 모델 '네모트론' 기반"
+     ],
+     "interpretation": "기업용 소프트웨어(SaaS) 기업들이 범용 AI 모델 대신 특정 업무에 최적화된 모델을 도입하여 빅테크 종속성을 탈피하고 서비스 차별화를 꾀하고 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "CRM 특화 모델 도입에 따른 세일즈포스 고객사의 생산성 향상 지표",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "14377a0e58958cfc"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "5528e14a3915f69f",
+   "title": "메타, 자체 AI 칩 본격 배치...비용·전력 절감 속도",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215334",
+   "source": "AI타임스"
+  },
+  {
+   "id": "14377a0e58958cfc",
+   "title": "세일즈포스-엔비디아, CRM 전용 추론 모델 '코아' 공개...\"빅테크 의존 낮춘다\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215351",
+   "source": "AI타임스"
+  },
+  {
+   "id": "fe1fef9c2090e7d6",
+   "title": "SK Hynix union approves revised pay deal after 25-vote rejection",
+   "url": "https://www.digitimes.com/news/a20260916VL217/sk-hynix-production-operating-profit-performance-earnings.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "e0b8fdd63aca4885",
+   "title": "시스코, '스플렁크 AI' 출시…에이전트 성능·보안·토큰 비용 관리",
+   "url": "https://zdnet.co.kr/view/?no=20260916150034",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "bd57cbea7b78c9fb",
+   "title": "Meta globally rolls out Meta One subscription, tops 15 million sign-ups",
+   "url": "https://www.digitimes.com/news/a20260916PD225/meta-taiwan-launch-facebook.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "afd69d46492c56f9",
+   "title": "SK하이닉스, 임단협 수정안 가결…성과급 50% 현금",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=62350",
+   "source": "디일렉"
+  },
+  {
+   "id": "0e8d8735df30e0d2",
+   "title": "SK하이닉스, 26년 임단협 타결...주식 지급비율 조정 등 개인 선택권 확대",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=341515",
+   "source": "KIPOST"
+  },
+  {
+   "id": "7ba08ee0ac30641b",
+   "title": "[기고] 삼성은 왜 공짜로 쓸 수 있는 미스트랄 모델에 돈을 냈나",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215321",
+   "source": "AI타임스"
+  },
+  {
+   "id": "c78c717aeda185b6",
+   "title": "Meta globally rolls out Meta One subscription, expands to Taiwan",
+   "url": "https://www.digitimes.com/news/a20260916PD225/meta-taiwan-launch-facebook.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "2c747b6e827dbead",
+   "title": "메타, 통합 구독 상품 '메타 원' 공개...소셜미디어에 생성 AI 대거 결합",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215353",
+   "source": "AI타임스"
+  },
+  {
+   "id": "0acded02fa25815e",
+   "title": "빌 게이츠 “전 세계 정부, AI 대비 뒤처져”…'AI 불평등 해소'에 1.4조 투입",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215352",
+   "source": "AI타임스"
+  }
+ ]
+}

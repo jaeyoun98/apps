@@ -1,0 +1,142 @@
+{
+ "generated_at": "2026-09-20T13:38:05Z",
+ "date": "2026-09-20",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아 CEO 젠슨 황의 대외 정책 영향력 확대와 AI 인프라 고도화를 위한 기술적·정책적 움직임이 가속화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "젠슨 황 엔비디아 CEO, 트럼프 AI 정책 핵심 조력자로 부상",
+     "facts": [
+      "젠슨 황이 AI 안전성 논쟁에서 트럼프 대통령의 주요 조력자로 부상함",
+      "엔비디아는 AI 산업 전반의 R&D 속도 조절에 반대하는 입장을 견지함"
+     ],
+     "interpretation": "엔비디아의 시장 지배력이 정책 결정권자에게 직접적인 영향력을 행사하는 수준에 도달함. AI 규제 완화 및 산업 육성 기조가 강화될 경우 엔비디아의 기술 주도권이 더욱 공고해질 전망임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 정부의 구체적인 AI 규제 완화 법안 및 엔비디아의 정책 수혜 여부 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "02f43f843c7e4e68",
+      "717b7fc34574efda"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자, 실리콘밸리 '2026 테크 포럼' 개최 및 AI 인재 확보",
+     "facts": [
+      "삼성전자가 미국 실리콘밸리에서 글로벌 IT 리더급 개발자 대상 '2026 테크 포럼' 개최",
+      "삼성전자 등 4개 대기업 연구소가 AI 분야 병역특례 대상으로 선정됨"
+     ],
+     "interpretation": "글로벌 AI 기술 트렌드 공유를 통한 네트워크 강화와 더불어, 국내외 우수 AI 인재 확보를 위한 전방위적 노력을 지속하고 있음.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "확보된 AI 인재들이 삼성전자의 차세대 반도체 및 AI 솔루션 경쟁력에 미치는 실질적 성과.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c608ff0e805b10df",
+      "78fb9784ffba581b"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 보안 위협 대응과 더불어 AI 에이전트 및 판단형 AI 모델 등 소프트웨어 생태계의 고도화가 진행 중입니다.",
+   "stories": [
+    {
+     "headline": "구글 위협 인텔리전스 그룹, 공급망 해킹 조직 잠입 성공",
+     "facts": [
+      "구글 위협 인텔리전스 그룹이 공급망 해킹 조직 'TeamPCP' 내부에 분석가를 잠입시킴",
+      "공급망 보안 위협에 대한 구글의 선제적 대응 사례"
+     ],
+     "interpretation": "AI 및 클라우드 생태계의 보안이 기업 경쟁력의 핵심으로 부상함에 따라, 구글은 단순 방어를 넘어 공격자 내부 침투 등 공격적인 보안 전략을 취하고 있음.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "이번 잠입을 통해 확보된 정보가 실제 공급망 보안 강화 및 관련 보안 서비스 매출에 미치는 영향.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8e8f2df62b4b380d"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "판단 전용 AI 모델 '제브(Zeb)' 등장 및 개발자 관심 집중",
+     "facts": [
+      "타입세이프 AI가 텍스트 생성을 배제하고 구조화된 판단(Typed Decisions)만 내리는 AI 모델 '제브' 공개",
+      "소프트웨어 백엔드 이식에 최적화된 구조"
+     ],
+     "interpretation": "생성형 AI의 환각 현상과 비효율성을 극복하기 위해, 특정 업무 수행에 특화된 '판단형 AI'로 시장의 관심이 이동하고 있음.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "판단형 AI 모델이 실제 기업용 소프트웨어 백엔드 시스템에 얼마나 빠르게 도입되는지 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "45eee6e07a2ffc63"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "02f43f843c7e4e68",
+   "title": "Jensen Huang Emerges as Trump AI Policy Ally as Nvidia Opposes Industry-Wide R&D Slowdown, Report Says",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOYXlmUWRDRjFpQzA3SVdkbUZIZzRnbGl5R3JBOXBiUl9adXVveEdfRVhyOU9Da095WnlNcF9xSFpzN3k0bWJZelA0X203cWJ0WFoyQVRQRmo4NndMRjVKZjdiOElZMEo3bVFrNnBjR0RoVmQwSGR6Zkh5SXpoMzlJejhzb0RpdGFPWTg4WEFKZUtmX3JFc0x6M1RPRjhmZ3pSUk5qTnZ0M0pUcDdUM05NMmduNHZMOVdvajljZ0p3M2YwUE9fWEtMME8ycFRKYm14WVh5T25RVEdkRWtVRVgtR2NydHpERVRySmc?oc=5",
+   "source": "TradingKey"
+  },
+  {
+   "id": "717b7fc34574efda",
+   "title": "Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate",
+   "url": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "c608ff0e805b10df",
+   "title": "삼성전자, 미국 실리콘밸리서 '2026 테크 포럼'개최…AI비전과 사업전략 공유",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=341650",
+   "source": "KIPOST"
+  },
+  {
+   "id": "8e8f2df62b4b380d",
+   "title": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
+   "url": "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/",
+   "source": "Ars Technica"
+  },
+  {
+   "id": "45eee6e07a2ffc63",
+   "title": "“문장 생성 버렸다”…판단 전용 AI ‘제브’에 개발자 반응 폭발",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215506",
+   "source": "AI타임스"
+  },
+  {
+   "id": "78fb9784ffba581b",
+   "title": "대기업 병역특례 14년 만에 부활…삼성·LG 등 AI 연구소 9곳 첫 추천",
+   "url": "https://zdnet.co.kr/view/?no=20260920113337",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

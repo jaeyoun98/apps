@@ -1,0 +1,185 @@
+{
+ "generated_at": "2026-09-14T00:17:46Z",
+ "date": "2026-09-14",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "국내 주요 반도체 기업의 전력 비용 부담 이슈와 AI 산업의 성장 속도 조절론이 시장의 주요 변수로 작용하고 있습니다.",
+   "stories": [
+    {
+     "headline": "삼성전자·SK하이닉스, 한전의 25조 원 전기료 선납 제안 거절",
+     "facts": [
+      "한국전력이 삼성전자와 SK하이닉스에 5년 치 전기요금 25조 원 선납을 제안했으나 양사 모두 거절함",
+      "거절 사유로 반도체 업황의 불확실성과 예측의 어려움을 언급함"
+     ],
+     "interpretation": "대규모 현금 유출을 방지하여 재무적 유연성을 확보하려는 의도로 해석되며, 전력 인프라 투자 부담이 반도체 기업의 수익성에 미치는 압박을 시사함",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "반도체 기업의 전력 비용 부담 완화를 위한 정부의 추가적인 지원 정책이나 요금 체계 개편 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d73adf4fa503555c",
+      "7064c7c51151cfe2",
+      "55ade112e7f20222",
+      "7afce795ebf8c4c7"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "AI 속도조절론 대두 및 미국 정계의 규제 움직임",
+     "facts": [
+      "AI 개발 가속과 속도 조절을 둘러싼 미국 정계의 이념 대립이 선거 핵심 의제로 부상",
+      "Anthropic CEO의 AI 속도 조절 제안에 대해 OpenAI, Google DeepMind, Elon Musk 등이 긍정적 반응을 보임",
+      "미국 NSA가 AI 및 중국 대응을 위한 5개 조직 신설 등 사이버 안보 대응 강화"
+     ],
+     "interpretation": "AI 산업의 무분별한 확장에 대한 경계감이 커지고 있으며, 향후 규제 환경 변화가 빅테크 기업의 AI 투자 효율성과 속도에 영향을 줄 수 있음",
+     "affected_company_ids": [
+      "nvidia",
+      "alphabet",
+      "microsoft"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "11월 미국 중간선거 이후 AI 관련 규제 법안의 구체화 여부",
+     "upcoming_event_ids": [
+      "fomc-2026-09"
+     ],
+     "article_ids": [
+      "8329037841938ccd",
+      "fa64d8f51cb026f1",
+      "638239e8e30672eb",
+      "e3baf05ab01f1d73",
+      "53d5ae4d04004184"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크 기업들의 AI 기술 내재화와 인재 확보 경쟁이 지속되는 가운데, 기업 내부의 소프트웨어 개발 효율화 노력이 이어지고 있습니다.",
+   "stories": [
+    {
+     "headline": "구글, AI 코딩 역량 강화를 위해 메카나이즈 인재 대거 영입",
+     "facts": [
+      "구글이 AI 코딩 성능 향상을 위해 스타트업 메카나이즈(Mechanize)의 핵심 인력과 기술을 15억 달러 규모로 흡수",
+      "반독점 규제 리스크를 최소화하면서 기술 역량을 단기간에 확보하려는 전략"
+     ],
+     "interpretation": "AI 모델의 코딩 성능이 경쟁력의 핵심으로 부상함에 따라, 빅테크 기업 간의 인재 확보 및 기술 내재화 경쟁이 더욱 치열해질 전망",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "구글의 AI 코딩 서비스 성능 개선 및 관련 시장 점유율 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "81a475961b18cac1"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "마이크로소프트, Rust 언어를 내부 Tier 1 언어로 채택",
+     "facts": [
+      "마이크로소프트가 Windows 내 메모리 버그 제거를 위해 Rust를 내부 Tier 1 언어로 공식 채택",
+      "소프트웨어 안정성과 보안 강화를 위한 기술적 조치"
+     ],
+     "interpretation": "OS 및 핵심 소프트웨어의 보안 취약점 개선을 통해 플랫폼 신뢰도를 높이고, 개발 효율성을 제고하려는 의도",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "Rust 언어 도입 이후 Windows의 보안 사고 발생 빈도 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "39662dae9ee56b40"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "d73adf4fa503555c",
+   "title": "삼성·SK하이닉스, 한전 '25조 전기료 선납' 거절···왜?",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MN0dWbjJlV3BhaVhrWHZZZkUwa3VlblhqTVM1SW82SlJyOFVFYWlvX1pqMXN1YnRHWmFuSF9VRVZoODNMMEdpOEN5d3YzRXlzczZiMTJYV3pYREgyeTdYcHVTN2szUkxEUXpSMw?oc=5",
+   "source": "스마트비즈"
+  },
+  {
+   "id": "7064c7c51151cfe2",
+   "title": "삼성전자·SK하이닉스, 한전 ‘25조원 전기료 선납’ 제안 거절",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOX3VSSkFWdHg0bUR0WGVmMThMbVR3UGVGeE9aOFhzNUFXcVdjVW1oZnU0TjJOSmI4Y2xfYzhiRUJOeXdyTjJheHNsSHVEQUNGSS1zdGxRclRoVVpxbzQ5WWduYVpCcEVQSENsa2RhZzE2SnZMMThVT1JpWlJvWmZtbXBnOGJMX1hZTW1FQnRzT2VGZ3c?oc=5",
+   "source": "글로벌이코노믹"
+  },
+  {
+   "id": "55ade112e7f20222",
+   "title": "삼전·SK하닉, ‘5년치 전기요금 선납’ 한전 제안 거절…“업황 예측 어려워”",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA1OFR0VklBemZuMEZjUWR4dTNXNGRVS09rcnRzVlJPWmRwUWpJOURBVDlvd0RpbUV4WExVSWs0Q0JVWGpkUzlwZ05SZzgtVVd5QlRFOVJTNUZGS3c?oc=5",
+   "source": "경기일보"
+  },
+  {
+   "id": "7afce795ebf8c4c7",
+   "title": "삼성전자·SK하이닉스, '5년치 전기료 25조 선납' 한전 제안 거절",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5YSGJKRGU2VEhtMWVkSUZvNnJvS2Y2aGY1aHhvaDltNVNjdmttOXNrMjFRVUpxZE1hdU14VE1RQndlanh0NnRqaVJuQ1U2S2pzYjYyOFRDNmxHMzdlZlRGczFYelPSAWpBVV95cUxOUjVBdFJaYXNRZkViaDRjYktPX0h4QU9KTW5NUWcyTjVHbzZOUjgzZllBMGF0UzdWOXQtMEJoaUJ4ck0xUTlRdFFVTk5jYW9MdmFFR2pkNGg4TmJnS3I4RFIybjJKNzJlOVJB?oc=5",
+   "source": "뉴스1"
+  },
+  {
+   "id": "8329037841938ccd",
+   "title": "AI 속도조절론에 트럼프 “유지”·오바마 “통제”...핵심 선거 의제 부상",
+   "url": "https://www.etnews.com/20260914000004",
+   "source": "전자신문"
+  },
+  {
+   "id": "fa64d8f51cb026f1",
+   "title": "美 NSA AI·中 등 5개 조직 신설...사이버 안보 대응 전력 강화",
+   "url": "https://www.etnews.com/20260914000003",
+   "source": "전자신문"
+  },
+  {
+   "id": "81a475961b18cac1",
+   "title": "구글, 코딩 강화 위해 스타트업 메카나이즈 인재 흡수",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215205",
+   "source": "AI타임스"
+  },
+  {
+   "id": "e3baf05ab01f1d73",
+   "title": "Washington scrambles to meet calls for AI guardrails while the window to act closes",
+   "url": "https://www.cnbc.com/2026/09/13/ai-congress-anthropic-openai-crisis.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "53d5ae4d04004184",
+   "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+   "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "638239e8e30672eb",
+   "title": "Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown",
+   "url": "https://www.cnbc.com/2026/09/13/china-dilemma-ai-slowdown-anthropic.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "39662dae9ee56b40",
+   "title": "Microsoft anoints Rust as a 'Tier 1' internal language",
+   "url": "https://www.theregister.com/devops/2026/09/11/microsoft-anoints-rust-as-a-tier-1-internal-language/5295732",
+   "source": "The Register"
+  }
+ ]
+}

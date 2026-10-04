@@ -1,0 +1,240 @@
+{
+ "generated_at": "2026-09-14T09:08:59Z",
+ "date": "2026-09-14",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 개발 속도 조절론이 확산되며 아시아 반도체 공급망 전반의 주가 변동성이 확대되었으며, 국내 주요 반도체 기업들의 대규모 전력 요금 선납 거절 등 재무적 부담과 투자 효율성에 대한 고민이 부각됨.",
+   "stories": [
+    {
+     "headline": "AI 속도 조절론 확산에 따른 아시아 반도체 관련주 급락",
+     "facts": [
+      "미국 주요 AI 기업들이 안전성을 이유로 개발 속도 조절을 촉구함",
+      "이로 인해 아시아 증시에서 반도체 및 공급망 기업 주가가 일제히 하락함",
+      "일본 소프트뱅크 등 AI 관련 핵심 기업 주가가 장중 큰 폭으로 하락함"
+     ],
+     "interpretation": "단기적으로는 AI 거품론과 맞물려 투자 심리에 악영향을 미치고 있으나, 컴퓨팅 인프라에 대한 근본적인 수요는 여전히 탄탄하다는 전략가들의 분석이 지배적임.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "글로벌 빅테크의 차기 분기 AI 설비 투자(CAPEX) 가이던스 확인이 필요함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "22484b442172643a",
+      "2dfe5f629f5f6563",
+      "a6b1fd0fc3e28173",
+      "86632c1d765d0ad3",
+      "1dc0dec155ce3dae"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자·SK하이닉스, 한전의 25조원 전기요금 선납 제안 거절",
+     "facts": [
+      "한국전력이 반도체 기업들에 총 25조원 규모의 전기요금 선납을 제안함",
+      "삼성전자와 SK하이닉스가 재무 부담 등을 이유로 이를 공식 거절함"
+     ],
+     "interpretation": "반도체 기업들의 대규모 시설 투자와 운영 자금 확보가 최우선인 상황에서, 장기 선납을 통한 금융 지원은 기업의 자본 효율성을 저해한다고 판단한 것으로 보임.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "정부의 반도체 전력 인프라 지원 정책의 수정 여부 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "7c74ea8bfc7a7978",
+      "e3906936c0c88afe",
+      "4672063665f824a3",
+      "2a5b37ae824f4d63"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성전자-퀄컴 2nm 파운드리 협력 논의 지속",
+     "facts": [
+      "삼성전자와 퀄컴이 2nm 파운드리 협력을 위한 논의를 확대 중임",
+      "가격, 수율, 공정 최적화 등 기술적 난제가 여전히 남아있음"
+     ],
+     "interpretation": "삼성전자가 파운드리 시장 점유율을 회복하기 위해서는 퀄컴과 같은 대형 고객사 확보가 필수적이나, TSMC와의 기술 격차를 극복할 수율 확보가 관건임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "supply_chain",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "삼성전자 파운드리 공정의 수율 개선 관련 공식 발표.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4594eb3b544870be"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "글로벌 AI 기업들이 안전성 확보를 위한 '안전 연합전선'을 구축하며 규제 대응에 나선 가운데, 국내 기업들은 에이전틱 AI 플랫폼 출시와 글로벌 협력을 통해 시장 공략을 가속화함.",
+   "stories": [
+    {
+     "headline": "글로벌 AI 기업들의 '안전 연합전선' 구축 및 속도 조절 논의",
+     "facts": [
+      "앤트로픽, 오픈AI, 구글, 마이크로소프트 등이 AI 개발 속도 조절과 안전성 확보에 동의함",
+      "이들 기업은 7월부터 AI 안전 표준기구 설립을 위한 물밑 논의를 진행해 옴"
+     ],
+     "interpretation": "AI 기술의 급격한 발전이 초래할 수 있는 실존적 위험에 대한 선제적 대응이자, 향후 예상되는 정부 규제에 주도권을 확보하려는 전략적 움직임으로 해석됨.",
+     "affected_company_ids": [
+      "microsoft",
+      "alphabet"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "실제 AI 안전 표준기구의 구체적인 가이드라인 및 감독 체계 발표.",
+     "upcoming_event_ids": [
+      "fomc-2026-09"
+     ],
+     "article_ids": [
+      "3ee82749eca5e06e",
+      "351e6e6f06028cc1",
+      "c8df117a37f6a6cc",
+      "f940408dfcca1075"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "업스테이지, 엔비디아와 AI 협력 강화 논의",
+     "facts": [
+      "업스테이지 경영진이 엔비디아 본사를 방문하여 협업을 논의함",
+      "GPU 지원 등 5개 안건에 대해 구체적인 협력 방안을 모색함"
+     ],
+     "interpretation": "국내 AI 스타트업이 엔비디아와의 직접적인 협력을 통해 인프라 지원을 확보함으로써 글로벌 시장 진출 및 모델 고도화에 속도를 낼 것으로 기대됨.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "엔비디아의 국내 AI 스타트업 대상 구체적인 지원 규모 및 협력 성과.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "599e37a8330627e5",
+      "ec1ddf5eae51327b"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "22484b442172643a",
+   "title": "아시아 반도체 공급망 일제히 흔들…'AI 속도조절론'에 주가 급락",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215248",
+   "source": "AI타임스"
+  },
+  {
+   "id": "599e37a8330627e5",
+   "title": "업스테이지, 엔비디아 본사 방문…GPU 지원 등 5개 안건 논의",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215244",
+   "source": "AI타임스"
+  },
+  {
+   "id": "7c74ea8bfc7a7978",
+   "title": "한전 25조 원 전기료 선납 제안 2달 만 삼전·하닉 모두 '거절'",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9abmJHSmtwbjRqdTNPWmZxbWFMbjNJd3Nuam9WSnYxNzRqZ1dfeFNpUm9Ka3YtMWFHd1QyZXRTM3VCQ1R6YjZMQWpTcFduUWhaTGpyY25BcDc2T1ItdkE?oc=5",
+   "source": "YTN"
+  },
+  {
+   "id": "2dfe5f629f5f6563",
+   "title": "삼성전자 4%·하이닉스 6% 급락 … 아시아 반도체 관련주에 '직격탄'",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NRVpQcGlPbUxmSzN3VHlwNzdFNzl2dDB3MVFOWXFBeUNDVW9wOFliQVFDVDZTYVF0dmZ2T3p1c3IwNmdoN05hY0prRzB1YndVYmc?oc=5",
+   "source": "매일경제 마켓"
+  },
+  {
+   "id": "a6b1fd0fc3e28173",
+   "title": "삼성전자·SK하이닉스, AI 속도조절론에 ‘휘청’…외인·기관 4조 넘게 던졌다",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5qVVg1bWk5S0FOcTJJZlBjZ3NLaEJEMTFweDllX2szcE55QkdsYnlMX3NEcFdCZ2VaSWtvTW90MWgxak9RZUJrR0MxNXUyTVFBY2RGWVBpWU9zal8ydjRSZjdZanF5cG5KSjJ0YjNtQQ?oc=5",
+   "source": "뉴스퀘스트"
+  },
+  {
+   "id": "e3906936c0c88afe",
+   "title": "한전 '전기료 25조 선납' 제안…삼성·SK하이닉스 '거절'",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0bXU2TEt5U2N0UGJob3RSNkRZUXhGV2VQQ3pWUTBPQkZOWmJhOUdtaWtsVXhlWGNkVXJwZVVuYktOV2VkbGl5cXNSQ3ZlUzdVRHBSUlpPQ0F2WllmTDVIUW5MYUQ?oc=5",
+   "source": "MTN 머니투데이방송"
+  },
+  {
+   "id": "86632c1d765d0ad3",
+   "title": "‘AI 속도조절론’ 직격탄…SK하이닉스 6%대 급락",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zVFRoVlhPTFFzM1R3VEl4bTZvcXRMTHo3OTlrNEhMTXNHU1JnSGIwVFllblBLeFF1Y3JsM1dVMEtLeWRrazdxUWtLVG1TaDQxQkx3OS1Ha2F5Vmh6cFhfRzktVW93YlUtOEFoamFFYl8?oc=5",
+   "source": "충청일보"
+  },
+  {
+   "id": "4672063665f824a3",
+   "title": "Samsung, SK Hynix reject US$19 billion power prepayment as Korea speeds chip expansion",
+   "url": "https://www.digitimes.com/news/a20260914VL218/samsung-sk-hynix-expansion-electricity-infrastructure.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "ec1ddf5eae51327b",
+   "title": "젠슨 황도 찾은 NIPA·AA 협약식…엔비디아와 AI 협력 모색",
+   "url": "https://www.etnews.com/20260914000417",
+   "source": "전자신문"
+  },
+  {
+   "id": "2a5b37ae824f4d63",
+   "title": "삼성전자·SK하이닉스, 한전 '25조 전기료 선납' 제안 거절",
+   "url": "https://www.etnews.com/20260914000406",
+   "source": "전자신문"
+  },
+  {
+   "id": "1dc0dec155ce3dae",
+   "title": "'AI 속도 조절'에 블랙 먼데이 오나...전문가들 \"반도체 장기 수요는 탄탄\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215211",
+   "source": "AI타임스"
+  },
+  {
+   "id": "4594eb3b544870be",
+   "title": "Samsung, Qualcomm deepen 2nm talks as pricing and yield hurdles persist",
+   "url": "https://www.digitimes.com/news/a20260914VL208/samsung-qualcomm-2nm-production-optimization.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "c8df117a37f6a6cc",
+   "title": "AI stocks slide after major CEOs unite to urge slowdown",
+   "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "f940408dfcca1075",
+   "title": "터미네이터는 없다…'AI 속도 조절' 냉정하게 접근해야",
+   "url": "https://zdnet.co.kr/view/?no=20260914151320",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "3ee82749eca5e06e",
+   "title": "구글·MS도 \"AI 속도 조절 동감\"...'안전 연합전선' 5곳으로 확대",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215215",
+   "source": "AI타임스"
+  },
+  {
+   "id": "351e6e6f06028cc1",
+   "title": "앤트로픽·오픈AI·구글, 7월부터 'AI 안전 표준기구' 설립 물밑 논의",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215212",
+   "source": "AI타임스"
+  }
+ ]
+}

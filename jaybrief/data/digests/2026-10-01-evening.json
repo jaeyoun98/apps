@@ -1,0 +1,152 @@
+{
+ "generated_at": "2026-10-01T10:21:17Z",
+ "date": "2026-10-01",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 확장에 따른 고대역폭메모리(HBM) 수익성 강화와 차세대 패키징 기술 경쟁이 심화되고 있으며, 반도체 소재 및 장비 국산화 움직임이 가속화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "마이크론, 엔비디아 맞춤형 NVHBM 수익성 개선 자신",
+     "facts": [
+      "마이크론은 엔비디아와 공동 설계한 커스텀 NVHBM 및 JEDEC 표준 HBM4E 제품군을 생산 중임",
+      "자체 베이스다이 없이 외부 파운드리 공정을 활용하더라도 수익성이 향상될 것으로 전망함"
+     ],
+     "interpretation": "HBM 시장에서 파운드리 협력을 통해 생산 효율성을 극대화하고, 엔비디아와의 파트너십을 통해 안정적인 수익 구조를 확보하려는 전략으로 풀이됨",
+     "affected_company_ids": [
+      "nvidia",
+      "micron"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "HBM4E 양산 시점의 실제 마진율과 엔비디아의 공급망 다변화 정책 변화 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5701a62d6146fe68"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "SK하이닉스, 솔리다임 상장설 일축",
+     "facts": [
+      "최근 시장에서 제기된 솔리다임 상장 확정설에 대해 구체적으로 결정된 바 없다고 공식 입장 발표",
+      "자본 조달 여부는 주주 가치 제고를 최우선으로 고려하여 판단할 예정"
+     ],
+     "interpretation": "솔리다임의 기업가치 극대화를 위한 전략적 선택지를 열어두고 있으나, 단기적인 상장 추진보다는 장기적인 주주 가치와 사업 시너지를 우선하겠다는 의지로 해석됨",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "other",
+     "impact": "unclear",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "솔리다임의 향후 자본 조달 방식 및 SK하이닉스와의 시너지 창출 성과",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "1c696be8b49438e9"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "기업용 AI 에이전트 도입이 본격화되면서 운영 효율성과 보안을 결합한 플랫폼 경쟁이 치열하며, 글로벌 빅테크의 AI 모델 고도화와 수익화 전략이 구체화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "구글, 차세대 AI 모델 '제미나이 4 아르곤' 공개",
+     "facts": [
+      "구글이 100만 출력 토큰을 지원하는 플래그십 AI 모델 '제미나이 4 아르곤'을 발표함",
+      "기업 업무 자율 수행을 목표로 하며, 입력 토큰당 2달러, 출력 토큰당 10달러의 가격 정책을 제시함"
+     ],
+     "interpretation": "제미나이 3.5 Pro 취소 이후 공백을 메우기 위한 전략적 모델로, 기업용 AI 시장에서 엔터프라이즈 워크플로우를 선점하려는 의도가 강함",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "실제 기업 현장에서의 복잡한 업무 처리 성능 및 경쟁 모델 대비 비용 효율성",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "845b6da90f9e4cd7",
+      "820f7405b9069d19",
+      "2e18477d6cda72c0"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "몽고DB, AI 에이전트 통합 운영 플랫폼 출시",
+     "facts": [
+      "몽고DB가 AI 에이전트 실행, 메모리, 거버넌스를 통합한 '아틀라스 에이전트 엔진'을 출시함",
+      "기업이 PoC를 마친 AI 에이전트를 실제 운영 환경에 배포할 수 있도록 지원함"
+     ],
+     "interpretation": "AI 에이전트의 단순 개발을 넘어 기업의 실제 업무 적용을 위한 운영(Ops) 레이어를 선점하여 플랫폼 종속성을 강화하려는 전략임",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "기업들의 실제 도입률 및 기존 데이터베이스 고객의 전환 속도",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "1b1cd5dfd63e8979",
+      "fa5160444addc67b"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "5701a62d6146fe68",
+   "title": "마이크론 \"NVHBM, 자체 베이스다이 빠져도 수익성↑\"",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=63114",
+   "source": "디일렉"
+  },
+  {
+   "id": "1b1cd5dfd63e8979",
+   "title": "몽고DB, '아틀라스 에이전트 엔진' 출시",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=63115",
+   "source": "디일렉"
+  },
+  {
+   "id": "fa5160444addc67b",
+   "title": "\"AI 에이전트 도구 통합\"…몽고DB, '아틀라스 에이전트 엔진' 출시",
+   "url": "https://zdnet.co.kr/view/?no=20261001160421",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "1c696be8b49438e9",
+   "title": "SK하이닉스 \"솔리다임 상장 미확정\"",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=63083",
+   "source": "디일렉"
+  },
+  {
+   "id": "845b6da90f9e4cd7",
+   "title": "구글, 제미나이 4 '아르곤' 드디어 발표…100만 출력 토큰 지원",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=63093",
+   "source": "디일렉"
+  },
+  {
+   "id": "820f7405b9069d19",
+   "title": "Google skips Gemini 3.5 Pro, launches Gemini 4 Argon at US$2/$10 per million tokens",
+   "url": "https://www.digitimes.com/news/a20261001VL209/google-gemini-openai-software-anthropic.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "2e18477d6cda72c0",
+   "title": "구글, 출력 토큰 100만개 품은 ‘제미나이 4 아르곤’ 공개",
+   "url": "https://byline.network/2026/10/1001-8/",
+   "source": "바이라인네트워크"
+  }
+ ]
+}

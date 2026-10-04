@@ -1,0 +1,150 @@
+{
+ "generated_at": "2026-10-01T18:08:16Z",
+ "date": "2026-10-02",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 메모리 기업의 실적 호조에도 불구하고 시장의 기대치와 주가 변동성이 엇갈리는 양상을 보이고 있으며, AI 인프라 구축을 위한 파트너십이 지속되고 있습니다.",
+   "stories": [
+    {
+     "headline": "Micron, 실적 호조에도 주가 하락세",
+     "facts": [
+      "Micron이 우수한 분기 실적을 발표했음에도 불구하고 주가는 하락함"
+     ],
+     "interpretation": "실적 자체는 긍정적이나, 시장의 높은 기대치를 충족하지 못했거나 향후 메모리 업황에 대한 투자자들의 경계감이 반영된 것으로 보임.",
+     "affected_company_ids": [
+      "micron"
+     ],
+     "event_type": "earnings",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "향후 메모리 가격 추이 및 경쟁사들의 실적 가이던스 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f3fc14dc2e5b315e"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "NVIDIA, HPE와 협력을 통한 AI 인프라 솔루션 강화",
+     "facts": [
+      "NVIDIA가 HPE와 협력하여 가속 컴퓨팅, 소프트웨어, 네트워킹을 포함한 AI 인프라 구축 지원"
+     ],
+     "interpretation": "AI 공장(AI factory) 구축 수요를 선점하기 위해 엔터프라이즈 인프라 파트너십을 강화하며 시장 지배력을 공고히 하려는 전략임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "해당 파트너십을 통한 실제 매출 기여도 및 데이터센터 부문 성장세 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "50876234c6bb0297"
+     ],
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 및 클라우드 섹터에서는 AI 에이전트 모델의 확산과 보안 강화, 그리고 주요 테크 기업의 경영진 변화가 주요 이슈로 부상했습니다.",
+   "stories": [
+    {
+     "headline": "Amazon, AWS를 통해 AI 의사결정 모델 'Strands Decider 2B' 출시",
+     "facts": [
+      "Amazon Web Services(AWS)가 새로운 의사결정 모델인 Strands Decider 2B를 공개함",
+      "AI 에이전트의 도구 호출을 제어하는 'Dogwood Local Engine'도 함께 제공"
+     ],
+     "interpretation": "AI 에이전트 시장이 고도화됨에 따라 모델 자체의 성능뿐만 아니라 에이전트의 동작을 제어하고 안전성을 확보하는 인프라 도구 경쟁이 치열해지고 있음.",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "AWS의 AI 서비스 채택률 및 에이전트 관련 보안 솔루션의 시장 반응.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "1359e26a65f6ff79",
+      "db0991fceb2e7ac4"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "Microsoft, 주요 경영진 이탈 및 보안 강화 조치",
+     "facts": [
+      "LinkedIn 전 최고책임자 Roslansky 등 주요 임원들의 이탈이 이어짐",
+      "Windows 26H2 업데이트에서 설정 백업을 기본값으로 설정",
+      "Zimbra 메일 서버 취약점을 악용한 해커 공격을 사전에 차단"
+     ],
+     "interpretation": "조직 내 인적 쇄신이 진행되는 가운데, 보안 위협 대응과 사용자 편의성 강화를 통해 플랫폼 신뢰도를 유지하려는 움직임임.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "추가적인 경영진 변동 여부와 보안 관련 정책이 기업 평판에 미치는 영향.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "747ae93f143eff7b",
+      "7d80768f8d66a9ef",
+      "7ee5071f7501b7e6"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "f3fc14dc2e5b315e",
+   "title": "Micron drops despite 'a great quarter.' Why Cramer is sticking with the stock",
+   "url": "https://www.cnbc.com/2026/10/01/micron-drops-despite-a-great-quarter-why-cramer-is-sticking-with-the-stock.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "50876234c6bb0297",
+   "title": "Build the right AI factory for your needs: partner for success",
+   "url": "https://www.nextplatform.com/ai/2026/10/01/sponsored-build-the-right-ai-factory-for-your-needs-partner-for-success/5300157",
+   "source": "The Next Platform"
+  },
+  {
+   "id": "1359e26a65f6ff79",
+   "title": "Amazon releases its own Jev clone as decision models flood the web",
+   "url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "db0991fceb2e7ac4",
+   "title": "AWS offers local, open source leash for agent harnesses",
+   "url": "https://www.theregister.com/ai-and-ml/2026/10/01/aws-offers-local-open-source-leash-for-agent-harnesses/5300578",
+   "source": "The Register"
+  },
+  {
+   "id": "747ae93f143eff7b",
+   "title": "Microsoft makes Windows settings backup the default in 26H2",
+   "url": "https://www.theregister.com/os-platforms/2026/10/01/microsoft-makes-windows-settings-backup-the-default-in-26h2/5300552",
+   "source": "The Register"
+  },
+  {
+   "id": "7d80768f8d66a9ef",
+   "title": "Microsoft catches hackers exploiting Zimbra bug before disclosure",
+   "url": "https://www.theregister.com/security/2026/10/01/microsoft-catches-hackers-exploiting-zimbra-bug-before-disclosure/5300543",
+   "source": "The Register"
+  },
+  {
+   "id": "7ee5071f7501b7e6",
+   "title": "Former LinkedIn chief Roslansky to leave Microsoft, following other exec departures",
+   "url": "https://www.cnbc.com/2026/10/01/linkedin-chief-roslansky-microsoft-exit.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

@@ -1,0 +1,179 @@
+{
+ "generated_at": "2026-09-25T08:59:54Z",
+ "date": "2026-09-25",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "파운드리 가격 인상과 AI 인프라 확장에 따른 공급망 변화가 반도체 섹터의 핵심 이슈로 부상했습니다.",
+   "stories": [
+    {
+     "headline": "TSMC, 2027년 파운드리 가격 3~6% 인상 전망",
+     "facts": [
+      "TSMC가 2027년 1월부터 웨이퍼 출하 가격을 공정별로 3~6% 인상할 계획임",
+      "2나노 및 3나노 등 첨단 공정의 인상폭이 상대적으로 더 클 것으로 예상됨"
+     ],
+     "interpretation": "파운드리 단가 인상은 전반적인 칩플레이션(Chipflation)을 심화시키며, 팹리스 기업들의 원가 부담 증가와 함께 TSMC의 수익성 개선으로 이어질 전망입니다.",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "TSMC의 실제 가격 인상 발표 및 고객사들의 수용 여부를 확인해야 합니다.",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "788582f0c6a6eaee",
+      "d1e9fcbcf1e0bc00"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "미중 정상회담 만찬에 美 빅테크 수장 총집결",
+     "facts": [
+      "트럼프 대통령과 시진핑 주석의 정상회담 만찬에 젠슨 황 엔비디아 CEO 등 미국 주요 IT 기업 인사들이 참석함",
+      "중국 기업 대표들은 만찬 명단에서 제외됨"
+     ],
+     "interpretation": "미중 간 기술 패권 경쟁 속에서 미국 빅테크와 정부 간의 결속이 강화되고 있으며, 이는 향후 대중국 반도체 수출 규제 및 AI 협력 기조에 영향을 줄 수 있습니다.",
+     "affected_company_ids": [
+      "nvidia",
+      "amd"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "향후 AI 관련 대중국 규제 정책의 구체적인 변화를 주시해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ef79886cc730a86d",
+      "a6d01a3e0f958d0a"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 서비스의 급격한 확산과 데이터센터 인프라 투자에 따른 운영 효율화 및 규제 이슈가 주목받고 있습니다.",
+   "stories": [
+    {
+     "headline": "앤트로픽, 아카마이와 116억 달러 규모 컴퓨팅 계약 체결",
+     "facts": [
+      "앤트로픽이 클로드(Claude) 수요 급증에 대응하기 위해 아카마이와 7년간 116억 달러 규모의 컴퓨팅 자원 공급 계약을 체결함",
+      "아카마이 계약 중 역대 최대 규모임"
+     ],
+     "interpretation": "생성형 AI 모델의 추론 수요가 폭발적으로 증가함에 따라, 빅테크 기업들이 인프라 확보를 위해 대규모 자본을 투입하는 추세가 지속되고 있습니다.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "앤트로픽의 서비스 확장 속도와 아카마이의 인프라 공급 능력을 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9889bd2e85f867be"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "메타, AI 비서 '뮤즈' 흥행으로 주가 급등",
+     "facts": [
+      "메타가 개인용 AI 비서 '뮤즈(Muse)'를 탑재한 하드웨어 '뮤즈 참'을 공개함",
+      "메타 주가가 9월 들어 36% 상승하며 시총 2조 달러 돌파를 눈앞에 두고 있음"
+     ],
+     "interpretation": "소프트웨어 AI 기술이 전용 하드웨어와 결합하여 사용자 경험을 혁신할 때 시장의 강력한 긍정적 반응을 이끌어낼 수 있음을 보여줍니다.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "뮤즈 참의 초기 판매량과 스마트 글래스 탑재 이후의 사용자 피드백을 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "376f1560ca579da8",
+      "75dee083ef4b8aef"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "오라클, 데이터센터 건설 관련 '불가항력' 통지",
+     "facts": [
+      "오라클이 뉴멕시코주 데이터센터 프로젝트의 가동 지연 가능성에 대비해 개발사에 불가항력 통지를 보냄",
+      "대규모 전력 확보 및 인허가 문제가 지연의 주요 원인임"
+     ],
+     "interpretation": "AI 데이터센터 수요가 급증하고 있으나, 전력망 인프라와 인허가 등 물리적 제약이 프로젝트 실행의 병목 현상으로 작용하고 있음을 시사합니다.",
+     "affected_company_ids": [
+      "oracle"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "데이터센터 전력 확보를 위한 규제 완화나 추가 인프라 투자 발표 여부를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "7e81019dc165a746"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "9889bd2e85f867be",
+   "title": "앤트로픽-아카마이, 116억 달러 컴퓨팅 계약…\"클로드 수요 급증 대응\"",
+   "url": "https://zdnet.co.kr/view/?no=20260925081732",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "376f1560ca579da8",
+   "title": "메타, 키링형 AI 기기 '뮤즈 참' 발표",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=62774",
+   "source": "디일렉"
+  },
+  {
+   "id": "d1e9fcbcf1e0bc00",
+   "title": "Chip Industry Week In Review",
+   "url": "https://semiengineering.com/chip-industry-week-in-review-157/",
+   "source": "Semiconductor Engineering"
+  },
+  {
+   "id": "ef79886cc730a86d",
+   "title": "국빈만찬에 美 빅테크 수장 '총집결'…中 기업은 불참",
+   "url": "https://zdnet.co.kr/view/?no=20260925130205",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "a6d01a3e0f958d0a",
+   "title": "Trump-Xi state dinner draws tech titans but no Chinese CEOs",
+   "url": "https://www.digitimes.com/news/a20260925VL201/business-technology-xi-jinping-beijing-jensen-huang.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "788582f0c6a6eaee",
+   "title": "TSMC 파운드리 3~6% 인상 전망…삼성·인텔·후공정도 영향권",
+   "url": "https://www.etnews.com/20260925000007",
+   "source": "전자신문"
+  },
+  {
+   "id": "75dee083ef4b8aef",
+   "title": "메타, 13년 만에 최고 월간 상승률…시총 2조 달러 눈앞",
+   "url": "https://zdnet.co.kr/view/?no=20260925152048",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "7e81019dc165a746",
+   "title": "오라클, 스타게이트 데이터센터에 '불가항력' 통지…전력 확보 차질",
+   "url": "https://zdnet.co.kr/view/?no=20260925070133",
+   "source": "ZDNet Korea"
+  }
+ ]
+}
