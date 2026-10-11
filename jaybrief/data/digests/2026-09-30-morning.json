@@ -1,0 +1,163 @@
+{
+ "generated_at": "2026-09-29T17:46:52Z",
+ "date": "2026-09-30",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 확장을 위한 공급망 투자와 AI 반도체 설계 효율화 기술이 주요 이슈로 부상했습니다.",
+   "stories": [
+    {
+     "headline": "Amazon, AI 서버 공급사 Gold Circuit Electronics 지분 투자",
+     "facts": [
+      "Amazon이 대만의 AI 서버 및 네트워크 스위치용 PCB 제조사 Gold Circuit Electronics(GCE)의 지분을 약 15.9억 대만달러에 인수함",
+      "GCE 이사회가 해당 사모 발행 가격을 승인함"
+     ],
+     "interpretation": "Amazon이 AI 인프라의 핵심 부품인 PCB 공급망을 내재화하거나 안정적인 공급을 확보하기 위해 전략적 지분 투자를 단행한 것으로 보임",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "향후 Amazon의 AI 서버 공급망 다변화 및 추가적인 부품사 지분 투자 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4bd5da700721d41d"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "AMD, AI 모델 역량 강화를 위해 World Labs 82억 달러에 인수",
+     "facts": [
+      "AMD가 AI 모델 기술 확보를 위해 World Labs를 82억 달러에 인수함"
+     ],
+     "interpretation": "하드웨어 중심의 AMD가 AI 소프트웨어 및 모델 역량을 대폭 강화하여 NVIDIA와의 경쟁에서 풀스택 AI 솔루션 제공 능력을 확보하려는 전략적 행보임",
+     "affected_company_ids": [
+      "amd"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "이번 인수가 AMD의 차세대 AI 칩 소프트웨어 생태계에 미치는 실질적인 시너지 효과",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3ea058b62043c358"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "OpenAI의 공격적인 서비스 확장과 빅테크 기업들의 AI 에이전트 도입이 가속화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "OpenAI, ChatGPT 기반 오피스 기능 출시로 Microsoft와 경쟁 본격화",
+     "facts": [
+      "OpenAI가 ChatGPT에 오피스 기능을 포함한 새로운 제품군을 출시함",
+      "이로 인해 기존 소프트웨어 기업들과 직접적인 경쟁 구도가 형성됨"
+     ],
+     "interpretation": "OpenAI가 단순 챗봇을 넘어 생산성 소프트웨어 시장으로 진출하며 Microsoft의 Office 생태계와 정면 대결을 예고함",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "Microsoft의 대응 전략 및 기업용 시장에서의 점유율 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "aa2351ff629efbde"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "Meta, 소상공인 대상 AI 에이전트 'Muse' 도입",
+     "facts": [
+      "Meta가 2억 명의 소상공인을 대상으로 AI 에이전트 'Muse'를 도입함",
+      "Muse는 비즈니스 운영 및 신규 고객 발굴을 지원함"
+     ],
+     "interpretation": "Meta가 방대한 소상공인 플랫폼 기반을 활용해 AI 수익화 모델을 구체화하고 있으며, 이는 광고 외 새로운 매출원 확보 전략임",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "소상공인들의 Muse 채택률 및 실제 매출 기여도",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "bcdb57878c41381b",
+      "bc063b6d1fe70a7d"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "Google, 픽셀 11에 제미나이 기반 '콜 포 미' 기능 도입",
+     "facts": [
+      "Google이 픽셀 11 이용자를 대상으로 제미나이가 대신 전화를 걸어주는 '콜 포 미' 기능 시험을 시작함",
+      "해당 기능은 유료 제미나이 구독이 필요함"
+     ],
+     "interpretation": "하드웨어와 AI 서비스를 결합하여 사용자 경험을 고도화하고, 구독 모델을 통해 AI 서비스의 직접적인 수익화를 추진하는 사례임",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "사용자들의 유료 구독 전환율 및 타 기기로의 기능 확대 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9d67e57e9c62afc5"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "4bd5da700721d41d",
+   "title": "Amazon buys NT$1.59 billion stake in one of its Taiwanese AI server suppliers",
+   "url": "https://www.digitimes.com/news/a20260929PD251/amazon-gce-ai-server-private-placement-taiwan.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "3ea058b62043c358",
+   "title": "AMD Buys World Labs For $8.2 Billion To Get AI Model Cred",
+   "url": "https://www.nextplatform.com/ai/2026/09/29/amd-buys-world-labs-for-82-billion-to-get-ai-model-cred/5299801",
+   "source": "The Next Platform"
+  },
+  {
+   "id": "aa2351ff629efbde",
+   "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
+   "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "bcdb57878c41381b",
+   "title": "Meta is bringing Muse AI to small businesses — and it already has a huge head start",
+   "url": "https://www.cnbc.com/2026/09/29/meta-is-bringing-muse-ai-to-small-businesses-and-it-already-has-a-huge-head-start.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "bc063b6d1fe70a7d",
+   "title": "Meta is expanding its AI agent Muse to small businesses",
+   "url": "https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "9d67e57e9c62afc5",
+   "title": "구글 제미나이가 대신 전화 건다…픽셀 11에 '콜 포 미' 도입",
+   "url": "https://zdnet.co.kr/view/?no=20260929205538",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

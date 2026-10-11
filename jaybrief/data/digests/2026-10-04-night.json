@@ -1,0 +1,161 @@
+{
+ "generated_at": "2026-10-04T14:53:44Z",
+ "date": "2026-10-04",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 HBM 수익성 개선과 AI 칩 공급망 협력, 그리고 메모리 가격 상승에 따른 전방 산업의 비용 부담 증가가 주요 이슈로 부각되었습니다.",
+   "stories": [
+    {
+     "headline": "마이크론, NVHBM 외주 생산에도 수익성 개선 자신",
+     "facts": [
+      "마이크론은 엔비디아용 맞춤형 HBM인 'NVHBM'에 외부 베이스다이를 사용함",
+      "스캇 디보어 CTPO는 외주 생산에도 불구하고 NVHBM 및 HBM4E 제품군의 수익성이 개선될 것이라고 밝힘"
+     ],
+     "interpretation": "HBM 제조 공정의 효율화와 엔비디아와의 공동 설계를 통해 공급망 다변화 속에서도 마진을 방어하려는 전략으로 풀이됨",
+     "affected_company_ids": [
+      "nvidia",
+      "micron"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "마이크론의 차기 분기 실적에서 HBM 부문 실제 매출 총이익률 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5701a62d6146fe68"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "일론 머스크, TSMC와 테라팹 칩 생산 협력 논의",
+     "facts": [
+      "일론 머스크 CEO가 테슬라 및 스페이스X의 반도체 생산 프로젝트 '테라팹'과 관련해 TSMC와 협력을 논의 중임을 확인",
+      "TSMC는 테라팹 전용 생산 시설 건설 및 운영 방안을 검토 중"
+     ],
+     "interpretation": "테슬라의 AI 칩 내재화 시도가 TSMC와의 파트너십을 통해 구체화되고 있으며, 이는 TSMC의 파운드리 점유율 확대와 고객사 다변화에 긍정적",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "테라팹 프로젝트의 구체적인 투자 규모 및 생산 시설 착공 시점",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "dfa5e3328b9168c8"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "메모리 가격 상승, 구글 픽셀 10a 가격 인상으로 이어져",
+     "facts": [
+      "메모리 반도체 부족 현상과 가격 상승으로 인해 구글이 '픽셀 10a'의 가격을 100달러 인상함",
+      "기존 499달러에서 599달러로 조정"
+     ],
+     "interpretation": "메모리 가격 상승이 완제품 제조사의 원가 부담을 가중시키고 있으며, 이는 소비자 가격 인상으로 전이되어 수요 위축 가능성을 시사함",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "alphabet"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "주요 스마트폰 제조사들의 메모리 재고 확보 전략 및 추가적인 가격 인상 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "652f7d005c7709a1"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 섹터는 AI 에이전트의 기능 고도화와 함께 보안 및 모델 운영 정책 변화가 시장의 주목을 받고 있습니다.",
+   "stories": [
+    {
+     "headline": "구글, 제미나이 요금제 개편 및 모델 접근성 조정",
+     "facts": [
+      "구글이 제미나이 앱의 요금제별 모델 접근 권한을 변경함",
+      "무료 사용자는 '플래시-라이트' 모델만 사용 가능하며, 상위 요금제에서 '프로' 모델 접근이 제외됨"
+     ],
+     "interpretation": "연산 비용 최적화를 위해 모델별 서비스 범위를 재조정하는 것으로, AI 서비스의 수익성 개선을 위한 전략적 행보로 판단됨",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "요금제 개편 후 사용자 이탈률 및 유료 구독 전환율 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "a98ea940d4927814"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "티냅스, 엔비디아 인셉션 챌린지 톱10 선정",
+     "facts": [
+      "AI 보안 스타트업 티냅스가 '엔비디아 인셉션 그랜드 챌린지 2026' 아시아·태평양 결선에서 최종 톱10에 선정됨",
+      "티냅스는 기업용 AI 에이전트의 의사결정을 실시간 검증 및 통제하는 기술을 보유"
+     ],
+     "interpretation": "AI 에이전트 도입이 확산됨에 따라 AI 보안 및 거버넌스 솔루션에 대한 기술적 검증과 시장 수요가 증가하고 있음을 방증함",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "티냅스의 기술이 엔비디아 생태계 내에서 실제 상용화로 이어지는지 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "df47b89e2b804673"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "5701a62d6146fe68",
+   "title": "마이크론 \"NVHBM, 자체 베이스다이 빠져도 수익성↑\"",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=63114",
+   "source": "디일렉"
+  },
+  {
+   "id": "dfa5e3328b9168c8",
+   "title": "머스크 \"TSMC와 테라팹 칩 생산 협력 논의\" 확인",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215952",
+   "source": "AI타임스"
+  },
+  {
+   "id": "df47b89e2b804673",
+   "title": "티냅스, 창업 1년여 만에 ‘엔비디아 인셉션 챌린지 2026’ 톱10 선정",
+   "url": "https://zdnet.co.kr/view/?no=20261004155331",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "652f7d005c7709a1",
+   "title": "메모리 가격 인상에…구글 ‘픽셀 10a’, 13만원 비싸졌다",
+   "url": "https://zdnet.co.kr/view/?no=20261004105356",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "a98ea940d4927814",
+   "title": "구글, 제미나이 요금제 개편..무료·저가 요금제서 '프로' 모델 뺀다",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215946",
+   "source": "AI타임스"
+  }
+ ]
+}

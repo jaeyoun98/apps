@@ -1,0 +1,115 @@
+{
+ "generated_at": "2026-09-24T00:38:03Z",
+ "date": "2026-09-24",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "퀄컴의 스냅드래곤 서밋 2026을 중심으로 모바일 AI 칩셋 전략이 구체화되고 있으며, TSMC의 파운드리 독점적 지위와 삼성전자의 차세대 메모리 및 XR 협력 전략이 주요 변수로 작용하고 있습니다.",
+   "stories": [
+    {
+     "headline": "퀄컴, 스냅드래곤 8 엘리트 전량 TSMC 위탁 생산",
+     "facts": [
+      "퀄컴이 차세대 최상위 칩셋 '스냅드래곤 8 엘리트' 시리즈 전량을 TSMC 파운드리에서 제조함",
+      "퀄컴은 삼성전자 파운드리와의 선단 공정 협력 가능성을 완전히 배제하지는 않음"
+     ],
+     "interpretation": "퀄컴의 프리미엄 칩셋 생산이 TSMC에 집중되면서 TSMC의 선단 공정 점유율이 견고하게 유지될 전망이며, 삼성전자 파운드리는 수주 경쟁에서 여전히 도전적인 위치에 있음",
+     "affected_company_ids": [
+      "tsmc",
+      "samsung-electronics"
+     ],
+     "event_type": "supply_chain",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "삼성전자 파운드리의 차세대 공정 수주 여부 및 TSMC의 Q3 실적 발표 내용",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "cdb8fd7344a40d0e"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자·구글·퀄컴, 차세대 XR 및 개인화 AI 폼팩터 연합 구축",
+     "facts": [
+      "삼성전자, 구글, 퀄컴 3사가 하드웨어, OS, 완제품을 아우르는 XR 및 개인화 AI 협력 체계 가동",
+      "스마트폰 이후의 차세대 폼팩터 시장 주도권 확보가 목표"
+     ],
+     "interpretation": "안드로이드 생태계의 핵심 기업들이 XR 시장에서 하드웨어와 소프트웨어 통합 전략을 통해 애플의 폐쇄적 생태계에 대응하려는 움직임으로, 삼성전자의 XR 기기 경쟁력 강화가 기대됨",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "3사 협력을 통한 구체적인 XR 제품 출시 일정 및 시장 반응",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "7a55bd094bf28d4f"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "메타의 AI 에이전트 '뮤즈'를 둘러싼 플랫폼 간 갈등과 AI 에이전트 서비스의 대중화가 가속화되고 있으며, 기업들의 AI 도입 및 데이터 보안 관련 협력이 활발합니다.",
+   "stories": [
+    {
+     "headline": "메타 '뮤즈'와 아마존의 갈등 및 AI 에이전트 시장 경쟁",
+     "facts": [
+      "메타의 개인용 AI 에이전트 '뮤즈'가 초기 높은 사용자 확보를 기록했으나 아마존이 자사 사이트 내 접근을 차단함",
+      "메타는 뮤즈의 전화 예약 기능 사내 테스트 과정에서 일부 상담원을 활용한 사실이 확인됨"
+     ],
+     "interpretation": "AI 에이전트가 플랫폼 간의 새로운 경쟁 영역으로 부상하고 있으며, 서비스 초기 단계에서 기술적 완성도와 플랫폼 간 상호운용성 문제가 투자자들의 주요 관전 포인트가 될 것",
+     "affected_company_ids": [
+      "meta",
+      "amazon"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "메타와 아마존 간의 플랫폼 접근성 갈등 해결 여부 및 뮤즈의 실제 서비스 품질",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "258213e662ffc198",
+      "7578d981213c6175"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "7a55bd094bf28d4f",
+   "title": "\"스마트폰 다음은 XR\"…퀄컴·삼성·구글, 차세대 폼팩터 3자 연합 구축",
+   "url": "https://zdnet.co.kr/view/?no=20260924053226",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "cdb8fd7344a40d0e",
+   "title": "[스냅드래곤 서밋] 퀄컴 스냅드래곤 전량 TSMC 생산…삼성 파운드리 여지 남겨",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=62754",
+   "source": "디일렉"
+  },
+  {
+   "id": "258213e662ffc198",
+   "title": "Meta's standoff with Amazon over Muse could be a sign of things to come",
+   "url": "https://www.cnbc.com/2026/09/23/metas-standoff-with-amazon-over-muse-comes-ahead-of-meta-connect.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "7578d981213c6175",
+   "title": "메타 뮤즈 전화 예약, 콜센터 상담원이 걸었다…사내 시험에서 확인",
+   "url": "https://zdnet.co.kr/view/?no=20260923212526",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

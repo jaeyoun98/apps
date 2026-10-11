@@ -1,0 +1,114 @@
+{
+ "generated_at": "2026-10-08T18:31:39Z",
+ "date": "2026-10-09",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 수요의 지속 가능성에 대한 시장의 의구심이 OpenAI의 매출 실적 보도를 계기로 부각되며 관련 반도체 및 인프라 기업들의 주가 변동성이 확대됨.",
+   "stories": [
+    {
+     "headline": "OpenAI 매출 성장세 우려에 따른 AI 관련주 동반 하락",
+     "facts": [
+      "OpenAI의 9월 말 기준 연간 환산 매출이 약 500억 달러 수준으로 확인됨",
+      "기존 시장의 기대치 대비 낮은 매출 규모가 AI 인프라 투자 수익성에 대한 의구심을 자극함",
+      "NVIDIA, Oracle 등 주요 AI 관련주가 해당 보도 이후 주가 하락세를 보임"
+     ],
+     "interpretation": "AI 모델 개발사의 매출 성장 속도가 인프라 투자 비용을 정당화할 만큼 빠르지 않을 수 있다는 우려가 확산됨. 이는 AI 인프라에 대한 자본 지출(CapEx) 속도 조절 가능성을 시사하며, 관련 하드웨어 공급망 전반의 밸류에이션 조정 압력으로 작용할 수 있음.",
+     "affected_company_ids": [
+      "nvidia",
+      "oracle"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "주요 클라우드 기업들의 차기 분기 실적 발표에서 AI 관련 자본 지출 가이던스 변화 여부를 확인해야 함.",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "d1e651f616f3638e"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "주요 소프트웨어 기업들에 대한 규제 리스크가 가시화되고 있으며, AI 에이전트 기술 도입을 통한 기업용 솔루션 경쟁이 심화됨.",
+   "stories": [
+    {
+     "headline": "미국 정부, Microsoft 등 주요 IT 기업의 외국인 숙련 노동자 영주권 프로그램 참여 중단",
+     "facts": [
+      "미 노동부가 Microsoft와 Adobe를 포함한 주요 IT 기업들의 그린카드 노동 프로그램 참여를 중단시킴",
+      "해당 조치는 기업들의 프로그램 운영과 관련된 다수의 연방 조사 결과에 따른 것임"
+     ],
+     "interpretation": "기술 인력 확보에 대한 규제 리스크가 현실화됨. 이는 기업의 운영 비용 상승 및 핵심 인력 수급 차질을 유발할 수 있으며, 장기적으로는 인건비 부담 가중 및 인력 운용 전략의 수정이 불가피함.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "해당 기업들의 연방 조사 결과 발표 및 인력 운용 정책 변경 공시를 모니터링해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "52ac066023ce2d73",
+      "5d1c13c3eebecfab"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "Google, 기업용 Gemini에 에이전트 기능 도입",
+     "facts": [
+      "Google이 Gemini를 비즈니스 환경에서 작업 계획 및 실행이 가능한 AI 에이전트로 전환함",
+      "해당 에이전트는 하위 에이전트 위임 및 다중 AI 모델 활용 기능을 포함함"
+     ],
+     "interpretation": "생성형 AI가 단순 챗봇에서 업무 자동화 도구로 진화함에 따라 기업용 소프트웨어 시장 내 경쟁이 격화됨. 이는 기존 업무용 소프트웨어 시장 점유율을 재편할 수 있는 동인이며, 기업 생산성 향상 솔루션 분야의 수익 모델 변화를 예고함.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "기업 고객들의 실제 도입률 및 기존 업무용 소프트웨어와의 통합 효율성 지표를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "df0f5fa989252a55"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "d1e651f616f3638e",
+   "title": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
+   "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "df0f5fa989252a55",
+   "title": "Google brings agentic AI to Gemini, starting with businesses",
+   "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "52ac066023ce2d73",
+   "title": "U.S. suspends Microsoft, Adobe from green-card labor program in foreign worker crackdown",
+   "url": "https://www.cnbc.com/2026/10/08/microsoft-adobe-green-card-labor-suspension.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "5d1c13c3eebecfab",
+   "title": "US bars Microsoft, Adobe, and major IT firms from green card program for skilled foreign workers",
+   "url": "https://techcrunch.com/2026/10/08/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program-for-skilled-foreign-workers/",
+   "source": "TechCrunch"
+  }
+ ]
+}
