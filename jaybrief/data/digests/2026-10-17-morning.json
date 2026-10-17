@@ -1,0 +1,228 @@
+{
+ "generated_at": "2026-10-17T00:37:21Z",
+ "date": "2026-10-17",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 수요가 지속되는 가운데 TSMC의 견조한 실적과 엔비디아의 온디바이스 AI 시장 공략이 가시화되고 있습니다. 다만, AI 데이터센터 부채 리스크와 지정학적 공급망 이슈가 투자 심리에 영향을 미치고 있습니다.",
+   "stories": [
+    {
+     "headline": "TSMC, AI 수요 견인으로 6분기 연속 사상 최대 이익 달성",
+     "facts": [
+      "TSMC가 3분기 실적 발표에서 시장 예상치를 상회하는 기록적인 이익을 달성함",
+      "AI 붐에 따른 고성능 반도체 수요가 실적 성장을 견인함"
+     ],
+     "interpretation": "AI 인프라 투자가 실제 파운드리 실적으로 연결되고 있음을 증명하며, AI 반도체 공급망의 핵심 지위를 재확인함.",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "TSMC의 향후 가이던스 및 글로벌 AI 설비 투자 지속 여부 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "899e15ae0d45af1c"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아, 'RTX 스파크' 출시로 온디바이스 AI 시장 본격 진출",
+     "facts": [
+      "엔비디아가 AI PC용 플랫폼 'RTX 스파크'를 탑재한 노트북을 공식 출시함",
+      "블랙웰 GPU와 그레이스 CPU를 결합한 슈퍼칩으로 1페타플롭의 FP4 성능 제공"
+     ],
+     "interpretation": "데이터센터 중심의 매출 구조를 개인용 AI 기기(온디바이스 AI)로 확장하여 수익원 다변화를 꾀하고 있음.",
+     "affected_company_ids": [
+      "nvidia",
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "RTX 스파크 탑재 노트북의 시장 점유율 및 소비자 반응",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "48d673bfdc9bac3f",
+      "c91e4ad38d7e43bf",
+      "dd28132ea115cc9e"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "AI 투자 열풍 속 데이터센터 부채 리스크 부각",
+     "facts": [
+      "AI 인프라 수요는 여전히 견조하나, 코어위브 등 주요 기업의 부채 위험이 시장의 우려를 낳고 있음",
+      "글로벌 AI 관련 주식의 최근 매도세는 수요 감소보다는 재무적 리스크에 기인함"
+     ],
+     "interpretation": "AI 인프라 구축을 위한 자금 조달 방식(부채)이 금리 환경 변화에 취약할 수 있다는 점이 투자 심리 위축의 원인으로 작용함.",
+     "affected_company_ids": [
+      "nvidia",
+      "tsmc"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "medium",
+     "watch_next": "AI 관련 기업들의 자금 조달 비용 변화 및 재무 건전성 지표",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "dc0c2f090417f4b7"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크 기업들이 자체 AI 모델 개발 역량을 강화하며 오픈AI 의존도를 낮추는 한편, 데이터 수집 및 보안과 관련된 규제 리스크가 증가하고 있습니다.",
+   "stories": [
+    {
+     "headline": "마이크로소프트, 자체 대규모 AI 모델 'MAI-베이스-2' 공개",
+     "facts": [
+      "마이크로소프트가 2조 8000억 개의 매개변수를 가진 'MAI-베이스-2' 사전 학습 완료를 발표함",
+      "오픈AI 등 외부 모델에 대한 의존도를 낮추고 독자적인 개발 역량을 강조함"
+     ],
+     "interpretation": "AI 서비스 생태계 내에서 플랫폼 기업의 주도권을 확보하고, 모델 비용 효율화를 위한 전략적 행보로 해석됨.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "MAI 모델의 실제 서비스 적용 범위 및 성능 검증",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "fff4eb41245f047b",
+      "dba38cb64e36e6ca"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "구글, '재귀적 자기개선(RSI)' 단계 진입 선언",
+     "facts": [
+      "세르게이 브린 구글 공동 창립자가 제미나이 모델이 후속 모델 개발에 참여하고 있다고 밝힘",
+      "AI가 스스로 모델을 개선하는 재귀적 자기개선 단계에 진입함"
+     ],
+     "interpretation": "AI 개발 속도의 비약적인 향상을 의미하며, 기술적 해자(Moat)를 구축하여 경쟁사와의 격차를 벌리려는 시도로 판단됨.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "실제 후속 모델 출시 주기 단축 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "faee6844bc564d68",
+      "42db2fb9e31b2155"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "메타, 데이터 수집 정책 및 보안 이슈로 규제 압박 직면",
+     "facts": [
+      "메타가 비즈니스 고객의 콘텐츠를 모델 학습에 사용할 수 있는 권한을 확보함",
+      "레이밴 메타 스마트 글래스에서 동의 없는 녹음 버그가 발생하여 프라이버시 논란이 재점화됨"
+     ],
+     "interpretation": "AI 학습 데이터 확보를 위한 공격적인 정책이 프라이버시 및 규제 리스크를 높이고 있으며, 이는 장기적으로 브랜드 신뢰도에 타격을 줄 수 있음.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "데이터 수집 관련 각국 정부의 규제 대응 및 사용자 이탈 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8c5e15b435d75459",
+      "52d5d80fae9087c3",
+      "f44b5b0c10dbc6ca"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "dd28132ea115cc9e",
+   "title": "Benchmarked: Nvidia's RTX Spark notebook delivers serious local AI compute, at a price",
+   "url": "https://www.theregister.com/personal-tech/2026/10/16/benchmarked-nvidias-rtx-spark-notebook-delivers-serious-local-ai-compute-at-a-price/5303621",
+   "source": "The Register"
+  },
+  {
+   "id": "899e15ae0d45af1c",
+   "title": "TSMC posts record profit for a sixth straight quarter, beating estimates on AI boom",
+   "url": "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "dc0c2f090417f4b7",
+   "title": "[10월16일] AI 수요는 넘치는데 채권은 급락…코어위브가 드러낸 '부채 위험'",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216325",
+   "source": "AI타임스"
+  },
+  {
+   "id": "48d673bfdc9bac3f",
+   "title": "580만원짜리 AI 노트북…엔비디아 'RTX 스파크' 국내 출격",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=63851",
+   "source": "디일렉"
+  },
+  {
+   "id": "c91e4ad38d7e43bf",
+   "title": "엔비디아, RTX 스파크 노트북 공식 출시…'개인용 에이전틱 AI 시대' 연다",
+   "url": "https://www.etnews.com/20261016000313",
+   "source": "전자신문"
+  },
+  {
+   "id": "8c5e15b435d75459",
+   "title": "Meta grants itself right to scrape content from business customers for model training",
+   "url": "https://www.theregister.com/ai-and-ml/2026/10/16/meta-grants-itself-right-to-scrape-content-from-business-customers-for-model-training/5303658",
+   "source": "The Register"
+  },
+  {
+   "id": "faee6844bc564d68",
+   "title": "구글 창립자 “RSI 궤도 진입...플래시부터 AI가 후속 모델 개발 참여\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216350",
+   "source": "AI타임스"
+  },
+  {
+   "id": "52d5d80fae9087c3",
+   "title": "Bug turns one of the biggest fears about Ray-Ban Meta smart glasses into reality",
+   "url": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
+   "source": "Ars Technica"
+  },
+  {
+   "id": "fff4eb41245f047b",
+   "title": "MS, 정식 출시 앞서 2.8조 매개변수 모델 공개…‘독자 역량’ 부각",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216337",
+   "source": "AI타임스"
+  },
+  {
+   "id": "f44b5b0c10dbc6ca",
+   "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+   "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+   "source": "Ars Technica"
+  },
+  {
+   "id": "dba38cb64e36e6ca",
+   "title": "MS, 정식 출시 앞서 2.8조 매개변수 모델 공개…‘오픈AI 의존 줄일 독자 역량’ 부각",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216337",
+   "source": "AI타임스"
+  },
+  {
+   "id": "42db2fb9e31b2155",
+   "title": "구글 창립자 “플래시부터 AI가 후속 모델 개발 참여…RSI 궤도 진입”",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216350",
+   "source": "AI타임스"
+  }
+ ]
+}

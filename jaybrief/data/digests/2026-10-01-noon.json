@@ -1,0 +1,149 @@
+{
+ "generated_at": "2026-10-01T01:22:12Z",
+ "date": "2026-10-01",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "마이크론의 기록적인 실적 발표가 AI 메모리 수요의 강력함을 증명하며 섹터 전반의 성장 기대감을 높이고 있습니다. 한편, HBM4 등 차세대 메모리 기술 경쟁과 파운드리 협력 구도가 구체화되는 모습입니다.",
+   "stories": [
+    {
+     "headline": "마이크론, AI 메모리 수요 폭발로 사상 최대 실적 달성",
+     "facts": [
+      "2026회계연도 4분기 매출 542억 3000만 달러로 전년 동기 대비 약 4.8배 급증",
+      "연간 D램 매출 최초 1000억 달러 돌파 및 분기 영업이익률 80%대 기록",
+      "고객사들이 2027년 공급 물량 확보를 위해 선제적 계약 체결 중"
+     ],
+     "interpretation": "AI 데이터센터향 메모리 수요가 공급을 지속적으로 상회하며 가격 결정력이 메모리 제조사에 유리하게 작용하고 있습니다. 이는 단순 물량 증가를 넘어 수익성 중심의 구조적 성장기에 진입했음을 시사합니다.",
+     "affected_company_ids": [
+      "micron"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "2027년 메모리 공급 계약의 지속 여부와 가격 상승세 유지 여부 확인이 필요합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c5287935664fb0c7",
+      "9f1af0a2ceaa2734",
+      "ebfc6c2722b82cf8",
+      "83b6e3a7b526734b",
+      "5c02911387c2b099"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자 파운드리, HBM4 수요 기반 2nm 공정 경쟁력 강화",
+     "facts": [
+      "HBM4 수요 증가가 삼성전자 파운드리 4nm 로직 라인 가동률에 긍정적 영향",
+      "2nm 공정 도입을 위한 기술 추진 지속"
+     ],
+     "interpretation": "HBM4와 같은 차세대 메모리 제품의 성장이 파운드리 사업부의 로직 공정 수주로 이어지는 선순환 구조가 형성되고 있습니다. 메모리와 파운드리를 모두 보유한 삼성전자의 통합 역량이 AI 시대에 핵심 경쟁력으로 작용할 전망입니다.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "TSMC의 Q3 실적 발표에서 확인될 파운드리 시장 점유율 및 HBM 관련 언급을 비교해야 합니다.",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "75b99c815fc9da47"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "구글의 차세대 AI 모델 공개와 오픈AI의 보안 이슈 등 생성형 AI 기술 경쟁이 심화되는 가운데, 기업들의 AI 인프라 및 에이전트 도입이 가속화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "구글, 차세대 AI 모델 'Gemini 4 Argon' 공개",
+     "facts": [
+      "코딩 및 사이버 보안 작업에 최적화된 플래그십 모델",
+      "벤치마크 성능 1위 탈환 주장",
+      "일부 파트너 대상 제한적 출시(Fairwind 프로그램)"
+     ],
+     "interpretation": "성능 우위를 점했음에도 제한적 출시를 택한 것은 모델의 안전성과 인프라 부하를 고려한 전략적 판단으로 보입니다. 향후 에이전트 작업 능력의 상용화 속도가 구글의 AI 시장 점유율 회복의 관건입니다.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "Gemini 4 Argon의 일반 사용자 대상 API 공개 시점과 실제 기업 현장 도입 사례를 지켜봐야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4b94d52ab2e09ef9",
+      "6be2a237f2b4d0d2",
+      "4819b78817306e60"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "c5287935664fb0c7",
+   "title": "마이크론, 또 역대급 실적…2030년까지 매출 35% 이미 계약",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=63067",
+   "source": "디일렉"
+  },
+  {
+   "id": "75b99c815fc9da47",
+   "title": "Samsung Foundry gets boost from HBM4 as 2nm push continues",
+   "url": "https://www.digitimes.com/news/a20260930VL221/samsung-foundry-hbm4-2nm-business-demand.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "9f1af0a2ceaa2734",
+   "title": "We're raising our Micron price target after an incredible quarter and robust guidance",
+   "url": "https://www.cnbc.com/2026/09/30/were-raising-our-micron-price-target-after-an-incredible-quarter-and-robust-outlook.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "ebfc6c2722b82cf8",
+   "title": "마이크론, 4분기 매출 73조원... 전년비 379% 상승",
+   "url": "https://zdnet.co.kr/view/?no=20261001060754",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "83b6e3a7b526734b",
+   "title": "마이크론, 월가 눈높이 넘었다…AI 메모리 타고 최대 실적",
+   "url": "https://www.etnews.com/20261001000014",
+   "source": "전자신문"
+  },
+  {
+   "id": "5c02911387c2b099",
+   "title": "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold",
+   "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "4b94d52ab2e09ef9",
+   "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+   "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "6be2a237f2b4d0d2",
+   "title": "Google rolls out Gemini 4 Argon, its most advanced AI model",
+   "url": "https://www.cnbc.com/2026/09/30/google-gemini-4-argon-ai.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "4819b78817306e60",
+   "title": "Google announces Gemini 4 Argon AI model, but you can't use it yet",
+   "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+   "source": "Ars Technica"
+  }
+ ]
+}

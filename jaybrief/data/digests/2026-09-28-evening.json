@@ -1,0 +1,428 @@
+{
+ "generated_at": "2026-09-28T10:02:38Z",
+ "date": "2026-09-28",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 투자 확대에 따른 기판 및 전력 솔루션 수요 증가와 중국 시장의 엔비디아 칩 구매 허용 검토 등 지정학적·기술적 변화가 반도체 섹터의 주요 이슈로 부상함.",
+   "stories": [
+    {
+     "headline": "삼성전기, AI 서버용 반도체 기판(FCBGA)에 4조 2700억 원 대규모 투자",
+     "facts": [
+      "삼성전기가 세종 사업장 FCBGA 공장에 4조 2700억 원 규모의 증설 투자를 결정함",
+      "이번 투자는 AI 서버용 기판 수요 확대에 대응하기 위한 목적임",
+      "지난 7월 발표된 세종 반도체 기판 사업 8조 원 투자 계획의 일환임"
+     ],
+     "interpretation": "AI 서버 시장 성장에 따른 고성능 기판 수요를 선점하려는 전략적 투자로, 향후 삼성전기의 패키징 기판 사업 경쟁력이 강화될 것으로 전망됨.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "대규모 증설 이후 실제 가동률과 AI 서버향 매출 비중 확대 여부를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b14edec615d53dad",
+      "c6c222c731c5f280",
+      "53aaa99ef7c74562",
+      "f851273e817c2347",
+      "9a70b43c335fd476",
+      "5f156f4f4a592e39",
+      "09f72579f41ba576",
+      "88d0d35c5134e2d9",
+      "be202662d10b968f",
+      "ccef42b1c748b56b",
+      "6bbf0645d13de0cd"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "중국, 엔비디아 AI 칩 구매 제한 완화 검토",
+     "facts": [
+      "중국 정부가 자국 IT 기업들의 엔비디아 'RTX PRO 5500' 구매를 제한적으로 허용하는 방안을 검토 중임",
+      "화웨이 등 자국 반도체 기업들이 급증하는 AI 컴퓨팅 수요를 감당하지 못하는 상황이 배경으로 지목됨"
+     ],
+     "interpretation": "미국의 대중국 반도체 수출 규제 속에서도 중국의 AI 수요가 엔비디아 제품에 의존하고 있음을 시사하며, 규제 완화 시 엔비디아의 중국 매출 회복 가능성이 존재함.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "실제 중국 정부의 공식 승인 여부와 미국의 추가 규제 가능성을 모니터링해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "fb91601bfc1773e3",
+      "64f13b2404779ffc",
+      "69aa21e5f6662386",
+      "8cc052bf6f27c331",
+      "fa1c2b53b3855b46",
+      "24f27f61c6717ddd"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "SK하이닉스, TSMC와 HBM5 검증 및 파트너십 강화",
+     "facts": [
+      "SK하이닉스가 TSMC와 차세대 HBM5 검증을 진행 중임",
+      "SK하이닉스는 TSMC로부터 2년 연속 '올해의 파트너상'을 수상함"
+     ],
+     "interpretation": "TSMC와의 긴밀한 협업을 통해 차세대 AI 메모리 시장에서의 기술적 우위를 확보하고 있으며, 이는 HBM 시장 내 지배력을 공고히 하는 요인임.",
+     "affected_company_ids": [
+      "tsmc",
+      "sk-hynix"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "TSMC의 10월 15일 실적 발표에서 HBM 관련 언급 및 향후 파트너십 확장 여부를 주목해야 함.",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "5d90e9f3147dd501",
+      "6ac1bece8e072a02",
+      "891048d3c544c75d",
+      "7b38ef5363ea0806",
+      "43e28fedde7c9bbc"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트의 보안 및 거버넌스 문제가 핵심 이슈로 부상하며, 빅테크 기업들의 관련 플랫폼 출시와 규제 대응이 활발함.",
+   "stories": [
+    {
+     "headline": "엔비디아, AI 에이전트 보안 플랫폼 'Open Agent Safety Platform' 출시",
+     "facts": [
+      "엔비디아가 AI 에이전트의 오작동을 방지하고 보안을 강화하는 플랫폼을 공개함",
+      "해당 소프트웨어는 테스트부터 배포 단계까지 에이전트의 이상 행동을 모니터링함",
+      "오픈AI의 허깅페이스(Hugging Face) 해킹 사건과 같은 보안 사고를 예방할 수 있다고 언급함"
+     ],
+     "interpretation": "AI 에이전트 도입이 확산됨에 따라 발생하는 보안 리스크를 해결하기 위한 인프라를 선점하려는 전략으로, 엔비디아의 생태계 영향력이 소프트웨어 영역으로 확장되고 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "기업 고객들의 실제 플랫폼 도입률과 AI 에이전트 보안 표준으로 자리 잡을지 여부가 중요함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "91f845bd25261a68",
+      "98cffd2b44608886",
+      "7a3d137a62cd8e6f",
+      "74d3caf8b0b9bd04",
+      "6ff04959ab4d3532",
+      "2cf724945d8a49c0",
+      "573d3c339b900890",
+      "952bed425c320f92",
+      "841928a2b23746fb",
+      "b8b5700a1de96294",
+      "c9987bc79adb779e",
+      "c10057eb326eb21e",
+      "87de366dd73ae8a9",
+      "15230c2978df90db",
+      "db83e5a5d1f16ba6",
+      "74d28bfc9697cc53",
+      "391cbc3c11748501",
+      "89403b020d989111",
+      "306594e0d81908a4",
+      "543e55cfe1a5f37b"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "빌 게이츠, 트럼프의 AI 안전장치 거부 입장 반박",
+     "facts": [
+      "빌 게이츠 MS 공동 창업자가 AI 규제에 소극적인 트럼프 대통령의 입장을 비판함",
+      "안전장치 도입이 미국의 기술 경쟁력을 저해하지 않으며, 중국도 사이버 공격 방지를 위해 규제에 동참할 것이라고 주장함"
+     ],
+     "interpretation": "AI 산업의 지속 가능한 성장을 위해 규제와 안전장치가 필수적이라는 업계 리더의 견해를 표명한 것으로, 향후 AI 정책 방향성에 영향을 줄 수 있음.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "미국 정부의 향후 AI 규제 관련 정책 변화와 빅테크 기업들의 대응을 주시해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "138745b0ad00708a"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "91f845bd25261a68",
+   "title": "Nvidia launches agent safety platform backed by over 100 companies",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE45LXJVdTBPSmY4dzFaWmpNWjEzRS1xaFpodXhyWG10M2VPQXJwQkdUd1pJZFMxYk9IVzV0NGthUTJFd1NpN25DRWNsaDNBVG54aHBtQWpOX0tEUWdXY2J6Y2F6czhhZ1RwbzZnZ3dB?oc=5",
+   "source": "The Next Web"
+  },
+  {
+   "id": "b14edec615d53dad",
+   "title": "삼성전기, 세종 FCBGA에 4조2700억원 투자…AI 반도체 기판 주도권 확보 나선다",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE83T09RN2FoX1k2WkJmUnh0dDNnekE5THhEZjFIdFpYaGg2YlNDRVBzRWFEQWRpczE1TGFfcmh3dHUxS0VxU2hqTUpQVDNVU2xlNmlKaUpCVmdHZU9aRmZ0QUVyMTIyYzZtZkE?oc=5",
+   "source": "뉴스밸류"
+  },
+  {
+   "id": "98cffd2b44608886",
+   "title": "NVIDIA Unveils Open Agent Safety Platform to Secure AI Agents",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxON2RQdkI4eDV1WFZTUWhMcTIyR0xBelpVNzFKRU5BaXdoZDRNcV9hNWk0UFp3cW5WaGE3eThndVlFTXZVUEVYNmlqS3RqY1Nub2hoQWFQeThMd1VTai1ET29EUUYzVTZPQTlYWDREN3BacXdoX3FBZk1oT0haeXZuMXc4Z1B2NlpmamNITjNIcTBSR0ZLUjlnbVphS2p1Ri01dFlLZWVFcDh3eW1Od190YXowMUw?oc=5",
+   "source": "marketscreener.com"
+  },
+  {
+   "id": "7a3d137a62cd8e6f",
+   "title": "Nvidia launches AI security tools to prevent agent breaches By Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTjQxQlRheV9pNnp2T3dUZTJEMHJfVVhjNFdxX0dwa0pzbGYwc3EzNUhnckZlYXduTWJNZDlKTUY0Y08za25ZeldRMVlFM2JIS0dMTTNCY1M4Z1hrRnY0VWYySlR0ZFp0M0dEMTI3R0ZlZ1FfXzZMaVgzQXBIT3FDNDJ4N3RzSEVXTTNmOXJRUjVYeEhsU0x5YUtydXV0TGtzbFNJX1Q1a3VBTHJacHlj?oc=5",
+   "source": "Investing.com Nigeria"
+  },
+  {
+   "id": "74d3caf8b0b9bd04",
+   "title": "Nvidia puts AI agents behind a hardware lock with OpenShell",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUmJaSFY4NTBfYmd5RVhIeFJiN3dRS1RTMkpLZ2xBNjZGME1ycGxVU0RwTjBWTWIxeUJlU1laQ1hTM1JpZXpHeTNIWmNzbUpWUGdrSG94M2xlTkhJeGFtMGRTa0lMSUtCQkZHNm9Nd1VuQjFXVXl3UFExMkRKVTB4bVFQaU5nZlpWal9JVm9IMVpJUGJoM2x5VFF0Q3RCYzFCZ1VoV3FPaVk?oc=5",
+   "source": "Techzine Global"
+  },
+  {
+   "id": "5d90e9f3147dd501",
+   "title": "SK하이닉스, TSMC와 HBM5 검증…'올해의 파트너상' 2년 연속 수상",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBNOW1ESC0wUmhwNXJaTk5QdzE0TmROSXRYOFkwWDlpZHhVeVBfMVZETjFLY1JvV2NUYVliLVJnRlRUVWhDOHc2RXJmZWFHMGdQU0plNFpGZ2JHQmtfbVo3RnllZnJzRTVhT3o2Wmg3SF8?oc=5",
+   "source": "연합인포맥스"
+  },
+  {
+   "id": "6ff04959ab4d3532",
+   "title": "Nvidia unveils security platform for AI agents — CNBC",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaVlTdXNjYVE3SlVScm5pZ1cyejhPRi12WS1WaWZlYlBuc1N1SndUcUxXdW92cS1ILWpLeEk5X2g4VUNHU0tMTEhzRXVDQ3pTT1FhUjItV08zWW0wcDA4YXZ1aFpWeWMtcS1rNzJ3cXY1VDRxV2dFZjRYNVY3UU4xRE12T2FyWUhsZ1JpLVA2N05UTXdx?oc=5",
+   "source": "UA.NEWS"
+  },
+  {
+   "id": "2cf724945d8a49c0",
+   "title": "NVIDIA Unveils Open Agent Safety Platform for AI Security",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTlNmcmhTRTRabzhUVGlaMThoSFlHdmJ4cm02dnNOS1ZjRjBfU3VSVmtGX0p6aTVuVkZZTGFEVE5pMzhLME9hSXlfbmFSSWtHOGdkRXFMaksyVnFHLWhkcmJ0Y1BtMGVrdmtOSlBBaGxHMzZBYmRWd0tVeVlQTWZsaXQ1ZFNTcmhIS1ZVT3J3ZjFhOWlJ?oc=5",
+   "source": "The Tech Buzz"
+  },
+  {
+   "id": "c6c222c731c5f280",
+   "title": "삼성전기, AI 반도체 기판 공략 위해 4조2700억원 투입",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XWFV6bmhXSFhpUnpILU9zUHpNdXpOcUt5RW8xdkhJYWhyLVhUX1ZoMDYxTm1LNnR5MEpWcFdHUmtJWnhqQTlUb0UyaFFaSGYzenEtZ3BLMkhuZUgyektZOFY2WDjSAWhBVV95cUxOS0FUVGg2VVBjcWM3eFRDdXdabEpPbXBQX0JDZlV2amh2UmJ2U1hZMFUzZW9DZm0tN1h1TS1CT3lYM3RUYjRZbDBEZGxvaHdoY0FOb2Z0cFpDSE94N3F1STdyRU1aUllaeA?oc=5",
+   "source": "매일일보"
+  },
+  {
+   "id": "573d3c339b900890",
+   "title": "NVIDIA Unveils Open Agent Safety Platform Spanning Software to Silicon",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYllHNjYzUGduZDVac19QSlJWVUJSRGRDa2luM1pzczJqNnMyUnpfNGt0OEZjdWs5QV9MNjE2YzQxVWNHYjlSa0t0bWw1a1ljd0p0UTFmM01ic3BhSmJwcHR0Mkt4TkV3RmtVSkFXZEFpNnZRVno0dDhBUUFDbUc4amt1Rk1ROC13a3k0ZmZLZ0h4UURxU0Zj?oc=5",
+   "source": "Unite.AI"
+  },
+  {
+   "id": "952bed425c320f92",
+   "title": "Nvidia releases software platform to stop AI agents from misbehaving",
+   "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "841928a2b23746fb",
+   "title": "Nvidia puts Israel-developed chips at the heart of its new AI security system",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yeHc5cjAtSE8yY3lqckV4Y1c5V1JxSlcxbGloQkxpdllYR0N4OElvMk11VVJ6cWlvSVVnMnI3b2dWNV9WRDd1Q3VucTR2NC1IVnZKV0dfWTNnLXBSY284NU5LcTVrdTA?oc=5",
+   "source": "calcalistech.com"
+  },
+  {
+   "id": "b8b5700a1de96294",
+   "title": "Nvidia releases AI safety software it says could have stopped Hugging Face hack",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSVREakRaN2V6OWo0bzNFcVBHb1VZMzRVS29mcWF4XzZwSmdxLVRublBqSTE5ZlNBaHBKb0lTU1o2SWV0V0t1U3M3TVl1ZnlJWGVJRGxKclM5RkphYzhzU3FlNkZHNDk3TUZhdW54dGtydmR3MFR2ZFVZdWItaVpsNjZYX2hIbjVHcTM0ZTVqLVd6UHV2OGY4eFM4ZW1va1pCSF90VzlZd3BSUjVkY1RJRzV2ZGFEUnlnbDY1d0ZjOFZoYXBVRU5YZEM0Zmk?oc=5",
+   "source": "Reuters"
+  },
+  {
+   "id": "fb91601bfc1773e3",
+   "title": "Nvidia's New AI Chips Could Enter Chinese Market",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUHVYNEloRzNROF9iRUFCdlFvbVhTN3A0MVFNRkRBSVJlU2NXaU9jLVBFS0lmcXdCSU9FQTFBQ255MFZUTEhxZ3RLeEN3SllUQXE3dzhfdHQ4WUs5SWFFdUlvMmdSOHByMlZCcVRuMHhXUXNOYzVOa0V4aUFxOVlmcWdBVDVxMDZMV2M3Z0w0ZF8xXzZjR2VOWlpiQlJyUXhMSUpV?oc=5",
+   "source": "marketscreener.com"
+  },
+  {
+   "id": "64f13b2404779ffc",
+   "title": "중국 ‘엔비디아 칩’에 빗장 푸나…“자국 기업에 신형 칩 구매 허용 검토”",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBseFpiWXZSS0MyQmEyN2dNa3ZNN2dyallsNVN0cFEwc01seTNSMnFEMzBNSElIRVdDLUhsc250LS01UF8xdjd0aFp0T3NUQmNhOXNjMVhIVHdMbDV1Q0hBS05JNTk3SEpBN2xYNA?oc=5",
+   "source": "한겨레"
+  },
+  {
+   "id": "543e55cfe1a5f37b",
+   "title": "NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring | NVIDIA Technical Blog",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVFg4WTJZY1lxdDNpSXJJZnFsTFlidFZlM2VOd3NSY0VFR2Mzc3hxaFNla3V2bklFdms1U0NSM05pQzROVk1obUEtXy0xVXh6d3RCTncyaFlldjh3WmpQeHE5Q2pOQnZuaDNpbS1jMkh3eHU5dHRpbk5OYVhvaVBQVk1BWXAzNFBfUGN5TmlyMmVhTWE2SWtLQzk4Znd0S0hHQXY1MklHV2JoQWItQkg1VHFJTV9odmxCYTg4cXVsNjI?oc=5",
+   "source": "NVIDIA Developer"
+  },
+  {
+   "id": "306594e0d81908a4",
+   "title": "Nvidia introduces open-source tool to boost AI security (NVDA:NASDAQ)",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOUhiaXBWSXE0OWFuMlNqblFpRllVUUs5blFNN0Z5UVBEeW1BTTBNQXZHckVXYXc2LWRlekFaN1Z5VkYzMllsWFVDZ1VEZ3RBak9hSVAyZVNzNGhwM3BRRWpENFhXTnd4MmRMQ0lHWnVWY1dqWmQ4N0ZnVlhOb2xSQXdRODRhdkZVNjBuaHZId0VybkVVWTZPcA?oc=5",
+   "source": "Seeking Alpha"
+  },
+  {
+   "id": "53aaa99ef7c74562",
+   "title": "삼성전기, 세종 FCBGA에 4.27조 투자…AI 서버 수요 대응 [반도체레이다]",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1NZ3ZsdXUydVp0T3NScl9SWV8tM0htaVVDbTVvdmh1ZTcyZG15YWRHMTktMS1maTBVU210RkhvSVZyYUtpbG9Gdzc2YnBhWjBkM1pOaWpxaTNScE4zelZGeDQxV3A?oc=5",
+   "source": "디지털데일리"
+  },
+  {
+   "id": "6ac1bece8e072a02",
+   "title": "SK하이닉스, TSMC 행사서 차세대 AI 메모리 공개… 파트너상 2년 연속 수상",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvLUEzOGxGU2xFQklqUmItVk5ndTdTZjZteXdJdWV0bUR6Mk1CQXZ6cE1BdENIQlVZWVJKZGNQNXNxQmlhWnkzZ3VFRTdKNFdldEJETkYxYndNdml3dzRwdEdMaHlWdHFISlE?oc=5",
+   "source": "천지일보"
+  },
+  {
+   "id": "f851273e817c2347",
+   "title": "삼성전기, AI 반도체 기판 사업 드라이브…세종에 4.3조 통큰 투자",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mVmtiLWZURVo5SHRWbDdWYzdaVzQ1T2x1SkJJTXE5TGRyeE04d3lhckc4RFlnT2ZDbTEtN1ViRVhadXpsUGhYV1hLVHQ3dkd4aF8zQnJPaTlqaE1WeURaUDJmTUc2aXZQUFJhY0E4aELSAXRBVV95cUxPWTJsb3E5Q2QwaVdxTWIxWUJVaUpVLUJDMkwzYUdNS0gwYzZiSy1TeXpnOC1sNkVxVm9xYk9Qa1pObGc0NXFwUVdZd0stZ1RVMHFfVHp2cGRnRENIU0VIN1o5RVRSRE5ialBMbmNnOXlCWkFPWg?oc=5",
+   "source": "주간한국"
+  },
+  {
+   "id": "c9987bc79adb779e",
+   "title": "Nvidia launches platform to boost AI agent safety",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNb3FlTXVpeVZ4aGxEVXJTVExhdTh5Yng1TjFzTGE2WWNJTFhoQUZBSjBDcV9kY0lGSTVmSlhDNFhsTDBleTFDcnh4TnhRMUl1VXNjVWdpWS11OUF1RE9qNjNNaDZveTFfSFlyZ01Vb2otelpuQVJBV1lwb2lDdjEyb2x0V2M1MWRKNldxMjB1UWxicFpKcjBvTUp3?oc=5",
+   "source": "breakingthenews.net"
+  },
+  {
+   "id": "9a70b43c335fd476",
+   "title": "삼성전기, 세종에 4.2조 투자… AI 서버용 반도체 기판 증설",
+   "url": "https://www.etnews.com/20260928000389",
+   "source": "전자신문"
+  },
+  {
+   "id": "c10057eb326eb21e",
+   "title": "NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxdzBTN1hGTnNfZXZNWUU1MjhzQnpHUndjNkNYMGZiRGc1TDR5NExfTmtrbkFvZU5Fakp1eG1CVVFOZ0tpYzJ2aFVVY1pCSFY4Vl80Tkhqbkp3blMyejJkUXdpTVlBZWdzd2VKdVdR?oc=5",
+   "source": "NVIDIA Newsroom"
+  },
+  {
+   "id": "891048d3c544c75d",
+   "title": "\"최고의 파트너\"…TSMC가 극찬한 ‘메모리 강자’ SK하이닉스",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJODBhN1BXbjY1WTJSeVJsWEdGRmtoU2lOOExXS0RhenFJUFVSWVJSX1pnNHpoS0dlT2Y5UFh0R0Etdkw1QV8yWGgweHRJUTV5ZTBEZ1I1X0N6cm0waHVoYVFVRlRWYWhFa1dV0gFUQVVfeXFMT2NyaGFPS3JwTzFkOG5qb3huRlZyTS16NGxfcWFzd0FGamZURnA4cmlaa1ZUU0txQy15ZXRBUC16X25JRkd5bEtESHlzWXh0SHhLMlNy?oc=5",
+   "source": "세계일보"
+  },
+  {
+   "id": "5f156f4f4a592e39",
+   "title": "반도체 기판에만 4조2천700억… 삼성전기, 세종사업장 대규모 투자",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tRG5vWkZPR254RF9lZnlXYlBZNERxazROZnRRdXZpM3VSenNmVlhKS3NKd0tjNnRiVm9FNDFMR0xTcTdqdmFPZU9Ua2VWc3lJdGVkaDRid1pwQUk?oc=5",
+   "source": "경기일보"
+  },
+  {
+   "id": "87de366dd73ae8a9",
+   "title": "Nvidia launches Open Agent Safety Platform to secure AI agents",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUGtrX0Z5bXhRTkVEWFZ3TXJmNUhiVGR6RjhsX1c5VzBNMGZVcWJDNk5pZDl3c2lic0tqUlJSVlkzcm55UzMwX3JiV09ha1pTSHBwM2dQdVFxOEFkSGVlaVNhbWM5Y2lSN2F1RHB6WkhHMkhrU2tVeldYYmVDeFBqTUtCSnUtNEhOTTRjVG1vMGlCanRkQTczOVJ3TkZITDRFaDBuNmF1cw?oc=5",
+   "source": "Constellation Research"
+  },
+  {
+   "id": "7b38ef5363ea0806",
+   "title": "SK hynix Verifies HBM5 with TSMC",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE95YkpiUGJESG9Xa1R3eE85LXZjcDlRYl9wV1Z2WmFsVm42SU94ZGR0THRsMERsMmNDVXdqLTVjSjh1aUhJZDkxeEd5V3c2YnZpY09sTG4yVXVZQXhNSXZXUGpCQW5tcVBSQzRtZGlGa2Ezckp5?oc=5",
+   "source": "Businesskorea"
+  },
+  {
+   "id": "43e28fedde7c9bbc",
+   "title": "SK하이닉스, TSMC와 AI 메모리 동맹 강화 … HBM 넘어 SSD까지 포트폴리오 확대",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92YUVnS1hIb1RCcnRGODNrSXBxNVN5VnZHQS1XcDU0Tl9WcGRvNWlKWlFTMkF0RUFFQncxYXZHLXlONVZuZ2R2X1hIXzdMenhQZzl5QUZGeHRNMU5ELUdydWtLT29YMDRVaEY5TA?oc=5",
+   "source": "워크투데이"
+  },
+  {
+   "id": "15230c2978df90db",
+   "title": "Nvidia launches Open Agent Safety Program to secure agents from testing to launch",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSWNtN2VVa1B5c2d0MUJkbmVYYm9RcXlkWHNJVzhIcVZyREJRRHY4RE43VjJPSmkyRzdEeVA3Y09xRGRhQTdqTFlBd3NEVFVGLW9uR2hqRFlpRi10bVRfS2YwY1BhTlNsQ3pSRUxfQnpqN2FHYlU4QW5SN21vZU52V0xOSHZwNkdSVTkycW8tejF2a1ppMEwtRkFfbzdXb0NRd3JWYmhzVQ?oc=5",
+   "source": "GamesBeat"
+  },
+  {
+   "id": "db83e5a5d1f16ba6",
+   "title": "Nvidia debuts enhanced safety controls to rein in rogue AI agents",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb3FuNTczVG9sd0FLNzlzbHRBSFRLYnBrb1Jyc0hnSEl3Tmd2MzJDWktlc0FjMWhfbVF5allBRTBOOFpnVzl0cHpvOC1UUThJYU9mTjZMT3RZTVJWeDA0LXBEcC1KZVJuNldiSnFEc0hmQmwxNThrTnAtMFRSZllrVGJ6QnRpM0ZweDJBd2dlTThuNjZ2czRKZVAybkttNTNEeHJIZg?oc=5",
+   "source": "SiliconANGLE"
+  },
+  {
+   "id": "74d28bfc9697cc53",
+   "title": "Nvidia’s Answer to Rogue Agents Is an Open-Source AI Security System",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWlFKWXBVa3hxd2dhS055NnNxUURlSDhXT29pdG1hbGF2S0JQM0tQcmNtd19ITW13enBMOVYzTl91aFlEek1PamlGMHE4ZWY2STZDSFBMdy1fTUhMblQ3cGJ2VEpUVW4wb1hCUFFOcXFrMVBpb2t2ZGZuYWNJMUdXT3lDOHpiT29VX3psMDJWVGRSRDdqTVpra2tiNTY?oc=5",
+   "source": "WIRED"
+  },
+  {
+   "id": "391cbc3c11748501",
+   "title": "Nvidia Debuts System Designed to Stop AI Agents From Going Awry",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNXp5U1NScVBhb29ldkZHSmNLS1pYVHBvRGhXTHNuSDh2QXpkY2hUeDBqTjBFekpaOVA4YW9vcEo0endNWjhDb2dSQ0V1NVJGNTZUMEowT0dlX2liaEE3VmV0UGtpdHRHNGhvSUlERTkyY3BaU0o3cUhCdlktdUxOcHljY21yTUY3ekJoclh2SWJQd0kwV05ua0ItdzNkTklTS25YWUU2ZkZ5RFRNUC03bEp5Wko?oc=5",
+   "source": "Bloomberg.com"
+  },
+  {
+   "id": "24f27f61c6717ddd",
+   "title": "Nvidia Stock Could Get a China Boost—It Has Nothing to do with Trump-Xi Talks",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTEJqbVNWR2d6aWZIOHVnQ0h4a0pXUkw2UXdfcTZFSndNai1Bd3FpRFplYVVoaE10XzJHSlJOUWhBUWwzMXZhNmxRaUJud1JYNHZiYlp2M0NzUTg3SlYyazRpQ2hRaDhSWUJ2S2duaGNvM0M5cmg1NHg3WHNzQUwyd1ZvMzh6YVhT?oc=5",
+   "source": "Barron's"
+  },
+  {
+   "id": "89403b020d989111",
+   "title": "Nvidia unveils new system to put guardrails on AI agents",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVG9TUl9HUng3ZXJMSjJ6MjJQM3ZfeVh2dFFBTFNtbXBxWFZfbWplVWliQ083RW1YTDZJWHc1X0NJQ3ZiVmNzcEwxc3JkOG9UQl9xeTJKbDBvMUt1R0JWTXhRNU1BZHZkM3hsZjJ5d0t2VUd6c0FIcXFRMHA1WHVfX0phVUhyYTRzVmNJemhPZ9IBjwFBVV95cUxPVG9TUl9HUng3ZXJMSjJ6MjJQM3ZfeVh2dFFBTFNtbXBxWFZfbWplVWliQ083RW1YTDZJWHc1X0NJQ3ZiVmNzcEwxc3JkOG9UQl9xeTJKbDBvMUt1R0JWTXhRNU1BZHZkM3hsZjJ5d0t2VUd6c0FIcXFRMHA1WHVfX0phVUhyYTRzVmNJemhPZw?oc=5",
+   "source": "thehill.com"
+  },
+  {
+   "id": "09f72579f41ba576",
+   "title": "삼성전기, AI 반도체 기판에 6.7조 투자...세종·베트남 증설",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUXF1SWYtS3N0SHZqWUhYZDAwWUVrZWxFVDRhLVQ0STdlcEU2d1FPenBzVjNqdmdNU1VfZC1JM2NEV2g4ZlRiLV9RVWp2bXFmc2p4a0MteGpFYjI3YzFuZUtGNU5qd0s2UlVWZ1YtdWNEMk8tbjM5MVp6NWdZaWs1aGhadw?oc=5",
+   "source": "조선일보"
+  },
+  {
+   "id": "88d0d35c5134e2d9",
+   "title": "삼성전기, 반도체 패키지기판 생산시설 증설에 ’6조원대 투자’",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85blpjaVZ2NlE1cVdzVmo0cjlPRXQ4eGluLTdtMXhpMjVzMlUwRms0QTZiYVk0aEFZc0lOenhNMGZUX0E0RGZkZzdWZEFVcHN5cER2aWJHUVlCMDd3ZXpqREdvbjFhRGs?oc=5",
+   "source": "연합뉴스TV"
+  },
+  {
+   "id": "be202662d10b968f",
+   "title": "Samsung Electro-Mechanics Invests 6.7T Won in AI Semiconductor Substrates",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVzFoOWRfRklybVYwRmt3c1VTYzgxVkF4YmRPaXhKQy1HY2V6UVdjUmw1REJDZnFUVnpVNmV0clBzTW5vejRHOEE2U3d3NGp5VzVsdF9BRXltUy1QMlRiWUlhZmpJUlUtSThJUGNMa1hSc04tbmp3OFBOdkg1clhOVnctcm9xc2pS?oc=5",
+   "source": "조선일보"
+  },
+  {
+   "id": "fa1c2b53b3855b46",
+   "title": "'엔비디아 들어온다' 소식에 中 반도체 하락…日도 약세[Asia마감] - 머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE13dTRfbWlSTnN2WnNCVzgzS3EwbXYwRmhYYjJiT3VpVzNUMjBINmZqR1FLVG41Q2JRN0FjakN2WnJUN19mZy0wbENnUE03d1BfbjVTb2FIUGxIYTM3Qm82QlZqR3ZwTjB2anFJT2xn0gFuQVVfeXFMTXd1NF9taVJOc3Zac0JXODNLcTBtdjBGaFhiMmJPdWlXM1QyMEg2ZmpHUUtUbjVDYlE3QWNqQ3ZaclQ3X2ZnLTBsQ2dQTTd3UF9uNVNvYUhQbEhhMzdCbzZCVmpHdnBOMHZqcUlPbGc?oc=5",
+   "source": "머니투데이"
+  },
+  {
+   "id": "ccef42b1c748b56b",
+   "title": "삼성전기, 세종에 4조2700억 투자…AI 서버용 반도체 기판 생산라인 증설",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBfQjVLLV9RNHVYR3plQkxaamg4MWJoQjF5S3pUY3YyemJwS1M0ZGs3QVYwbGtZTHQ3Q0d3ekRLTUk0VWpIOXZJS19OeFUxTll0QlJIeDQtT3I1WXFGQkg5MmhJanAyWjNiWW9KcTJWcXNvN1pDa3g5b9IBeEFVX3lxTFBfQjVLLV9RNHVYR3plQkxaamg4MWJoQjF5S3pUY3YyemJwS1M0ZGs3QVYwbGtZTHQ3Q0d3ekRLTUk0VWpIOXZJS19OeFUxTll0QlJIeDQtT3I1WXFGQkg5MmhJanAyWjNiWW9KcTJWcXNvN1pDa3g5bw?oc=5",
+   "source": "뉴시스"
+  },
+  {
+   "id": "69aa21e5f6662386",
+   "title": "Nvidia Chips for Alibaba, ByteDance? China Reportedly Green Lights RTX PRO 5500 Amid US Curbs (UPDATED)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSENkODNYWlZxaGZRcmhPWnBTYjBmejB0S1lZOGlHQm1WUnBlbWZzRTJ0dlJuSWpHbVN5U25FN0czQzdwTmhQR2JFaFQxeGxuNkFUbkZfOHBnTVBFdllTT3ZicDM1a1B1M2xpSEF0M0lGTDhTdDBGeDI3bjkzTkZPQ01UTEROazA?oc=5",
+   "source": "aol.com"
+  },
+  {
+   "id": "8cc052bf6f27c331",
+   "title": "中, AI칩 자체수급 '진땀'… 결국 엔비디아칩 수입금지 빗장 푼다",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9rRlM4ODVnTDJNNUl1MFRwS0lud2RLbGFJQ3VVaFFUTWJMbHFrS0kzUk5rRm1aYnNrd2pKQnRpWnVHZXpqVFhfQlFxa1BVb3M?oc=5",
+   "source": "v.daum.net"
+  },
+  {
+   "id": "6bbf0645d13de0cd",
+   "title": "삼성전기, 세종에 4.27조 투자…AI 반도체 기판 증설",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5NSlltRF9MLXJ0d19MbC1fMUcwMllpMVZWVURwMmpiUlJFU2tRZDNNQjVMaEVEX096UTZOLWoyVDJubW1HNERUM3VNZXVhbnViTVNVaTdqN0NUOFpX?oc=5",
+   "source": "뉴스핌"
+  },
+  {
+   "id": "138745b0ad00708a",
+   "title": "빌 게이츠 \"트럼프의 AI 안전장치 거부는 착오...중국도 규제 동참할 것\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215717",
+   "source": "AI타임스"
+  }
+ ]
+}

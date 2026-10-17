@@ -1,0 +1,202 @@
+{
+ "generated_at": "2026-10-02T09:57:53Z",
+ "date": "2026-10-02",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 확장으로 인한 HBM 및 고성능 반도체 수요가 지속되는 가운데, 삼성전자의 엑시노스 양산 확대와 마이크론의 HBM 공급망 강화 등 주요 기업들의 생산 전략이 구체화되고 있습니다. 또한, 중국의 규제 우회 시도와 이에 따른 공급망 리스크가 부각되고 있습니다.",
+   "stories": [
+    {
+     "headline": "삼성전자, 엑시노스 2700 양산 돌입 및 생산량 10% 확대",
+     "facts": [
+      "삼성전자가 갤럭시 S27 시리즈용 AP인 엑시노스 2700 양산을 시작함",
+      "전작인 엑시노스 2600 대비 생산 물량을 10% 이상 늘림"
+     ],
+     "interpretation": "자체 AP 탑재 모델 확대를 통해 모바일 부문 수익성 개선 및 파운드리 가동률 제고를 도모하는 것으로 판단됨",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "갤럭시 S27 시리즈의 초기 판매량 및 엑시노스 칩셋의 수율 안정성 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d4f3490b861dbffb"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "마이크론, HBM 공급망 가속화 및 TSMC와 협력 강화",
+     "facts": [
+      "마이크론이 대만 내 4개 거점에서 HBM 생산 능력을 확대 중",
+      "NVIDIA와 공동 개발하는 NVHBM에 TSMC의 베이스 다이 사용"
+     ],
+     "interpretation": "HBM4 등 차세대 메모리 시장 선점을 위해 파운드리 협력을 통한 맞춤형 HBM 전략을 구사하여 수익성을 극대화하려는 의도",
+     "affected_company_ids": [
+      "micron",
+      "tsmc",
+      "nvidia"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "TSMC의 HBM 관련 파운드리 매출 비중 및 마이크론의 HBM 시장 점유율 변화",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "d73ee61eb8ca0dfe",
+      "f0592003b889dec3",
+      "7440115312fe4140"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "중국 텐센트, 오라클 통해 AI 칩 10만 개 임대",
+     "facts": [
+      "텐센트가 미국의 수출 규제를 우회하기 위해 오라클의 동남아 데이터센터를 활용",
+      "5년간 고성능 AI 칩 10만 개를 임대하는 계약 체결"
+     ],
+     "interpretation": "미국의 대중국 반도체 규제가 강화됨에 따라 클라우드 인프라를 통한 우회 확보 전략이 확산되고 있으며, 이는 오라클 등 클라우드 사업자에게는 새로운 수익원이 될 수 있음",
+     "affected_company_ids": [
+      "oracle"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 정부의 동남아시아 데이터센터 대상 추가 규제 도입 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "fc353d752ded2cda"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 시장이 '판단(Decision)' 모델 중심으로 재편되고 있으며, 빅테크 기업들은 자체 모델 경량화와 에이전트 생태계 구축에 집중하고 있습니다. 보안 사고에 대한 경각심이 높아지며 규제 움직임도 가시화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "AI 에이전트 '판단 모델' 경쟁 가속화",
+     "facts": [
+      "아마존이 오픈소스 의사결정 모델 '스트랜즈 디사이더 2B' 공개",
+      "업스테이지가 판단 전용 AI '솔라 디사이드' 출시",
+      "LLM의 생성 기능과 판단 기능을 분리하여 효율성 제고 시도"
+     ],
+     "interpretation": "범용 LLM의 높은 비용과 속도 문제를 해결하기 위해 특정 작업에 특화된 소형 판단 모델을 도입하는 것이 AI 에이전트 상용화의 핵심 트렌드로 자리 잡음",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "판단 모델 도입 후 기업들의 AI 운영 비용 절감 효과 입증 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "313c32805a9fba1a",
+      "04284e124b7fc850",
+      "e69e745affb885da"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "오픈AI, 내부 기밀 유출 혐의로 연구원 3명 해고",
+     "facts": [
+      "오픈AI가 안전 및 정렬 팀 연구원 3명을 기밀 유출 혐의로 해고",
+      "비정상적인 활동이 확인된 제3자 조직 100여 곳에 통보"
+     ],
+     "interpretation": "AI 안전성 확보를 위한 내부 통제 강화 과정에서 발생한 갈등으로 보이며, 이는 AI 모델의 보안 및 통제 실패 리스크를 시장에 재확인시킴",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "오픈AI의 안전 거버넌스 개편 및 추가적인 내부 인력 이탈 가능성",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e0e045d38242fc16",
+      "37d10c5b003b0407",
+      "3952046d76e8736f"
+     ],
+     "importance": 3
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "d4f3490b861dbffb",
+   "title": "삼성전자, 엑시노스 2700 물량 10% 늘려 양산 돌입",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=63219",
+   "source": "디일렉"
+  },
+  {
+   "id": "fc353d752ded2cda",
+   "title": "텐센트, 오라클서 AI 칩 10만개 임대…규제 피하려 동남아 데이터센터 확보",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215909",
+   "source": "AI타임스"
+  },
+  {
+   "id": "e0e045d38242fc16",
+   "title": "OpenAI fires 3 safety researchers for sharing confidential information",
+   "url": "https://www.digitimes.com/news/a20261002PD237/openai-investigation-bloomberg-infrastructure-redwood.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "d73ee61eb8ca0dfe",
+   "title": "Micron ramps up HBM capacity at Taiwan's four major sites",
+   "url": "https://www.digitimes.com/news/a20261002PD224/micron-taiwan-capacity-hbm-2026.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "f0592003b889dec3",
+   "title": "Micron eyes NVHBM profits with TSMC custom HBM push",
+   "url": "https://www.digitimes.com/news/a20261002PD216/micron-hbm-dram-bandwidth-design.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "7440115312fe4140",
+   "title": "Micron’s Numbers Show Why HBM4 Memory Is Worth 15X Its Weight In Gold",
+   "url": "https://www.nextplatform.com/store/2026/10/02/microns-numbers-show-why-hbm4-memory-is-worth-15x-its-weight-in-gold/5300701",
+   "source": "The Next Platform"
+  },
+  {
+   "id": "313c32805a9fba1a",
+   "title": "아마존, AI 에이전트 전용 오픈소스 의사결정 모델 ‘스트랜즈 디사이더 2B’ 공개",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215887",
+   "source": "AI타임스"
+  },
+  {
+   "id": "04284e124b7fc850",
+   "title": "업스테이지, 판단 전용 AI ‘솔라 디사이드’ 출시…“제브보다 빠르고 정확”",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215919",
+   "source": "AI타임스"
+  },
+  {
+   "id": "37d10c5b003b0407",
+   "title": "오픈AI, '불량 에이전트' 무단 활동 100여곳 조직에 통보",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215896",
+   "source": "AI타임스"
+  },
+  {
+   "id": "e69e745affb885da",
+   "title": "오픈AI・AWS도 참전, Jev가 터뜨린 ‘디시전 AI’ 전쟁",
+   "url": "https://byline.network/2026/10/2-472/",
+   "source": "바이라인네트워크"
+  },
+  {
+   "id": "3952046d76e8736f",
+   "title": "오픈AI, 내부 기밀 유출 혐의로 정렬·안전팀 연구원 3명 해고",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215876",
+   "source": "AI타임스"
+  }
+ ]
+}

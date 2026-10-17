@@ -1,0 +1,200 @@
+{
+ "generated_at": "2026-10-09T10:47:32Z",
+ "date": "2026-10-09",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 AI 인프라 투자에 대한 시장의 검증이 강화되는 가운데, 파운드리 경쟁 심화와 주요 기업의 생산 전략 변화가 두드러지고 있습니다.",
+   "stories": [
+    {
+     "headline": "엔비디아 지원 데이터센터 기업 '퍼머스', IPO 철회",
+     "facts": [
+      "엔비디아의 지원을 받던 호주 데이터센터 기업 퍼머스(Firmus)가 50억달러 규모의 IPO를 철회함",
+      "수요예측 과정에서 고평가 논란과 부채 우려가 제기됨"
+     ],
+     "interpretation": "AI 인프라 관련 기업에 대한 시장의 밸류에이션 검증이 엄격해지고 있음을 시사하며, 과도한 기대감이 반영된 AI 관련주 전반에 경계심을 높이는 요인임",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "향후 상장을 추진하는 AI 인프라 관련 기업들의 수요예측 결과 및 밸류에이션 조정 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "75ffcaf30d38574f",
+      "10bba90a068a5bbf"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자·TSMC 파운드리 3분기 실적 희비 교차",
+     "facts": [
+      "삼성전자 파운드리 사업부는 3분기 매출이 전분기 대비 소폭 증가에 그침",
+      "TSMC는 두 자릿수 성장세를 보이며 삼성전자와의 점유율 격차를 확대할 전망"
+     ],
+     "interpretation": "첨단 공정 및 패키징 기술력 차이가 파운드리 매출 격차로 이어지고 있으며, TSMC의 독주 체제가 더욱 공고해지는 양상임",
+     "affected_company_ids": [
+      "tsmc",
+      "samsung-electronics"
+     ],
+     "event_type": "earnings",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "10월 15일 예정된 TSMC의 Q3 실적 발표를 통한 구체적인 가이던스 확인",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "053801ca5ff05da8"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "SK하이닉스, 호남권 반도체 클러스터 구축 가속화",
+     "facts": [
+      "최태원 SK그룹 회장이 전남광주 반도체 특화단지 부지를 방문함",
+      "용인 클러스터의 3분의 2 규모 팹 구축을 검토 중이며 속도감 있는 추진을 주문함"
+     ],
+     "interpretation": "국내 생산 거점 다변화를 통해 메모리 반도체 공급망 안정성을 확보하고, 향후 AI 메모리 수요 증가에 대비한 선제적 캐파(CAPA) 확충 전략임",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "정부의 기반시설 지원 속도 및 구체적인 투자 집행 계획 발표",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "a6b352e81db34d7a",
+      "80c1e8dcf2fb0d3d"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 섹터는 오픈AI의 매출 성장세 둔화 우려와 빅테크 기업에 대한 미국 정부의 규제 강화가 주요 이슈로 부상했습니다.",
+   "stories": [
+    {
+     "headline": "오픈AI 매출 전망치 하향에 따른 시장 충격",
+     "facts": [
+      "오픈AI의 연간환산매출(ARR)이 당초 알려진 700억달러 대비 낮은 500억달러 수준으로 예상됨",
+      "이 소식으로 미국 주요 증시가 약세를 보임"
+     ],
+     "interpretation": "AI 서비스의 수익화 속도가 시장의 기대치에 미치지 못할 수 있다는 우려가 확산되며, AI 관련 기술주 전반의 투자 심리를 위축시킴",
+     "affected_company_ids": [],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "오픈AI의 실제 매출 성장세 및 주요 빅테크 기업들의 AI 관련 수익화 지표",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "7519973e5761c07f",
+      "8a2c2bcb72a8b14b",
+      "d7f6cef6b8bfb129"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "미국 정부, MS 등 주요 IT 기업 외국인 영주권 지원 제동",
+     "facts": [
+      "트럼프 행정부가 마이크로소프트, 어도비 등 8개 기업의 외국인 숙련 근로자 영주권 지원 프로그램 참여를 중단함",
+      "미국인 고용 확대 및 제도 악용 방지가 명분임"
+     ],
+     "interpretation": "고숙련 외국인 인력 확보에 의존하는 빅테크 기업들의 인건비 상승 및 인력 운영 효율성 저하가 예상되며, 장기적으로 기술 경쟁력에 부정적 영향을 줄 수 있음",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "해당 기업들의 대응 방안 및 미국 정부의 추가적인 이민 정책 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2bd032bafa3bf3b3",
+      "f32bbbb66aaeeeda",
+      "c121f261e2359df0"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "7519973e5761c07f",
+   "title": "오픈AI 연환산매출 500억달러 수준…기존 전망치 대비 200억달러 하회",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=63511",
+   "source": "디일렉"
+  },
+  {
+   "id": "75ffcaf30d38574f",
+   "title": "데이터센터 전문 퍼머스, 호주 IPO 철회…'엔비디아 후광'도 안 통했다",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216103",
+   "source": "AI타임스"
+  },
+  {
+   "id": "a6b352e81db34d7a",
+   "title": "최태원 \"호남 반도체 팹, 용인 3분의 2 규모 검토...속도감 있게 추진\"",
+   "url": "https://zdnet.co.kr/view/?no=20261009163220",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "80c1e8dcf2fb0d3d",
+   "title": "광주 부지 찾은 SK그룹 최태원 회장, “호남권 반도체 클러스터 속도감 있게”",
+   "url": "https://www.etnews.com/20261009000054",
+   "source": "전자신문"
+  },
+  {
+   "id": "053801ca5ff05da8",
+   "title": "삼성·TSMC, 올 3분기도 파운드리 '희비교차'…점유율 격차 확대 전망",
+   "url": "https://zdnet.co.kr/view/?no=20261009083023",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "8a2c2bcb72a8b14b",
+   "title": "\"오픈AI 매출 기대이하\" 전망에…반도체 주 충격파",
+   "url": "https://zdnet.co.kr/view/?no=20261009094454",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "10bba90a068a5bbf",
+   "title": "Nvidia-backed Aussie AI firm Firmus withdraws historic IPO, citing market volatility",
+   "url": "https://www.cnbc.com/2026/10/09/nvidia-ai-firmus-ipo-.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "2bd032bafa3bf3b3",
+   "title": "\"미국인 채용하라\"…美, MS·어도비 등 8개사 외국인 영주권 지원 제동",
+   "url": "https://zdnet.co.kr/view/?no=20261009105949",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "f32bbbb66aaeeeda",
+   "title": "미국, 외국인 노동자 단속 강화…MS·어도비 영주권 신청 중단",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216097",
+   "source": "AI타임스"
+  },
+  {
+   "id": "c121f261e2359df0",
+   "title": "India’s tech giants shrug off changes to USA’s skilled visa program",
+   "url": "https://www.theregister.com/legal/2026/10/09/indias-tech-giants-shrug-off-changes-to-usas-skilled-visa-program/5302154",
+   "source": "The Register"
+  },
+  {
+   "id": "d7f6cef6b8bfb129",
+   "title": "오픈AI, 연간 매출 추정치 27조 하향…빅테크 주가 일제히 요동",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216098",
+   "source": "AI타임스"
+  }
+ ]
+}

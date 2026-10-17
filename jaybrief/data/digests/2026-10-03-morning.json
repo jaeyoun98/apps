@@ -1,0 +1,202 @@
+{
+ "generated_at": "2026-10-02T17:33:53Z",
+ "date": "2026-10-03",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 수요 급증에 따른 메모리 공급 부족과 데이터센터 전력 확보 문제가 반도체 산업의 핵심 변수로 부상하고 있습니다. 주요 기업들은 AI 칩 공급망 관리와 차세대 패키징 기술 확보에 집중하고 있습니다.",
+   "stories": [
+    {
+     "headline": "Micron, AI 수요 견인으로 데이터센터 매출 11배 급증 및 강력한 가이던스 제시",
+     "facts": [
+      "Micron의 2026 회계연도 4분기 실적이 시장 예상치를 상회함",
+      "데이터센터 매출이 전년 대비 11배 증가함",
+      "2027~2028년 메모리 공급이 2026년보다 더욱 타이트해질 것으로 전망"
+     ],
+     "interpretation": "AI 서버향 HBM 및 고성능 메모리 수요가 공급을 지속적으로 상회하는 구조적 호황이 이어지고 있음을 시사합니다. 메모리 가격 상승세가 지속될 가능성이 높습니다.",
+     "affected_company_ids": [
+      "micron"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "메모리 가격 상승에 따른 주요 고객사의 원가 부담 전가 여부를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5c02911387c2b099",
+      "d73ee61eb8ca0dfe"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "NVIDIA AI 칩 밀수 사건 및 공급망 제약 심화",
+     "facts": [
+      "미국 검찰이 3억 달러 규모의 NVIDIA AI 칩을 중국으로 밀수한 혐의로 캘리포니아 거주 남성을 기소함",
+      "NVIDIA가 메모리 부족 현상 속에서 DGX Spark 제품의 사양을 하향 조정하고 가격을 인상함"
+     ],
+     "interpretation": "미국의 대중국 수출 규제에도 불구하고 고성능 AI 칩에 대한 중국의 수요가 강력하며, 메모리 공급 부족이 NVIDIA의 하드웨어 제품군 가격 정책과 사양에 직접적인 영향을 미치고 있습니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "supply_chain",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "미국 정부의 대중국 반도체 수출 통제 강화 및 NVIDIA의 메모리 확보 전략 변화를 주시해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f295ea00e07b1982",
+      "5d2772049b11ed03",
+      "ba5eb20a2611f1f0"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "TSMC 해외 투자 및 국내 생산 확대 전략",
+     "facts": [
+      "TSMC의 싱가포르 신규 투자설이 제기됨",
+      "대만 경제부가 TSMC의 대만 내 투자 확대를 지원하겠다고 발표함"
+     ],
+     "interpretation": "글로벌 지정학적 리스크와 AI 칩 생산 수요 증가로 인해 TSMC의 생산 거점 다변화와 대만 정부의 핵심 산업 보호 의지가 충돌하고 있습니다.",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "10월 15일 예정된 TSMC의 Q3 실적 발표에서 해외 공장 가동 및 투자 계획에 대한 공식 언급을 확인해야 합니다.",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "7a9618819e77890e"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 모델의 성능 경쟁이 심화되는 가운데, 기업들은 AI 에이전트 기술 확보와 데이터센터 인프라 구축에 사활을 걸고 있습니다. 보안 사고와 규제 환경 변화도 주요 이슈입니다.",
+   "stories": [
+    {
+     "headline": "Google, 차세대 AI 모델 'Gemini 4 Argon' 공개 및 Frontier AI 경쟁 복귀",
+     "facts": [
+      "Google이 코딩 및 사이버 보안 성능을 대폭 개선한 'Gemini 4 Argon'을 출시함",
+      "분석가들은 이번 모델을 통해 Google이 OpenAI 및 Anthropic과의 Frontier AI 경쟁 대열에 복귀했다고 평가함"
+     ],
+     "interpretation": "AI 모델의 성능 격차가 좁혀지면서 클라우드 서비스와의 결합을 통한 Google의 시장 점유율 방어 및 확대 전략이 본격화될 전망입니다.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "Gemini 4 Argon의 실제 기업용 클라우드 채택률과 경쟁사 모델 대비 벤치마크 성능을 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "15632eb0e13a7e06",
+      "6be2a237f2b4d0d2",
+      "f3fb8d99642af5c0"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "Oracle 데이터센터 전력 확보 지연 및 텐센트와의 대규모 AI 칩 임대 계약",
+     "facts": [
+      "Oracle의 위스콘신 AI 데이터센터가 전력 승인 문제로 2027년 고객 인도 일정이 지연될 위기에 처함",
+      "텐센트가 규제를 우회하기 위해 Oracle로부터 동남아 데이터센터 내 AI 칩 10만 개를 5년간 임대하기로 함"
+     ],
+     "interpretation": "데이터센터 인프라 구축의 핵심 병목인 전력 확보 문제가 현실화되고 있으며, 중국 기업들의 우회적인 컴퓨팅 자원 확보 움직임이 지속되고 있습니다.",
+     "affected_company_ids": [
+      "oracle"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "데이터센터 전력 공급 승인 지연이 Oracle의 클라우드 매출 성장세에 미치는 영향을 모니터링해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "da73f9b9a02bb7e5",
+      "fc353d752ded2cda"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "f295ea00e07b1982",
+   "title": "Californian accused of shipping $300M worth of Nvidia chips to China without Uncle Sam’s approval",
+   "url": "https://www.theregister.com/security/2026/10/02/californian-accused-of-shipping-300m-worth-of-nvidia-chips-to-china-without-uncle-sams-approval/5300856",
+   "source": "The Register"
+  },
+  {
+   "id": "5d2772049b11ed03",
+   "title": "Nvidia debuts $4,999 DGX Spark with half the RAM and storage, amid memory crunch",
+   "url": "https://www.theregister.com/systems/2026/10/02/nvidia-debuts-4999-dgx-spark-with-half-the-ram-and-storage-amid-memory-crunch/5300622",
+   "source": "The Register"
+  },
+  {
+   "id": "5c02911387c2b099",
+   "title": "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold",
+   "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "fc353d752ded2cda",
+   "title": "텐센트, 오라클서 AI 칩 10만개 임대…규제 피하려 동남아 데이터센터 확보",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215909",
+   "source": "AI타임스"
+  },
+  {
+   "id": "7a9618819e77890e",
+   "title": "Taiwan pledges to help TSMC expand domestic investment amid Singapore rumors",
+   "url": "https://www.digitimes.com/news/a20261002PD234/tsmc-investment-taiwan-government-moea.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "d73ee61eb8ca0dfe",
+   "title": "Micron ramps up HBM capacity at Taiwan's four major sites",
+   "url": "https://www.digitimes.com/news/a20261002PD224/micron-taiwan-capacity-hbm-2026.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "ba5eb20a2611f1f0",
+   "title": "California tech exec arrested in US$300M Nvidia AI server smuggling case",
+   "url": "https://www.digitimes.com/news/a20261002PD225/california-nvidia-chips-technology-2023.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "15632eb0e13a7e06",
+   "title": "Can Google's new model really catch up to OpenAI and Anthropic at the frontier?",
+   "url": "https://www.cnbc.com/2026/10/02/tech-download-google-argon-frontier-openai-anthropic.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "da73f9b9a02bb7e5",
+   "title": "Power approval set to delay Oracle's Wisconsin AI datacenter",
+   "url": "https://www.theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832",
+   "source": "The Register"
+  },
+  {
+   "id": "f3fb8d99642af5c0",
+   "title": "Google has been playing catch up with OpenAI and Anthropic. Does its new flagship model really compete at the frontier?",
+   "url": "https://www.cnbc.com/2026/10/02/tech-download-google-argon-frontier-openai-anthropic.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "6be2a237f2b4d0d2",
+   "title": "Google rolls out Gemini 4 Argon, its most advanced AI model",
+   "url": "https://www.cnbc.com/2026/09/30/google-gemini-4-argon-ai.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}
