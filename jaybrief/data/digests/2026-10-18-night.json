@@ -1,0 +1,159 @@
+{
+ "generated_at": "2026-10-18T13:23:26Z",
+ "date": "2026-10-18",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 산업은 성숙 공정의 가동률 상승과 가격 인상 전망, 그리고 국방 및 AI 특화 반도체 자립화 움직임이 두드러짐. 미국 내 생산 거점 확대로 인한 장비사의 기회와 중국의 AI 기술 수출 제한 등 지정학적 리스크가 공존함.",
+   "stories": [
+    {
+     "headline": "4분기 성숙 공정 파운드리 가동률 91% 및 내년 1분기 가격 인상 전망",
+     "facts": [
+      "4분기 전 세계 성숙 공정 파운드리 팹 가동률이 91%로 집계됨",
+      "에너지 및 소재 비용 상승으로 인해 내년 1분기 웨이퍼 가격 인상이 예상됨"
+     ],
+     "interpretation": "파운드리 업계의 공급 타이트 현상이 지속되면서 성숙 공정 중심의 수익성 개선이 기대됨. 이는 파운드리 업체들의 가격 결정력이 강화되고 있음을 시사함.",
+     "affected_company_ids": [
+      "tsmc",
+      "samsung-electronics"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "실제 파운드리 업체들의 분기별 웨이퍼 판가 인상률 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "32e1c2cda2bea505"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "엔비디아, 온디바이스 AI 시장 겨냥 'RTX 스파크' 국내 출시",
+     "facts": [
+      "엔비디아가 AI PC용 SoC 'RTX 스파크'를 출시하고 국내 판매를 시작함",
+      "에이수스, 델, HP, 레노버, 마이크로소프트, MSI 등이 탑재 노트북을 출시"
+     ],
+     "interpretation": "엔비디아가 데이터센터를 넘어 온디바이스 AI PC 시장으로 영향력을 확대하고 있음. 이는 AI 에이전트 구동을 위한 하드웨어 생태계 주도권 확보 전략임.",
+     "affected_company_ids": [
+      "nvidia",
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "RTX 스파크 탑재 노트북의 실제 시장 점유율 및 소비자 반응.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d89fd2e1da468862"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "중국, 첨단 AI 모델 및 국방용 AI 에이전트 기술 수출 제한 추진",
+     "facts": [
+      "중국 상무부와 과학기술부가 AI 등 40개 기술의 수출 제한 목록 개정 초안 공개",
+      "매개변수 2조 개 이상의 AI 모델 및 국방용 AI 에이전트 기술이 포함됨"
+     ],
+     "interpretation": "미·중 기술 패권 경쟁 심화에 따른 대응 조치로, 글로벌 AI 기술 교류 및 기업들의 중국 내 R&D 전략에 제약이 발생할 가능성이 높음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "중국 정부의 최종 규제안 확정 및 실제 적용 범위.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "59fdc2ec14a0fce1"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 모델의 고도화와 에이전트 간 협업 능력이 비약적으로 발전하고 있으나, 개인정보 보호 및 데이터 학습 윤리 문제가 주요 리스크로 부상함.",
+   "stories": [
+    {
+     "headline": "구글 제미나이 4 아르곤 기반 AI 에이전트, 마인크래프트 협업 성공",
+     "facts": [
+      "구글 딥마인드 연구진이 4개의 AI 에이전트가 협력해 마인크래프트 최종 보스를 물리친 실험 결과 발표",
+      "에이전트들이 스스로 역할을 분담하고 전략을 수정하며 27시간 동안 공동 목표 수행"
+     ],
+     "interpretation": "AI 에이전트의 자율적 문제 해결 및 협업 능력이 실질적인 복합 작업 수행 수준으로 진화하고 있음을 입증함. 이는 향후 복잡한 비즈니스 프로세스 자동화의 기반이 될 것임.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "실제 산업 현장에서의 다중 에이전트 협업 솔루션 상용화 시점.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "76ec31df76f13531"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "메타, AI 학습 관련 약관 수정에도 외부 데이터 수집 논란 지속",
+     "facts": [
+      "메타가 비즈니스 계정 약관에서 AI 학습 문구를 삭제했으나, 외부 웹사이트 콘텐츠 자동 수집 조항은 유지함",
+      "언론사 웹사이트 콘텐츠의 무단 학습 사용에 대한 반발이 이어짐"
+     ],
+     "interpretation": "AI 모델 학습을 위한 데이터 확보와 저작권 보호 사이의 갈등이 심화되고 있음. 이는 향후 법적 규제 강화 및 기업의 데이터 확보 비용 상승으로 이어질 수 있음.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "주요 국가들의 AI 데이터 학습 관련 저작권 법제화 움직임.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "cfee21d8c41c0bc3"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "32e1c2cda2bea505",
+   "title": "\"4분기 성숙 공정 파운드리 가동률 91%… 내년 1분기 가격 인상\"",
+   "url": "https://zdnet.co.kr/view/?no=20261018152447",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "d89fd2e1da468862",
+   "title": "'최대 1000만원' AI 노트북…엔비디아 'RTX 스파크' 국내 출격",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=63851",
+   "source": "디일렉"
+  },
+  {
+   "id": "76ec31df76f13531",
+   "title": "'제미나이 4 아르곤', 역할 나눠 27시간 만에 마인크래프트 클리어",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216379",
+   "source": "AI타임스"
+  },
+  {
+   "id": "cfee21d8c41c0bc3",
+   "title": "메타, 언론사 콘텐츠 AI 학습 논란에 약관 수정…자동 수집 권한은 유지",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216372",
+   "source": "AI타임스"
+  },
+  {
+   "id": "59fdc2ec14a0fce1",
+   "title": "중국, AI 핵심 기술 수출 제한 추진…'독자 AI' 중요성 커졌다",
+   "url": "https://zdnet.co.kr/view/?no=20261018095644",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

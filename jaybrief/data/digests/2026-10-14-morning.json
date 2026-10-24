@@ -1,0 +1,179 @@
+{
+ "generated_at": "2026-10-13T18:57:55Z",
+ "date": "2026-10-14",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "글로벌 반도체 섹터는 미국발 기술주 매도세 확산과 중국 메모리 업체의 추격에 따른 마진 우려가 겹치며 투자 심리가 크게 위축되었습니다. 한편, Microsoft는 자체 AI 가속기 로드맵을 구체화하며 공급망 다변화 의지를 보였습니다.",
+   "stories": [
+    {
+     "headline": "미국발 반도체 매도세 확산 및 아시아 증시 동반 급락",
+     "facts": [
+      "미국 기술주 매도세가 아시아 및 유럽 시장으로 확산",
+      "삼성전자와 SK하이닉스 주가 급락으로 코스피 5.46% 하락",
+      "Micron, Seagate 등 주요 메모리 및 스토리지 기업 주가 동반 하락"
+     ],
+     "interpretation": "글로벌 AI 인프라 투자 과열 논란과 거시경제 불확실성이 겹치며 반도체 섹터 전반에 대한 밸류에이션 조정이 진행 중입니다. 특히 메모리 반도체 기업들은 중국 CXMT의 추격에 따른 가격 결정력 약화 우려가 투자 심리를 더욱 압박하고 있습니다.",
+     "affected_company_ids": [
+      "micron",
+      "sk-hynix",
+      "samsung-electronics"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "TSMC의 3분기 실적 발표에서 확인될 AI 반도체 수요의 지속성 여부.",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "8829a12b4ad2e72d",
+      "ceb3f89dbdc7e36e",
+      "8657bc76462bc7d8"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "Microsoft, 차세대 Azure Maia AI 가속기 대규모 도입 계획",
+     "facts": [
+      "Microsoft가 96개 칩 구성의 Maia 300 가속기 랙 도입 계획 발표",
+      "이전 세대 대비 7배의 토큰 처리량(throughput) 제공",
+      "2027년 본격적인 생산 배치 예정"
+     ],
+     "interpretation": "Microsoft는 NVIDIA 의존도를 낮추고 자체 AI 인프라 효율성을 극대화하려는 전략을 가속화하고 있습니다. 이는 클라우드 서비스의 마진 개선과 AI 연산 비용 절감을 위한 핵심적인 행보로 판단됩니다.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "Maia 300의 실제 데이터센터 적용 후 전력 효율성 및 성능 지표.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6f6481b7c967bcbe",
+      "4eb1c52c90e28d19"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 및 AI 섹터에서는 AI 에이전트의 기업 도입이 확산되는 가운데, 보안 이슈와 규제 리스크가 부각되고 있습니다. 또한 Apple의 스마트홈 시장 진출이 본격화되며 기존 강자들과의 경쟁이 심화될 전망입니다.",
+   "stories": [
+    {
+     "headline": "Apple, 스마트홈 허브 'HomeView' 출시로 시장 경쟁 가속화",
+     "facts": [
+      "Apple이 7인치 화면을 탑재한 스마트홈 허브 'HomeView'를 299달러에 출시",
+      "Siri AI를 통합하여 음성 명령 및 6인 사용자 인식 기능 제공",
+      "Amazon Echo Show 및 Google Nest Hub와 직접 경쟁"
+     ],
+     "interpretation": "Apple은 하드웨어 생태계와 Siri AI를 결합하여 스마트홈 시장 점유율 확대를 노리고 있습니다. 이는 기존 Google과 Amazon이 장악한 시장에 대한 직접적인 도전으로, 향후 스마트홈 플랫폼 주도권 경쟁이 치열해질 것입니다.",
+     "affected_company_ids": [
+      "alphabet",
+      "amazon"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "Apple HomeView의 초기 판매량 및 기존 스마트홈 사용자들의 플랫폼 전환율.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "915c2338d66d147d",
+      "804ef972b34d313c",
+      "8b7f1cd53782eb9f"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "AI 에이전트 도입에 따른 기업 보안 및 운영 리스크 증대",
+     "facts": [
+      "기업 내 AI 도구 사용 확산으로 새로운 보안 취약점 발생",
+      "Pluto Security가 AI 보안 문제 해결을 위해 4,200만 달러 투자 유치",
+      "AI 에이전트의 무단 구매 방지를 위한 American Express의 프레임워크 도입"
+     ],
+     "interpretation": "기업들이 생산성 향상을 위해 AI 에이전트를 도입하고 있으나, 이로 인한 보안 구멍과 통제 불가능한 비용 발생이 새로운 리스크로 부상하고 있습니다. AI 보안 솔루션 시장의 성장이 필연적인 상황입니다.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "medium",
+     "watch_next": "주요 기업들의 AI 보안 사고 발생 여부 및 관련 규제 도입 속도.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "529135696d4509f3",
+      "64cff251719a3288"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "6f6481b7c967bcbe",
+   "title": "Microsoft’s “Clea” Maia 300 Inference XPU Is A Bandwidth Beast",
+   "url": "https://www.nextplatform.com/compute/2026/10/13/microsofts-clea-maia-300-inference-xpu-is-a-bandwidth-beast/5302874",
+   "source": "The Next Platform"
+  },
+  {
+   "id": "8829a12b4ad2e72d",
+   "title": "Micron, Seagate, Western Digital sink as chip sell-off deepens",
+   "url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "4eb1c52c90e28d19",
+   "title": "Microsoft plans multi-gigawatt rollout of next-gen Azure Maia AI accelerator racks",
+   "url": "https://www.theregister.com/systems/2026/10/13/microsoft-plans-multi-gigawatt-rollout-of-next-gen-azure-maia-ai-accelerator-racks/5302802",
+   "source": "The Register"
+  },
+  {
+   "id": "ceb3f89dbdc7e36e",
+   "title": "[포토] 장중 6,000 무너진 코스피, 폭락",
+   "url": "https://www.etnews.com/20261013000445",
+   "source": "전자신문"
+  },
+  {
+   "id": "8657bc76462bc7d8",
+   "title": "CXMT's server DRAM push raises margin concerns for Samsung, SK Hynix",
+   "url": "https://www.digitimes.com/news/a20261013VL224/cxmt-dram-samsung-sk-hynix-production.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "529135696d4509f3",
+   "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+   "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "915c2338d66d147d",
+   "title": "Apple’s first smart display is the 7-inch HomeView for $299",
+   "url": "https://arstechnica.com/apple/2026/10/apple-homeview-smart-home-hub-opens-for-preorders-at-299/",
+   "source": "Ars Technica"
+  },
+  {
+   "id": "804ef972b34d313c",
+   "title": "Apple releases HomeView smart home hub with screen as showcase for Siri AI",
+   "url": "https://www.cnbc.com/2026/10/13/apple-homeview-smart-home-siri-ai.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "8b7f1cd53782eb9f",
+   "title": "Apple makes another push into the smart home market with HomeView",
+   "url": "https://techcrunch.com/2026/10/13/apple-makes-another-push-into-the-smart-home-market-with-homeview/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "64cff251719a3288",
+   "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+   "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+   "source": "TechCrunch"
+  }
+ ]
+}

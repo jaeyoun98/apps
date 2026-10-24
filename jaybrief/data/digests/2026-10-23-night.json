@@ -1,0 +1,194 @@
+{
+ "generated_at": "2026-10-23T14:18:47Z",
+ "date": "2026-10-23",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 AI 인프라 투자에 따른 공급망 확장과 기업별 전략 재편이 활발합니다. 특히 엔비디아 중심의 생태계 강화와 삼성전자의 파운드리 투자, SK하이닉스의 자회사 전략 수정 등이 주요 이슈입니다.",
+   "stories": [
+    {
+     "headline": "엔비디아 GPU 수요 지속 및 공급망 강화",
+     "facts": [
+      "중국 빅테크 3사가 미국의 규제를 피한 엔비디아 GPU를 47조 원 규모로 주문함",
+      "스페이스X가 엔비디아를 포함한 130여 개 기업과 협력하여 기업용 AI 시장 공략을 위한 파트너 네트워크를 출범함",
+      "자다라(Zadara)가 엔비디아의 AI 클라우드 기술 검증을 통과함"
+     ],
+     "interpretation": "미국의 대중국 수출 규제에도 불구하고 우회 경로를 통한 엔비디아 GPU 수요가 여전히 강력함을 시사합니다. 또한 스페이스X와의 협력은 AI 인프라가 단순 하드웨어를 넘어 기업용 소프트웨어 생태계로 확장되고 있음을 보여줍니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국의 대중국 반도체 수출 규제 강화 여부 및 엔비디아의 공급망 대응 능력 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c492fcc4614ddd42",
+      "ff83be832570bbc5",
+      "bb9dc754dedfe95f"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "SK하이닉스, 솔리다임 IPO 검토 중단",
+     "facts": [
+      "SK하이닉스가 미국 낸드플래시 자회사 솔리다임의 IPO 검토를 중단함",
+      "자본시장 여건과 주가 흐름을 고려하여 기존 주주에게 유리한 방향으로 재검토할 필요가 있다고 밝힘",
+      "솔리다임은 AI 메모리 수요 대응을 위한 미국 내 생산시설 확보를 추진 중임"
+     ],
+     "interpretation": "IPO 중단은 단기적인 자금 조달보다는 기업 가치 극대화와 그룹 차원의 전략적 판단이 우선시되었음을 의미합니다. AI 메모리 시장의 성장세는 유지되고 있으나, 시장 환경 변화에 따른 보수적 경영 기조로 해석됩니다.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "솔리다임의 향후 자금 조달 방식 및 AI 메모리 시장 점유율 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5beb82ce8967a501",
+      "0926181850cbf64b"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성전자, 미국 테일러 파운드리 2nm 설비 투자 가속",
+     "facts": [
+      "삼성전자가 미국 테일러 1공장의 잔여 공간을 채우기 위해 추가 장비를 발주함",
+      "이번 투자로 2nm 공정 생산 능력을 월 2만 장 규모로 확대할 계획임"
+     ],
+     "interpretation": "파운드리 시장 경쟁이 격화되는 가운데, 미국 현지 생산 거점을 조기에 안정화하여 AI 반도체 수요에 대응하려는 전략입니다. 2nm 공정 선점은 향후 글로벌 빅테크 고객사 확보에 핵심적인 요소입니다.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "테일러 공장의 2nm 공정 수율 확보 및 주요 고객사 수주 현황",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "33aa1430de3bd7f6"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 및 AI 테크 섹터는 대규모 인프라 투자에 따른 재무적 부담과 효율성 제고 사이에서 갈등하고 있습니다. 메타의 주가 급락은 AI 투자의 수익성에 대한 시장의 의구심을 단적으로 보여줍니다.",
+   "stories": [
+    {
+     "headline": "메타, AI 투자 확대에 따른 재무 부담으로 주가 급락",
+     "facts": [
+      "메타가 3분기 호실적에도 불구하고 AI 인프라 투자 비용 증가로 주가가 7% 이상 하락함",
+      "잉여현금흐름이 2012년 이후 처음으로 적자로 전환됨"
+     ],
+     "interpretation": "시장은 AI 기술력 확보보다 대규모 자본 지출이 기업의 재무 건전성에 미치는 악영향을 더 민감하게 반응하고 있습니다. AI 수익화 모델이 가시화되기 전까지는 투자자들의 우려가 지속될 것으로 보입니다.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "earnings",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "메타의 AI 투자 효율성 입증 및 향후 자본 지출 가이던스 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "de81bb64f608c17c",
+      "c6f7ea921c37a5f1",
+      "de058eade36e5b97"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "AWS, GPU 관리 자동화 기능 출시",
+     "facts": [
+      "아마존웹서비스(AWS)가 기업이 GPU 인프라를 직접 관리하지 않고도 AI 모델 학습을 제어할 수 있는 기능을 공개함",
+      "개발자가 학습 방식을 설계하면 AWS가 자원 할당과 실행을 담당함"
+     ],
+     "interpretation": "AI 에이전트 개발의 진입 장벽을 낮추어 기업들의 AI 도입을 가속화하려는 전략입니다. 이는 클라우드 서비스 제공업체들이 AI 인프라의 운영 효율성을 높여 고객사 락인(Lock-in) 효과를 강화하려는 움직임으로 해석됩니다.",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "해당 기능 도입에 따른 AWS의 AI 서비스 점유율 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4dfca296c187fd3e"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "c492fcc4614ddd42",
+   "title": "[한눈에 보는 Weekly 기업 소식] 中 빅테크 3사, 美 규제 피한 엔비디아 GPU 47조원어치 주문",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=342654",
+   "source": "KIPOST"
+  },
+  {
+   "id": "ff83be832570bbc5",
+   "title": "스페이스X, 엔비디아 등 130여개사와 기업 AI 공략…그록 도입·연동 지원",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216585",
+   "source": "AI타임스"
+  },
+  {
+   "id": "de81bb64f608c17c",
+   "title": "메타, 실적 호조에도 AI 투자 폭주로 현금 흐름 '마이너스'",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64192",
+   "source": "디일렉"
+  },
+  {
+   "id": "4dfca296c187fd3e",
+   "title": "AWS, GPU 관리 없이 맞춤형 AI 학습하는 새 기능 공개",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216591",
+   "source": "AI타임스"
+  },
+  {
+   "id": "5beb82ce8967a501",
+   "title": "SK하이닉스, 미국 손자회사 솔리다임 IPO 검토 중단",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216601",
+   "source": "AI타임스"
+  },
+  {
+   "id": "33aa1430de3bd7f6",
+   "title": "Samsung reportedly orders final tools for first Taylor fab as Texas site nears 2nm output cap",
+   "url": "https://www.digitimes.com/news/a20261023VL219/samsung-texas-2nm-fab.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "0926181850cbf64b",
+   "title": "SK Hynix shares jump over 4% after early losses as chipmaker scraps Solidigm IPO plans",
+   "url": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "bb9dc754dedfe95f",
+   "title": "자다라, 엔비디아 검증 통과…AI 클라우드 경쟁력 강화",
+   "url": "https://zdnet.co.kr/view/?no=20261023152101",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "de058eade36e5b97",
+   "title": "공짜로 '뮤즈' 뿌리던 메타…1100조 베팅 역풍에 주가 '털썩'",
+   "url": "https://www.hankyung.com/article/2026102318441",
+   "source": "한국경제 IT"
+  },
+  {
+   "id": "c6f7ea921c37a5f1",
+   "title": "메타, 부채 위험 지표 사상 최고에 주가 7% 급락…AI 지출·현금 적자 부담",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216578",
+   "source": "AI타임스"
+  }
+ ]
+}

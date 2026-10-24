@@ -1,0 +1,196 @@
+{
+ "generated_at": "2026-10-13T10:52:58Z",
+ "date": "2026-10-13",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 AI 인프라 수요 지속과 맞춤형 칩 경쟁 심화, 그리고 지정학적 리스크에 따른 공급망 다변화 움직임이 공존하고 있습니다. 특히 데이터센터향 전력 및 패키징 솔루션에 대한 투자가 활발하며, 선단 공정 경쟁이 격화되는 양상입니다.",
+   "stories": [
+    {
+     "headline": "브로드컴, 맞춤형 AI 칩 시장 주도권 강화 및 엔비디아 견제",
+     "facts": [
+      "브로드컴 CEO는 맞춤형 칩이 AI 산업의 미래라고 강조함",
+      "오픈AI와 협력하여 맞춤형 칩 개발을 추진 중임"
+     ],
+     "interpretation": "범용 GPU 중심에서 고객 맞춤형 ASIC으로 AI 칩 시장의 무게중심이 이동하고 있음을 시사함. 이는 엔비디아의 독점적 지위에 대한 도전이자, 브로드컴의 설계 역량이 AI 인프라 확장에 핵심적인 역할을 하고 있음을 의미함.",
+     "affected_company_ids": [
+      "nvidia",
+      "broadcom"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "맞춤형 칩 도입에 따른 주요 클라우드 기업들의 엔비디아 GPU 의존도 변화 추이",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "dd18c36275839a30"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자, 갤럭시 DDI 위탁생산 파운드리 이원화 검토",
+     "facts": [
+      "삼성전자가 OLED 갤럭시 스마트폰용 DDI 위탁생산을 UMC와 글로벌파운드리스로 이원화하는 방안을 검토 중임",
+      "현재는 UMC가 전량 생산 중임"
+     ],
+     "interpretation": "파운드리 공급망 안정성 확보 및 비용 효율화를 위한 전략적 결정으로 해석됨. 삼성전자 시스템LSI의 설계 역량 강화와 더불어 파운드리 파트너 다변화를 통해 생산 리스크를 분산하려는 의도임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "실제 파운드리 업체 선정 및 물량 배분 비율 확정 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "1713b0f0d77f83e6"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성전자, 2nm 공정 생산 준비 위해 미국 테일러 팹에 엔지니어 파견",
+     "facts": [
+      "삼성전자가 2027년 2nm 칩 양산을 목표로 한국의 수율 엔지니어를 미국 테일러 팹으로 파견함"
+     ],
+     "interpretation": "미국 내 최첨단 공정 안착을 위한 적극적인 행보로, TSMC와의 파운드리 기술 경쟁에서 뒤처지지 않으려는 의지가 반영됨. 2nm 양산 성공 여부가 향후 파운드리 시장 점유율 회복의 핵심 변수가 될 것임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "테일러 팹의 2nm 공정 수율 확보 및 주요 고객사 확보 현황",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5dec6117e27a4959"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 테크 섹터는 AI 에이전트의 실질적 업무 수행 능력 강화와 멀티모달 모델의 진화가 핵심 트렌드입니다. 기업들은 AI 도입을 넘어 실질적인 비즈니스 성과를 창출하기 위한 AX(AI 전환) 전략을 구체화하고 있습니다.",
+   "stories": [
+    {
+     "headline": "메타, 프런티어 모델 '뮤즈 원더' 공개로 AI 에이전트 시장 공략",
+     "facts": [
+      "메타가 차세대 프런티어 AI 모델 '뮤즈 원더' 시리즈를 출시함",
+      "복잡한 업무를 스스로 수행하는 에이전트 성능이 강화됨"
+     ],
+     "interpretation": "오픈AI 및 앤트로픽과의 경쟁에서 우위를 점하기 위한 메타의 공격적인 모델 전략임. 특히 에이전트 기능을 강화하여 기업용 AI 시장에서의 영향력을 확대하려는 포석으로 풀이됨.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "기업 고객들의 뮤즈 원더 도입 사례 및 벤치마크 성능 검증 결과",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "758f1fd44130f864",
+      "b9629b455c5e2963",
+      "8a54c4ecccb267e8"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "마이크로소프트, 영상 제어 정밀도 높인 '코드 비디오 모델' 공개",
+     "facts": [
+      "마이크로소프트가 코드를 활용해 영상의 구조와 동작을 제어하는 모델을 발표함"
+     ],
+     "interpretation": "생성형 AI의 영상 제작 분야에서 단순 생성을 넘어 정밀한 제어 기술로 진화하고 있음을 보여줌. 이는 콘텐츠 제작 효율성을 극대화하여 MS의 미디어 및 엔터테인먼트 솔루션 경쟁력을 강화할 것임.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "해당 기술의 실제 상용 서비스 적용 시점 및 사용자 반응",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "a434d33de11cfb52"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "구글, 차세대 피트니스 트래커 '핏빗 엣지' 공개",
+     "facts": [
+      "구글이 배터리 효율을 개선한 웨어러블 기기 '핏빗 엣지'를 공개함"
+     ],
+     "interpretation": "웨어러블 시장에서의 하드웨어 경쟁력을 유지하려는 전략임. AI 기반 건강 관리 데이터 수집을 통해 구글의 헬스케어 생태계를 강화하려는 의도로 해석됨.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "핏빗 엣지의 시장 초기 판매량 및 사용자 평점",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "cb977636a14e9c4f"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "1713b0f0d77f83e6",
+   "title": "삼성전자, 갤럭시 DDI 위탁생산 UMC·글로벌파운드리스 이원화 검토",
+   "url": "https://zdnet.co.kr/view/?no=20261013173046",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "dd18c36275839a30",
+   "title": "오픈AI 감싸고 엔비디아 때린 브로드컴 \"맞춤형 칩이 미래\"",
+   "url": "https://www.hankyung.com/article/2026101394571",
+   "source": "한국경제 IT"
+  },
+  {
+   "id": "5dec6117e27a4959",
+   "title": "Samsung sends yield engineers to Texas ahead of 2nm production ramp",
+   "url": "https://www.digitimes.com/news/a20261013VL222/samsung-production-texas-2nm-manufacturing.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "758f1fd44130f864",
+   "title": "메타, 첫 프런티어 모델 ‘뮤즈 원더’ 출시",
+   "url": "https://byline.network/2026/10/13-711/",
+   "source": "바이라인네트워크"
+  },
+  {
+   "id": "b9629b455c5e2963",
+   "title": "Meta's Muse Wonder challenges OpenAI, Anthropic, but frontier AI comes at a higher price",
+   "url": "https://www.digitimes.com/news/a20261013VL210/meta-openai-anthropic-claude-2026.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "8a54c4ecccb267e8",
+   "title": "메타, 차세대 AI '뮤즈 원더' 공개...업무 기억하고 장애물 우회",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=63604",
+   "source": "디일렉"
+  },
+  {
+   "id": "a434d33de11cfb52",
+   "title": "MS, 코드로 영상 속 물리법칙 정밀 제어하는 '코드 비디오 모델' 공개",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216205",
+   "source": "AI타임스"
+  },
+  {
+   "id": "cb977636a14e9c4f",
+   "title": "구글, 새 피트니스 트래커 ‘핏빗 엣지’ 공개…\"배터리 일주일 간다\"",
+   "url": "https://zdnet.co.kr/view/?no=20261013111841",
+   "source": "ZDNet Korea"
+  }
+ ]
+}
