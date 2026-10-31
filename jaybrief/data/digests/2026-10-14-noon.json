@@ -1,0 +1,186 @@
+{
+ "generated_at": "2026-10-14T01:17:43Z",
+ "date": "2026-10-14",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 확장을 위한 공급망 다변화와 차세대 메모리 및 패키징 기술 경쟁이 심화되고 있습니다. 미국 중심의 공급망 재편과 함께 AI 서버 효율성을 극대화하기 위한 하드웨어 혁신이 가속화되는 추세입니다.",
+   "stories": [
+    {
+     "headline": "TSMC-GlobalFoundries, 미국 내 실리콘 인터포저 공급 협약 체결",
+     "facts": [
+      "TSMC와 GlobalFoundries가 미국 내 CoWoS 생태계 지원을 위한 실리콘 인터포저 제조 협약을 체결함",
+      "5년간 20억 달러 규모의 투자 및 협력 프로젝트임"
+     ],
+     "interpretation": "미국 내 AI 반도체 공급망 안정성을 강화하고, CoWoS 병목 현상을 해소하기 위한 전략적 파트너십으로 판단됨. TSMC의 미국 생산 거점 활용도가 높아질 것임.",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "TSMC의 10월 15일 Q3 실적 발표에서 CoWoS 캐파 확장 및 미국 공장 가동률 관련 언급 확인 필요.",
+     "upcoming_event_ids": [
+      "tsmc-q3-2026"
+     ],
+     "article_ids": [
+      "e0cc7776c92cbdcb"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "NVIDIA, 에이전틱 AI 특화 '베라 CPU 랙' 규격 공개",
+     "facts": [
+      "NVIDIA가 CPU 연산 비중이 높은 에이전틱 AI 구동에 최적화된 '베라 CPU 랙' 규격을 처음 선보임",
+      "기존 GPU 중심의 '베라 루빈 랙 NVL72'와 상호 보완적인 플랫폼으로 포지셔닝"
+     ],
+     "interpretation": "AI 워크로드의 다변화(학습 중심에서 에이전틱 추론 중심으로)에 대응하여 서버 아키텍처를 세분화함. 데이터센터 내 CPU 수요를 견인할 것으로 예상됨.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "에이전틱 AI 도입 확산에 따른 데이터센터 내 CPU 탑재 비중 변화 추이.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "49624744161762b7"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성전자, OCP 글로벌 서밋에서 차세대 메모리 전략 발표",
+     "facts": [
+      "삼성전자가 OCP 글로벌 서밋에서 속도, 확장성, 영속성에 초점을 맞춘 메모리 전략을 공개함",
+      "AI 모델 대형화에 따른 대역폭 및 용량 확장 요구 대응 강조"
+     ],
+     "interpretation": "AI 인프라 시장에서 메모리 솔루션의 기술적 리더십을 재확인하려는 행보임. 특히 HBM 이후의 차세대 메모리 시장 선점을 위한 기술 로드맵을 구체화함.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "차세대 메모리 제품의 주요 고객사(Hyperscalers) 채택 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "08c3509ee7b31bda"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "인텔·마이크론, 대만 공급망 대상 미국 현지 투자 제안",
+     "facts": [
+      "인텔과 마이크론이 대만 반도체 소부장 기업들에게 미국 현지 거점 마련을 제안함",
+      "현지 공급업체로 선정될 기회를 제공하며 미국 내 공급망 생태계 구축을 독려함"
+     ],
+     "interpretation": "미국 내 반도체 제조 생태계를 강화하기 위한 공급망 내재화 전략의 일환임. 대만 기업들의 미국 진출이 가속화될 경우 국내 소부장 기업과의 경쟁 구도 변화 가능성 존재.",
+     "affected_company_ids": [
+      "micron"
+     ],
+     "event_type": "supply_chain",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "대만 소부장 기업들의 미국 현지 투자 결정 및 인텔·마이크론의 실제 공급망 편입 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "46b1388f0da387bb"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 기술이 소프트웨어 개발 및 기업 운영 플랫폼 전반으로 확산되고 있으며, 빅테크 기업들은 자사 생태계 내 AI 통합을 가속화하고 있습니다.",
+   "stories": [
+    {
+     "headline": "메타, 개인용 초지능 모델 '뮤즈 원더' 공개",
+     "facts": [
+      "마크 저커버그 메타 CEO가 최첨단 AI 모델 '뮤즈 원더(Muse Wonder)'를 공개함",
+      "개인용 초지능 시장을 타겟으로 하며 기존 AI 조직 개편 후 1년 반 만의 성과임"
+     ],
+     "interpretation": "메타가 범용 AI 경쟁에서 개인화된 AI 에이전트 시장으로 전략적 초점을 이동함. 소비자 접점에서의 AI 영향력을 확대하려는 시도임.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "뮤즈 원더의 사용자 반응 및 메타 플랫폼 내 실제 적용 범위.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "acb467c1504318d5"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "구글, 제미나이 4 아르곤 본격 상용화",
+     "facts": [
+      "구글이 플래그십 AI 모델 '제미나이 4 아르곤'을 전 세계 개발자 및 기업 대상 API로 제공함",
+      "실무 성과와 기존 제품 생태계 통합을 핵심 전략으로 내세움"
+     ],
+     "interpretation": "AI 모델의 단순 성능 경쟁을 넘어 실질적인 비즈니스 생산성 도구로서의 생태계 확장에 집중함. 기업용 AI 시장에서의 점유율 방어 전략임.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "기업 고객들의 제미나이 4 아르곤 도입 및 실질적인 업무 효율성 개선 사례.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c48a15329b2206a1"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "e0cc7776c92cbdcb",
+   "title": "TSMC-GF interposer deal reshapes US AI supply chain, from CoWoS to HBM",
+   "url": "https://www.digitimes.com/news/a20261013PD248/tsmc-globalfoundries-packaging-capacity-silicon.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "49624744161762b7",
+   "title": "엔비디아, 에이전틱 AI용 '베라 CPU 랙' 규격 첫 공개",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=63657",
+   "source": "디일렉"
+  },
+  {
+   "id": "08c3509ee7b31bda",
+   "title": "삼성전자 \"차세대 메모리 핵심은 속도·확장·영속\"",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=63658",
+   "source": "디일렉"
+  },
+  {
+   "id": "46b1388f0da387bb",
+   "title": "인텔·마이크론, 대만 소부장에 미국 투자 손짓",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=63646",
+   "source": "디일렉"
+  },
+  {
+   "id": "acb467c1504318d5",
+   "title": "[10월13일] 1년 반 만에 약속 지킨 저커버그…이제는 '개인용 초지능' 승부",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216183",
+   "source": "AI타임스"
+  },
+  {
+   "id": "c48a15329b2206a1",
+   "title": "구글, ‘제미나이 4 아르곤’ 본격 상용화…실무 성과·제품 생태계로 승부",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216220",
+   "source": "AI타임스"
+  }
+ ]
+}

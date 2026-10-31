@@ -1,0 +1,173 @@
+{
+ "generated_at": "2026-10-25T08:36:59Z",
+ "date": "2026-10-25",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "메모리 반도체 시장의 견조한 수요 전망과 함께 주요 기업들의 전략적 의사결정이 이어지고 있습니다. 특히 AI 인프라 확장에 따른 메모리 공급 부족 우려가 지속되는 가운데, 기업들은 수익성 중심의 생산 조정과 사업 포트폴리오 재편에 집중하고 있습니다.",
+   "stories": [
+    {
+     "headline": "젠슨 황 엔비디아 CEO, 메모리 공급 과잉 가능성 일축",
+     "facts": [
+      "젠슨 황 엔비디아 CEO가 수년 내 메모리 공급 과잉 상황은 오지 않을 것이라고 언급함",
+      "2029년까지 메모리 공급 과잉 우려에 대해 반대 의견을 피력함"
+     ],
+     "interpretation": "AI 데이터센터 수요가 메모리 시장의 장기적인 성장을 견인할 것이라는 확신을 보여주며, SK하이닉스 및 삼성전자 등 주요 메모리 공급사에 긍정적인 시그널로 작용함.",
+     "affected_company_ids": [
+      "nvidia",
+      "sk-hynix",
+      "samsung-electronics"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "주요 메모리 제조사의 분기별 설비 투자 규모 및 가동률 변화를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0500c402e75edc9b"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "SK하이닉스, 자회사 솔리다임 IPO 검토 중단",
+     "facts": [
+      "SK하이닉스가 자회사 솔리다임의 기업공개(IPO) 검토를 중단함",
+      "자본시장 여건과 주가 흐름 등을 고려한 결정임"
+     ],
+     "interpretation": "현재의 시장 환경에서 IPO를 통한 자금 조달보다 내부적인 성장 동력 확보와 기업 가치 제고에 집중하려는 전략적 판단으로 해석됨.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "솔리다임의 향후 수익성 개선 여부 및 SK하이닉스 전체 실적 기여도 변화.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "04f449434319789c"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성전자, 갤럭시A 시리즈 생산량 조정 및 유럽 가전 시장 공략",
+     "facts": [
+      "삼성전자가 4분기 갤럭시A 시리즈 생산량을 계획 대비 20% 감산함",
+      "유럽 가전 시장에서 현지 기업의 구조조정 틈새를 노려 점유율 확대 중"
+     ],
+     "interpretation": "중저가 스마트폰의 생산 효율화로 수익성을 방어하고, 가전 부문에서는 프리미엄 및 B2B 시장 확대를 통해 포트폴리오를 재편하려는 움직임임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "supply_chain",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "스마트폰 출하량 감소가 전체 매출에 미치는 영향과 가전 부문의 유럽 시장 점유율 추이.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "456b6fce54a9162f",
+      "5188534720d014e2",
+      "915e42cadd32beff"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 인프라 수요가 폭발적으로 증가하며 클라우드 용량 예약이 장기화되고 있습니다. 동시에 온디바이스 AI를 위한 경량 모델 출시와 보안 취약점 대응이 주요 이슈로 부상했습니다.",
+   "stories": [
+    {
+     "headline": "아마존 AWS, 2027년 클라우드 용량 완판 및 2028년 예약 급증",
+     "facts": [
+      "아마존웹서비스(AWS)의 2026년 및 2027년 컴퓨팅 용량이 사실상 모두 판매됨",
+      "2028년 공급 물량까지 상당 부분 예약이 완료된 상태임"
+     ],
+     "interpretation": "AI 모델 학습 및 추론을 위한 클라우드 인프라 수요가 공급을 압도하고 있음을 시사하며, 빅테크 기업들의 인프라 투자 지속성을 뒷받침함.",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "클라우드 인프라 확장을 위한 데이터센터 관련 자본 지출(CAPEX) 증가 속도.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "bc0ca584004cf1a5"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아, 온디바이스 AI용 경량 모델 '네모트론 3.5 볼트' 출시",
+     "facts": [
+      "엔비디아가 4GB 메모리 환경에서 구동 가능한 경량 언어모델을 출시함",
+      "로컬 에이전트, 로봇, 게임 분야 개발자를 겨냥함"
+     ],
+     "interpretation": "고성능 GPU뿐만 아니라 소프트웨어 생태계 전반에서 온디바이스 AI 시장을 선점하려는 전략으로, 하드웨어 판매를 촉진하는 소프트웨어 경쟁력을 강화하고 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "경량 모델의 실제 개발자 채택률 및 관련 하드웨어 판매량 연동 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "1e847fce0b906b9f"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "1e847fce0b906b9f",
+   "title": "엔비디아, 로컬 에이전트·로봇 겨냥 4GB 모델 '네모트론 3.5 볼트' 출시",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216625",
+   "source": "AI타임스"
+  },
+  {
+   "id": "0500c402e75edc9b",
+   "title": "[Weekly Issue] 젠슨 황, “2029년까지 메모리 공급 과잉 가능성 없어…中 CXMT 제품에도 가능성 열려 있다”",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=342678",
+   "source": "KIPOST"
+  },
+  {
+   "id": "04f449434319789c",
+   "title": "SK하이닉스, 손자회사 솔리다임 기업공개(IPO) 검토하지 않기로...시장 여건·주가흐름 고려해 중단",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=342640",
+   "source": "KIPOST"
+  },
+  {
+   "id": "bc0ca584004cf1a5",
+   "title": "아마존, AI 수요 폭증에 2027년 클라우드 용량 완판...2028년 예약도 몰려",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216620",
+   "source": "AI타임스"
+  },
+  {
+   "id": "456b6fce54a9162f",
+   "title": "갤A 감산 장기화 땐 점유율 흔들…삼성, 중국업체 추격 경계",
+   "url": "https://www.etnews.com/20261025000073",
+   "source": "전자신문"
+  },
+  {
+   "id": "5188534720d014e2",
+   "title": "\"갤럭시A 20% 감산\"… 삼성,칩플레이션 대응",
+   "url": "https://www.etnews.com/20261023000235",
+   "source": "전자신문"
+  },
+  {
+   "id": "915e42cadd32beff",
+   "title": "유럽 가전 '구조조정' 칼바람 …韓·中 '빈틈' 격돌",
+   "url": "https://www.etnews.com/20261023000136",
+   "source": "전자신문"
+  }
+ ]
+}

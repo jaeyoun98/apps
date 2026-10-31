@@ -1,0 +1,206 @@
+{
+ "generated_at": "2026-10-25T13:47:33Z",
+ "date": "2026-10-25",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 수요가 폭발적으로 증가하며 주요 빅테크의 컴퓨팅 용량 예약이 장기화되는 가운데, 엔비디아는 전력 효율 개선을 위한 기술 협력을 강화하고 온디바이스 AI 모델을 출시하며 생태계 주도권을 공고히 하고 있음. 반면 삼성전자는 부품 수급 이슈로 중저가 스마트폰 생산을 조정하며 점유율 방어에 고심 중임.",
+   "stories": [
+    {
+     "headline": "아마존 AWS, AI 인프라 수요 폭증으로 2028년 물량까지 예약",
+     "facts": [
+      "아마존 AWS의 2026년 및 2027년 컴퓨팅 용량이 사실상 완판됨",
+      "2028년 공급 물량까지 상당 부분 예약이 완료된 상태",
+      "앤디 재시 아마존 CEO는 AI 인프라 수요가 공급을 크게 상회한다고 언급"
+     ],
+     "interpretation": "AI 모델 개발 및 서비스 운영을 위한 컴퓨팅 자원 확보 경쟁이 심화되면서 클라우드 사업자의 인프라 투자 압박이 지속될 전망이며, 이는 엔비디아 등 GPU 공급사에게 장기적인 매출 가시성을 제공함.",
+     "affected_company_ids": [
+      "amazon",
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "빅테크 기업들의 분기별 자본지출(CaPex) 규모 및 가이던스 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "378c82817d805880",
+      "bc0ca584004cf1a5"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아, 데이터센터 전력 효율화 및 온디바이스 AI 모델 확장",
+     "facts": [
+      "인피니언과 협력하여 AI 데이터센터용 800V GaN 전력변환 기술 개발 확대",
+      "4GB 메모리 환경에서 구동 가능한 경량 온디바이스 AI 모델 '네모트론 3.5 볼트' 출시"
+     ],
+     "interpretation": "데이터센터 전력 효율화는 GPU 고밀도 배치에 필수적이며, 경량 모델 출시는 로컬 에이전트 및 로봇 시장으로 AI 생태계를 확장하려는 전략적 행보임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "경량 AI 모델의 실제 산업 현장 적용 사례 및 성능 검증",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "215241bf58b2debf",
+      "1e847fce0b906b9f"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성전자, 갤럭시A 생산 조정 및 중국 업체 추격 경계",
+     "facts": [
+      "삼성전자가 4분기 갤럭시A 시리즈 생산량을 계획 대비 20% 감산",
+      "칩플레이션 및 원자재 확보 난항에 따른 플래그십 집중 전략",
+      "중저가 시장에서 중국 제조사들의 점유율 확대 가능성 제기"
+     ],
+     "interpretation": "수익성 개선을 위한 전략적 감산이나, 중저가 시장 점유율 하락은 전체 출하량 1위 유지에 부담으로 작용할 수 있음.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "supply_chain",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "중저가 스마트폰 시장에서의 글로벌 점유율 변화 추이",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "456b6fce54a9162f",
+      "5188534720d014e2"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "SK하이닉스, 솔리다임 IPO 검토 중단",
+     "facts": [
+      "SK하이닉스가 자회사 솔리다임의 IPO 검토를 중단함",
+      "최근 자본시장 여건과 주가 흐름을 고려한 결정"
+     ],
+     "interpretation": "금융 시장 변동성 확대로 인한 기업 가치 평가의 불확실성이 반영된 결과로, 당분간 직접 투자 등 다른 재원 조달 방안에 집중할 것으로 보임.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "other",
+     "impact": "unclear",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "솔리다임의 향후 재원 조달 계획 및 사업 실적 추이",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "04f449434319789c"
+     ],
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "기업용 AI 도입이 비즈니스 성과로 연결되는 단계에 진입하며 오라클 등 주요 소프트웨어 기업들이 AI 전략을 구체화하고 있음. 또한 AI 에이전트 기술이 개발 및 커머스 등 다양한 영역으로 확산되고 있음.",
+   "stories": [
+    {
+     "headline": "오라클, '오라클 AI 월드 2026' 개최 및 기업용 AI 전략 강조",
+     "facts": [
+      "미국 라스베이거스에서 '오라클 AI 월드 2026' 개최",
+      "데이터베이스 기업에서 AI 데이터 플랫폼 및 클라우드 인프라 기업으로의 전환 가속화"
+     ],
+     "interpretation": "기업 고객의 기존 데이터와 인프라를 AI와 연결하는 전략을 통해 실질적인 비즈니스 성과를 입증하려는 시도로, 클라우드 인프라 매출 확대가 핵심 관전 포인트임.",
+     "affected_company_ids": [
+      "oracle"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "오라클의 AI 관련 매출 및 수익성 개선 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "1dd60b71bf5ed456"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "카드사, AI 기반 '에이전트 페이' 도입 추진",
+     "facts": [
+      "국내 카드사들이 정부 '모두의 AI' 프로젝트와 연계하여 에이전트 결제 생태계 구축 시도",
+      "신한카드, 하나카드, 비씨카드 등이 참여"
+     ],
+     "interpretation": "AI 에이전트가 커머스 영역에 결합되면서 결제 방식의 변화가 예상되며, 카드사들이 새로운 결제 생태계 선점을 위해 기술 도입을 서두르고 있음.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "에이전트 페이의 실제 서비스 출시 및 시장 반응",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6828ffb8159b1470"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "215241bf58b2debf",
+   "title": "인피니언, 엔비디아 800V 데이터센터 GaN 전력칩 넣는다",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64161",
+   "source": "디일렉"
+  },
+  {
+   "id": "1e847fce0b906b9f",
+   "title": "엔비디아, 로컬 에이전트·로봇 겨냥 4GB 모델 '네모트론 3.5 볼트' 출시",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216625",
+   "source": "AI타임스"
+  },
+  {
+   "id": "04f449434319789c",
+   "title": "SK하이닉스, 손자회사 솔리다임 기업공개(IPO) 검토하지 않기로...시장 여건·주가흐름 고려해 중단",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=342640",
+   "source": "KIPOST"
+  },
+  {
+   "id": "1dd60b71bf5ed456",
+   "title": "오라클 AI 월드 25일 개막…AI 중심 비즈니스 전략·미래 비전 제시",
+   "url": "https://www.etnews.com/20261025000100",
+   "source": "전자신문"
+  },
+  {
+   "id": "378c82817d805880",
+   "title": "아마존, AI 수요 폭증에 내년 컴퓨팅 용량 완판...2028년 예약도 몰려",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216620",
+   "source": "AI타임스"
+  },
+  {
+   "id": "bc0ca584004cf1a5",
+   "title": "아마존, AI 수요 폭증에 2027년 클라우드 용량 완판...2028년 예약도 몰려",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216620",
+   "source": "AI타임스"
+  },
+  {
+   "id": "456b6fce54a9162f",
+   "title": "갤A 감산 장기화 땐 점유율 흔들…삼성, 중국업체 추격 경계",
+   "url": "https://www.etnews.com/20261025000073",
+   "source": "전자신문"
+  },
+  {
+   "id": "5188534720d014e2",
+   "title": "\"갤럭시A 20% 감산\"… 삼성,칩플레이션 대응",
+   "url": "https://www.etnews.com/20261023000235",
+   "source": "전자신문"
+  },
+  {
+   "id": "6828ffb8159b1470",
+   "title": "카드사 '에이전트 커머스' 시대 연다…내년 에이전트 페이 출시",
+   "url": "https://www.etnews.com/20261023000282",
+   "source": "전자신문"
+  }
+ ]
+}

@@ -1,0 +1,215 @@
+{
+ "generated_at": "2026-10-29T01:53:03Z",
+ "date": "2026-10-29",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 메모리 수요가 지속되는 가운데, 삼성전자의 반도체 부문 실적 호조와 SK하이닉스의 HBM 공급 부족 현상이 두드러짐. 반면, 알파벳 등 빅테크의 막대한 AI 인프라 투자 대비 수익성 우려가 반도체 섹터의 변동성을 키우는 요인으로 작용함.",
+   "stories": [
+    {
+     "headline": "삼성전자 3분기 반도체 영업이익 106.5조원 기록",
+     "facts": [
+      "삼성전자 3분기 DS부문 매출 147.1조원, 영업이익 106.5조원 달성",
+      "전사 영업이익 107.4조원 중 반도체 부문이 대부분 차지"
+     ],
+     "interpretation": "AI 메모리 수요 강세가 실적을 견인했으나, 향후 메모리 가격 및 공급망 최적화가 수익성 유지의 핵심 변수가 될 것임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "메모리 반도체 가격 추이 및 4분기 가이던스 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b301994fd54c47c2",
+      "ad24e8e14b11ac6b"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "SK하이닉스, HBM 공급 부족 심화 및 차세대 메모리 전략 전환",
+     "facts": [
+      "고객사의 HBM 수요가 현재 공급 가능 물량의 2배 이상",
+      "HBM 외에 고대역폭 플래시(HBF)를 AI 추론용 메모리 대안으로 제시"
+     ],
+     "interpretation": "HBM 공급 병목 현상이 지속되고 있으며, AI 에이전트 확산에 따른 데이터 처리량 증가로 메모리 포트폴리오 다변화가 가속화될 전망.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "HBF 시장 개화 속도 및 HBM 생산 능력 확대 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c6f93cd851aeb4dc",
+      "eed8b9d597293a93"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "AI 인프라 투자 지연 우려와 빅테크의 자본지출(CAPEX) 기조",
+     "facts": [
+      "마이크로소프트의 1분기 CAPEX가 자체 전망치를 하회",
+      "알파벳은 2026년 CAPEX를 유지하고 2027년 대폭 증가 예고"
+     ],
+     "interpretation": "인프라 구축 속도 조절은 단기적으로 관련 장비 및 부품 공급사의 매출 인식 시점에 영향을 줄 수 있음.",
+     "affected_company_ids": [
+      "microsoft",
+      "alphabet"
+     ],
+     "event_type": "guidance",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "빅테크의 분기별 실제 CAPEX 집행 규모",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "93771dcf250e8c52",
+      "d0138e814250b44b",
+      "ea827d225b106724",
+      "00181e2b880de887"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "기업용 AI 에이전트 시장이 본격화되면서 마이크로소프트와 알파벳 등 주요 플랫폼 기업들이 보안 및 관리 플랫폼 전략을 강화하고 있음. 다만, AI 투자 비용 대비 수익화 속도에 대한 시장의 의구심이 주가 변동성을 유발함.",
+   "stories": [
+    {
+     "headline": "마이크로소프트, 기업용 AI 에이전트 통합 플랫폼 전략 가속",
+     "facts": [
+      "기업 내 AI 에이전트 관리 및 보안 역량 강화 플랫폼 공개",
+      "오픈AI와의 상업적 협력을 통해 분기 100억 달러 매출 기록"
+     ],
+     "interpretation": "단순 생산성 도구를 넘어 AI 에이전트 통제권 확보를 통해 기업용 시장 주도권을 공고히 하려는 전략임.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "기업 고객의 AI 에이전트 도입률 및 보안 플랫폼 채택 속도",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "53f301f473b4d36b",
+      "23efddaca1a0a72e"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "알파벳, AI 투자 부담에 따른 수익성 우려로 주가 급락",
+     "facts": [
+      "3분기 매출이 시장 전망치를 하회",
+      "막대한 AI 인프라 투자로 인한 잉여현금흐름 악화"
+     ],
+     "interpretation": "클라우드 매출의 성장세에도 불구하고 AI 투자 비용이 재무 지표에 부담을 주면서 투자자들의 수익성 검증 요구가 거세짐.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "earnings",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "차세대 모델 '제미나이 4 카본'의 수익화 기여도",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "140cd120988b334f",
+      "7b3a8a4df2f6016e",
+      "89177d44b195676a",
+      "00181e2b880de887"
+     ],
+     "importance": 3
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "140cd120988b334f",
+   "title": "알파벳, 클라우드 매출 103% 깜짝 증가에도 현금 흐름 악화",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64500",
+   "source": "디일렉"
+  },
+  {
+   "id": "b301994fd54c47c2",
+   "title": "[1보] 삼성전자, 3분기 영업익 107.4조원...반도체만 106.5조원",
+   "url": "https://zdnet.co.kr/view/?no=20261029095456",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "93771dcf250e8c52",
+   "title": "MS, 2분기 클라우드 '애저' 매출 48% 폭풍 성장",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64493",
+   "source": "디일렉"
+  },
+  {
+   "id": "d0138e814250b44b",
+   "title": "Microsoft's cloud growth outpaces infrastructure spending delays",
+   "url": "https://www.digitimes.com/news/a20261029VL202/microsoft-growth-infrastructure-demand-capacity.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "c6f93cd851aeb4dc",
+   "title": "SK Hynix says customers want more than twice the HBM it can supply",
+   "url": "https://www.digitimes.com/news/a20261028VL222/sk-hynix-hbm-dram-hbm4-manufacturing.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "eed8b9d597293a93",
+   "title": "SK Hynix's next AI memory bet isn't HBM",
+   "url": "https://www.digitimes.com/news/a20261028VL212/sk-hynix-flash-data-hbm-nand.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "ad24e8e14b11ac6b",
+   "title": "Samsung Electronics third-quarter profit in line with estimates amid rising demand for AI memory chips",
+   "url": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "53f301f473b4d36b",
+   "title": "\"AI 에이전트 1만개 시대\"…MS, 기업용 AI 관리·보안 시장 선점 나서",
+   "url": "https://zdnet.co.kr/view/?no=20261029101209",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "7b3a8a4df2f6016e",
+   "title": "[유미's 픽] \"AI 신모델 '카본' 내놔도\"…구글, 투자 부담에 주가 '출렁'",
+   "url": "https://zdnet.co.kr/view/?no=20261029092619",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "89177d44b195676a",
+   "title": "알파벳, 3분기 매출 171조원…호실적에도 시장 기대치엔 미달",
+   "url": "https://zdnet.co.kr/view/?no=20261029083507",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "00181e2b880de887",
+   "title": "Alphabet sinks 10% as it holds 2026 capex unchanged, expects significant increase in 2027",
+   "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "23efddaca1a0a72e",
+   "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+   "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "ea827d225b106724",
+   "title": "CoreWeave and other neocloud stocks drop after Microsoft capex comes in below expectations",
+   "url": "https://www.cnbc.com/2026/10/28/neocloud-stocks-drop-after-microsoft-revises-capex-down.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

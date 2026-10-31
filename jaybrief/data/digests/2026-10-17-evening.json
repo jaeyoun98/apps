@@ -1,0 +1,145 @@
+{
+ "generated_at": "2026-10-17T07:57:30Z",
+ "date": "2026-10-17",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 엔비디아의 Arm 기반 PC 플랫폼 출시와 삼성디스플레이의 특허 분쟁 등 개별 기업의 기술 확장 및 방어 전략이 두드러짐.",
+   "stories": [
+    {
+     "headline": "엔비디아, Arm 기반 PC 플랫폼 'RTX 스파크' 정식 출시",
+     "facts": [
+      "엔비디아가 윈도 PC용 Arm 플랫폼 'RTX 스파크'를 출시함.",
+      "그레이스 CPU와 블랙웰 GPU를 결합한 SoC 'N1X'를 탑재함.",
+      "콘텐츠 및 AI 개발자를 타깃으로 하며 로컬 AI 컴퓨팅 성능을 강조함."
+     ],
+     "interpretation": "엔비디아가 데이터센터를 넘어 PC 시장으로 AI 생태계를 확장하려는 전략적 행보임. Arm 기반 SoC를 통해 저전력·고효율 시장을 선점하려는 의도로 해석됨.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "RTX 스파크 탑재 노트북의 시장 점유율 및 개발자 생태계 확산 속도.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "903b8c426c4e61c8",
+      "dd28132ea115cc9e"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성디스플레이, 네오레이어 대상 OLED 특허 분쟁 반격 확대",
+     "facts": [
+      "삼성디스플레이가 특허관리전문기업(NPE) 네오레이어를 상대로 미국 특허 3건에 대한 분쟁을 제기함.",
+      "네오레이어는 삼성전자, 에이수스, BOE 등을 상대로 특허 소송을 진행 중임."
+     ],
+     "interpretation": "NPE의 특허 공세에 대해 모회사인 삼성전자와 협력하여 기술 방어권을 강화하려는 조치임. OLED 시장 내 기술 주도권 유지 및 불필요한 비용 지출 방어 목적.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 법원의 특허 무효화 또는 침해 여부 판결 결과.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d73d31d1a9b88359"
+     ],
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 섹터는 메타의 데이터 수집 정책 변경에 따른 법적·윤리적 논란과 빅테크 간 AI 협력 및 경쟁 구도의 재편이 핵심 이슈임.",
+   "stories": [
+    {
+     "headline": "메타, 상업용 계정 데이터 AI 학습 강제 활용 약관 개정 논란",
+     "facts": [
+      "메타가 페이스북과 인스타그램의 상업용 이용 약관을 개정함.",
+      "비즈니스 계정의 데이터를 메타의 AI 학습용으로 수집하는 것에 강제 동의하도록 함."
+     ],
+     "interpretation": "AI 모델 학습을 위한 데이터 확보 경쟁이 치열해지면서 기업들이 데이터 수집 범위를 공격적으로 넓히고 있음. 이는 언론사 및 기업 고객의 반발을 초래할 수 있으며 향후 규제 리스크로 작용할 가능성이 있음.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "주요 국가의 개인정보 보호 규제 당국의 조사 및 약관 철회 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "aba0020f89806e64",
+      "8c5e15b435d75459"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "글로벌 빅테크, AI 경쟁 속 협력과 경쟁의 경계 모호해져",
+     "facts": [
+      "애플과 메타가 AI 모델을 컴퓨터에서 실행하는 기술을 위해 협력함.",
+      "과거 대립하던 기업들이 기술 개발을 위해 손을 잡는 사례가 증가함."
+     ],
+     "interpretation": "AI 기술의 복잡성과 고도화로 인해 단독 개발보다는 특정 기술 영역에서의 전략적 제휴가 필수적인 상황임. 빅테크 간 전선이 유동적으로 재편되고 있음.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "빅테크 간 제휴가 실제 제품 성능 향상 및 시장 점유율 확대로 이어지는지 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4e3f3786d5b21241"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "903b8c426c4e61c8",
+   "title": "엔비디아, 'RTX 스파크' 정식 출시 \"AI 개발부터 4K 게임까지 구동\"",
+   "url": "https://zdnet.co.kr/view/?no=20261017092606",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "dd28132ea115cc9e",
+   "title": "Benchmarked: Nvidia's RTX Spark notebook delivers serious local AI compute, at a price",
+   "url": "https://www.theregister.com/personal-tech/2026/10/16/benchmarked-nvidias-rtx-spark-notebook-delivers-serious-local-ai-compute-at-a-price/5303621",
+   "source": "The Register"
+  },
+  {
+   "id": "4e3f3786d5b21241",
+   "title": "[AI는 지금] 어제의 적이 동지로…AI 發 빅테크 전선 재편",
+   "url": "https://zdnet.co.kr/view/?no=20261017091725",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "d73d31d1a9b88359",
+   "title": "삼성디스플레이, 'NPE' 네오레이어 특허 반격 확대",
+   "url": "https://zdnet.co.kr/view/?no=20261017093117",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "aba0020f89806e64",
+   "title": "인스타·페북 상업용 계정, AI 학습 강제 활용...\"언론사 비상\"",
+   "url": "https://zdnet.co.kr/view/?no=20261017091913",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "8c5e15b435d75459",
+   "title": "Meta grants itself right to scrape content from business customers for model training",
+   "url": "https://www.theregister.com/ai-and-ml/2026/10/16/meta-grants-itself-right-to-scrape-content-from-business-customers-for-model-training/5303658",
+   "source": "The Register"
+  }
+ ]
+}

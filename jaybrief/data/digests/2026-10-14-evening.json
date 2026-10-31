@@ -1,0 +1,188 @@
+{
+ "generated_at": "2026-10-14T08:54:40Z",
+ "date": "2026-10-14",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 메모리 병목 해소를 위한 차세대 기술 경쟁이 심화되는 가운데, ASML의 실적 발표를 통해 AI 반도체 수요와 공급 간의 격차가 재확인되었습니다.",
+   "stories": [
+    {
+     "headline": "ASML, 3분기 실적 호조에도 AI 칩 공급 부족 경고",
+     "facts": [
+      "ASML의 3분기 순매출은 117억 유로, 당기순이익은 50억 유로를 기록함",
+      "2027년 및 2028년 공급량이 고객사의 AI 칩 수요를 충족하지 못할 것이라고 경고함"
+     ],
+     "interpretation": "AI 반도체 수요가 공급 능력을 상회하는 구조적 부족 현상이 지속되고 있으며, 이는 반도체 장비 생태계 전반의 병목 현상으로 이어지고 있음",
+     "affected_company_ids": [
+      "asml"
+     ],
+     "event_type": "earnings",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "2027년 이후 ASML의 생산 능력 확대 속도와 주요 고객사의 설비 투자 계획 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "05a31c99b69698f3",
+      "694c7c49e06e6db6",
+      "c6177ddd5260936c"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자·SK하이닉스, AI 메모리 병목 해소를 위한 차세대 기술 전략 공개",
+     "facts": [
+      "삼성전자는 HBM을 프로세서 위로 적층하는 혁신 구조와 CXL 기술을 강조함",
+      "SK하이닉스는 낸드를 수직 적층한 고대역폭낸드플래시(HBF) 개발 및 표준화 추진을 발표함",
+      "정부와 양사는 연산 성능과 전력 효율을 100배 개선하는 'K-문샷' 프로젝트를 가동함"
+     ],
+     "interpretation": "단순 HBM 적층 경쟁을 넘어 시스템 아키텍처 차원의 병목 해소로 경쟁 범위가 확대되고 있으며, 차세대 메모리 표준 선점이 시장 주도권의 핵심이 됨",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "HBF 표준 제정 및 차세대 HBM4 양산 시점의 기술적 완성도",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d396d67df6ecece0",
+      "16f678f61abb59dc",
+      "e876a2296a244664",
+      "87273ba6d9afedf1",
+      "b88273998de6a996",
+      "cee03dff6c74bf04",
+      "e71d39a8b93ed1cb"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 기술이 산업 전반으로 확산되는 가운데, 기업들은 비용 효율화와 보안 강화라는 두 가지 과제에 직면해 있습니다.",
+   "stories": [
+    {
+     "headline": "마이크로소프트, 애저 사업부 비용 절감 지시",
+     "facts": [
+      "마이크로소프트가 애저 관련 조직에 최소 20%의 비용 절감 방안 마련을 요구함",
+      "AI 데이터센터 투자 급증에 따른 현금 흐름 부담이 주요 원인으로 분석됨"
+     ],
+     "interpretation": "AI 인프라 투자가 수익성으로 직결되기까지의 시차(Time-lag)가 발생하고 있으며, 빅테크 기업들이 AI 수익 모델 검증과 동시에 비용 통제에 나선 것으로 해석됨",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "애저의 분기별 수익성 지표 및 AI 서비스 관련 비용 효율화 성과",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5ecc7851f8da39d3"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "엔비디아, 유럽 AI 생태계 투자 확대",
+     "facts": [
+      "엔비디아가 프랑스 AI 스타트업 4곳(Doctolib, Genesis AI, Entalpic, Pigment)의 지분을 인수함",
+      "젠슨 황 CEO가 유럽 시장과의 협력을 본격화하고 있음"
+     ],
+     "interpretation": "하드웨어 공급을 넘어 AI 소프트웨어 및 서비스 생태계 전반에 영향력을 확대하여, 유럽 시장 내 AI 주도권을 확보하려는 전략적 행보임",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "유럽 내 추가적인 AI 스타트업 인수 및 현지 파트너십 확대 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4e03df7d0c07f7dd"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "e876a2296a244664",
+   "title": "반도체산업협회, 15일 JEDEC 포럼 개최...차세대 메모리 기술 소개",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=63659",
+   "source": "디일렉"
+  },
+  {
+   "id": "05a31c99b69698f3",
+   "title": "ASML, 2026년 3분기 총 순매출 117억 유로, 당기순이익 50억 유로 달성",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=342325",
+   "source": "KIPOST"
+  },
+  {
+   "id": "87273ba6d9afedf1",
+   "title": "SK하이닉스 안현 사장, \"전체 메모리 계층 최적화로 AI 생태계 지속 성장 견인\"",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=342323",
+   "source": "KIPOST"
+  },
+  {
+   "id": "4e03df7d0c07f7dd",
+   "title": "엔비디아, 유럽 AI 생태계 공략 본격화…프랑스 스타트업 4곳 지분 인수",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216261",
+   "source": "AI타임스"
+  },
+  {
+   "id": "d396d67df6ecece0",
+   "title": "[SEDEX]삼성전자, “옆이 아닌 위로” HBM 혁신 구조로 AI 승부수",
+   "url": "https://www.etnews.com/20261014000426",
+   "source": "전자신문"
+  },
+  {
+   "id": "16f678f61abb59dc",
+   "title": "[SEDEX 2026]SK하이닉스, HBM만으로는 부족…'신개념 AI 메모리' 꺼냈다",
+   "url": "https://www.etnews.com/20261014000408",
+   "source": "전자신문"
+  },
+  {
+   "id": "694c7c49e06e6db6",
+   "title": "ASML's record 3Q26 sales expose a capacity gap for AI chip demand through 2028",
+   "url": "https://www.digitimes.com/news/a20261014VL212/asml-sales-2028-demand-capacity.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "b88273998de6a996",
+   "title": "SK하이닉스, 내년 1월 HBF 최종 표준 제정 목표…차세대 AI 메모리 선점 시동",
+   "url": "https://zdnet.co.kr/view/?no=20261014132033",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "c6177ddd5260936c",
+   "title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
+   "url": "https://www.cnbc.com/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "cee03dff6c74bf04",
+   "title": "[SEDEX 2026] HBM 넘어 시스템으로…삼성·SK, AI 병목 해소 경쟁",
+   "url": "https://www.etnews.com/20261014000265",
+   "source": "전자신문"
+  },
+  {
+   "id": "e71d39a8b93ed1cb",
+   "title": "K-문샷 반도체 미션 가동…정부-삼성-SK 뭉쳐 반도체 성능 100배 개선 도전",
+   "url": "https://www.etnews.com/20261014000252",
+   "source": "전자신문"
+  },
+  {
+   "id": "5ecc7851f8da39d3",
+   "title": "MS, 애저 사업부 경영진에 '20% 비용 절감' 지시...\"호황에도 투자비 부담\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216257",
+   "source": "AI타임스"
+  }
+ ]
+}

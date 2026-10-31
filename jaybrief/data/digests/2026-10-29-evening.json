@@ -1,0 +1,261 @@
+{
+ "generated_at": "2026-10-29T10:17:16Z",
+ "date": "2026-10-29",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "삼성전자의 사상 최대 실적 달성과 HBM 수요 강세가 지속되는 가운데, 중국의 HBM 진입 시도와 미국 법무부의 엔비디아 반독점 조사 등 지정학적·규제 리스크가 부각되고 있습니다.",
+   "stories": [
+    {
+     "headline": "삼성전자, 분기 영업이익 100조원 돌파…내년 HBM 완판",
+     "facts": [
+      "삼성전자 3분기 매출 195.3조원, 영업이익 107.4조원 기록",
+      "반도체(DS) 부문 영업이익 106.5조원 달성",
+      "내년 HBM 생산 물량 완판 및 2028년까지 메모리 수급 타이트 전망"
+     ],
+     "interpretation": "AI 반도체 수요 폭증이 실적을 견인했으나, 반도체 부문에 편중된 이익 구조는 향후 포트폴리오 다변화 과제를 시사함.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "메모리 외 비메모리 부문의 가동률 회복 및 수익성 개선 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4cad39c165ed0f53",
+      "b6923be3d8027499",
+      "a55290be9d2e3124",
+      "83460f6b6bf3ffff",
+      "8b51a1d13832486f"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "미 법무부, 엔비디아의 허깅페이스 인수 반독점 조사 착수",
+     "facts": [
+      "미 법무부가 엔비디아의 허깅페이스 인수 거래에 대한 반독점 조사 시작",
+      "AI 칩 시장 지배력을 바탕으로 모델 유통망까지 장악할 가능성 우려"
+     ],
+     "interpretation": "엔비디아의 AI 생태계 영향력 확대에 대한 규제 당국의 견제가 본격화되고 있으며, 이는 향후 M&A 전략에 제동을 걸 수 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "미 법무부의 조사 결과 및 엔비디아의 대응 전략",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "cc215cb652bd4ae3",
+      "d28f6ea6ba8a1e9b"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "중국 CXMT, 수율 한계 속 HBM3E 양산 강행",
+     "facts": [
+      "중국 CXMT가 수율 20~30% 수준에서 HBM3E 양산 추진",
+      "미국 수출 규제로 인한 첨단 메모리 확보난 해소가 목적"
+     ],
+     "interpretation": "기술적 격차로 인해 당장의 시장 경쟁력 확보는 어렵겠으나, 중국 내 자체 공급망 구축 시도가 지속되고 있어 장기적인 공급 과잉 리스크 요인임.",
+     "affected_company_ids": [
+      "sk-hynix",
+      "samsung-electronics"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "CXMT의 실제 양산 수율 개선 속도 및 중국 내 HBM 채택률",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "35173615fe1e51f5",
+      "988b7468889b18bd"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 모델의 성능 경쟁이 심화되는 가운데, 주요 빅테크 기업들이 기업용 AI 에이전트 서비스와 신약 개발 등 실질적인 수익 모델 창출에 집중하고 있습니다.",
+   "stories": [
+    {
+     "headline": "구글 '제미나이 4 카본', AI 벤치마크 1위 등극",
+     "facts": [
+      "글로벌 AI 성능 분석기관 AA의 평가에서 제미나이 4 카본이 1위 기록",
+      "오픈AI와 앤트로픽 모델을 제치고 추론 및 과학 문제 해결 능력 입증"
+     ],
+     "interpretation": "구글이 AI 모델 기술력에서 다시 선두권을 확보함에 따라, 향후 클라우드 및 검색 서비스와의 결합을 통한 수익화 속도가 중요해짐.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "구글의 AI 모델 수익화 성과 및 광고 매출 회복 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6e54370a03b04c52",
+      "fe98c1aa9318cc79",
+      "5721152ff7992352"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "앤트로픽, 바이오테크 스타트업 인수 및 신약 개발 진출",
+     "facts": [
+      "앤트로픽이 신약 개발 스타트업 미스릴 메디신 인수",
+      "클로드 AI를 활용해 직접 치료제 개발 및 연구 프로세스 자동화 추진"
+     ],
+     "interpretation": "AI 기업들이 단순 챗봇을 넘어 전문 산업 영역(버티컬 AI)으로 사업을 확장하며 새로운 비즈니스 모델을 구축하고 있음.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "AI 기반 신약 개발의 실제 임상 성과 및 상용화 가능성",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3e3126fc4dbbe16a",
+      "f0df23444dd5695f"
+     ],
+     "importance": 1
+    },
+    {
+     "headline": "구글·오픈AI, 기업용 AI 에이전트 서비스 확대",
+     "facts": [
+      "구글, 기업용 제미나이 에이전트 기능을 연내 일반 소비자에게 제공",
+      "오픈AI, 챗GPT 대화와 업무 자동화 기능을 연내 통합 예정"
+     ],
+     "interpretation": "AI가 단순 정보 제공을 넘어 복잡한 업무를 스스로 수행하는 '에이전트'로 진화함에 따라, 플랫폼 간의 사용자 확보 경쟁이 치열해질 전망.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "에이전트 기능 도입에 따른 기업 고객의 유료 전환율",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c945312c1ada9194",
+      "e8179e76eef04c4c",
+      "1bb3bca4157d59ac"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "35173615fe1e51f5",
+   "title": "CXMT, 수율 20%에도 HBM3E 양산 추진…SK하이닉스는 70%",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216797",
+   "source": "AI타임스"
+  },
+  {
+   "id": "cc215cb652bd4ae3",
+   "title": "Nvidia under probe by US justice officials over Hugging Face acquisition",
+   "url": "https://www.digitimes.com/news/a20261029VL218/nvidia-acquisition-doj-probe-investigation.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "4cad39c165ed0f53",
+   "title": "삼성전자 2026년 3분기 실적발표 컨퍼런스콜 전문",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64531",
+   "source": "디일렉"
+  },
+  {
+   "id": "b6923be3d8027499",
+   "title": "삼성전자, 반도체서만 106조5000억 이익...\"내년 HBM 이미 완판\"",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64510",
+   "source": "디일렉"
+  },
+  {
+   "id": "a55290be9d2e3124",
+   "title": "삼성전자, 2026년 3분기 매출 195.3조원, 영업이익 107.4조원 기",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=342801",
+   "source": "KIPOST"
+  },
+  {
+   "id": "d28f6ea6ba8a1e9b",
+   "title": "미 법무부, 엔비디아의 허깅페이스 인수 조사...AI 모델 유통망 장악 가능성 검토",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216777",
+   "source": "AI타임스"
+  },
+  {
+   "id": "6e54370a03b04c52",
+   "title": "구글 '제미나이4 카본', 프런티어 AI 1위…오픈AI·앤트로픽 제쳐",
+   "url": "https://www.etnews.com/20261029000345",
+   "source": "전자신문"
+  },
+  {
+   "id": "8b51a1d13832486f",
+   "title": "삼성전자 “내년 HBM 완판…비메모리 가동률 100% 넘을 것”",
+   "url": "https://www.etnews.com/20261029000325",
+   "source": "전자신문"
+  },
+  {
+   "id": "988b7468889b18bd",
+   "title": "CXMT to start HBM3E production despite low yields amid tight domestic market",
+   "url": "https://www.digitimes.com/news/a20261029VL216/cxmt-production-hbm3e-market-dram.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "83460f6b6bf3ffff",
+   "title": "삼성전자 \"메모리, 2028년까지 수급 빠듯...내년 HBM 완판\"",
+   "url": "https://zdnet.co.kr/view/?no=20261029114926",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "3e3126fc4dbbe16a",
+   "title": "앤트로픽, 1인 신약 개발사 인수...클로드로 직접 치료제 개발",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216778",
+   "source": "AI타임스"
+  },
+  {
+   "id": "fe98c1aa9318cc79",
+   "title": "AAII 평가 대폭 개편에 순위 변동…구글 1위·오픈AI 약진",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216802",
+   "source": "AI타임스"
+  },
+  {
+   "id": "e8179e76eef04c4c",
+   "title": "오픈AI, 연내 '챗GPT' 대화·업무 기능 통합…별도 모드 전환 없앤다",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216804",
+   "source": "AI타임스"
+  },
+  {
+   "id": "c945312c1ada9194",
+   "title": "구글, 기업용 '제미나이 에이전트' 연내 일반 이용자에 제공",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216787",
+   "source": "AI타임스"
+  },
+  {
+   "id": "f0df23444dd5695f",
+   "title": "Anthropic buys Mithril to test AI-assisted drug development",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVkhXLWRvTnNmUkZETnlPZlBEMzF3QWlVT2pPUjFZWjI2TGFMN1FfSnJlOVN4X3lMa2ZtS0x4RVRJd29OMEI0ZjY5NHliakZELXFCOHVHaVJYVjBJRVZkQW90WG9VRU5mRTdCMHZNNTY5U01Yc0NkT2MtbE5NWUpZZjFnMkNkbWRuSnFKSVhyWkZjNXNrdGRDdDZFbjQxZ0R1NnJKelVBVQ?oc=5",
+   "source": "The Pharma Letter"
+  },
+  {
+   "id": "1bb3bca4157d59ac",
+   "title": "구글, 기업용 '제미나이 에이전트' 연내 일반인에게 제공…10억 이용자 겨냥",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216787",
+   "source": "AI타임스"
+  },
+  {
+   "id": "5721152ff7992352",
+   "title": "Google's Gemini 4 Carbon looks like a diamond in the rough",
+   "url": "https://www.theregister.com/ai-and-ml/2026/10/29/googles-gemini-4-carbon-looks-like-a-diamond-in-the-rough/5306149",
+   "source": "The Register"
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "generated_at": "2026-10-29T18:07:31Z",
+ "date": "2026-10-30",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "SK하이닉스의 기록적인 실적 발표와 증권가 목표주가 괴리 확대, 그리고 엔비디아 CEO 관련 보안 이슈가 주요 이슈로 부상함.",
+   "stories": [
+    {
+     "headline": "SK하이닉스, 역대급 실적에도 증권가 목표주가 전망 엇갈려",
+     "facts": [
+      "SK하이닉스 3분기 매출 104조 6,000억 원, 영업이익 83조 3,000억 원 기록",
+      "증권가 목표주가 범위 165만 원~400만 원으로 괴리 확대",
+      "AI 인프라 투자 지속 여부와 메모리 업황 둔화 가능성에 대한 시각 차이 존재"
+     ],
+     "interpretation": "실적은 견조하나 AI 투자 사이클의 지속 가능성과 메모리 수급 정점 통과 여부에 대한 시장의 불확실성이 반영된 결과임. 목표주가 괴리는 향후 실적 가시성과 밸류에이션 산정 방식에 대한 시장의 혼란을 시사함.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "earnings",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "AI 데이터센터 투자 규모의 지속성과 HBM 공급 부족 완화 시점을 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ae146793e9f924b8",
+      "4af2c30c08bc3041"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아, CEO 관련 중국 스파이 연루 의혹 부인",
+     "facts": [
+      "뉴욕타임즈가 엔비디아 CEO 젠슨 황 주변 인물의 중국 스파이 의혹 보도",
+      "엔비디아 측은 해당 의혹이 이미 조사되었으며 근거 없는 것으로 판명되었다고 반박"
+     ],
+     "interpretation": "지정학적 리스크와 연계된 경영진 관련 불확실성은 단기적인 투자 심리에 부정적일 수 있으나, 회사의 공식 부인으로 리스크가 제한적일 것으로 판단됨.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "medium",
+     "watch_next": "추가적인 정보 공개나 규제 당국의 공식 입장 변화 여부를 모니터링해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3d065776f352eb36",
+      "b8c3213c031761f3"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "알파벳의 실적 부진에 따른 주가 급락과 AI 관련 기업들의 실적 및 전략 변화가 시장의 주목을 받음.",
+   "stories": [
+    {
+     "headline": "알파벳, 실적 발표 후 주가 급락 및 현금 흐름 우려",
+     "facts": [
+      "알파벳 주가 12~13% 급락하며 실적 발표 후 최대 낙폭 기록",
+      "예상치를 상회하는 마이너스 잉여현금흐름(FCF) 보고",
+      "연간 지출 가이던스 유지"
+     ],
+     "interpretation": "AI 인프라 투자를 위한 대규모 자본 지출이 지속되는 상황에서 현금 흐름 악화가 투자자들에게 실망감을 주었으며, AI 수익화 속도에 대한 의구심이 반영됨.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "earnings",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "향후 분기 실적에서 AI 관련 매출 기여도가 비용 증가를 상쇄하는지 확인이 필요함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "612af3cf84b38a55",
+      "021f3f0c94838051"
+     ],
+     "importance": 3
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "3d065776f352eb36",
+   "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+   "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "ae146793e9f924b8",
+   "title": "SK Hynix shares jump 11% after record quarterly profit, outperforming broader market",
+   "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "b8c3213c031761f3",
+   "title": "Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'",
+   "url": "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "4af2c30c08bc3041",
+   "title": "400만원 간다더니 165만원?…SK하닉 목표주가 235만원 차이, “개미들만 골머리”",
+   "url": "https://www.etnews.com/20261029000471",
+   "source": "전자신문"
+  },
+  {
+   "id": "612af3cf84b38a55",
+   "title": "Alphabet falls 12%, putting it on course for its biggest ever post-earnings drop",
+   "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "021f3f0c94838051",
+   "title": "Alphabet falls 13%, putting it on course for its biggest ever post-earnings drop",
+   "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

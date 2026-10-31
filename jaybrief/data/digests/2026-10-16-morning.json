@@ -1,0 +1,158 @@
+{
+ "generated_at": "2026-10-16T00:30:50Z",
+ "date": "2026-10-16",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 데이터센터의 전력 부족 문제와 하드웨어 투자에 대한 시장의 우려가 심화되며 글로벌 반도체 섹터 전반에 변동성이 확대되고 있습니다.",
+   "stories": [
+    {
+     "headline": "AI 인프라 투자 우려로 글로벌 반도체 하드웨어 주가 급락",
+     "facts": [
+      "글로벌 기술 하드웨어 주식 전반에서 매도세가 심화됨",
+      "AI 펀딩에 대한 시장의 우려가 주요 하락 요인으로 지목됨"
+     ],
+     "interpretation": "AI 데이터센터 구축을 위한 막대한 자본 지출 대비 수익화 속도에 대한 의구심이 커지며, 그간 급등했던 하드웨어 관련주들의 밸류에이션 조정이 진행 중임.",
+     "affected_company_ids": [
+      "nvidia",
+      "amd"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "주요 빅테크 기업들의 차기 분기 실적 발표에서 AI 관련 자본 지출(CapEx) 가이던스 변화 여부 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "81177f8ffca7cc75",
+      "2c646b59a0f47fc4"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "TSMC, AI 가속기 수요 전망에 CPU 제외",
+     "facts": [
+      "TSMC는 에이전트 AI 관련 CPU 수요 증가를 관찰 중임",
+      "현재 AI 가속기 수요 성장 전망치에는 CPU를 포함하지 않음"
+     ],
+     "interpretation": "AI 가속기 시장의 성장이 GPU 및 전용 가속기 중심으로 집중되어 있음을 시사하며, CPU 시장의 AI 수혜 강도는 상대적으로 낮게 평가됨.",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "guidance",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "향후 AI 에이전트 확산에 따른 범용 CPU의 AI 연산 처리 비중 확대 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9a7aaae18fb4768e"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "메타의 로컬 AI 모델 공개와 아마존의 AI 디바이스 전략 등 온디바이스 AI 생태계 확장이 가속화되는 한편, AI 보안 및 규제 리스크가 부각되고 있습니다.",
+   "stories": [
+    {
+     "headline": "메타, 애플 실리콘 최적화 오픈웨이트 모델 'Muse Spark Open' 공개",
+     "facts": [
+      "메타가 8160억 개 파라미터 규모의 멀티모달 모델 공개",
+      "애플과 협력하여 맥 스튜디오 환경에서 로컬 구동 최적화"
+     ],
+     "interpretation": "클라우드 의존도를 낮추고 로컬 환경에서 고성능 AI를 구동하려는 전략으로, 하드웨어 제조사와 SW 기업 간의 온디바이스 AI 동맹이 강화되고 있음.",
+     "affected_company_ids": [
+      "meta",
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "로컬 AI 구동을 위한 고성능 하드웨어 수요 증가가 애플 및 관련 칩셋 공급사에 미치는 영향.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e6b2ef08f13f46bb",
+      "e3a8a50788707c5f",
+      "694198e0eb672595"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "앤트로픽, IPO 앞두고 규제 리스크 및 국방부 제재 직면",
+     "facts": [
+      "뉴욕시 감사원장이 앤트로픽에 AI 위험 해소 전 IPO 중단 촉구",
+      "앤트로픽, 국방부의 공급망 위험 기업 지정에 불복하여 재심 청구"
+     ],
+     "interpretation": "AI 기업의 상장 과정에서 안전성 및 지배구조에 대한 공적 감시가 강화되고 있으며, 국방 관련 사업 추진 시 지정학적/보안적 리스크가 기업 가치에 변수로 작용함.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "앤트로픽의 IPO 일정 조정 여부 및 국방부와의 법적 분쟁 결과.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9965b7317562022b",
+      "82e444e452603b41"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "9a7aaae18fb4768e",
+   "title": "TSMC excludes CPUs from AI accelerator growth forecast",
+   "url": "https://www.digitimes.com/news/a20261015PD251/tsmc-demand-taiwan-accelerator-growth.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "81177f8ffca7cc75",
+   "title": "Nvidia, AMD, Dell sink in global tech rout on AI funding worries",
+   "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "2c646b59a0f47fc4",
+   "title": "Nvidia, AMD, Dell sell-off in global tech rout on AI funding worries",
+   "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "9965b7317562022b",
+   "title": "美 뉴욕시 감사원장, 앤트로픽에 “AI 위험 해소할 때까지 IPO 중단해야”",
+   "url": "https://www.etnews.com/20261016000009",
+   "source": "전자신문"
+  },
+  {
+   "id": "82e444e452603b41",
+   "title": "앤트로픽, 국방부 '공급망 위험' 지정 불복…항소법원에 재심 청구",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216255",
+   "source": "AI타임스"
+  },
+  {
+   "id": "e6b2ef08f13f46bb",
+   "title": "메타, ‘뮤즈 스파크 오픈’ 공개…맥 2대로 구동·미국 최고 성능 내세워",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216309",
+   "source": "AI타임스"
+  },
+  {
+   "id": "e3a8a50788707c5f",
+   "title": "Meta launches an open-weight AI model that runs on Macs",
+   "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "694198e0eb672595",
+   "title": "Apple and Meta team up to make Muse AI model run on Mac computers",
+   "url": "https://www.cnbc.com/2026/10/15/apple-meta-partner-ai.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

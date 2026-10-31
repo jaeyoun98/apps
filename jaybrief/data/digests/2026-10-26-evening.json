@@ -1,0 +1,164 @@
+{
+ "generated_at": "2026-10-26T09:13:24Z",
+ "date": "2026-10-26",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 투자 지속에 따른 전력기기 수요 확대와 차세대 메모리 공정 기술 경쟁이 심화되고 있습니다. 한편, 중국의 미국산 칩 의존도 지속과 국내 반도체 생태계 내 실증 사업이 활발히 전개되고 있습니다.",
+   "stories": [
+    {
+     "headline": "SK하이닉스, AI 메모리 생산 확대 위한 전력기기 수주 릴레이",
+     "facts": [
+      "HD현대일렉트릭이 SK하이닉스 청주 신규 생산시설의 전력기기 설치공사를 시작함",
+      "공급 품목은 고전압 배전반과 변압기 등임"
+     ],
+     "interpretation": "AI 반도체 및 HBM 생산능력 확대를 위한 인프라 투자가 전력기기 업체들의 실적 견인으로 이어지는 구조가 확인됨",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "SK하이닉스의 추가적인 설비 투자 규모와 전력기기 공급업체의 수주 잔고 추이를 확인해야 함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f3fd8df2daa8a778"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "TSMC, 2028년 양산 목표 A14 공정서 S램 스케일링 재개",
+     "facts": [
+      "TSMC가 A14 공정에서 6T 고밀도 S램 비트셀 크기를 0.017㎛² 미만으로 축소할 계획",
+      "N5 공정 이후 8년 만에 S램 스케일링이 재개되는 것임"
+     ],
+     "interpretation": "고성능 컴퓨팅(HPC) 및 AI 칩의 성능 향상을 위해 로직 공정뿐만 아니라 메모리 셀 크기 축소 기술이 핵심 경쟁력으로 부상함",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "경쟁사인 삼성전자의 차세대 공정 내 S램 스케일링 대응 전략을 모니터링할 필요가 있음",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "63e2d2b127499523"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "중국 AI 컴퓨팅 자원 내년 2배 증가 전망, 미국산 칩 의존도 65% 유지",
+     "facts": [
+      "내년 말 중국의 AI 컴퓨팅 자원이 올해 대비 2배 가까이 늘어날 전망",
+      "전체 자원의 약 65%는 미국 기업 설계 칩에 의존할 것으로 분석됨"
+     ],
+     "interpretation": "미국의 대중국 반도체 제재에도 불구하고 중국의 AI 연산 자원 확보 수요는 지속되고 있으며, 해외 데이터센터를 통한 우회적 GPU 활용이 핵심 통로로 작용함",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "미국의 추가적인 대중국 반도체 수출 통제 강화 여부가 변수임",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "66a2435a6aa5b2c3"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 시장이 하드웨어 중심에서 소프트웨어 구독 모델로 확장되고 있으며, 기업용 AI 보안 및 데이터 통제권 확보가 주요 화두로 떠오르고 있습니다.",
+   "stories": [
+    {
+     "headline": "엔비디아, GPU당 연간 2000달러 소프트웨어 구독 모델 구상",
+     "facts": [
+      "엔비디아가 AI 에이전트 구동용 소프트웨어를 GPU당 연간 2000달러에 제공하는 방안을 검토 중",
+      "보안, 접근 권한 관리, 인프라 운영 기능이 포함됨"
+     ],
+     "interpretation": "하드웨어 판매 중심의 수익 구조를 소프트웨어 구독형으로 다변화하여 고객의 엔비디아 생태계 종속(Lock-in)을 강화하려는 전략임",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "기업 고객들의 소프트웨어 구독 모델 수용도와 실질적인 매출 기여도를 확인해야 함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "86f30dd339280310"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "두나무앤파트너스, 미국 우주 데이터센터 스타트업 '스타클라우드' 투자",
+     "facts": [
+      "두나무앤파트너스가 저궤도 우주 데이터센터 기업 스타클라우드 투자 라운드에 참여",
+      "이번 라운드에는 엔비디아, 시스코 인베스트먼트 등이 함께 참여함"
+     ],
+     "interpretation": "AI 연산 수요 급증으로 인해 지상 데이터센터의 한계를 극복하려는 우주 공간 활용 등 인프라 다변화 시도가 본격화되고 있음",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "우주 데이터센터의 기술적 실현 가능성과 상업적 효율성 검증이 필요함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "eac4cf4b06afcfb1",
+      "d99ba8e94a4b0350"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "f3fd8df2daa8a778",
+   "title": "HD현대, SK하이닉스 전력기기 수주 릴레이",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64263",
+   "source": "디일렉"
+  },
+  {
+   "id": "eac4cf4b06afcfb1",
+   "title": "두나무앤파트너스, 미국 우주 데이터센터 기업 스타클라우드에 투자",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216664",
+   "source": "AI타임스"
+  },
+  {
+   "id": "66a2435a6aa5b2c3",
+   "title": "중국 AI 컴퓨팅 내년 두 배로…65%는 미국산 칩에 의존",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216673",
+   "source": "AI타임스"
+  },
+  {
+   "id": "63e2d2b127499523",
+   "title": "TSMC 8년 만에 S램 비트셀 축소…'A14' 공정 0.017㎛² 미만",
+   "url": "https://www.etnews.com/20261026000222",
+   "source": "전자신문"
+  },
+  {
+   "id": "d99ba8e94a4b0350",
+   "title": "두나무앤파트너스, 美 우주 데이터센터 ‘스타클라우드’에 전략적 투자",
+   "url": "https://zdnet.co.kr/view/?no=20261026165305",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "86f30dd339280310",
+   "title": "엔비디아, GPU당 연간 2000달러 SW 구독제 구상...생태계 '락인' 가속",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216646",
+   "source": "AI타임스"
+  }
+ ]
+}

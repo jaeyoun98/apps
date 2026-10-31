@@ -1,0 +1,160 @@
+{
+ "generated_at": "2026-10-24T13:25:20Z",
+ "date": "2026-10-24",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아의 대중국 수출 통제 실효성 논란과 AI 인프라 투자 리스크가 부각되고 있습니다.",
+   "stories": [
+    {
+     "headline": "중국 차이나텔레콤 네트워크에서 엔비디아 블랙웰 B300 GPU 포착",
+     "facts": [
+      "중국 국영 통신사 차이나텔레콤 네트워크에서 수출 금지 대상인 엔비디아 B300 GPU 32개가 발견됨",
+      "이스라엘 보안업체 라바가 외부에 노출된 모니터링 시스템을 통해 확인",
+      "해당 칩의 정확한 설치 장소와 입수 경로는 미확인"
+     ],
+     "interpretation": "미국의 대중국 첨단 AI 칩 수출 통제에도 불구하고 우회 경로를 통한 중국의 첨단 GPU 확보 정황이 지속적으로 드러나고 있습니다. 이는 엔비디아의 대중국 매출 리스크와 수출 통제 정책의 실효성에 대한 시장의 의구심을 높이는 요인입니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 정부의 추가적인 대중국 수출 통제 강화 조치 및 엔비디아의 대응 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "fdb7075fef9f59a2"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아의 AI 금융 지원 역할에 대한 시장의 리스크 우려 제기",
+     "facts": [
+      "엔비디아가 단순 칩 제조사를 넘어 AI 생태계의 금융 지원자 역할을 수행 중",
+      "일부 투자자들은 AI 인프라 구축과 관련된 엔비디아의 잠재적 리스크 노출을 경계"
+     ],
+     "interpretation": "엔비디아가 AI 클라우드 기업들에 대한 자금 지원을 확대하면서, AI 시장의 성장 둔화나 클라우드 기업의 수익성 악화 시 엔비디아의 재무적 리스크로 전이될 수 있다는 우려가 제기되고 있습니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "AI 인프라 투자 수익성 지표 및 엔비디아의 금융 지원 관련 재무 리스크 공시.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "969e1b0d21772f05"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크 기업들의 AI 에이전트 경쟁이 격화되며 인프라 보안과 컴퓨팅 자원 배분이 핵심 이슈로 떠오르고 있습니다.",
+   "stories": [
+    {
+     "headline": "구글, AI 에이전트 보안 격리를 위한 전용 컴퓨팅 엔진 출시",
+     "facts": [
+      "구글 클라우드가 AI 에이전트별 독립 실행 환경을 제공하는 '에이전트 컴퓨트 엔진' 공개",
+      "마이크로VM을 활용해 하드웨어 수준에서 보안 격리 및 자원 효율화 달성",
+      "기업 환경에서 자율형 AI 에이전트의 안전한 대규모 운영을 지원"
+     ],
+     "interpretation": "AI 에이전트가 실험 단계를 넘어 기업 업무에 도입됨에 따라 보안과 확장성이 최우선 과제가 되었습니다. 구글은 인프라 표준을 선점하여 클라우드 경쟁력을 강화하려는 전략입니다.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "기업 고객들의 에이전트 컴퓨트 엔진 채택률 및 관련 보안 솔루션 시장 점유율.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9d93ae44c0a12c36"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "구글 CEO, 클라우드 매출보다 첨단 AI 개발에 컴퓨팅 자원 우선 배분",
+     "facts": [
+      "순다르 피차이 구글 CEO가 첨단 AI 모델 개발에 컴퓨팅 자원을 최우선 투입하겠다고 밝힘",
+      "단기적인 클라우드 사업 매출보다 AI 모델 경쟁력 확보를 우선시하는 전략",
+      "컴퓨팅 자원 부족 상황에서 AI 연구와 사업 수요 간 조정이 진행 중"
+     ],
+     "interpretation": "구글의 AI 퍼스트 전략이 클라우드 사업의 단기 수익성보다 모델 성능 우위 확보에 집중되어 있음을 시사합니다. 이는 AI 생태계 주도권을 잡기 위한 공격적 투자 기조를 보여줍니다.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "구글의 AI 모델 성능 향상 속도와 클라우드 사업 부문의 매출 성장률 간의 균형.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5cd80a08881363be"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "앤트로픽, 구글 클라우드 기반 '관리형 클로드' 서비스 출시",
+     "facts": [
+      "앤트로픽이 구글 클라우드에서 클로드 플랫폼의 모든 기능을 이용할 수 있는 서비스 출시",
+      "구글 클라우드의 IAM 인증, 결제 체계와 통합되어 기업 고객 접근성 강화"
+     ],
+     "interpretation": "앤트로픽과 구글의 파트너십이 강화되면서 기업 고객들이 구글 클라우드 환경에서 앤트로픽의 최신 AI 모델을 더 쉽게 도입할 수 있게 되었습니다. 이는 구글 클라우드의 AI 서비스 생태계 확장과 앤트로픽의 B2B 시장 점유율 확대에 긍정적입니다.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "구글 클라우드 내 앤트로픽 모델 사용량 증가 추이.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "83459b28567c4c31"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "fdb7075fef9f59a2",
+   "title": "중국 국영 통신망서 수출 금지 엔비디아 칩 또 포착…첨단 'B300' 32개 확인",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216617",
+   "source": "AI타임스"
+  },
+  {
+   "id": "969e1b0d21772f05",
+   "title": "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
+   "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "5cd80a08881363be",
+   "title": "피차이 “클라우드 매출 포기하더라도 첨단 AI 개발에 컴퓨팅 우선 투입”",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216618",
+   "source": "AI타임스"
+  },
+  {
+   "id": "83459b28567c4c31",
+   "title": "앤트로픽, 구글 클라우드서 최신 기능 쓰는 '관리형 클로드' 출시",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216613",
+   "source": "AI타임스"
+  },
+  {
+   "id": "9d93ae44c0a12c36",
+   "title": "구글 클라우드, 에이전트 전용 '컴퓨팅 엔진' 출시…마이크로VM으로 보안 격리",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216608",
+   "source": "AI타임스"
+  }
+ ]
+}

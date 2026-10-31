@@ -1,0 +1,194 @@
+{
+ "generated_at": "2026-10-30T10:18:42Z",
+ "date": "2026-10-30",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "글로벌 빅테크의 AI 투자 비용 부담과 실적 충격으로 인한 반도체 섹터의 변동성 확대 및 공급망 내 전략적 변화가 관찰됨.",
+   "stories": [
+    {
+     "headline": "美 빅테크 실적 충격에 따른 국내 반도체주 동반 급락",
+     "facts": [
+      "미국 대형 기술기업의 실적 충격으로 AI 투자비 부담 및 현금흐름 악화 우려 확산",
+      "30일 코스피 3.48% 하락, 삼성전자 3% 및 SK하이닉스 7%대 동반 하락",
+      "한국거래소 장중 매도 사이드카 발동"
+     ],
+     "interpretation": "AI 인프라 투자 수익성에 대한 시장의 의구심이 커지며, 고평가된 반도체 섹터의 단기 수급 악화와 밸류에이션 조정 압력으로 작용함.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "빅테크 기업들의 향후 AI 자본지출(CAPEX) 가이던스 수정 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "52efc7ba2f1ff9a8"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자, 삼성디스플레이 보유 TCL CSOT 지분 전량 인수",
+     "facts": [
+      "삼성전자가 삼성디스플레이의 TCL CSOT 지분 10.16%를 1조 2700억원에 취득 결정",
+      "인수 주체는 VD(영상디스플레이)사업부로 12월 거래 완료 예정"
+     ],
+     "interpretation": "LCD 사업에서 철수한 삼성디스플레이의 자산 효율화와 삼성전자의 TV/모니터 패널 공급망 안정화 전략의 일환임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "패널 공급망 내재화에 따른 원가 경쟁력 개선 효과",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "7646be0b2cd96449",
+      "7481878ab08ff15b"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "SK하이닉스, 미주총괄 사장 신설 및 일본 협력사 파트너스 데이 개최",
+     "facts": [
+      "안현 사장을 미주총괄 사장으로 선임하여 현지 빅테크 고객 대응 강화",
+      "일본 치바현에서 신에츠, 도쿄일렉트론 등 핵심 파트너 20여 곳과 첫 파트너스 데이 개최"
+     ],
+     "interpretation": "AI 메모리 시장의 주도권을 유지하기 위해 미국 현지 고객사와의 밀착 대응 체계를 구축하고, 일본 소재·장비 공급망을 공고히 하려는 전략적 행보임.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미주 조직 신설에 따른 신규 맞춤형 HBM 수주 성과",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5ccdea30d8ff73cb",
+      "f5484fbba6e9e94e",
+      "1622e1d9dcd4803d"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 및 로보틱스 분야의 기술 협력이 가속화되는 가운데, 보안 취약점과 데이터 유출 문제가 기업 리스크로 부상함.",
+   "stories": [
+    {
+     "headline": "토요타-웨이모, 일본 내 무인 로보택시 시범운행 협력",
+     "facts": [
+      "토요타와 웨이모가 내년 일본에서 무인 로보택시 시범운행 시작",
+      "토요타 전기차 'bZ4X' 기반, 웨이모의 자율주행 기술 적용"
+     ],
+     "interpretation": "자율주행 기술의 상용화가 특정 지역을 중심으로 구체화되고 있으며, 완성차 업체와 AI 소프트웨어 기업 간의 수직적 협력이 강화되고 있음.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "일본 내 규제 완화 및 로보택시 서비스의 실제 운영 데이터",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d11a911fc3dd6894",
+      "5ceb81067f78b8a1"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "주요 AI 개발 도구 보안 취약점 발견 및 기업 내부망 위협 증가",
+     "facts": [
+      "오픈AI '코덱스', MS 'VS 코드' 등 5종의 AI 도구에서 보안 취약점 발견",
+      "PHP 취약점(PHP2Shell)이 웹서버를 넘어 기업 내부 IoT 기기까지 위협"
+     ],
+     "interpretation": "AI 개발 도구 및 기업 인프라의 보안 허점이 실질적인 침해 사고로 이어질 가능성이 커짐에 따라, 기업들의 보안 투자 비용 증가가 예상됨.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "관련 기업들의 보안 패치 속도 및 추가적인 데이터 유출 사고 발생 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0760e4df404f16c4",
+      "72988d3826aa5dfa"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "52efc7ba2f1ff9a8",
+   "title": "코스피, 美 빅테크 실적 충격에 3%대 급락…삼성전자 3%·SK하이닉스 7% 하락",
+   "url": "https://www.etnews.com/20261030000308",
+   "source": "전자신문"
+  },
+  {
+   "id": "5ccdea30d8ff73cb",
+   "title": "SK하이닉스, 일본 주요 협력사와 첫 '파트너스 데이' 개최",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64632",
+   "source": "디일렉"
+  },
+  {
+   "id": "7646be0b2cd96449",
+   "title": "삼성전자, 삼성D 보유 TCL CSOT 지분 전량 매입...1조2700억원 규모",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64625",
+   "source": "디일렉"
+  },
+  {
+   "id": "0760e4df404f16c4",
+   "title": "오픈AI '코덱스' 등 인기 AI 개발 도구 5종서 '보안 허점' 무더기 발견",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64619",
+   "source": "디일렉"
+  },
+  {
+   "id": "f5484fbba6e9e94e",
+   "title": "SK하이닉스, 사장단 인사 단행...안현 사장(현 개발총괄), 미주총괄 사장으로",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=342845",
+   "source": "KIPOST"
+  },
+  {
+   "id": "1622e1d9dcd4803d",
+   "title": "SK Hynix taps HBM veteran to lead new American unit",
+   "url": "https://www.digitimes.com/news/a20261030VL227/sk-hynix-hbm-development-americas-technology.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "72988d3826aa5dfa",
+   "title": "AWS installs an AI accelerator every 14 seconds and eyes $1 trillion annual revenue",
+   "url": "https://www.theregister.com/off-prem/2026/10/30/aws-installs-an-ai-accelerator-every-14-seconds-and-eyes-1-trillion-annual-revenue/5306547",
+   "source": "The Register"
+  },
+  {
+   "id": "d11a911fc3dd6894",
+   "title": "토요타·웨이모, 내년 일본서 무인 로보택시 시범운행",
+   "url": "https://www.etnews.com/20261030000345",
+   "source": "전자신문"
+  },
+  {
+   "id": "7481878ab08ff15b",
+   "title": "삼성전자, 삼성디스플레이 보유 중국 TCL CSOT 지분 전량 인수",
+   "url": "https://www.etnews.com/20261030000343",
+   "source": "전자신문"
+  },
+  {
+   "id": "5ceb81067f78b8a1",
+   "title": "Waymo taps Toyota to supply robotaxis for Japan and the U.K.",
+   "url": "https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/",
+   "source": "TechCrunch"
+  }
+ ]
+}
