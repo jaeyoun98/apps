@@ -1,0 +1,131 @@
+{
+ "generated_at": "2026-11-02T01:37:05Z",
+ "date": "2026-11-02",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "한국 반도체 산업의 생태계 강화 움직임과 글로벌 AI 인프라 투자 흐름이 지속되고 있으나, AI 투자 수익성에 대한 월가의 경계심이 확산되는 양상입니다.",
+   "stories": [
+    {
+     "headline": "월가, AI 투자 수익성 우려에 풋옵션·CDS로 위험 헤지 본격화",
+     "facts": [
+      "AI 산업에 천문학적 자금이 유입되면서 투자 손실에 대비하려는 움직임이 월가에서 본격화됨",
+      "개인투자자와 기술기업 임원들이 주식·채권뿐만 아니라 AI 반도체(GPU) 사용료 하락 위험까지 헤지하기 위해 풋옵션과 신용부도스와프(CDS)를 활용 중"
+     ],
+     "interpretation": "AI 인프라 구축에 대한 낙관론과 달리 실제 수익 창출에 대한 불확실성이 커지면서, 시장 참여자들이 하방 리스크를 방어하려는 심리가 강해지고 있음. 이는 AI 관련 기술주 및 반도체 섹터의 변동성을 키울 수 있는 신호임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "주요 AI 기업들의 차기 분기 실적 발표에서 AI 관련 자본 지출 대비 수익성 지표 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0ed195edbb86e66b"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "전남광주반도체포럼, 지역 반도체 생태계 조성을 위한 '얼라이언스' 출범",
+     "facts": [
+      "전남광주반도체포럼이 민·관·산·학·연 협력 체계 구축을 위한 '전남광주반도체포럼 연대(얼라이언스)'를 2일 발족함",
+      "반도체 산업 육성의 필요성과 지역사회 체감도 간 인식 차이를 좁히고 생태계를 견인하는 것이 목표"
+     ],
+     "interpretation": "지역 중심의 반도체 클러스터 조성 노력이 구체화되고 있음. 정부의 반도체 지원 정책과 맞물려 지역 기반의 공급망 및 인력 확보가 장기적으로 산업 경쟁력에 기여할 것으로 보임.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "얼라이언스 참여 기업들의 구체적인 투자 계획 및 정부의 후속 지원 정책 발표 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5ec81fcb428d9fde"
+     ],
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "정부의 대규모 예산 편성 및 정책 발표가 이어지는 가운데, AI 교육 및 기술 협력 분야에서 민간 기업들의 파트너십이 활발히 전개되고 있습니다.",
+   "stories": [
+    {
+     "headline": "정부, R&D 예산 4조 증액 및 3대 메가프로젝트에 21조 3000억 투자",
+     "facts": [
+      "정부가 R&D 예산을 4조 원 증액하여 역대 최대 규모인 39조 5000억 원을 편성함",
+      "3대 메가프로젝트에 21조 3000억 원을 투자하기로 결정함"
+     ],
+     "interpretation": "정부의 R&D 예산 대폭 확대는 AI, 반도체 등 핵심 기술 분야의 국가 경쟁력을 강화하려는 의지로 해석됨. 관련 기술 기업들에게는 공공 부문 수주 및 공동 연구 기회가 확대될 것으로 전망됨.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "예산 집행의 구체적인 분야와 수혜 기업군이 포함된 세부 사업 계획 발표.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "cabd053b43eae565",
+      "333489283c16b461"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "메타메트릭스-레디, 국내 영어 문해력 교육 위한 AI 기반 파트너십 확대",
+     "facts": [
+      "메타메트릭스와 교육 기술 기업 레디가 파트너십을 확대하여 Lexile Express Test를 한국에 독점 공급함",
+      "AI 기반 학습지, 읽기 평가 등 맞춤형 영어 교육 플랫폼을 통해 학생별 읽기 능력 향상을 지원할 예정"
+     ],
+     "interpretation": "에듀테크 분야에서 AI를 활용한 개인화 학습 도구 도입이 가속화되고 있음. 데이터 기반의 교육 솔루션이 시장에서 신뢰를 얻으며 교육 서비스의 질적 성장을 견인할 것으로 보임.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "해당 솔루션의 국내 학교 및 교육 기관 도입률과 실제 학습 성과 데이터.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ac5950f86c264c74"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "5ec81fcb428d9fde",
+   "title": "전남광주반도체포럼, 반도체산업 생태계 견인 '핵심 연대(얼라이언스)' 출범",
+   "url": "https://www.etnews.com/20261102000139",
+   "source": "전자신문"
+  },
+  {
+   "id": "0ed195edbb86e66b",
+   "title": "AI 투자 수익성 의구심 확산…월가, 풋옵션·CDS로 위험 헤지",
+   "url": "https://www.etnews.com/20261102000003",
+   "source": "전자신문"
+  },
+  {
+   "id": "cabd053b43eae565",
+   "title": "[속보] 李대통령 “R&D 예산 4조 증액…역대 최대 39조 5000억 편성”",
+   "url": "https://www.etnews.com/20261102000128",
+   "source": "전자신문"
+  },
+  {
+   "id": "333489283c16b461",
+   "title": "[속보] 李 “3대 메가프로젝트에 21조 3000억원 투자”",
+   "url": "https://www.etnews.com/20261102000126",
+   "source": "전자신문"
+  },
+  {
+   "id": "ac5950f86c264c74",
+   "title": "메타메트릭스와 레디, 국내 영어 문해력 협력 확대",
+   "url": "https://zdnet.co.kr/view/?no=20261102001003",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

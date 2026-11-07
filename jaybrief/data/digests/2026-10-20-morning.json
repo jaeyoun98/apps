@@ -1,0 +1,219 @@
+{
+ "generated_at": "2026-10-19T18:26:07Z",
+ "date": "2026-10-20",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 AI 인프라 확장에 따른 메모리 및 패키징 수요 증가와 함께, 지정학적 리스크 및 공급망 다변화 이슈가 공존하고 있습니다.",
+   "stories": [
+    {
+     "headline": "삼성전기, 메모리 반도체용 패키지기판 3,605억원 장기공급계약 체결",
+     "facts": [
+      "삼성전기가 글로벌 메모리 반도체 기업과 3,605억원 규모의 패키지기판 장기공급계약(LTA)을 체결함",
+      "계약 기간은 2027년 1월 1일부터 1년간임"
+     ],
+     "interpretation": "AI 서버 및 고성능 컴퓨팅 수요 증가로 인한 고성능 메모리 패키징 수요가 견조함을 시사하며, 삼성전기의 안정적인 매출원 확보 및 수익성 개선에 기여할 전망임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "추가적인 대형 고객사와의 장기 공급 계약 체결 여부 및 패키지기판 가동률 추이.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f1aa043655a62bb9",
+      "a2b52d1c811d8ce6",
+      "9c89ee153f00a2c5"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "엔비디아, JUPITER 슈퍼컴퓨터 활용 104큐비트 양자 시뮬레이션 신기록 수립",
+     "facts": [
+      "엔비디아가 JUPITER 엑사스케일 슈퍼컴퓨터에서 104큐비트 규모의 결함 허용 양자 컴퓨팅 시뮬레이션을 수행함",
+      "해당 연구는 Jülich Supercomputing Centre와 협력하여 진행됨"
+     ],
+     "interpretation": "엔비디아의 GPU가 AI를 넘어 양자 컴퓨팅 시뮬레이션 등 고성능 컴퓨팅(HPC) 영역으로 기술적 리더십을 확장하고 있음을 보여줌.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "양자 시뮬레이션 기술이 실제 상용 AI 모델 학습이나 신약 개발 등 산업 현장에 적용되는 속도.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "a0b4d1ea5b0c8a31",
+      "b7574df89120558f",
+      "e3349c2c0f3af432",
+      "ce5850545e0f7c02"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "엔비디아, 지포스 RTX 5090 단종설 공식 부인",
+     "facts": [
+      "엔비디아 고위 임원이 RTX 5090 단종설을 공식적으로 부인함",
+      "공급망 내 재고 부족으로 인한 생산 중단 우려를 일축함"
+     ],
+     "interpretation": "소비자용 GPU 시장의 최상위 제품 공급을 지속함으로써 시장 지배력을 유지하려는 의도로 해석됨.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "RTX 5090의 실제 시장 출시 시점 및 초기 공급 물량 확보 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e1e3b85d7ad4491a"
+     ],
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 테크 섹터는 AI 에이전트의 기업 도입 가속화와 함께, 인프라 전력 문제 및 보안 이슈가 주요 변수로 작용하고 있습니다.",
+   "stories": [
+    {
+     "headline": "마이크로소프트, 전력 공급 지연으로 영국 AI 슈퍼컴퓨터 프로젝트 중단",
+     "facts": [
+      "마이크로소프트가 영국 에식스 지역의 AI 슈퍼컴퓨터 구축 프로젝트를 철회함",
+      "전력망 연결 지연이 주요 원인으로 지목됨"
+     ],
+     "interpretation": "AI 데이터센터 확장에 있어 전력 인프라 확보가 핵심 병목 현상으로 부상하고 있음을 시사하며, 대규모 AI 투자 계획의 실행 속도에 영향을 줄 수 있음.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "supply_chain",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "데이터센터 전력 확보를 위한 마이크로소프트의 대체 부지 선정 또는 에너지 기업과의 추가 협력 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3fcff75d3d463582"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아, 기업 및 PC용 오픈 AI 에이전트 모델 출시",
+     "facts": [
+      "엔비디아가 기업 데이터센터 및 PC에서 직접 구동 가능한 오픈 AI 모델을 공개함",
+      "기업들이 자체적인 프라이빗 AI 에이전트를 구축할 수 있도록 지원함"
+     ],
+     "interpretation": "클라우드 의존도를 낮추고 온디바이스 AI 시장을 선점하려는 전략으로, 엔비디아의 소프트웨어 생태계 강화 및 하드웨어 수요 견인 효과가 기대됨.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "기업들의 오픈 모델 도입률 및 엔비디아의 관련 소프트웨어 플랫폼 매출 기여도.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "764b805b64f60aa7"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "아마존, 인디애나주 폐쇄 석탄 발전소 부지에 소형 원자로(SMR) 12기 건설",
+     "facts": [
+      "아마존이 X-energy와 협력하여 1기가와트 규모의 소형 원자로 건설 계약을 체결함",
+      "기존 석탄 발전소 부지를 활용하여 전력을 공급할 계획임"
+     ],
+     "interpretation": "AI 데이터센터의 급증하는 전력 수요를 해결하기 위해 빅테크 기업들이 원자력 등 안정적인 에너지원 확보에 직접 나서고 있음을 보여줌.",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "SMR 건설 인허가 절차 및 실제 전력망 연계 시점.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "eece9ba3343bf35e"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "a0b4d1ea5b0c8a31",
+   "title": "NVIDIA sets 104-qubit quantum simulation record on JUPITER supercomputer",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZkRwMUhnSHBiRGlWY1p3TGVTZzdHN2NQcklkU3Fra2QyelFfcllkTUlJVWRwRlFtWkhSazVIQy0teDc5ZU5fTl84bHk3d3A4Y19FWDIwQ0xIRkIzbHNVaEtUZkN6bmJiTGZmN2JDVmsyZy02amxCSEFISFcxOXE4enJqbHNZWXVCZEVjdW51dTQ4Z2M1QTFCc1Y1N0wtOWFFYmtaSnFRaFpoRS1xckJNSWhReFlFSXVyMlFCLU9LRGkzSFYtYmcw?oc=5",
+   "source": "Investing.com"
+  },
+  {
+   "id": "b7574df89120558f",
+   "title": "엔비디아, JUPITER 슈퍼컴퓨터에서 104큐비트 양자 시뮬레이션 신기록 수립",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB0bm8ybDhyUWRlNjV6QV9hZlVpajF4Wmd4YkdNQnlab2pxeDREZW83Y2h3S0dWMUMxTFlrQWxYLWtfY2diODJXbmlTUDNKc0YzMnRWbENMZDM5dUNZTnNYLXJLb001ZkZNTDBydHA2RzA?oc=5",
+   "source": "Investing.com 한국어"
+  },
+  {
+   "id": "e3349c2c0f3af432",
+   "title": "NVIDIA Uses JUPITER Exascale Supercomputer for Record-Scale Fault-Tolerant Quantum Computing Simulation",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcDV2MFBNWlA0c19Xb2NLR0RXRzVjQUZLMnYzTDdvVlZNLUJyRGVzNkdNUXRpdXEzUEcwNTZvMnlCQmxuQ3ZRN0toZXRUa0hLOUNKWXptUEYzZTM3XzFhTkd4TVphQ1F4Uk9selFCcVBKTm1MeTQ1ZGFHZjBXa01rYU9MeFp6N0hnVndLaVRHVDUtZ2lITzVGLW1qMVk2NHAzdlVFSzM1Z3I3R0xYeTA0bDN6djlYY0t1ckp6VjdPMnljLXY2TFFTMUxDRGpyNE9UaUE?oc=5",
+   "source": "Quiver Quantitative"
+  },
+  {
+   "id": "ce5850545e0f7c02",
+   "title": "NVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing at Jülich Supercomputing Centre",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVG1WY2dfWHlKMC03cS1qQllzc3hyT0ptajMtQUJvdlNMZ1ZkVHM0bDdJRnloMVdQNDZxMHhXcnhyQUR5eW9EVENZWm1Yb0RMMlBCMHU2b1NfbzNaeGxSY3pFbjFpM1lNS01YbFZOMDBzc3dmRjFZM2hoSXpoQTVvbFVyeGNvRlRxWFp4QlEyMlhVWE1QeHljWTNGQkE0SlBKNDJGa0phLXhpNWFBSVBDRTE4dFFRS2puNDRuSUdKUDlscEkwaVE4TmFVS3I?oc=5",
+   "source": "NVIDIA Newsroom"
+  },
+  {
+   "id": "764b805b64f60aa7",
+   "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+   "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "f1aa043655a62bb9",
+   "title": "삼성전기, 첫 패키지 기판 LTA…3600억원 규모 공급계약 체결",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=63936",
+   "source": "디일렉"
+  },
+  {
+   "id": "a2b52d1c811d8ce6",
+   "title": "삼성전기, 3605억원 '메모리 패키지기판' 장기공급계약",
+   "url": "https://zdnet.co.kr/view/?no=20261019174430",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "e1e3b85d7ad4491a",
+   "title": "엔비디아, '지포스 RTX 5090' 단종설 부인",
+   "url": "https://zdnet.co.kr/view/?no=20261019163740",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "9c89ee153f00a2c5",
+   "title": "삼성전기, 3605억원 규모 '메모리 반도체용 패키지기판' 장기 공급계약",
+   "url": "https://www.etnews.com/20261019000417",
+   "source": "전자신문"
+  },
+  {
+   "id": "eece9ba3343bf35e",
+   "title": "Amazon to fund 12 small nuclear reactors at former Indiana coal plant",
+   "url": "https://techcrunch.com/2026/10/19/amazon-to-fund-12-small-nuclear-reactors-at-former-indiana-coal-plant/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "3fcff75d3d463582",
+   "title": "Microsoft abandons UK AI supercomputer as grid struggles to keep up",
+   "url": "https://www.theregister.com/on-prem/2026/10/19/microsoft-abandons-uk-ai-supercomputer-as-grid-struggles-to-keep-up/5303824",
+   "source": "The Register"
+  }
+ ]
+}

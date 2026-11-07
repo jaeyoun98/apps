@@ -1,0 +1,171 @@
+{
+ "generated_at": "2026-10-26T16:13:21Z",
+ "date": "2026-10-27",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 AI 인프라 확장을 위한 대규모 투자와 기술 협력이 지속되는 가운데, 특정 기업의 HBM 생산능력 확대 및 AI 가속기 성능 최적화가 주요 화두로 떠오르고 있습니다.",
+   "stories": [
+    {
+     "headline": "Meta, AI 인프라 확장을 위한 950억 달러 규모 주식 발행 발표",
+     "facts": [
+      "Meta가 AI 인프라 및 슈퍼인텔리전스 구축을 위해 950억 달러 규모의 자금 조달 계획을 발표함",
+      "NVIDIA, AMD, Broadcom이 해당 자금 조달 과정에서 최대 50억 달러 규모의 지분 투자를 검토 중임"
+     ],
+     "interpretation": "빅테크의 AI 인프라 투자가 지속되면서 반도체 공급망 전반에 걸친 자본 지출이 가속화되고 있으며, 이는 주요 AI 반도체 기업들의 매출 안정성을 높이는 요인으로 작용함",
+     "affected_company_ids": [
+      "nvidia",
+      "amd",
+      "broadcom",
+      "meta"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "실제 투자 집행 규모와 관련 기업들의 수주 물량 확인이 필요함",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "1300792dd833a2eb"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "HD현대일렉트릭, SK하이닉스 신규 공장 전력기기 수주",
+     "facts": [
+      "HD현대일렉트릭이 SK하이닉스 청주 신규 생산시설의 고전압 배전반 및 변압기 설치공사를 시작함",
+      "SK하이닉스는 HBM 등 AI 메모리 생산능력 확대를 위해 투자를 지속하고 있음"
+     ],
+     "interpretation": "AI 반도체 수요 급증에 따른 메모리 제조사의 설비 투자 확대가 전력기기 등 후방 산업의 실적 성장으로 이어지는 구조가 확인됨",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "추가적인 반도체 공장 증설 계획 및 전력기기 수주 규모 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f3fd8df2daa8a778"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "TSMC, 2028년 양산 목표 A14 공정에서 S램 셀 크기 축소",
+     "facts": [
+      "TSMC가 2028년 양산 예정인 A14 공정에서 6T 고밀도 S램 비트셀 크기를 0.017㎛² 미만으로 줄일 계획임",
+      "이는 2020년 이후 정체되었던 S램 스케일링이 재개되는 것임"
+     ],
+     "interpretation": "미세 공정의 한계를 극복하기 위한 기술적 진전으로, 향후 고성능 AI 칩의 설계 효율성과 데이터 처리 속도 향상에 기여할 것으로 전망됨",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "A14 공정의 실제 수율 및 주요 고객사 채택 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "63e2d2b127499523"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 섹터는 Anthropic의 IPO 추진으로 인한 AI 기업들의 가치 평가와 규제 리스크, 그리고 빅테크의 비용 효율화 움직임이 공존하고 있습니다.",
+   "stories": [
+    {
+     "headline": "Anthropic, 기업공개(IPO) 공식 신청 및 주요 리스크 공개",
+     "facts": [
+      "Anthropic이 IPO를 공식 신청하며 급격한 매출 성장과 함께 막대한 운영 비용 및 AI 안전성 리스크를 공개함",
+      "엘비스 프레슬리 음악 권리자들로부터 저작권 침해 소송을 당함"
+     ],
+     "interpretation": "AI 기업의 상장은 시장의 기대와 함께 저작권, AI 윤리 등 법적·사회적 리스크를 검증받는 과정이 될 것이며, 이는 섹터 전반의 밸류에이션에 영향을 미칠 것임",
+     "affected_company_ids": [],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "IPO 과정에서의 공모가 산정 및 저작권 소송 결과",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4cddadb44bdeeb37",
+      "f66ffe4617d54007"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "Microsoft, 비용 효율화를 위한 6만 명 대상 자발적 퇴직 패키지 제공",
+     "facts": [
+      "Microsoft가 AI 인프라 구축에 따른 자본 효율성을 높이기 위해 약 6만 명의 직원에게 자발적 퇴직 패키지를 제안함"
+     ],
+     "interpretation": "AI 인프라에 대한 대규모 투자가 지속되는 가운데, 기존 인력 구조의 효율화를 통해 수익성을 방어하려는 전략적 움직임으로 해석됨",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "인력 감축 이후의 운영 효율성 개선 지표 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d330724b7fb51cdd",
+      "cb0997ce92adf9a8"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "1300792dd833a2eb",
+   "title": "Meta announces $95 billion stock offering to fund AI expansion",
+   "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "f3fd8df2daa8a778",
+   "title": "HD현대, SK하이닉스 전력기기 수주 릴레이",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64263",
+   "source": "디일렉"
+  },
+  {
+   "id": "63e2d2b127499523",
+   "title": "TSMC 8년 만에 S램 비트셀 축소…'A14' 공정 0.017㎛² 미만",
+   "url": "https://www.etnews.com/20261026000222",
+   "source": "전자신문"
+  },
+  {
+   "id": "d330724b7fb51cdd",
+   "title": "Microsoft offers voluntary buyouts to 60,000 employees",
+   "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "cb0997ce92adf9a8",
+   "title": "Microsoft offers buyouts to around 60,000 employees, reports say",
+   "url": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "4cddadb44bdeeb37",
+   "title": "Anthropic officially files for its public debut",
+   "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "f66ffe4617d54007",
+   "title": "엘비스 노래 274곡 무단 학습... 앤트로픽, 540억원대 저작권 소송 피소",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216650",
+   "source": "AI타임스"
+  }
+ ]
+}

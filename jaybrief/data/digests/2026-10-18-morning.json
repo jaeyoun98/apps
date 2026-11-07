@@ -1,0 +1,74 @@
+{
+ "generated_at": "2026-10-17T15:05:44Z",
+ "date": "2026-10-18",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "NVIDIA의 차세대 GPU 제품군인 RTX 5090의 공급 및 가격 정책에 관한 시장의 우려가 제기됨.",
+   "stories": [
+    {
+     "headline": "NVIDIA, RTX 5090 생산 중단설 부인 및 가격 프리미엄 시사",
+     "facts": [
+      "NVIDIA는 RTX 5090 모델의 생산이 중단되지 않았음을 공식 확인함.",
+      "공식 권장소비자가격(MSRP)인 1,999달러에 제품을 구매하기 어려울 수 있다는 시장의 우려가 존재함."
+     ],
+     "interpretation": "생산 중단설을 일축함으로써 공급 부족 우려를 일부 해소했으나, 실제 시장 가격이 MSRP를 상회할 가능성이 높아 소비자 수요 및 판매 마진에 변동성이 존재함.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "실제 소매 시장에서의 RTX 5090 유통 가격 및 초기 판매량 추이를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d85c6560c2c57070"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "기업 환경에서의 AI 도입 및 업무 효율화 관련 소식.",
+   "stories": [
+    {
+     "headline": "맥킨지, 신입 채용 면접에 AI 가상 고객 도입",
+     "facts": [
+      "맥킨지가 신입사원 선발 과정에 AI 기반 가상 고객 면담을 도입함.",
+      "지원자는 10분간 AI와 대화하며 돌발 상황 대처 능력을 평가받음."
+     ],
+     "interpretation": "글로벌 컨설팅 기업의 AI 채용 프로세스 도입은 기업용 AI 솔루션(B2B AI) 시장의 실질적인 활용 사례가 확대되고 있음을 시사함.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "유사한 AI 면접 및 평가 솔루션 도입이 다른 대기업으로 확산되는지 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "aadbdf4af4400022"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "d85c6560c2c57070",
+   "title": "NVIDIA says RTX 5090 is not discontinued, but good luck finding one for $1,999",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRE5Md0thQWl4VUI4UkFBM1BBeGloVEpvdmxiNmIwSy1nVHVrclhOQ2hOOFNvYmp0V0doQWwyV3ZUT1ZDZ2JMb3Y1WE1VdEtPNW1CT2w2WkhZeEFtdmM4U25hLUFpcjRUVFBXSmdUWGVqNlJRUHdkQ1VtYW9NQ0pnallzUjlybVQxbnZSVWtMdUctT0NlVzlWVmduN1B3a29MQmpiOGpn?oc=5",
+   "source": "VideoCardz.com"
+  },
+  {
+   "id": "aadbdf4af4400022",
+   "title": "신입 면접에 AI 고객 도입…“10분간 대화하는 능력 보고 뽑는다”",
+   "url": "https://www.etnews.com/20261015000418",
+   "source": "전자신문"
+  }
+ ]
+}

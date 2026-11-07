@@ -1,0 +1,137 @@
+{
+ "generated_at": "2026-10-31T01:41:42Z",
+ "date": "2026-10-31",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 투자 지속 가능성에 대한 시장의 의구심이 커지며 빅테크 및 반도체 관련주 변동성이 확대되고 있으며, 주요 기업의 독점적 지위 강화에 대한 규제 당국의 견제도 본격화되는 양상입니다.",
+   "stories": [
+    {
+     "headline": "미 법무부, 엔비디아의 허깅페이스 인수 반독점 조사 착수",
+     "facts": [
+      "미 법무부가 엔비디아의 129억 3,000만 달러 규모 허깅페이스 인수 거래에 대해 반독점 조사에 착수함",
+      "AI 칩 시장 지배력을 가진 엔비디아가 AI 모델 공유 플랫폼까지 확보할 경우 경쟁 제한 우려가 제기됨"
+     ],
+     "interpretation": "엔비디아의 생태계 확장 전략이 규제 리스크에 직면함. 플랫폼 장악을 통한 수직 계열화 시도가 반독점 이슈로 부각되면서 향후 M&A 전략 및 시장 영향력 확대에 제동이 걸릴 가능성이 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미 법무부의 조사 결과 발표 및 엔비디아의 대응 전략 변화 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d28f6ea6ba8a1e9b"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "AI 투자 수익성 우려로 인한 기술주 급락 및 시장 변동성 확대",
+     "facts": [
+      "빅테크 기업들의 AI 인프라 투자 급증 대비 실제 수익화 지연에 대한 투자자 불안 확산",
+      "아마존과 인텔의 실적 발표가 투자 심리를 악화시키며 10월 나스닥 지수 하락 견인"
+     ],
+     "interpretation": "AI 인프라에 대한 막대한 자본 지출이 단기적인 매출 성장으로 이어지지 않는다는 인식이 확산됨. 이는 반도체 및 클라우드 관련주 전반의 밸류에이션 재평가 압력으로 작용할 수 있음.",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "주요 빅테크 기업들의 차기 분기 실적 및 AI 관련 자본 지출 가이던스 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "faf71b3d92e1d553"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "기업용 AI 소프트웨어 시장에서 수익성 확보를 위한 비즈니스 모델 개편이 활발하며, AI 검색 및 서비스 도입에 따른 비용 부담과 광고 수익성 저하 문제가 주요 과제로 부상했습니다.",
+   "stories": [
+    {
+     "headline": "구글, AI 검색 도입에 따른 광고 수익성 둔화 및 주가 급락",
+     "facts": [
+      "구글이 AI 검색 서비스를 도입하며 검색량은 급증했으나, 기존 검색 광고 매출 성장세는 둔화됨",
+      "AI 인프라 투자 비용 급증과 광고 수익화 지연이 겹치며 알파벳 시가총액 급락"
+     ],
+     "interpretation": "AI 검색이 기존 검색 광고 모델의 수익성을 잠식하는 '카니발라이제이션' 우려가 현실화됨. AI 기술 도입이 비용 구조를 악화시키고 있어 수익성 개선을 위한 새로운 비즈니스 모델 구축이 시급함.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "earnings",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "구글의 AI 검색 광고 수익화 모델 구체화 및 비용 효율화 성과",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "82fab2ac97c78ad0",
+      "6a4ec8bfd2309b89"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "기업용 소프트웨어 업체들의 AI 통합 가속화",
+     "facts": [
+      "오라클이 자사 기업용 소프트웨어와 데이터를 챗GPT에 통합하는 업무 환경 공개",
+      "세일즈포스 등 주요 소프트웨어 기업들이 외부 AI 서비스와 자사 CRM 시스템을 연동하는 추세"
+     ],
+     "interpretation": "기업용 SW 시장이 개별 플랫폼 중심에서 AI 에이전트 중심의 통합 환경으로 재편되고 있음. 외부 AI 모델과의 연동을 통해 사용자 편의성을 높이고 플랫폼 경쟁력을 유지하려는 전략임.",
+     "affected_company_ids": [
+      "oracle"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "기업용 AI 통합 서비스의 실제 도입률 및 고객사 비용 절감 효과 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d19af7dfce11a7bf"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "d28f6ea6ba8a1e9b",
+   "title": "미 법무부, 엔비디아의 허깅페이스 인수 조사...AI 모델 유통망 장악 가능성 검토",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216777",
+   "source": "AI타임스"
+  },
+  {
+   "id": "faf71b3d92e1d553",
+   "title": "AI 거품 붕괴 조짐에 미 기술주 급락…10월 시총 2조달러 증발",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216840",
+   "source": "AI타임스"
+  },
+  {
+   "id": "82fab2ac97c78ad0",
+   "title": "구글, AI 검색에 광고 수익성 타격…시총 5000억달러 증발",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216843",
+   "source": "AI타임스"
+  },
+  {
+   "id": "d19af7dfce11a7bf",
+   "title": "세일즈포스 이어 오라클도 AI에 통합…기업용 소프트웨어 판도 변화",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216783",
+   "source": "AI타임스"
+  },
+  {
+   "id": "6a4ec8bfd2309b89",
+   "title": "구글, AI로 검색량 급증했지만 광고 매출은 둔화...주가 10% 급락",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216774",
+   "source": "AI타임스"
+  }
+ ]
+}

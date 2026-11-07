@@ -1,0 +1,165 @@
+{
+ "generated_at": "2026-10-26T00:30:32Z",
+ "date": "2026-10-26",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "SK하이닉스의 솔리다임 IPO 철회 및 특별배당 기대감으로 인한 주가 강세와 삼성전자의 평택 캠퍼스 지원 등 국내 반도체 기업의 전략 변화가 주요 이슈입니다.",
+   "stories": [
+    {
+     "headline": "SK하이닉스, 솔리다임 IPO 검토 철회 및 특별배당 기대감에 주가 상승",
+     "facts": [
+      "SK하이닉스가 솔리다임 IPO 검토를 중단함",
+      "특별배당에 대한 시장의 기대감이 형성됨",
+      "관련 소식으로 SK하이닉스 주가가 2%대 상승함"
+     ],
+     "interpretation": "솔리다임 IPO 철회는 자금 조달 전략의 변화를 의미하며, 특별배당 기대감은 주주 환원 정책 강화에 대한 시장의 긍정적 반응을 반영함. 향후 실적 발표에서 구체적인 주주 환원 규모와 투자 전략이 확인될 필요가 있음.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "28일 예정된 SK하이닉스 실적 발표에서 주주 환원 정책 및 투자 전략 구체화 여부 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e8b414d6e7f7f427",
+      "132a6dc177428afc",
+      "3d5b2a1ca897c19f",
+      "16e4282884181b12",
+      "db7045c70b9acaf5"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "경기도, 삼성전자 평택캠퍼스 용적률 상향 등 반도체 생태계 지원 강화",
+     "facts": [
+      "경기도가 반도체 초격차를 위한 혁신 대책을 추진 중",
+      "삼성전자 평택캠퍼스 생산시설의 용적률 상향을 지시함",
+      "용인 국가산단 및 반도체 클러스터와 연계한 생태계 조성 계획"
+     ],
+     "interpretation": "지자체의 규제 완화 및 인프라 지원은 삼성전자의 생산 효율성 제고와 장기적인 설비 투자 환경 개선에 기여할 것으로 보임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "실제 용적률 상향 조치에 따른 평택 캠퍼스 증설 속도 및 투자 효율성 변화.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "487a4cb9c7f8c44c"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "아마존의 AI 클라우드 수요 급증과 오픈AI의 대규모 펀딩 추진 등 AI 인프라 및 모델 개발을 둘러싼 빅테크의 움직임이 활발합니다.",
+   "stories": [
+    {
+     "headline": "아마존, AI 클라우드 용량 부족 및 2027년까지 사실상 매진 전망",
+     "facts": [
+      "아마존이 AI 클라우드 용량이 2027년까지 사실상 매진될 것이라고 언급함",
+      "AI 인프라 수요가 공급을 상회하는 상황 지속"
+     ],
+     "interpretation": "AI 모델 학습 및 서비스 운영을 위한 클라우드 인프라 수요가 폭발적으로 증가하고 있음을 시사하며, 이는 아마존의 AWS 부문 매출 성장에 긍정적이나 인프라 투자 비용 부담도 함께 증가할 것임.",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "아마존의 데이터센터 인프라 투자 규모 확대 및 클라우드 부문 수익성 추이.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2acc725a25f64a65",
+      "90cdabdcc401d671"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "오픈AI, 1.25조 달러 가치 평가로 300억 달러 규모 펀딩 추진",
+     "facts": [
+      "오픈AI가 2027년 IPO를 앞두고 대규모 펀딩 라운드를 진행 중",
+      "UAE 투자자들이 주도하는 것으로 알려짐"
+     ],
+     "interpretation": "대규모 자금 조달은 모델 개발 및 컴퓨팅 자원 확보를 위한 필수적인 과정임. 2027년 IPO를 목표로 하는 만큼 기업 가치 유지와 수익 모델 증명이 향후 핵심 과제가 될 것임.",
+     "affected_company_ids": [],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "펀딩 완료 시점과 오픈AI의 차세대 모델 학습 효율성 및 수익화 지표.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e9d3607d322cd917"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "e8b414d6e7f7f427",
+   "title": "[특징주] '솔리다임 상장 검토 철회' SK하이닉스, 장초반 2%대 상승",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpVHVGQnZsTGRwOU96ZXliRU5xemNUVTltSzQxa0lmcm9IMnN3eHlEeGRSTWRTWFR6NXlZem9OV2RiSjVQTnd6LXkxQ3ZOU3RTOG1ZcUtwcVlTU0nSAWBBVV95cUxOSEZmV2xzUjVnWjVvR0R3RzhZdktPVDAxMU15NFZINWhJMllvbVVvNy1HMW53WnFJZjQzN1czQkJweDlBT2JfMF9IYnBVd2xuQ1FaZUdOZVpZOEhEbnR2OUY?oc=5",
+   "source": "연합뉴스"
+  },
+  {
+   "id": "132a6dc177428afc",
+   "title": "28일 실적 발표 앞 둔 SK하이닉스, 키옥시아 투자 수익 주주환원 주목",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nSEhuQWVZX05lbHM3TWpvY0UzNHdXa3BqSU83eldiMkg1cFB4VjJmazY1NXh2NkQ3eFdXTXRjRXJpSS1DYmxncTlGZXBlNGVHRGZqTWZWbUNpQdIBWEFVX3lxTE1kRWJrR1RLTkJlSGd3alFHbWNGVlJiS2VXZUpmVHNjMlZ2RlhTVENQZ1Q2WkR6eVZndE1KU25ZTERlNnNTRjNXNHVPck9YVUVBZGdDMTFiTkU?oc=5",
+   "source": "아주경제"
+  },
+  {
+   "id": "db7045c70b9acaf5",
+   "title": "[개장시황] 코스피, 美 증시 하락에 5540선 약보합⋯SK하이닉스 2%↑",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yaXRISU9lem5wZmxwekx1ZC1rQUFxYmttMEJoNWlYVDJuMUJzU3hwTzlCU3FwM0FIZXhEY2ZfeTI1aEhsYkhxOXBmd0Fjek9SMlZUM2Jha1kyQQ?oc=5",
+   "source": "브릿지경제"
+  },
+  {
+   "id": "3d5b2a1ca897c19f",
+   "title": "SK하이닉스, 2% 상승…특별 배당·솔리다임 IPO 검토 중단 영향 - 머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83QWRyWTJmWlNkWmFpa3MzaUdXNTB3MkV0Z2lmNWVFNllHbzdqYmlvbzlwWTF6c2trYjFVWEowZl9SS1IwNFhJUzFKNWd5cmdlSGZSS1RxUjRZa1VvZEtFdjhnZ2hkOUNadUxuYjlQeHVEbWhmelHSAXtBVV95cUxNdmVla2tDY3htZUhCUWYxdDFxcjdIZzVKeXdZZ3JieGs1aFRyaTJfc3kzRUtOVTNpZFpUbmt6S0xObUt5bXJwNENrcUpyU2x6Tl82S2ExWmQtQklvZW5pNWtjc0ktLVYwMXhmeFBvNnFMY2xtU05rVUhvUGM?oc=5",
+   "source": "머니투데이"
+  },
+  {
+   "id": "16e4282884181b12",
+   "title": "솔리다임 IPO 중단…SK하이닉스 투자 전략 주목",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zQi1kekRTNnlMVTU3Sjl4Wm5Kem9LOTFadHI0YkYtNTdRSXVZQzJnOTgxbGIzaGo4b3VmUVNmSEo4V1didS14VUhzXzRIc1prbG5DSnhyUEhvbDlUVDBhNGhXWjVXaFNSMEZNUg?oc=5",
+   "source": "스페셜경제"
+  },
+  {
+   "id": "487a4cb9c7f8c44c",
+   "title": "반도체 키우고 곳간 채우고…추미애 경기지사, 산업 육성·세입 확충 구상",
+   "url": "https://www.etnews.com/20261023000327",
+   "source": "전자신문"
+  },
+  {
+   "id": "2acc725a25f64a65",
+   "title": "아마존 \"AI 클라우드 용량, 2027년까지 사실상 매진\"",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9zRDRHUGJkTXR3N3gwelM4eGFzWmpNMXFEUTRkQlYyRUo1eGFuWlZZN3I5bXVqamlGdDRFcHZHYkpJZHU4VHZB?oc=5",
+   "source": "아이뉴스24"
+  },
+  {
+   "id": "90cdabdcc401d671",
+   "title": "에이클라우드, ‘2026 데이터센터코리아' 참가... AWS Bedrock·GPU 번들 기반 AI 인프라 솔루션 선보여",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE03UVBHc1hWUTdVR3Bfc3Ewb2xWQkw2Szd6eU1PR1QtYW5ncVdMc2hWcmRsMU5nY0trald5NTBmNEJTT28ySTd3LWZELUw0QzRYck5MSFYyemxwOUNsRVJuTnVTSDctVzhsRm12S05FbDdWUmpZRVNNNV9TS1o?oc=5",
+   "source": "비욘드포스트"
+  },
+  {
+   "id": "e9d3607d322cd917",
+   "title": "OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors",
+   "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

@@ -1,0 +1,282 @@
+{
+ "generated_at": "2026-10-23T08:43:54Z",
+ "date": "2026-10-23",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 AI 인프라 투자에 대한 시장의 우려와 실적 변동성, 그리고 파운드리 및 메모리 분야의 전략적 재편이 주요 이슈로 부상했습니다.",
+   "stories": [
+    {
+     "headline": "SK하이닉스, 자회사 솔리다임 IPO 검토 중단",
+     "facts": [
+      "SK하이닉스가 미국 낸드플래시 자회사 솔리다임의 프리IPO 및 기업공개(IPO) 검토를 중단함",
+      "시장 여건과 주가 흐름을 고려할 때 IPO가 주주 가치 제고에 최선인지 재검토가 필요하다는 입장",
+      "솔리다임의 성장성이나 투자 필요성이 사라진 것은 아님"
+     ],
+     "interpretation": "AI 메모리 수요 대응을 위한 솔리다임의 전략적 가치는 유지되나, 최근 AI 거품론과 시장 변동성 확대로 인해 자본 조달 환경이 악화된 점이 IPO 철회의 주요 원인으로 분석됨",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "향후 메모리 시장 업황 회복 및 솔리다임의 자금 조달 방식 변화 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5beb82ce8967a501",
+      "0926181850cbf64b",
+      "2fe0fc37193c4ff0",
+      "1645705a7b4e16ee",
+      "ca065962c6a74d42"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자, 미국 테일러 1공장 2나노 생산능력 확대",
+     "facts": [
+      "삼성전자가 미국 테일러 1공장의 유휴 공간을 채우는 후속 설비 투자를 진행 중",
+      "내년 하반기까지 2나노 공정 생산능력을 월 2만장 규모로 확보할 계획"
+     ],
+     "interpretation": "미국 내 파운드리 거점 확보를 통해 글로벌 고객사 수주 경쟁력을 강화하려는 의도이며, 2나노 공정 조기 안착을 통해 TSMC와의 기술 격차를 좁히려는 전략적 행보로 판단됨",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "테일러 공장의 실제 양산 수율 및 주요 고객사 확보 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "33aa1430de3bd7f6",
+      "06dc915f098f3c5d"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "엔비디아, AI 데이터센터 전력 모듈 및 공급망 확장",
+     "facts": [
+      "슈나이더 일렉트릭이 엔비디아의 GB300 NVL72 시스템에 최적화된 2.5MW 전력 모듈 출시",
+      "엔비디아는 카자흐스탄 방문 등 글로벌 AI 인프라 확장을 모색 중",
+      "중국 텔레콤 네트워크에서 수출 통제 대상인 B300 GPU가 발견됨"
+     ],
+     "interpretation": "AI 데이터센터의 전력 밀도 증가에 따른 전력 관리 솔루션의 중요성이 커지고 있으며, 미국 정부의 강력한 수출 통제에도 불구하고 중국 내 우회 경로를 통한 칩 유입 문제가 지속적인 리스크로 작용함",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "supply_chain",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "미국의 대중국 반도체 수출 통제 강화 및 엔비디아의 대응책",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6386fe415c478cab",
+      "3509c1bb73fbf8a3",
+      "1d4296f5e2109ba5",
+      "d1e9fcbcf1e0bc00",
+      "bb9dc754dedfe95f",
+      "480aebad39cb86b9",
+      "93cf988cb315a45b"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 테크 섹터는 AI 에이전트 도입 확산과 이에 따른 기업들의 투자 부담 및 수익성 검증이 핵심 화두입니다.",
+   "stories": [
+    {
+     "headline": "메타 및 오픈AI, AI 투자 비용 대비 수익성 우려 부각",
+     "facts": [
+      "메타는 3분기 호실적에도 AI 설비 투자 부담으로 주가가 7% 급락",
+      "오픈AI는 신규 투자 유치 과정에서 목표 기업가치를 하향 조정함",
+      "나스닥 지수가 AI 투자 수익성 우려로 2.6% 하락"
+     ],
+     "interpretation": "빅테크 기업들의 막대한 AI 인프라 투자가 당장의 현금 흐름 악화로 이어지면서 시장이 투자 효율성에 대해 의구심을 갖기 시작함. AI 거품론이 실질적인 주가 조정의 원인으로 작용 중",
+     "affected_company_ids": [
+      "meta",
+      "microsoft"
+     ],
+     "event_type": "earnings",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "빅테크 기업들의 차기 분기 실적에서 AI 투자 수익화 지표 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "de81bb64f608c17c",
+      "c6f7ea921c37a5f1",
+      "b4f3ba4deb7d78c2",
+      "9dca7d75ee4496bc"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "AWS 및 오픈AI, 기업용 AI 에이전트 시장 공략 가속",
+     "facts": [
+      "AWS가 GPU 관리 없이 AI 모델 학습을 제어하는 새 기능 공개",
+      "오픈AI가 반복적 판단을 처리하는 '디시전스 API' 정식 출시",
+      "우버가 전 직원 대상 '챗GPT 워크' 도입"
+     ],
+     "interpretation": "AI가 단순 대화형 도구에서 실제 기업 업무를 수행하는 에이전트로 진화하고 있음. 기업들은 AI 인프라 관리 부담을 줄이고 업무 효율성을 높이는 방향으로 솔루션을 도입 중",
+     "affected_company_ids": [
+      "amazon",
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "기업용 AI 에이전트 도입에 따른 실질적인 생산성 향상 데이터",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4dfca296c187fd3e",
+      "086f7ebc2996414d",
+      "744537f106673318",
+      "1a37c1c5cf8f9369"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "de81bb64f608c17c",
+   "title": "메타, 실적 호조에도 AI 투자 폭주로 현금 흐름 '마이너스'",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64192",
+   "source": "디일렉"
+  },
+  {
+   "id": "4dfca296c187fd3e",
+   "title": "AWS, GPU 관리 없이 맞춤형 AI 학습하는 새 기능 공개",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216591",
+   "source": "AI타임스"
+  },
+  {
+   "id": "5beb82ce8967a501",
+   "title": "SK하이닉스, 미국 손자회사 솔리다임 IPO 검토 중단",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216601",
+   "source": "AI타임스"
+  },
+  {
+   "id": "3509c1bb73fbf8a3",
+   "title": "Nvidia's Huang heads to Kazakhstan for the first time — and he's not the only one with big plans",
+   "url": "https://www.cnbc.com/2026/10/23/nvidia-huang-investment-kazakhstan-.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "1d4296f5e2109ba5",
+   "title": "Nvidia B300 chips reportedly surface on China Telecom-linked network, raising export-control questions",
+   "url": "https://www.digitimes.com/news/a20261023VL220/nvidia-chips-security-blackwell-china-telecom.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "d1e9fcbcf1e0bc00",
+   "title": "Chip Industry Week In Review",
+   "url": "https://semiengineering.com/chip-industry-week-in-review-161/",
+   "source": "Semiconductor Engineering"
+  },
+  {
+   "id": "33aa1430de3bd7f6",
+   "title": "Samsung reportedly orders final tools for first Taylor fab as Texas site nears 2nm output cap",
+   "url": "https://www.digitimes.com/news/a20261023VL219/samsung-texas-2nm-fab.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "0926181850cbf64b",
+   "title": "SK Hynix shares jump over 4% after early losses as chipmaker scraps Solidigm IPO plans",
+   "url": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "bb9dc754dedfe95f",
+   "title": "자다라, 엔비디아 검증 통과…AI 클라우드 경쟁력 강화",
+   "url": "https://zdnet.co.kr/view/?no=20261023152101",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "480aebad39cb86b9",
+   "title": "Jensen Huang warns Europe risks falling further behind US, China in AI",
+   "url": "https://www.digitimes.com/news/a20261023PD208/jensen-huang-europe-nvidia-ceo-manufacturing.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "6386fe415c478cab",
+   "title": "슈나이더 일렉트릭, AI 데이터센터용 2.5MW 전력 모듈 출시",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64177",
+   "source": "디일렉"
+  },
+  {
+   "id": "2fe0fc37193c4ff0",
+   "title": "SK하이닉스, 자회사 솔리다임 기업공개(IPO) 검토하지 않기로...시장 여건·주가흐름 고려해 중단",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=342640",
+   "source": "KIPOST"
+  },
+  {
+   "id": "1645705a7b4e16ee",
+   "title": "SK Hynix shares rebound after initial drop on scrapped Solidigm IPO plans",
+   "url": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "93cf988cb315a45b",
+   "title": "Analysis: Nvidia's DSX POD reshapes AI factory supply chains",
+   "url": "https://www.digitimes.com/news/a20261023PD217/nvidia-ai-server-equipment-cooling.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "06dc915f098f3c5d",
+   "title": "삼성전자, 테일러 1공장 후속 설비투자…2나노 생산거점 완성 수순",
+   "url": "https://zdnet.co.kr/view/?no=20261023110604",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "ca065962c6a74d42",
+   "title": "SK Hynix halts Solidigm IPO review in face of broader AI and market volatility",
+   "url": "https://www.digitimes.com/news/a20261023VL214/solidigm-ipo-growth-sk-hynix.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "086f7ebc2996414d",
+   "title": "우버, 업계 최초 전 직원 3만명에 '챗GPT 워크' 도입",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216597",
+   "source": "AI타임스"
+  },
+  {
+   "id": "c6f7ea921c37a5f1",
+   "title": "메타, 부채 위험 지표 사상 최고에 주가 7% 급락…AI 지출·현금 적자 부담",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216578",
+   "source": "AI타임스"
+  },
+  {
+   "id": "744537f106673318",
+   "title": "\"AI 판단 속도 10배↑\"…오픈AI, '디시전스 API' 정식 출시",
+   "url": "https://zdnet.co.kr/view/?no=20261023155121",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "1a37c1c5cf8f9369",
+   "title": "질문에 답하던 AI, 이젠 직접 일한다…오픈AI-AWS가 그린 미래",
+   "url": "https://zdnet.co.kr/view/?no=20261023150615",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "b4f3ba4deb7d78c2",
+   "title": "나스닥 흔든 AI 투자비…오픈AI도 몸값 눈높이 낮췄다",
+   "url": "https://zdnet.co.kr/view/?no=20261023151045",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "9dca7d75ee4496bc",
+   "title": "오픈AI, 투자 열기 주춤하자 목표 기업가치 200조 낮춰",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216570",
+   "source": "AI타임스"
+  }
+ ]
+}
