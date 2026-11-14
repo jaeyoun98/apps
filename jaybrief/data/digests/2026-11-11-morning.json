@@ -1,0 +1,188 @@
+{
+ "generated_at": "2026-11-10T19:24:51Z",
+ "date": "2026-11-11",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "NVIDIA CEO 관련 리스크가 지속되며 주가 변동성을 키우는 가운데, AMD는 차세대 Zen 6 아키텍처와 에이전틱 AI용 프로세서를 공개하며 기술 경쟁력을 강화하고 있습니다.",
+   "stories": [
+    {
+     "headline": "NVIDIA, 젠슨 황 CEO 불륜 의혹 관련 법무법인 선임 및 이사회 조사 착수",
+     "facts": [
+      "NVIDIA는 젠슨 황 CEO의 불륜 의혹 조사를 위해 법무법인 Wachtell Lipton을 선임함",
+      "해당 여성은 외신 보도를 통해 중국 정보기관과 연관된 인물로 지목됨",
+      "스티븐 닐(Stephen Neal) 사외이사가 이번 조사를 주도할 예정임"
+     ],
+     "interpretation": "CEO 개인의 스캔들이 국가 안보 이슈와 결합되어 기업 지배구조 및 경영 연속성 리스크로 확대됨. 이사회 조사 결과에 따라 경영진 교체 압박이 커질 수 있으며, 이는 단기적으로 주가 변동성을 높이는 핵심 요인임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "이사회 조사 결과 발표 및 미국 의회의 추가적인 청문회 요구 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3f9879344656ca31",
+      "027b31a2692a9579",
+      "883e896cd123cf86",
+      "fe0c81db60cd115a",
+      "70d28933b4011b31",
+      "313678b3441b057f"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "AMD, Zen 6 아키텍처 및 에이전틱 AI용 Epyc 프로세서 공개",
+     "facts": [
+      "AMD는 Zen 6 코어를 탑재한 프로세서가 최대 256코어, 5.3GHz 클럭 및 20-31%의 IPC 향상을 달성할 것이라고 발표함",
+      "에이전틱 AI 워크로드를 겨냥한 'Venice' Epyc 프로세서 라인업을 강화함",
+      "HPC 및 EDA 워크로드를 위한 Epyc X-칩 시리즈를 3년 만에 재출시함"
+     ],
+     "interpretation": "AMD는 데이터센터 및 AI 인프라 시장에서 NVIDIA와의 기술 격차를 좁히기 위해 고성능 컴퓨팅(HPC)과 에이전틱 AI 최적화에 집중하고 있음. 특히 Zen 6의 성능 향상은 서버 시장 점유율 확대에 긍정적임.",
+     "affected_company_ids": [
+      "amd"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "Zen 6 기반 제품의 실제 출시 시점과 데이터센터 고객사 확보 규모.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b0d4fa1a9313b109",
+      "1312cab077719459",
+      "4c12af5ffbb1fa49",
+      "6f73dc9d4430d170"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "오픈AI의 비즈니스 플랫폼 확장과 구글의 하드웨어 포트폴리오 강화 등 AI 생태계 주도권 경쟁이 치열하며, 보안 이슈가 소프트웨어 업계의 주요 리스크로 부상하고 있습니다.",
+   "stories": [
+    {
+     "headline": "오픈AI, 비즈니스 프로필 기능 도입하며 검색 및 발견 엔진 강화",
+     "facts": [
+      "오픈AI는 ChatGPT에 새로운 비즈니스 프로필 기능을 도입함",
+      "기업들이 ChatGPT를 통해 소비자와 연결될 수 있도록 지원하여 검색 엔진과 유사한 기능을 강화함"
+     ],
+     "interpretation": "오픈AI가 단순한 생성형 AI 챗봇을 넘어 비즈니스 발견 플랫폼으로 진화하려는 전략임. 이는 구글의 검색 시장 점유율과 직접적인 경쟁 구도를 형성하며, 향후 광고 및 비즈니스 모델 다각화의 발판이 될 것임.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "사용자들의 실제 비즈니스 검색 활용도 및 구글의 대응 전략.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d19e85b4a9119580"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "구글, AI 하드웨어 포트폴리오 확장을 위한 신형 TPU 공개",
+     "facts": [
+      "구글은 기밀 모델 학습 및 메모리 용량 확대를 지원하는 신형 TPU(Tensor Processing Units)를 공개함",
+      "기존 AI 하드웨어 라인업을 더욱 세분화하여 다양한 사용 사례에 대응함"
+     ],
+     "interpretation": "자체 AI 인프라를 강화하여 클라우드 경쟁력을 높이려는 구글의 전략적 행보임. 특히 기밀 모델 학습 지원은 기업 고객 유치에 유리하게 작용할 것으로 보임.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "신형 TPU의 클라우드 서비스 적용 범위 및 성능 지표.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "86540ee41fba5e4d"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "3f9879344656ca31",
+   "title": "Nvidia hires law firm Wachtell Lipton to lead Jensen Huang affair probe",
+   "url": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "027b31a2692a9579",
+   "title": "Nvidia board member Stephen Neal could play big role in probe of CEO Jensen Huang",
+   "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-investigation.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "b0d4fa1a9313b109",
+   "title": "AMD winds up Zen 6 cores for faster clock speeds",
+   "url": "https://www.theregister.com/systems/2026/11/10/amd-winds-up-zen-6-cores-for-faster-clock-speeds/5308603",
+   "source": "The Register"
+  },
+  {
+   "id": "1312cab077719459",
+   "title": "AMD's Epyc X-chips are back after a three-year hiatus",
+   "url": "https://www.theregister.com/systems/2026/11/10/amds-epyc-x-chips-are-back-after-a-three-year-hiatus/5308269",
+   "source": "The Register"
+  },
+  {
+   "id": "4c12af5ffbb1fa49",
+   "title": "AMD Tunes Up CPUs For Agentic AI With “Venice” Epyc Processors",
+   "url": "https://www.nextplatform.com/compute/2026/11/10/amd-tunes-up-cpus-for-agentic-ai-with-venice-epyc-processors/5308850",
+   "source": "The Next Platform"
+  },
+  {
+   "id": "883e896cd123cf86",
+   "title": "Nvidia falls for second day as investors weigh fallout of CEO’s affair with alleged spy",
+   "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "fe0c81db60cd115a",
+   "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+   "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "6f73dc9d4430d170",
+   "title": "AMD’s Zen 6 Family: Feeding the Beast",
+   "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
+   "source": "Chips and Cheese"
+  },
+  {
+   "id": "313678b3441b057f",
+   "title": "Nvidia has a Jensen Huang problem—and no obvious successor",
+   "url": "https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor/",
+   "source": "Ars Technica"
+  },
+  {
+   "id": "70d28933b4011b31",
+   "title": "China panel chair Moolenaar demands answers on Nvidia CEO's alleged affair with a Chinese spy",
+   "url": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "d19e85b4a9119580",
+   "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+   "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "86540ee41fba5e4d",
+   "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+   "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+   "source": "TechCrunch"
+  }
+ ]
+}

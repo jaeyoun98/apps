@@ -1,0 +1,134 @@
+{
+ "generated_at": "2026-10-25T00:23:56Z",
+ "date": "2026-10-25",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 반도체 시장의 경쟁 심화와 중국 내 국산화 가속화가 주요 흐름입니다. 글로벌 기업들은 턴키 솔루션과 고성능 아키텍처를 통해 경쟁력을 확보하는 반면, 중국 팹리스는 자국 내 수요를 기반으로 급성장하고 있습니다.",
+   "stories": [
+    {
+     "headline": "중국 AI 반도체 팹리스 캠브리콘, 3분기 매출 105% 급등",
+     "facts": [
+      "캠브리콘의 3분기 매출은 전년 동기 대비 105% 증가한 35억 3000만 위안 기록",
+      "순이익은 148% 증가한 14억 위안 달성",
+      "중국의 AI 반도체 국산화 정책의 수혜를 입은 것으로 분석"
+     ],
+     "interpretation": "중국 내 AI 반도체 자립화가 실질적인 실적 개선으로 이어지고 있습니다. 이는 엔비디아의 중국 시장 점유율 확대에 구조적인 제약 요인으로 작용할 수 있으며, 향후 중국 내 AI 인프라 투자 흐름을 지속적으로 모니터링해야 합니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "중국 정부의 추가적인 반도체 보조금 정책 및 엔비디아의 대중국 수출 규제 완화 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b7e20a89d0cd0786"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "마이크로칩 테크놀로지, 헤일로 인수를 통한 턴키 AI 솔루션 강화",
+     "facts": [
+      "마이크로칩 테크놀로지가 에지 AI 반도체 스타트업 헤일로를 인수",
+      "글로벌 반도체 기업들은 단일 칩 기반 스타트업보다 폭넓은 턴키 솔루션을 선호하는 추세"
+     ],
+     "interpretation": "AI 반도체 시장이 단순 칩 성능 경쟁에서 소프트웨어와 하드웨어를 결합한 통합 솔루션 경쟁으로 이동하고 있습니다. 이는 팹리스 생태계의 M&A를 가속화하며, 종합 반도체 기업들의 시장 지배력을 강화하는 요인입니다.",
+     "affected_company_ids": [],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "마이크로칩의 헤일로 기술 통합 이후 에지 AI 시장 점유율 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "839392894dceee24"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크 기업들의 AI 자원 배분 전략 변화와 신규 하드웨어 출시 후 시장 반응이 주목받고 있습니다. AI 모델의 보안 및 윤리적 이슈 또한 지속적으로 제기되고 있습니다.",
+   "stories": [
+    {
+     "headline": "구글 CEO, 클라우드 매출보다 AI 모델 개발에 컴퓨팅 자원 우선 투입",
+     "facts": [
+      "순다르 피차이 구글 CEO가 클라우드 사업의 단기 매출보다 첨단 AI 모델 개발에 연산 자원을 우선 배정하겠다고 밝힘",
+      "연구진에게 충분한 연산 자원을 제공하는 것을 타협 불가한 원칙으로 제시"
+     ],
+     "interpretation": "구글이 단기 수익성보다 AI 기술 주도권 확보를 위한 인프라 투자를 최우선순위에 두고 있음을 시사합니다. 이는 클라우드 부문의 단기 마진 압박 요인이 될 수 있으나, 장기적으로는 AI 모델 경쟁력 강화로 이어질 수 있습니다.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "구글의 차기 분기 실적 발표에서 클라우드 부문 수익성 지표 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8aa79c2feef89baf"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "애플 '아이폰 듀오' 출시 초기 공급 부족 및 내구성 논란",
+     "facts": [
+      "아이폰 듀오 출시 첫날 품귀 현상 발생, 배송 일정 내년 1월까지 지연",
+      "일부 사용자들 사이에서 내구성 및 앱 완성도 부족에 대한 지적 제기"
+     ],
+     "interpretation": "초기 수요는 강력하나 공급망 제약과 품질 논란이 동시에 발생하고 있습니다. 이는 초기 판매량에는 긍정적이나, 장기적인 브랜드 신뢰도와 제품 완성도 측면에서 리스크 요인으로 작용할 수 있습니다.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "immediate",
+     "confidence": "medium",
+     "watch_next": "초기 품질 이슈에 대한 애플의 대응 및 향후 공급망 안정화 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6336e8e5cebcb33e",
+      "e0e35c287ac21503"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "839392894dceee24",
+   "title": "마이크로칩 \"헤일로 AI 가속기와 결합한 턴키 솔루션으로 승부\"",
+   "url": "https://zdnet.co.kr/view/?no=20261024184335",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "b7e20a89d0cd0786",
+   "title": "'중국판 엔비디아' 캠브리콘, 매출 급등…\"국산화 노력 수혜\"",
+   "url": "https://zdnet.co.kr/view/?no=20261024160155",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "6336e8e5cebcb33e",
+   "title": "애플 ‘아이폰 듀오’, 출시 첫날 품귀…예약 배송 내년 1월까지 밀려",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216619",
+   "source": "AI타임스"
+  },
+  {
+   "id": "e0e35c287ac21503",
+   "title": "\"모래 뿌리고 손톱으로 긁었더니…\" 아이폰듀오 '처참'",
+   "url": "https://www.hankyung.com/article/202610252901g",
+   "source": "한국경제 IT"
+  },
+  {
+   "id": "8aa79c2feef89baf",
+   "title": "피차이 “매출 포기하더라도 첨단 AI 개발에 컴퓨팅 우선 투입”",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216618",
+   "source": "AI타임스"
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "generated_at": "2026-11-01T01:18:24Z",
+ "date": "2026-11-01",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "메모리 반도체 시장의 구조적 공급 부족 전망과 AI 인프라 확장을 위한 금융 및 기술 협력이 가속화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "삼성전자·SK하이닉스, 3분기 최대 실적 및 2028년까지 메모리 쇼티지 지속 전망",
+     "facts": [
+      "삼성전자와 SK하이닉스가 3분기 사상 최대 실적을 기록함",
+      "양사는 메모리 반도체 구조적 공급 부족이 2028년 이후까지 지속될 것으로 예상함",
+      "HBM 물량 협상 완료 및 장기공급계약(LTA) 체결로 시장 지배력 강화 중"
+     ],
+     "interpretation": "메모리 반도체 사이클의 장기 호황이 확인됨에 따라 HBM 중심의 수익성 개선세가 지속될 것으로 보이며, 공급 부족 상황은 가격 협상력 유지에 긍정적입니다.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "주요 고객사와의 추가 LTA 체결 규모 및 HBM 생산 수율 추이를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8060332d973a9890"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "샘 알트먼 오픈AI CEO, 삼성·SK 경영진과 AI·반도체 협력 논의",
+     "facts": [
+      "샘 알트먼 오픈AI CEO가 방한하여 삼성전자 및 SK그룹 경영진과 연쇄 회동함",
+      "AI 시대의 경영 전략과 AI 활용 속도가 기업 경쟁력을 결정한다는 점을 강조함",
+      "지난 7월 AI 서밋 이후 양측의 AI 및 반도체 협력 강화 차원"
+     ],
+     "interpretation": "오픈AI와의 파트너십 강화는 삼성전자와 SK하이닉스의 HBM 및 맞춤형 AI 반도체 수주 경쟁에서 전략적 우위를 점할 수 있는 핵심 동력입니다.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "오픈AI와의 구체적인 반도체 공급 계약이나 공동 개발 프로젝트 발표 여부를 주시해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0b35733c4a175c4c",
+      "48b6ea79685aff81",
+      "5b0a6f2a66ed6772"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "KB국민은행, 국내 최대 12.6조원 규모 AI GPU 파이낸싱 주선",
+     "facts": [
+      "KB국민은행이 브룩필드의 12조 6000억원 규모 AI 컴퓨팅 인프라 사업 금융주선권 확보",
+      "국내 최초 GPU 파이낸싱이자 역대 최대 규모 신디케이트론",
+      "총사업비 중 10조 7000억원을 대출로 조달"
+     ],
+     "interpretation": "AI 데이터센터 구축을 위한 대규모 자금 조달이 본격화되고 있으며, 이는 GPU 수요가 실질적인 인프라 투자로 이어지고 있음을 시사합니다.",
+     "affected_company_ids": [],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "유사한 대규모 AI 인프라 금융 프로젝트가 추가로 발생하는지 확인이 필요합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4f4f17473034cd04"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크 기업들의 AI 투자 부담이 재무적 리스크로 부각되는 가운데, AI 에이전트 중심의 서비스 고도화가 진행되고 있습니다.",
+   "stories": [
+    {
+     "headline": "알파벳, AI 투자에 따른 검색 수익성 우려로 실적 미스",
+     "facts": [
+      "알파벳이 시장 기대치를 하회하는 실적을 발표함",
+      "AI 투자가 핵심 사업인 검색 부문의 수익성에 부정적인 영향을 미치기 시작했다는 평가",
+      "월스트리트가 AI 지출에 대한 우려를 표명하며 방어주로의 이동 발생"
+     ],
+     "interpretation": "AI 인프라 투자 비용이 단기적으로 실적 압박 요인이 되고 있으며, AI가 검색 광고 모델을 잠식할 수 있다는 시장의 우려가 구체화되고 있습니다.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "earnings",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "향후 분기 실적에서 AI 관련 비용 효율화 및 수익화 모델의 성과를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8d50b0692f3d4f55"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "메타, AI 인프라 투자 부담으로 신용등급 전망 '부정적' 하향",
+     "facts": [
+      "S&P 글로벌 레이팅스가 메타의 신용등급 전망을 '안정적'에서 '부정적'으로 하향",
+      "막대한 AI 인프라 투자로 인한 현금흐름 악화 및 향후 차입 부담 증가가 원인",
+      "핵심 광고 사업의 성장에도 불구하고 재무 부담이 가중됨"
+     ],
+     "interpretation": "빅테크 기업들의 공격적인 AI 인프라 투자가 재무 건전성에 실질적인 부담을 주고 있으며, 이는 향후 투자 속도 조절 가능성을 시사합니다.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "메타의 AI 투자 규모 조정 여부와 신용등급 추가 하향 여부를 주시해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "32f637bf2fd859f1"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "4f4f17473034cd04",
+   "title": "KB국민은행, 국내 첫 그래픽처리장치(GPU) 파이낸싱 주선…12조6000억원 규모",
+   "url": "https://www.etnews.com/20261101000021",
+   "source": "전자신문"
+  },
+  {
+   "id": "8060332d973a9890",
+   "title": "삼전·하닉, 3분기 실적 신기록… \"메모리 부족 2028년까지\"",
+   "url": "https://zdnet.co.kr/view/?no=20261030172212",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "0b35733c4a175c4c",
+   "title": "삼성 사장단 50명 만난 알트먼 \"AI 활용 속도가 기업 경쟁력 결정\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216852",
+   "source": "AI타임스"
+  },
+  {
+   "id": "48b6ea79685aff81",
+   "title": "샘 올트먼 오픈AI CEO, 삼성·SK 회동…AI·반도체 협력 강화",
+   "url": "https://www.etnews.com/20261031000056",
+   "source": "전자신문"
+  },
+  {
+   "id": "32f637bf2fd859f1",
+   "title": "메타, AI 투자 부담에 신용등급 강등 경고…현금흐름 악화가 결정타",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216853",
+   "source": "AI타임스"
+  },
+  {
+   "id": "8d50b0692f3d4f55",
+   "title": "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search",
+   "url": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "5b0a6f2a66ed6772",
+   "title": "삼성 사장단, 알트먼과 'AI 미래전략' 논의",
+   "url": "https://zdnet.co.kr/view/?no=20261031160238",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

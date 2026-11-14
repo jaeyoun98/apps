@@ -1,0 +1,103 @@
+{
+ "generated_at": "2026-11-06T18:58:02Z",
+ "date": "2026-11-07",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 확장과 관련한 기술적 수요 변화 및 양자 컴퓨팅 등 차세대 연산 플랫폼 도입이 가시화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "AMD CPU·GPU, Oak Ridge 국립연구소 양자-HPC 하이브리드 시스템에 채택",
+     "facts": [
+      "Oak Ridge 국립연구소가 IBM 양자 키트와 AMD CPU 및 GPU를 결합한 하이브리드 시스템을 도입함",
+      "해당 시스템은 큐비트 오류 수정(qubit error correction) 테스트를 목적으로 설계됨"
+     ],
+     "interpretation": "HPC와 양자 컴퓨팅의 결합은 고성능 연산 시장에서 AMD의 하드웨어 경쟁력을 입증하는 사례로, 향후 연구용 및 특수 목적 연산 인프라 시장에서의 점유율 확대 기회로 작용할 수 있음",
+     "affected_company_ids": [
+      "amd"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "양자-HPC 하이브리드 플랫폼의 상용화 속도 및 추가적인 대규모 연구소 도입 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "7df451497e703cef"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 인프라 구축 전략의 효율화와 보안 이슈가 부각되는 가운데, 주요 빅테크 기업들의 AI 생태계 확장 노력이 지속되고 있습니다.",
+   "stories": [
+    {
+     "headline": "Microsoft, AI 인프라 효율화를 위해 'Neocloud' 파트너십 축소",
+     "facts": [
+      "Microsoft가 AI 인프라 구축 과정에서 파트너로 분류하던 'Neocloud' 업체 수를 줄이고 있음",
+      "자체 데이터 센터 역량 강화와 핵심 공급업체 중심의 공급망 재편에 집중할 계획임"
+     ],
+     "interpretation": "AI 인프라 구축 비용 압박에 대응하여 공급망을 내재화하고 효율성을 극대화하려는 전략으로, 중소형 클라우드 파트너사에는 부정적이나 Microsoft의 장기적인 운영 마진 개선에는 긍정적일 수 있음",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "supply_chain",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "Microsoft의 데이터 센터 자본 지출(CapEx) 효율성 지표 및 주요 공급업체와의 계약 구조 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "25c300ac0212a52f"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "Meta, Muse 에이전트 협업 기능 'Spaces' 공개",
+     "facts": [
+      "Meta가 AI 에이전트인 Muse와 협업할 수 있는 새로운 인터페이스 'Spaces'를 도입함",
+      "Muse 에이전트의 기능 및 통합성을 지속적으로 확장하고 있음"
+     ],
+     "interpretation": "사용자 경험 개선을 통해 AI 에이전트의 활용도를 높이고 생태계 내 체류 시간을 늘리려는 전략으로, Meta의 AI 서비스 수익화 및 플랫폼 경쟁력 강화에 기여할 것으로 전망됨",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "사용자들의 Muse 에이전트 활용도 및 Spaces 기능에 대한 시장 반응",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "7bacfe70ab558dda"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "7df451497e703cef",
+   "title": "Oak Ridge labs gets hybrid quantum-HPC system to test qubit error correction",
+   "url": "https://www.theregister.com/hpc/2026/11/06/oak-ridge-labs-gets-hybrid-quantum-hpc-system-to-test-qubit-error-correction/5308187",
+   "source": "The Register"
+  },
+  {
+   "id": "7bacfe70ab558dda",
+   "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+   "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "25c300ac0212a52f",
+   "title": "Microsoft plans to use fewer neoclouds as AI buildout shows signs of strain",
+   "url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

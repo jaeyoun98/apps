@@ -1,0 +1,197 @@
+{
+ "generated_at": "2026-11-12T19:37:08Z",
+ "date": "2026-11-13",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아의 젠슨 황 CEO가 사생활 논란으로 전격 사임하며 AI 산업 전반에 불확실성이 증대되었으며, 삼성전자는 구글과 협력하여 AI 안경 시장 진출을 본격화함.",
+   "stories": [
+    {
+     "headline": "젠슨 황 엔비디아 CEO 사임, 콜레트 크레스 CFO 임시 CEO 선임",
+     "facts": [
+      "젠슨 황 엔비디아 CEO가 사생활 논란으로 인해 즉시 사임함",
+      "콜레트 크레스(Colette Kress) CFO가 임시 CEO로 선임되어 비상 경영 체제 돌입",
+      "엔비디아 이사회는 황 CEO의 사임과 함께 후임자 선임 절차를 진행 중"
+     ],
+     "interpretation": "엔비디아의 상징적 리더였던 젠슨 황의 퇴진은 AI 산업의 성장 동력과 기업 전략에 대한 시장의 신뢰도에 큰 충격을 줄 수 있음. 특히 오픈소스 AI 전략 및 향후 기술 로드맵의 지속 가능성에 대한 의문이 제기됨.",
+     "affected_company_ids": [
+      "nvidia",
+      "microsoft"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "다음 분기 실적 발표에서 임시 CEO 체제의 경영 안정성 및 향후 AI 전략 방향성 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8370373cf7437300",
+      "cc5b94ca6b14e09d",
+      "cebea681f25f765b",
+      "2d2fac7ed08a79af",
+      "20d62f5a7e044ec2",
+      "132cb409f82c8302"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자·구글, AI 안경 '인텔리전트 아이웨어' 12월 10일 출시",
+     "facts": [
+      "삼성전자가 구글, 젠틀몬스터, 워비파커와 협업한 AI 안경 라인업 공개",
+      "구글의 제미나이(Gemini)를 탑재하여 통역, 길 안내, 회의 요약 기능 제공",
+      "12월 10일 한국과 미국에서 정식 출시 예정"
+     ],
+     "interpretation": "삼성전자가 스마트폰 중심의 AI 경험을 웨어러블 폼팩터로 확장하며 메타(Meta)가 선점한 AI 안경 시장에서 본격적인 경쟁을 시작함. 하드웨어 제조 역량과 구글의 소프트웨어 생태계 결합이 시장 점유율 확보의 핵심이 될 것.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "출시 초기 소비자 반응 및 타 지역으로의 판매 확대 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b6a1d45f4c1eee65",
+      "8627076777b54b95",
+      "8f56436dbfb0a4fc",
+      "d1e293952e375e11"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "구글의 제미나이 업데이트와 AI 서비스 확장, 그리고 주요 테크 기업들의 AI 관련 정책 및 리스크 관리가 주요 이슈로 부상함.",
+   "stories": [
+    {
+     "headline": "구글, 제미나이 4 하이드로젠(Hydrogen) 출시 및 검색 기능 강화",
+     "facts": [
+      "구글이 제미나이 4 하이드로젠 모델을 공식 출시하며 기존 3.8 플래시 모델을 대체",
+      "AI 모드를 통해 복잡한 질문에 대한 이해도와 시각적 응답 품질 개선"
+     ],
+     "interpretation": "구글은 생성형 AI 모델의 업데이트 주기를 단축하고 검색 엔진에 통합함으로써 AI 검색 시장에서의 경쟁 우위를 강화하려는 전략임. 이는 사용자 경험 개선을 통해 광고 및 서비스 수익성을 높이는 기제로 작용할 것.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "신규 모델 도입에 따른 검색 점유율 변화 및 사용자 피드백.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "bf946b7b7703e95d",
+      "0e8f7170ce36ed18"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "팔란티어(Palantir), 기업 이미지 및 제품 성향에 대한 입장 표명",
+     "facts": [
+      "팔란티어의 알렉스 카프(Alex Karp) CEO가 자사와 제품이 '진보적(progressive)' 성향임을 강조",
+      "과거 추방 전술 등에 대해 사적으로 의문을 제기했음을 언급"
+     ],
+     "interpretation": "정치적 논란이 있는 기업으로서 이미지 쇄신을 시도하는 것으로 보임. 이는 공공 부문 계약 유지 및 ESG 경영 평가에 긍정적인 영향을 미치기 위한 전략적 행보로 해석됨.",
+     "affected_company_ids": [
+      "palantir"
+     ],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "향후 공공 및 민간 부문에서의 신규 계약 수주 실적 변화.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3b3f1abdf7ea2514"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "b6a1d45f4c1eee65",
+   "title": "구글·삼성, AI 안경 시장 출사표… 12월10일 메타와 정식 격돌",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217346",
+   "source": "AI타임스"
+  },
+  {
+   "id": "8370373cf7437300",
+   "title": "젠슨 황 엔비디아 CEO 전격 사임",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65377",
+   "source": "디일렉"
+  },
+  {
+   "id": "8627076777b54b95",
+   "title": "삼성전자, AI 안경 30종 공개",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65359",
+   "source": "디일렉"
+  },
+  {
+   "id": "cc5b94ca6b14e09d",
+   "title": "Who is Colette Kress? Nvidia's finance chief steps in as interim CEO after Huang exit",
+   "url": "https://www.cnbc.com/2026/11/12/colette-kress-nvidia-cfo-interim-ceo-candidate.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "cebea681f25f765b",
+   "title": "Nvidia stock pares morning losses after CEO Jensen Huang announces resignation",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "2d2fac7ed08a79af",
+   "title": "젠슨 황 엔비디아 CEO 공식 사임…콜레트 크레스 CFO 임시 CEO로",
+   "url": "https://www.etnews.com/20261112000481",
+   "source": "전자신문"
+  },
+  {
+   "id": "20d62f5a7e044ec2",
+   "title": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
+   "url": "https://www.digitimes.com/news/a20261112VL217/nvidia-ceo-jensen-huang-president-roadmap.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "132cb409f82c8302",
+   "title": "Nvidia’s Jensen Huang resigns, chipmaker names CFO Colette Kress as interim CEO",
+   "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "8f56436dbfb0a4fc",
+   "title": "삼성·구글·젠틀몬스터 합작 '인텔리전트 아이웨어' 뉴욕 공개",
+   "url": "https://zdnet.co.kr/view/?no=20261112162741",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "d1e293952e375e11",
+   "title": "삼성, 첫 AI 안경 내달 10일 출시…판매가 65만원대",
+   "url": "https://www.etnews.com/20261112000321",
+   "source": "전자신문"
+  },
+  {
+   "id": "bf946b7b7703e95d",
+   "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+   "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "0e8f7170ce36ed18",
+   "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+   "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+   "source": "Ars Technica"
+  },
+  {
+   "id": "3b3f1abdf7ea2514",
+   "title": "Palantir’s Karp takes a sharp left turn, says he and the company’s products are actually ‘progressive’",
+   "url": "https://www.theregister.com/software/2026/11/12/palantirs-karp-takes-a-sharp-left-turn-says-he-and-the-companys-products-are-actually-progressive/5309441",
+   "source": "The Register"
+  }
+ ]
+}

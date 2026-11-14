@@ -1,0 +1,227 @@
+{
+ "generated_at": "2026-11-05T02:36:59Z",
+ "date": "2026-11-05",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 퀄컴의 실적 발표를 통해 스마트폰 시장의 정체와 데이터센터 중심의 사업 다각화 전략이 확인되었으며, 미국 중간선거 결과에 따른 데이터센터 규제 리스크와 오라클의 대중국 AI 반도체 계약 취소 등 지정학적·정책적 불확실성이 부각되었습니다.",
+   "stories": [
+    {
+     "headline": "퀄컴, 스마트폰 시장 침체 속 데이터센터 사업으로 포트폴리오 다각화",
+     "facts": [
+      "퀄컴의 2026회계연도 4분기 매출은 104억 4200만 달러로 시장 전망치를 상회함",
+      "스마트폰(핸드셋) 시장은 내년까지 성장이 정체될 것으로 전망됨",
+      "데이터센터 및 AI 인프라 사업 매출이 다음 분기부터 본격 반영될 예정임"
+     ],
+     "interpretation": "스마트폰 의존도를 낮추고 데이터센터와 AI 인프라로 수익원을 전환하려는 전략이 가시화되고 있으나, 단기적으로는 메모리 부족과 스마트폰 수요 부진이 실적 가이던스에 부담으로 작용하고 있음.",
+     "affected_company_ids": [
+      "broadcom",
+      "nvidia"
+     ],
+     "event_type": "earnings",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "데이터센터 부문 매출이 스마트폰 매출 감소분을 상쇄할 수 있을지 여부 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "33070475df137e80",
+      "e3c5c1973acbe875",
+      "10077c4ea66101c6",
+      "5486704ad44e08b2",
+      "6bb25be80d65668c"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "미국 중간선거 민주당 압승, AI 데이터센터 건설 규제 리스크 부상",
+     "facts": [
+      "미국 중간선거에서 민주당이 승리하며 데이터센터 건설 규제 강화 가능성이 제기됨",
+      "텍사스, 오하이오 등 주요 지역에서 데이터센터 신규 개발 중단 압력이 커짐",
+      "빅테크 기업들은 신규 투자 부담 완화 기대와 인프라 확장 차질 우려가 공존함"
+     ],
+     "interpretation": "데이터센터 인프라 확장에 대한 정치적 견제가 강화되면서, 막대한 자본을 투입해 데이터센터를 확장해 온 빅테크 기업들의 인프라 구축 속도와 비용 구조에 불확실성이 증대됨.",
+     "affected_company_ids": [
+      "amazon",
+      "microsoft",
+      "meta"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "주요 주정부의 데이터센터 관련 구체적인 규제 법안 및 인허가 정책 변화.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "33d400969cde2777",
+      "926776fe9de9b25a",
+      "afd34f578c9c58db",
+      "9da04f2505a876d9",
+      "a29b594003cc7b3f"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "오라클, 미 정부 우려로 텐센트와 9조원대 AI 반도체 임대계약 취소",
+     "facts": [
+      "오라클이 중국 텐센트와 체결했던 70억 달러(약 9.37조원) 규모의 AI 반도체 임대계약을 철회함",
+      "미국 정부가 중국 기업과의 거래에 대해 우려를 전달한 것이 결정적 배경으로 분석됨"
+     ],
+     "interpretation": "미국의 대중국 기술 제재 기조가 데이터센터 및 클라우드 인프라 영역까지 엄격하게 적용되고 있음을 시사하며, 향후 미국 클라우드 기업들의 중국 내 사업 확장 및 장비 공급에 상당한 제약이 예상됨.",
+     "affected_company_ids": [
+      "oracle"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 정부의 대중국 클라우드 및 AI 인프라 관련 추가 제재 조치 발표 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5cc0ba33e5b07a90"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 테크 섹터는 AI 에이전트 기술의 실무 적용과 기업들의 AX(AI 전환) 가속화가 주요 흐름이며, 카카오의 AI 수익화 전략과 자사주 소각을 통한 주주가치 제고 노력이 주목받고 있습니다.",
+   "stories": [
+    {
+     "headline": "카카오, AI 에이전트 기반 수익화 전략 발표 및 자사주 소각 결정",
+     "facts": [
+      "카카오는 2028년 AI 사업 손익분기점 도달을 목표로 함",
+      "내달 광고 AI 에이전트 'AI 크루' 베타 서비스를 시작할 예정임",
+      "시장 평가와 펀더멘탈 괴리를 줄이기 위해 1500억원 규모 자사주 매입 후 소각 결정"
+     ],
+     "interpretation": "AI 에이전트를 통한 광고 및 커머스 수익 모델의 구체화는 장기적인 성장 동력이 될 것이며, 자사주 소각은 주주가치 제고를 통해 최근의 주가 부진을 방어하려는 의도로 해석됨.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "AI 에이전트 서비스의 실제 광고 매출 기여도 및 베타 서비스 이용자 반응.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "a2286b65c1cf35eb",
+      "0994765fa0c4907e",
+      "c0dfb63c67432d38",
+      "363c0619594619b0",
+      "f70085c939bf2283",
+      "b1d04f25c30f05da"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "33070475df137e80",
+   "title": "퀄컴 \"내년 스마트폰 시장 보합...데이터센터 매출 대폭 확대\"",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64940",
+   "source": "디일렉"
+  },
+  {
+   "id": "a2286b65c1cf35eb",
+   "title": "카카오 \"AI 사업 손익분기 2028년 전망\"…3분기 영업익 전년比 7% 상승",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64925",
+   "source": "디일렉"
+  },
+  {
+   "id": "5cc0ba33e5b07a90",
+   "title": "오라클, 텐센트와 9조원대 AI 반도체 임대계약 취소",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64928",
+   "source": "디일렉"
+  },
+  {
+   "id": "e3c5c1973acbe875",
+   "title": "퀄컴, 4분기 매출 시장 전망 상회...내년 성장세 전환",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64920",
+   "source": "디일렉"
+  },
+  {
+   "id": "10077c4ea66101c6",
+   "title": "퀄컴 \"AI 데이터센터·통신 인프라로 사업 포트폴리오 다각화\"",
+   "url": "https://zdnet.co.kr/view/?no=20261105093210",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "6bb25be80d65668c",
+   "title": "Qualcomm's September-quarter revenue falls 8% as handset slump outweighs automotive gains",
+   "url": "https://www.digitimes.com/news/a20261105VL200/qualcomm-revenue-automotive-business-growth.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "5486704ad44e08b2",
+   "title": "Qualcomm stock drops 7% on weak earnings forecast as memory shortage weighs on smartphone sales",
+   "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "afd34f578c9c58db",
+   "title": "Ohio voters approve data center ban that could derail Amazon's US$2 billion plan",
+   "url": "https://www.digitimes.com/news/a20261104VL223/data-center-ban-amazon-data-development.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "0994765fa0c4907e",
+   "title": "카카오 \"내달 광고 AI 에이전트 'AI 크루' 베타 시작”",
+   "url": "https://www.hankyung.com/article/202611057601i",
+   "source": "한국경제 IT"
+  },
+  {
+   "id": "9da04f2505a876d9",
+   "title": "After the midterms, a bigger clash over data centers could be coming",
+   "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "c0dfb63c67432d38",
+   "title": "카카오, 1500억 규모 자사주 취득 후 소각",
+   "url": "https://www.hankyung.com/article/202611057479i",
+   "source": "한국경제 IT"
+  },
+  {
+   "id": "363c0619594619b0",
+   "title": "시장 평가·기업 가치 간극 줄인다…카카오, 자사주 1500억원 소각",
+   "url": "https://zdnet.co.kr/view/?no=20261105092901",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "b1d04f25c30f05da",
+   "title": "'카톡 광고·커머스 견인' 카카오 영업익 7.4% 증가…\"AI 서비스 본격화\" [종합]",
+   "url": "https://www.hankyung.com/article/202611057131g",
+   "source": "한국경제 IT"
+  },
+  {
+   "id": "33d400969cde2777",
+   "title": "미 민주당 압승에 빅테크 주가 급등…'데이터센터 규제' 호재로 해석",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217024",
+   "source": "AI타임스"
+  },
+  {
+   "id": "926776fe9de9b25a",
+   "title": "美 중간선거 민주당 압승…AI 데이터센터 건설 제동 우려",
+   "url": "https://www.etnews.com/20261105000027",
+   "source": "전자신문"
+  },
+  {
+   "id": "f70085c939bf2283",
+   "title": "카카오 3분기 매출 2.1조·영업익 2403억…플랫폼 두 자릿수 성장",
+   "url": "https://www.etnews.com/20261105000026",
+   "source": "전자신문"
+  },
+  {
+   "id": "a29b594003cc7b3f",
+   "title": "선거로 美 신규 데이터센터 41% 멈추나…빅테크 웃고 네오클라우드 울상",
+   "url": "https://www.hankyung.com/article/202611057007i",
+   "source": "한국경제 IT"
+  }
+ ]
+}

@@ -1,0 +1,216 @@
+{
+ "generated_at": "2026-11-11T11:18:15Z",
+ "date": "2026-11-11",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아 CEO 리스크와 중국 관련 지정학적 불확실성이 반도체 섹터 전반의 투자 심리를 위축시키고 있으며, AI 인프라 투자 수익성에 대한 시장의 의구심이 심화되는 양상입니다.",
+   "stories": [
+    {
+     "headline": "엔비디아 CEO 사생활 및 중국 스파이 연루 의혹 리스크 확대",
+     "facts": [
+      "젠슨 황 CEO의 혼외 관계 인정 이후 중국 정보기관 연루 의혹 제기",
+      "엔비디아, 관련 의혹 조사를 위해 뉴욕 유명 로펌 및 전직 연방 검사 선임",
+      "관련 의혹 보도 이후 이틀간 엔비디아 시가총액 약 627조 원 증발"
+     ],
+     "interpretation": "CEO 리스크가 국가 안보 및 수출 규제 위반 의혹으로 확산되면서 기업 지배구조 및 대중국 사업 지속성에 대한 불확실성이 극대화됨. 향후 조사 결과에 따라 경영진 교체 가능성 및 미국 정부의 추가 제재 리스크가 존재함.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "엔비디아 이사회의 조사 결과 발표 및 미국 정부의 공식적인 조사 착수 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "606c104f59fbd619",
+      "2162d25e488cd1d1",
+      "8740815306f5fc32",
+      "30368c91deaf0365",
+      "b3d2cf6252cce142",
+      "e2ab07d7099ecbc3"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "TSMC, 오픈AI 및 앤트로픽에 최대 1.3조 원 투자",
+     "facts": [
+      "TSMC가 오픈AI와 앤트로픽에 최대 10억 달러 투자 결정",
+      "AI 기업들의 자체 칩 개발 가속화에 따른 파운드리 파트너십 강화 전략"
+     ],
+     "interpretation": "주요 AI 고객사들이 엔비디아 의존도를 낮추려는 움직임에 대응하여, TSMC가 지분 투자를 통해 공급망 내 핵심 파트너 지위를 공고히 하려는 의도임.",
+     "affected_company_ids": [
+      "tsmc",
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "주요 AI 기업들의 자체 칩 양산 시점 및 TSMC의 점유율 변화.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2f50b173de579454"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "중국 문샷AI의 엔비디아 최신 칩 임대 의혹",
+     "facts": [
+      "문샷AI가 미국 수출 규제 대상인 엔비디아 B300 칩을 중국 내에서 임대하려 한 금융 문서 발견",
+      "문샷 측은 거래를 부인했으나 관련 문서가 공개되면서 반입 경로에 대한 의구심 증폭"
+     ],
+     "interpretation": "미국의 강력한 대중국 수출 통제에도 불구하고 우회 경로를 통한 고성능 AI 칩 반입이 지속되고 있음을 시사하며, 이는 향후 미국 정부의 대중국 제재 강화 명분이 될 수 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "미국 상무부의 추가적인 대중국 수출 규제 강화 조치 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4291b8ae04381808",
+      "806080d13b7f82a5"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 시장의 경쟁이 격화되는 가운데, 주요 기업들이 기업용 소프트웨어 시장을 선점하기 위한 기능 고도화와 플랫폼 확장에 집중하고 있습니다.",
+   "stories": [
+    {
+     "headline": "앤트로픽, '클로드 오피스' 출시로 MS·구글과 기업용 SW 시장 정면 대결",
+     "facts": [
+      "앤트로픽이 스프레드시트, 화이트보드, 화상회의 업무 지원 기능을 포함한 '클로드 오피스' 출시",
+      "기존 MS 오피스 및 구글 워크스페이스와 직접 경쟁 구도 형성"
+     ],
+     "interpretation": "AI 모델 성능 경쟁을 넘어 실제 업무 생산성을 직접 제공하는 플랫폼으로 진화하며, 기업용 소프트웨어 시장의 점유율 경쟁이 본격화됨.",
+     "affected_company_ids": [
+      "microsoft",
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "기업 고객들의 클로드 오피스 도입률 및 기존 오피스 제품군과의 시장 점유율 격차.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d39f86547935bb0e",
+      "74ccdb1ac3098b0d"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "구글, AI 검색 광고 수익성 악화 대응 및 개인화 기능 강화",
+     "facts": [
+      "AI 검색 이용 증가로 인한 핵심 검색 광고 성장세 둔화",
+      "구글, 제미나이 '메모리 요약' 기능 도입 및 AI 광고 제작 기업 인수 검토"
+     ],
+     "interpretation": "AI 검색으로의 전환이 기존 광고 수익 모델을 잠식하는 '카니발라이제이션' 우려가 현실화됨. 이를 극복하기 위해 사용자 개인화 및 광고 효율화 기술 확보에 사활을 걸고 있음.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "earnings",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "구글의 차기 분기 실적에서 광고 수익성 회복 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f407af575c789248",
+      "2161e22499cd7226"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "f407af575c789248",
+   "title": "'제미나이'가 기억하는 내 정보 한눈에 보여준다…수정·삭제도 가능",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217297",
+   "source": "AI타임스"
+  },
+  {
+   "id": "4291b8ae04381808",
+   "title": "문샷, 중국서 엔비디아 최신 AI 칩 임대 정황…금융 문서 확인",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217294",
+   "source": "AI타임스"
+  },
+  {
+   "id": "2f50b173de579454",
+   "title": "TSMC, 자체 칩 개발 나선 오픈AI·앤트로픽에 최대 1.3조원 투자",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217289",
+   "source": "AI타임스"
+  },
+  {
+   "id": "2162d25e488cd1d1",
+   "title": "디 인포메이션 \"젠슨 황 인맥으로 엔비디아 칩 10조원 규모 중국 공급\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217262",
+   "source": "AI타임스"
+  },
+  {
+   "id": "606c104f59fbd619",
+   "title": "Nvidia shares rebound 5% as Huang faces scrutiny ahead of earnings",
+   "url": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "806080d13b7f82a5",
+   "title": "Moonshot AI reportedly accessed restricted Nvidia chips in China despite US ban",
+   "url": "https://www.digitimes.com/news/a20261111VL223/moonshot-nvidia-chips-beijing-exports.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "8740815306f5fc32",
+   "title": "불륜은 불륜, 출근은 출근?…엔비디아 찾은 젠슨 황, 사과했으니 일 합시다?",
+   "url": "https://www.etnews.com/20261111000441",
+   "source": "전자신문"
+  },
+  {
+   "id": "30368c91deaf0365",
+   "title": "엔비디아, 젠슨 황 사건 조사 위해 뉴욕 유명 로펌 고용",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217259",
+   "source": "AI타임스"
+  },
+  {
+   "id": "b3d2cf6252cce142",
+   "title": "엔비디아, CEO 스캔들에 AI 투자 불안 겹쳐…이틀간 시총 627조 증발",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217258",
+   "source": "AI타임스"
+  },
+  {
+   "id": "e2ab07d7099ecbc3",
+   "title": "젠슨 황, 불륜 인정 1년 전부터 '성 스캔들 전문' PR 업체 고용",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217260",
+   "source": "AI타임스"
+  },
+  {
+   "id": "74ccdb1ac3098b0d",
+   "title": "Anthropic expands its business suite amid its IPO filing and launch of Fable 5.2 and Mythos 5.2",
+   "url": "https://www.digitimes.com/news/a20261111VL215/anthropic-claude-ipo-software-launch.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "2161e22499cd7226",
+   "title": "구글, AI 검색에 광고 수익성 악화…기업 인수까지 검토",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217264",
+   "source": "AI타임스"
+  },
+  {
+   "id": "d39f86547935bb0e",
+   "title": "앤트로픽, 클로드 오피스 출시…IPO 앞두고 MS·구글과 경쟁",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217251",
+   "source": "AI타임스"
+  }
+ ]
+}

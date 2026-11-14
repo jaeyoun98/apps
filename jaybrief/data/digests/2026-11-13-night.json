@@ -1,0 +1,242 @@
+{
+ "generated_at": "2026-11-13T11:20:42Z",
+ "date": "2026-11-13",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아 젠슨 황 CEO의 전격 사임으로 인한 시장 불확실성이 확대되는 가운데, 국내 반도체 생태계는 공급망 안정화에 주력하고 있으며 장비 및 소재 기업들은 AI 투자 확대에 따른 실적 성장을 이어가고 있음.",
+   "stories": [
+    {
+     "headline": "젠슨 황 엔비디아 CEO 사임, 한국 GPU 공급망 점검 착수",
+     "facts": [
+      "젠슨 황 엔비디아 CEO가 혼외 관계 및 중국 정보기관 연계 의혹으로 사임함",
+      "한국 정부는 엔비디아 측과 회의를 통해 기존 계획된 GPU 26만 장 공급이 차질 없이 진행될 것임을 재확인함",
+      "엔비디아 주가는 CEO 리스크로 인해 하락세를 보이고 있음"
+     ],
+     "interpretation": "CEO 리스크가 단기적으로 주가 변동성을 키우고 있으나, 한국의 AI 인프라 구축을 위한 핵심 GPU 공급은 유지될 것으로 보여 산업계의 직접적인 타격은 제한적일 것으로 판단됨.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "엔비디아의 차기 CEO 선임 및 미국 정부의 대중국 반도체 수출 통제 강화 여부를 주시해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f9ad8ec2e5092549",
+      "88fedd1884797ce2",
+      "29e13c7dcfff2f69",
+      "52f9aa087f397239",
+      "3c396b17cb45187b",
+      "b198b3b082071b8a"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "어플라이드머티어리얼즈, AI 반도체 투자 확대로 실적 급성장",
+     "facts": [
+      "어플라이드머티어리얼즈의 2026 회계연도 4분기 매출이 전년 동기 대비 53% 증가한 104억 1000만 달러를 기록함",
+      "내년 웨이퍼 팹 장비(WFE) 시장 수요가 올해보다 30% 이상 증가할 것으로 전망함"
+     ],
+     "interpretation": "AI 반도체 수요가 선단 로직 및 첨단 패키징 투자를 견인하며 글로벌 장비 업체의 실적 호조로 이어지고 있음. 이는 국내 반도체 소재·부품·장비 기업들에게도 우호적인 환경임.",
+     "affected_company_ids": [],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "글로벌 대형 고객사들의 향후 8개 분기 설비 투자 계획 업데이트를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4ec33c0ba7b05d6d",
+      "472dff4582ebb23c"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "AMD, 양자컴퓨팅 인프라 강화로 엔비디아와 경쟁 본격화",
+     "facts": [
+      "AMD가 양자컴퓨팅 기업 사이퀀텀에 지분 투자 및 기술 협력을 확대함",
+      "양자컴퓨터 오류 수정에 자사 GPU와 소프트웨어를 활용할 계획임"
+     ],
+     "interpretation": "AI 반도체 시장을 넘어 양자컴퓨팅 인프라 분야에서도 엔비디아와의 기술 경쟁이 본격화되고 있음. GPU 생태계 다변화 측면에서 긍정적임.",
+     "affected_company_ids": [
+      "nvidia",
+      "amd"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "양자컴퓨팅 인프라 시장에서 AMD의 구체적인 소프트웨어 생태계 확장 성과를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9e15108aae70226d",
+      "ead1672aa43ed6b4"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "글로벌 빅테크의 AI 서비스 확장과 기업용 AI 도입이 가속화되는 가운데, 마이크로소프트의 대규모 서비스 장애와 같은 인프라 안정성 이슈가 주요 리스크로 부상함.",
+   "stories": [
+    {
+     "headline": "마이크로소프트 365 대규모 장애, 전 세계 업무 차질",
+     "facts": [
+      "마이크로소프트의 아웃룩, 팀즈 등 기업용 서비스에서 12시간 이상 대규모 장애 발생",
+      "정부 기관 및 기업 업무에 차질이 빚어졌으며 챗GPT 등 연동 서비스도 영향받음"
+     ],
+     "interpretation": "클라우드 및 AI 서비스 의존도가 높아진 상황에서 인프라 장애는 기업 생산성에 직접적인 타격을 줌. 향후 서비스 복구 및 재발 방지 대책이 중요함.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "장애의 근본 원인 규명 및 사이버 공격 가능성에 대한 공식 발표를 주시해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0f40b8faea4539c0",
+      "3acb6ed290843e5e",
+      "c4465f546918ffb3",
+      "f30de1cc26b32f96"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자·구글 등 협업 AI 안경, 사전예약 완판",
+     "facts": [
+      "삼성전자, 구글, 젠틀몬스터가 협업한 '인텔리전트 아이웨어' 사전예약이 수 시간 만에 품절됨",
+      "제미나이 AI를 탑재하여 실시간 대화 및 정보 탐색 기능을 제공함"
+     ],
+     "interpretation": "온디바이스 AI를 접목한 웨어러블 기기에 대한 시장의 높은 관심을 확인했음. 향후 AI 기기 시장의 새로운 성장 동력이 될 가능성이 있음.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "정식 출시 이후 실제 사용자들의 피드백과 판매 추이를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f08323af0795bfe4",
+      "d5ca3f7091f08f6e",
+      "9936de349122c8ce"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "4ec33c0ba7b05d6d",
+   "title": "\"장비 더 빨리 달라\"…투자 폭발에 어플라이드 생산량 두 배로",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65436",
+   "source": "디일렉"
+  },
+  {
+   "id": "9e15108aae70226d",
+   "title": "AMD, 양자컴퓨터 오류 수정에 GPU·SW 투입…엔비디아와 경쟁",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217381",
+   "source": "AI타임스"
+  },
+  {
+   "id": "f9ad8ec2e5092549",
+   "title": "Nvidia stock inches higher as investors continue to weigh Jensen Huang’s departure",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "f08323af0795bfe4",
+   "title": "삼성·구글·젠틀몬스터 AI 안경, 1차 예판 완판…체험예약도 마감",
+   "url": "https://www.etnews.com/20261113000294",
+   "source": "전자신문"
+  },
+  {
+   "id": "88fedd1884797ce2",
+   "title": "젠슨 황 사임에도 韓 GPU 26만장 공급 유지…정부 점검회의서 재확인",
+   "url": "https://www.etnews.com/20261113000289",
+   "source": "전자신문"
+  },
+  {
+   "id": "29e13c7dcfff2f69",
+   "title": "배경훈 부총리 \"젠슨 황 사임에도 GPU 26만 장 예정대로 공급\"",
+   "url": "https://zdnet.co.kr/view/?no=20261113172804",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "472dff4582ebb23c",
+   "title": "어플라이드 머티어리얼즈, 사상 최대 분기 매출 104억1000만 달러…전년 동기 대비 53% 증가",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=343283",
+   "source": "KIPOST"
+  },
+  {
+   "id": "d5ca3f7091f08f6e",
+   "title": "삼성전자, 구글·젠틀몬스터·워비파커와 협업한 인텔리전트 아이웨어 공개",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=343277",
+   "source": "KIPOST"
+  },
+  {
+   "id": "52f9aa087f397239",
+   "title": "국가AI전략위, '젠슨 황 사퇴' 긴급회의…GPU 공급 점검",
+   "url": "https://zdnet.co.kr/view/?no=20261113152653",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "3c396b17cb45187b",
+   "title": "\"난 쓰레기…\" 젠슨 황, 사임 직전 극심한 자책감 토로",
+   "url": "https://zdnet.co.kr/view/?no=20261113132517",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "b198b3b082071b8a",
+   "title": "젠슨 황 퇴진…AI 붐에는 어떤 후폭풍",
+   "url": "https://zdnet.co.kr/view/?no=20261113133935",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "ead1672aa43ed6b4",
+   "title": "AMD and PsiQuantum expand partnership on quantum computing infrastructure",
+   "url": "https://www.digitimes.com/news/a20261113PR200/amd-quantum-computing-partnership-infrastructure-software.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "9936de349122c8ce",
+   "title": "Samsung launches 30 AI glasses with Google and eyewear brands",
+   "url": "https://www.digitimes.com/news/a20261113PD234/samsung-google-smart-glasses-2026-camera.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "0f40b8faea4539c0",
+   "title": "MS 365 전 세계 장애…정부·기업 업무 차질에 챗GPT·클로드도 영향",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217394",
+   "source": "AI타임스"
+  },
+  {
+   "id": "3acb6ed290843e5e",
+   "title": "Widespread Microsoft outage continues, taking down Outlook and other 365 services",
+   "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "c4465f546918ffb3",
+   "title": "MS 주요 서비스 12시간 이상 장애...피해규모·복구시점 공개 미정",
+   "url": "https://zdnet.co.kr/view/?no=20261113175230",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "f30de1cc26b32f96",
+   "title": "Microsoft's massive M365 outage stretches past 12 hours as its fixes keep failing",
+   "url": "https://www.theregister.com/saas/2026/11/13/microsofts-massive-m365-outage-stretches-past-12-hours-as-its-fixes-keep-failing/5309609",
+   "source": "The Register"
+  }
+ ]
+}

@@ -1,0 +1,194 @@
+{
+ "generated_at": "2026-11-12T03:10:05Z",
+ "date": "2026-11-12",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아 CEO 젠슨 황을 둘러싼 사생활 및 국가 안보 관련 스캔들이 경영 리스크로 부각되며 반도체 섹터 전반의 변동성을 키우고 있습니다. 한편, 삼성전자는 HBM 및 첨단 패키징 투자를 가속화하며 AI 반도체 공급망 내 입지 강화를 시도하고 있습니다.",
+   "stories": [
+    {
+     "headline": "엔비디아 이사회, 젠슨 황 CEO 해임 논의 착수",
+     "facts": [
+      "젠슨 황 CEO의 불륜 의혹 및 중국 정보기관 연루설이 제기됨",
+      "엔비디아 이사회가 황 CEO의 거취를 결정하기 위한 회의에 착수함",
+      "미국 공화당 의원들이 황 CEO에 대한 의회 소환장 발부를 추진 중"
+     ],
+     "interpretation": "창업자 리스크가 현실화되면서 엔비디아의 경영 불확실성이 극대화됨. 특히 대중국 수출 통제 정책과 맞물려 미 의회의 조사가 본격화될 경우, 엔비디아의 중장기 사업 전략과 글로벌 공급망 관리에 상당한 타격이 예상됨.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "엔비디아 이사회의 최종 해임 결정 여부 및 미 의회 소환 결과 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "cde61b12ab384a4e",
+      "a5ef3b1b4e696650",
+      "a786ddc524a3a6f0",
+      "7264f7c1303b60c8",
+      "bb3aa54b3d5a6b2c",
+      "4587c5b4a19f8139"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자, 온양캠퍼스 첨단 패키징 및 HBM 거점화 추진",
+     "facts": [
+      "이재용 삼성전자 회장이 온양캠퍼스 첨단 패키징 팹 착공식에 참석함",
+      "온양캠퍼스를 HBM 등 AI 반도체 최첨단 패키징 생산 거점으로 육성할 계획"
+     ],
+     "interpretation": "메모리 반도체 강자인 삼성전자가 AI 반도체 시장의 핵심인 HBM 경쟁력을 확보하기 위해 패키징 공정 투자를 본격화함. 이는 AI 반도체 생태계에서 파운드리와 메모리를 아우르는 턴키 솔루션 경쟁력을 강화하려는 전략적 행보임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "첨단 패키징 공정의 수율 안정화 및 HBM 대형 고객사 추가 확보 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0aa867b26dc7fea5",
+      "cc1165e77f65bdfd",
+      "8a496042d8379a06"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 클라우드 기업 코어위브의 실적 호조가 AI 투자 거품론을 일부 완화하며 기술주 반등을 견인했습니다. 또한, 구글 등 빅테크 기업들은 판단형 AI 모델을 출시하며 AI 에이전트 시장 선점을 위한 경쟁을 가속화하고 있습니다.",
+   "stories": [
+    {
+     "headline": "코어위브 실적 호조에 따른 AI 기술주 동반 반등",
+     "facts": [
+      "코어위브가 3분기 예상치를 상회하는 매출 성장과 자금 조달 계획을 발표함",
+      "해당 발표 이후 엔비디아를 포함한 주요 AI 기술주가 상승세로 전환됨"
+     ],
+     "interpretation": "AI 인프라 수요가 여전히 견조함을 확인시켜 준 사례로, 시장의 AI 투자 지속 가능성에 대한 우려를 일시적으로 잠재움. 다만, 코어위브의 공격적인 자금 조달 방식은 향후 금리 환경 변화에 따른 리스크 요인으로 작용할 수 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "코어위브의 자금 조달 지속 가능성 및 주요 클라우드 사업자의 AI 인프라 투자 규모",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "fa0ba44f8e5dd567",
+      "c2b3c02db0a21aa8",
+      "62676f790fbc7575"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "구글, 판단 전용 AI '제미나이 디시전 1' 출시",
+     "facts": [
+      "구글이 텍스트 생성 대신 조건에 따른 판단과 선택을 수행하는 AI 모델을 출시함",
+      "최대 1000개의 질문을 동시 처리하며 저렴한 비용을 강점으로 내세움"
+     ],
+     "interpretation": "AI 모델이 단순 생성형을 넘어 에이전트 형태의 실무 판단 영역으로 진화하고 있음. 기업들의 반복적인 업무 자동화 수요를 공략하여 AI 도입의 실질적인 비용 효율성을 높이는 전략임.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "기업 고객들의 실제 도입 사례 및 타 모델 대비 성능 우위 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "85088d7fd6e07110"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "cde61b12ab384a4e",
+   "title": "엔비디아 이사회, 젠슨 황 해임 준비…이르면 오늘 거취 결정",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65313",
+   "source": "디일렉"
+  },
+  {
+   "id": "a5ef3b1b4e696650",
+   "title": "미 공화당, 젠슨 황 의회 소환장 발부 추진…사임 요구까지 등장",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217301",
+   "source": "AI타임스"
+  },
+  {
+   "id": "a786ddc524a3a6f0",
+   "title": "엔비디아 이사회, 젠슨 황 해임 논의 착수…주가 시간외 8% 급락",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217304",
+   "source": "AI타임스"
+  },
+  {
+   "id": "fa0ba44f8e5dd567",
+   "title": "코어위브 25% 급등에 AI 기술주 동반 반등…엔비디아도 상승 전환",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217298",
+   "source": "AI타임스"
+  },
+  {
+   "id": "0aa867b26dc7fea5",
+   "title": "李대통령 \"대한민국 산업지도 바꿀 첨단 투자...4개월만에 현실로\"",
+   "url": "https://zdnet.co.kr/view/?no=20261112105653",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "cc1165e77f65bdfd",
+   "title": "이재용 회장 \"충청 온양캠, 최첨단 HBM 거점으로 변모\"",
+   "url": "https://zdnet.co.kr/view/?no=20261112102736",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "8a496042d8379a06",
+   "title": "李대통령, 충청권 메가프로젝트 착공식 참석…\"지역 성장 기회 마련\"",
+   "url": "https://zdnet.co.kr/view/?no=20261112102308",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "7264f7c1303b60c8",
+   "title": "Nvidia board meets on Jensen Huang's future as succession gap comes into focus",
+   "url": "https://www.digitimes.com/news/a20261112VL201/nvidia-bloomberg-jensen-huang.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "bb3aa54b3d5a6b2c",
+   "title": "Nvidia prepares to oust Jensen Huang, WSJ reports — stock sinks",
+   "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "4587c5b4a19f8139",
+   "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+   "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "85088d7fd6e07110",
+   "title": "구글, 판단 전용 AI '제미나이 디시전 1' 출시...질문 1000개 동시 처리",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217307",
+   "source": "AI타임스"
+  },
+  {
+   "id": "c2b3c02db0a21aa8",
+   "title": "CoreWeave soars more than 24% for best day since April 2025 after strong Q3 report",
+   "url": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "62676f790fbc7575",
+   "title": "CoreWeave soars 26% as CEO reaffirms AI compute demand after strong Q3 report",
+   "url": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

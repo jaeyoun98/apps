@@ -1,0 +1,364 @@
+{
+ "digests": [
+  {
+   "path": "data/digests/2026-11-15-morning.json",
+   "generated_at": "2026-11-14T17:43:36Z",
+   "date": "2026-11-15",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-11-14-evening.json",
+   "generated_at": "2026-11-14T10:44:56Z",
+   "date": "2026-11-14",
+   "edition": "evening"
+  },
+  {
+   "path": "data/digests/2026-11-14-noon.json",
+   "generated_at": "2026-11-14T02:31:52Z",
+   "date": "2026-11-14",
+   "edition": "noon"
+  },
+  {
+   "path": "data/digests/2026-11-14-morning.json",
+   "generated_at": "2026-11-13T19:17:25Z",
+   "date": "2026-11-14",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-11-13-night.json",
+   "generated_at": "2026-11-13T11:20:42Z",
+   "date": "2026-11-13",
+   "edition": "night"
+  },
+  {
+   "path": "data/digests/2026-11-13-noon.json",
+   "generated_at": "2026-11-13T02:43:42Z",
+   "date": "2026-11-13",
+   "edition": "noon"
+  },
+  {
+   "path": "data/digests/2026-11-13-morning.json",
+   "generated_at": "2026-11-12T19:37:08Z",
+   "date": "2026-11-13",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-11-12-night.json",
+   "generated_at": "2026-11-12T11:36:55Z",
+   "date": "2026-11-12",
+   "edition": "night"
+  },
+  {
+   "path": "data/digests/2026-11-12-noon.json",
+   "generated_at": "2026-11-12T03:10:05Z",
+   "date": "2026-11-12",
+   "edition": "noon"
+  },
+  {
+   "path": "data/digests/2026-11-12-morning.json",
+   "generated_at": "2026-11-11T19:18:48Z",
+   "date": "2026-11-12",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-11-11-night.json",
+   "generated_at": "2026-11-11T11:18:15Z",
+   "date": "2026-11-11",
+   "edition": "night"
+  },
+  {
+   "path": "data/digests/2026-11-11-noon.json",
+   "generated_at": "2026-11-11T02:00:32Z",
+   "date": "2026-11-11",
+   "edition": "noon"
+  },
+  {
+   "path": "data/digests/2026-11-11-morning.json",
+   "generated_at": "2026-11-10T19:24:51Z",
+   "date": "2026-11-11",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-11-10-night.json",
+   "generated_at": "2026-11-10T11:29:19Z",
+   "date": "2026-11-10",
+   "edition": "night"
+  },
+  {
+   "path": "data/digests/2026-11-10-noon.json",
+   "generated_at": "2026-11-10T04:12:11Z",
+   "date": "2026-11-10",
+   "edition": "noon"
+  },
+  {
+   "path": "data/digests/2026-11-10-morning.json",
+   "generated_at": "2026-11-09T21:59:31Z",
+   "date": "2026-11-10",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-11-09-night.json",
+   "generated_at": "2026-11-09T11:55:32Z",
+   "date": "2026-11-09",
+   "edition": "night"
+  },
+  {
+   "path": "data/digests/2026-11-09-noon.json",
+   "generated_at": "2026-11-09T01:47:45Z",
+   "date": "2026-11-09",
+   "edition": "noon"
+  },
+  {
+   "path": "data/digests/2026-11-09-morning.json",
+   "generated_at": "2026-11-08T16:07:21Z",
+   "date": "2026-11-09",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-11-08-evening.json",
+   "generated_at": "2026-11-08T10:38:48Z",
+   "date": "2026-11-08",
+   "edition": "evening"
+  },
+  {
+   "path": "data/digests/2026-11-08-noon.json",
+   "generated_at": "2026-11-08T01:36:19Z",
+   "date": "2026-11-08",
+   "edition": "noon"
+  },
+  {
+   "path": "data/digests/2026-11-08-morning.json",
+   "generated_at": "2026-11-07T17:30:27Z",
+   "date": "2026-11-08",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-11-07-evening.json",
+   "generated_at": "2026-11-07T10:31:43Z",
+   "date": "2026-11-07",
+   "edition": "evening"
+  },
+  {
+   "path": "data/digests/2026-11-07-noon.json",
+   "generated_at": "2026-11-07T02:04:50Z",
+   "date": "2026-11-07",
+   "edition": "noon"
+  },
+  {
+   "path": "data/digests/2026-11-07-morning.json",
+   "generated_at": "2026-11-06T18:58:02Z",
+   "date": "2026-11-07",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-11-06-night.json",
+   "generated_at": "2026-11-06T11:16:48Z",
+   "date": "2026-11-06",
+   "edition": "night"
+  },
+  {
+   "path": "data/digests/2026-11-06-noon.json",
+   "generated_at": "2026-11-06T02:37:19Z",
+   "date": "2026-11-06",
+   "edition": "noon"
+  },
+  {
+   "path": "data/digests/2026-11-06-morning.json",
+   "generated_at": "2026-11-05T19:36:39Z",
+   "date": "2026-11-06",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-11-05-night.json",
+   "generated_at": "2026-11-05T11:18:42Z",
+   "date": "2026-11-05",
+   "edition": "night"
+  },
+  {
+   "path": "data/digests/2026-11-05-noon.json",
+   "generated_at": "2026-11-05T02:36:59Z",
+   "date": "2026-11-05",
+   "edition": "noon"
+  },
+  {
+   "path": "data/digests/2026-11-05-morning.json",
+   "generated_at": "2026-11-04T19:27:00Z",
+   "date": "2026-11-05",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-11-04-noon.json",
+   "generated_at": "2026-11-04T02:29:22Z",
+   "date": "2026-11-04",
+   "edition": "noon"
+  },
+  {
+   "path": "data/digests/2026-11-04-morning.json",
+   "generated_at": "2026-11-03T19:10:24Z",
+   "date": "2026-11-04",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-11-03-night.json",
+   "generated_at": "2026-11-03T11:10:39Z",
+   "date": "2026-11-03",
+   "edition": "night"
+  },
+  {
+   "path": "data/digests/2026-11-03-noon.json",
+   "generated_at": "2026-11-03T03:31:27Z",
+   "date": "2026-11-03",
+   "edition": "noon"
+  },
+  {
+   "path": "data/digests/2026-11-03-morning.json",
+   "generated_at": "2026-11-02T21:28:06Z",
+   "date": "2026-11-03",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-11-02-night.json",
+   "generated_at": "2026-11-02T11:31:04Z",
+   "date": "2026-11-02",
+   "edition": "night"
+  },
+  {
+   "path": "data/digests/2026-11-02-noon.json",
+   "generated_at": "2026-11-02T01:37:05Z",
+   "date": "2026-11-02",
+   "edition": "noon"
+  },
+  {
+   "path": "data/digests/2026-11-02-morning.json",
+   "generated_at": "2026-11-01T17:42:49Z",
+   "date": "2026-11-02",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-11-01-evening.json",
+   "generated_at": "2026-11-01T10:42:02Z",
+   "date": "2026-11-01",
+   "edition": "evening"
+  },
+  {
+   "path": "data/digests/2026-11-01-noon.json",
+   "generated_at": "2026-11-01T01:18:24Z",
+   "date": "2026-11-01",
+   "edition": "noon"
+  },
+  {
+   "path": "data/digests/2026-11-01-morning.json",
+   "generated_at": "2026-10-31T16:55:16Z",
+   "date": "2026-11-01",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-10-31-noon.json",
+   "generated_at": "2026-10-31T01:41:42Z",
+   "date": "2026-10-31",
+   "edition": "noon"
+  },
+  {
+   "path": "data/digests/2026-10-31-morning.json",
+   "generated_at": "2026-10-30T17:46:31Z",
+   "date": "2026-10-31",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-10-30-evening.json",
+   "generated_at": "2026-10-30T10:18:42Z",
+   "date": "2026-10-30",
+   "edition": "evening"
+  },
+  {
+   "path": "data/digests/2026-10-30-noon.json",
+   "generated_at": "2026-10-30T02:02:59Z",
+   "date": "2026-10-30",
+   "edition": "noon"
+  },
+  {
+   "path": "data/digests/2026-10-30-morning.json",
+   "generated_at": "2026-10-29T18:07:31Z",
+   "date": "2026-10-30",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-10-29-evening.json",
+   "generated_at": "2026-10-29T10:17:16Z",
+   "date": "2026-10-29",
+   "edition": "evening"
+  },
+  {
+   "path": "data/digests/2026-10-29-noon.json",
+   "generated_at": "2026-10-29T01:53:03Z",
+   "date": "2026-10-29",
+   "edition": "noon"
+  },
+  {
+   "path": "data/digests/2026-10-28-evening.json",
+   "generated_at": "2026-10-28T09:54:59Z",
+   "date": "2026-10-28",
+   "edition": "evening"
+  },
+  {
+   "path": "data/digests/2026-10-28-noon.json",
+   "generated_at": "2026-10-28T01:29:40Z",
+   "date": "2026-10-28",
+   "edition": "noon"
+  },
+  {
+   "path": "data/digests/2026-10-27-evening.json",
+   "generated_at": "2026-10-27T09:13:58Z",
+   "date": "2026-10-27",
+   "edition": "evening"
+  },
+  {
+   "path": "data/digests/2026-10-27-morning.json",
+   "generated_at": "2026-10-26T16:13:21Z",
+   "date": "2026-10-27",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-10-26-evening.json",
+   "generated_at": "2026-10-26T09:13:24Z",
+   "date": "2026-10-26",
+   "edition": "evening"
+  },
+  {
+   "path": "data/digests/2026-10-26-morning.json",
+   "generated_at": "2026-10-26T00:30:32Z",
+   "date": "2026-10-26",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-10-25-night.json",
+   "generated_at": "2026-10-25T13:47:33Z",
+   "date": "2026-10-25",
+   "edition": "night"
+  },
+  {
+   "path": "data/digests/2026-10-25-evening.json",
+   "generated_at": "2026-10-25T08:36:59Z",
+   "date": "2026-10-25",
+   "edition": "evening"
+  },
+  {
+   "path": "data/digests/2026-10-25-morning.json",
+   "generated_at": "2026-10-25T00:23:56Z",
+   "date": "2026-10-25",
+   "edition": "morning"
+  },
+  {
+   "path": "data/digests/2026-10-24-night.json",
+   "generated_at": "2026-10-24T13:25:20Z",
+   "date": "2026-10-24",
+   "edition": "night"
+  },
+  {
+   "path": "data/digests/2026-10-24-evening.json",
+   "generated_at": "2026-10-24T08:18:47Z",
+   "date": "2026-10-24",
+   "edition": "evening"
+  }
+ ]
+}

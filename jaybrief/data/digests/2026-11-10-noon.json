@@ -1,0 +1,237 @@
+{
+ "generated_at": "2026-11-10T04:12:11Z",
+ "date": "2026-11-10",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 투자 지속과 지정학적 리스크가 반도체 섹터의 핵심 변수로 작용하고 있습니다. 엔비디아 관련 불확실성이 확대되는 가운데, 국내 기업들은 AI 반도체 설계 및 데이터센터 인프라 분야에서 기술 혁신과 실적 성장을 도모하고 있습니다.",
+   "stories": [
+    {
+     "headline": "엔비디아 CEO 젠슨 황 관련 의혹 확산 및 주주 집단소송 직면",
+     "facts": [
+      "도널드 트럼프 미국 대통령이 젠슨 황 CEO 관련 의혹을 FBI가 조사 중이라고 언급함",
+      "엔비디아와 젠슨 황 CEO가 중국 스파이 의혹 관련 정보를 투자자들에게 허위 설명했다는 이유로 주주 집단소송 제기됨",
+      "젠슨 황 CEO는 주요 AI 업계 행사에 잇달아 불참 중"
+     ],
+     "interpretation": "최고 경영진의 사법 리스크와 지정학적 연루 의혹은 엔비디아의 기업 지배구조 및 대중국 수출 통제 정책에 대한 불확실성을 증폭시킴. 이는 향후 엔비디아의 전략적 의사결정과 시장 신뢰도에 부정적 영향을 미칠 가능성이 큼.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "FBI 조사 결과 발표 및 주주 소송 진행 상황",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4d511b88979cd822",
+      "134b252133e83a43",
+      "51d22b0ca97dce42",
+      "5b533a14d258646b",
+      "b98b97eb7a592ce3"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "미국 대중국 반도체 규제 강화 움직임에 따른 국내 메모리 기업 리스크",
+     "facts": [
+      "엔비디아 조사 여파로 미국 의회 내 대중국 AI 칩 수출 통제 강화 목소리 커짐",
+      "삼성전자와 SK하이닉스의 HBM 등 고성능 메모리 대중국 수요 불확실성 증대"
+     ],
+     "interpretation": "미국의 대중국 반도체 규제 강화는 HBM 등 고부가가치 메모리 제품의 중국향 공급망에 직접적인 타격을 줄 수 있음. 이는 국내 반도체 기업의 매출 구조와 대중국 전략 재편을 강제하는 요인임.",
+     "affected_company_ids": [
+      "nvidia",
+      "sk-hynix",
+      "samsung-electronics"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "미국 정부의 대중국 반도체 수출 통제 세부 지침 발표",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "45eba9e6c137aed0"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "딥엑스, 삼성전자 2나노 공정 기반 AI 반도체 'DX-M2' 설계 완료",
+     "facts": [
+      "딥엑스가 삼성전자 2나노 공정 기반 차세대 생성형 AI 반도체 'DX-M2' 설계 및 마스크 테이프아웃 완료",
+      "내년 하반기 양산 공급 목표"
+     ],
+     "interpretation": "국내 팹리스 기업이 삼성전자의 최첨단 2나노 공정을 활용해 AI 반도체를 설계한 사례로, 파운드리 생태계 확장과 국산 AI 반도체 경쟁력 강화 측면에서 긍정적임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "내년 하반기 실제 양산 수율 및 고객사 확보 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "a58e7638a10a926f",
+      "7c31a40784a2184a"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트의 확산과 함께 기업용 소프트웨어 및 인프라 시장이 재편되고 있습니다. 앤트로픽의 모델 성능 향상과 클라우드 기업들의 AI 인프라 투자 확대가 두드러지며, 보안과 신뢰성이 핵심 경쟁력으로 부상했습니다.",
+   "stories": [
+    {
+     "headline": "앤트로픽, 신규 모델 '클로드 페이블 5.2' 출시 및 성능 평가 1위 탈환",
+     "facts": [
+      "앤트로픽이 '클로드 페이블 5.2'와 '클로드 미소스 5.2' 출시",
+      "페이블 5.2는 성능 평가에서 구글 모델을 제치고 1위 기록",
+      "API 가격 20% 인하"
+     ],
+     "interpretation": "앤트로픽의 모델 성능 우위와 가격 경쟁력 강화는 기업용 AI 시장에서 오픈AI 및 구글과의 점유율 경쟁을 심화시킬 것임. IPO를 앞두고 시장 지배력을 입증하려는 전략으로 풀이됨.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "앤트로픽의 IPO 밸류에이션 및 시장 반응",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3b5873bfb67240bf",
+      "9690426e61ea8b3d",
+      "2d73a59fa38c023d",
+      "8c6401821906f892"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "NHN, 3분기 역대 최대 실적 달성 및 AI GPU 사업 확대",
+     "facts": [
+      "NHN 3분기 매출 7583억원, 영업이익 588억원으로 역대 최대",
+      "웹보드 게임 호조 및 NHN KCP 해외 결제 성장, AI GPU 사업 확대가 실적 견인",
+      "GPU 사업 이익률 30% 수준 기록"
+     ],
+     "interpretation": "본업인 게임과 결제 부문의 안정적 성장 위에 AI 인프라 사업이 수익성 높은 신성장 동력으로 자리 잡고 있음. 데이터센터 확보와 차세대 GPU 도입을 통해 AI 사업 가속화 예상.",
+     "affected_company_ids": [],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "내년 AI 데이터센터 100MW 확보 및 GPU 사업의 지속적인 수익성 유지 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0463f83f217a270b",
+      "c1c13fb793473f22",
+      "d77bddaf8fa105d2",
+      "62347659ecd2d242"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "45eba9e6c137aed0",
+   "title": "Nvidia probe fuels push for China chip curbs, raising risks for Samsung, SK Hynix",
+   "url": "https://www.digitimes.com/news/a20261110VL203/nvidia-samsung-investigation-sk-hynix-ceo.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "4d511b88979cd822",
+   "title": "Trump says FBI examining Huang affair as Nvidia faces widening legal scrutiny",
+   "url": "https://www.digitimes.com/news/a20261110VL205/nvidia-security-ceo-jensen-huang-investigation.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "0463f83f217a270b",
+   "title": "NHN AIDC 순항, \"GPU 사업 이익률 30% 수준\"…내년 B300 1700장 추가",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65154",
+   "source": "디일렉"
+  },
+  {
+   "id": "a58e7638a10a926f",
+   "title": "딥엑스, 차세대 AI 반도체 'DX-M2' CES 2027 'AI 부문' 혁신상 수상",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=343155",
+   "source": "KIPOST"
+  },
+  {
+   "id": "134b252133e83a43",
+   "title": "트럼프 \"FBI, 젠슨 황 사건 조사 중\"…주요 AI 행사도 잇달아 불참",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217203",
+   "source": "AI타임스"
+  },
+  {
+   "id": "51d22b0ca97dce42",
+   "title": "엔비디아·젠슨 황, 주주 집단소송 직면…스파이 의혹 관련 '허위 설명' 쟁점",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217206",
+   "source": "AI타임스"
+  },
+  {
+   "id": "7c31a40784a2184a",
+   "title": "딥엑스, 초저전력 AI 반도체 'DX-M2' 설계 완료...내년 하반기 양산 채비",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217204",
+   "source": "AI타임스"
+  },
+  {
+   "id": "c1c13fb793473f22",
+   "title": "NHN 3분기 영업익 588억원 '분기 최대'... 게임·결제·클라우드 고른 성장",
+   "url": "https://www.etnews.com/20261110000228",
+   "source": "전자신문"
+  },
+  {
+   "id": "5b533a14d258646b",
+   "title": "Commentary: Why Nvidia's board would struggle to replace Jensen Huang",
+   "url": "https://www.digitimes.com/news/a20261110PD219/nvidia-jensen-huang-ceo-chips-security.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "d77bddaf8fa105d2",
+   "title": "NHN클라우드, 3분기 매출 75.5% 성장…내년까지 AI 데이터센터 100MW 확보",
+   "url": "https://zdnet.co.kr/view/?no=20261110100637",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "9690426e61ea8b3d",
+   "title": "[AI는 지금] IPO 앞둔 앤트로픽, '페이블·미토스 5.2' 공개…에이전트 협업 강화",
+   "url": "https://zdnet.co.kr/view/?no=20261110094407",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "8c6401821906f892",
+   "title": "Anthropic reportedly plans to move forward with IPO plans",
+   "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "62347659ecd2d242",
+   "title": "NHN, 영업익 112.6% 급증…결제·클라우드 성장 힘입어 '역대 최대실적'",
+   "url": "https://www.hankyung.com/article/202611106606g",
+   "source": "한국경제 IT"
+  },
+  {
+   "id": "2d73a59fa38c023d",
+   "title": "Jim Cramer says Anthropic's IPO could make or break the AI trade. Here's why",
+   "url": "https://www.cnbc.com/2026/11/09/anthropic-ipo-ai-trade-jim-cramer.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "b98b97eb7a592ce3",
+   "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
+   "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "3b5873bfb67240bf",
+   "title": "앤트로픽 '페이블 5.2', AI 성능 평가 1위 탈환…API 가격도 20% 인하",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217196",
+   "source": "AI타임스"
+  }
+ ]
+}

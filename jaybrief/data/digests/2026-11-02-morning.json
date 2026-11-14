@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-11-01T17:42:49Z",
+ "date": "2026-11-02",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 장비 및 공정 기술 고도화 관련 소식입니다.",
+   "stories": [
+    {
+     "headline": "비아트론, 120억원 규모 반도체 RTP 장비 개발 착수",
+     "facts": [
+      "비아트론이 산업통상자원부 주관 '소재부품장비 으뜸기업'으로 선정됨",
+      "국내 종합반도체 기업과 120억원 규모의 급속열처리(RTP) 장비 공동 개발"
+     ],
+     "interpretation": "디스플레이 장비 중심의 사업 구조를 차세대 3D D램 등 반도체 공정 장비로 다각화하려는 시도로, 향후 반도체 장비 매출 비중 확대 여부가 관건임.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "실제 반도체 기업향 장비 공급 계약 체결 및 양산 라인 진입 여부를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "54e4f3e7745cbb94"
+     ],
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 도입에 따른 기업 간 전략적 갈등 및 시장 경쟁 동향입니다.",
+   "stories": [
+    {
+     "headline": "Amazon 및 주요 기업들의 AI 에이전트 차단 전략",
+     "facts": [
+      "Amazon 등 주요 기업들이 Meta의 Muse와 같은 AI 개인 에이전트의 접근을 차단하고 있음",
+      "전문가들은 고객 경험의 마찰을 줄이는 기술을 차단하는 것이 장기적으로는 승산 없는 전략이 될 수 있다고 경고"
+     ],
+     "interpretation": "AI 에이전트가 기업의 플랫폼 통제력을 약화시킬 수 있다는 우려와 사용자 편의성 간의 갈등이 심화되고 있으며, 이는 향후 AI 서비스 생태계의 주도권 경쟁으로 이어질 전망임.",
+     "affected_company_ids": [
+      "amazon",
+      "meta"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "AI 에이전트와 기존 플랫폼 기업 간의 데이터 접근성 및 서비스 통합 관련 표준화 논의를 지켜봐야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "cdbeda6e0f5baf32"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "54e4f3e7745cbb94",
+   "title": "비아트론, 소부장 으뜸기업 선정...\"120억원 규모 반도체 장비 개발\"",
+   "url": "https://zdnet.co.kr/view/?no=20261101230401",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "cdbeda6e0f5baf32",
+   "title": "For JPMorgan, Amazon, fighting AI bots like Meta Muse may not be a winning long-term strategy",
+   "url": "https://www.cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

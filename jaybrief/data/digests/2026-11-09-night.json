@@ -1,0 +1,234 @@
+{
+ "generated_at": "2026-11-09T11:55:32Z",
+ "date": "2026-11-09",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아 CEO 젠슨 황의 사생활 및 스파이 연루 의혹이 주가 변동성을 키우는 가운데, 한국 내 AI 스타트업 투자 및 기술 협력은 예정대로 진행되며 생태계 확장을 모색하고 있음.",
+   "stories": [
+    {
+     "headline": "엔비디아 젠슨 황 CEO 사생활 및 스파이 의혹 조사 착수",
+     "facts": [
+      "엔비디아 이사회가 젠슨 황 CEO와 중국 정보기관 연루 의혹 여성 간 관계에 대한 독립적 조사에 착수함",
+      "중국 외교부는 해당 의혹을 '중국 간첩설'이라며 전면 부인함",
+      "관련 의혹 보도 이후 엔비디아 주가는 하락세를 보임"
+     ],
+     "interpretation": "CEO 리스크가 현실화되면서 단기 주가 변동성이 확대됨. 이사회 조사 결과에 따라 경영권 안정성 및 대중국 사업 전략에 대한 불확실성이 지속될 전망임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "이사회 조사 결과 발표 및 CEO 거취 관련 공식 입장 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4a7c37428970f5bd",
+      "7f804170abf95b27",
+      "05c510128b18dd7f",
+      "89fb98a973d7d39b",
+      "1b76fd037fa634d8",
+      "092b13037c222cfd"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아, 한국 AI 스타트업 투자 및 기술 협력 강화",
+     "facts": [
+      "엔비디아가 리얼월드, 업스테이지, 모티프테크놀로지스 등 국내 AI 스타트업 3곳에 투자함",
+      "엔비디아-SK텔레콤-리벨리온이 NV링크 퓨전 기반 AI 인프라 구축 MOU 체결",
+      "카카오모빌리티와 기아 PBV 대상 레벨4 자율주행 기술 협력 추진"
+     ],
+     "interpretation": "CEO 리스크와 별개로 한국 시장에서의 AI 인프라 및 생태계 영향력 확대 전략은 차질 없이 진행 중임. 특히 국산 NPU와 엔비디아 GPU를 결합한 이기종 컴퓨팅 연합은 국내 AI 반도체 생태계의 표준화 경쟁을 가속화할 것임.",
+     "affected_company_ids": [
+      "nvidia",
+      "sk-hynix"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "엔비디아와 국내 파트너사 간의 구체적인 기술 실증 성과 및 상용화 시점",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d197fc0be6c5ca65",
+      "136fcccddd624760",
+      "54ae6a512e4696c2",
+      "38090eb10014a5e4",
+      "6ce5303df8fc0369",
+      "aab99d0a8dc32057"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트의 확산과 함께 보안 취약점 및 데이터 오염 문제가 대두되고 있으며, 기업들은 이를 해결하기 위한 보안 플랫폼 도입과 기술 협력을 강화하고 있음.",
+   "stories": [
+    {
+     "headline": "AI 에이전트 기반 공격 및 데이터 오염 보안 위협 증가",
+     "facts": [
+      "마이크로소프트가 AI 에이전트를 악용한 금융기관 공격 도구 '아르텍스' 분석",
+      "AI 사전 학습 데이터의 0.1%만 오염시켜도 백도어 삽입이 가능하다는 연구 결과 발표",
+      "앤트로픽의 국내 기업용 계정 100여개에서 개인정보 유출 사고 발생"
+     ],
+     "interpretation": "AI 기술이 고도화됨에 따라 공격자들도 AI 에이전트를 활용한 자동화된 공격을 수행하고 있음. 기업의 보안 체계가 IT 중심에서 OT 및 AI 에이전트 보안으로 확장되어야 함을 시사함.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "AI 보안 플랫폼 시장의 성장세 및 기업들의 보안 투자 규모 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4d21c641d1d80d18",
+      "ecdebc2847570dc2",
+      "707dcec35b05ef93"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "글로벌 빅테크의 AI 파트너십 및 인프라 투자 확대",
+     "facts": [
+      "메가존클라우드가 오픈AI의 '셀렉트' 등급 파트너로 선정되어 기업 AI 도입 사업 강화",
+      "구글이 크루소의 와이오밍 데이터센터 프로젝트를 인수하고 170억달러 투자 결정",
+      "아마존이 울산 지역사회 대상 AI 프로젝트 지원 확대"
+     ],
+     "interpretation": "빅테크 기업들이 AI 인프라 확보와 생태계 구축을 위해 대규모 투자를 지속하고 있음. 클라우드 파트너사들과의 협력을 통해 기업용 AI 시장 점유율을 선점하려는 전략임.",
+     "affected_company_ids": [
+      "alphabet",
+      "amazon"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "대규모 AI 데이터센터 투자에 따른 전력 공급 및 운영 효율성 지표",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "75d25b371c93bb4f",
+      "5c33476729704d58",
+      "fab1747d81580321"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "d197fc0be6c5ca65",
+   "title": "모티프, 엔비디아 투자 유치…내년 1분기 '모티프 4' 공개",
+   "url": "https://www.etnews.com/20261109000429",
+   "source": "전자신문"
+  },
+  {
+   "id": "4a7c37428970f5bd",
+   "title": "Nvidia stock falls 5% as scrutiny turns to Jensen Huang’s relationship with alleged Chinese spy",
+   "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "7f804170abf95b27",
+   "title": "중국, 젠슨 황 불륜 상대 '간첩설' 일축…“억측이자 모략”",
+   "url": "https://www.etnews.com/20261109000417",
+   "source": "전자신문"
+  },
+  {
+   "id": "05c510128b18dd7f",
+   "title": "“재산 220조” 불륜 인정한 젠슨 황, 이혼시 위자료 110조 폭탄?…“엔비디아 또다른 뇌관”",
+   "url": "https://www.etnews.com/20261109000414",
+   "source": "전자신문"
+  },
+  {
+   "id": "136fcccddd624760",
+   "title": "리벨리온, 엔비디아와 한국 소버린 AI 인프라 만든다",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65134",
+   "source": "디일렉"
+  },
+  {
+   "id": "54ae6a512e4696c2",
+   "title": "매디슨 황 빠진 엔비디아 AI 데이…韓협력은 예정대로",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65102",
+   "source": "디일렉"
+  },
+  {
+   "id": "38090eb10014a5e4",
+   "title": "엔비디아, 국내 AI 스타트업 3곳 투자 낙점...리얼월드·업스테이지·모티프",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217188",
+   "source": "AI타임스"
+  },
+  {
+   "id": "6ce5303df8fc0369",
+   "title": "카카오모빌리티-엔비디아, 레벨4 자율주행 협력…기아 PBV 우선 적용",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217187",
+   "source": "AI타임스"
+  },
+  {
+   "id": "aab99d0a8dc32057",
+   "title": "엔비디아·SK텔레콤·리벨리온, 이기종 AI 컴퓨팅 겨냥 3각 동맹",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217170",
+   "source": "AI타임스"
+  },
+  {
+   "id": "89fb98a973d7d39b",
+   "title": "Nvidia stock falls 4% as scrutiny turns to Jensen Huang’s relationship with alleged Chinese spy",
+   "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "1b76fd037fa634d8",
+   "title": "Nasdaq defies Nvidia impact as Huang faces espionage affair probe",
+   "url": "https://www.cnbc.com/2026/11/09/nasdaq-defies-nvidia-impact-huang-faces-espionage-affair-probe.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "092b13037c222cfd",
+   "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+   "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "707dcec35b05ef93",
+   "title": "앤트로픽, 韓 기업용 계정 100여개 개인정보 유출 신고",
+   "url": "https://www.etnews.com/20261109000428",
+   "source": "전자신문"
+  },
+  {
+   "id": "ecdebc2847570dc2",
+   "title": "AI 학습 데이터 0.1%만 조작해도 에이전트에 원격 코드 백도어 심을 수 있어",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217183",
+   "source": "AI타임스"
+  },
+  {
+   "id": "75d25b371c93bb4f",
+   "title": "메가존클라우드, 오픈AI 셀렉트 파트너 선정…기업 AI 도입 사업 확대",
+   "url": "https://zdnet.co.kr/view/?no=20261109174825",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "4d21c641d1d80d18",
+   "title": "AI 해킹도 플랫폼화, MS가 분석한 ‘아르텍스’ 공격",
+   "url": "https://byline.network/2026/11/9-526/",
+   "source": "바이라인네트워크"
+  },
+  {
+   "id": "fab1747d81580321",
+   "title": "아마존, 지역사회 지원 울산으로 확대…학생 AI 프로젝트에 자금 지원",
+   "url": "https://zdnet.co.kr/view/?no=20261109170749",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "5c33476729704d58",
+   "title": "구글, 사업 차질 빚은 크루소 AI 데이터센터 인수…170억달러 투자",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217148",
+   "source": "AI타임스"
+  }
+ ]
+}

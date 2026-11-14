@@ -1,0 +1,222 @@
+{
+ "generated_at": "2026-11-13T02:43:42Z",
+ "date": "2026-11-13",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아 젠슨 황 CEO의 갑작스러운 사임으로 인한 경영 공백과 이에 따른 AI 반도체 공급망 및 시장 불확실성이 심화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "엔비디아 젠슨 황 CEO 사임, 콜렛 크레스 CFO 임시 CEO 체제 전환",
+     "facts": [
+      "젠슨 황 엔비디아 CEO가 사장, CEO, 이사회 이사직에서 즉시 사임함",
+      "콜렛 크레스 CFO가 임시 CEO를 맡아 경영 정상화 및 투자자 신뢰 회복에 나섬",
+      "엔비디아 이사회는 정식 후임자 선임 절차에 착수함"
+     ],
+     "interpretation": "창업자 중심의 강력한 리더십이 사라지면서 엔비디아의 전략적 일관성과 AI 생태계 내 영향력 유지에 대한 시장의 의구심이 커지고 있습니다. 재무 전문가인 CFO가 임시 CEO를 맡은 것은 당장의 경영 안정화에 방점이 찍혀 있음을 시사합니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "정식 후임 CEO 선임 및 향후 2년간의 로드맵 유지 여부 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "10668cb5e995ec82",
+      "d5425e5b7db400dc",
+      "a1f96bfa7fbe7c84",
+      "7f6375fb8936a606",
+      "efd24e3df354a4ce"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아 리더십 변화에 따른 경쟁사 및 공급망 영향 주목",
+     "facts": [
+      "젠슨 황 사임 발표 후 엔비디아 주가는 변동성을 보이며 하락세 기록",
+      "AMD, Broadcom 등 경쟁사들이 시장 점유율 확대 기회로 평가받음",
+      "대만 서버 공급업체들은 단기적 수요는 유지될 것으로 보나 장기적 불확실성 우려"
+     ],
+     "interpretation": "엔비디아의 독주 체제에 균열이 생기면서 경쟁사들에게는 기술적·영업적 기회가 열리고 있습니다. 다만 AI 인프라 투자의 핵심인 엔비디아의 공급망 안정성이 흔들릴 경우, 관련 반도체 생태계 전반의 투자 심리가 위축될 가능성이 있습니다.",
+     "affected_company_ids": [
+      "nvidia",
+      "amd",
+      "broadcom"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "경쟁사들의 시장 점유율 변화 및 엔비디아 주요 고객사들의 주문량 유지 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0b213abe7d70bbf0",
+      "8c7ae72cbb2d7d4f",
+      "b6973a8898feaaf7",
+      "2dfb1972b7684571"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크 기업들의 AI 모델 고도화 경쟁이 지속되는 가운데, 서비스 장애와 규제 이슈가 동시에 부각되고 있습니다.",
+   "stories": [
+    {
+     "headline": "구글, 제미나이 4 하이드로젠 출시 및 AI 안경 시장 경쟁 가속화",
+     "facts": [
+      "구글이 효율형 AI 모델 '제미나이 4 하이드로젠'을 출시함",
+      "삼성전자와 협업한 AI 안경을 12월 10일 정식 출시하며 메타와 경쟁 예고",
+      "하이드로젠 모델은 기존 모델 대비 처리 속도와 에이전트 작업 성능이 개선됨"
+     ],
+     "interpretation": "구글이 모델 라인업을 세분화하고 하드웨어 파트너십을 강화하며 AI 에이전트 시장 주도권을 노리고 있습니다. 특히 삼성전자와의 협력은 메타가 선점한 AI 웨어러블 시장의 판도를 바꿀 수 있는 변수입니다.",
+     "affected_company_ids": [
+      "alphabet",
+      "samsung-electronics",
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "AI 안경의 초기 시장 반응 및 제미나이 모델의 실제 엔터프라이즈 채택률",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "7b5d03e4de1290fa",
+      "b6a1d45f4c1eee65",
+      "0e8f7170ce36ed18"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "마이크로소프트 클라우드 서비스 대규모 장애 발생",
+     "facts": [
+      "아웃룩, 팀스, MS 365 등 마이크로소프트 클라우드 서비스에서 대규모 장애 발생",
+      "국내 기업 업무에도 영향을 미치는 등 광범위한 서비스 중단 보고",
+      "마이크로소프트는 즉각적인 복구 조치를 취하고 있으나 완벽한 해결에 난항"
+     ],
+     "interpretation": "클라우드 의존도가 높은 기업 환경에서 서비스 장애는 생산성 저하와 직결됩니다. 반복되는 클라우드 인프라 불안정성은 기업 고객들의 멀티 클라우드 전략 가속화나 신뢰도 하락으로 이어질 수 있습니다.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "장애 원인 규명 및 재발 방지 대책 발표",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5e5276775a6d7113",
+      "400b7b6d338206d0",
+      "afa0026abf4d970f",
+      "7d667bae31617153"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "0b213abe7d70bbf0",
+   "title": "AMD, Broadcom, custom chips eye an opening as Nvidia loses its founder CEO",
+   "url": "https://www.digitimes.com/news/a20261113VL207/nvidia-amd-broadcom-jensen-huang-ceo.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "b6973a8898feaaf7",
+   "title": "Analysis: Nvidia's leadership change leaves Taiwan suppliers confident in near-term demand",
+   "url": "https://www.digitimes.com/news/a20261113PD213/nvidia-taiwan-jensen-huang-demand-rubin.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "a1f96bfa7fbe7c84",
+   "title": "[포스트 젠슨 황] 엔비디아 차기 CEO, 유력 후보는",
+   "url": "https://zdnet.co.kr/view/?no=20261113074116",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "7f6375fb8936a606",
+   "title": "[포스트 젠슨 황] 임시 CEO 콜렛 크레스 과제는",
+   "url": "https://zdnet.co.kr/view/?no=20261113073253",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "10668cb5e995ec82",
+   "title": "젠슨 황 CEO 불명예 퇴진...\"콜렛 크레스 CFO가 대행\"",
+   "url": "https://zdnet.co.kr/view/?no=20261112233500",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "d5425e5b7db400dc",
+   "title": "젠슨 황, 엔비디아 CEO 사임…주가 14% 급락·후임 선정 착수",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217348",
+   "source": "AI타임스"
+  },
+  {
+   "id": "8c7ae72cbb2d7d4f",
+   "title": "젠슨 황 사임에 美 증시 하락…엔비디아 4.3% ↓",
+   "url": "https://www.etnews.com/20261113000034",
+   "source": "전자신문"
+  },
+  {
+   "id": "2dfb1972b7684571",
+   "title": "Jensen Huang's self-sabotage sends Nvidia into a midlife crisis",
+   "url": "https://www.theregister.com/ai-and-ml/2026/11/12/jensen-huangs-self-sabotage-sends-nvidia-into-a-midlife-crisis/5309480",
+   "source": "The Register"
+  },
+  {
+   "id": "efd24e3df354a4ce",
+   "title": "엔비디아 젠슨 황 CEO 사임... \"콜렛 크레스 CFO가 대행\"",
+   "url": "https://zdnet.co.kr/view/?no=20261112233500",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "b6a1d45f4c1eee65",
+   "title": "구글·삼성, AI 안경 시장 출사표… 12월10일 메타와 정식 격돌",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217346",
+   "source": "AI타임스"
+  },
+  {
+   "id": "5e5276775a6d7113",
+   "title": "MS365·아웃룩·팀스 대규모 먹통…국내 기업 업무도 마비",
+   "url": "https://www.hankyung.com/article/202611134508i",
+   "source": "한국경제 IT"
+  },
+  {
+   "id": "7b5d03e4de1290fa",
+   "title": "구글, '제미나이 4 하이드로젠' 출시…상위 모델 '아르곤' 성능 추월",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217352",
+   "source": "AI타임스"
+  },
+  {
+   "id": "7d667bae31617153",
+   "title": "Microsoft struggling to fix massive cloud outage that's taken down email and Intune",
+   "url": "https://www.theregister.com/saas/2026/11/12/microsoft-struggling-to-fix-massive-cloud-outage-thats-taken-down-email-and-intune/5309531",
+   "source": "The Register"
+  },
+  {
+   "id": "400b7b6d338206d0",
+   "title": "Widespread Microsoft outage takes down Outlook and other 365 services",
+   "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "0e8f7170ce36ed18",
+   "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+   "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+   "source": "Ars Technica"
+  },
+  {
+   "id": "afa0026abf4d970f",
+   "title": "Microsoft’s Outlook email hit by new outage",
+   "url": "https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/",
+   "source": "TechCrunch"
+  }
+ ]
+}

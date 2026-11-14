@@ -1,0 +1,203 @@
+{
+ "generated_at": "2026-11-14T10:44:56Z",
+ "date": "2026-11-14",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아의 젠슨 황 CEO 사임 이후 경영 공백과 리더십 변화, 그리고 중국의 수출 통제 우회 의혹이 반도체 섹터의 핵심 리스크로 부상했습니다.",
+   "stories": [
+    {
+     "headline": "엔비디아, 젠슨 황 사임 후 리더십 불확실성 및 후임 인선 논란",
+     "facts": [
+      "젠슨 황 CEO가 사임하고 콜레트 크레스 CFO가 임시 CEO로 취임함",
+      "엔비디아 이사회가 Arm의 르네 하스 CEO와 접촉했다는 보도가 있으나, 이사회는 공식 접촉을 부인함",
+      "엔비디아 내부에서 젠슨 황의 복귀를 요구하는 목소리가 커지고 있음"
+     ],
+     "interpretation": "창업자 중심의 강력한 리더십이 사라지면서 경영 전략의 연속성에 대한 시장의 의구심이 커지고 있습니다. 특히 과거 황 CEO와 투자 전략으로 갈등을 빚었던 크레스 CFO의 임시 체제가 향후 공격적인 AI 투자 기조를 유지할지 여부가 주가 변동의 핵심 요인이 될 것입니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "엔비디아 이사회의 차기 정식 CEO 선임 발표 및 향후 투자 가이드라인 수정 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "7dc6aa0d337e8bc0",
+      "bfce2aa22f12fba2",
+      "ec3baf4b22c161b5",
+      "0809ab41f7bb3dd9",
+      "01a5833355797d2d"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "중국 기업의 엔비디아 블랙웰 GPU 우회 사용 정황 포착",
+     "facts": [
+      "딥시크, 문샷 등 중국 AI 기업들이 수출 통제 대상인 블랙웰 GPU를 사용한 흔적이 모델 가중치에서 발견됨",
+      "미 재무장관이 싱가포르 기업 메가스피드의 수출 통제 지연을 이유로 상무부를 공개 비판함",
+      "말레이시아 정부가 메가스피드의 칩 재수출 의혹에 대한 조사에 착수함"
+     ],
+     "interpretation": "미국의 대중국 반도체 수출 통제망에 구멍이 뚫렸다는 기술적 증거가 제시됨에 따라, 미 정부의 대중국 제재 강도가 더욱 강화될 가능성이 높습니다. 이는 엔비디아의 중국향 매출 타격은 물론, 글로벌 공급망 전반에 대한 규제 불확실성을 높이는 요인입니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "미 상무부의 대중국 수출 통제 강화 조치 및 메가스피드 조사 결과",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "432c232fbf779848",
+      "6b8e3ca8818e3f70",
+      "2424db45e57a9086",
+      "4530ab1790c2d633"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "마이크로소프트의 글로벌 서비스 장애와 AI 에이전트 시장의 경쟁 심화가 소프트웨어 섹터의 주요 이슈입니다.",
+   "stories": [
+    {
+     "headline": "마이크로소프트 365 글로벌 서비스 장애 및 정부 대응",
+     "facts": [
+      "마이크로소프트 365 서비스가 전 세계적으로 24시간 동안 중단됨",
+      "마이크로소프트는 근본 원인을 해결하고 복구를 완료했다고 발표함",
+      "한국 과기정통부가 비상대응반을 구성하여 국내 피해 상황을 점검함"
+     ],
+     "interpretation": "클라우드 서비스의 의존도가 높은 상황에서 발생한 이번 장애는 기업 고객의 신뢰도에 타격을 줄 수 있습니다. 특히 경쟁사들이 이를 기회로 삼아 교육 및 기업 시장에서 대체재를 홍보하고 있어, 마이크로소프트의 시장 점유율 방어 전략이 중요해졌습니다.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "이번 장애로 인한 기업 고객의 이탈 규모 및 서비스 안정성 보완 대책",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d902e63d443dd224",
+      "f17c596c1b9c6c10",
+      "2212387649e342f2",
+      "5764e36e25c340a5"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "아마존, AI 기반 상품 정보 통합 프로젝트 추진",
+     "facts": [
+      "아마존이 자사 판매 제품 외 전 세계 상품 정보를 통합하는 '월드 프로덕트 그래프' 프로젝트를 검토 중",
+      "소비자의 구매 과정을 AI 에이전트가 대신하도록 유도하여 쇼핑 주도권을 강화하려는 목적"
+     ],
+     "interpretation": "이커머스 플랫폼이 단순 판매처를 넘어 AI 기반의 정보 검색 및 구매 대행 플랫폼으로 진화하고 있습니다. 이는 기존 검색 엔진 및 이커머스 경쟁사들과의 격차를 벌리기 위한 전략으로, 향후 AI 쇼핑 시장의 표준을 선점하려는 의도로 해석됩니다.",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "프로젝트의 구체적인 실행 계획 및 경쟁사들의 대응 서비스 출시 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b7036ddad7bd9918"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "432c232fbf779848",
+   "title": "미 재무장관, 메가스피드 제재 지연에 상무부 공개 비판…러트닉 경질론까지",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217411",
+   "source": "AI타임스"
+  },
+  {
+   "id": "7dc6aa0d337e8bc0",
+   "title": "엔비디아 직원들 \"젠슨 황 복귀시켜라\"…사내 게시물에 댓글 1600개",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217410",
+   "source": "AI타임스"
+  },
+  {
+   "id": "bfce2aa22f12fba2",
+   "title": "엔비디아, 차기 CEO로 Arm 하스 접촉설…이사회 \"공식 접촉 아직 없어\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217407",
+   "source": "AI타임스"
+  },
+  {
+   "id": "ec3baf4b22c161b5",
+   "title": "젠슨 황 투자에 제동 걸었던 CFO가 후임으로…엔비디아 전략 바뀌나",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217406",
+   "source": "AI타임스"
+  },
+  {
+   "id": "6b8e3ca8818e3f70",
+   "title": "말레이시아, 메가스피드 AI 칩 재수출 의혹 조사 착수",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217405",
+   "source": "AI타임스"
+  },
+  {
+   "id": "01a5833355797d2d",
+   "title": "젠슨 황이 '겁먹은 사슴'이라 비하한 임원, 엔비디아 새 수장으로… 콜레트 크레스는 누구?",
+   "url": "https://www.etnews.com/20261114000017",
+   "source": "전자신문"
+  },
+  {
+   "id": "4530ab1790c2d633",
+   "title": "로이터 “엔비디아 의존 中 AI 프로젝트 규모 4조6000억원 이상”",
+   "url": "https://www.etnews.com/20261114000015",
+   "source": "전자신문"
+  },
+  {
+   "id": "0809ab41f7bb3dd9",
+   "title": "[안광섭 AI 진테제] 젠슨 황 사태로 엔비디아가 잃은 것",
+   "url": "https://zdnet.co.kr/view/?no=20261114102419",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "2424db45e57a9086",
+   "title": "딥시크·문샷 등 중국 4개사, 수출 통제 '블랙웰' 사용 흔적 발견",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217397",
+   "source": "AI타임스"
+  },
+  {
+   "id": "b7036ddad7bd9918",
+   "title": "아마존, 전 세계 상품 정보 통합 추진…AI 쇼핑 주도권 지킨다",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217412",
+   "source": "AI타임스"
+  },
+  {
+   "id": "d902e63d443dd224",
+   "title": "팀즈·아웃룩 24시간 먹통…마이크로소프트 \"전 세계 복구 완료\"",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZMTJCdGJ4c0VVMTZLYm5pbzAzRk1SQ3VtZTlGNzZwLVlPTVRMNjhpWFVQa3NMUG93aDNPVW1rWkhRLXdtcnRtUUhVc25LeHRZLXgwTktLOFo5S05iaUNBa1d3?oc=5",
+   "source": "매일신문"
+  },
+  {
+   "id": "f17c596c1b9c6c10",
+   "title": "MS 365 대규모 장애 근본 원인 해결…일부 고객·지역 복구 지속",
+   "url": "https://zdnet.co.kr/view/?no=20261114164446",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "2212387649e342f2",
+   "title": "과기정통부, MS365 장애 대응 비상대응반 구성",
+   "url": "https://zdnet.co.kr/view/?no=20261114181913",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "5764e36e25c340a5",
+   "title": "정부, MS365 장애 비상대응반 구성…MS “근본 문제 해결”",
+   "url": "https://www.etnews.com/20261114000035",
+   "source": "전자신문"
+  }
+ ]
+}

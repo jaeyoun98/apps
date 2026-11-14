@@ -1,0 +1,173 @@
+{
+ "generated_at": "2026-11-03T11:10:39Z",
+ "date": "2026-11-03",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 수요 급증에 따른 반도체 장비 리드타임 확대와 데이터센터 전력·냉각 솔루션 확보 경쟁이 심화되고 있으며, 엔비디아의 대중국 수출 통제 강화 및 글로벌 파운드리 공급망 재편이 주요 이슈로 부상함.",
+   "stories": [
+    {
+     "headline": "AI 인프라 투자 경쟁으로 반도체 장비 리드타임 급증",
+     "facts": [
+      "글로벌 반도체 장비사들이 3년 뒤 계약까지 선제적으로 추진 중",
+      "AI 반도체 패권 경쟁으로 인해 평시 대비 1~2년 빠른 설비 투자 행보",
+      "한정된 생산 능력과 구매 급증으로 장비 공급 기간이 급속도로 늘어남"
+     ],
+     "interpretation": "반도체 제조사들의 공격적인 설비 투자가 장기화됨에 따라 장비 공급망의 병목 현상이 심화되고 있으며, 이는 장비사의 수주 잔고 증가와 실적 가시성 확대로 이어질 전망임.",
+     "affected_company_ids": [],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "주요 반도체 장비 기업들의 분기별 수주 잔고 추이 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8405e5d67a0446d5"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아, 클라우드 고객사에 중국 기업 서비스 비중 49% 이하 제한 요구",
+     "facts": [
+      "엔비디아가 전 세계 데이터센터 및 클라우드 고객사에 중국 기업 대상 서비스 비중을 49% 이하로 줄이도록 요구",
+      "미국의 반도체 수출 통제를 우회하려는 중국 기업들의 연산 자원 확보가 더욱 어려워질 전망"
+     ],
+     "interpretation": "미국의 대중국 반도체 수출 통제 기조가 클라우드 서비스 영역까지 확장됨에 따라, 엔비디아의 글로벌 고객사들은 중국 매출 비중 관리라는 새로운 지정학적 리스크에 직면함.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "엔비디아의 대중국 매출 비중 변화 및 클라우드 고객사들의 대응 전략 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "7cbed3d3639effb7"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "마벨 테크놀로지, 루멘텀 154조 원에 인수하며 광통신 역량 강화",
+     "facts": [
+      "마벨 테크놀로지가 광통신 부품 업체 루멘텀을 1150억 달러(약 154조 원)에 인수",
+      "AI 데이터센터의 데이터 전송 수요 급증에 대응하기 위한 광학 연결 기술 확보 목적"
+     ],
+     "interpretation": "AI 데이터센터 내 GPU 간 통신 병목 현상을 해결하기 위한 광학 기술의 중요성이 커짐에 따라, 브로드컴 등 기존 강자와의 경쟁을 위한 대규모 M&A가 가속화되고 있음.",
+     "affected_company_ids": [
+      "broadcom"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "인수 이후 마벨의 데이터센터 부문 매출 성장세 및 브로드컴과의 시장 점유율 경쟁 구도.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4015d3a8fc804087",
+      "47ca0f14853a58b9"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 서비스의 운영 비용 부담이 가시화되면서 사용량 제한 등 수익성 개선 움직임이 나타나고 있으며, 공공 및 국방 분야의 AI 도입과 관련한 인프라 협력이 활발함.",
+   "stories": [
+    {
+     "headline": "AI 에이전트 운영 비용 부담 증가로 인한 서비스 사용량 제한 확산",
+     "facts": [
+      "일론 머스크 CEO가 '그록 봇'의 운영 비용이 매출 대비 지나치게 높다고 언급하며 사용량 제한 정당화",
+      "AI 인프라 투자 규모 대비 수익 창출에 대한 회의론이 확산 중"
+     ],
+     "interpretation": "AI 모델의 추론 비용이 수익성을 압박하는 핵심 요인으로 부상함에 따라, 기업들이 무분별한 서비스 확장보다는 비용 효율화와 수익 모델 검증 단계로 진입하고 있음.",
+     "affected_company_ids": [],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "주요 빅테크 기업들의 AI 인프라 투자 대비 매출 전환율 지표.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3532aa387d8bd650",
+      "e8edfc635db8b98c"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "오픈AI, 전 미국 육군 장관 영입하며 국방 AI 시장 공략 가속화",
+     "facts": [
+      "오픈AI가 댄 드리스콜 전 미국 육군 장관을 '국가안보 현대화 담당 수석 고문'으로 영입",
+      "미국 동맹국과 협력하여 군 및 안보 기관의 행정 업무와 정보 분석에 AI 적용 추진"
+     ],
+     "interpretation": "빅테크 기업들이 민간 시장을 넘어 국가 안보 및 국방 분야로 AI 서비스 영역을 확장하며 정부와의 파트너십을 강화하고 있음.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "오픈AI의 국방 분야 실제 프로젝트 수주 및 매출 기여도.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "47939f27d6636f8c",
+      "1ee4ba282db5758f"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "8405e5d67a0446d5",
+   "title": "반도체 장비, 3년뒤 계약까지 줄섰다",
+   "url": "https://www.etnews.com/20261103000452",
+   "source": "전자신문"
+  },
+  {
+   "id": "1ee4ba282db5758f",
+   "title": "OpenAI recruits former US Army secretary Dan Driscoll to strengthen its national security, cybersecurity ambitions",
+   "url": "https://www.digitimes.com/news/a20261103PD235/openai-security-cybersecurity-personnel-bloomberg.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "7cbed3d3639effb7",
+   "title": "엔비디아, 클라우드 고객에 중국 기업 서비스 비중 49% 이하 요구",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216969",
+   "source": "AI타임스"
+  },
+  {
+   "id": "4015d3a8fc804087",
+   "title": "마벨, 루멘텀 154조에 인수…AI 데이터센터 광통신 강화",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216952",
+   "source": "AI타임스"
+  },
+  {
+   "id": "47ca0f14853a58b9",
+   "title": "마벨, 루멘텀 154조에 인수",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64755",
+   "source": "디일렉"
+  },
+  {
+   "id": "e8edfc635db8b98c",
+   "title": "[AI 고속도로] GPU 투자 부담 커지자 네오클라우드 회의론 확산…韓 기업도 시험대",
+   "url": "https://zdnet.co.kr/view/?no=20261103103314",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "47939f27d6636f8c",
+   "title": "오픈AI, 전 美 육군 장관 영입…국방 AI 공략 힘 싣는다",
+   "url": "https://zdnet.co.kr/view/?no=20261103165436",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "3532aa387d8bd650",
+   "title": "머스크 \"그록 봇 운영 비용 감당 어려워\"...AI 에이전트 사용량 제한",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=216942",
+   "source": "AI타임스"
+  }
+ ]
+}

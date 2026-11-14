@@ -1,0 +1,132 @@
+{
+ "generated_at": "2026-11-14T17:43:36Z",
+ "date": "2026-11-15",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "NVIDIA CEO 젠슨 황의 사임 이후 아시아 주요국 정부의 대응과 반도체 공급망 안정성 점검이 핵심 이슈로 부상함.",
+   "stories": [
+    {
+     "headline": "젠슨 황 사임에 따른 아시아 각국 정부의 대응 및 공급망 점검",
+     "facts": [
+      "젠슨 황의 사임 후 한국 과학기술부는 NVIDIA로부터 26만 개의 첨단 GPU 공급 계획을 재확인함.",
+      "대만 정부는 NVIDIA의 현지 해외 본부 설립 프로젝트가 차질 없이 진행 중임을 밝힘.",
+      "일본 정부는 NVIDIA를 자국 AI 반도체 산업의 핵심으로 보고 동향을 면밀히 모니터링 중임."
+     ],
+     "interpretation": "CEO 리스크가 발생했으나, 국가 차원의 핵심 인프라 공급 계약은 유지되고 있어 단기적인 공급망 붕괴 가능성은 낮음. 다만, 향후 NVIDIA의 경영 전략 변화가 아시아 주요 파트너사와의 협력 강도에 미칠 영향은 지속적인 관찰이 필요함.",
+     "affected_company_ids": [
+      "nvidia",
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "NVIDIA의 차기 경영진 선임 및 기존 AI 프로젝트 지속 여부에 대한 공식 발표를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e0826710000e311d"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "베트남-한국 AI·반도체 서밋 개최 및 협력 강화",
+     "facts": [
+      "제1회 베트남-한국 AI-반도체 서밋(VKAISS 2026)이 하노이에서 개최됨.",
+      "양국 50개 이상의 반도체 기업, 연구기관, 대학 관계자 400여 명이 참석함."
+     ],
+     "interpretation": "한국 반도체 기업들의 공급망 다변화 및 베트남 내 AI 인프라 시장 진출을 위한 전략적 교두보가 마련됨. 장기적으로 동남아시아 생산 거점 확보 및 시장 확대에 긍정적임.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "서밋 이후 양국 기업 간의 구체적인 투자 협약이나 기술 제휴 발표 여부를 주시해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "80abb2e0b0e844a4"
+     ],
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "게임 산업의 대형 기대작 출시와 관련한 시장 영향력 및 기업 실적 변화가 주요 관심사임.",
+   "stories": [
+    {
+     "headline": "GTA 6 출시 임박에 따른 게임 및 스트리밍 산업 파급 효과",
+     "facts": [
+      "Grand Theft Auto VI(GTA 6)가 11월 19일 출시 예정임.",
+      "게임 산업뿐만 아니라 스트리밍, 음악, 관광 등 연관 산업 전반에 큰 영향이 예상됨."
+     ],
+     "interpretation": "대형 IP의 출시는 관련 플랫폼의 트래픽 급증과 생태계 활성화를 유도함. 게임 흥행 여부가 관련 미디어 및 스트리밍 기업의 단기 실적에 중요한 변수가 될 것임.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "출시 직후의 초기 판매량과 스트리밍 플랫폼 내 시청자 지표를 통해 시장 반응을 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "aa69b4af3ec25a50"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "국내 생명보험업계 3분기 실적 양극화",
+     "facts": [
+      "생보사 9곳의 3분기 누적 순이익은 4조 2209억 원으로 전년 동기 대비 소폭 증가함.",
+      "대다수 생보사의 순이익이 감소했으나 삼성생명이 전체 실적을 견인함."
+     ],
+     "interpretation": "금융권 내에서도 대형사 중심의 실적 쏠림 현상이 심화되고 있음. 삼성생명의 실적 방어는 그룹 내 금융 부문의 안정성을 보여주나, 업계 전반의 성장 둔화는 투자 심리에 부정적일 수 있음.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "earnings",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "금융당국의 규제 변화와 금리 환경이 생보사들의 향후 수익성에 미칠 영향을 점검해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "790e38c2399ffb17"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "e0826710000e311d",
+   "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+   "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "80abb2e0b0e844a4",
+   "title": "VKAISS 2026, 베트남과 한국의 AI 및 반도체 협력 강화",
+   "url": "https://zdnet.co.kr/view/?no=20261114191001",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "790e38c2399ffb17",
+   "title": "생보업계, 3분기 실적 '먹구름'…삼성이 전체 실적 견인",
+   "url": "https://www.etnews.com/20261113000088",
+   "source": "전자신문"
+  },
+  {
+   "id": "aa69b4af3ec25a50",
+   "title": "How Rockstar's 'GTA VI' release could reshape gaming, streaming and even paid time off",
+   "url": "https://www.cnbc.com/2026/11/14/gta-6-grand-theft-auto-launch.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

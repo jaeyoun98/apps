@@ -1,0 +1,181 @@
+{
+ "generated_at": "2026-11-05T11:18:42Z",
+ "date": "2026-11-05",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 수요가 지속되는 가운데, 반도체 공급망의 지역적·기술적 다변화와 함께 데이터센터 전력 효율화 기술이 핵심 화두로 부상하고 있습니다.",
+   "stories": [
+    {
+     "headline": "AMD, AI 데이터센터 수요 기반 사상 최대 매출 및 인텔 추월 가능성",
+     "facts": [
+      "AMD 2026년 3분기 매출 133억 8천만 달러로 전년 동기 대비 45% 증가",
+      "4분기 매출 전망치 약 170억 달러 제시",
+      "데이터센터 수요 확대가 실적 성장을 견인"
+     ],
+     "interpretation": "AI 가속기 시장에서 AMD의 점유율 확대가 가속화되고 있으며, 전통적인 CPU 강자인 인텔과의 격차를 좁히거나 추월할 수 있는 변곡점에 도달했습니다.",
+     "affected_company_ids": [
+      "amd"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "인텔의 차기 실적 발표 및 AI 서버 시장 점유율 변화 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f1b06fc89c87c960"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아 GPU 공급 부족 심화, 중국 고객사 주문 물량의 1%만 수령",
+     "facts": [
+      "알리바바, 텐센트 등 중국 기업들이 700억 달러 규모 GPU 주문",
+      "4개월간 전체 물량의 약 1%만 공급받을 것으로 예상",
+      "엔비디아의 차세대 고성능 제품 생산 집중으로 공급난 발생"
+     ],
+     "interpretation": "글로벌 AI 칩 공급 부족이 지속되는 가운데, 엔비디아의 생산능력이 수요를 따라가지 못하고 있습니다. 이는 중국 기업들의 AI 인프라 구축 지연 및 기술 격차 확대로 이어질 수 있습니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "supply_chain",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "엔비디아의 차세대 GPU 생산 수율 및 공급망 다변화 속도",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "df5d654f2308cb5b"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "인피니언-솔루엠, AI 데이터센터용 HVDC 전력 솔루션 협력 강화",
+     "facts": [
+      "인피니언과 솔루엠이 AI 데이터센터용 고전압직류(HVDC) 전력 솔루션 개발 MOU 체결",
+      "서버용 전원공급장치(PSU), 배터리백업유닛(BBU), 중간버스컨버터(IBC) 분야 협력",
+      "AI 연산 수요 증가에 따른 GPU 전력 소비 급증 대응 목적"
+     ],
+     "interpretation": "데이터센터의 랙당 전력 밀도가 높아짐에 따라 전력 효율화 기술이 필수적입니다. 전력 반도체 강자와 전원 장치 제조사의 협력은 데이터센터 인프라 효율성 개선의 핵심이 될 것입니다.",
+     "affected_company_ids": [
+      "broadcom"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "데이터센터 전력 효율화 관련 신규 표준 도입 및 관련 부품 채택률",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b22a5c4da9cb9f6d",
+      "444f7315063bbdbc"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 기술의 전사적 도입과 함께 소프트웨어 개발 생태계 내 AI 통합이 가속화되고 있으며, 관련 비용 관리와 보안이 주요 이슈로 떠오르고 있습니다.",
+   "stories": [
+    {
+     "headline": "메타, AI 코딩 에이전트 오케스트레이션 스타트업 '컨덕터' 인수",
+     "facts": [
+      "메타가 여러 AI 코딩 에이전트를 독립적으로 실행·관리하는 스타트업 컨덕터 인수",
+      "개발자가 다수의 AI 에이전트를 활용해 소프트웨어를 만드는 생태계 구축 전략",
+      "AI 모델 개발을 넘어 개발 환경 전반으로 영향력 확대"
+     ],
+     "interpretation": "단일 모델 경쟁에서 벗어나, 여러 AI 에이전트를 조율하는 오케스트레이션 기술이 차세대 개발 플랫폼의 핵심 경쟁력으로 부상하고 있습니다.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "메타의 오픈소스 AI 개발 도구 생태계 확장 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5b776d5b3b145733",
+      "bab9ae9b4ed1cfb0"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "오픈AI, 코드 저장소 스타트업 '피에르' 인수 및 기업 시장 반등",
+     "facts": [
+      "오픈AI가 코드 저장 및 관리 스타트업 피에르 컴퓨터 컴퍼니 인수",
+      "AI 코딩 에이전트 '코덱스'에 코드 저장 및 이력 관리 기능 통합",
+      "3분기 최신 모델 인기로 기업 시장 매출 반등 성공"
+     ],
+     "interpretation": "오픈AI는 단순 모델 제공을 넘어 개발자가 AI와 함께 소프트웨어를 개발하는 전 과정을 통합 관리하는 환경을 제공함으로써 기업용 시장에서의 지배력을 강화하고 있습니다.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "오픈AI의 기업공개(IPO) 관련 구체적 로드맵",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c4550d488e2eb1e7",
+      "96c4f2bff95ba063"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "5b776d5b3b145733",
+   "title": "메타, AI 코딩 스타트업 컨덕터 인수…멀티에이전트 코딩 툴 경쟁 가세",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64972",
+   "source": "디일렉"
+  },
+  {
+   "id": "b22a5c4da9cb9f6d",
+   "title": "인피니언, 솔루엠과 AI 데이터센터 HVDC 전원 공동 개발",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64949",
+   "source": "디일렉"
+  },
+  {
+   "id": "df5d654f2308cb5b",
+   "title": "엔비디아 중국 고객사, 94조 규모 'RTX' 칩 주문에도 1%만 공급받아",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217065",
+   "source": "AI타임스"
+  },
+  {
+   "id": "f1b06fc89c87c960",
+   "title": "AMD, 4분기 매출 23조 전망...창사 이후 처음 인텔 추월하나",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217047",
+   "source": "AI타임스"
+  },
+  {
+   "id": "444f7315063bbdbc",
+   "title": "인피니언, 1MW 데이터센터 시대 겨냥한 전력 기술 공개",
+   "url": "https://byline.network/2026/11/1105-11/",
+   "source": "바이라인네트워크"
+  },
+  {
+   "id": "c4550d488e2eb1e7",
+   "title": "브록먼 “상반기 코딩 시장서 고전…'GPT-5.6 솔'로 반등 성공”",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217070",
+   "source": "AI타임스"
+  },
+  {
+   "id": "bab9ae9b4ed1cfb0",
+   "title": "메타, AI 코딩 스타트업 컨덕터 인수...병렬 에이전트 조율 기술 확보",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217045",
+   "source": "AI타임스"
+  },
+  {
+   "id": "96c4f2bff95ba063",
+   "title": "오픈AI, 코드 저장 스타트업 피에르 인수...코덱스로 깃허브에 도전",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217046",
+   "source": "AI타임스"
+  }
+ ]
+}
