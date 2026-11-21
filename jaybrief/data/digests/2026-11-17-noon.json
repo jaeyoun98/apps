@@ -1,0 +1,235 @@
+{
+ "generated_at": "2026-11-17T04:39:11Z",
+ "date": "2026-11-17",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아 경영진 교체 이슈와 미국의 대중국 AI 칩 수출 통제 강화가 시장의 핵심 변수로 작용하고 있습니다. 삼성전자는 메타향 맞춤형 HBM 개발 및 2nm 공정 도입 등 파운드리 경쟁력 강화에 집중하고 있습니다.",
+   "stories": [
+    {
+     "headline": "미국, 중국의 해외 GPU 원격 접속 차단 및 수출 규제 강화",
+     "facts": [
+      "미국 상무부 산업안보국(BIS)이 중국 기업의 해외 데이터센터 내 첨단 AI 반도체 원격 이용을 제한하는 규정 발표",
+      "싱가포르, 말레이시아 등 5개국에 대한 첨단 반도체 수출 심사 강화"
+     ],
+     "interpretation": "물리적 수출 통제의 우회로를 차단하여 중국의 AI 인프라 구축 속도를 늦추려는 의도입니다. 이는 엔비디아 등 주요 칩 제조사의 매출 구조와 클라우드 서비스 제공업체의 해외 데이터센터 운영 전략에 직접적인 영향을 미칠 것입니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "미국 정부의 추가적인 수출 통제 대상 국가 확대 여부와 이에 따른 엔비디아의 실적 가이던스 변화를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f8b46b131398b691",
+      "c62da2db7a71d3d9",
+      "cb850afc8a5e04f5",
+      "7b5cab03dc8a6297"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자, 메타향 맞춤형 HBM 개발 및 파운드리 2nm 공정 도입",
+     "facts": [
+      "삼성전자가 메타의 자체 AI 칩을 위한 맞춤형 HBM 개발 중",
+      "해당 칩의 베이스 다이에 삼성 파운드리 2nm 공정 적용 계획"
+     ],
+     "interpretation": "삼성전자가 HBM과 파운드리를 결합한 턴키 솔루션을 통해 메타와 같은 빅테크 고객사 확보에 박차를 가하고 있습니다. 이는 TSMC와의 파운드리 경쟁 및 HBM 시장 점유율 확대에 긍정적인 신호입니다.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "meta",
+      "nvidia",
+      "tsmc"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "메타와의 최종 공급 계약 체결 여부와 2nm 공정의 수율 안정화 속도가 중요합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8af1e8a6eed97653"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아 젠슨 황 CEO 퇴진 및 복귀 논란 지속",
+     "facts": [
+      "젠슨 황 CEO 사임 후 복귀 추진설 제기",
+      "트럼프 대통령은 복귀 지지 의사를 밝혔으나, 엔비디아 이사회는 복귀 논의를 부인"
+     ],
+     "interpretation": "경영진 공백에 따른 시장의 불확실성이 지속되고 있습니다. 선물 시장은 복귀설에 반응하고 있으나, 이사회의 공식적인 입장과 차기 리더십 체제 확립 여부가 주가 변동성을 결정할 것입니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "엔비디아의 차기 CEO 선임 또는 이사회의 공식적인 경영진 관련 성명을 주시해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "fe207d25451a5a0f",
+      "27ab79227a70d5f0",
+      "14746028806d1fff",
+      "99fbb79b2445cde3",
+      "66b84cadae868363",
+      "0806b7c9211eed15"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 도입이 기업 업무 효율을 높이고 있으나, 보안 취약점과 데이터 오염 등 새로운 리스크가 부각되고 있습니다. 빅테크 기업들은 AI 인프라 통합과 서비스 고도화에 주력하고 있습니다.",
+   "stories": [
+    {
+     "headline": "AI 에이전트 보안 위협 증가 및 복구 솔루션 주목",
+     "facts": [
+      "AI 에이전트 메모리 오염 및 사이버 공격 사례 증가",
+      "코헤시티 등 보안 기업이 백업 데이터를 활용한 즉시 복구 기술 강조"
+     ],
+     "interpretation": "AI 에이전트의 자율성이 높아질수록 보안 취약점 노출 위험도 커지고 있습니다. 기업들이 AI 도입과 함께 데이터 보호 및 복구 인프라 투자를 병행해야 하는 상황입니다.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "AI 에이전트 관련 대규모 보안 사고 발생 여부와 이에 따른 기업들의 보안 예산 증액 추이를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "82f804bc8627b18a",
+      "cc5140ecc3fb62d8",
+      "a75d925004c56db2"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "델 테크놀로지스, 엔비디아 기반 AI 팩토리 포트폴리오 강화",
+     "facts": [
+      "델이 데이터 관리, 스토리지, 서버, 네트워크를 아우르는 통합 AI 솔루션 기능 확대",
+      "기업의 AI 모델 개발부터 운영까지 지원하는 엔비디아 기반 델 AI 팩토리 강화"
+     ],
+     "interpretation": "기업들이 AI 도입 초기 단계에서 실제 수익 창출 단계로 넘어가기 위해 통합 인프라 솔루션을 찾고 있습니다. 델과 엔비디아의 협력은 기업용 AI 시장 점유율 확대에 기여할 것입니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "델의 AI 인프라 솔루션 채택 기업 수와 실제 매출 기여도를 모니터링해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0b613402989958bc",
+      "5f96707e2cc0e51c"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "fe207d25451a5a0f",
+   "title": "트럼프, 엔비디아 주식 최대 830억 보유 추정…중국 수출 허용에 이해충돌 논란",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217483",
+   "source": "AI타임스"
+  },
+  {
+   "id": "27ab79227a70d5f0",
+   "title": "알트먼 \"젠슨 황 없이도 AI 산업 괜찮을 것\"...복귀 지지는 유보",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217473",
+   "source": "AI타임스"
+  },
+  {
+   "id": "0b613402989958bc",
+   "title": "델, 엔비디아 기반 AI 팩토리 강화…데이터·인프라 관리 기능 확대",
+   "url": "https://www.etnews.com/20261117000228",
+   "source": "전자신문"
+  },
+  {
+   "id": "8af1e8a6eed97653",
+   "title": "Samsung develops custom HBM for Meta, adopts 2nm process",
+   "url": "https://www.digitimes.com/news/a20261117PD225/samsung-hbm-meta-2nm-nvidia.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "0806b7c9211eed15",
+   "title": "TSMC leads company mentions in petition seeking Jensen Huang's return",
+   "url": "https://www.digitimes.com/news/a20261117VL210/tsmc-jensen-huang-nvidia-technology-taiwan.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "82f804bc8627b18a",
+   "title": "코헤시티 \"오염된 AI 에이전트 메모리, 백업으로 즉시 되돌린다\"",
+   "url": "https://zdnet.co.kr/view/?no=20261117114844",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "5f96707e2cc0e51c",
+   "title": "델, 기업용 AI 인프라 전방위 강화…데이터부터 GPU 서버까지 통합",
+   "url": "https://zdnet.co.kr/view/?no=20261117111309",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "66b84cadae868363",
+   "title": "Nvidia board reportedly rules out Huang return as campaign for his reinstatement grows",
+   "url": "https://www.digitimes.com/news/a20261117VL204/nvidia-ceo-jensen-huang-2026.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "cb850afc8a5e04f5",
+   "title": "US moves to shut remote-access route to AI chips for Chinese firms after Nvidia scandal",
+   "url": "https://www.digitimes.com/news/a20261117VL201/chips-nvidia-data-asia.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "14746028806d1fff",
+   "title": "[11월16일] 젠슨 황 복귀설에 시장 반색…그러나 스파이 의혹만이 문제가 아니다",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217442",
+   "source": "AI타임스"
+  },
+  {
+   "id": "f8b46b131398b691",
+   "title": "미 상무부, 중국의 'AI 칩 클라우드 우회 접속' 전면 차단",
+   "url": "https://www.etnews.com/20261117000010",
+   "source": "전자신문"
+  },
+  {
+   "id": "99fbb79b2445cde3",
+   "title": "트럼프, 젠슨 황 CEO 복귀 지지…엔비디아 이사회는 논의 안 해",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217468",
+   "source": "AI타임스"
+  },
+  {
+   "id": "c62da2db7a71d3d9",
+   "title": "미국, 중국의 해외 GPU 우회 이용 차단…새 수출 규제 발표",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217467",
+   "source": "AI타임스"
+  },
+  {
+   "id": "cc5140ecc3fb62d8",
+   "title": "캘리포니아주, 오픈AI 상대 소송...\"AI 에이전트 통제 실패 80건 넘어\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217476",
+   "source": "AI타임스"
+  },
+  {
+   "id": "7b5cab03dc8a6297",
+   "title": "US extends chip sale restrictions to more Asian countries to reduce risk of ‘diversion’ to China",
+   "url": "https://www.theregister.com/off-prem/2026/11/17/us-extends-chip-sale-restrictions-to-more-asian-countries-to-reduce-risk-of-diversion-to-china/5310307",
+   "source": "The Register"
+  },
+  {
+   "id": "a75d925004c56db2",
+   "title": "California sues OpenAI for misleading public about AI safety",
+   "url": "https://www.theregister.com/ai-and-ml/2026/11/16/california-sues-openai-for-misleading-public-about-ai-safety/5310297",
+   "source": "The Register"
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "generated_at": "2026-11-15T18:33:00Z",
+ "date": "2026-11-16",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "NVIDIA의 경영 리더십 공백과 지정학적 리스크가 핵심 이슈로 부상하며 기업 지배구조 및 공급망 전략에 대한 불확실성이 증대됨.",
+   "stories": [
+    {
+     "headline": "NVIDIA CEO Jensen Huang 사임 및 리더십 교체 논란",
+     "facts": [
+      "NVIDIA의 창업자이자 CEO인 Jensen Huang이 사임함",
+      "사임 배경으로 부적절한 사생활 문제 및 스캔들이 보도됨",
+      "일부 정치권 인사는 외부 인사를 포함한 경영진의 전면적인 쇄신을 요구함"
+     ],
+     "interpretation": "CEO의 갑작스러운 사임은 기업의 전략적 연속성에 큰 타격을 줄 수 있으며, 특히 AI 반도체 시장에서의 독보적인 리더십을 고려할 때 단기적인 주가 변동성 확대와 경영 불확실성이 불가피함.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "차기 CEO 선임 과정 및 이사회 구성 변화를 통한 경영 안정화 여부 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ccdaa9405356ba57",
+      "f21429ebdce504de",
+      "fede65a984479836"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "중국 자율주행 업계의 NVIDIA 의존도 축소 및 대안 모색",
+     "facts": [
+      "중국 자율주행 기업들이 NVIDIA 칩 공급 제한 가능성에 대비해 'Plan B'를 준비 중임",
+      "Pony.ai 등 중국 기업들이 자국산 반도체 활용 및 컴퓨팅 효율화 전략을 강화하고 있음"
+     ],
+     "interpretation": "지정학적 리스크와 경영진 리스크가 결합되어 중국 내 NVIDIA의 시장 점유율 방어에 부정적 영향을 미칠 수 있으며, 중국의 국산화 가속화는 장기적으로 NVIDIA의 매출 구조에 위협 요인이 됨.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "supply_chain",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "미국 정부의 대중국 반도체 수출 통제 강화 여부 및 중국 내 자국산 AI 칩의 성능 격차 축소 속도.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "fede65a984479836"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "기술 산업 전반의 혁신과 디지털 소유권 재정의를 위한 시도들이 이어지고 있으나, 시장에 즉각적인 영향을 미칠 대형 이벤트는 부재함.",
+   "stories": [
+    {
+     "headline": "디지털 콘텐츠 소유권 및 대여 모델 재정의 시도",
+     "facts": [
+      "Flaming Hydra가 전자책 소유권 및 디지털 대여 모델을 재정의하는 Kickstarter 캠페인을 시작함"
+     ],
+     "interpretation": "디지털 자산의 소유권 개념을 재정립하려는 시도는 플랫폼 중심의 콘텐츠 소비 모델에 변화를 줄 수 있으나, 현재로서는 초기 단계의 프로젝트로 시장 전반에 미치는 영향은 제한적임.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "unclear",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "해당 모델의 실제 사용자 채택률 및 기존 대형 플랫폼과의 호환성 확보 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "a70bb25bf71b6948"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "ccdaa9405356ba57",
+   "title": "Scott Bessent says Nvidia should look outside the company for a new CEO: ‘They needed a dramatic shake-up'",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY2hMczZBaFgtNjdjOUUwYWMtSG53ZjBaMFNUcVAtUE9xYnlXX2tVRENaTS1CNUhpSWtQbEJ6aEJOUlRDTkVRMHc0aFhNTVppVS1kZWJuV0R1TV9OTW9qOG5ueVlha1VkX3o4NDZpUEt3Z01FQ21BUFNUV0plY244el9vSXF1MkdJZlA5dkpFUHM3NkJOMGFnbGVMY3U?oc=5",
+   "source": "Business Insider"
+  },
+  {
+   "id": "f21429ebdce504de",
+   "title": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
+   "url": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "fede65a984479836",
+   "title": "TechCrunch Mobility: The Nvidia backup plan for China’s self-driving industry",
+   "url": "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "a70bb25bf71b6948",
+   "title": "Flaming Hydra’s new Kickstarter campaign rethinks e-book ownership and digital lending",
+   "url": "https://techcrunch.com/2026/11/15/flaming-hydras-new-kickstarter-campaign-rethinks-e-book-ownership-and-digital-lending/",
+   "source": "TechCrunch"
+  }
+ ]
+}

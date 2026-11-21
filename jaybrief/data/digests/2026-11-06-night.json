@@ -1,0 +1,234 @@
+{
+ "generated_at": "2026-11-06T11:16:48Z",
+ "date": "2026-11-06",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "미국 중간선거 이후 데이터센터 건설 규제 강화 우려와 반도체 섹터 전반의 투자 심리 위축이 나타나고 있으며, 중국의 엔비디아 칩 수입 제한 및 우회 경로 차단 움직임이 지속되고 있습니다.",
+   "stories": [
+    {
+     "headline": "미국 중간선거 이후 AI 데이터센터 건설 규제 강화 우려 확산",
+     "facts": [
+      "미국 중간선거에서 민주당의 약진으로 데이터센터 건설 반대 여론이 정치적 변수로 부상",
+      "텍사스 등 주요 주에서 데이터센터 신규 승인 동결 및 규제 강화 움직임 포착",
+      "메타 등 빅테크 기업들이 미국 내 인프라 확충 어려움에 따라 해외 투자 검토 중"
+     ],
+     "interpretation": "데이터센터 건설 지연은 AI 인프라 구축 속도를 늦추어 엔비디아 등 AI 반도체 수요에 단기적인 불확실성을 가중시킬 수 있음. 다만 국가 간 AI 경쟁은 지속될 것으로 보여 장기적인 수요 훼손 여부는 지켜봐야 함.",
+     "affected_company_ids": [
+      "nvidia",
+      "meta"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "미국 주요 주 정부의 데이터센터 관련 구체적인 규제 법안 통과 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b91d1ca063351675",
+      "ba6c2d854099fa86",
+      "1aaa5ca0e155efe5",
+      "cd6b22a4bab8ca0f",
+      "5d68a8b0db6906ea"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "중국의 엔비디아 H200 수입 제한 및 우회 경로 차단",
+     "facts": [
+      "중국 당국의 수입 승인 보류로 홍콩에 엔비디아 H200 칩 약 60만 개가 묶여 있음",
+      "문샷AI 등 중국 기업들이 유럽 데이터센터 임대를 통해 블랙웰 등 첨단 칩 우회 확보 시도",
+      "미국 하원 의원들이 젠슨 황 CEO에게 중국 관련 정보 유출 의혹 브리핑 요청"
+     ],
+     "interpretation": "미국의 대중국 수출 규제와 중국의 자급화 시도 사이의 갈등이 심화됨. 엔비디아의 대중국 매출 타격 가능성과 함께 지정학적 리스크가 경영진에 대한 의회 조사로까지 번지며 불확실성이 커짐.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 의회의 엔비디아 관련 조사 결과 및 추가적인 대중국 수출 통제 조치",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e70f07761e6eff16",
+      "2c424785880197fd",
+      "0cf8d5a83a6083a1",
+      "b68165d2db6b9cd1"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "제이앤티씨, 엔비디아 유리기판 공급사 등록",
+     "facts": [
+      "제이앤티씨가 엔비디아의 TGV 유리기판 공급사로 등록됨",
+      "2mm 두께 글래스코어를 포함한 유상 샘플 공급 중",
+      "브로드컴에 이은 두 번째 미국 대형 고객사 확보"
+     ],
+     "interpretation": "AI 반도체 패키징 기술의 핵심인 유리기판 시장에서 국내 기업의 기술력이 입증됨. 엔비디아 공급망 진입은 향후 대규모 양산 시 매출 성장의 주요 동력이 될 수 있음.",
+     "affected_company_ids": [
+      "nvidia",
+      "broadcom"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "엔비디아향 유리기판의 본격적인 양산 공급 계약 체결 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "866f5fc3abea3c1f",
+      "41367dc5f996cb18"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 모델의 효율성 경쟁이 심화되는 가운데, 기업용 AI 에이전트 도입과 보안 이슈가 주요 화두로 떠오르고 있습니다.",
+   "stories": [
+    {
+     "headline": "팔란티어, 창신과 파트너십 체결로 제조업 AI 시장 확대",
+     "facts": [
+      "팔란티어가 글로벌 신발 제조기업 창신INC와 파트너십 체결",
+      "개발·생산 운영 전반에 파운드리 및 AIP 플랫폼 적용",
+      "제조업 전반으로 기업용 AI 사업 확대 전략"
+     ],
+     "interpretation": "범용 AI 모델을 넘어 특정 산업의 데이터 흐름을 최적화하는 버티컬 AI 솔루션의 수요가 확인됨. 제조업 현장의 디지털 전환을 통한 팔란티어의 수익성 개선이 기대됨.",
+     "affected_company_ids": [
+      "palantir"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "제조업 분야에서의 추가적인 대형 고객사 확보 및 매출 기여도",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c2367822531df82a",
+      "43c6e5bba135c982",
+      "cb21b0a54aff7de1"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "구글 출신 연구진의 고효율 AI 모델 공개",
+     "facts": [
+      "리커시브 인텔리전스가 65B 매개변수 모델 공개",
+      "기존 대형 모델 대비 코딩 성능 우위 및 개발 비용 1/10 수준",
+      "오픈웨이트 모델로 성능과 비용 효율성 동시 달성"
+     ],
+     "interpretation": "AI 모델의 규모 경쟁에서 효율성 경쟁으로 패러다임이 전환되고 있음. 적은 비용으로 고성능을 구현하는 모델의 등장은 대형 모델 중심의 시장 구조에 변화를 줄 수 있음.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "해당 모델의 실제 산업 현장 채택률 및 오픈소스 생태계 영향력",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "bb8b3a9f49d0760a"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "bb8b3a9f49d0760a",
+   "title": "구글 출신 연구진, 65B 모델로 8배 큰 AI 코딩 성능 추월…개발비도 10분의 1",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217107",
+   "source": "AI타임스"
+  },
+  {
+   "id": "c2367822531df82a",
+   "title": "팔란티어, 신발 제조사 창신과 맞손…AI로 신발 제조 공정 혁신",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217101",
+   "source": "AI타임스"
+  },
+  {
+   "id": "b91d1ca063351675",
+   "title": "Commentary: US governors target AI data centers as Taiwan firms await Nvidia outlook",
+   "url": "https://www.digitimes.com/news/a20261106PD241/usa-data-center-ai-outlook-2026.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "41367dc5f996cb18",
+   "title": "Nvidia reportedly buys glass substrate samples from Korea's JNTC",
+   "url": "https://www.digitimes.com/news/a20261106VL216/jntc-nvidia-glass-substrate-supplier-manufacturing.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "ba6c2d854099fa86",
+   "title": "US election backlash reshapes AI data center expansion strategies",
+   "url": "https://www.digitimes.com/news/a20261106VL213/data-center-infrastructure-nvidia-openai-data.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "43c6e5bba135c982",
+   "title": "팔란티어-창신, 파트너십 체결…데이터·AI로 신발 개발 제조 혁신",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65035",
+   "source": "디일렉"
+  },
+  {
+   "id": "e70f07761e6eff16",
+   "title": "중국, 엔비디아 H200 수입 제한…60만개 홍콩에 발 묶여",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217106",
+   "source": "AI타임스"
+  },
+  {
+   "id": "2c424785880197fd",
+   "title": "문샷AI, 엔비디아 블랙웰 확보 위해 유럽으로 눈 돌려...8000개 GPU 임대 추진",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217103",
+   "source": "AI타임스"
+  },
+  {
+   "id": "0cf8d5a83a6083a1",
+   "title": "미 하원, 젠슨 황 의회 비공개 브리핑 요청...중국 여성 사업가와의 관계 조사",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217099",
+   "source": "AI타임스"
+  },
+  {
+   "id": "1aaa5ca0e155efe5",
+   "title": "Meta faces political pushback over US data center expansion",
+   "url": "https://www.digitimes.com/news/a20261106PD226/meta-expansion-data-infrastructure-investment.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "b68165d2db6b9cd1",
+   "title": "Stockpiled in Hong Kong: Beijing limits Nvidia H200 imports as domestic silicon push accelerates",
+   "url": "https://www.digitimes.com/news/a20261106VL209/beijing-nvidia-silicon-market-shipments.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "cb21b0a54aff7de1",
+   "title": "팔란티어, 창신과 손잡고 신발 제조에 AI 도입…한국 기업 시장 확대",
+   "url": "https://zdnet.co.kr/view/?no=20261106113951",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "866f5fc3abea3c1f",
+   "title": "제이앤티씨, 엔비디아 유리기판 공급사 등록",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64955",
+   "source": "디일렉"
+  },
+  {
+   "id": "cd6b22a4bab8ca0f",
+   "title": "Voters rebuff data centers in every ballot measure except one during the 2026 midterms",
+   "url": "https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "5d68a8b0db6906ea",
+   "title": "메타 \"중간선거 이후 미국 데이터센터 건설 어려워져\"...해외 투자 검토",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217093",
+   "source": "AI타임스"
+  }
+ ]
+}

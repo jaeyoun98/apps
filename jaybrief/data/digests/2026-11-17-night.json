@@ -1,0 +1,229 @@
+{
+ "generated_at": "2026-11-17T12:14:48Z",
+ "date": "2026-11-17",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아 경영진 교체에 따른 시장 불확실성과 중국 관련 리스크가 지속되는 가운데, 국내 반도체 공급망은 AI 메모리 수요 대응을 위한 설비 투자와 기술 고도화에 집중하고 있음.",
+   "stories": [
+    {
+     "headline": "엔비디아, 젠슨 황 사임 후 첫 실적 발표 앞두고 경영 리스크 및 이해충돌 논란 직면",
+     "facts": [
+      "엔비디아는 젠슨 황 전 CEO 사임 이후 첫 분기 실적 발표를 앞두고 있음",
+      "젠슨 황의 딸 매디슨 황의 과도한 영향력 행사와 가족의 권한 조정 문제가 내부 과제로 부상",
+      "젠슨 황과 관계된 인물의 남편이 중국 정부 지원을 받아 13조원 규모의 데이터센터 사업을 추진한 사실이 보도됨"
+     ],
+     "interpretation": "경영진 교체기 내부 잡음과 중국 관련 지정학적 리스크가 겹치며 투자 심리가 위축됨. 실적 발표에서 콜렛 크레스 임시 CEO의 향후 전략 제시가 주가 변동의 핵심이 될 것임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "earnings",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "실적 발표 컨퍼런스 콜에서 제시될 중국 시장 대응 전략과 경영 안정화 방안 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "1291195a3a468376",
+      "15671c1bf6b0e60b",
+      "1ad909cace0ec3c3",
+      "8e3b81e9c94e277f",
+      "387c0b42eb8aab32"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "SK하이닉스, AI 메모리 수요 대응 위해 용인 반도체 클러스터 투자 가속화",
+     "facts": [
+      "SK하이닉스는 AI 메모리 수요 급증에 따라 용인 반도체 클러스터 내 Y1 팹 건설을 앞당기고 있음",
+      "SK하이닉스의 올해 1~9월 미국 매출 비중은 60%를 상회하며 엔비디아향 매출이 전년 대비 2배 증가함"
+     ],
+     "interpretation": "AI 메모리(HBM 등) 시장의 압도적 수요가 SK하이닉스의 설비 투자 속도를 견인하고 있음. 엔비디아 의존도가 높은 만큼 엔비디아의 향후 행보가 SK하이닉스 실적에도 직접적인 영향을 미칠 전망.",
+     "affected_company_ids": [
+      "sk-hynix",
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "용인 팹 가동 시점과 HBM 차세대 제품의 수율 확보 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "86fee5afc766cb97",
+      "14c6b498603150bc",
+      "761c991c8fa7aded"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "삼성전자, 파운드리 디자인솔루션파트너(DSP) 매출 성장 및 차세대 D램 기술 개발",
+     "facts": [
+      "삼성전자 파운드리 DSP 5곳 중 4곳의 3분기 매출이 전년 동기 대비 증가함",
+      "삼성전자는 HBM5에 메모리 셀과 주변회로를 분리하는 D0A 구조 적용을 확정함"
+     ],
+     "interpretation": "파운드리 생태계의 외형 성장은 긍정적이나 수익성은 업체별로 차별화됨. HBM 기술 고도화는 메모리 시장 지배력 유지를 위한 필수적인 전략임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "earnings",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "파운드리 DSP의 수익성 개선 여부와 HBM5 양산 시점.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "a0dd60bc19e725ed",
+      "4d3bf3dde2bf7245"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "기업용 AI 시장에서 마이크로소프트의 코파일럿이 우위를 점하는 가운데, 보안 취약점 분석 및 AI 에이전트 도입을 둘러싼 기술 경쟁과 규제 대응이 활발함.",
+   "stories": [
+    {
+     "headline": "기업용 AI 시장, 마이크로소프트 코파일럿이 앤트로픽 클로드 대비 압도적 우위 유지",
+     "facts": [
+      "마이크로소프트 오피스 환경에서 클로드 사용자는 코파일럿 사용자의 10분의 1 수준에 불과함",
+      "기존 고객 기반과 업무 환경 통합이 마이크로소프트의 강력한 방어 기제로 작용함"
+     ],
+     "interpretation": "AI 모델의 성능 경쟁을 넘어, 기존 소프트웨어 생태계와의 결합도가 기업용 AI 시장의 점유율을 결정짓는 핵심 요소로 작용하고 있음.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "앤트로픽의 기업용 문서 제작 기능 강화가 시장 점유율에 미칠 변화.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5e2ef9828f76ad85",
+      "1073e1cc7bac3b34"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "AI 기반 해킹 도구 확산에 따른 보안 위협 고조 및 대응 체계 개편 움직임",
+     "facts": [
+      "구글 위협인텔리전스그룹은 AI를 활용해 취약점을 분석하고 공격 코드를 자동 생성하는 해킹 도구를 발견함",
+      "중국 연계 해킹 조직이 AI 기반 침투 도구를 활용해 한국 외교·정책 기관을 공격하고 있다는 분석이 나옴"
+     ],
+     "interpretation": "AI가 공격의 자동화와 고도화를 가속화하며 사이버 보안의 패러다임 변화를 강제하고 있음. 국가 차원의 컨트롤타워 재편과 기업의 보안 투자 확대가 불가피함.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "정부의 사이버보안 컨트롤타워 구성 및 기업들의 보안 솔루션 도입 추이.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2e9e31b6b0e47b54",
+      "42e0b25b22c5ee8a",
+      "84e436b2951da3a3"
+     ],
+     "importance": 3
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "a0dd60bc19e725ed",
+   "title": "삼성 DSP 5곳 중 4곳 매출 증가…수익성은 엇갈려",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65532",
+   "source": "디일렉"
+  },
+  {
+   "id": "8e3b81e9c94e277f",
+   "title": "WSJ \"앨리스 황 남편, 중국 정부 지원받아 13조 데이터센터 사업 추진\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217500",
+   "source": "AI타임스"
+  },
+  {
+   "id": "1291195a3a468376",
+   "title": "Nvidia shares slightly up after days of decline ahead of earnings",
+   "url": "https://www.cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "15671c1bf6b0e60b",
+   "title": "Nvidia's Kress faces earnings test after stock drags Wall Street into the red",
+   "url": "https://www.cnbc.com/2026/11/17/nvidias-kress-faces-earnings-test-after-stock-drags-wall-street-into-the-red.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "1ad909cace0ec3c3",
+   "title": "젠슨 황 없는 엔비디아, 첫 실적 발표서 답해야 할 질문",
+   "url": "https://zdnet.co.kr/view/?no=20261117170059",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "4d3bf3dde2bf7245",
+   "title": "삼성 차세대 D램 '3트랙' 개발 확정…HBM5는 D0A 웨이퍼 본딩",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65559",
+   "source": "디일렉"
+  },
+  {
+   "id": "387c0b42eb8aab32",
+   "title": "젠슨 황 딸, 직급 넘는 영향력 행사…아버지 퇴진 후 권한 조정 과제",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217503",
+   "source": "AI타임스"
+  },
+  {
+   "id": "2e9e31b6b0e47b54",
+   "title": "구글, 보안 패치 분석·공격코드 생성 자동화한 AI 해킹 도구 발견",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217493",
+   "source": "AI타임스"
+  },
+  {
+   "id": "86fee5afc766cb97",
+   "title": "SK Hynix links partner park, Trinity Fab to accelerate supplier commercialization",
+   "url": "https://www.digitimes.com/news/a20261117PD232/sk-hynix-trinity-supplier-equipment-technology.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "14c6b498603150bc",
+   "title": "SK Hynix accelerates Yongin Y1 cleanroom opening as AI memory demand surges",
+   "url": "https://www.digitimes.com/news/a20261117PD231/sk-hynix-cleanroom-memory-equipment-demand.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "761c991c8fa7aded",
+   "title": "SK Hynix's US revenue tops 60%, exposing Nvidia's growing weight in AI memory sales",
+   "url": "https://www.digitimes.com/news/a20261117VL211/sk-hynix-memory-nvidia-revenue-sales-2026.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "1073e1cc7bac3b34",
+   "title": "Claude’s Office usage trails Copilot by a wide margin, Microsoft data reportedly shows",
+   "url": "https://www.digitimes.com/news/a20261117VL206/microsoft-copilot-claude-anthropic-data.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "5e2ef9828f76ad85",
+   "title": "MS 오피스서 '코파일럿' 압도적 우위…'클로드' 사용자는 10분의 1",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217491",
+   "source": "AI타임스"
+  },
+  {
+   "id": "84e436b2951da3a3",
+   "title": "사이버보안 컨트롤타워 '차르' 밑그림 그린다",
+   "url": "https://www.etnews.com/20261117000308",
+   "source": "전자신문"
+  },
+  {
+   "id": "42e0b25b22c5ee8a",
+   "title": "크라우드스트라이크 “중국 해커, 아르텍스로 한국 싱크탱크·외교 분야 노려”",
+   "url": "https://byline.network/2026/11/17-629/",
+   "source": "바이라인네트워크"
+  }
+ ]
+}

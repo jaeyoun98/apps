@@ -1,0 +1,192 @@
+{
+ "generated_at": "2026-11-09T01:47:45Z",
+ "date": "2026-11-09",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아 CEO 젠슨 황의 스캔들 및 조사 착수 소식이 기업 거버넌스 리스크로 부상하며 시장의 주목을 받고 있습니다. 한편, 자율주행 및 AI 기술 협력은 지속되고 있습니다.",
+   "stories": [
+    {
+     "headline": "젠슨 황 엔비디아 CEO 불륜 인정 및 중국 스파이 연루 의혹 조사 착수",
+     "facts": [
+      "젠슨 황 엔비디아 CEO가 불륜 사실을 인정하고 사과함",
+      "엔비디아 이사회가 황 CEO와 중국 정보기관 연루 의혹에 대해 독립 조사 착수",
+      "엔비디아 측은 황 CEO가 CEO직을 유지할 것이라고 밝힘"
+     ],
+     "interpretation": "CEO의 개인적 스캔들이 중국 정보기관 연루 의혹과 결합되어 지정학적 리스크로 확대됨. 이사회의 독립 조사가 진행 중이나, 향후 조사 결과에 따라 경영진 교체 가능성 및 미국 의회의 규제 압박이 강화될 수 있어 불확실성이 매우 높음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "엔비디아 이사회의 독립 조사 결과 발표 및 미국 의회의 추가 청문회 요구 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4d85a1805d7bcbbc",
+      "353858f91a9aaa29",
+      "d39bd90f94586779",
+      "b47b74c2278c16d9",
+      "c3ba7da7355d3256",
+      "f0fcee79403d03fb",
+      "b4e9e3c868ae930a",
+      "e17ff0da2d85d541",
+      "85a67d022f4dae41"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "카카오모빌리티-엔비디아, 레벨4 자율주행 기술 협력 MOU 체결",
+     "facts": [
+      "카카오모빌리티와 엔비디아가 자율주행 기술 협력을 위한 업무협약(MOU) 체결",
+      "양사의 자율주행 SW 및 AI 컴퓨팅 기술을 기아의 PBV에 통합할 계획"
+     ],
+     "interpretation": "엔비디아의 자율주행 플랫폼이 국내 모빌리티 서비스 및 차량 제조사와 결합하여 상용화 기반을 마련함. 엔비디아의 AI 컴퓨팅 생태계가 모빌리티 분야로 확장되는 긍정적 신호임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "기아 PBV에 탑재된 자율주행 기술의 실제 상용화 시점 및 서비스 규모.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "be137b277a67df0f",
+      "35bd6e5d9d19f2c7"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 기술의 업무 현장 적용이 가속화되는 가운데, 보안 및 데이터센터 전력 확보를 위한 기업들의 전략적 움직임이 두드러집니다.",
+   "stories": [
+    {
+     "headline": "앤트로픽, AI 데이터센터 전력 확보 위해 가스 발전설비 직접 매입",
+     "facts": [
+      "앤트로픽이 34억 달러(약 4조 6000억 원) 규모의 가스 발전설비를 확보함",
+      "AI 데이터센터 확산에 따른 전력 수급 불확실성을 해소하기 위한 전략적 결정"
+     ],
+     "interpretation": "AI 기업들이 전력 공급업체 의존도를 낮추고 인프라를 직접 확보하는 추세가 본격화됨. 이는 AI 데이터센터 운영 비용 구조의 변화와 전력 인프라 시장의 새로운 수요를 창출함.",
+     "affected_company_ids": [],
+     "event_type": "supply_chain",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "다른 주요 AI 기업들의 유사한 전력 인프라 직접 확보 사례 증가 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8567ac1e97a98568"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "마이크로소프트, AI 해킹 방어 기술 도입",
+     "facts": [
+      "숭실대 연구팀이 AI 해킹 도구를 기만하는 방어 기술 개발",
+      "마이크로소프트가 자사 보안 제품에 해당 기만 방어 기술을 적용함"
+     ],
+     "interpretation": "사이버 보안 위협이 고도화됨에 따라 AI 기반의 선제적 방어 기술이 중요해짐. 마이크로소프트의 기술 도입은 보안 제품 경쟁력 강화 및 AI 보안 시장에서의 선점 효과를 기대하게 함.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "해당 기술 도입 이후 마이크로소프트 보안 제품의 시장 점유율 변화.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2b886ae91f4f9f68"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "4d85a1805d7bcbbc",
+   "title": "\"변명 여지 없다\" 젠슨 황 불륜 시인…이사회 조사 착수",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65083",
+   "source": "디일렉"
+  },
+  {
+   "id": "be137b277a67df0f",
+   "title": "카카오모빌리티, 자율주행 '레벨4' 위해 엔비디아와 '맞손'",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UYzZiWjVYT0M2dmpOeFNON3ZMeXlMVkV2YzR2aW1Zd3N3d0pjM2xvWVZkQTBaWFpUbU1ZLTltUFk0SEo1ZnhBeVJJRzU5Slg0ZlVVaWVKaWdvQWZ6Vlc3aEFQVGVRb2thYVE?oc=5",
+   "source": "비즈워치"
+  },
+  {
+   "id": "35bd6e5d9d19f2c7",
+   "title": "카카오모빌리티, 엔비디아와 맞손…기아 PBV에 레벨4 자율주행 기술 탑재",
+   "url": "https://www.etnews.com/20261109000099",
+   "source": "전자신문"
+  },
+  {
+   "id": "353858f91a9aaa29",
+   "title": "젠슨 황, 불륜 인정…엔비디아 이사회 자체 조사 착수",
+   "url": "https://zdnet.co.kr/view/?no=20261109083723",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "d39bd90f94586779",
+   "title": "젠슨 황 \"아내에게 충실하지 못했다\" 사과…엔비디아 \"CEO직 유지\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217150",
+   "source": "AI타임스"
+  },
+  {
+   "id": "b47b74c2278c16d9",
+   "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+   "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "c3ba7da7355d3256",
+   "title": "젠슨 황 CEO 불륜 사실 시인…엔비디아 이사회 조사 착수",
+   "url": "https://www.etnews.com/20261109000008",
+   "source": "전자신문"
+  },
+  {
+   "id": "f0fcee79403d03fb",
+   "title": "Read Huang's email to his staff and statement from Nvidia's board of directors",
+   "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-email-board-of-directors-statement.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "b4e9e3c868ae930a",
+   "title": "젠슨 황, 中 스파이 연루 의혹 속 불륜 인정…엔비디아 이사회 조사 착수",
+   "url": "https://www.etnews.com/20261109000007",
+   "source": "전자신문"
+  },
+  {
+   "id": "e17ff0da2d85d541",
+   "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+   "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "85a67d022f4dae41",
+   "title": "Nvidia CEO Jensen Huang faces bipartisan congressional scrutiny over reported China spy link",
+   "url": "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "2b886ae91f4f9f68",
+   "title": "해커 공격이 패치보다 빠른 시대.....숭실대, 새 돌파구 기술 개발",
+   "url": "https://zdnet.co.kr/view/?no=20261109094505",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "8567ac1e97a98568",
+   "title": "앤트로픽, 데이터센터 전력 직접 공급...가스 발전기 4.6조원에 확보",
+   "url": "https://www.etnews.com/20261109000006",
+   "source": "전자신문"
+  }
+ ]
+}

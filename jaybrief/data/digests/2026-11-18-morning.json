@@ -1,0 +1,143 @@
+{
+ "generated_at": "2026-11-17T20:31:27Z",
+ "date": "2026-11-18",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 산업 내 기술적 최적화 연구와 지정학적 리스크가 지속되고 있습니다.",
+   "stories": [
+    {
+     "headline": "Nvidia, 트럼프 행정부 내 갈등 심화로 불확실성 증대",
+     "facts": [
+      "Nvidia를 둘러싼 미국 행정부 내부의 정책적 견해 차이가 노출됨"
+     ],
+     "interpretation": "미국 정부의 대중국 반도체 수출 통제 및 기술 정책 기조가 행정부 내 갈등으로 인해 일관성을 잃을 경우, Nvidia의 글로벌 공급망 및 매출 전략에 상당한 불확실성으로 작용할 수 있음",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "미국 행정부의 반도체 수출 통제 관련 공식 정책 발표 및 기조 변화 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b35b84b096388319"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "반도체 칩렛(Chiplet) 수율 최적화를 위한 결함 탐지 연구 발표",
+     "facts": [
+      "애리조나 주립대와 Ampere Computing 연구진이 'DT-MATCH' 기술 발표",
+      "이종 집적(Heterogeneous Integration) 환경에서 결함 및 토폴로지 기반의 칩렛 매칭을 통한 수율 향상 방안 제시"
+     ],
+     "interpretation": "칩렛 기반의 고성능 반도체 설계가 확산됨에 따라, 이종 칩 간의 결함 관리 및 수율 최적화가 제조 원가 경쟁력의 핵심 요소로 부상하고 있음",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "해당 기술의 실제 파운드리 공정 및 패키징 현장 도입 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9818420a107b78ff"
+     ],
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크 기업들의 자체 AI 모델 고도화와 에이전트 서비스 확장이 가속화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "Microsoft, 비용 효율성 극대화한 'MAI 코드 2' 모델 출시",
+     "facts": [
+      "MS가 코딩 특화 모델 'MAI 코드 2' 및 경량형 '플래시' 모델 공개",
+      "앤트로픽 등 경쟁사 대비 성능은 유사하면서 비용은 5% 수준으로 낮춤",
+      "기업 고객을 위한 'MAI 라이선스드 웨이츠' 전략 발표"
+     ],
+     "interpretation": "MS가 외부 모델 의존도를 줄이고 자체 모델 경쟁력을 강화하여 AI 서비스 수익성을 개선하려는 전략임. 특히 코딩 등 고수요 분야에서 가격 경쟁력을 확보해 기업용 AI 시장 점유율을 확대할 것으로 전망됨",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "깃허브 코파일럿 내 실제 채택률 및 기업 고객의 외부 모델 이탈 규모",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5274554afc312e32"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "Google, Gemini 에이전트 기능 확장 및 데이터 보관 기간 연장",
+     "facts": [
+      "Google이 Gemini에 전화·구매 등 비서 기능을 수행하는 'Tasks' 모드 확대",
+      "Gemini 채팅 데이터 보관 기간을 기존 72시간에서 2개월로 연장",
+      "데이터 보관 연장은 안전 및 시스템 오류 대응을 위한 조치라고 설명"
+     ],
+     "interpretation": "Gemini를 단순 정보 검색 도구에서 실질적인 업무 수행 에이전트로 진화시키고 있음. 데이터 보관 기간 연장은 사용자 편의성보다는 AI 학습 및 시스템 안정성 확보를 위한 조치로 보이며, 개인정보 보호 이슈가 제기될 가능성이 있음",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "사용자들의 개인정보 보호 우려에 따른 서비스 이용률 변화 및 규제 당국의 반응",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "17f950bc97bcd86f",
+      "aecbeee87c2fac4b",
+      "d5c09ec1f5a12515"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "b35b84b096388319",
+   "title": "Nvidia turmoil exposes growing rift inside Trump’s White House",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRGExcTN0elpySG9lRUtYX2tkOXhfVkI4TmhMbVlja2VlUWRfeHduNVFEY01QRUFadWh4X3pZLVBrajlTSUZ2b3dzSnc0NjhHajJPaGJjSWwtTW1HV3l0YkV2dGhRamR6X0dJMjJaTkZqd1luMDg0aWIzYktJU3B3UUM3SXBlcUxna0xidVE3RmVoTUlYcURJeDN4eWd5U2FrOXcwQXp1NjgxWVI4bEk0?oc=5",
+   "source": "The Washington Post"
+  },
+  {
+   "id": "9818420a107b78ff",
+   "title": "Defect-Aware Chiplet Matching For Heterogeneous Integration Yield (ASU, Ampere)",
+   "url": "https://semiengineering.com/defect-aware-chiplet-matching-for-heterogeneous-integration-yield-asu-ampere/",
+   "source": "Semiconductor Engineering"
+  },
+  {
+   "id": "5274554afc312e32",
+   "title": "MS, 'MAI 코드 2' 출시…앤트로픽급 코딩 성능에 비용은 5%",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217511",
+   "source": "AI타임스"
+  },
+  {
+   "id": "17f950bc97bcd86f",
+   "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+   "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "aecbeee87c2fac4b",
+   "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+   "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "d5c09ec1f5a12515",
+   "title": "Opting out of Gemini tracking? Google will still hold your data 20x longer",
+   "url": "https://www.theregister.com/ai-and-ml/2026/11/17/opting-out-of-gemini-tracking-google-will-still-hold-your-data-20x-longer/5310517",
+   "source": "The Register"
+  }
+ ]
+}

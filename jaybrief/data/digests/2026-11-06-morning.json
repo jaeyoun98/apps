@@ -1,0 +1,152 @@
+{
+ "generated_at": "2026-11-05T19:36:39Z",
+ "date": "2026-11-06",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 확장에 대한 지역 사회의 반발과 규제 리스크가 부각되는 가운데, 반도체 기업들은 전력 효율화 및 공급망 다변화 전략을 강화하고 있음.",
+   "stories": [
+    {
+     "headline": "AI 데이터센터 전력 및 환경 규제 리스크 확산",
+     "facts": [
+      "미국 내 AI 데이터센터 건설에 대한 지역 사회의 반발이 거세지며 인프라 확장에 제동이 걸리고 있음.",
+      "텍사스 주지사가 신규 데이터센터 승인 유예를 공약함.",
+      "Meta는 데이터센터에 대한 정치적 반발이 향후 AI 투자에 위협이 될 수 있다고 경고함."
+     ],
+     "interpretation": "데이터센터 부지 확보 및 전력 수급 난항은 AI 인프라 구축 속도를 늦추는 병목 현상으로 작용할 수 있음. 이는 장기적으로 GPU 수요 증가세에 영향을 줄 수 있는 변수임.",
+     "affected_company_ids": [
+      "nvidia",
+      "meta",
+      "microsoft"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "주요 주 정부의 데이터센터 인허가 관련 정책 변화 및 전력망 확충 속도 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f099d061fcf69343",
+      "2a241f84f2201338",
+      "b88821500ca75ee6",
+      "9122691ccd9bca1e"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "중국 AI 기업의 우회적 Nvidia 칩 확보 시도",
+     "facts": [
+      "중국 AI 스타트업 Moonshot AI가 미국 수출 통제를 우회하기 위해 유럽 내 클라우드 업체를 통한 Nvidia Blackwell 칩 리스 계약을 추진 중임."
+     ],
+     "interpretation": "미국의 대중국 반도체 수출 규제가 지속되는 가운데, 중국 기업들이 제3국 클라우드 인프라를 활용해 고성능 AI 칩에 접근하려는 우회 전략을 구사하고 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "미국 정부의 대중국 수출 통제 강화 및 유럽 클라우드 사업자에 대한 규제 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "7c466828151df867"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 및 서비스 고도화가 진행되는 한편, 기업들의 AI 인프라 비용 최적화와 보안 이슈가 주요 과제로 부상함.",
+   "stories": [
+    {
+     "headline": "Box, Nvidia Nemotron 도입으로 AI 에이전트 효율성 강화",
+     "facts": [
+      "Box가 AI 기반 콘텐츠 검색 시스템에 Nvidia Nemotron 모델을 도입함.",
+      "도입 결과 검색 속도 4배 향상, 오류 20% 감소, 토큰 사용량 90% 절감 효과를 보고함."
+     ],
+     "interpretation": "기업용 소프트웨어 업체들이 AI 모델의 추론 비용을 낮추고 성능을 최적화하기 위해 전용 모델을 도입하는 사례가 증가하고 있음. 이는 AI 서비스의 수익성 개선에 기여할 것임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "기업용 AI 서비스의 비용 절감 효과가 실제 매출 총이익률(GPM) 개선으로 이어지는지 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "48a904a6ef116eab"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "Microsoft Copilot Chat 사용량 제한 정책 시행",
+     "facts": [
+      "Microsoft가 유료 부가 서비스 미가입자를 대상으로 Copilot Chat의 사용량 제한(usage caps)을 적용함."
+     ],
+     "interpretation": "AI 서비스의 운영 비용 증가에 따라 Microsoft가 수익화 모델을 강화하고 있음. 무료 사용자에게 유료 전환을 유도하는 전략으로 판단됨.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "사용량 제한 정책이 사용자 이탈로 이어질지, 혹은 유료 전환율을 높일지 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "a8ff9f50637dbdae"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "f099d061fcf69343",
+   "title": "Nscale's US$35 billion IPO faces fresh uncertainty after Microsoft rejects Texas AI capacity expansion",
+   "url": "https://www.digitimes.com/news/a20261105PD234/ipo-infrastructure-capacity-microsoft-uk.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "2a241f84f2201338",
+   "title": "Taiwan's server makers commit billions to Texas as new governor vows data center moratorium",
+   "url": "https://www.digitimes.com/news/a20261105VL230/texas-data-center-ai-server-investment-manufacturing-taiwan.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "48a904a6ef116eab",
+   "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
+   "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "7c466828151df867",
+   "title": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
+   "url": "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "b88821500ca75ee6",
+   "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+   "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "a8ff9f50637dbdae",
+   "title": "Copilot Chat has usage caps, and Microsoft would rather you found them by hitting them",
+   "url": "https://www.theregister.com/ai-and-ml/2026/11/05/copilot-chat-has-usage-caps-and-microsoft-would-rather-you-found-them-by-hitting-them/5307814",
+   "source": "The Register"
+  },
+  {
+   "id": "9122691ccd9bca1e",
+   "title": "Voters rejected AI data centers over resource concerns. Here's why measuring water usage is hard",
+   "url": "https://www.cnbc.com/2026/11/05/meta-spacex-ai-data-centers-use-millions-of-gallons-of-water-a-day.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

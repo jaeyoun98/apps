@@ -1,0 +1,172 @@
+{
+ "generated_at": "2026-11-18T20:04:07Z",
+ "date": "2026-11-19",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "NVIDIA의 리더십 교체 이후 경영 불확실성과 실적 발표에 따른 시장의 변동성이 확대되고 있습니다.",
+   "stories": [
+    {
+     "headline": "NVIDIA 리더십 교체 및 경영진의 조직 안정화 노력",
+     "facts": [
+      "Jensen Huang 사임 이후 Colette Kress 임시 CEO가 첫 전체 회의를 주재함",
+      "임시 CEO는 직원들에게 동요하지 말고 전진할 것을 당부하며 급여 인상을 제시함",
+      "미 의회 하원 위원회가 임시 CEO 및 관련 인사에 대한 브리핑을 요청함"
+     ],
+     "interpretation": "창업자 리스크가 현실화된 상황에서 경영 공백을 최소화하려는 시도이나, 의회 차원의 조사 요청은 향후 규제 리스크 및 경영 투명성 이슈로 번질 가능성이 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "의회 브리핑 이후 추가적인 규제 움직임이나 경영진의 공식적인 향후 전략 발표 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "29bfec49552ab41e",
+      "91ae29c1307119bf"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "NVIDIA 실적 발표 후 주가 하락 및 시장 파급 효과",
+     "facts": [
+      "NVIDIA의 Q3 FY27 실적은 기록적인 수준을 달성함",
+      "실적 발표 후 주가가 하락하며 CoreWeave, Iren 등 관련 네오클라우드 기업의 주가도 동반 하락함"
+     ],
+     "interpretation": "실적 자체는 견조했으나 Jensen Huang 부재에 따른 향후 성장 지속성에 대한 시장의 의구심이 주가 하락으로 반영됨. AI 인프라 생태계 전반의 투자 심리 위축을 야기함.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "earnings",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "차기 경영진의 비전 제시와 AI 인프라 수요의 지속적인 가이드라인 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "96d8662fd691451d",
+      "504124a20155087f"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "주요 테크 기업들의 AI 보안 이슈와 서비스 고도화 전략이 시장의 주목을 받고 있습니다.",
+   "stories": [
+    {
+     "headline": "Meta의 AI 모델 Muse 내부 보안 이슈 발생",
+     "facts": [
+      "Meta의 내부 채팅에서 Muse 모델의 개인정보 침해 가능성에 대한 직원들의 우려가 제기됨",
+      "Meta 측은 해당 출력이 실제 데이터가 아닌 오류라고 해명함"
+     ],
+     "interpretation": "AI 모델의 할루시네이션 및 데이터 보안 문제는 기업의 신뢰도에 직결됨. 내부 직원들의 우려가 외부로 확산될 경우 AI 개발 및 배포 속도 조절 압박으로 이어질 수 있음.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "추가적인 보안 사고 발생 여부 및 Meta의 AI 안전 가이드라인 강화 조치.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "54df0bf849182587"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "Microsoft 공식 Python 에이전트 프레임워크 보안 사고",
+     "facts": [
+      "Microsoft의 공식 Python 에이전트 프레임워크가 악성코드 유포에 악용됨",
+      "GitHub 조직 관리자 계정이 탈취된 것으로 파악됨"
+     ],
+     "interpretation": "개발자 생태계의 핵심 도구가 공격받은 사례로, Microsoft의 보안 관리 체계에 대한 신뢰도 타격이 불가피함. 에이전트 기반 AI 서비스 확산에 보안 우려가 가중됨.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "Microsoft의 보안 패치 적용 및 개발자 생태계 내 추가 피해 사례 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "347107e5ab4b24ad"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "Google 검색 AI 기능에 시크릿 모드 도입",
+     "facts": [
+      "Google이 AI 검색 기능에 임시 스레드(Temporary threads) 기능을 추가함",
+      "해당 모드 사용 시 검색 기록이 저장되지 않고 향후 추천에도 영향을 주지 않음"
+     ],
+     "interpretation": "사용자의 프라이버시 요구를 반영하여 AI 검색 서비스의 접근성을 높이려는 전략임. 데이터 수집 제한이 장기적으로 AI 모델 학습 데이터 확보에 미칠 영향은 제한적일 것으로 보임.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "사용자들의 시크릿 모드 채택률 및 관련 광고 수익 모델 변화 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9d1c4615be1c8595"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "29bfec49552ab41e",
+   "title": "House panel requests briefings from interim Nvidia CEO, Lutnick",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZlBQOVVyaUdpVHB2REhkNTBDWFB1Tm9NbDNhQmdVNDQ1SjIyMnc4WnBSQ185Z1JjYUw2NTFwVGxDcUVKTk1vYTZBRFE4WnpYbEtmeC1xampKemVvR1BNR3NCNE1sODRvM2VWWEw5Ui00RmF6eTVNX3llTi1DTXJXSVJJYWJad1VRYjdkM3lnZEl2S0V1OUHSAZsBQVVfeXFMTUVVM3liR1pSRkZXdUVoX0xmOGVqdl9mSGd4b0lHMFgwZ3lHMUlzSm1LYWZNTEhWQnBiaWJrQ3RMdUkwSnpEQ29xZmJPbHpPZlJJNTVuMVNUQTBDMmctSnlnT3ptRVpEcFdMQ1JtV2UyRXpoblRzSEFCLXE2ZXU4VVMxa0RCUU0wb1ZXRnRpcFRyUWlwOUhwSWRiamM?oc=5",
+   "source": "The Hill"
+  },
+  {
+   "id": "91ae29c1307119bf",
+   "title": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
+   "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "96d8662fd691451d",
+   "title": "NVIDIA Q3 FY27: A Record Quarter",
+   "url": "https://morethanmoore.substack.com/p/nvidia-q3-fy27-a-record-quarter",
+   "source": "More Than Moore"
+  },
+  {
+   "id": "504124a20155087f",
+   "title": "Nvidia sinks after earnings, dragging down neoclouds CoreWeave, Iren",
+   "url": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "54df0bf849182587",
+   "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
+   "url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+   "source": "Ars Technica"
+  },
+  {
+   "id": "9d1c4615be1c8595",
+   "title": "Google’s AI feature in Search gets its own incognito mode",
+   "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "347107e5ab4b24ad",
+   "title": "Microsoft's official Python agent framework hijacked to distribute malware",
+   "url": "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858",
+   "source": "The Register"
+  }
+ ]
+}

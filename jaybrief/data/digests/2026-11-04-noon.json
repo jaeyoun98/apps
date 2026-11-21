@@ -1,0 +1,192 @@
+{
+ "generated_at": "2026-11-04T02:29:22Z",
+ "date": "2026-11-04",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "데이터센터 중심의 AI 반도체 수요가 AMD 등 주요 기업의 실적 성장을 견인하고 있으며, 이에 대응하기 위한 인프라 투자와 기술 협력이 가속화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "AMD, 데이터센터 AI 칩 수요 폭발로 분기 최대 실적 달성",
+     "facts": [
+      "AMD 3분기 매출 133억 7700만 달러, 영업이익 28억 3200만 달러로 전년 동기 대비 각각 45%, 123% 성장",
+      "데이터센터 사업이 성장을 주도하며 전체 매출의 약 3분의 2를 차지",
+      "4분기 실적 전망치도 시장 기대치를 상회하며 2027년 80% 이상의 매출 성장 예고"
+     ],
+     "interpretation": "AI 데이터센터 인프라 확충이 AMD의 실적을 직접적으로 견인하고 있으며, 게임 등 기존 사업 부진을 데이터센터가 완전히 상쇄하는 구조로 전환됨.",
+     "affected_company_ids": [
+      "amd"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "데이터센터 AI 칩 공급 확대에 따른 매출 성장세 지속 여부 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6dd94917c2f34750",
+      "8af801c48066d541",
+      "fc1a66d6be8e1169",
+      "daaa78eee18b3e7f",
+      "5088ed28afd3fcd6",
+      "29a2a0def4df7c0b"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "볼보, 엔비디아 자율주행 기술 탑재 확대",
+     "facts": [
+      "볼보자동차가 차세대 모델에 엔비디아 AI 및 컴퓨팅 기술 적용 확대",
+      "운전자 주시가 필요 없는 '아이즈 오프(Eyes-off)', '마인드 오프(Mind-off)' 기술 도입 계획",
+      "차량 안전 시스템에 엔비디아 하이페리온 센서 및 컴퓨팅 플랫폼 탑재"
+     ],
+     "interpretation": "엔비디아의 AI 컴퓨팅 플랫폼이 자율주행차의 핵심 인프라로 자리 잡으며, 자동차 제조사와의 협력을 통해 전장 부문 매출처를 다변화하고 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "엔비디아 자율주행 플랫폼의 타 완성차 업체 채택 확대 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "764ba8b959c01c37"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크 기업들의 AI 인프라 투자 규모가 3조 달러를 넘어서는 가운데, AI 에이전트의 보안 및 통제 이슈가 새로운 시장 기회와 정책적 과제로 부상하고 있습니다.",
+   "stories": [
+    {
+     "headline": "빅테크 5개사, AI 인프라에 3조 달러 이상 투자 예고",
+     "facts": [
+      "Alphabet, Meta, Microsoft, Amazon, Oracle이 AI 인프라 구축에 3조 달러 이상 투자 계획 공개",
+      "투자 항목은 데이터센터 리스, 장비 구매, 에너지 및 건설 등 포함",
+      "AI 인프라 경쟁 가속화에 따른 자금 조달 및 전력 확보가 주요 과제"
+     ],
+     "interpretation": "AI 인프라 경쟁이 단순 칩 구매를 넘어 전력, 데이터센터 등 물리적 자산 확보전으로 확대되고 있으며, 이는 관련 기업들의 장기적인 자본 지출 부담을 가중시킬 수 있음.",
+     "affected_company_ids": [
+      "microsoft",
+      "alphabet",
+      "amazon",
+      "meta",
+      "oracle"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "대규모 인프라 투자가 실제 수익성 개선으로 이어지는지 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "bea9602f51285c8a"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "크라우드스트라이크, AI 에이전트 보안 시장 진출",
+     "facts": [
+      "크라우드스트라이크가 AI 에이전트의 비정상 동작을 차단하는 'AI 킬 스위치' 출시",
+      "AI 에이전트 관측 소프트웨어 업체 Fiddler AI와 보안 테스트 자동화 업체 Dreadnode 인수 발표",
+      "AI 에이전트의 안전한 운용을 새로운 시장 기회로 규정"
+     ],
+     "interpretation": "기업 내 AI 에이전트 도입이 늘어남에 따라 이를 통제하고 보안을 유지하는 솔루션 수요가 급증하고 있으며, 크라우드스트라이크는 이를 통해 보안 시장 내 성장 동력을 확보하려는 전략임.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "AI 보안 솔루션의 실제 기업 고객 채택률 및 매출 기여도",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0704f3d64f54440b",
+      "90d7e6a6413e69e3",
+      "b76e19379d044037",
+      "9f61a98bba763948"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "6dd94917c2f34750",
+   "title": "AMD의 질주…3분기 최대 실적, 4분기는 더 좋다",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=64831",
+   "source": "디일렉"
+  },
+  {
+   "id": "8af801c48066d541",
+   "title": "AMD 호실적에 반도체·기판 담은 초고수...태양광주는 순매도 나서",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9JWU1CNDFabkFzM05BcG5BUGRLaXF4MENxellvV3VhdjMwS1V1QUExZXNDVDR6OWJadW1NaEFQU0RxWnRjejhJdlFGR1VNWnNPVk9yajRJZmw4Zw?oc=5",
+   "source": "한국경제"
+  },
+  {
+   "id": "764ba8b959c01c37",
+   "title": "볼보, 엔비디아 차세대 자율주행 기술 탑재…아이즈 오프·마인드 오프 도입",
+   "url": "https://www.etnews.com/20261104000183",
+   "source": "전자신문"
+  },
+  {
+   "id": "bea9602f51285c8a",
+   "title": "Tech giants commit over US$3 trillion as AI infrastructure faces funding, power test",
+   "url": "https://www.digitimes.com/news/a20261104PD200/infrastructure-alphabet-funding-meta-amazon.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "5088ed28afd3fcd6",
+   "title": "AMD expects more than 80% revenue growth in 2027, led by data centers",
+   "url": "https://www.digitimes.com/news/a20261104VL206/amd-revenue-2027-growth-data-center.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "29a2a0def4df7c0b",
+   "title": "AMD's data center surge shifts growth toward AI systems as cash conversion weakens",
+   "url": "https://www.digitimes.com/news/a20261104VL201.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "fc1a66d6be8e1169",
+   "title": "AMD stock jumps 8% on earnings as data center revenue nearly doubles",
+   "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "daaa78eee18b3e7f",
+   "title": "AMD, 데이터센터 매출 1년 새 2배…4분기 66% 성장 예고",
+   "url": "https://www.hankyung.com/article/202611044193i",
+   "source": "한국경제 IT"
+  },
+  {
+   "id": "0704f3d64f54440b",
+   "title": "CrowdStrike's new kill switch can stop rogue AI agents in their tracks, CEO says",
+   "url": "https://www.cnbc.com/2026/11/03/crowdstrikes-new-kill-switch-can-stop-rogue-ai-agents-in-their-tracks-ceo-says.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "90d7e6a6413e69e3",
+   "title": "CrowdStrike launches AI kill switch that it says can stop internal agents that go rogue",
+   "url": "https://www.cnbc.com/2026/11/03/crowdstrike-ai-kill-switch-rogue-agents.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "9f61a98bba763948",
+   "title": "Jim Cramer likes CrowdStrike's new 'AI kill switch' and the cyber stock",
+   "url": "https://www.cnbc.com/investingclub/2026/11/03/jim-cramer-likes-crowdstrikes-new-ai-kill-switch-and-the-cyber-stock.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "b76e19379d044037",
+   "title": "CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off",
+   "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
+   "source": "TechCrunch"
+  }
+ ]
+}

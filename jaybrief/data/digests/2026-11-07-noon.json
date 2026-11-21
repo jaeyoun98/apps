@@ -1,0 +1,136 @@
+{
+ "generated_at": "2026-11-07T02:04:50Z",
+ "date": "2026-11-07",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아의 공급망 다변화 시도와 AI 인프라 구축을 둘러싼 지정학적·운영적 리스크가 부각되고 있습니다.",
+   "stories": [
+    {
+     "headline": "TSMC, 엔비디아 요청으로 3D D램 생산 검토",
+     "facts": [
+      "TSMC가 엔비디아의 요청에 따라 3D D램 생산 계획을 수립하기 시작함",
+      "사업화 성공 시 삼성전자, SK하이닉스, 마이크론 등 기존 메모리 제조사와 경쟁 구도 형성 가능성"
+     ],
+     "interpretation": "엔비디아가 메모리 공급망을 파운드리 업체까지 확장하여 메모리 제조사의 협상력을 견제하려는 전략적 움직임으로 해석됩니다.",
+     "affected_company_ids": [
+      "nvidia",
+      "tsmc",
+      "sk-hynix",
+      "samsung-electronics",
+      "micron"
+     ],
+     "event_type": "supply_chain",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "TSMC의 실제 3D D램 양산 로드맵 및 엔비디아와의 구체적인 계약 조건 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "56e30c3917afd371"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "미 의회, 젠슨 황 엔비디아 CEO 소환 요구",
+     "facts": [
+      "미국 의회 외교·정보위원회 등이 젠슨 황 CEO에게 중국 간첩 의혹 인물과의 관계 해명을 요구함",
+      "중국의 첨단 반도체 기술 접근에 대한 미 정치권의 경계심 강화"
+     ],
+     "interpretation": "대중국 반도체 수출 통제 강화 기조 속에서 엔비디아에 대한 정치적 압박이 본격화되고 있으며, 이는 향후 대중국 사업 리스크를 높이는 요인입니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "엔비디아의 공식 대응 및 미 의회의 추가 규제 조치 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0235e85b767c6ee6"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 데이터센터 건설에 대한 지역사회 반발과 빅테크 기업의 인프라 전략 수정이 가시화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "MS, 오라클 AI 서버 임대 계약 단계적 종료",
+     "facts": [
+      "마이크로소프트가 오라클과 맺은 AI 컴퓨팅 자원 임대 계약을 갱신하지 않기로 함",
+      "구형 엔비디아 GPU가 자사 요구 사양에 부합하지 않는 것이 주된 원인"
+     ],
+     "interpretation": "자체 데이터센터 역량 강화 및 최신 GPU 기반의 인프라 효율화를 위해 경쟁사 자원 의존도를 낮추는 내재화 전략으로 판단됩니다.",
+     "affected_company_ids": [
+      "microsoft",
+      "oracle",
+      "nvidia"
+     ],
+     "event_type": "supply_chain",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "마이크로소프트의 자체 데이터센터 증설 속도 및 오라클의 클라우드 매출 영향",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2e1fd74809f2b97f"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "유럽 내 데이터센터 건설 반대 운동 확산",
+     "facts": [
+      "유럽 16개국 시민단체가 데이터센터 건설 중단 요구",
+      "네덜란드에서는 MS 데이터센터 건설 현장에 시위대 난입 발생"
+     ],
+     "interpretation": "AI 인프라 확장에 따른 환경 및 지역사회 갈등이 규제 리스크로 전이될 가능성이 높으며, 이는 빅테크의 데이터센터 구축 비용 및 일정에 부정적 영향을 미칠 수 있습니다.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "유럽 각국 정부의 데이터센터 관련 규제 강화 및 인허가 지연 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "82440bdef89252a2"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "56e30c3917afd371",
+   "title": "TSMC, 엔비디아 요청에 3D D램 검토…삼성·SK하이닉스와 경쟁하나",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217123",
+   "source": "AI타임스"
+  },
+  {
+   "id": "2e1fd74809f2b97f",
+   "title": "MS, 오라클 AI 서버 임대 계약 종료…구형 GPU 사양 안 맞아",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217120",
+   "source": "AI타임스"
+  },
+  {
+   "id": "0235e85b767c6ee6",
+   "title": "“술자리 옆 中 여성과 무슨 사이냐”…젠슨 황, 美의회 '소환장' 받았다",
+   "url": "https://www.etnews.com/20261107000003",
+   "source": "전자신문"
+  },
+  {
+   "id": "82440bdef89252a2",
+   "title": "유럽 16개국서 데이터센터 반대 공동 행동…MS 건설 현장 난입",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217126",
+   "source": "AI타임스"
+  }
+ ]
+}

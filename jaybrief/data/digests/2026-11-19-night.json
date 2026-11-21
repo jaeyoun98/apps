@@ -1,0 +1,231 @@
+{
+ "generated_at": "2026-11-19T11:57:55Z",
+ "date": "2026-11-19",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 인프라 확장에 따른 메모리 및 전력 반도체 수요가 지속되는 가운데, 미국 중심의 대중국 수출 통제 강화와 공급망 리스크가 반도체 업계의 주요 변수로 작용하고 있습니다.",
+   "stories": [
+    {
+     "headline": "미 의회 자문위, 중국군의 엔비디아 칩 우회 확보 시도 경고",
+     "facts": [
+      "미중경제안보검토위원회(USCC) 연례 보고서에서 중국군이 AI 군사력 강화를 위해 엔비디아 첨단 칩 확보를 추진 중이라고 밝힘",
+      "미국의 수출 통제 이후 중국이 우회 경로를 통해 첨단 연산 자원을 확보하려는 움직임이 포착됨"
+     ],
+     "interpretation": "미국의 대중국 반도체 수출 통제가 지속됨에 따라 중국의 우회 확보 시도가 늘고 있으며, 이는 향후 미국 정부의 추가적인 제재 강화나 엔비디아의 컴플라이언스 비용 증가로 이어질 수 있음",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미 정부의 대중국 추가 수출 통제 조치 발표 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "cc730b3e2b12a06f",
+      "fa5d2d7929f9085e"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아, 알리바바 대상 GPU 임대 경로 연결 의혹",
+     "facts": [
+      "엔비디아 영업팀이 알리바바를 앨리스 황의 칩 임대 사업에 연결했다는 보도가 나옴",
+      "미국의 수출 통제 이후 동남아시아를 거쳐 AI 칩을 빌려 쓰는 방식이 제안된 것으로 알려짐"
+     ],
+     "interpretation": "엔비디아의 영업망이 수출 통제 우회 경로와 연루되었다는 의혹은 규제 당국의 조사 강도를 높일 수 있으며, 기업 평판 및 사업 운영에 리스크 요인으로 작용함",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "미 규제 당국의 메가스피드 및 엔비디아 관련 조사 결과",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ea6451e2fa4b1c63",
+      "702a9b448cce05fc",
+      "0b79f93b883cc2a0",
+      "d20e88bfb31fc0f7"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "효성중공업, 엔비디아발 AI 데이터센터용 차세대 변압기 개발",
+     "facts": [
+      "효성중공업이 인피니언과 함께 고체변압기(SST)를 개발 중임",
+      "SST는 AI 데이터센터의 800V 전력 공급체계 전환에 핵심적인 기술로 꼽힘"
+     ],
+     "interpretation": "AI 데이터센터 확대로 인한 전력 인프라 수요가 급증하는 가운데, 전력 효율을 높이는 차세대 변압기 기술 확보는 관련 기업의 중장기 성장 동력이 될 것임",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "AI 데이터센터 전력 효율화 관련 기술 표준화 동향",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "de0b5bf4764b29bb"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "오픈AI의 기술적 진보와 기업들의 AI 에이전트 도입이 가속화되는 가운데, 보안 및 데이터 사용에 대한 규제와 윤리적 책임이 강조되고 있습니다.",
+   "stories": [
+    {
+     "headline": "오픈AI, AI 활용 AMD GPU 설계 최적화 성과 발표",
+     "facts": [
+      "오픈AI가 AI 모델을 활용해 AMD GPU의 회로 설계를 최적화함",
+      "PPA(전력·성능·면적) 지표에서 5개월 만에 1년 치에 해당하는 14% 개선을 확인했다고 밝힘"
+     ],
+     "interpretation": "AI가 반도체 설계 효율을 획기적으로 높일 수 있음을 입증함. 이는 향후 칩 설계 과정에서 AI 도입이 필수적인 경쟁력 요소가 될 것임을 시사함",
+     "affected_company_ids": [
+      "amd"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "AI 기반 설계 최적화가 실제 칩 양산 수율에 미치는 영향",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "834fe5f4fde6ab7d"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "앤트로픽, 역대 최대 규모 IPO 상장",
+     "facts": [
+      "앤트로픽이 공모가를 희망 범위 상단보다 높은 83달러로 확정함",
+      "기업가치 1.5조 달러를 인정받으며 나스닥에 상장함"
+     ],
+     "interpretation": "AI 모델 개발사에 대한 시장의 높은 기대감을 반영함. 대규모 자금 조달을 통해 인프라 투자 및 모델 고도화 경쟁이 더욱 치열해질 전망임",
+     "affected_company_ids": [],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "상장 이후 앤트로픽의 수익성 개선 및 시장 점유율 확대 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5801a84044d560cf",
+      "4c4919a993c6fa7e",
+      "b34a96b4835f16ca",
+      "b8abe1d8bc04e795"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "마이크로소프트, 바이트댄스 대상 AI 클라우드 공급 확대 추진",
+     "facts": [
+      "MS가 바이트댄스에 5억 달러 규모의 AI 클라우드 서비스 추가 공급 계약을 추진 중임",
+      "미 하원 중국특별위원회가 이에 대한 설명을 요구함"
+     ],
+     "interpretation": "중국 기업에 대한 AI 기술 접근 제한 기조와 MS의 클라우드 사업 확장 전략이 충돌하고 있음. 미 의회의 제동 가능성이 있어 계약 이행 여부가 불투명함",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "미 의회의 추가 제재 조치 및 MS의 대응",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "55eded40a43f5cc2"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "de0b5bf4764b29bb",
+   "title": "효성중공업, 엔비디아발 전력 대전환에 차세대 변압기 승부수",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65665",
+   "source": "디일렉"
+  },
+  {
+   "id": "834fe5f4fde6ab7d",
+   "title": "오픈AI, AI로 AMD GPU 설계 개선…“5개월 만에 1년치 진전”",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217562",
+   "source": "AI타임스"
+  },
+  {
+   "id": "cc730b3e2b12a06f",
+   "title": "미 의회 자문위 “중국군, AI 군사력 강화 위해 엔비디아 첨단 칩 확보 추진”",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217576",
+   "source": "AI타임스"
+  },
+  {
+   "id": "ea6451e2fa4b1c63",
+   "title": "디 인포메이션 \"엔비디아, 알리바바에 해외 GPU 임대 경로 연결\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217586",
+   "source": "AI타임스"
+  },
+  {
+   "id": "702a9b448cce05fc",
+   "title": "Nvidia's role in connecting Alibaba with Alice Huang ahead of US chip curbs deepens Megaspeed scrutiny",
+   "url": "https://www.digitimes.com/news/a20261119VL218/nvidia-alibaba-sales-technology-2022.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "fa5d2d7929f9085e",
+   "title": "China's military seeks Nvidia chips as US tightens export curbs",
+   "url": "https://www.digitimes.com/news/a20261119VL213/nvidia-military-chips-data-shipments.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "5801a84044d560cf",
+   "title": "앤트로픽, 공모가 83달러 확정…일반 공모 조달만 108조원",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65647",
+   "source": "디일렉"
+  },
+  {
+   "id": "4c4919a993c6fa7e",
+   "title": "Anthropic prices record IPO at US$83 per share ahead of Nasdaq debut",
+   "url": "https://www.digitimes.com/news/a20261119VL211/anthropic-ipo-nasdaq-revenue.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "0b79f93b883cc2a0",
+   "title": "Alice Huang controversy exposes Megaspeed's links to Taiwan's XPEC case",
+   "url": "https://www.digitimes.com/news/a20261119PD213/taiwan-gaming-security-nvidia.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "d20e88bfb31fc0f7",
+   "title": "AI chip export loopholes expose US resolve to defend national security",
+   "url": "https://www.digitimes.com/news/a20261119PD202/scandal-nvidia-ai-chip-security-chips.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "55eded40a43f5cc2",
+   "title": "MS, 바이트댄스에 오픈AI 모델 공급 확대 추진…미 의회 설명 요구",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217557",
+   "source": "AI타임스"
+  },
+  {
+   "id": "b34a96b4835f16ca",
+   "title": "Anthropic prices IPO at $83 a share, above projected range",
+   "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "b8abe1d8bc04e795",
+   "title": "앤트로픽, 공모가 83달러 확정…기업가치 1.5조달러로 역대 최대 IPO",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217560",
+   "source": "AI타임스"
+  }
+ ]
+}
