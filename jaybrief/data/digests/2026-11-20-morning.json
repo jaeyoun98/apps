@@ -1,0 +1,214 @@
+{
+ "generated_at": "2026-11-19T20:02:23Z",
+ "date": "2026-11-20",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 지정학적 리스크와 경쟁 심화, 그리고 주요 투자자의 포트폴리오 변화가 주요 이슈로 부상했습니다.",
+   "stories": [
+    {
+     "headline": "AMD, 중국 관련 공매도 리포트로 주가 하락",
+     "facts": [
+      "공매도 리포트가 AMD 펌웨어의 중국 블랙리스트 기업 연루 의혹 제기",
+      "AMD는 미국 법규를 준수하고 있다고 공식 입장 발표"
+     ],
+     "interpretation": "지정학적 규제 준수 여부는 반도체 기업의 핵심 리스크로, 사실 여부에 따라 대중국 수출 통제 관련 불확실성이 확대될 수 있음.",
+     "affected_company_ids": [
+      "amd"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "medium",
+     "watch_next": "미국 정부의 공식 조사 착수 여부 및 추가적인 규제 대응 발표를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "db16eb26330de8d2"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "트럼프 대통령, 9월 NVIDIA 및 Palantir 주식 매입 공개",
+     "facts": [
+      "트럼프 대통령이 9월 중 NVIDIA와 Palantir 주식을 매입한 사실이 공개됨",
+      "해당 기간 연방 계약 및 백악관과의 관계가 강화되는 흐름이 있었음"
+     ],
+     "interpretation": "정치적 인사의 주요 테크 기업 지분 보유는 정책적 수혜 기대감을 높일 수 있으나, 이해 상충 논란으로 이어질 가능성도 존재함.",
+     "affected_company_ids": [
+      "nvidia",
+      "palantir"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "향후 해당 기업들과 관련된 정부 계약 및 정책 변화의 구체적인 내용을 모니터링해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "39844989d3b372af"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "Qualcomm, NVIDIA AI 가속기 경쟁 제품 테스트 개시",
+     "facts": [
+      "Qualcomm이 랙 스케일 AI 가속기 'Dragonfly AI200' 테스트 드라이브 제공",
+      "Cirrascale 클라우드를 통해 일부 고객 대상 성능 검증 진행"
+     ],
+     "interpretation": "AI 인프라 시장에서 NVIDIA의 독점적 지위에 도전하는 경쟁자들이 늘어나고 있으며, 이는 장기적으로 GPU 시장의 경쟁 강도를 높일 수 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "Dragonfly AI200의 실제 시장 점유율 확보 속도와 고객사 반응을 지켜봐야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e4621895b2727652"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 및 AI 섹터는 Anthropic의 상장과 빅테크 기업들의 AI 에이전트 확장 전략이 시장의 핵심 동력으로 작용하고 있습니다.",
+   "stories": [
+    {
+     "headline": "Anthropic 상장 및 시장 진입, AI 인프라 투자 지속",
+     "facts": [
+      "Anthropic이 나스닥 상장 후 주가 33% 상승",
+      "Amazon과 Google 등 주요 파트너사와의 대규모 컴퓨팅 인프라 계약 유지"
+     ],
+     "interpretation": "Anthropic의 상장은 AI 산업의 자본 조달 능력을 입증했으나, 막대한 컴퓨팅 비용 부담과 오픈 모델과의 경쟁은 여전히 수익성 개선의 과제로 남아 있음.",
+     "affected_company_ids": [
+      "alphabet",
+      "amazon"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "Anthropic의 분기별 매출 성장세와 클라우드 파트너사들의 AI 부문 수익성 개선 여부를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2e8f7c9085a3e588",
+      "2fc8ffcd24b46ccd",
+      "8d578fa4418aae6b",
+      "1c3e7154c66fe77d"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "Google, Gemini AI 에이전트 기능 확장 및 정책 강화",
+     "facts": [
+      "Gemini에 Mac OS 제어 및 워크플로우 자동화 기능 추가",
+      "2027년 1월부터 안드로이드 앱 검증 요구사항 글로벌 적용"
+     ],
+     "interpretation": "AI 에이전트의 OS 통합은 사용자 경험을 강화하여 플랫폼 경쟁력을 높이는 전략이며, 앱 검증 강화는 생태계 보안 및 품질 관리를 통한 시장 지배력 유지 목적임.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "사용자들의 AI 에이전트 채택률과 경쟁사들의 유사한 OS 통합 대응 속도를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "87c7c677c3d51f76",
+      "d13d6a5c49cfc929"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "Meta AI 에이전트 'Muse' 데이터 노출 논란",
+     "facts": [
+      "Meta의 AI 에이전트 Muse가 사용자 간 대화 혼선 및 개인정보 노출 사례 보고",
+      "사용자가 요청하지 않은 정보가 대화에 포함되는 오류 발생"
+     ],
+     "interpretation": "AI 에이전트의 보안 및 개인정보 보호 문제는 기업의 신뢰도에 치명적일 수 있으며, 향후 규제 당국의 조사나 서비스 개선 비용 증가로 이어질 수 있음.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "medium",
+     "watch_next": "Meta의 공식적인 기술적 조치 발표와 사용자 이탈 여부를 모니터링해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "a7afc1684f68265a"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "db16eb26330de8d2",
+   "title": "AMD dives on short-seller report of alleged China exposure",
+   "url": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "39844989d3b372af",
+   "title": "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
+   "url": "https://www.cnbc.com/2026/11/19/trump-nvidia-spacex-palantir-stock-trades-september.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "e4621895b2727652",
+   "title": "Qualcomm offers test drive of its rack-scale Nvidia AI challenger",
+   "url": "https://www.theregister.com/systems/2026/11/19/qualcomm-offers-test-drive-of-its-rack-scale-nvidia-ai-challenger/5310966",
+   "source": "The Register"
+  },
+  {
+   "id": "2e8f7c9085a3e588",
+   "title": "Anthropic throws open doors at $2T valuation as shares pop 34% in initial trading",
+   "url": "https://www.theregister.com/ai-and-ml/2026/11/19/anthropic-throws-open-doors-at-2t-valuation-as-shares-pop-34-in-initial-trading/5311143",
+   "source": "The Register"
+  },
+  {
+   "id": "87c7c677c3d51f76",
+   "title": "Google gives Gemini the ability to use your Mac for you",
+   "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "d13d6a5c49cfc929",
+   "title": "Google will launch Android app verification requirement globally in January 2027",
+   "url": "https://arstechnica.com/gadgets/2026/11/google-will-launch-android-app-verification-requirement-globally-in-january-2027/",
+   "source": "Ars Technica"
+  },
+  {
+   "id": "a7afc1684f68265a",
+   "title": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
+   "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "2fc8ffcd24b46ccd",
+   "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+   "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "1c3e7154c66fe77d",
+   "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+   "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "8d578fa4418aae6b",
+   "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+   "source": "TechCrunch"
+  }
+ ]
+}

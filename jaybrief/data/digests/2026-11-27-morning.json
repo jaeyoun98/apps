@@ -1,0 +1,98 @@
+{
+ "generated_at": "2026-11-26T21:00:13Z",
+ "date": "2026-11-27",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "미국의 대중국 AI 반도체 수출 규제 강화에 따른 공급망 재편 및 엔비디아의 대응이 핵심 이슈입니다.",
+   "stories": [
+    {
+     "headline": "엔비디아, 동남아 4개국 AI 서버 출하 중단 및 대중국 우회 공급 차단",
+     "facts": [
+      "엔비디아가 말레이시아, 싱가포르, 태국, 인도네시아로의 AI 서버 출하를 일시 중단함",
+      "중국 기업에 컴퓨팅 자원을 임대하는 클라우드 업체에 대한 GPU 공급 제한 조치 시행",
+      "미국 정부의 대중국 AI 반도체 수출 규제 강화에 따른 조치"
+     ],
+     "interpretation": "미국 정부의 규제망이 동남아시아를 거친 우회 경로까지 차단하며 엔비디아의 공급망 관리가 더욱 엄격해짐. 이는 중국 내 AI 모델 개발 속도 저하를 유도하는 동시에, 동남아시아 데이터센터 인프라 확장 계획에 단기적인 차질을 줄 것으로 예상됨.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "supply_chain",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "미국 상무부의 추가적인 수출 통제 리스트 업데이트 및 동남아시아 데이터센터 고객사들의 대응 여부 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d75d991106bce2a9",
+      "6746732f6869c6a6",
+      "9f5ff84d82c09ae1",
+      "c4a8301b3b5a6e7b"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "글로벌 보안 위협 증가와 AI 기술을 악용한 공격 사례가 보고되고 있습니다.",
+   "stories": [
+    {
+     "headline": "중국 및 북한 해커 조직, AI 도구 'ARTEX' 활용한 글로벌 시스템 공격",
+     "facts": [
+      "중국 및 북한 해커들이 'ARTEX'라는 AI 기반 공격 프레임워크를 사용하여 글로벌 기술 시스템을 침해",
+      "해당 도구는 자동화된 공격 기법을 통해 취약한 방어 체계를 단시간 내에 무력화할 수 있음"
+     ],
+     "interpretation": "AI가 공격자의 생산성을 높이는 도구로 활용되면서 기업의 보안 방어 체계에 대한 고도화 요구가 커지고 있음. 마이크로소프트 등 플랫폼 기업의 보안 솔루션 강화가 필수적인 상황이며, 이는 보안 관련 소프트웨어 수요 증가로 이어질 수 있음.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "주요 보안 기업들의 AI 기반 방어 솔루션 출시 및 관련 사이버 보안 사고 발생 빈도 추이.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0b34b727cbdfef42"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "d75d991106bce2a9",
+   "title": "엔비디아, 동남아 4개국 AI 서버 출하 중단…중국 우회 접근 차단",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217837",
+   "source": "AI타임스"
+  },
+  {
+   "id": "6746732f6869c6a6",
+   "title": "엔비디아 유통업체, 대중국 공급 통제 강화…中 고객 둔 클라우드에 판매 중단",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8walRUa29TZVd4TWdhZjdXbmxiWHloUzc4alN3X0NRR0pqbGJTTi1JX3NaR0FwSHFOMEVPTElJOUZrc2dSUzdJRUphc3o4bzAyeUxVZEJhUE9RUWRwSnJpUQ?oc=5",
+   "source": "아시아경제"
+  },
+  {
+   "id": "9f5ff84d82c09ae1",
+   "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+   "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "c4a8301b3b5a6e7b",
+   "title": "Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say",
+   "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "0b34b727cbdfef42",
+   "title": "Microsoft: Hackers in China, N Korea using ARTEX AI tool to break into global tech systems",
+   "url": "https://www.theregister.com/security/2026/11/26/microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-break-into-global-tech-systems/5312433",
+   "source": "The Register"
+  }
+ ]
+}

@@ -1,0 +1,195 @@
+{
+ "generated_at": "2026-11-27T04:21:15Z",
+ "date": "2026-11-27",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "미국의 대중국 AI 반도체 수출 통제 강화가 동남아시아 서버 시장 및 중국 AI 모델 개발 생태계 전반에 직접적인 타격을 주고 있으며, 삼성전자와 SK하이닉스는 화웨이의 HBM 기술 추격과 중국발 메모리 수요 불확실성이라는 이중고에 직면함.",
+   "stories": [
+    {
+     "headline": "엔비디아, 동남아 4개국 AI 서버 출하 중단…중국 우회 접근 원천 차단",
+     "facts": [
+      "엔비디아가 델, 슈퍼마이크로 등 제조사에 말레이시아, 싱가포르, 태국, 인도네시아행 AI 서버 선적 중단 지시",
+      "중국 기업에 연산 용량을 임대하는 클라우드 업체에 대한 GPU 공급도 제한",
+      "미국 정부의 대중국 AI 반도체 수출 통제 강화 조치에 따른 대응"
+     ],
+     "interpretation": "동남아시아를 우회로로 활용하던 중국의 AI 인프라 확보 전략이 차단됨에 따라, 해당 지역 데이터센터 수요 위축 및 엔비디아의 단기 매출 불확실성이 증대됨.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "엔비디아의 동남아시아 서버 출하 재개 여부 및 미국 정부의 추가 수출 통제 세부 지침 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3cf31657228fcd4a",
+      "46f313ff8f92de1b",
+      "d75d991106bce2a9",
+      "9f5ff84d82c09ae1",
+      "b9b27e5fe1e21e30"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "화웨이, HBM4 대비 데이터 핀 2배 설계 공개…삼성·SK하이닉스 추격 가속",
+     "facts": [
+      "화웨이 연구진이 내년 2월 ISSCC에서 HBM4 대비 데이터 입출력 핀을 2배 늘린 차세대 HBM 설계 기술 공개 예정",
+      "실제 칩 제작 및 성능 검증 여부는 확인되지 않음"
+     ],
+     "interpretation": "중국이 미국의 제재 속에서도 메모리 기술 자립을 위해 HBM 설계 역량을 강화하고 있음을 시사하며, 향후 한국 기업의 기술 격차 유지 전략이 중요해짐.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "화웨이의 실제 HBM 시제품 공개 및 양산 가능성 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5aa332251f0d1774"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "중국 AI 개발사, 수출 규제 여파로 모델 출시 지연 및 개발 주기 장기화",
+     "facts": [
+      "미국의 첨단 GPU 수출 제한 및 증류 차단 기술 강화로 중국 AI 모델 개발 차질 발생",
+      "Z.ai의 'GLM-5.5' 출시 지연 및 문샷AI의 모델 출시 주기 2배 이상 증가 전망"
+     ],
+     "interpretation": "미국의 기술 봉쇄가 중국 AI 산업의 소프트웨어 경쟁력까지 직접적으로 억제하고 있으며, 이는 중국 내 AI 관련 하드웨어 수요 감소로 이어질 수 있음.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "중국 AI 기업들의 대체 GPU 확보 노력 및 자체 모델 개발 속도 변화.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f239a6ce6ed46e76",
+      "f5040fada18eb9b6"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 기술이 기업 업무 자동화와 연구 개발 영역으로 빠르게 확산되고 있으나, 동시에 보안 위협과 인력 구조조정 등 부작용에 대한 우려도 공존함.",
+   "stories": [
+    {
+     "headline": "SAP, AI 중심 사업 재편 위해 최소 1만 명 감원 검토",
+     "facts": [
+      "SAP가 AI 중심으로 사업 구조를 전환하기 위해 전체 직원의 약 9%인 최소 1만 명 규모의 감원 검토",
+      "제품 개발 및 영업 부문이 주요 대상"
+     ],
+     "interpretation": "전통적인 소프트웨어 기업들이 AI 전환 과정에서 인력 효율화를 통해 비용 구조를 개선하려는 움직임이 가속화되고 있음.",
+     "affected_company_ids": [],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "SAP의 구체적인 감원 규모 확정 및 노사 협의 결과.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "42dcb702726452ce",
+      "f3b73c9c07b9ce16"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "앤트로픽, MCP 표준에 '스킬' 도입…AI 에이전트 업무 노하우 전달 강화",
+     "facts": [
+      "앤트로픽이 모델 컨텍스트 프로토콜(MCP)을 통해 AI 에이전트에게 업무 수행 방법을 담은 '스킬' 제공 기능 도입",
+      "복잡한 업무 자동화 및 장시간 작업 위임 지원"
+     ],
+     "interpretation": "AI가 단순 정보 제공을 넘어 실제 기업 업무 프로세스에 깊숙이 개입하는 에이전트 형태로 진화하고 있음을 보여줌.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "기업들의 AI 에이전트 도입률 및 실제 업무 생산성 향상 데이터.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e95015b8973b92c1"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "5aa332251f0d1774",
+   "title": "화웨이, 삼성·하이닉스에 도전…HBM4 대비 데이터 핀 두배 설계",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217848",
+   "source": "AI타임스"
+  },
+  {
+   "id": "f239a6ce6ed46e76",
+   "title": "[AI는 지금] 미국 기술 봉쇄에 중국 AI 개발 '급제동'…신모델 출시 차질",
+   "url": "https://zdnet.co.kr/view/?no=20261127104944",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "3cf31657228fcd4a",
+   "title": "FT \"엔비디아, 동남아 4개국 GPU 서버 출하 중단\"",
+   "url": "https://zdnet.co.kr/view/?no=20261127102706",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "f5040fada18eb9b6",
+   "title": "Z.ai 'GLM-5.5' 출시 지연…문샷 AI도 개발 주기 두배 전망",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217838",
+   "source": "AI타임스"
+  },
+  {
+   "id": "b9b27e5fe1e21e30",
+   "title": "엔비디아 칩 판매사, AI 클라우드에 “중국 기업 임대 시 칩 안 판다” 통보",
+   "url": "https://www.etnews.com/20261127000014",
+   "source": "전자신문"
+  },
+  {
+   "id": "46f313ff8f92de1b",
+   "title": "엔비디아, 동남아 4개국 AI 서버 출하 중단…美 '中 우회 접근' 차단 여파",
+   "url": "https://www.etnews.com/20261127000010",
+   "source": "전자신문"
+  },
+  {
+   "id": "d75d991106bce2a9",
+   "title": "엔비디아, 동남아 4개국 AI 서버 출하 중단…중국 우회 접근 차단",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217837",
+   "source": "AI타임스"
+  },
+  {
+   "id": "9f5ff84d82c09ae1",
+   "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+   "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "e95015b8973b92c1",
+   "title": "앤트로픽, MCP 서버에 '스킬' 도입…AI 에이전트에 업무 노하우까지 전달",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217847",
+   "source": "AI타임스"
+  },
+  {
+   "id": "42dcb702726452ce",
+   "title": "SAP, AI 중심 구조조정 추진…최소 1만명 감원 검토",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217860",
+   "source": "AI타임스"
+  },
+  {
+   "id": "f3b73c9c07b9ce16",
+   "title": "SAP, AI 전환에 최소 1만 개 일자리 감축 검토",
+   "url": "https://zdnet.co.kr/view/?no=20261127100428",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

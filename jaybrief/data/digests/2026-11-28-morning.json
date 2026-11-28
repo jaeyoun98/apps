@@ -1,0 +1,48 @@
+{
+ "generated_at": "2026-11-27T20:45:42Z",
+ "date": "2026-11-28",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터 관련 주요 뉴스 없음",
+   "stories": []
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 시장 변동성 지속 및 투자 심리 변화",
+   "stories": [
+    {
+     "headline": "AI 시장 변동성 지속에 따른 투자 전략 변화",
+     "facts": [
+      "Jensen Huang의 복귀에도 불구하고 AI 관련 시장 변동성이 지속됨",
+      "일부 투자 기관은 시장의 약세를 활용하여 AI 관련 주식을 추가 매수함"
+     ],
+     "interpretation": "AI 섹터에 대한 시장의 기대와 우려가 교차하며 단기적인 변동성이 확대되고 있음. 기관 투자자들은 일시적인 랠리보다 조정 시 매수하는 전략을 취하며 AI 성장성에 대한 장기적 신뢰를 유지하고 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "주요 AI 기업들의 차기 실적 발표에서 가이던스 변화 여부를 확인해야 함.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9bce41fead834528"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "9bce41fead834528",
+   "title": "Jensen Huang's return did little to ease AI jitters. We used the weakness to buy",
+   "url": "https://www.cnbc.com/investingclub/2026/11/27/jensen-huangs-return-did-little-to-ease-ai-jitters-we-bought-on-weakness.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

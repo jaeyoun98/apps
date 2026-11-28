@@ -1,0 +1,129 @@
+{
+ "generated_at": "2026-11-22T19:08:19Z",
+ "date": "2026-11-23",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 산업은 지정학적 리스크와 공급망 국산화라는 두 가지 상반된 흐름 속에 놓여 있습니다. 미국 내 대중국 수출 통제 강화 움직임과 함께, 국내에서는 핵심 소재·부품의 국산화 노력이 지속되고 있습니다.",
+   "stories": [
+    {
+     "headline": "미 의회, 대중국 AI 칩 수출 통제 강화 압박",
+     "facts": [
+      "미국 상무부가 중국 기업에 87만 9천 개 이상의 AI 칩 판매를 승인한 것으로 알려짐",
+      "미 의회 의원들이 대중국 수출 통제 강화를 위한 입법을 추진 중"
+     ],
+     "interpretation": "미국 정부의 대중국 AI 칩 수출 승인 규모가 공개되면서 정치적 반발이 거세지고 있습니다. 향후 수출 규제 기준이 더욱 엄격해질 경우 NVIDIA 및 AMD의 중국향 매출 타격이 불가피하며, 이는 글로벌 반도체 공급망 재편과 기업들의 실적 가이던스에 하방 압력으로 작용할 수 있습니다.",
+     "affected_company_ids": [
+      "nvidia",
+      "amd"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "미 상무부의 대중국 수출 규제 강화 여부 및 관련 법안 통과 가능성",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "59efb419eefe63ad"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "시노펙스, 반도체 공정용 필터 국산화 공로로 대통령상 수상",
+     "facts": [
+      "시노펙스 정민재 부사장이 반도체 공정용 필터 등 핵심 부품·소재 국산화 기여로 대통령상 수상"
+     ],
+     "interpretation": "반도체 소재·부품의 국산화는 국내 반도체 제조사의 공급망 안정성과 비용 절감 측면에서 긍정적이나, 개별 중견기업의 수상 소식은 산업 전반의 실적이나 주가에 미치는 직접적인 영향은 제한적입니다.",
+     "affected_company_ids": [],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "국산화된 소재·부품의 실제 공정 적용 확대 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "19253fcc02ae2f0b"
+     ],
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "빅테크 기업들의 데이터센터 확장이 환경 및 지역사회 갈등의 핵심 이슈로 부상하며 규제 리스크가 커지고 있습니다. 또한 기술 인프라 의존도 심화에 따른 서비스 장애 우려도 지속되고 있습니다.",
+   "stories": [
+    {
+     "headline": "빅테크 데이터센터 확장, 환경 및 지역사회 반발 직면",
+     "facts": [
+      "데이터센터의 막대한 전력 및 용수 소비가 지역사회와 환경에 부담을 주며 정치적 쟁점으로 부상",
+      "Microsoft, Amazon 등 주요 기업이 데이터센터 관련 정보 공개를 확대하는 등 대응 중"
+     ],
+     "interpretation": "데이터센터 인프라 구축에 대한 지역사회의 반발은 빅테크 기업들의 인프라 투자 비용 증가와 인허가 지연 리스크를 의미합니다. 이는 장기적으로 AI 인프라 구축 속도에 영향을 줄 수 있는 비재무적 리스크 요인입니다.",
+     "affected_company_ids": [
+      "microsoft",
+      "amazon",
+      "alphabet"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "데이터센터 관련 환경 규제 강화 및 지역사회와의 갈등 조정 과정",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f299812af2286d9d"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "미 정보당국, 최근 기술 장애에 따른 인프라 안정성 경고",
+     "facts": [
+      "미 국가정보국장(DNI)이 최근 발생한 Microsoft 365 및 항공·금융 시스템 장애를 언급하며 인프라 안정성 주의 당부"
+     ],
+     "interpretation": "반복되는 기술 장애는 빅테크 서비스에 대한 신뢰도 저하와 정부의 기술 인프라 규제 강화로 이어질 수 있습니다. 이는 기업의 운영 비용 증가와 플랫폼 경쟁력에 잠재적인 부정적 요인입니다.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "추가적인 대규모 기술 장애 발생 여부 및 정부의 IT 인프라 보안 규제 강화 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b996404fe32e4b35"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "19253fcc02ae2f0b",
+   "title": "정민재 시노펙스 부사장, 중견기업인의 날 대통령상",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65719",
+   "source": "디일렉"
+  },
+  {
+   "id": "f299812af2286d9d",
+   "title": "Why data centers are at the center of the Big Tech backlash",
+   "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "59efb419eefe63ad",
+   "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+   "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "b996404fe32e4b35",
+   "title": "Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages",
+   "url": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

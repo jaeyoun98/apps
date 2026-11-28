@@ -1,0 +1,197 @@
+{
+ "generated_at": "2026-11-27T12:54:28Z",
+ "date": "2026-11-27",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 반도체 수요와 공급망 규제, 그리고 국내 메모리 기업의 기술 경쟁 및 시장 상황이 주요 이슈로 부각되었습니다. 특히 중국의 우회적인 첨단 칩 확보와 화웨이의 HBM 설계 기술 공개 예고가 한국 기업에 대한 도전으로 인식되고 있습니다.",
+   "stories": [
+    {
+     "headline": "중국 기업, 미국 법인 통해 엔비디아 AI 칩 우회 확보",
+     "facts": [
+      "중국 기업이 지배하는 캘리포니아 소재 기업 최소 2곳이 엔비디아 공식 파트너 자격으로 첨단 AI 칩을 구매해 온 사실이 확인됨",
+      "기존 밀수 및 해외 데이터센터 우회 접속에 이어 공식 공급망 내 허점이 드러남"
+     ],
+     "interpretation": "미국의 대중국 반도체 수출 규제가 실효성 논란에 직면했습니다. 엔비디아의 공급망 관리 강화가 요구되며, 향후 규제 강도가 더욱 높아질 가능성이 큽니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 정부의 대중국 수출 규제 강화 및 엔비디아의 파트너사 검증 절차 변화 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f1f09ac495f81d67"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "화웨이, HBM4 대비 데이터 핀 2배 설계 기술 공개 예고",
+     "facts": [
+      "화웨이 연구진이 내년 2월 ISSCC에서 차세대 HBM 설계 기술을 발표할 예정",
+      "삼성전자와 SK하이닉스의 최신 HBM4 대비 데이터 입출력 핀을 2배 늘린 설계 구조"
+     ],
+     "interpretation": "중국이 메모리 기술 자립을 위해 HBM 분야에 공격적으로 투자하고 있음을 시사합니다. 실제 양산 및 성능 검증 여부가 관건이나, 한국 기업의 기술 격차 유지가 핵심 과제로 부상했습니다.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "ISSCC 발표 이후 실제 시제품의 성능 및 양산 가능성 확인",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5aa332251f0d1774"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아의 동남아 GPU 서버 출하 중단 요청",
+     "facts": [
+      "엔비디아가 델, 슈퍼마이크로 등 서버 제조사에 말레이시아, 싱가포르, 태국, 인도네시아 대상 GPU 서버 출하 중단을 요청함"
+     ],
+     "interpretation": "중국으로의 우회 수출을 차단하기 위한 조치로 해석됩니다. 동남아 지역의 AI 인프라 확장에 일시적인 제동이 걸릴 수 있습니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "출하 중단 조치의 지속 기간 및 대상 국가 확대 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3cf31657228fcd4a"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "엔비디아, 중국 내 RTX Pro 5500 공급 취소로 GDDR7 수요 불확실성 증대",
+     "facts": [
+      "엔비디아의 중국 AI 시장 진출 차질로 삼성전자와 SK하이닉스가 기대하던 GDDR7 수요 성장에 불확실성 발생"
+     ],
+     "interpretation": "중국 규제 리스크가 메모리 반도체 기업의 특정 제품군 수요에도 직접적인 영향을 미치고 있습니다.",
+     "affected_company_ids": [
+      "nvidia",
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "중국향 메모리 반도체 출하량 변화 및 대체 수요처 확보 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c18a16e8197ac804"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 기술의 산업 적용이 가속화되는 가운데, 보안 사고와 법적 리스크가 동시에 부각되고 있습니다. 특히 기업용 AI 도입과 관련된 보안 및 거버넌스 이슈가 주요 화두입니다.",
+   "stories": [
+    {
+     "headline": "김범수 카카오 창업자, SM엔터 시세조종 혐의 무죄 확정",
+     "facts": [
+      "서울남부공소청이 김범수 카카오 창업자의 자본시장법 위반 혐의 무죄 판결에 대해 상고를 포기함",
+      "이에 따라 2심의 무죄 판결이 최종 확정됨"
+     ],
+     "interpretation": "카카오의 최대 사법 리스크가 해소되었습니다. 향후 경영 정상화와 AI 등 신사업 추진에 속도가 붙을 것으로 기대됩니다.",
+     "affected_company_ids": [],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "카카오의 향후 AI 및 플랫폼 사업 전략 재정비 및 투자 확대 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4e2b5a6ca4a8e410",
+      "ae67c416ba634088",
+      "7c50f5c6b1bdc7e8"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "구글, 제미나이 4 기반 수학 연구 에이전트 논문 공개",
+     "facts": [
+      "구글 리서치가 '코젠틱(Cogentic)' 시스템을 활용해 작성한 수학 논문 6편을 공개함",
+      "소인수분해 34년 기록을 경신했다고 주장"
+     ],
+     "interpretation": "범용 AI의 연구 역량이 수학 및 과학 분야에서 실질적인 성과를 내고 있습니다. AI 에이전트가 연구 개발의 생산성을 획기적으로 높일 수 있음을 보여줍니다.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "AI 작성 논문의 학계 수용도 및 범용 AI의 연구 분야 적용 확대 속도",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "46a095f825baad63"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "f1f09ac495f81d67",
+   "title": "중국 기업, 미국 법인 통해 엔비디아 첨단 AI 칩 확보…또 다른 규제 허점",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217869",
+   "source": "AI타임스"
+  },
+  {
+   "id": "5aa332251f0d1774",
+   "title": "화웨이, 삼성·하이닉스에 도전…HBM4 대비 데이터 핀 두배 설계",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217848",
+   "source": "AI타임스"
+  },
+  {
+   "id": "c18a16e8197ac804",
+   "title": "84 million GDDR7 chips at stake: Nvidia's RTX Pro 5500 China cancellations test Samsung, SK Hynix",
+   "url": "https://www.digitimes.com/news/a20261126PD213/nvidia-rtx-sk-hynix-samsung-chips.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "3cf31657228fcd4a",
+   "title": "FT \"엔비디아, 동남아 4개국 GPU 서버 출하 중단\"",
+   "url": "https://zdnet.co.kr/view/?no=20261127102706",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "4e2b5a6ca4a8e410",
+   "title": "김범수 카카오 창업자, SM엔터 시세조종 혐의 무죄 확정",
+   "url": "https://byline.network/2026/11/27_29182733/",
+   "source": "바이라인네트워크"
+  },
+  {
+   "id": "ae67c416ba634088",
+   "title": "김범수 'SM시세조종 혐의' 무죄 확정…공소청 상고 포기",
+   "url": "https://www.etnews.com/20261127000348",
+   "source": "전자신문"
+  },
+  {
+   "id": "7c50f5c6b1bdc7e8",
+   "title": "김범수 카카오, SM엔터 시세조종 혐의 무죄 확정…공소청 상고 포기",
+   "url": "https://zdnet.co.kr/view/?no=20261127183559",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "46a095f825baad63",
+   "title": "구글도 AI 수학 연구 경쟁 가세…소인수분해 34년 기록 경신 주장",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217867",
+   "source": "AI타임스"
+  }
+ ]
+}

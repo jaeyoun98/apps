@@ -1,0 +1,104 @@
+{
+ "generated_at": "2026-11-28T04:01:44Z",
+ "date": "2026-11-28",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "미국의 대중국 반도체 수출 통제 강화로 인한 엔비디아 최첨단 서버의 암시장 가격 급등 현상이 지속되고 있으며, 이는 공급망 제약에 따른 프리미엄 확대를 시사함.",
+   "stories": [
+    {
+     "headline": "중국 암시장에서 엔비디아 B300 서버 가격 5배 폭등",
+     "facts": [
+      "미국 정부와 엔비디아의 대중국 AI 반도체 우회 반입 및 원격 연산 차단 조치 강화",
+      "중국 선전 화창베이 전자상가에서 엔비디아 B300 서버가 미국 현지 가격의 5배 이상인 대당 40억 원대에 판매 중"
+     ],
+     "interpretation": "미국의 강력한 수출 통제가 공급 부족을 심화시켜 암시장 프리미엄을 극대화하고 있음. 이는 엔비디아의 공식적인 대중국 매출에는 부정적이나, 글로벌 시장에서의 압도적인 기술 격차와 수요 강세를 반증함.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 정부의 추가적인 대중국 수출 통제 조치 발표 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f3e7bc68e314deea"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "주요 테크 기업의 클라우드 인프라 보안 취약성이 노출되고, AI 기술 주도권을 둘러싼 기업 간 법적 분쟁이 공급망 경쟁으로 확대되는 양상임.",
+   "stories": [
+    {
+     "headline": "미 공군 핵심 클라우드 '클라우드 원' 해킹 발생",
+     "facts": [
+      "미 공군의 전술·인사·군수 데이터를 다루는 '클라우드 원' 플랫폼이 해킹됨",
+      "해당 플랫폼은 Microsoft, Amazon, Oracle, Alphabet 등 4개사가 운영을 맡고 있음"
+     ],
+     "interpretation": "주요 클라우드 사업자들의 보안 인프라 신뢰도에 타격이 불가피하며, 향후 정부 및 공공 부문 클라우드 계약 시 보안 요건 강화로 인한 비용 증가 가능성이 있음.",
+     "affected_company_ids": [
+      "microsoft",
+      "amazon",
+      "oracle",
+      "alphabet"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "해킹 피해 규모 및 운영사들의 보안 강화 조치 발표.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "56542c3468760818"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "오픈AI, 애플 상대 맞소송 제기…하드웨어 공급망 갈등 격화",
+     "facts": [
+      "오픈AI가 애플을 상대로 제조 협력업체 압박을 통한 AI 기기 생산 방해 혐의로 맞소송 제기",
+      "불공정 고용 계약 및 영업비밀 침해 의혹도 포함됨"
+     ],
+     "interpretation": "AI 주도권 경쟁이 단순 소프트웨어 모델을 넘어 하드웨어 제조 및 공급망 확보 경쟁으로 전이됨. 양사의 법적 공방은 AI 기기 시장 진입 속도에 변수로 작용할 전망.",
+     "affected_company_ids": [],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "법원의 가처분 신청 결과 및 제조 협력업체들의 대응.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "688bd150fdc79f1a"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "f3e7bc68e314deea",
+   "title": "中암시장서 엔비디아 'B300' 서버값 5배 폭등…대당 40억원 돌파",
+   "url": "https://zdnet.co.kr/view/?no=20261128113257",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "688bd150fdc79f1a",
+   "title": "오픈AI, 애플에 맞소송…\"협력업체 압박해 AI 기기 생산 방해\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217889",
+   "source": "AI타임스"
+  },
+  {
+   "id": "56542c3468760818",
+   "title": "미 공군 핵심 클라우드 '클라우드 원' 뚫렸다",
+   "url": "https://zdnet.co.kr/view/?no=20261127222046",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

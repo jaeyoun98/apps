@@ -1,0 +1,160 @@
+{
+ "generated_at": "2026-11-20T19:40:27Z",
+ "date": "2026-11-21",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "NVIDIA의 경영진 교체 및 대중국 리스크와 관련된 법적·정치적 불확실성이 지속되며 반도체 섹터 전반의 투자 심리를 위축시키고 있습니다.",
+   "stories": [
+    {
+     "headline": "NVIDIA 전 CEO 젠슨 황 관련 대중국 리스크 및 경영 스타일 조사 확대",
+     "facts": [
+      "캘리포니아주 법무장관이 젠슨 황의 대중국 관계와 관련해 NVIDIA에 소환장을 발부함",
+      "도널드 트럼프 대통령이 시진핑 주석과 젠슨 황에 대해 논의했다고 언급하며 스콧 베센트 재무장관의 발언과 상충되는 상황 발생",
+      "NVIDIA 내부 경영 스타일이 공포에 기반했다는 보도가 이어짐"
+     ],
+     "interpretation": "NVIDIA를 둘러싼 지정학적 리스크와 내부 거버넌스 문제가 동시에 부각되며 투자자들의 신뢰도가 저하됨. 특히 미-중 정상 간의 직접적인 언급은 규제 불확실성을 높이는 요인임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 정부의 대중국 반도체 규제 구체화 여부 및 캘리포니아주 법무장관의 조사 결과.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "02e3cacdb48c7243",
+      "7d5664f77b0bd27a",
+      "4730940cc1e7ed64",
+      "739c8630881535b2",
+      "f81333cca10b2e1e"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 기업들의 IPO 이후 시장 변동성과 보안 리스크가 부각되는 가운데, 기업들의 AI 에이전트 활용이 사이버 보안 환경에 새로운 위협을 제기하고 있습니다.",
+   "stories": [
+    {
+     "headline": "Anthropic IPO 이후 시장 변동성 및 컴퓨팅 자원 확보 과제",
+     "facts": [
+      "Anthropic이 기록적인 IPO를 단행했으나 AI 시장 전반의 매도세와 NVIDIA 위기론 속에서 주가 하락세 기록",
+      "Anthropic의 사업 지속성을 위해 필요한 대규모 컴퓨팅 자원 확보가 핵심적인 불확실성으로 지목됨"
+     ],
+     "interpretation": "AI 기업의 상장은 성공적이었으나, 고금리 및 AI 거품론에 따른 시장 조정기에는 컴퓨팅 인프라 비용 부담이 기업 가치 평가의 핵심 변수로 작용함.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "Anthropic의 향후 분기 실적 및 컴퓨팅 자원 확보를 위한 파트너십 전략.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4fc067ef7f92356e",
+      "bcd6de66eb9a6985",
+      "ec7651d8c21155fc",
+      "2fc36dcff97aee9b",
+      "d4254914407c6679"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "AI 에이전트를 활용한 사이버 공격 위협 증가",
+     "facts": [
+      "중국 공격자들이 AI 에이전트를 배치하여 대학 서버의 제로데이 취약점을 자율적으로 탐색하고 탈취함",
+      "Amazon CISO는 해당 에이전트들이 인간의 개입 없이 거의 하루 동안 적응하며 공격을 지속했다고 밝힘"
+     ],
+     "interpretation": "AI 기술이 공격자들의 자동화된 취약점 탐색 및 공격 수행 능력을 비약적으로 향상시키고 있어, 기업들의 보안 대응 체계 고도화가 시급함.",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "AI 기반 공격에 대응하는 보안 솔루션의 시장 도입 속도.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b6438ee147c46d23"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "02e3cacdb48c7243",
+   "title": "Trump says he discussed Jensen Huang with Xi, apparently contradicting Bessent",
+   "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "7d5664f77b0bd27a",
+   "title": "Trump says he discussed Jensen Huang with Xi, contradicting Bessent",
+   "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "4fc067ef7f92356e",
+   "title": "Anthropic defied the odds in its record IPO. Now it has to reckon with AI market turbulence",
+   "url": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "739c8630881535b2",
+   "title": "Jensen Huang wasn't mentioned in latest talks with China, Bessent says",
+   "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "4730940cc1e7ed64",
+   "title": "Behind Jensen Huang’s exit, questions about a management style reportedly built on fear",
+   "url": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "f81333cca10b2e1e",
+   "title": "California AG subpoenas Nvidia over worries about Huang’s ties with China",
+   "url": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "bcd6de66eb9a6985",
+   "title": "Anthropic stock falls 12% in first full day of trading amid AI sell-off",
+   "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "ec7651d8c21155fc",
+   "title": "Anthropic stock falls 14% in first full day of trading amid AI sell-off",
+   "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "b6438ee147c46d23",
+   "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server",
+   "url": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
+   "source": "The Register"
+  },
+  {
+   "id": "2fc36dcff97aee9b",
+   "title": "Anthropic raises $93.5 billion total as underwriters scoop up ‘greenshoe’ overallotment",
+   "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "d4254914407c6679",
+   "title": "The Tech Download: Anthropic charmed Wall Street. But one big uncertainty hangs over the business",
+   "url": "https://www.cnbc.com/2026/11/20/tech-download-anthropic-compute-access.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

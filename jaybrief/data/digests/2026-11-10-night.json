@@ -1,0 +1,251 @@
+{
+ "generated_at": "2026-11-10T11:29:19Z",
+ "date": "2026-11-10",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 AI 인프라 수요에 따른 TSMC의 매출 급증과 마이크론의 HBM 검사장비 도입 등 긍정적 신호가 있으나, 삼성전자의 EUV 블랭크마스크 수급 차질 및 엔비디아 CEO 관련 지정학적 리스크가 시장의 불확실성을 키우고 있음.",
+   "stories": [
+    {
+     "headline": "TSMC 10월 매출 59.7% 급증, AI 칩 수요 견인",
+     "facts": [
+      "TSMC의 2026년 10월 매출이 전년 동기 대비 59.7% 증가함",
+      "AI 인프라용 첨단 반도체에 대한 강력한 수요가 성장을 주도함"
+     ],
+     "interpretation": "AI 가속기 시장의 압도적 파운드리 지배력을 재확인하며, AI 인프라 투자 사이클이 여전히 견고함을 시사함.",
+     "affected_company_ids": [
+      "tsmc"
+     ],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "TSMC의 차기 분기 가이던스 및 AI 칩 생산능력 확대 속도 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d9ed4b2380ff26cd",
+      "dcc3eb54d1d56d88"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자, EUV 블랭크마스크 수급 차질 우려",
+     "facts": [
+      "삼성전자가 일본 호야(Hoya)에 EUV 블랭크마스크 공급 확대를 요청했으나 거절당함",
+      "호야는 타사 수요 급증을 이유로 삼성의 요청을 수용하기 어렵다는 입장"
+     ],
+     "interpretation": "EUV 공정 의존도가 높은 삼성전자의 차세대 반도체 생산 계획에 병목 현상이 발생할 가능성이 있으며, 이는 파운드리 및 메모리 미세공정 경쟁력에 부정적 영향을 줄 수 있음.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "supply_chain",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "대체 공급사 확보 여부 및 EUV 공정 가동률 변화.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3d69412cb98de01c"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아 CEO 스캔들 및 지정학적 리스크 확대",
+     "facts": [
+      "젠슨 황 CEO의 스파이 연루 의혹과 관련해 FBI가 조사 중임을 트럼프 대통령이 언급함",
+      "미 의회 내에서 엔비디아에 대한 국가 안보 차원의 조사 및 중국 수출 규제 강화 목소리가 커짐"
+     ],
+     "interpretation": "기업 내부 통제 리스크가 국가 안보 이슈로 전이되면서, 향후 대중국 수출 제한 조치가 강화될 경우 엔비디아의 매출 타격 및 공급망 재편 압박이 가중될 수 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "FBI 조사 결과 및 미 의회의 대중국 반도체 수출 규제 법안 발의 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2ef2cf4999070583",
+      "9784f883819036f8",
+      "46cada675350da1a",
+      "4d511b88979cd822",
+      "134b252133e83a43",
+      "f1008b933c6ab762"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "마이크론, HBM 생산라인에 쎄크 검사장비 도입",
+     "facts": [
+      "마이크론 싱가포르 법인이 쎄크와 58억원 규모의 HBM용 엑스레이 검사장비 공급계약을 체결함",
+      "해당 장비는 양산 라인에 적용될 예정"
+     ],
+     "interpretation": "HBM 시장 점유율 확대를 위해 마이크론이 생산 수율 및 품질 관리 인프라를 강화하고 있음을 보여줌.",
+     "affected_company_ids": [
+      "micron"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "마이크론의 HBM 양산 수율 개선 및 시장 점유율 변화.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "12787ada7b3f1e72"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 섹터는 구글의 TPU 신제품 출시를 통한 엔비디아 추격과 앤트로픽의 IPO 철회 등 AI 인프라 및 모델 경쟁이 격화되고 있음.",
+   "stories": [
+    {
+     "headline": "구글, AI 에이전트 및 보안 특화 TPU 2종 공개",
+     "facts": [
+      "구글이 8세대 TPU 제품군에 'TPU 8i Max'와 'TPU 8tx'를 추가함",
+      "TPU 8tx는 AMD 에픽 CPU와 결합하여 메모리 병목 현상을 해소하도록 설계됨"
+     ],
+     "interpretation": "자체 AI 칩 생태계를 강화하여 엔비디아 의존도를 낮추고, 클라우드 고객사들에게 고성능 AI 인프라 옵션을 제공함으로써 시장 점유율을 확대하려는 전략임.",
+     "affected_company_ids": [
+      "alphabet",
+      "amd",
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "구글 클라우드 고객사의 TPU 채택률 증가 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "cc052b0e348d7236",
+      "1a5efd094754daf3",
+      "a17e5a6ed5ecc177"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "앤트로픽, 93조원 규모 IPO 계획 철회",
+     "facts": [
+      "앤트로픽이 투자은행들에 전달했던 최대 693억달러(약 93조원) 규모의 IPO 계획을 철회함",
+      "공모가격 정보의 오류를 이유로 들었으며, 빅테크 7곳의 35조원 투자 계획도 포함되어 있었음"
+     ],
+     "interpretation": "기업 가치 산정에 대한 시장과의 괴리 혹은 공모 절차상의 내부 통제 문제가 발생했음을 시사하며, AI 모델 기업들의 자금 조달 환경이 신중해지고 있음.",
+     "affected_company_ids": [
+      "nvidia",
+      "microsoft",
+      "alphabet"
+     ],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "앤트로픽의 재상장 시도 시점 및 공모가 재산정 결과.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5f91dd64028d5355",
+      "b2de6a5f2557a192"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "3d69412cb98de01c",
+   "title": "삼성 EUV 블랭크마스크 조달 비상…日호야 \"더 못 늘린다\"",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65231",
+   "source": "디일렉"
+  },
+  {
+   "id": "1a5efd094754daf3",
+   "title": "AMD, 구글 차세대 AI 연산 시스템에 5세대 에픽 공급",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65200",
+   "source": "디일렉"
+  },
+  {
+   "id": "12787ada7b3f1e72",
+   "title": "쎄크, 마이크론에 HBM 검사장비 공급",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65201",
+   "source": "디일렉"
+  },
+  {
+   "id": "cc052b0e348d7236",
+   "title": "구글, AI 에이전트·보안 특화 TPU 2종 공개…엔비디아 추격",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217211",
+   "source": "AI타임스"
+  },
+  {
+   "id": "5f91dd64028d5355",
+   "title": "앤트로픽, 93조 IPO 계획 전달 직후 철회…빅테크 35조 투자도 포함",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217213",
+   "source": "AI타임스"
+  },
+  {
+   "id": "2ef2cf4999070583",
+   "title": "엔비디아·젠슨 황, 주주 집단소송 직면…스파이 의혹 '허위 설명' 쟁점",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217206",
+   "source": "AI타임스"
+  },
+  {
+   "id": "9784f883819036f8",
+   "title": "Nvidia stock edges higher as investors weigh potential fallout of CEO's affair with alleged spy",
+   "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "f1008b933c6ab762",
+   "title": "Spy probe highlights Nvidia's heavy reliance on CEO",
+   "url": "https://www.digitimes.com/news/a20261110VL217/nvidia-jensen-huang-management-probe-ceo.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "d9ed4b2380ff26cd",
+   "title": "TSMC October 2026 revenue surges 59.7% on strong AI chip demand",
+   "url": "https://www.digitimes.com/news/a20261110VL212/tsmc-revenue-demand-2026-growth.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "46cada675350da1a",
+   "title": "Nvidia could face more scrutiny by new Congress in wake of spy probe",
+   "url": "https://www.digitimes.com/news/a20261110VL210/nvidia-jensen-huang-chips-sales-china-usa.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "a17e5a6ed5ecc177",
+   "title": "구글, 8세대 TPU 2종 추가 공개 ‘메모리 병목 해소’",
+   "url": "https://byline.network/2026/11/10-724/",
+   "source": "바이라인네트워크"
+  },
+  {
+   "id": "dcc3eb54d1d56d88",
+   "title": "TSMC's October sales jump as global chip boom rolls on",
+   "url": "https://www.cnbc.com/2026/11/10/tsmcs-october-sales-.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "4d511b88979cd822",
+   "title": "Trump says FBI examining Huang affair as Nvidia faces widening legal scrutiny",
+   "url": "https://www.digitimes.com/news/a20261110VL205/nvidia-security-ceo-jensen-huang-investigation.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "b2de6a5f2557a192",
+   "title": "앤트로픽, 700억 달러 IPO 자료 회수…\"공모가 정보 오류\"",
+   "url": "https://zdnet.co.kr/view/?no=20261110173532",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "134b252133e83a43",
+   "title": "트럼프 \"FBI, 젠슨 황 사건 조사 중\"…주요 AI 행사도 잇달아 불참",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217203",
+   "source": "AI타임스"
+  }
+ ]
+}

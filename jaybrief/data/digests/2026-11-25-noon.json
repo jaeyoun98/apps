@@ -1,0 +1,209 @@
+{
+ "generated_at": "2026-11-25T04:57:06Z",
+ "date": "2026-11-25",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아 젠슨 황 CEO 복귀 이후 시장의 불확실성이 지속되는 가운데, 미국 정부의 대중국 수출 통제 강화와 AI 인프라 부채 우려가 반도체 섹터 전반의 투자 심리를 압박하고 있음.",
+   "stories": [
+    {
+     "headline": "젠슨 황 엔비디아 CEO 복귀 후 시장 불안 지속 및 주가 하락",
+     "facts": [
+      "젠슨 황이 사임 11일 만에 엔비디아 CEO로 복귀함",
+      "복귀 직후 엔비디아 주가가 5.9% 하락하는 등 AI 관련주가 동반 약세를 보임",
+      "황 CEO는 복귀 후 직원회의에서 사과하며 이사회의 결정임을 강조함"
+     ],
+     "interpretation": "CEO 복귀가 단기적인 안도감을 주었으나, 여전히 기업들의 AI 인프라 투자 부채 우려와 미국 정부의 규제 리스크가 투자 심리를 억누르고 있음. 시장은 경영 연속성과 향후 규제 대응 능력을 검증하려는 단계임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "엔비디아의 차기 분기 실적 가이던스 및 미국 정부의 추가 규제 발표 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "65b2ff81541733ea",
+      "626cc5cc989fec08",
+      "2a463fb18bc4e697",
+      "f72a4b6116e271ce",
+      "6828abbb6a47b392",
+      "025217010c033321"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "미국 의회, AI 칩 수출 통제 강화 법안 추진",
+     "facts": [
+      "미국 의회가 AI 칩 수출 통제를 강화하는 3개 법안을 추진 중",
+      "수출 통제 범위가 하드웨어를 넘어 클라우드 컴퓨팅 접근권까지 확대됨"
+     ],
+     "interpretation": "미국의 대중국 기술 봉쇄 기조가 더욱 구체화되고 있음. 이는 엔비디아 등 주요 AI 칩 제조사의 매출 구조에 직접적인 타격을 줄 수 있는 리스크 요인임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "법안의 최종 통과 여부 및 통제 범위의 구체적 세부 사항",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e83c1df708b84e87",
+      "15d38f8dd835cb1d"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자·마이크론, Netlist와 특허 라이선스 합의",
+     "facts": [
+      "삼성전자와 마이크론이 Netlist와 5년간의 특허 라이선스 계약을 체결함",
+      "합산 지급액은 최대 15억 달러 규모임"
+     ],
+     "interpretation": "메모리 반도체 업계의 고질적인 특허 리스크가 일부 해소되었으나, 대규모 비용 지출은 단기 수익성에 부담으로 작용할 전망임.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "micron"
+     ],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "이번 합의가 향후 다른 특허 소송에 미칠 영향",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ed936baac05ca9c5"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "기업용 소프트웨어 시장에서 가상화 솔루션 대체 수요가 증가하고 있으며, AI 에이전트 도입을 통한 업무 자동화와 보안 강화가 핵심 경쟁력으로 부상함.",
+   "stories": [
+    {
+     "headline": "레드햇-MS 협력 강화, VM웨어 대체 시장 공략",
+     "facts": [
+      "레드햇과 마이크로소프트(MS)가 공동 엔지니어링 협력을 확대함",
+      "브로드컴의 VM웨어 인수 이후 가상화 솔루션 비용 증가에 따른 대체 수요를 겨냥함"
+     ],
+     "interpretation": "브로드컴의 VM웨어 인수 후 정책 변화로 인해 기업 고객들의 이탈이 가속화되고 있음. MS와 레드햇은 이를 AI 워크로드 통합 인프라로 흡수하여 시장 주도권을 확보하려는 전략임.",
+     "affected_company_ids": [
+      "broadcom",
+      "microsoft"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "기업 고객들의 실제 플랫폼 전환 속도 및 점유율 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5f097c27a20a698b"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "마이크로소프트, 시스템 장애 후 '코드 레드' 발령",
+     "facts": [
+      "MS가 대규모 시스템 장애 이후 최고 수준의 비상 대응인 '코드 레드'를 발령함",
+      "1시간 내 복구 목표 및 장애 진단에 AI 에이전트 도입 계획"
+     ],
+     "interpretation": "클라우드 서비스의 안정성은 MS의 핵심 경쟁력임. 이번 조치는 기술적 신뢰도 회복을 위한 강도 높은 내부 정비로, 향후 운영 효율성 개선 여부가 관건임.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "AI 에이전트 도입을 통한 실제 장애 대응 시간 단축 성과",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "65feb2432b0dead3",
+      "67e58f4a98495656"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "65b2ff81541733ea",
+   "title": "트럼프가 젠슨 황을 복귀시킨 이유…\"미국 오픈웨이트 AI 수호자\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217764",
+   "source": "AI타임스"
+  },
+  {
+   "id": "e83c1df708b84e87",
+   "title": "US Congress advances three AI chip export bills as CEO returns to Nvidia",
+   "url": "https://www.digitimes.com/news/a20261125PD211/ai-chip-nvidia-chips-equipment.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "15d38f8dd835cb1d",
+   "title": "Jensen faces a trio of tests as US AI chip controls extend to the cloud",
+   "url": "https://www.digitimes.com/news/a20261125PD204/nvidia-jensen-huang-ai-chip-hardware-exports.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "626cc5cc989fec08",
+   "title": "젠슨 황 약발 떨어졌나…'부채 우려'에 AI 관련주 동반 하락",
+   "url": "https://zdnet.co.kr/view/?no=20261125084953",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "2a463fb18bc4e697",
+   "title": "Trump open to pardoning Jensen Huang if needed: NY Post",
+   "url": "https://www.cnbc.com/2026/11/25/trump-huang-pardon-politics.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "5f097c27a20a698b",
+   "title": "레드햇, MS 손잡고 VM웨어 빈틈 파고든다…AI 인프라 주도권 경쟁 가열",
+   "url": "https://zdnet.co.kr/view/?no=20261125104214",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "ed936baac05ca9c5",
+   "title": "Samsung, Micron to pay up to US$1.5 billion in patent fees",
+   "url": "https://www.digitimes.com/news/a20261124VL223/samsung-patent-micron-licensing-chipmakers.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "f72a4b6116e271ce",
+   "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+   "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "6828abbb6a47b392",
+   "title": "젠슨 황, 복귀 후 첫 직원회의서 사과…복귀 정당성 강조",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217752",
+   "source": "AI타임스"
+  },
+  {
+   "id": "025217010c033321",
+   "title": "Nvidia shares fall more than 5% as Huang comeback rally cools",
+   "url": "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "65feb2432b0dead3",
+   "title": "MS, 대규모 시스템 장애에 '코드 레드' 발령…1시간 내 복구 목표",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217761",
+   "source": "AI타임스"
+  },
+  {
+   "id": "67e58f4a98495656",
+   "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
+   "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/",
+   "source": "Ars Technica"
+  }
+ ]
+}

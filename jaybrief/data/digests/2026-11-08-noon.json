@@ -1,0 +1,140 @@
+{
+ "generated_at": "2026-11-08T01:36:19Z",
+ "date": "2026-11-08",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아 CEO 관련 지정학적 리스크 및 TSMC의 기술 전략에 관한 시장의 관심이 집중됨.",
+   "stories": [
+    {
+     "headline": "엔비디아 젠슨 황 CEO, 중국 스파이 연루 의혹 및 장녀 방한 취소",
+     "facts": [
+      "미 정보당국이 젠슨 황 CEO와 중국 스파이 의심 인물(앨리스 황)의 연인 관계를 판단했다는 정보 메모가 공개됨",
+      "미 하원 외교·중국특위·정보위원장이 젠슨 황 CEO에게 비공개 브리핑을 요청함",
+      "엔비디아 옴니버스·로보틱스 제품 마케팅 수석이사인 매디슨 황(젠슨 황 장녀)의 방한 일정이 전격 취소됨"
+     ],
+     "interpretation": "CEO 개인의 보안 리스크가 기업의 대외 협력 및 지정학적 불확실성으로 전이되는 양상임. 특히 미국 의회의 조사 요청과 방한 취소가 맞물리며 단기적인 대외 신뢰도 및 협력 관계에 부정적 영향을 미칠 수 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "미 의회의 비공개 브리핑 결과 및 엔비디아의 보안 강화 조치 발표 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6657f55ecfee6bf6",
+      "4d3002a193836326",
+      "51dc09434a99c139",
+      "6b4c88c4f27e243c",
+      "463469aff3610d05"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "TSMC, 3D D램 직접 생산설 부인 및 파운드리 집중 전략 재확인",
+     "facts": [
+      "TSMC가 엔비디아의 요청으로 3D D램 개발을 검토 중이라는 보도에 대해 파운드리 사업 집중 입장을 밝힘",
+      "TSMC는 메모리 제조 기술 및 수율 확보의 어려움으로 인해 직접 진출보다는 첨단 패키징 협력을 선호함"
+     ],
+     "interpretation": "TSMC가 메모리 시장에 직접 진출하기보다는 로직 반도체 파운드리와 첨단 패키징이라는 핵심 역량에 집중하겠다는 의지를 재확인함. 이는 기존 메모리 업체(삼성전자, SK하이닉스)와의 직접적인 경쟁 우려를 완화하는 요소임.",
+     "affected_company_ids": [
+      "tsmc",
+      "nvidia"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "TSMC의 차세대 HBM 로직 베이스 다이 및 첨단 패키징 기술의 구체적인 로드맵.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "53bfc1ad35bff656",
+      "266e1e23710cbb5f"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "메타의 경영진 교체 및 AI 인프라 스타트업으로의 인력 이동이 확인됨.",
+   "stories": [
+    {
+     "headline": "메타 최고전략책임자(CSO) 데이브 웨너, AI 스타트업 Fireworks로 이직",
+     "facts": [
+      "메타의 데이브 웨너 CSO가 사임하고 AI 인프라 스타트업인 Fireworks의 CFO로 합류함",
+      "Fireworks는 지난 7월 기준 175억 달러의 기업 가치를 평가받은 AI 인프라 기업임"
+     ],
+     "interpretation": "메타의 핵심 경영진이 AI 인프라 전문 스타트업으로 이동하는 것은 AI 생태계 내에서 인프라 기술의 중요성이 커지고 있으며, 관련 분야로의 인재 유출이 지속되고 있음을 시사함.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "메타의 경영진 교체에 따른 AI 전략 변화 및 Fireworks의 향후 성장성.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ce95a6efebe48751"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "53bfc1ad35bff656",
+   "title": "[안테나] \"TSMC, AI용 메모리 반도체 생산 추진\"",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=343099",
+   "source": "KIPOST"
+  },
+  {
+   "id": "266e1e23710cbb5f",
+   "title": "TSMC, '3D D램' 개발설 사실상 부인…상용화도 먼 길",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217136",
+   "source": "AI타임스"
+  },
+  {
+   "id": "6657f55ecfee6bf6",
+   "title": "FT \"미 정보당국, 젠슨 황 CEO와 중국 스파이 의심 인물 연인 관계로 판단\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217135",
+   "source": "AI타임스"
+  },
+  {
+   "id": "4d3002a193836326",
+   "title": "엔비디아 젠슨 황 장녀 방한 전격 취소...국내 주요 일정 무산",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB6c2hCOHk3eHJ1X0lrTDRrb2xoUVJjVGVQbjdyX3dWbzNtczlfUU00OXhKanNXT29EMlVIRVZWNFZKUHVGa2tzQVdJZW0xZnpBX0xuWVdlR2NMTG5IVlRSQUdma1RLOFFQcEE?oc=5",
+   "source": "월요신문"
+  },
+  {
+   "id": "51dc09434a99c139",
+   "title": "젠슨 황 장녀 '매디슨 황' 방한 취소…예정됐던 국내 일정 잇따라 무산",
+   "url": "https://www.etnews.com/20261108000015",
+   "source": "전자신문"
+  },
+  {
+   "id": "6b4c88c4f27e243c",
+   "title": "젠슨 황 '中 스파이' 의심 女와 연인설…방한 하루 앞두고 장녀 매디슨 황, 돌연 취소",
+   "url": "https://www.etnews.com/20261108000012",
+   "source": "전자신문"
+  },
+  {
+   "id": "463469aff3610d05",
+   "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+   "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "ce95a6efebe48751",
+   "title": "Meta chief strategy officer Dave Wehner leaves to join AI infrastructure startup Fireworks as CFO",
+   "url": "https://www.cnbc.com/2026/11/07/dave-wehner-meta-fireworks-cfo.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

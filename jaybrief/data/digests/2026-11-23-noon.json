@@ -1,0 +1,165 @@
+{
+ "generated_at": "2026-11-23T02:55:22Z",
+ "date": "2026-11-23",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "AI 반도체 공급망 다변화 움직임과 NVIDIA 리더십 변화에 따른 시장 불확실성이 지속되고 있습니다.",
+   "stories": [
+    {
+     "headline": "Microsoft와 Google, TSMC CoWoS 대안으로 Intel EMIB 채택",
+     "facts": [
+      "Microsoft와 Google 등 클라우드 서비스 제공업체(CSP)가 TSMC의 CoWoS 패키징 대안을 모색 중",
+      "Microsoft는 자사 맞춤형 Azure 칩 생산에 Intel Foundry의 EMIB(Embedded Multi-die Interconnect Bridge) 기술을 도입하기로 결정"
+     ],
+     "interpretation": "TSMC의 AI 패키징 생산 능력(Capacity) 부족과 지정학적 리스크에 대비해 대형 고객사들이 파운드리 공급망 다변화를 본격화하고 있습니다. Intel Foundry의 기술적 경쟁력이 입증될 경우 파운드리 시장 점유율 구도에 변화가 예상됩니다.",
+     "affected_company_ids": [
+      "tsmc",
+      "microsoft",
+      "alphabet"
+     ],
+     "event_type": "supply_chain",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "Intel Foundry의 EMIB 기술 적용 이후 실제 양산 수율 및 Microsoft 외 추가 고객사 확보 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4e03e4f3e566d22c"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "미 재무부, NVIDIA 대중국 수출 의혹 관련 경영진 조사",
+     "facts": [
+      "스콧 베센트 미 재무장관이 NVIDIA의 대중국 반도체 수출 의혹에 대해 신속한 규명을 요구",
+      "미 정부가 콜렛 크레스 임시 CEO를 포함한 NVIDIA 경영진과 이사회를 대상으로 사실 확인 중"
+     ],
+     "interpretation": "NVIDIA의 대중국 수출 규제 위반 여부는 단순 기업 스캔들을 넘어 미·중 기술 패권 경쟁의 핵심 사안으로 다뤄지고 있습니다. 규제 위반이 사실로 드러날 경우 대규모 과징금 및 추가적인 수출 제한 조치가 뒤따를 수 있어 리스크가 큽니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "미 재무부의 조사 결과 발표 및 NVIDIA 경영진의 공식 해명 내용.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "0898614a6a196b77",
+      "7f219c0755ae8567",
+      "c734f1c314a4056a",
+      "922fa5888d29cf3e"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "생성형 AI 기술의 급격한 발전과 함께 개발 안전성 및 저작권 보호를 위한 규제 논의가 본격화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "OpenAI, AI 개발 속도 제한 및 안전 지표 도입 제안",
+     "facts": [
+      "OpenAI가 AI 성능 측정 지표인 '퍼플렉시티'를 기준으로 개발 속도를 조절하는 '속도 제한선' 도입 제안",
+      "안전 기술이 확보되지 않은 상태에서의 무분별한 AI 개발 경쟁에 제동을 걸어야 한다는 입장"
+     ],
+     "interpretation": "AI 모델의 지능이 급성장함에 따라 발생할 수 있는 잠재적 위험(RSI)을 관리하기 위한 업계 표준 마련이 시급해졌습니다. 이는 향후 AI 개발 비용 증가 및 출시 일정 지연 요인이 될 수 있으나, 장기적으로는 산업의 지속 가능성을 높이는 조치로 해석됩니다.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "주요 AI 기업들이 OpenAI의 제안에 동참하여 공동 개발 제한선을 수립할지 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "82a3b2b15bbce8f9",
+      "e73481137b65b6fa",
+      "24651375e4ed567d"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "한컴, AI 플랫폼 '노마디안' 미국 시장 진출 본격화",
+     "facts": [
+      "한컴이 AI 직원 플랫폼 '노마디안'의 미국 사업화를 위해 현지 전문가 영입 및 AWS와 판매 채널 구축 논의",
+      "미국 내 창업가 및 소규모 사업자를 타깃으로 시장 확대 전략 추진"
+     ],
+     "interpretation": "국내 SW 기업이 글로벌 클라우드 인프라(AWS)와 협력하여 AI 에이전트 시장에 진출하는 사례입니다. 현지화 성공 여부가 기업 가치 재평가의 핵심이 될 것입니다.",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "AWS와의 구체적인 판매 채널 계약 체결 및 미국 현지 매출 가시화 시점.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2ae3fbe8c7ccb1f4"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "4e03e4f3e566d22c",
+   "title": "Microsoft, Google turn to Intel EMIB as CSPs seek alternatives to TSMC CoWoS",
+   "url": "https://www.digitimes.com/news/a20261123PD209/intel-microsoft-cowos-google-tsmc.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "0898614a6a196b77",
+   "title": "Treasury Secretary Bessent leaves door open to Huang's return, says Nvidia still owes answers",
+   "url": "https://www.digitimes.com/news/a20261123VL203/nvidia-usa-policy-chips-taiwan.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "7f219c0755ae8567",
+   "title": "美 재무장관 \"엔비디아, 中 반도체 수출 의혹 해명해야\"",
+   "url": "https://zdnet.co.kr/view/?no=20261123094715",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "c734f1c314a4056a",
+   "title": "Jensen's exit puts Japan's physical-AI revival to the test",
+   "url": "https://www.digitimes.com/news/a20261120VL215/nvidia-jensen-huang-scandal-infrastructure-manufacturing.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "922fa5888d29cf3e",
+   "title": "Nvidia leadership shake-up tests AI rack cadence, while Taiwan suppliers eye dual GPU-ASIC opportunities",
+   "url": "https://www.digitimes.com/news/a20261120PD233/nvidia-jensen-huang-president-google-component.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "2ae3fbe8c7ccb1f4",
+   "title": "한컴, AI 직원 플랫폼 '노마디안' 美 공략 시동…AWS와 협력 확대",
+   "url": "https://zdnet.co.kr/view/?no=20261123100600",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "82a3b2b15bbce8f9",
+   "title": "[AI는 지금] 폭주하는 AI 개발 경쟁 제동거나…오픈AI, '속도 제한선' 제시",
+   "url": "https://zdnet.co.kr/view/?no=20261123094903",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "24651375e4ed567d",
+   "title": "오픈AI \"사전학습으로 AI 지능 급성장…RSI 대비해 개발 제한해야\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217665",
+   "source": "AI타임스"
+  },
+  {
+   "id": "e73481137b65b6fa",
+   "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+   "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+   "source": "TechCrunch"
+  }
+ ]
+}

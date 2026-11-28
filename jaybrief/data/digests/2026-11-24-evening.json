@@ -1,0 +1,162 @@
+{
+ "generated_at": "2026-11-24T06:10:45Z",
+ "date": "2026-11-24",
+ "edition": "evening",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아 젠슨 황 CEO의 복귀와 이에 따른 미국 정부 및 의회의 수출 통제 강화 움직임, 그리고 삼성전자의 정기 임원 인사 등 반도체 업계의 주요 이슈를 다룹니다.",
+   "stories": [
+    {
+     "headline": "젠슨 황 엔비디아 CEO 복귀 및 미국 의회의 수출 규제 조사 강화",
+     "facts": [
+      "젠슨 황이 사임 11일 만에 엔비디아 CEO 및 이사회 이사로 복귀함",
+      "미국 의회는 엔비디아의 중국 수출 통제 준수 여부와 트럼프 대통령의 복귀 개입 경위를 조사할 예정",
+      "미 상무부는 엔비디아의 고객사인 싱가포르 메가스피드를 수출 통제 블랙리스트에 등재함"
+     ],
+     "interpretation": "젠슨 황의 복귀로 경영 불확실성은 일부 해소되었으나, 미국 의회의 초당적 반발과 수출 통제 위반 의혹 조사가 지속되어 중국 관련 사업 리스크는 여전히 높은 상황임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "12월 3일 예정된 엔비디아 관련 미국 상원 공개 청문회 결과 및 추가적인 수출 통제 조치 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "721505d2bf5c0385",
+      "ccb6a1ee956d3af3",
+      "c3f18b300f510d92",
+      "e75da91a17f978e1",
+      "d69e697757753f01",
+      "e58ffac75babf408"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자 2027년 정기 임원 인사: 반도체 성과주의 강화",
+     "facts": [
+      "삼성전자가 2027년 정기 임원 인사에서 총 131명을 승진시킴 (전년 대비 감소)",
+      "반도체(DS) 부문은 역대 최대 실적을 반영하여 승진자 비중을 유지 및 강화함",
+      "HBM4 개발 및 양산, 파운드리 수주 확대 등 핵심 인재를 중용함"
+     ],
+     "interpretation": "전체적인 승진 규모는 축소되었으나, 반도체 부문 내 핵심 인재 발탁을 통해 AI 반도체 시장 경쟁력 확보와 성과주의 기조를 명확히 함.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "조직개편 및 보직 인사를 통한 구체적인 사업 전략 변화 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "632ff9f32a4318fb",
+      "d8a62372d8aed32e",
+      "417e985239865e48",
+      "0f578358b536005e"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "클라우드 보안 취약점 이슈와 AI 에이전트 및 서비스 관련 기업 동향을 다룹니다.",
+   "stories": [
+    {
+     "headline": "MS 애저 클라우드 보안 취약점 발견 및 피해 확산",
+     "facts": [
+      "마이크로소프트 애저 API 관리(APIM) 클래식 티어에서 치명적 보안 취약점 발견",
+      "노르웨이 에너지 기업들이 해당 취약점을 악용한 침해 사고를 당함",
+      "MS는 자동 완화 조치를 적용했으나, 고객사별 직접적인 침해 조사 및 보안 키 교체 권고"
+     ],
+     "interpretation": "클라우드 서비스의 보안 결함은 기업의 핵심 정보 유출로 이어질 수 있어, 클라우드 기반 인프라를 사용하는 기업들의 보안 점검 비용 증가 및 신뢰도 타격이 우려됨.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "추가적인 보안 사고 발생 여부 및 클라우드 서비스 제공업체의 보안 강화 조치 발표.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3a23dbe0e011552b"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "3a23dbe0e011552b",
+   "title": "MS 클라우드, 관리자 권한 털리는 취약점 '주의보'…노르웨이 피해 속출",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65850",
+   "source": "디일렉"
+  },
+  {
+   "id": "632ff9f32a4318fb",
+   "title": "삼성전자 역대급 실적에도 임원 승진은 9년 만에 최소",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65820",
+   "source": "디일렉"
+  },
+  {
+   "id": "0f578358b536005e",
+   "title": "삼성전자 2027년 정기 임원 인사...부사장 39명, 상무 78명, Fellow 2명, Master 12명 등 총 131명 승진",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=343604",
+   "source": "KIPOST"
+  },
+  {
+   "id": "721505d2bf5c0385",
+   "title": "젠슨 황 복귀에 미 의회 초당적 반발…AI 칩 수출 규제 강화 요구",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217721",
+   "source": "AI타임스"
+  },
+  {
+   "id": "ccb6a1ee956d3af3",
+   "title": "NYT \"앨리스 황, 중국 정보기관과 1년 넘게 접촉\"…정부 조사는 계속",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217718",
+   "source": "AI타임스"
+  },
+  {
+   "id": "c3f18b300f510d92",
+   "title": "미국, 메가스피드 블랙리스트 등재…황 CEO 복귀 당일 AI 칩 공급 차단",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217722",
+   "source": "AI타임스"
+  },
+  {
+   "id": "d8a62372d8aed32e",
+   "title": "삼성전자, 2027 임원인사…반도체 인재 중용 ‘성과주의’ 재확인",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217717",
+   "source": "AI타임스"
+  },
+  {
+   "id": "417e985239865e48",
+   "title": "[2027 삼성전자 인사] 'HBM4 주역' 전면에…반도체가 승진자 절반 넘었다",
+   "url": "https://www.etnews.com/20261124000378",
+   "source": "전자신문"
+  },
+  {
+   "id": "e75da91a17f978e1",
+   "title": "Jensen Huang Back In Charge Of Nvidia",
+   "url": "https://www.nextplatform.com/ai/2026/11/23/jensen-huang-back-in-charge-of-nvidia/5311691",
+   "source": "The Next Platform"
+  },
+  {
+   "id": "d69e697757753f01",
+   "title": "젠슨 황, 사임 11일 만에 엔비디아 CEO 복귀…美 정치권 반발 확산",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65796",
+   "source": "디일렉"
+  },
+  {
+   "id": "e58ffac75babf408",
+   "title": "젠슨 황, 사임 11일 만에 엔비디아 CEO 복귀…트럼프 직접 개입",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217707",
+   "source": "AI타임스"
+  }
+ ]
+}

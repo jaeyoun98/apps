@@ -1,0 +1,180 @@
+{
+ "generated_at": "2026-11-16T02:16:14Z",
+ "date": "2026-11-16",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 산업은 AI 데이터센터 수요 급증에 따른 장비 투자 확대와 칩렛 기술 표준화가 진행되는 가운데, NVIDIA의 경영 리스크와 지정학적 규제 이슈가 시장의 불확실성을 높이고 있습니다.",
+   "stories": [
+    {
+     "headline": "NVIDIA 경영진 공백 및 중국향 칩 우회 수출 의혹 심화",
+     "facts": [
+      "젠슨 황 CEO 사임 이후 후임자 선임 및 거버넌스 리스크 부각",
+      "미국 재무장관 스콧 베센트가 외부 CEO 영입 및 중국 칩 판매 관련 10일 내 답변 요구",
+      "NVIDIA 대만 직원이 연루된 AI 서버 중국 우회 수출 사건 조사 진행 중"
+     ],
+     "interpretation": "NVIDIA의 경영 리스크는 AI 산업 전반의 밸류에이션에 하방 압력을 가할 수 있습니다. 특히 중국향 수출 규제 준수 여부에 대한 미 정부의 강경한 태도는 향후 NVIDIA의 매출 구조와 대중국 전략에 중대한 변화를 초래할 가능성이 큽니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "NVIDIA의 차기 CEO 선임 과정 및 미 정부의 추가 수출 규제 조치 발표 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d7e46a1b2c6504d6",
+      "0e9e079a14cc5336",
+      "f63929b51a37a0dc",
+      "257f8770a375aa98",
+      "13d9f138f9819f7e",
+      "77fcb36bdaac8448"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "SK하이닉스, 용인 클러스터 내 소부장 상생 팹 '트리니티팹' 구축",
+     "facts": [
+      "SK하이닉스 용인 1기 팹 내 소부장 신기술 검증 공간 '트리니티팹' 조성",
+      "반도체 장비 개발 및 양산 적용 기간을 기존 5년에서 1년가량 단축 기대"
+     ],
+     "interpretation": "소부장 생태계와의 밀착 협업은 공정 효율화와 신기술 도입 속도를 높여 장기적으로 SK하이닉스의 메모리 제조 경쟁력을 강화하는 요인이 될 것입니다.",
+     "affected_company_ids": [
+      "sk-hynix"
+     ],
+     "event_type": "supply_chain",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "트리니티팹을 통한 실제 공정 수율 개선 및 신규 장비 도입 속도.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "406a79e75f0b40a8",
+      "baaaa9e4a78e9394",
+      "a33efe8686f19a47"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 및 AI 서비스 분야에서는 기업들의 AI 에이전트 도입과 전력 인프라 협력이 가속화되고 있으며, 마이크로소프트 등 빅테크 기업의 클라우드 가격 정책 변화가 시장에 영향을 주고 있습니다.",
+   "stories": [
+    {
+     "headline": "마이크로소프트, 인도 클라우드 가격 15% 인상 및 중국 비용 절감",
+     "facts": [
+      "마이크로소프트가 인도 지역 클라우드 서비스 가격을 15% 인상",
+      "중국 시장 내 운영 비용 절감 조치 병행"
+     ],
+     "interpretation": "지역별 차등 가격 정책은 수익성 개선을 위한 전략적 선택으로 보이며, 지정학적 리스크가 큰 중국 시장에서의 비용 효율화는 향후 빅테크 기업들의 글로벌 운영 전략 변화를 시사합니다.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "타 클라우드 사업자들의 가격 정책 변화 및 인도 시장 내 점유율 추이.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "dc9657b9d64aa902"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "아마존, 전 세계 상품 데이터 확보를 위한 '월드 프로덕트 그래프' 추진",
+     "facts": [
+      "아마존이 자사 판매 여부와 관계없이 전 세계 모든 상품 데이터를 수집하는 프로젝트 추진",
+      "소비자의 쇼핑 경험을 아마존 플랫폼 내에 가두려는 전략"
+     ],
+     "interpretation": "데이터 주도권을 강화하여 쇼핑 생태계 내 영향력을 극대화하려는 시도로, 향후 이커머스 시장에서의 검색 및 추천 알고리즘 경쟁력을 크게 높일 것으로 전망됩니다.",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "데이터 수집 과정에서의 규제 당국 대응 및 경쟁사들의 데이터 보호 전략.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d37f979d0200a616"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "406a79e75f0b40a8",
+   "title": "한쪽은 메모리 공장, 한쪽은 소부장 실험실... SK하이닉스 용인 팹 3층 가보니",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65286",
+   "source": "디일렉"
+  },
+  {
+   "id": "d7e46a1b2c6504d6",
+   "title": "Huang's resignation casts doubt on Nvidia orders; Taiwan suppliers eye mid-2027 pivot",
+   "url": "https://www.digitimes.com/news/a20261116PD206/taiwan-nvidia-jensen-huang-investigation.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "0e9e079a14cc5336",
+   "title": "Megaspeed says former executive Alice Huang left in 2025",
+   "url": "https://www.digitimes.com/news/a20261116VL203/2025-nvidia-ap-partnership-chips.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "f63929b51a37a0dc",
+   "title": "Allies rally for Jensen Huang’s return as Nvidia faces compliance and succession questions",
+   "url": "https://www.digitimes.com/news/a20261116VL201/nvidia-governance-jensen-huang.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "257f8770a375aa98",
+   "title": "Nvidia lobbies Taiwan officials over employee charged in AI server diversion case",
+   "url": "https://www.digitimes.com/news/a20261116VL206/nvidia-taiwan-investigation-bloomberg-manufacturing.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "13d9f138f9819f7e",
+   "title": "Bessent urges Nvidia to hire outside CEO, demands answers on China chip sales within 10 days",
+   "url": "https://www.digitimes.com/news/a20261116VL208/nvidia-ceo-sales-revenue-earnings.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "baaaa9e4a78e9394",
+   "title": "\"제품 상용화 1년도 줄이죠\"…SK하이닉스 상생협력에 소부장 '함박웃음'",
+   "url": "https://zdnet.co.kr/view/?no=20261113145501",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "a33efe8686f19a47",
+   "title": "[르포] 양산 검증 장벽 허문다…SK하이닉스가 용인에 품은 '상생의 팹'",
+   "url": "https://zdnet.co.kr/view/?no=20261113134910",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "77fcb36bdaac8448",
+   "title": "젠슨 황, 엔비디아 CEO 복귀 논의…측근들 백악관 설득 추진",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217428",
+   "source": "AI타임스"
+  },
+  {
+   "id": "d37f979d0200a616",
+   "title": "전 세계 상품 정보 모은다…아마존, ‘월드 프로덕트 그래프’ 추진",
+   "url": "https://zdnet.co.kr/view/?no=20261116090038",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "dc9657b9d64aa902",
+   "title": "Microsoft lifts Indian cloud prices by 15 percent, cuts costs in China",
+   "url": "https://www.theregister.com/off-prem/2026/11/15/microsoft-lifts-indian-cloud-prices-by-15-percent-cuts-costs-in-china/5309993",
+   "source": "The Register"
+  }
+ ]
+}

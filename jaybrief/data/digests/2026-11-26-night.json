@@ -1,0 +1,172 @@
+{
+ "generated_at": "2026-11-26T12:58:04Z",
+ "date": "2026-11-26",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 섹터는 미국 정부의 대중국 수출 규제 강화와 공급망 압박이 지속되는 가운데, 주요 기업들의 경영 리스크와 기술 패권 경쟁이 심화되고 있습니다.",
+   "stories": [
+    {
+     "headline": "S&P, 엔비디아 신용등급 하향 검토…지배구조 불안 지속",
+     "facts": [
+      "국제 신용평가사 S&P 글로벌이 엔비디아의 신용등급을 '부정적 관찰 대상'으로 지정함",
+      "젠슨 황 CEO의 사임과 복귀 과정에서 이사회의 독립성과 경영진 감독 기능에 대한 우려가 제기됨"
+     ],
+     "interpretation": "경영진 리스크가 기업 신용도에 직접적인 영향을 미치기 시작함. 지배구조 불확실성은 투자자 신뢰 저하와 자본 조달 비용 상승으로 이어질 수 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "엔비디아 이사회의 지배구조 개선 조치 및 S&P의 최종 등급 결정 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "de97a8f2f43a344e",
+      "04cdc4d71ab1235b"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "미국 대중국 반도체 규제 강화로 아시아 데이터센터 자금 조달 차질",
+     "facts": [
+      "미국의 AI 반도체 수출 규제 강화로 중국 기업 고객을 둔 아시아 데이터센터 사업의 대출 거래가 보류되거나 재검토됨",
+      "바이트댄스, 알리바바, 텐센트 관련 약 10조 원 규모의 대출 사업이 영향을 받음"
+     ],
+     "interpretation": "미국의 규제가 단순 칩 공급을 넘어 데이터센터 인프라 투자와 금융 생태계 전반으로 확산됨. 중국 내 AI 인프라 확장이 물리적·재무적 제약에 직면함.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "중국 관련 데이터센터 프로젝트의 추가적인 자금 조달 중단 사례 발생 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "de4991e51d57702d"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "엔비디아, 동남아 서버 수출 중단…미국 신규 규제 영향",
+     "facts": [
+      "엔비디아가 말레이시아, 싱가포르, 태국, 인도네시아 등 동남아 4개국에 대한 서버 수출을 중단함",
+      "중국 기업의 우회 경로를 차단하려는 미국 정부의 신규 수출 통제 규칙이 적용됨"
+     ],
+     "interpretation": "미국의 대중국 규제가 우회 수출을 막기 위해 주변국 공급망까지 타겟팅하고 있음. 공급망 복잡성이 증가하며 엔비디아의 아시아 매출 변동성이 커질 전망.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "supply_chain",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "미국 정부의 추가적인 수출 통제 범위 확대 및 동남아 지역 매출 타격 규모.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "df9e14bdb820d104"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 및 AI 섹터는 기업들의 AI 도입 성숙도가 높아지는 한편, 빅테크 기업들의 플랫폼 통제권 강화와 데이터 보안 규제가 주요 이슈로 부상했습니다.",
+   "stories": [
+    {
+     "headline": "구글, 외부 AI 에이전트의 워크스페이스 서비스 접근 유료화",
+     "facts": [
+      "구글이 지메일, 드라이브 등 워크스페이스 서비스에 접근하는 외부 AI 에이전트에 사용량 제한 및 유료 요금제를 도입함",
+      "대규모 AI 서비스를 운영하는 기업에 새로운 비용 부담이 발생함"
+     ],
+     "interpretation": "빅테크가 자사 데이터 생태계의 통제권을 강화하고 수익화 모델을 구체화함. 외부 AI 에이전트 개발사들의 운영 비용 증가가 예상됨.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "policy",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "외부 AI 에이전트 개발사들의 구글 워크스페이스 API 이용률 변화 및 반발 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f9b72e31c0ebcfeb",
+      "94170e8f3ffe0101"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "아마존-메타, AI 에이전트 '뮤즈' 쇼핑몰 접근 차단 해제 협상",
+     "facts": [
+      "아마존과 메타가 AI 에이전트 '뮤즈'의 아마존 쇼핑몰 접근 허용을 위한 협상을 진행 중임",
+      "상품 검색 결과와 광고 처리 방식이 협상의 핵심 쟁점임"
+     ],
+     "interpretation": "AI 에이전트가 쇼핑 플랫폼의 검색 및 광고 수익 모델을 위협함에 따라, 플랫폼 기업과 AI 개발사 간의 주도권 다툼이 본격화됨.",
+     "affected_company_ids": [
+      "amazon",
+      "meta"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "양사 간 협상 타결 여부 및 향후 AI 에이전트의 커머스 플랫폼 연동 방식.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6b3e20b38d2976f3"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "de4991e51d57702d",
+   "title": "미국 AI 칩 규제에 중국 관련 데이터센터 대출 10조원 차질",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217810",
+   "source": "AI타임스"
+  },
+  {
+   "id": "de97a8f2f43a344e",
+   "title": "S&P, 엔비디아 신용등급 하향 검토…황 복귀에도 지배구조 불안",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217811",
+   "source": "AI타임스"
+  },
+  {
+   "id": "df9e14bdb820d104",
+   "title": "Nvidia reportedly halts server shipments to four Southeast Asian countries as new US chip rule bites",
+   "url": "https://www.digitimes.com/news/a20261126VL220/nvidia-chips-manufacturing-shipping-data.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "04cdc4d71ab1235b",
+   "title": "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
+   "url": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "6b3e20b38d2976f3",
+   "title": "아마존·메타, AI 에이전트 '뮤즈' 접근 차단 해제 협상",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217831",
+   "source": "AI타임스"
+  },
+  {
+   "id": "f9b72e31c0ebcfeb",
+   "title": "구글, 외부 AI 에이전트에 지메일·드라이브 이용료 부과",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217820",
+   "source": "AI타임스"
+  },
+  {
+   "id": "94170e8f3ffe0101",
+   "title": "구글, 지메일·캘린더 연동 많이 쓰는 외부 AI에 요금 부과",
+   "url": "https://www.etnews.com/20261126000560",
+   "source": "전자신문"
+  }
+ ]
+}

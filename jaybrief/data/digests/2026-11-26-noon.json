@@ -1,0 +1,158 @@
+{
+ "generated_at": "2026-11-26T04:13:55Z",
+ "date": "2026-11-26",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아의 지배구조 리스크와 신용등급 강등 가능성이 부각되며 AI 반도체 섹터 전반의 투자 심리가 위축되었습니다. 한편, 중국의 메모리 기술 도입과 미국의 수출 통제 강화가 공급망 재편을 가속화하고 있습니다.",
+   "stories": [
+    {
+     "headline": "S&P, 엔비디아 신용등급 강등 검토…지배구조 및 '키맨' 리스크 부각",
+     "facts": [
+      "S&P Global Ratings가 엔비디아의 장기 기업 신용등급을 'AA'에서 부정적 관찰 대상으로 지정함",
+      "젠슨 황 CEO 복귀 과정의 지배구조 문제와 대중국 수출통제 위반 의혹이 주요 원인으로 지목됨",
+      "엔비디아의 경영 체계 악화와 핵심 인물에 대한 과도한 의존도가 리스크로 평가됨"
+     ],
+     "interpretation": "엔비디아의 독보적인 시장 지위에도 불구하고, 기업 거버넌스 리스크가 신용등급에 직접적인 타격을 줄 수 있음을 시사합니다. 이는 향후 자금 조달 비용 상승 및 기관 투자자의 투자 심리 위축으로 이어질 수 있습니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "S&P의 최종 신용등급 조정 여부와 엔비디아 이사회의 거버넌스 개선 조치를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "04cdc4d71ab1235b",
+      "fd8d8b4c5cafc6c9",
+      "68b2a7d4689fe23c",
+      "6941ebb23435be47"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자·SK하이닉스, 중국 YMTC의 3D NAND 적층 기술 도입",
+     "facts": [
+      "삼성전자와 SK하이닉스가 중국 YMTC의 3D NAND 적층 기술인 'Xtacking'을 크로스 라이선스 계약을 통해 도입함",
+      "400단 이상의 차세대 메모리 개발을 위한 기술적 협력의 일환으로 해석됨"
+     ],
+     "interpretation": "중국 메모리 기술이 글로벌 표준으로 자리 잡는 과정에서 국내 기업들이 기술적 효율성을 위해 중국 특허를 수용하는 전략적 변화를 보이고 있습니다. 이는 지정학적 리스크와 기술적 실리 사이의 복잡한 타협을 보여줍니다.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "supply_chain",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "미국의 대중국 반도체 제재 기조와 해당 기술 도입이 향후 수출 규제에 미칠 영향을 모니터링해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "350684c28a8013e4"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 인프라의 확장과 함께 서비스 통합 및 규제 환경 변화가 소프트웨어 산업의 주요 변수로 작용하고 있습니다. 특히 AI 에이전트 관련 보안 위협과 플랫폼 정책 변화가 기업 운영에 영향을 미치고 있습니다.",
+   "stories": [
+    {
+     "headline": "오픈AI, 챗GPT와 코덱스 사용량 통합…헤비 유저 한도 조기 소진 우려",
+     "facts": [
+      "오픈AI가 12월부터 챗GPT의 '채팅'과 '업무' 기능을 통합하고 사용량 한도를 하나로 합침",
+      "두 서비스를 동시에 많이 사용하는 헤비 유저의 경우 기존보다 서비스 이용 한도가 빨리 소진될 수 있음"
+     ],
+     "interpretation": "서비스 통합은 사용자 경험의 일관성을 높이기 위한 조치이나, 기업용 및 개발자용 사용량이 많은 헤비 유저에게는 비용 부담이나 서비스 제한으로 작용할 수 있어 플랫폼 의존도에 대한 재평가가 필요합니다.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "사용자들의 서비스 이용 패턴 변화와 오픈AI의 요금제 개편 가능성을 주시해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "b3b3d1c4da2304d9",
+      "1738f28786264635"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "마이크로소프트, 서비스 장애 및 구조조정 여파로 내부 비상 체제 돌입",
+     "facts": [
+      "마이크로소프트가 전 세계적인 서비스 장애를 겪으며 내부 비상 체제에 돌입함",
+      "대규모 인력 감축 이후 숙련된 엔지니어 이탈로 인한 기술 역량 저하 우려가 제기됨"
+     ],
+     "interpretation": "AI 중심의 사업 재편 과정에서 발생한 운영상의 취약점은 마이크로소프트의 클라우드 신뢰도에 타격을 줄 수 있습니다. 인력 구조조정이 핵심 인프라 안정성에 미치는 영향이 가시화되고 있습니다.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "향후 유사한 서비스 장애 발생 여부와 개발자 인력 이탈에 따른 기술 경쟁력 유지 여부를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "3799505e7975acea"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "04cdc4d71ab1235b",
+   "title": "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
+   "url": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "350684c28a8013e4",
+   "title": "YMTC now licenses NAND tech to Samsung, SK Hynix: Inside the Xtacking patent wall reshaping 400-layer memory",
+   "url": "https://www.digitimes.com/news/a20261126VL210/samsung-sk-hynix-ymtc-nand-patent.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "fd8d8b4c5cafc6c9",
+   "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+   "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "68b2a7d4689fe23c",
+   "title": "S&P, 엔비디아 신용등급 강등 검토…“경영·지배구조 체계 악화”",
+   "url": "https://www.etnews.com/20261126000047",
+   "source": "전자신문"
+  },
+  {
+   "id": "6941ebb23435be47",
+   "title": "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts",
+   "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-governance.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "b3b3d1c4da2304d9",
+   "title": "오픈AI, 챗GPT·코덱스 사용량 통합…\"헤비 유저 한도 조기 소진 가능\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217800",
+   "source": "AI타임스"
+  },
+  {
+   "id": "3799505e7975acea",
+   "title": "[유미's 픽] 감원 칼바람 불던 MS, 결국 '코드 레드'…개발자들이 우려한 까닭은",
+   "url": "https://zdnet.co.kr/view/?no=20261126111644",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "1738f28786264635",
+   "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+   "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+   "source": "TechCrunch"
+  }
+ ]
+}

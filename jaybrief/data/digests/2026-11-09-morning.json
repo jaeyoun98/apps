@@ -1,0 +1,116 @@
+{
+ "generated_at": "2026-11-08T16:07:21Z",
+ "date": "2026-11-09",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아 관련 이슈와 TSMC의 메모리 사업 진출설 부인 등 반도체 업계의 주요 동향이 이어지고 있습니다. 특히 엔비디아 CEO 관련 스파이 의혹과 방한 취소 등 대외적 불확실성이 부각되는 가운데, 국내 반도체 기업들은 기술 협력과 공정 고도화에 집중하고 있습니다.",
+   "stories": [
+    {
+     "headline": "TSMC, 차세대 3D D램 생산 검토설 공식 부인",
+     "facts": [
+      "TSMC가 엔비디아 요청으로 3D D램 생산을 검토 중이라는 외신 보도에 대해 공식 부인함",
+      "TSMC는 기존 파운드리 사업에 집중하겠다는 원론적 입장을 재확인함",
+      "업계에서는 TSMC의 3D D램 진출이 HBM 시장에 미칠 직접적 영향은 제한적일 것으로 분석함"
+     ],
+     "interpretation": "TSMC가 파운드리 본업에 집중하겠다고 밝힘으로써 메모리 반도체 시장 진출에 대한 시장의 우려를 일단락시켰습니다. 다만 기술 확장 가능성은 열려 있어 향후 첨단 패키징 및 메모리 협력 구도 변화를 지속적으로 모니터링할 필요가 있습니다.",
+     "affected_company_ids": [
+      "nvidia",
+      "tsmc",
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "TSMC의 첨단 패키징 분야에서의 메모리 기업들과의 구체적인 협력 로드맵 확인이 필요합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "7886cf4b6a3e72a7"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아 젠슨 황 CEO 관련 스파이 의혹 및 방한 취소",
+     "facts": [
+      "미국 정보당국이 젠슨 황 CEO와 중국 스파이 의심 인물의 연인 관계를 판단했다는 FT 보도 발생",
+      "매디슨 황 엔비디아 수석이사의 방한이 돌연 취소되었으나 '엔비디아 AI 데이'는 예정대로 진행됨",
+      "미국 의회는 엔비디아에 보안 대책 관련 비공개 브리핑을 요청함"
+     ],
+     "interpretation": "젠슨 황 CEO를 둘러싼 스파이 의혹과 가족의 방한 취소는 엔비디아의 대중국 사업 리스크를 부각시키며 단기적인 주가 변동성을 유발할 수 있습니다. 미국 의회의 조사 움직임은 향후 엔비디아의 보안 및 수출 통제 규정 준수 압박으로 이어질 전망입니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "11월 18일 예정된 미국 의회 비공개 브리핑 결과와 엔비디아의 보안 강화 조치 발표 여부를 주시해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6c18400815ffbb4b",
+      "64d5cdde7314bd98"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트 기술의 고도화와 기업들의 AI 도입 전략이 가속화되고 있습니다. AWS의 에이전트 관리 툴 출시와 같이 개발 생산성을 높이는 솔루션이 등장하는 한편, 플랫폼 기업들의 수익 모델 다변화 전략도 활발합니다.",
+   "stories": [
+    {
+     "headline": "AWS, AI 에이전트 조율 및 자동화 툴 '키로 봇' 출시",
+     "facts": [
+      "AWS가 여러 AI 에이전트의 작업을 조율하고 반복 업무를 자동화하는 '키로 봇' 출시",
+      "각 에이전트가 과거 작업과 판단 기준을 기억하여 지속적인 업무 관리가 가능함",
+      "개발자가 직접 에이전트를 감독하는 부담을 줄여 개발 생산성 향상을 목표로 함"
+     ],
+     "interpretation": "AI 에이전트가 단순 작업을 넘어 지속적인 업무 관리 영역으로 확장되고 있습니다. 이는 기업의 AI 도입 효율성을 높이는 핵심 동력이 될 것이며, 클라우드 플랫폼 간의 AI 개발 환경 경쟁이 더욱 치열해질 것으로 예상됩니다.",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "실제 기업 환경에서의 작업 정확도와 비용 효율성에 대한 시장의 검증 결과를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "e0ed95e825f71ae3"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "7886cf4b6a3e72a7",
+   "title": "TSMC '메모리 반도체 사업 진출설' 공식 부인…“기존 파운드리 집중”",
+   "url": "https://www.etnews.com/20261108000094",
+   "source": "전자신문"
+  },
+  {
+   "id": "6c18400815ffbb4b",
+   "title": "FT \"미 당국, 젠슨 황 CEO와 중국 스파이 의심 인물 연인 관계로 판단\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217135",
+   "source": "AI타임스"
+  },
+  {
+   "id": "64d5cdde7314bd98",
+   "title": "매디슨 황 방한 취소…'엔비디아 AI 데이'는 예정대로",
+   "url": "https://zdnet.co.kr/view/?no=20261108115633",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "e0ed95e825f71ae3",
+   "title": "AWS, 여러 AI 에이전트 지휘하는 '키로 봇' 출시",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217141",
+   "source": "AI타임스"
+  }
+ ]
+}

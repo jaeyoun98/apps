@@ -1,0 +1,227 @@
+{
+ "generated_at": "2026-11-11T02:00:32Z",
+ "date": "2026-11-11",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아 CEO 관련 리스크가 시장 전반의 불확실성을 키우는 가운데, 국내 반도체 생태계는 기술 개발 및 수주 성과를 통해 펀더멘털 강화에 집중하고 있습니다.",
+   "stories": [
+    {
+     "headline": "젠슨 황 엔비디아 CEO 사생활 및 스파이 연루 의혹 확산",
+     "facts": [
+      "젠슨 황 CEO의 사생활 논란이 중국 정보기관 연계 의혹으로 확대됨",
+      "엔비디아 시가총액이 이틀간 약 4000억달러(약 540조원) 증발",
+      "엔비디아는 법무법인 Wachtell Lipton을 선임해 내부 조사 착수"
+     ],
+     "interpretation": "경영진의 도덕적 리스크가 지정학적 안보 이슈와 결합되어 기업 가치에 심각한 타격을 주고 있습니다. 미중 패권 경쟁 속에서 기술 보안 및 지배구조 리스크가 현실화됨에 따라 투자 심리 위축이 당분간 지속될 전망입니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "미국 정부의 공식 조사 착수 여부 및 엔비디아 이사회의 후속 조치 발표를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "081f37a839660810",
+      "e75519c041031530",
+      "c0852edc9628ca29",
+      "3f9879344656ca31",
+      "027b31a2692a9579",
+      "a5f75b277f63d2ca"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자 파트너사 및 생태계, AI 반도체 기술 성과 가시화",
+     "facts": [
+      "에이피시스템, 올해 반도체 부문 신규 수주 1000억원 돌파",
+      "팹리스 딥엑스, 삼성전자 2나노 공정 기반 AI 칩 'DX-M2' 설계 완료 및 양산 준비",
+      "SK하이닉스, LPDDR5X D램으로 기능안전 및 사이버보안 국제 인증 획득"
+     ],
+     "interpretation": "삼성전자 파운드리 생태계 내 팹리스의 공정 채택과 장비사의 수주 증가는 국내 반도체 공급망의 기술적 성숙도를 보여줍니다. SK하이닉스의 보안 인증 획득은 고부가가치 메모리 시장에서의 경쟁 우위를 강화하는 요인입니다.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "sk-hynix"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "딥엑스의 2나노 칩 양산 성공 여부와 삼성 파운드리 고객사 확대 추이를 지켜봐야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c0f1a26859e040d3",
+      "99408f9063b73386",
+      "3ddcfff35734cfe3",
+      "1b04a32dce0a948a"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 모델의 기업용 서비스 확장과 함께 주요 빅테크 기업들의 인프라 경쟁 및 IPO 관련 시장 움직임이 활발합니다.",
+   "stories": [
+    {
+     "headline": "앤트로픽 IPO 추진 및 기업용 AI 서비스 경쟁 가속화",
+     "facts": [
+      "앤트로픽, 최대 1.4조달러 기업가치 목표로 IPO 추진",
+      "앤트로픽, 클로드용 '엑셀(Sheets)' 및 '화이트보드' 베타 출시",
+      "구글, '제미나이 4 카본' 출시하며 API 가격 경쟁력 강조"
+     ],
+     "interpretation": "앤트로픽의 IPO는 AI 시장의 수익성 검증 시험대가 될 것입니다. MS와 구글이 장악한 사무용 AI 시장에 앤트로픽이 도전장을 내밀면서 기업용 AI 솔루션 시장의 경쟁이 더욱 치열해질 전망입니다.",
+     "affected_company_ids": [
+      "microsoft",
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "앤트로픽의 IPO 공모가 확정 및 시장 반응이 AI 섹터 전반의 밸류에이션에 미칠 영향을 주시해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9133ca6e42b86071",
+      "0dd7749381016b40",
+      "434a6696b122a686",
+      "992cb3de9dc1ffd6"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "AMD, 임베디드 AI 인프라 겨냥한 신규 CPU 출시",
+     "facts": [
+      "AMD, 에픽 임베디드 9006 SP7 CPU 출시",
+      "전 세대 대비 코어 수 33% 증가 및 PCIe 6.0 지원",
+      "AI 인프라 및 고성능 연산 환경 타겟"
+     ],
+     "interpretation": "서버 및 임베디드 시장에서 코어 밀도와 데이터 전송 속도를 높인 신제품 출시는 AI 인프라 수요를 선점하려는 AMD의 전략적 행보입니다. 데이터센터 효율화 요구에 대응하여 시장 점유율 확대가 기대됩니다.",
+     "affected_company_ids": [
+      "amd"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "신규 CPU의 데이터센터 도입 속도와 경쟁사 대비 성능 우위가 실제 매출로 이어지는지 확인이 필요합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ebc482013c2a9624",
+      "304291a1311d9b2a",
+      "b0d4fa1a9313b109"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "c0f1a26859e040d3",
+   "title": "AP시스템, 반도체 부문 신규 수주 1000억원 돌파",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65229",
+   "source": "디일렉"
+  },
+  {
+   "id": "99408f9063b73386",
+   "title": "딥엑스, 삼성 2나노 칩 'DX-M2' 마스크 제작 착수...내년 4분기 양산",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65250",
+   "source": "디일렉"
+  },
+  {
+   "id": "3ddcfff35734cfe3",
+   "title": "SK하이닉스, 안전·보안 국제 인증으로 피지컬 AI 메모리 신뢰성 강화",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=343201",
+   "source": "KIPOST"
+  },
+  {
+   "id": "1b04a32dce0a948a",
+   "title": "딥엑스, 2026 특허기술상 ‘홍대용상’ 수상…AI반도체 원천기술 인정",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=343202",
+   "source": "KIPOST"
+  },
+  {
+   "id": "081f37a839660810",
+   "title": "CEO 불륜의 대가, 엔비디아 '540조' 증발… 장중 시총 3위로 밀려",
+   "url": "https://www.etnews.com/20261111000132",
+   "source": "전자신문"
+  },
+  {
+   "id": "e75519c041031530",
+   "title": "\"앨리스 황, 엔비디아 GPU 24만개 중국 우회 수출 관여\"",
+   "url": "https://zdnet.co.kr/view/?no=20261111085646",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "c0852edc9628ca29",
+   "title": "일파만파 번지는 의혹...젠슨 황, 무엇을 답해야 하나",
+   "url": "https://zdnet.co.kr/view/?no=20261111011038",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "a5f75b277f63d2ca",
+   "title": "Nvidia sells off for second day in fallout from Jensen Huang’s affair with alleged spy",
+   "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "ebc482013c2a9624",
+   "title": "AMD, AI 인프라 겨냥 에픽 임베디드 9006 SP7 CPU 출시",
+   "url": "https://zdnet.co.kr/view/?no=20261111021324",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "304291a1311d9b2a",
+   "title": "How The “Venice” Epycs Measure Up Against Prior AMD Server CPUs",
+   "url": "https://www.nextplatform.com/compute/2026/11/10/how-the-venice-epycs-measure-up-against-prior-amd-server-cpus/5308901",
+   "source": "The Next Platform"
+  },
+  {
+   "id": "3f9879344656ca31",
+   "title": "Nvidia hires law firm Wachtell Lipton to lead Jensen Huang affair probe",
+   "url": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "027b31a2692a9579",
+   "title": "Nvidia board member Stephen Neal could play big role in probe of CEO Jensen Huang",
+   "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-investigation.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "b0d4fa1a9313b109",
+   "title": "AMD winds up Zen 6 cores for faster clock speeds",
+   "url": "https://www.theregister.com/systems/2026/11/10/amd-winds-up-zen-6-cores-for-faster-clock-speeds/5308603",
+   "source": "The Register"
+  },
+  {
+   "id": "992cb3de9dc1ffd6",
+   "title": "[AI는 지금] 앤트로픽 IPO에 웃돈까지…창업자 7명도 주식 판다",
+   "url": "https://zdnet.co.kr/view/?no=20261111091919",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "9133ca6e42b86071",
+   "title": "앤트로픽, 클로드용 '엑셀' 공개…IPO 앞두고 MS·구글과 경쟁 확대",
+   "url": "https://zdnet.co.kr/view/?no=20261111092545",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "0dd7749381016b40",
+   "title": "구글, '제미나이 4 카본' 정식 출시…'페이블 5.2'의 4분의 1 가격",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217249",
+   "source": "AI타임스"
+  },
+  {
+   "id": "434a6696b122a686",
+   "title": "앤트로픽, 기업가치 1.4조달러로 IPO 추진…644억달러 조달",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217248",
+   "source": "AI타임스"
+  }
+ ]
+}

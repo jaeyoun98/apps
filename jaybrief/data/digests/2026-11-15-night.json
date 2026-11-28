@@ -1,0 +1,178 @@
+{
+ "generated_at": "2026-11-15T11:19:16Z",
+ "date": "2026-11-15",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "NVIDIA의 경영 리스크가 심화되는 가운데, 삼성전자의 데이터센터 냉각 시장 진출 및 국내 반도체 수출 호조 등 산업 전반의 변화가 감지됨.",
+   "stories": [
+    {
+     "headline": "NVIDIA 젠슨 황 CEO 사임 및 스캔들 여파 지속",
+     "facts": [
+      "젠슨 황 CEO가 불륜 및 보안 관련 스캔들로 사임함.",
+      "NVIDIA 보안 책임자가 8월에 이미 퇴사한 사실이 확인됨.",
+      "중국 데이터센터 사업이 핵심 GPU 확보 불투명으로 차질 위기에 처함."
+     ],
+     "interpretation": "CEO 리스크와 보안 공백은 NVIDIA의 단기적인 지배구조 불확실성을 높이며, 특히 중국향 수출 규제와 맞물려 지정학적 리스크가 가중되고 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "NVIDIA 이사회의 차기 CEO 선임 계획 및 스캔들에 대한 공식 조사 결과 발표 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "5bfa6bec9d496798",
+      "abbd35b896371bd8",
+      "7c78d7829f08b3d2",
+      "44c7ee9619084ca0",
+      "7e3743c40149edb6",
+      "aa52efe259af83b9"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자, AI 데이터센터 냉각 시장 공략 가속화",
+     "facts": [
+      "삼성전자가 미국 냉난방공조(HVAC) 업체 모딘(Modine Manufacturing) 인수를 추진 중임.",
+      "데이터센터 냉각 시스템 시장을 겨냥한 전략적 행보로 해석됨."
+     ],
+     "interpretation": "AI 데이터센터 인프라 수요가 급증함에 따라, 기존 메모리 반도체를 넘어 전력 효율 및 냉각 솔루션으로 사업 영역을 확장하여 밸류체인 내 영향력을 강화하려는 의도임.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "모딘 인수 협상의 최종 타결 여부 및 데이터센터 관련 추가 M&A 행보.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "35512529f8bdeae0"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 기술의 오남용 사례가 사회적 문제로 부각되는 한편, 기업들의 AI 서비스 고도화 및 B2B 시장 진출이 활발함.",
+   "stories": [
+    {
+     "headline": "생성형 AI를 악용한 시험 부정행위 적발",
+     "facts": [
+      "세무사 시험 수석 합격자가 초소형 카메라와 생성 AI를 이용한 부정행위를 자백함.",
+      "공인회계사 시험에서도 동일한 수법을 사용했음을 인정함."
+     ],
+     "interpretation": "생성형 AI의 고도화가 공적 시험의 신뢰성을 위협하는 수준에 도달함에 따라, 향후 시험 보안 기술 강화 및 관련 규제 도입이 불가피할 전망임.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "정부의 AI 활용 시험 부정행위 방지 대책 발표 및 관련 법적 제재 수위.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "77e21ed6b9d44d78",
+      "d45836d9b665a186",
+      "b81d4b87a2420133"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "구글 제미나이, 금융 서비스 연동으로 개인화 강화",
+     "facts": [
+      "구글이 제미나이에 구글 월렛(Google Wallet)을 연동함.",
+      "사용자의 소비 패턴 분석 및 예산 관리, 저축 계획 제안 기능을 추가함."
+     ],
+     "interpretation": "AI 에이전트가 단순 정보 검색을 넘어 개인 금융 데이터에 직접 접근하여 자산 관리 서비스를 제공함으로써, 플랫폼의 사용자 락인(Lock-in) 효과가 강화될 것으로 보임.",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "금융 데이터 보안 및 개인정보 보호에 대한 시장의 반응과 규제 당국의 검토.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "dba4e06185947595"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "5bfa6bec9d496798",
+   "title": "Megaspeed says exec tied to ex-Nvidia CEO left in 2025 amid U.S. chip scrutiny",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPV2dIN29HbVJRZ2JyR3Iyazd5VE12bEhuMkxSRUdtR3MyMTgzSXFtemVGU1pBa1FUdGh0MTFuMXc2bmIxY3hndlA0NG1qb1gxZ3NuTUtzNmh4RjNObmlELW9NWjYtTEpfUWJwN1QxbWVxR2Z2WXktZV81clFaUGF0X20wWlpuTnN4U2FBOXY5cUNkLUM1cDFPbVVCdlhIa1Z3dkt6LU5qbXA3UjNTM0tsQTVDOXYzamdjc1E1NjBzVkMybXA3THphX1c0MGQ?oc=5",
+   "source": "Investing.com"
+  },
+  {
+   "id": "abbd35b896371bd8",
+   "title": "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business",
+   "url": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "35512529f8bdeae0",
+   "title": "[Weekly Issue] 삼성전자, 美 냉난방공조 시스템 업체 모딘 인수 추진…AI 데이터센터 시장 공략 강화",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=343338",
+   "source": "KIPOST"
+  },
+  {
+   "id": "7c78d7829f08b3d2",
+   "title": "The unfolding Jensen Huang scandal: a timeline",
+   "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "dba4e06185947595",
+   "title": "구글, 제미나이에 '월렛' 연결…개인 소비 분석부터 저축 계획까지",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217415",
+   "source": "AI타임스"
+  },
+  {
+   "id": "44c7ee9619084ca0",
+   "title": "중국, 젠슨 황 사임·미국 규제 강화에 4조원대 AI 데이터센터 사업 위기",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217419",
+   "source": "AI타임스"
+  },
+  {
+   "id": "7e3743c40149edb6",
+   "title": "젠슨 황, 자신이 키운 생성 AI에 풍자당해…딥페이크 밈 수백만 조회",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217422",
+   "source": "AI타임스"
+  },
+  {
+   "id": "aa52efe259af83b9",
+   "title": "젠슨 황 복귀 청원 12만명 돌파...일론 머스크·개리 탄도 동참",
+   "url": "https://zdnet.co.kr/view/?no=20261115113033",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "77e21ed6b9d44d78",
+   "title": "[기고] 채점이 편한 시험은 AI에도 편하다",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217423",
+   "source": "AI타임스"
+  },
+  {
+   "id": "d45836d9b665a186",
+   "title": "세무사 시험 수석 합격자 \"생성 AI로 부정행위\" 자백",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217426",
+   "source": "AI타임스"
+  },
+  {
+   "id": "b81d4b87a2420133",
+   "title": "\"초소형 카메라로 문제 찍어 AI에 전송…폰으로 답 확인 후 적었다\"",
+   "url": "https://www.hankyung.com/article/2026111575491",
+   "source": "한국경제 IT"
+  }
+ ]
+}

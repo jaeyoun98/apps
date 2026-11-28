@@ -1,0 +1,84 @@
+{
+ "generated_at": "2026-11-21T18:46:22Z",
+ "date": "2026-11-22",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "sw",
+   "overview": "최근 FBI 데이터베이스 해킹 사건이 발생하며 정부 기관의 보안 취약성에 대한 우려가 제기되었으며, AI 에이전트 시장은 다양한 서비스가 등장하며 경쟁이 심화되는 양상입니다.",
+   "stories": [
+    {
+     "headline": "FBI 데이터베이스 해킹 사건 발생 및 조사 착수",
+     "facts": [
+      "FBI가 국가범죄정보센터(NCIC) 데이터베이스에 대한 해킹 공격을 조사 중임",
+      "해당 데이터베이스는 연방 및 지역 법 집행 기관이 영장, 신원 조회 등을 위해 사용하는 시스템임",
+      "도널드 트럼프 대통령은 이번 해킹 사건에 대해 우려를 표명함"
+     ],
+     "interpretation": "정부 핵심 데이터베이스의 보안 침해는 공공 데이터의 신뢰성과 무결성에 대한 심각한 리스크를 시사함. 특히 법 집행 기관의 데이터가 노출될 경우 수사 기밀 유지 및 정보 정확성에 타격이 불가피하며, 향후 정부 차원의 보안 강화 요구가 거세질 것으로 예상됨.",
+     "affected_company_ids": [],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "해킹의 구체적인 범위와 데이터 유출 규모에 대한 공식 조사 결과 발표 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ab3da67718cd5e56",
+      "5121f296ee6397b9"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "AI 에이전트 시장, 텍스트 기반 서비스 중심으로 경쟁 가속화",
+     "facts": [
+      "Instinct 등 다수의 AI 에이전트가 별도 앱 설치 없이 SMS/메신저를 통해 사용 가능한 형태로 서비스 확장 중",
+      "가족, 업무, 여행 등 특정 목적에 특화된 AI 에이전트들이 잇따라 출시되고 있음",
+      "일부 에이전트는 사용자를 대신해 이메일 관리, 예약, 결제 등 실질적인 업무 수행 기능을 제공함"
+     ],
+     "interpretation": "AI 에이전트가 단순 챗봇을 넘어 사용자의 앱과 연동해 실제 업무를 처리하는 '에이전트형(Agentic)' 서비스로 진화하고 있음. 이는 플랫폼 기업들에게 새로운 사용자 접점을 제공하지만, 동시에 개인정보 보호 및 보안에 대한 우려를 증폭시키는 요인이 됨.",
+     "affected_company_ids": [
+      "microsoft",
+      "alphabet",
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "주요 빅테크 기업들의 AI 에이전트 보안 정책 및 사용자 데이터 보호 관련 대응.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "bf59bcf9dca1dae5"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "semi",
+   "overview": "현재 반도체 섹터와 관련하여 투자 결정에 직접적인 영향을 미칠 만한 신규 뉴스나 이벤트가 확인되지 않음.",
+   "stories": []
+  }
+ ],
+ "articles": [
+  {
+   "id": "ab3da67718cd5e56",
+   "title": "Trump says reported FBI database hack is ‘not good’",
+   "url": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "bf59bcf9dca1dae5",
+   "title": "Here are the top AI agents that can live in your text messages",
+   "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "5121f296ee6397b9",
+   "title": "Trump says there could be a 'positive spin' from the latest FBI database hack",
+   "url": "https://www.cnbc.com/2026/11/21/trump-fbi-database-hack.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

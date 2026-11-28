@@ -1,0 +1,179 @@
+{
+ "generated_at": "2026-11-25T21:10:55Z",
+ "date": "2026-11-26",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "NVIDIA를 중심으로 한 AI 반도체 섹터의 변동성 확대와 지정학적 리스크, 그리고 기업 지배구조 이슈가 시장의 주요 관심사로 부상했습니다.",
+   "stories": [
+    {
+     "headline": "NVIDIA, 대중국 AI 칩 원격 접근 규제 강화로 신규 수요처 확보 난항",
+     "facts": [
+      "미국 정부가 중국 관련 고객의 고급 AI 칩 원격 접근을 제한하는 새로운 규제를 시행함",
+      "NVIDIA GPU 판매업체들이 규제 준수를 위해 새로운 고객사를 찾아야 하는 상황에 직면함"
+     ],
+     "interpretation": "미국의 대중국 수출 통제가 물리적 반도체 이동을 넘어 클라우드 기반 원격 접근까지 확대되면서, NVIDIA의 중국 내 AI 인프라 매출 잠재력이 추가로 위축될 가능성이 높음",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "중국 내 AI 칩 우회 접근 차단에 따른 NVIDIA의 실제 매출 타격 규모 확인 필요",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "13c203ecde2eb3ea"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "Jensen Huang 복귀 이후 NVIDIA 지배구조 및 리스크 관리 우려 부각",
+     "facts": [
+      "Jensen Huang의 복귀와 관련하여 이사회의 결정 번복, 정치적 개입 가능성 등 의문 제기",
+      "일부 분석가들은 Jensen Huang에 대한 과도한 의존도가 기업 지배구조의 리스크로 작용할 수 있다고 지적",
+      "Jensen Huang이 NVIDIA 행동 강령을 위반했다는 보도가 나오며 내부 문화에 대한 우려 확산"
+     ],
+     "interpretation": "창업자 리스크가 기업 거버넌스 이슈로 전이되면서 투자 심리에 부정적 영향을 미치고 있으며, 이는 향후 경영 투명성 논란으로 이어질 수 있음",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "이사회 차원의 지배구조 개선 조치나 추가적인 내부 리스크 관련 보도 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "77f1e785d6782c73",
+      "cf4a75ca21e18cf4",
+      "6941ebb23435be47"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "AI 투자 회의론 및 거시경제 리스크로 인한 기술주 조정",
+     "facts": [
+      "NVIDIA를 포함한 AI 관련주들이 인플레이션 및 금리 상승 리스크로 인해 동반 하락",
+      "투자자들이 AI 관련 지출의 지속 가능성에 대해 의문을 제기하며 차익 실현 매물 출회"
+     ],
+     "interpretation": "AI 인프라 투자에 대한 시장의 기대치가 조정 국면에 진입했으며, 거시경제 환경이 개선되지 않을 경우 고평가된 AI 관련주들의 변동성이 지속될 전망",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "주요 빅테크 기업들의 차기 분기 AI 설비투자(CAPEX) 가이던스 변화",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4c10b353eeaa1464",
+      "7e0b9e12eaded20d"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "소프트웨어 및 플랫폼 기업들은 보안 강화와 서비스 통합을 통한 효율성 제고에 집중하고 있으나, 규제 및 기술적 결함 이슈가 병행되고 있습니다.",
+   "stories": [
+    {
+     "headline": "Microsoft, NTLM 보안 변경으로 인한 서드파티 로그인 오류 발생",
+     "facts": [
+      "Microsoft가 NTLM 보안 정책을 변경하면서 일부 서드파티 로그인 시스템에서 오류가 발생함",
+      "Microsoft는 구현 방식의 문제라며 사용자 측의 조치를 요구하는 입장"
+     ],
+     "interpretation": "보안 강화 정책이 기존 레거시 시스템과의 호환성 문제를 야기하며 기업 고객의 운영 효율성을 일시적으로 저해하고 있음",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "기업 고객들의 시스템 전환 속도 및 추가적인 호환성 장애 보고 여부",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "12ef753866cc13f9"
+     ],
+     "importance": 1
+    },
+    {
+     "headline": "Google 검색 대안 Kagi, Gmail 경쟁 서비스 출시",
+     "facts": [
+      "검색 엔진 Kagi가 프라이버시 보호와 AI 기능을 강조한 이메일 서비스 출시",
+      "기존 빅테크 중심의 메일 시장에 도전장을 내밀며 차별화 시도"
+     ],
+     "interpretation": "프라이버시와 AI를 결합한 틈새 시장 공략이 Alphabet의 광고 기반 모델에 장기적으로 위협이 될 수 있으나, 단기적인 시장 점유율 변화는 제한적일 것",
+     "affected_company_ids": [
+      "alphabet"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "Kagi의 사용자 확보 속도 및 Alphabet의 대응 전략",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "964797c01d04db02"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "4c10b353eeaa1464",
+   "title": "Tech stocks sink but close well off the lows, Anthropic struggles to rebound above IPO price",
+   "url": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "77f1e785d6782c73",
+   "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+   "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "cf4a75ca21e18cf4",
+   "title": "Six key questions raised by Jensen Huang's return to Nvidia",
+   "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-politics-market.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "6941ebb23435be47",
+   "title": "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts",
+   "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-governance.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "7e0b9e12eaded20d",
+   "title": "Nvidia leads tech sell-off as Huang comeback rally fizzles and AI concerns return",
+   "url": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "13c203ecde2eb3ea",
+   "title": "Nvidia sellers seek new buyers as U.S. curbs China AI chip access, sources tell CNBC",
+   "url": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "964797c01d04db02",
+   "title": "Google search alternative Kagi launches Gmail rival",
+   "url": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
+   "source": "Ars Technica"
+  },
+  {
+   "id": "12ef753866cc13f9",
+   "title": "Microsoft's NTLM security changes trip up third-party logins",
+   "url": "https://www.theregister.com/security/2026/11/25/microsofts-ntlm-security-changes-trip-up-third-party-logins/5312085",
+   "source": "The Register"
+  }
+ ]
+}

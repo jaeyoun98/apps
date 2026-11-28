@@ -1,0 +1,288 @@
+{
+ "generated_at": "2026-11-20T03:35:46Z",
+ "date": "2026-11-20",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "삼성전자의 경영진 개편과 미국 정부의 대중국 반도체 수출 통제 강화가 핵심 이슈입니다. 삼성전자는 메모리와 모바일 사업부의 수장을 교체하며 기술 경쟁력 회복을 꾀하고 있으며, 미국은 엔비디아 관련 이슈 및 중국의 AI 역량 견제를 위해 수출 허가 예외를 폐지하는 등 규제를 강화하고 있습니다.",
+   "stories": [
+    {
+     "headline": "삼성전자, 메모리·MX 사업부장 교체 등 2027년 정기 사장단 인사 단행",
+     "facts": [
+      "삼성전자가 2027년 정기 사장단 인사를 통해 황상준 사장(메모리사업부장)과 최원준 사장(MX사업부장)을 각각 선임함",
+      "전영현 부회장과 노태문 사장의 2인 대표이사 체제는 유지하되, 겸직하던 사업부장직을 분리하여 전문성을 강화함",
+      "이종명 부사장이 DS부문 CTO 겸 반도체연구소장 사장으로, 조상연 부사장이 시스템LSI사업부장 사장으로 승진함"
+     ],
+     "interpretation": "반도체 실적 부진과 모바일 수익성 악화라는 위기 상황에서 핵심 사업부의 세대교체를 통해 기술 개발 및 사업 대응력을 높이려는 의도입니다. 특히 메모리 개발 전문가와 시스템 반도체 전문가를 전면에 배치하여 HBM 등 차세대 기술 경쟁력을 회복하려는 전략으로 풀이됩니다.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "신임 사업부장 체제 하에서의 HBM 수율 개선 및 파운드리 사업 성과 확인이 필요합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "93282f31448fd108",
+      "24053aed09434778",
+      "7a9cfa46ff328851",
+      "be6e520d264e53a6",
+      "7cea8ffce587e045",
+      "ebffaf8b8e5fa216"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "미국, 대중국 반도체 수출 허가 예외 폐지…삼성·TSMC 일부 출하 중단",
+     "facts": [
+      "미국 정부가 중국에 공급되는 일부 첨단 반도체에 대한 수출 허가 예외 조항을 폐지함",
+      "삼성전자와 TSMC가 새로운 규정에 따라 중국 고객사에 대한 일부 칩 출하를 중단함",
+      "이번 조치로 중국 기업들의 자체 AI 반도체 개발 및 인프라 구축에 차질이 예상됨"
+     ],
+     "interpretation": "미국의 대중국 기술 봉쇄가 더욱 정교해지고 있습니다. 글로벌 파운드리 업체들은 미국 정부의 승인 절차를 거쳐야 하는 부담이 커졌으며, 이는 중국 내 AI 데이터센터 인프라 확장을 억제하는 동시에 공급망의 불확실성을 높이는 요인입니다.",
+     "affected_company_ids": [
+      "samsung-electronics",
+      "tsmc"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "미국 정부의 추가적인 수출 통제 규제 범위 확대 여부를 주시해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9c73f316d60b1eca"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아 CEO 젠슨 황 사임 여파 및 보안 위협 지속",
+     "facts": [
+      "젠슨 황 엔비디아 CEO의 사임 이후 리더십 공백에 대한 우려가 지속됨",
+      "랜섬웨어 그룹이 엔비디아를 대상으로 데이터 유출 협박을 가하며 해킹 위협이 제기됨",
+      "미국 의회는 엔비디아 관련 이슈를 계기로 대중국 수출 통제 강화를 추진 중"
+     ],
+     "interpretation": "CEO 리더십 변화와 보안 이슈가 겹치며 엔비디아의 단기적 불확실성이 커지고 있습니다. 이는 AI 인프라 시장 전반의 투자 심리에 부정적인 영향을 미치고 있으며, 공급망 파트너사들의 대응이 분주해지는 상황입니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "엔비디아의 차기 리더십 체제 안정화 여부와 보안 사고의 실제 피해 규모를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "7c78d7829f08b3d2",
+      "d2ab46c959376ee5",
+      "87bbd29478637696",
+      "53079db23de94212"
+     ],
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "앤트로픽의 나스닥 상장이 시장의 가장 큰 화두입니다. 역대 최대 규모의 IPO로 주목받았으나, AI 인프라 투자 비용과 수익성에 대한 우려로 기술주 전반의 변동성이 확대되고 있습니다. 한편, 카카오 김범수 창업자의 2심 무죄 판결은 국내 플랫폼 기업의 사법 리스크 해소 측면에서 중요한 변곡점이 될 전망입니다.",
+   "stories": [
+    {
+     "headline": "앤트로픽 나스닥 상장, 역대 최대 규모 IPO 기록하며 시장 주목",
+     "facts": [
+      "앤트로픽이 나스닥 상장 첫날 공모가 83달러 대비 17% 상승한 97.17달러에 마감함",
+      "상장 직후 기업가치가 2조달러를 돌파하며 스페이스X를 추월함",
+      "다리오 아모데이 CEO는 상장 후에도 AI 안전을 위해 개발 속도를 조절하겠다는 입장을 재확인함"
+     ],
+     "interpretation": "앤트로픽의 상장은 AI 산업의 자금 조달 능력을 증명했으나, 시장은 여전히 막대한 인프라 투자 비용 대비 수익성에 의구심을 가지고 있습니다. 이는 향후 AI 관련주들의 주가 변동성을 높이는 원인이 될 것입니다.",
+     "affected_company_ids": [
+      "alphabet",
+      "amazon"
+     ],
+     "event_type": "market",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "앤트로픽의 차기 분기 실적 발표에서 수익성 개선 지표를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8b36989c2b4eb51d",
+      "4daf62a3571669d9",
+      "8a13328031726017",
+      "5427cf1fdb8e6010",
+      "dd6f2d76b4c55c09",
+      "a1013946237c1841"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "카카오 김범수 창업자 2심 무죄 선고, 사법 리스크 해소 기대",
+     "facts": [
+      "서울고등법원이 SM엔터테인먼트 시세 조종 혐의로 기소된 김범수 카카오 창업자에게 1심과 동일한 무죄를 선고함",
+      "김 창업자는 판결 직후 AI 시대에 맞춘 과감한 변화와 혁신에 집중하겠다는 의지를 밝힘",
+      "카카오를 둘러싼 3년 8개월간의 사법 리스크가 해소될 가능성이 높아짐"
+     ],
+     "interpretation": "이번 판결로 카카오의 경영 불확실성이 크게 해소되었습니다. 향후 AI 서비스 혁신 및 신사업 추진에 경영진의 역량이 집중될 수 있는 환경이 조성되었으며, 이는 카카오의 중장기적인 기업 가치 회복에 긍정적인 신호입니다.",
+     "affected_company_ids": [],
+     "event_type": "other",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "카카오의 향후 AI 사업 전략 구체화 및 실적 개선 여부를 지켜봐야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d05a49ef5c22dc5c",
+      "695c5e1603cba9f3",
+      "2a93e432fe6f2b1c",
+      "809c3735a5161e49",
+      "637a84df4e8fc719",
+      "a4cd47293b7a1ebf"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "8b36989c2b4eb51d",
+   "title": "앤트로픽, 거래 첫날 장중 시총 2조달러 돌파",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65702",
+   "source": "디일렉"
+  },
+  {
+   "id": "93282f31448fd108",
+   "title": "메모리는 HBM 개발통, 갤럭시는 퀄컴 출신…삼성전자 투톱 겸직 해제",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65701",
+   "source": "디일렉"
+  },
+  {
+   "id": "24053aed09434778",
+   "title": "삼성전자, 사장 승진 3명, 위촉업무 변경 3명 등 총 6명 규모 '2027년 정기 사장단 인사'",
+   "url": "https://www.kipost.net/news/articleView.html?idxno=343534",
+   "source": "KIPOST"
+  },
+  {
+   "id": "7a9cfa46ff328851",
+   "title": "삼성전자, 부사장 3명 사장 승진…반도체 핵심 수장 교체",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217600",
+   "source": "AI타임스"
+  },
+  {
+   "id": "be6e520d264e53a6",
+   "title": "Samsung taps HBM executive to lead memory business",
+   "url": "https://www.digitimes.com/news/a20261120VL202/samsung-business-hbm-development-dram.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "87bbd29478637696",
+   "title": "Nvidia's leadership shake-up puts two key uncertainties in focus as Taiwanese suppliers brace for post-Huang era",
+   "url": "https://www.digitimes.com/news/a20261120PD224/jensen-huang-ceo-development-supply-chain-taiwan.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "7cea8ffce587e045",
+   "title": "[프로필] 이종명 삼성전자 DS부문 CTO 겸 반도체연구소장 사장",
+   "url": "https://zdnet.co.kr/view/?no=20261120105240",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "ebffaf8b8e5fa216",
+   "title": "위기 속 중책 맡은 최원준 신임 삼성 MX사업부장, 수익성 개선이 과제",
+   "url": "https://zdnet.co.kr/view/?no=20261120104740",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "53079db23de94212",
+   "title": "Analysis: After Jensen's exit, three turning points loom for AI data center boom",
+   "url": "https://www.digitimes.com/news/a20261120PD203/data-center-investment-jensen-huang-ceo-supply-chain.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "9c73f316d60b1eca",
+   "title": "미국, 중국 반도체 수출 허가 강화…삼성·TSMC 일부 출하 중단",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217595",
+   "source": "AI타임스"
+  },
+  {
+   "id": "7c78d7829f08b3d2",
+   "title": "The unfolding Jensen Huang scandal: a timeline",
+   "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "d2ab46c959376ee5",
+   "title": "Nvidia adds possible hack to list of very bad things under investigation",
+   "url": "https://www.theregister.com/security/2026/11/19/nvidia-adds-possible-hack-to-list-of-very-bad-things-under-investigation/5311153",
+   "source": "The Register"
+  },
+  {
+   "id": "4daf62a3571669d9",
+   "title": "앤트로픽 IPO로 직원 2800명 백만장자 대열…초기 투자자도 '잭팟'",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217610",
+   "source": "AI타임스"
+  },
+  {
+   "id": "d05a49ef5c22dc5c",
+   "title": "정신아 카카오 대표 “김범수 무죄 계기, 미래 성장·AI 혁신에 집중”",
+   "url": "https://www.etnews.com/20261120000162",
+   "source": "전자신문"
+  },
+  {
+   "id": "8a13328031726017",
+   "title": "순수 AI 회사의 첫 IPO, 앤트로픽 나스닥 상장",
+   "url": "https://byline.network/2026/11/20-672/",
+   "source": "바이라인네트워크"
+  },
+  {
+   "id": "695c5e1603cba9f3",
+   "title": "2심 무죄 받은 김범수 창업자...\"카카오 불확실성 해소한 중요한 전기\"",
+   "url": "https://zdnet.co.kr/view/?no=20261120111246",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "2a93e432fe6f2b1c",
+   "title": "카카오 김범수, 2심도 무죄…“AI·혁신 힘 보태겠다”",
+   "url": "https://www.etnews.com/20261120000134",
+   "source": "전자신문"
+  },
+  {
+   "id": "809c3735a5161e49",
+   "title": "'SM 시세조종' 카카오 김범수, 2심 무죄…AI 중심 재편 탄력 붙나",
+   "url": "https://www.hankyung.com/article/202611209540i",
+   "source": "한국경제 IT"
+  },
+  {
+   "id": "637a84df4e8fc719",
+   "title": "[속보] 'SM 시세조종' 김범수 카카오 창업자 2심 무죄",
+   "url": "https://www.hankyung.com/article/202611209532i",
+   "source": "한국경제 IT"
+  },
+  {
+   "id": "a4cd47293b7a1ebf",
+   "title": "[속보] 2심 재판부, 김범수 카카오 창업자에 '무죄'",
+   "url": "https://zdnet.co.kr/view/?no=20261120102703",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "5427cf1fdb8e6010",
+   "title": "앤트로픽, 나스닥 상장 첫날 기업가치 2조달러…스페이스X 추월",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217594",
+   "source": "AI타임스"
+  },
+  {
+   "id": "dd6f2d76b4c55c09",
+   "title": "앤트로픽, 상장 첫날 97.17달러로 마감…공모가 대비 17% 상승",
+   "url": "https://www.etnews.com/20261120000001",
+   "source": "전자신문"
+  },
+  {
+   "id": "a1013946237c1841",
+   "title": "앤트로픽, 프론티어 AI 개발사 첫 나스닥 입성…\"안전 최우선\"",
+   "url": "https://zdnet.co.kr/view/?no=20261120003022",
+   "source": "ZDNet Korea"
+  }
+ ]
+}

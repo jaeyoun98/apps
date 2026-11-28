@@ -1,0 +1,207 @@
+{
+ "generated_at": "2026-11-25T13:18:10Z",
+ "date": "2026-11-25",
+ "edition": "night",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "한국 반도체 기업들의 차세대 메모리 기술 개발 현황과 중국의 추격, 그리고 엔비디아 리더십 리스크 및 지정학적 규제 이슈가 복합적으로 작용하고 있습니다.",
+   "stories": [
+    {
+     "headline": "SK하이닉스·삼성전자, 차세대 메모리 기술 로드맵 발표 및 중국의 추격 가속화",
+     "facts": [
+      "SK하이닉스는 2031년 3D D램 상용화 및 4~5년 내 양산을 목표로 개발 중",
+      "삼성전자와 SK하이닉스는 내년 ISSCC에서 HBM4E 및 차세대 D램 연구 성과 발표 예정",
+      "중국 화웨이와 CXMT가 동일 학회에서 맞춤형 HBM 및 차세대 D램 논문을 발표하며 기술 추격 본격화"
+     ],
+     "interpretation": "중국 기업들이 범용 메모리를 넘어 첨단 패키징(하이브리드 본딩 등)을 활용한 맞춤형 HBM 시장 진입을 시도하고 있어, 한국 기업들의 기술 격차 유지가 핵심 과제로 부상했습니다.",
+     "affected_company_ids": [
+      "sk-hynix",
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "내년 2월 ISSCC에서 공개될 한·중 메모리 기술의 구체적인 성능 격차 확인이 필요합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "970edd7b214f50ad",
+      "6ca4745edaabf207",
+      "cfcd5d60c2054203",
+      "41448e44b5138da8"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아 젠슨 황 CEO 복귀 이후 이사회 독립성 및 정치적 리스크 지속",
+     "facts": [
+      "젠슨 황이 사임 11일 만에 이사회 만장일치로 CEO에 복귀",
+      "트럼프 행정부의 복귀 압박 사실이 알려지며 미국 내 정치적 영향력 논란 재점화",
+      "미 의회는 AI 칩 수출 통제 강화 법안을 추진 중"
+     ],
+     "interpretation": "CEO 복귀로 경영 불확실성은 일부 해소되었으나, 창업자 의존도가 높은 지배구조와 미·중 갈등 속 정치적 외압 리스크가 주가 변동성을 키우는 요인으로 작용하고 있습니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "policy",
+     "impact": "negative",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "미 의회의 대중국 AI 칩 수출 통제 법안의 구체적인 내용과 엔비디아의 대응을 주시해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "935bac92506a917a",
+      "194484ddafd21bc1",
+      "65b2ff81541733ea",
+      "e83c1df708b84e87",
+      "ff6a42d6d544905e"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자, CXL 3.2 기반 메모리 모듈 내년 하반기 양산 계획",
+     "facts": [
+      "삼성전자는 내년 초 CXL 3.2 기반 CMM-D 샘플을 고객사에 공급 예정",
+      "내년 하반기 양산을 목표로 고객 인증 절차 진행 중"
+     ],
+     "interpretation": "AI 데이터센터의 메모리 병목 현상을 해결하기 위한 차세대 인터페이스 기술인 CXL 시장에서 선제적인 양산 체제를 구축하여 경쟁 우위를 확보하려는 전략입니다.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "주요 데이터센터 고객사의 CXL 3.2 채택 속도와 인증 완료 시점을 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "77c48e71f623a7b8"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트의 성능 고도화와 보안 기술이 핵심이며, 기업들의 AI 도입이 인력 구조 변화와 데이터 관리 전략에 영향을 미치고 있습니다.",
+   "stories": [
+    {
+     "headline": "마이크로소프트, 자체 강화학습 인프라 '로켓' 공개",
+     "facts": [
+      "MS가 외부 모델 증류 없이 자체 모델 추론 능력을 높이는 강화학습 프레임워크 '로켓' 기술 보고서 공개",
+      "수천 개의 GPU를 활용한 안정적인 운영 인프라 구축"
+     ],
+     "interpretation": "외부 기술 의존도를 낮추고 자체적인 AI 모델 성능 고도화 역량을 강화하여 AI 인프라 경쟁력을 높이려는 시도로 판단됩니다.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "로켓 프레임워크를 적용한 실제 모델 성능 향상 폭과 서비스 적용 사례를 확인해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ddcb5812ef3cae18"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "오픈AI·시스코, AI 기반 리눅스 보안 기술 '시루도' 발표",
+     "facts": [
+      "오픈AI와 시스코가 협력하여 오픈소스 AI 사이버 방어 도구 '시루도' 공개",
+      "AI 에이전트가 취약점 방어 코드를 생성하고 검증하여 보안 패치 공백기 보호"
+     ],
+     "interpretation": "AI가 보안 위협의 주체인 동시에 방어의 핵심 수단으로 자리 잡고 있으며, 보안 패치 적용 전까지의 리스크를 최소화하는 기술적 진보로 평가됩니다.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "시루도의 실제 리눅스 생태계 내 도입률과 보안 사고 방지 실효성을 모니터링해야 합니다.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2ae4e7c021b21b2a"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "970edd7b214f50ad",
+   "title": "SK하이닉스 \"3D D램 첫 제품은 100층부터, 4~5년 내 양산 목표\"",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65900",
+   "source": "디일렉"
+  },
+  {
+   "id": "6ca4745edaabf207",
+   "title": "화웨이 HBM, CXMT는 수직 게이트 D램…ISSCC서 삼성·SK에 도전장",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65899",
+   "source": "디일렉"
+  },
+  {
+   "id": "77c48e71f623a7b8",
+   "title": "삼성전자, 내년 초 CXL 3.2 샘플 공급...하반기 양산",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65894",
+   "source": "디일렉"
+  },
+  {
+   "id": "ddcb5812ef3cae18",
+   "title": "MS, 자체 강화학습 인프라 '로켓' 공개…\"외부 모델 증류 없이 성능 향상\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217783",
+   "source": "AI타임스"
+  },
+  {
+   "id": "935bac92506a917a",
+   "title": "젠슨 황 복귀 후폭풍…엔비디아 이사회 독립성 논란",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217765",
+   "source": "AI타임스"
+  },
+  {
+   "id": "194484ddafd21bc1",
+   "title": "Trump’s meddling in Huang scandal reignites voter angst over tech’s outsized political power",
+   "url": "https://www.cnbc.com/2026/11/25/huang-reinstatement-reignites-voter-angst-over-techs-outsized-power.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "cfcd5d60c2054203",
+   "title": "화웨이, 하이브리드 본딩 '맞춤형 HBM' 개발…삼성·SK와 속도전",
+   "url": "https://zdnet.co.kr/view/?no=20261125203155",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "41448e44b5138da8",
+   "title": "Huawei, CXMT take aim at Korean rivals with new memory designs",
+   "url": "https://www.digitimes.com/news/a20261125VL226/huawei-cxmt-dram-hbm-design.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "ff6a42d6d544905e",
+   "title": "Jensen Huang's return to Nvidia steadies AI financing chain as chipmakers face new funding test",
+   "url": "https://www.digitimes.com/news/a20261125PD208/ai-chip-chipmakers-financing-funding-nvidia-jensen-huang.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "65b2ff81541733ea",
+   "title": "트럼프가 젠슨 황을 복귀시킨 이유…\"미국 오픈웨이트 AI 수호자\"",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217764",
+   "source": "AI타임스"
+  },
+  {
+   "id": "e83c1df708b84e87",
+   "title": "US Congress advances three AI chip export bills as CEO returns to Nvidia",
+   "url": "https://www.digitimes.com/news/a20261125PD211/ai-chip-nvidia-chips-equipment.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "2ae4e7c021b21b2a",
+   "title": "오픈AI·시스코, AI로 리눅스 공격 막는 보안 기술 '시루도' 공개",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217766",
+   "source": "AI타임스"
+  }
+ ]
+}

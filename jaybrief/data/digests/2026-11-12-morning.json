@@ -1,0 +1,108 @@
+{
+ "generated_at": "2026-11-11T19:18:48Z",
+ "date": "2026-11-12",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "반도체 산업 내 리더십 및 경영진의 행보와 관련된 리스크 요인이 제기되었습니다.",
+   "stories": [
+    {
+     "headline": "NVIDIA CEO 젠슨 황의 경영 행태에 대한 업계 내 비판 제기",
+     "facts": [
+      "투자 인텔리전스 컨설턴트가 업계 고위 관계자들이 젠슨 황의 행태를 묵인하고 있다고 언급함"
+     ],
+     "interpretation": "기업의 핵심 경영진에 대한 평판 리스크는 장기적인 거버넌스 우려로 이어질 수 있으나, 현재 실적과 시장 지배력에 미치는 즉각적인 영향은 제한적임.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "unclear",
+     "horizon": "long_term",
+     "confidence": "low",
+     "watch_next": "향후 NVIDIA의 기업 문화나 경영진 리스크가 실제 파트너십 및 투자자 신뢰에 미치는 구체적인 영향 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "8765f5ba15984ced"
+     ],
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "클라우드 인프라 전략 변화와 AI 컴퓨팅 수요의 지속 가능성이 주요 이슈로 부상했습니다.",
+   "stories": [
+    {
+     "headline": "Meta, 인프라 부문 수장 교체 및 전 AWS 임원 영입",
+     "facts": [
+      "Meta의 인프라 및 엔지니어링 공동 책임자 Santosh Janardhan이 2027년 퇴사 예정",
+      "전 AWS 수석 부사장 David Brown이 후임으로 임명됨"
+     ],
+     "interpretation": "클라우드 인프라 경쟁이 심화되는 가운데, AWS 출신 인사를 영입함으로써 Meta의 자체 데이터센터 및 AI 인프라 최적화 역량을 강화하려는 전략으로 풀이됨.",
+     "affected_company_ids": [
+      "meta",
+      "amazon"
+     ],
+     "event_type": "policy",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "David Brown 영입 이후 Meta의 클라우드 인프라 투자 효율성 및 AI 서비스 확장 속도 변화 확인.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ce10bfb83aba5a95"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "CoreWeave, AI 컴퓨팅 수요 강세 재확인하며 주가 급등",
+     "facts": [
+      "CoreWeave가 강력한 3분기 실적 발표 후 CEO가 AI 컴퓨팅 수요를 재확인함",
+      "해당 소식으로 CoreWeave 주가가 20% 이상 상승함"
+     ],
+     "interpretation": "AI 인프라를 제공하는 Neoclouds 기업들에 대한 시장의 우려가 존재했으나, 실적을 통해 견조한 수요가 증명되면서 AI 관련 인프라 투자의 지속 가능성에 대한 신뢰가 회복됨.",
+     "affected_company_ids": [],
+     "event_type": "earnings",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "Neoclouds 기업들의 향후 분기 실적 및 AI 컴퓨팅 가동률 추이.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "62676f790fbc7575",
+      "e58836e0466e4605"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "8765f5ba15984ced",
+   "title": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
+   "url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "ce10bfb83aba5a95",
+   "title": "Meta head of infrastructure will leave and be succeeded by former AWS cloud exec",
+   "url": "https://www.cnbc.com/2026/11/11/meta-infrastructure-departure-aws-cloud.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "62676f790fbc7575",
+   "title": "CoreWeave soars 26% as CEO reaffirms AI compute demand after strong Q3 report",
+   "url": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "e58836e0466e4605",
+   "title": "CoreWeave soars 23% as CEO reaffirms AI compute demand after strong Q3 report",
+   "url": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}

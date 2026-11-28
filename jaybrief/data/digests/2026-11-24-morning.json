@@ -1,0 +1,181 @@
+{
+ "generated_at": "2026-11-23T23:28:53Z",
+ "date": "2026-11-24",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "엔비디아 젠슨 황 CEO의 전격 복귀가 시장의 핵심 이슈로 부상하며 반도체 섹터 전반의 투자 심리를 크게 개선했습니다. 미국 정부의 개입과 국가안보 보증이 복귀의 결정적 요인으로 작용했으나, 미 의회의 초당적 비판과 향후 청문회 등 정치적 리스크는 여전히 상존합니다.",
+   "stories": [
+    {
+     "headline": "젠슨 황 엔비디아 CEO 복귀, 미국 정부 개입 확인",
+     "facts": [
+      "젠슨 황이 사임 11일 만에 엔비디아 CEO 및 이사회 이사로 만장일치 복귀",
+      "트럼프 대통령이 직접 엔비디아 이사회와 통화하여 복귀를 설득하고 국가안보 보증 제공",
+      "엔비디아 주가는 복귀 발표 후 31% 급등하며 시가총액 약 9500억달러 증가"
+     ],
+     "interpretation": "이사회 결정 번복은 기업 내부 논란보다 미국 정부의 AI 패권 유지 및 경제적 영향력 고려가 우선시되었음을 시사합니다. 단기적으로는 불확실성 해소로 주가가 급등했으나, 정치적 개입에 따른 의회와의 갈등은 장기적인 경영 리스크로 작용할 수 있습니다.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "12월 3일 예정된 미 상원 은행위원회 청문회에서 제기될 대중국 수출통제 및 스캔들 관련 질의 내용 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "d69e697757753f01",
+      "b42be4f1ed5b4333",
+      "16e5e36bca1f918c",
+      "2d727987092e7f61",
+      "e58ffac75babf408",
+      "6bc3868f63292f2f"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아 복귀 여파, 반도체 공급망 및 시장 반등",
+     "facts": [
+      "엔비디아 주가 폭등에 힘입어 SK하이닉스 ADR 등 AI 반도체 관련주 동반 반등",
+      "TSMC는 AI 수요 급증으로 인한 첨단 반도체 공급 부족 상황 지속 언급"
+     ],
+     "interpretation": "엔비디아의 리더십 복귀는 AI 하드웨어 생태계의 연속성을 보장하는 신호로 해석됩니다. TSMC의 공급 부족 언급은 AI 반도체 수요가 여전히 견조함을 보여주며, 이는 관련 공급망 기업들의 실적 기대감을 유지시키는 요인입니다.",
+     "affected_company_ids": [
+      "nvidia",
+      "tsmc",
+      "sk-hynix"
+     ],
+     "event_type": "market",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "medium",
+     "watch_next": "AI 반도체 공급 부족 현상이 주요 파운드리 및 메모리 기업의 분기 실적에 미치는 영향 추적.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6bc3868f63292f2f",
+      "b321a0c01c63b271"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 모델의 고도화와 함께 기업들의 AI 최적화 기술 확보 경쟁이 가속화되고 있습니다. 아마존의 AI 최적화 기술 인수와 오픈AI의 모델 업데이트 등 실질적인 성능 강화와 효율성 제고에 초점이 맞춰져 있습니다.",
+   "stories": [
+    {
+     "headline": "아마존, AI 가속기 최적화 기술 확보 및 인재 영입",
+     "facts": [
+      "아마존이 AI 스타트업 Decart의 AI 최적화 기술 및 연구팀을 75억달러 규모로 인수",
+      "해당 기술은 다양한 칩 간 AI 모델 동기화를 지원하여 자사 Trainium 칩 경쟁력 강화 목적"
+     ],
+     "interpretation": "자체 AI 칩(Trainium)의 생태계 확장을 위해 소프트웨어 최적화 역량을 내재화하려는 전략입니다. 이는 엔비디아 의존도를 낮추고 클라우드 인프라 효율성을 극대화하려는 아마존의 장기적 로드맵을 보여줍니다.",
+     "affected_company_ids": [
+      "amazon"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "아마존의 자체 칩 도입 확대가 클라우드 서비스 마진율 개선으로 이어지는지 확인 필요.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "ab9ef444fa798911",
+      "30e73e509908a95d",
+      "fe7d482b29c0e47a"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "오픈AI, GPT-6.2 모델 배포 확대 및 실사용 성능 강화",
+     "facts": [
+      "오픈AI가 GPT-6.2 모델을 챗GPT 일반 대화 서비스에 순차적으로 도입",
+      "이미지 이해, 복잡한 지시 수행, 웹 검색 등 실사용 성능 강화"
+     ],
+     "interpretation": "범용 AI 모델의 성능 고도화가 빠르게 진행되고 있습니다. 이는 기업용 AI 서비스의 생산성 향상으로 직결되며, AI 모델 간의 성능 격차가 서비스 점유율을 결정짓는 핵심 요소가 될 것입니다.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "GPT-6.2 도입 이후 사용자 체류 시간 및 기업 고객의 API 활용도 변화 추이.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "2447856a014e4b5c"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "d69e697757753f01",
+   "title": "젠슨 황, 사임 11일 만에 엔비디아 CEO 복귀…美 정치권 반발 확산",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=65796",
+   "source": "디일렉"
+  },
+  {
+   "id": "b42be4f1ed5b4333",
+   "title": "황 복귀에 엔비디아 직원들 환호…머스크·알트먼도 환영",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217711",
+   "source": "AI타임스"
+  },
+  {
+   "id": "16e5e36bca1f918c",
+   "title": "젠슨 황 복귀에 엔비디아 주가 31% 급등…AI 관련주 동반 반등",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217709",
+   "source": "AI타임스"
+  },
+  {
+   "id": "2d727987092e7f61",
+   "title": "젠슨 황 복귀 배경은…트럼프 개입·주가 폭락·후임자 난항",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217708",
+   "source": "AI타임스"
+  },
+  {
+   "id": "e58ffac75babf408",
+   "title": "젠슨 황, 사임 11일 만에 엔비디아 CEO 복귀…트럼프 직접 개입",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217707",
+   "source": "AI타임스"
+  },
+  {
+   "id": "6bc3868f63292f2f",
+   "title": "젠슨 황 복귀에 엔비디아 31% 폭등…美, '메가스피드 제재·상원 공개 청문' 압박은 계속",
+   "url": "https://www.etnews.com/20261124000017",
+   "source": "전자신문"
+  },
+  {
+   "id": "ab9ef444fa798911",
+   "title": "Amazon scoops up AI accelerator tech to keep chips busy at all times",
+   "url": "https://www.theregister.com/ai-and-ml/2026/11/23/amazon-scoops-up-ai-accelerator-tech-to-keep-chips-busy-at-all-times/5311754",
+   "source": "The Register"
+  },
+  {
+   "id": "b321a0c01c63b271",
+   "title": "TSMC says advanced semiconductor capacity remains in short supply amid booming AI demand",
+   "url": "https://www.digitimes.com/news/a20261123PD239/market-taiwan-demand-tsmc-capacity.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "2447856a014e4b5c",
+   "title": "오픈AI, GPT-6.2 일반 대화로 도입 확대…실사용 성능 강화",
+   "url": "https://www.etnews.com/20261124000020",
+   "source": "전자신문"
+  },
+  {
+   "id": "fe7d482b29c0e47a",
+   "title": "Amazon to acquire AI startup Decart's chip software, hire founders",
+   "url": "https://www.cnbc.com/2026/11/23/amazon-decarts-ai-acquisition.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "30e73e509908a95d",
+   "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+   "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+   "source": "TechCrunch"
+  }
+ ]
+}

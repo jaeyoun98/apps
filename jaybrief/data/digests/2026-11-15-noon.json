@@ -1,0 +1,177 @@
+{
+ "generated_at": "2026-11-15T02:00:14Z",
+ "date": "2026-11-15",
+ "edition": "noon",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "NVIDIA의 리더십 공백 사태가 지속되며 투자자 및 업계의 우려가 심화되고 있으며, 삼성전자는 EUV 마스크 블랭크 수급 차질 가능성이 제기되는 등 공급망 관리가 주요 이슈로 부상함.",
+   "stories": [
+    {
+     "headline": "NVIDIA 투자자 및 업계 거물들, 젠슨 황 CEO 복귀 촉구",
+     "facts": [
+      "NVIDIA 지분 20억 달러 이상 보유한 투자사 두 곳이 이사회에 젠슨 황의 복귀 검토를 공식 요구함",
+      "일론 머스크 등 기술 업계 거물들이 황의 퇴진이 미국 AI 산업에 타격을 줄 수 있다며 복귀 지지 서명 운동에 동참",
+      "NVIDIA 보안 책임자가 지난 8월 사임한 사실이 뒤늦게 알려지며 리더십 위기 가중"
+     ],
+     "interpretation": "경영진의 갑작스러운 퇴진과 보안 공백은 단기적으로 NVIDIA의 전략적 불확실성을 높이고 주가 변동성을 확대하는 요인임. 시장은 후임자 선임보다 검증된 리더인 젠슨 황의 복귀를 통해 사업 연속성을 확보하기를 원하고 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "NVIDIA 이사회의 차기 CEO 선임 관련 공식 입장 발표 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "f5658102172bcb34",
+      "cea464b9e1794a8d",
+      "8e471b2e77fedd7e",
+      "f69561d45f63f745",
+      "a84fa105f6ab215f",
+      "e0826710000e311d"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "삼성전자, 2027년 EUV 마스크 블랭크 수급 차질 우려",
+     "facts": [
+      "일본 Hoya가 삼성전자의 2027년 EUV 마스크 블랭크 추가 공급 요청을 충족하기 어렵다는 의사를 전달함"
+     ],
+     "interpretation": "EUV 마스크 블랭크는 첨단 파운드리 공정의 핵심 소재로, 공급 차질 발생 시 삼성전자의 차세대 반도체 양산 일정 및 수율 개선에 부정적 영향을 미칠 수 있음.",
+     "affected_company_ids": [
+      "samsung-electronics"
+     ],
+     "event_type": "supply_chain",
+     "impact": "negative",
+     "horizon": "long_term",
+     "confidence": "medium",
+     "watch_next": "삼성전자의 대체 공급사 확보 여부 및 EUV 공정 로드맵 수정 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "9d963ce4cf2af097"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "Microsoft의 서비스 장애 복구 완료와 더불어 AI 도입에 따른 비용 최적화 및 인재 양성 등 실질적인 비즈니스 효율화 전략이 기업들의 주요 과제로 떠오름.",
+   "stories": [
+    {
+     "headline": "Microsoft, 전 세계 클라우드 서비스 장애 복구 완료",
+     "facts": [
+      "Microsoft가 24시간 넘게 이어진 클라우드 서비스 장애를 완전히 복구함",
+      "장애 기간 동안 금융기관 등 주요 기업들이 팩스 등 구식 통신 수단을 동원하는 혼란 발생"
+     ],
+     "interpretation": "클라우드 서비스 의존도가 높은 상황에서 발생한 이번 장애는 기업들의 비즈니스 연속성 계획(BCP) 재점검을 촉구하는 계기가 됨. MS의 신뢰도 회복 여부가 향후 클라우드 시장 점유율에 영향을 줄 수 있음.",
+     "affected_company_ids": [
+      "microsoft"
+     ],
+     "event_type": "other",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "장애 원인에 대한 상세 보고서 공개 및 재발 방지 대책의 실효성.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "250bc9a4c8b6fd63",
+      "806a90958149ad0d"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "LG유플러스, AI 토큰 중계 사업 진출로 기업 AX 비용 절감 지원",
+     "facts": [
+      "LG유플러스가 2027년 기업 대상 AI 토큰 중계 사업에 진출함",
+      "모델 라우팅, 경량화, 칩 믹스 기술을 결합해 기업의 AI 전환(AX) 비용(TCO) 절감을 목표로 함"
+     ],
+     "interpretation": "기업들이 AI 도입 시 겪는 높은 인프라 비용 부담을 해결하려는 시도로, AI 모델의 효율적 운영이 기업용 AI 시장의 핵심 경쟁력이 될 것임을 시사함.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "실제 기업 고객들의 채택률 및 비용 절감 효과 검증.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "88e3177d325004a6",
+      "981d423cf4aa746f"
+     ],
+     "importance": 1
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "f5658102172bcb34",
+   "title": "Where was Nvidia’s security team?",
+   "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "cea464b9e1794a8d",
+   "title": "엔비디아 투자자들 \"젠슨 황 복귀 검토해야\"…머스크 등 거물 가세",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217413",
+   "source": "AI타임스"
+  },
+  {
+   "id": "8e471b2e77fedd7e",
+   "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+   "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "f69561d45f63f745",
+   "title": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
+   "url": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "9d963ce4cf2af097",
+   "title": "Hoya reportedly unable to meet Samsung's full 2027 EUV mask blank request",
+   "url": "https://www.digitimes.com/news/a20261112VL210/hoya-euv-photomask-samsung-2027.html",
+   "source": "DigiTimes Asia"
+  },
+  {
+   "id": "a84fa105f6ab215f",
+   "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+   "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "e0826710000e311d",
+   "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+   "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "88e3177d325004a6",
+   "title": "LGU+, 2027년 AI 비용 낮추는 토큰 사업 진출",
+   "url": "https://zdnet.co.kr/view/?no=20261113200433",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "981d423cf4aa746f",
+   "title": "LG유플러스, 내년 AI 토큰 사업 진출…“기업 AX 청구서 낮춘다”",
+   "url": "https://www.etnews.com/20261113000248",
+   "source": "전자신문"
+  },
+  {
+   "id": "250bc9a4c8b6fd63",
+   "title": "Microsoft services restored to all customers, company says it's 'deeply sorry'",
+   "url": "https://www.theregister.com/saas/2026/11/13/microsoft-services-restored-to-all-customers-company-says-its-deeply-sorry/5309609",
+   "source": "The Register"
+  },
+  {
+   "id": "806a90958149ad0d",
+   "title": "MS, 전 세계 서비스 장애 완전 복구…팩스 부활에 밈까지 등장",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217414",
+   "source": "AI타임스"
+  }
+ ]
+}

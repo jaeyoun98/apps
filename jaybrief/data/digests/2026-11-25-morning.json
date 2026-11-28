@@ -1,0 +1,234 @@
+{
+ "generated_at": "2026-11-24T21:58:43Z",
+ "date": "2026-11-25",
+ "edition": "morning",
+ "model": "gemini-3.1-flash-lite",
+ "themes": [
+  {
+   "theme": "semi",
+   "overview": "NVIDIA CEO 젠슨 황의 복귀와 관련된 경영 리스크 및 시장 불확실성이 지속되는 가운데, 반도체 섹터 전반의 투자 심리가 위축되고 있습니다.",
+   "stories": [
+    {
+     "headline": "젠슨 황 엔비디아 CEO 복귀 후 첫 직원회의서 사과 및 경영 정상화 강조",
+     "facts": [
+      "젠슨 황 CEO가 복귀 후 첫 전 직원회의에서 행동 강령 위반을 인정하고 사과함",
+      "심리 치료 및 경영 방식 개선 등 재발 방지 대책을 공개함",
+      "복귀가 이사회의 판단에 따른 것임을 강조하며 외부 압력설을 부인함"
+     ],
+     "interpretation": "CEO 리스크가 완전히 해소되지 않은 상황에서 경영진의 공식 사과와 재발 방지책은 내부 결속을 위한 조치로 해석되나, 여전히 진행 중인 내부 조사와 연방 정부의 조사가 주가 변동성을 높이는 요인으로 작용하고 있음.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "other",
+     "impact": "mixed",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "진행 중인 내부 조사 및 연방 정부의 추가 조사 결과 발표 여부.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "6828abbb6a47b392",
+      "3372eeaad4eb0c25",
+      "df44a563afe9226d",
+      "7dc0e3dfbef61551",
+      "78edc9190a9d502c",
+      "ec6a5045800e2e71"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "엔비디아 CEO 복귀에도 불구하고 주가 하락 및 AI 관련 금융 시장 불안 지속",
+     "facts": [
+      "젠슨 황 복귀 이후 엔비디아 주가가 5~7%대 하락세를 보임",
+      "AI 관련 기업들의 부채 시장에 대한 우려가 증폭됨"
+     ],
+     "interpretation": "CEO 복귀가 단기적인 안도 랠리를 이끌지 못하고 오히려 불확실성을 부각시키고 있으며, 이는 AI 산업 전반의 자금 조달 환경에 대한 투자자들의 경계심을 높이는 결과로 이어짐.",
+     "affected_company_ids": [
+      "nvidia"
+     ],
+     "event_type": "market",
+     "impact": "negative",
+     "horizon": "immediate",
+     "confidence": "high",
+     "watch_next": "엔비디아 주가의 기술적 지지선 확보 여부 및 AI 관련 기업들의 신용 스프레드 추이.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "df9aa5373f94cefe",
+      "025217010c033321",
+      "9f58a8dbdb6a9b3e"
+     ],
+     "importance": 3
+    },
+    {
+     "headline": "아마존, 엔비디아 의존도 낮추기 위해 Decart 인수",
+     "facts": [
+      "아마존이 AI 칩 효율성 개선을 위해 Decart를 약 75억 달러에 인수함",
+      "자체 Trainium 칩의 성능을 강화하여 엔비디아 의존도를 줄이려는 전략임"
+     ],
+     "interpretation": "빅테크 기업들이 AI 인프라의 핵심인 엔비디아 의존도를 낮추기 위해 소프트웨어 및 칩 설계 역량을 내재화하려는 움직임이 가속화되고 있음.",
+     "affected_company_ids": [
+      "nvidia",
+      "amazon"
+     ],
+     "event_type": "supply_chain",
+     "impact": "mixed",
+     "horizon": "long_term",
+     "confidence": "high",
+     "watch_next": "아마존의 자체 칩 성능 향상 속도 및 엔비디아 매출 비중 변화.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "41db9ac188fd46c6"
+     ],
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "theme": "sw",
+   "overview": "AI 에이전트의 실질적인 서비스 통합과 수익화 모델이 구체화되는 가운데, 보안 위협에 대한 대응이 주요 이슈로 부상하고 있습니다.",
+   "stories": [
+    {
+     "headline": "메타, 인스타그램 내 AI 에이전트 'Muse' 통합 및 광고 수익화 추진",
+     "facts": [
+      "메타가 AI 에이전트 'Muse'를 인스타그램 DM에 직접 통합함",
+      "Muse를 통해 광고 비즈니스 성장을 견인하고 있다고 밝힘"
+     ],
+     "interpretation": "AI 에이전트가 단순한 비서 기능을 넘어 플랫폼 내 사용자 체류 시간을 늘리고 광고 타겟팅 효율을 높이는 핵심 수익 모델로 진화하고 있음.",
+     "affected_company_ids": [
+      "meta"
+     ],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "AI 에이전트 통합 이후 인스타그램의 실제 광고 매출 증가율.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "4ed50bce951d384e",
+      "254afb73476d794f",
+      "3792bc6f19e1ed6f"
+     ],
+     "importance": 2
+    },
+    {
+     "headline": "앤트로픽, 개발 자동화 도구 'Claude Ship' 출시 및 보안 서비스 확대",
+     "facts": [
+      "앤트로픽이 코드 검토 및 승인을 자동화하는 'Claude Ship' 베타 출시",
+      "DXC 테크놀로지가 Claude Mythos 기반의 보안 서비스 출시"
+     ],
+     "interpretation": "AI 모델이 단순 생성형 기능을 넘어 기업의 핵심 업무 프로세스(코드 관리, 보안)에 직접 개입하는 에이전틱 AI로 빠르게 확장되고 있음.",
+     "affected_company_ids": [],
+     "event_type": "product",
+     "impact": "positive",
+     "horizon": "quarter",
+     "confidence": "high",
+     "watch_next": "기업들의 에이전틱 AI 도입에 따른 생산성 향상 지표.",
+     "upcoming_event_ids": [],
+     "article_ids": [
+      "c6d2b9767a4a32ef",
+      "09a91d0a824b1201",
+      "afda510b47531efd"
+     ],
+     "importance": 2
+    }
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "id": "6828abbb6a47b392",
+   "title": "젠슨 황, 복귀 후 첫 직원회의서 사과…복귀 정당성 강조",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217752",
+   "source": "AI타임스"
+  },
+  {
+   "id": "df9aa5373f94cefe",
+   "title": "AI debt markets shudder as Nvidia's top 'banker' returns",
+   "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-ai-credit-markets.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "3372eeaad4eb0c25",
+   "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+   "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "025217010c033321",
+   "title": "Nvidia shares fall more than 5% as Huang comeback rally cools",
+   "url": "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "df44a563afe9226d",
+   "title": "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
+   "url": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "41db9ac188fd46c6",
+   "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+   "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "7dc0e3dfbef61551",
+   "title": "Nvidia brought Jensen Huang back. But the investigations aren’t over",
+   "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-ceo-return.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "78edc9190a9d502c",
+   "title": "Huang reportedly admitted to more than two affairs to Nvidia’s board",
+   "url": "https://techcrunch.com/2026/11/24/huang-reportedly-admitted-to-more-than-two-affairs-to-nvidias-board/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "ec6a5045800e2e71",
+   "title": "[카드뉴스] 돌아온 젠슨 황, 엔비디아의 상황은 더 나아질까",
+   "url": "https://zdnet.co.kr/view/?no=20261124092913",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "4ed50bce951d384e",
+   "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+   "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "254afb73476d794f",
+   "title": "How Meta is using Instagram to get an ad boost from its Muse personal AI agent",
+   "url": "https://www.cnbc.com/2026/11/24/meta-instagram-muse-ad-revenue.html",
+   "source": "CNBC Technology"
+  },
+  {
+   "id": "c6d2b9767a4a32ef",
+   "title": "앤트로픽, ‘클로드 십’ 출시…코드 검토부터 수정·승인까지 자동화",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217729",
+   "source": "AI타임스"
+  },
+  {
+   "id": "3792bc6f19e1ed6f",
+   "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+   "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+   "source": "TechCrunch"
+  },
+  {
+   "id": "afda510b47531efd",
+   "title": "Claude Ship puts AI at the helm of pull request approvals",
+   "url": "https://www.theregister.com/ai-and-ml/2026/11/24/claude-ship-puts-ai-at-the-helm-of-pull-request-approvals/5311883",
+   "source": "The Register"
+  },
+  {
+   "id": "09a91d0a824b1201",
+   "title": "DXC, Claude Mythos 기반 관리형 코드 보안 서비스 Frontier Code Assurance 출시",
+   "url": "https://zdnet.co.kr/view/?no=20261124211002",
+   "source": "ZDNet Korea"
+  },
+  {
+   "id": "9f58a8dbdb6a9b3e",
+   "title": "Futures turn red as Huang-effect fails to deliver another day of gains",
+   "url": "https://www.cnbc.com/2026/11/24/futures-turn-red-as-huang-effect-fails-to-deliver-another-day-of-gains.html",
+   "source": "CNBC Technology"
+  }
+ ]
+}
